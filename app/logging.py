@@ -1,8 +1,6 @@
 import streamlit as st
 import os
 
-st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="collapsed", menu_items=None)
-
 
 def logging(secret1, secret2) :
     if "wait" not in st.session_state :
