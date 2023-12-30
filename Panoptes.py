@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(layout = 'wide')
-st.secrets["secret2"]
+
 from app.logging import logging
 logging(st.secrets["secret1"], st.secrets["secret1"])
 
