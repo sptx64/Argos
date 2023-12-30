@@ -7,6 +7,9 @@ import os
 from app import HistoricalData, Cryptocurrencies, LiveCryptoData
 from app.shared import get_tickers_path, get_dataset_path
 
+from app.logging import logging
+logging(st.secret["secret1"], st.secret["secret1"])
+
 
 '# 🆙Hermes'
 st.caption("_Dans la religion grecque antique, Hermès (Ἑρμῆς / Hermễs en grec, Ἑρμᾶς / Hermãs en dorien) est une des divinités de l'Olympe. Il est le messager des dieux, principalement de Zeus, au même titre qu'Iris, et leur intermédiaire auprès des hommes._")
