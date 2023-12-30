@@ -8,7 +8,7 @@ import app.ta as ta #import df_check
 st.set_page_config(layout = 'wide')
 
 from app.logging import logging
-logging(st.secrets["secret1"], st.secrets["secret1"])
+logging(st.secrets["secret1"], st.secrets["secret2"])
 
 st.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 
