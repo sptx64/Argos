@@ -10,7 +10,7 @@ from app.ta import ao, bob_ao, get_squeeze, get_kc
 st.set_page_config(layout = 'wide')
 
 from app.logging import logging
-logging(st.secret["secret1"], st.secret["secret1"])
+logging(st.secrets["secret1"], st.secrets["secret1"])
 
 
 import ta
