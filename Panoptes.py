@@ -1,6 +1,11 @@
 import streamlit as st
 
 st.set_page_config(layout = 'wide')
+
+from app.logging import logging
+logging(st.secret["secret1"], st.secret["secret1"])
+
+
 "# Panoptès"
 '### 📊 A technical analysis dashboard'
 st.image("img/panoptes.jpg")
