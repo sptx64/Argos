@@ -136,7 +136,7 @@ if update :
         if boc == "binance" :
             import json
             my_bar = st.progress(0., "Binance updating datas")
-            tickers_data=requests.request("GET", "https://api.binance.com/api/v3/exchangeInfo")
+            tickers_data=requests.request("GET", "https://api.binance.us/api/v3/exchangeInfo")
             tickers_data=json.loads(tickers_data.content)
             tickers_data = tickers_data["symbols"]
             tickers = [x["symbol"] for x in tickers_data]
