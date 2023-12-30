@@ -3,9 +3,12 @@ import pandas as pd
 import numpy as np
 import os
 from app.shared import get_dataset_path, get_tickers_path, get_sqlite_word
-import app.ta as ta#import df_check
+import app.ta as ta #import df_check
 
 st.set_page_config(layout = 'wide')
+
+from app.logging import logging
+logging(st.secret["secret1"], st.secret["secret1"])
 
 st.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 
