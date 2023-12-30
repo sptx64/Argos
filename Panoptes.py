@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(layout = 'wide')
 
 from app.logging import logging
-logging(st.secrets["secret1"], st.secrets["secret1"])
+logging(st.secrets["secret1"], st.secrets["secret2"])
 
 
 "# Panoptès"
