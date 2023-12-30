@@ -8,7 +8,7 @@ from app import HistoricalData, Cryptocurrencies, LiveCryptoData
 from app.shared import get_tickers_path, get_dataset_path
 
 from app.logging import logging
-logging(st.secrets["secret1"], st.secrets["secret1"])
+logging(st.secrets["secret1"], st.secrets["secret2"])
 
 
 '# 🆙Hermes'
