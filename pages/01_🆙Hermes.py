@@ -12,7 +12,10 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 
 
 '# 🆙Hermes'
-st.caption("_Dans la religion grecque antique, Hermès (Ἑρμῆς / Hermễs en grec, Ἑρμᾶς / Hermãs en dorien) est une des divinités de l'Olympe. Il est le messager des dieux, principalement de Zeus, au même titre qu'Iris, et leur intermédiaire auprès des hommes._")
+st.caption("""_Hermes (/ˈhɜːrmiːz/; Greek: Ἑρμῆς) is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods.
+He is also considered the protector of human heralds, travelers, thieves, merchants, and orators. He is able to move quickly and freely between the worlds of the mortal and the divine aided by his winged sandals. Hermes plays the role of the psychopomp or "soul guide"—a conductor of souls into the afterlife.
+In myth, Hermes functions as the emissary and messenger of the gods, and is often presented as the son of Zeus and Maia, the Pleiad. He is regarded as "the divine trickster", about which the Homeric Hymn to Hermes offers the most well-known account._
+""")
 
 import requests
 import ast
