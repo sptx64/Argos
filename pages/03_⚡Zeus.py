@@ -17,7 +17,7 @@ import ta
 import numpy as np
 st.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 "# :zap: Zeus"
-st.caption("_Zeus (en grec ancien Ζεύς / Zeús) est le dieu suprême dans la religion grecque antique. Cronide, fils du titan Cronos et de la titanide Rhéa, marié à sa sœur Héra1, il a engendré, avec cette déesse et avec d'autres, plusieurs dieux et déesses, et, avec des mortelles, de nombreux héros, comme le conte la théogonie d'Hésiode (viiie siècle av. J.-C.)2._")
+st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. His name is cognate with the first syllable of his Roman equivalent Jupiter._")
 ""
 ""
 
