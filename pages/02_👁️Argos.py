@@ -13,7 +13,7 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 st.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 
 '# :eye: Argos'
-st.caption("_Argos avait reçu l'épithète de « Panoptès » (Πανόπτης / Panóptês, « celui qui voit tout ») car il avait cent yeux, répartis sur toute la tête, ou même sur tout le corps selon certains auteurs[Qui ?]. En permanence, cinquante yeux dorment et les cinquante autres veillent : il est ainsi impossible de tromper sa vigilance._")
+st.caption("""_Argus Panoptes (Ἄργος Πανόπτης) was the guardian of the heifer-nymph Io and the son of Arestor. According to Asclepiades, Argus Panoptes was a son of Inachus, and according to Cercops he was a son of Argus and Ismene, daughter of Asopus. Acusilaus says that he was earth-born (authochthon), born from Gaia. Probably Mycene (in another version the son of Gaia) was a primordial giant whose epithet Panoptes, "all-seeing", led to his being described with multiple, often one hundred eyes._""")
 
 col1, col2, col3 = st.columns(3)
 market = col1.radio('Market', ['sp500', 'crypto'], horizontal=True)
