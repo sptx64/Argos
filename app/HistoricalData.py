@@ -10,21 +10,21 @@ from datetime import datetime, timedelta
 
 
 class HistoricalData(object):
-    """
-    This class provides methods for gathering historical price data of a specified
-    Cryptocurrency between user specified time periods. The class utilises the CoinBase Pro
-    API to extract historical data, providing a performant method of data extraction.
+    # """
+    # This class provides methods for gathering historical price data of a specified
+    # Cryptocurrency between user specified time periods. The class utilises the CoinBase Pro
+    # API to extract historical data, providing a performant method of data extraction.
     
-    Please Note that Historical Rate Data may be incomplete as data is not published when no 
-    ticks are available (Coinbase Pro API Documentation).
+    # Please Note that Historical Rate Data may be incomplete as data is not published when no 
+    # ticks are available (Coinbase Pro API Documentation).
 
-    :param: ticker: a singular Cryptocurrency ticker. (str)
-    :param: granularity: the price data frequency in seconds, one of: 60, 300, 900, 3600, 21600, 86400. (int)
-    :param: start_date: a date string in the format YYYY-MM-DD-HH-MM. (str)
-    :param: end_date: a date string in the format YYYY-MM-DD-HH-MM,  Default=Now. (str)
-    :param: verbose: printing during extraction, Default=True. (bool)
-    :returns: data: a Pandas DataFrame which contains requested cryptocurrency data. (pd.DataFrame)
-    """
+    # :param: ticker: a singular Cryptocurrency ticker. (str)
+    # :param: granularity: the price data frequency in seconds, one of: 60, 300, 900, 3600, 21600, 86400. (int)
+    # :param: start_date: a date string in the format YYYY-MM-DD-HH-MM. (str)
+    # :param: end_date: a date string in the format YYYY-MM-DD-HH-MM,  Default=Now. (str)
+    # :param: verbose: printing during extraction, Default=True. (bool)
+    # :returns: data: a Pandas DataFrame which contains requested cryptocurrency data. (pd.DataFrame)
+    # """
     def __init__(self,
                  ticker,
                  granularity,
@@ -32,8 +32,7 @@ class HistoricalData(object):
                  end_date=None,
                  verbose=True):
 
-        if verbose:
-            print("Checking input parameters are in the correct format.")
+        
         if not all(isinstance(v, str) for v in [ticker, start_date]):
             raise TypeError("The 'ticker' and 'start_date' arguments must be strings or None types.")
         if not isinstance(end_date, (str, type(None))):
@@ -62,39 +61,26 @@ class HistoricalData(object):
         self.verbose = verbose
 
     def _ticker_checker(self):
-        """This helper function checks if the ticker is available on the CoinBase Pro API."""
-        if self.verbose:
-            print("Checking if user supplied is available on the CoinBase Pro API.")
-
+        #"""This helper function checks if the ticker is available on the CoinBase Pro API."""
+        
         tkr_response = requests.get("https://api.pro.coinbase.com/products")
         if tkr_response.status_code in [200, 201, 202, 203, 204]:
-            if self.verbose:
-                print('Connected to the CoinBase Pro API.')
             response_data = pd.json_normalize(json.loads(tkr_response.text))
             ticker_list = response_data["id"].tolist()
 
         elif tkr_response.status_code in [400, 401, 404]:
-            if self.verbose:
-                print("Status Code: {}, malformed request to the CoinBase Pro API.".format(tkr_response.status_code))
             sys.exit()
         elif tkr_response.status_code in [403, 500, 501]:
-            if self.verbose:
-                print("Status Code: {}, could not connect to the CoinBase Pro API.".format(tkr_response.status_code))
             sys.exit()
         else:
-            if self.verbose:
-                print("Status Code: {}, error in connecting to the CoinBase Pro API.".format(tkr_response.status_code))
             sys.exit()
 
-        if self.ticker in ticker_list:
-            if self.verbose:
-                print("Ticker '{}' found at the CoinBase Pro API, continuing to extraction.".format(self.ticker))
-        else:
+        if not self.ticker in ticker_list:
             raise ValueError("""Ticker: '{}' not available through CoinBase Pro API. Please use the Cryptocurrencies 
             class to identify the correct ticker.""".format(self.ticker))
 
     def _date_cleaner(self, date_time: (datetime, str)):
-        """This helper function presents the input as a datetime in the API required format."""
+        #"""This helper function presents the input as a datetime in the API required format."""
         if not isinstance(date_time, (datetime, str)):
             raise TypeError("The 'date_time' argument must be a datetime type.")
         if isinstance(date_time, str):
@@ -105,10 +91,8 @@ class HistoricalData(object):
         return output_date
 
     def retrieve_data(self):
-        """This function returns the data."""
-        if self.verbose:
-            print("Formatting Dates.")
-
+        #"""This function returns the data."""
+        
         self._ticker_checker()
         self.start_date_string = self._date_cleaner(self.start_date)
         self.end_date_string = self._date_cleaner(self.end_date)
@@ -124,8 +108,6 @@ class HistoricalData(object):
                     self.end_date_string,
                     self.granularity))
             if response.status_code in [200, 201, 202, 203, 204]:
-                if self.verbose:
-                    print('Retrieved Data from Coinbase Pro API.')
                 data = pd.DataFrame(json.loads(response.text))
                 data.columns = ["time", "low", "high", "open", "close", "volume"]
                 data["time"] = pd.to_datetime(data["time"], unit='s')
@@ -133,20 +115,12 @@ class HistoricalData(object):
                 data.set_index("time", drop=True, inplace=True)
                 data.sort_index(ascending=True, inplace=True)
                 data.drop_duplicates(subset=None, keep='first', inplace=True)
-                if self.verbose:
-                    print('Returning data.')
                 return data
             elif response.status_code in [400, 401, 404]:
-                if self.verbose:
-                    print("Status Code: {}, malformed request to the CoinBase Pro API.".format(response.status_code))
                 sys.exit()
             elif response.status_code in [403, 500, 501]:
-                if self.verbose:
-                    print("Status Code: {}, could not connect to the CoinBase Pro API.".format(response.status_code))
                 sys.exit()
             else:
-                if self.verbose:
-                    print("Status Code: {}, error in connecting to the CoinBase Pro API.".format(response.status_code))
                 sys.exit()
         else:
             # The api limit:
@@ -157,9 +131,6 @@ class HistoricalData(object):
                 provisional_start = self._date_cleaner(provisional_start)
                 provisional_end = start + timedelta(0, (i + 1) * (self.granularity * max_per_mssg))
                 provisional_end = self._date_cleaner(provisional_end)
-
-                print("Provisional Start: {}".format(provisional_start))
-                print("Provisional End: {}".format(provisional_end))
                 response = requests.get(
                     "https://api.pro.coinbase.com/products/{0}/candles?start={1}&end={2}&granularity={3}".format(
                         self.ticker,
@@ -168,34 +139,18 @@ class HistoricalData(object):
                         self.granularity))
 
                 if response.status_code in [200, 201, 202, 203, 204]:
-                    if self.verbose:
-                        print('Data for chunk {} of {} extracted'.format(i+1,
-                                                                         (int(request_volume / max_per_mssg) + 1)))
                     dataset = pd.DataFrame(json.loads(response.text))
                     if not dataset.empty:
                         data = pd.concat([dataset, data])
                         #data = data.append(dataset)
                         time.sleep(randint(0, 2))
                     else:
-                        print("""CoinBase Pro API did not have available data for '{}' beginning at {}.  
-                        Trying a later date:'{}'""".format(self.ticker,
-                                                           self.start_date,
-                                                           provisional_start))
                         time.sleep(randint(0, 2))
                 elif response.status_code in [400, 401, 404]:
-                    if self.verbose:
-                        print(
-                            "Status Code: {}, malformed request to the CoinBase Pro API.".format(response.status_code))
                     sys.exit()
                 elif response.status_code in [403, 500, 501]:
-                    if self.verbose:
-                        print(
-                            "Status Code: {}, could not connect to the CoinBase Pro API.".format(response.status_code))
                     sys.exit()
                 else:
-                    if self.verbose:
-                        print("Status Code: {}, error in connecting to the CoinBase Pro API.".format(
-                            response.status_code))
                     sys.exit()
             data.columns = ["time", "low", "high", "open", "close", "volume"]
             data["time"] = pd.to_datetime(data["time"], unit='s')
