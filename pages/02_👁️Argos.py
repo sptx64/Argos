@@ -43,7 +43,8 @@ um_ham_mean_kind = col3.radio('bear or bull?', ['bearish', 'bullish'], horizonta
 touching_ma20, divergence = col4.checkbox('touching SMA20'), col5.checkbox('divergences')
 compression = col5.checkbox('Compression')
 vlum = col1.checkbox("High volume")
-
+if vlum :
+    perc=col1.slider("Above percentile", 0., 1., .85)
 ''
 go = st.button("Let's go!")
 '---'
@@ -137,7 +138,7 @@ if go :
             if vlum :
                 count+=1
                 data.Volume=data.Volume.astype(float)
-                if (data['Volume'].quantile(q=0.8) < data['Volume'].iloc[-1])|(data['Volume'].quantile(q=0.8) < data['Volume'].iloc[-2]) :
+                if (data['Volume'].quantile(q=perc) < data['Volume'].iloc[-1])|(data['Volume'].quantile(q=perc) < data['Volume'].iloc[-2]) :
                     df_check.loc[df_check['ta_ref'] == 'volume', 'result'] = 'high 🔥'
 
 
