@@ -22,11 +22,11 @@ st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder 
 ""
 
 col1, col2, col3 = st.columns(3)
-market = col1.radio('Market', ['sp500', 'crypto'])
+market = col1.radio('Market', ['sp500', 'crypto'], index=1)
 
 broker="binance"
 if market == "crypto" :
-    broker = col2.radio("broker", ["binance","coinbase"])
+    broker = col2.radio("broker", ["binance","coinbase"], index=1)
 
 path = f'dataset/{market}_{broker}/' if market == "crypto" else f'dataset/{market}/'
 
