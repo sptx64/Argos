@@ -403,6 +403,7 @@ data["gain"]=(data["Close"]-data["Open"])/data["Open"]
 data=data.dropna(subset=["Close"])
 data["ma50"]=100*(data["Close"]-data["Close"].rolling(50).mean().rolling(50).mean())/data["Close"]
 data=data[["Date", "gain", "rsi", "ma50"]]
+data["Date"]=data["Date"].astype(str)
 
 list_prev_dates=[]
 for i in range(5):
