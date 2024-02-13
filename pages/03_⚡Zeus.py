@@ -422,5 +422,6 @@ fig.add_trace(go.Scatter3d(x=data["ma50"], y=data["rsi"], z=data["gain"], mode="
 
 for i in range(len(prev_data)):
     fig.add_trace(go.Scatter3d(x=prev_data[i]["ma50"], y=prev_data[i]["rsi"], z=prev_data[i]["gain"], marker_color=cl_list[i], name=list_prev_dates[i]))
+fig.update_layout(height=800)
 
 st.plotly_chart(fig,use_container_width=True)
