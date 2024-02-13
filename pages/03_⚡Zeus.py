@@ -398,3 +398,6 @@ st.plotly_chart(fig, use_container_width=True)
 #         fig.add_trace(go.Scatter(x=x, y=y, mode='lines', line_color='crimson', line_width=1, showlegend = False), row=2, col=1)
 #
 # st.plotly_chart(fig, use_container_width=True)
+
+data
+
