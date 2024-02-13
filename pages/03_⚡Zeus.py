@@ -419,7 +419,7 @@ cl_list=["red", "orange", "yellow", "green", "cyan"]
 fig=go.Figure()
 fig.add_trace(go.Scatter3d(x=data["ma50"], y=data["rsi"], z=data["gain"], mode="lines", line_color="brown", name="trackline",
                            hovertemplate='<b>%{text}</b>',
-                           text=data["Date"].values))
+                           text=data["Date"].astype(str).values))
 
 for i in range(len(prev_data)):
     fig.add_trace(go.Scatter3d(x=prev_data[i]["ma50"], y=prev_data[i]["rsi"], z=prev_data[i]["gain"], marker_color=cl_list[i], name=list_prev_dates[i]))
