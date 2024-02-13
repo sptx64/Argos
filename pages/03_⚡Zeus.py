@@ -409,7 +409,7 @@ list_prev_dates=[]
 for i in range(5):
     list_prev_dates.append(str(data["Date"].values[-(i+1)]))
 
-data
+
 
 prev_data=[]
 for date in list_prev_dates :
@@ -422,11 +422,9 @@ fig.add_trace(go.Scatter3d(x=data["ma50"], y=data["rsi"], z=data["gain"], mode="
                            hovertemplate='<b>%{text}</b>',
                            text=data["Date"].astype(str).values))
 
-try :
-    for i in range(len(prev_data)):
-        fig.add_trace(go.Scatter3d(x=prev_data[i]["ma50"], y=prev_data[i]["rsi"], z=prev_data[i]["gain"], marker_color=cl_list[i], name=list_prev_dates[i]))
-except :
-    pass
+for i in range(len(prev_data)):
+    fig.add_trace(go.Scatter3d(x=prev_data[i]["ma50"], y=prev_data[i]["rsi"], z=prev_data[i]["gain"], marker_color=cl_list[i], name=list_prev_dates[i]))
+
 
 fig.update_layout(height=800)
 
