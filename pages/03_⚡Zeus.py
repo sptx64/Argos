@@ -406,7 +406,7 @@ data=data[["Date", "gain", "rsi", "ma50"]]
 
 list_prev_dates=[]
 for i in range(5):
-    list_prev_dates.append(data["Date"].values[-(i+1)])
+    list_prev_dates.append(str(data["Date"].values[-(i+1)]))
 
 data
 
