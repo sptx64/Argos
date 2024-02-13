@@ -399,5 +399,28 @@ st.plotly_chart(fig, use_container_width=True)
 #
 # st.plotly_chart(fig, use_container_width=True)
 
+data["gain"]=(data["Close"]-data["Open"])/data["Open"]
+data["ma50"]=100*(data["Close"]-data["Close"].rolling(50).mean().rolling(50).mean())/data["Close"]
+data=data[["Date", "gain", "rsi", "ma50"]]
+
+list_prev_dates=[]
+for i in range(5):
+    list_prev_dates.append(data["Date"].values[-(i+1)])
+
 data
 
+prev_data=[]
+for date in list_prev_dates :
+    prev_data.append(data[data["Date"]==date])
+
+cl_list=["red", "orange", "yellow", "green", "cyan"]
+
+fig=go.Figure()
+fig.add_trace(go.Scatter3d(x=data["ma50"], y=data["rsi"], z=data["gain"], mode="lines", line_color="brown", name="trackline",
+                           hovertemplate='<b>%{text}</b>',
+                           text=data["Date"].values))
+
+for i in range(len(prev_data)):
+    fig.add_trace(go.Scatter3d(x=prev_data[i]["ma50"], y=prev_data[i]["rsi"], z=prev_data[i]["gain"], marker_color=cl_list[i], name=list_prev_dates[i]))
+
+st.plotly_chart(fig,use_container_width=True)
