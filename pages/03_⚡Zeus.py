@@ -400,6 +400,7 @@ st.plotly_chart(fig, use_container_width=True)
 # st.plotly_chart(fig, use_container_width=True)
 
 data["gain"]=(data["Close"]-data["Open"])/data["Open"]
+data=data.dropna(subset=["Close"])
 data["ma50"]=100*(data["Close"]-data["Close"].rolling(50).mean().rolling(50).mean())/data["Close"]
 data=data[["Date", "gain", "rsi", "ma50"]]
 
