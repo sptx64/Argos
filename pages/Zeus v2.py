@@ -63,9 +63,20 @@ if market == 'crypto' :
 
 
 with st.expander("Plot options") :
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1,col2,col3,col4 = st.columns(4)
     MAs=col1.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
     show_ema = col1.toggle("Show EMA")
+    c1,c2,c3 = col1.columns(3)
+    ma6_color=c1.color_picker("6MA")
+    ma14_color=c2.color_picker("14MA")
+    ma20_color=c3.color_picker("20MA")
+    ma50_color=c1.color_picker("50MA")
+    ma200_color=c2.color_picker("200MA")
+    dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
+
+
+
+    
 
 #compute
 ma_cns=[]
@@ -80,7 +91,8 @@ fig=go.Figure()
 fig.add_trace(go.Candlestick( x=data["Date"].values, open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
 for cn in ma_cns :
-    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, mode="lines"))
+    ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, mode="lines", line_color=dict_ma_colors))
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date")
 
