@@ -66,11 +66,21 @@ with st.expander("Plot options") :
     col1, col2, col3, col4, col5 = st.columns(5)
     MAs=col1.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
     show_ema = col1.toggle("Show EMA")
-    
-fig=go.Figure()
-fig.add_trace(go.Candlestick( x=data["Date"], open=data["Open"], high=data["High"], low=data["Low"], close=data["Close"],
-                              increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
 
+#compute
+ma_cns=[]
+for ma in MAs :
+    cn=f"EMA{ma}" if show_ema else f"SMA{ma}"
+    data[f"{cn}"] = data["Close"].ewm(span=ma, adjust=False).mean() if show_ema else data["Close"].rolling(ma).mean()
+    ma_cns.append(cn)
+
+
+#plot
+fig=go.Figure()
+fig.add_trace(go.Candlestick( x=data["Date"].values, open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
+                              increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
+for cn in ma_cns :
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, mode="lines"))
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date")
 
