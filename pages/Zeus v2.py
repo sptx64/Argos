@@ -88,11 +88,11 @@ for ma in MAs :
 
 #plot
 fig=go.Figure()
-fig.add_trace(go.Candlestick( x=data["Date"].values, open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
+fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
-    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, mode="lines", line_color=dict_ma_colors[ma]))
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]))
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date")
 
