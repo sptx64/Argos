@@ -62,5 +62,14 @@ if market == 'crypto' :
     data['Date'] = data['order'].astype(str).str[6:8] + '/' + data['order'].astype(str).str[4:6] + '/' + data['order'].astype(str).str[:4]
 
 
+with st.expander("Plot options") :
+    col1, col2, col3, col4, col5 = st.columns(5)
+    MAs=col1.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
+    show_ema = col1.toggle("Show EMA")
+    
+fig=go.Figure()
+fig.add_trace(go.Candlestick( x=data["Date"], open=data["Open"], high=data["High"], low=data["Low"], close=data["Close"],
+                              increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
 
-data
+fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
+st.plotly_chart(fig, use_container_width=True)
