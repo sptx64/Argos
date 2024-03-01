@@ -72,4 +72,6 @@ fig.add_trace(go.Candlestick( x=data["Date"], open=data["Open"], high=data["High
                               increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
 
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
+fig.update_xaxes(rangeslider_visible=False, title="Date")
+
 st.plotly_chart(fig, use_container_width=True)
