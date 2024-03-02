@@ -89,7 +89,7 @@ for ma in MAs :
     ma_cns.append(cn)
 
 #Umbrella and Hammer
-if UMCs :
+if UHCs :
     data["HU"] = HU(data)
     hammers = data[data["HU"]=="hammer"]
     umbrellas = data[data["HU"]=="umbrella"]
