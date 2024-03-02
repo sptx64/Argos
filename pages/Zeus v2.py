@@ -5,7 +5,7 @@ import os
 import sqlite3
 import plotly.graph_objects as go
 import plotly.express as px
-from app.ta import ao, bob_ao, get_squeeze, get_kc, HU
+from app.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI
 
 st.set_page_config(layout = 'wide')
 
@@ -70,7 +70,7 @@ with st.expander("Plot options") :
     col1.write("---")
 
     
-    MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
+    MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
     show_ema = col2.toggle("Show EMA")
     c1,c2,c3 = col2.columns(3)
     ma6_color=c1.color_picker("6MA", "#00FFFB")
@@ -83,14 +83,20 @@ with st.expander("Plot options") :
 
     UHCs = col3.toggle("Show Hammer/Umbrella candles")
     col3.write("---")
+
+    RSIs=col3.multiselect("Show RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    
+
     
     
 
 
 
     
+subplot=False
 
 #compute
+
 #Moving averages
 ma_cns=[]
 for ma in MAs :
@@ -103,6 +109,14 @@ if UHCs :
     data["HU"] = HU(data)
     hammers = data[data["HU"]=="hammer"]
     umbrellas = data[data["HU"]=="umbrella"]
+
+#RSI
+cns_rsi=[]
+if len(RSIs) > 0 :
+    subplot=True
+    for period in RSIs :
+        cns_rsi.append(f"RSI{period}")
+        data[f"RSI{period}"] = RSI(data, period)
 
 
 #plot
