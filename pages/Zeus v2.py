@@ -63,9 +63,15 @@ if market == 'crypto' :
 
 with st.expander("Plot options") :
     col1,col2,col3,col4 = st.columns(4)
-    MAs=col1.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
-    show_ema = col1.toggle("Show EMA")
-    c1,c2,c3 = col1.columns(3)
+
+    c1,c2=col1.columns(2)
+    incr_candle_color = c1.color_picker("increasing candle", "antiquewhite")
+    decr_candle_color = c2.color_picker("decreasing candle", "green")
+
+    
+    MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
+    show_ema = col2.toggle("Show EMA")
+    c1,c2,c3 = col2.columns(3)
     ma6_color=c1.color_picker("6MA", "#00FFFB")
     ma14_color=c2.color_picker("14MA", "#FFA200")
     ma20_color=c3.color_picker("20MA", "#E400DF")
@@ -73,7 +79,8 @@ with st.expander("Plot options") :
     ma200_color=c2.color_picker("200MA", "#0009FF")
     dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
-    UHCs = col2.toggle("Show Hammer/Umbrella candles")
+    UHCs = col3.toggle("Show Hammer/Umbrella candles")
+    
     
 
 
