@@ -5,7 +5,7 @@ import os
 import sqlite3
 import plotly.graph_objects as go
 import plotly.express as px
-from app.ta import ao, bob_ao, get_squeeze, get_kc
+from app.ta import ao, bob_ao, get_squeeze, get_kc, HU
 
 st.set_page_config(layout = 'wide')
 
@@ -21,11 +21,11 @@ st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder 
 ""
 ""
 
-market = st.sidebar.radio('Market', ['sp500', 'crypto'], index=1, horizontal=True)
+market = st.sidebar.radio('Market', ['sp500', 'crypto'], index=1)
 
 broker="binance"
 if market == "crypto" :
-    broker = st.sidebar.radio("broker", ["binance","coinbase"], index=1, horizontal=True)
+    broker = st.sidebar.radio("broker", ["binance","coinbase"], index=1)
 
 path = f'dataset/{market}_{broker}/' if market == "crypto" else f'dataset/{market}/'
 
@@ -73,16 +73,26 @@ with st.expander("Plot options") :
     ma200_color=c2.color_picker("200MA", "#0009FF")
     dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
+    UHCs = col2.toggle("Show Hammer/Umbrella candles")
+    
+
 
 
     
 
 #compute
+#Moving averages
 ma_cns=[]
 for ma in MAs :
     cn=f"EMA{ma}" if show_ema else f"SMA{ma}"
     data[f"{cn}"] = data["Close"].ewm(span=ma, adjust=False).mean() if show_ema else data["Close"].rolling(ma).mean()
     ma_cns.append(cn)
+
+#Umbrella and Hammer
+if UMCs :
+    data["HU"] = HU(data)
+    hammers = data[data["HU"]=="hammer"]
+    umbrellas = data[data["HU"]=="umbrella"]
 
 
 #plot
@@ -92,6 +102,18 @@ fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]))
+
+if UMCs :
+    fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
+                                 high=hammers["High"].values, low=hammers["Low"].values,
+                                 close=hammers["Close"].values, increasing=dict(line=dict(color="red")),
+                                 decreasing=dict(line=dict(color="red"))))
+
+    fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
+                                 high=umbrellas["High"].values, low=umbrellas["Low"].values,
+                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="green")),
+                                 decreasing=dict(line=dict(color="green"))))
+
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date")
 
