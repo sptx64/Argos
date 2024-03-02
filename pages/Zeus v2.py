@@ -21,19 +21,18 @@ st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder 
 ""
 ""
 
-col1, col2, col3 = st.columns(3)
-market = col1.radio('Market', ['sp500', 'crypto'], index=1)
+market = st.sidebar.radio('Market', ['sp500', 'crypto'], index=1, horizontal=True)
 
 broker="binance"
 if market == "crypto" :
-    broker = col2.radio("broker", ["binance","coinbase"], index=1)
+    broker = st.sidebar.radio("broker", ["binance","coinbase"], index=1, horizontal=True)
 
 path = f'dataset/{market}_{broker}/' if market == "crypto" else f'dataset/{market}/'
 
 tables = [x.replace(".parquet","") for x in os.listdir(path)]
 
 # Create dropdown menu to select ticker
-ticker = col1.selectbox("Select a ticker:", tables)
+ticker = st.sidebar.selectbox("Select a ticker:", tables)
 emoji = ":chart_with_upwards_trend:" if market == "sp500" else ":coin:"
 f"# {emoji} {market} - {ticker}"
 
