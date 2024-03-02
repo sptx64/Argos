@@ -65,8 +65,8 @@ with st.expander("Plot options") :
     col1,col2,col3,col4 = st.columns(4)
 
     c1,c2=col1.columns(2)
-    incr_candle_color = c1.color_picker("increasing candle", "antiquewhite")
-    decr_candle_color = c2.color_picker("decreasing candle", "green")
+    incr_candle_color = c1.color_picker("increasing candle", "#00FFFB")
+    decr_candle_color = c2.color_picker("decreasing candle", "#00FFFB")
 
     
     MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
