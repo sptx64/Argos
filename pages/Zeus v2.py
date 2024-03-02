@@ -65,8 +65,8 @@ with st.expander("Plot options") :
     col1,col2,col3,col4 = st.columns(4)
 
     c1,c2=col1.columns(2)
-    incr_candle_color = c1.color_picker("increasing candle", "#00FFFB")
-    decr_candle_color = c2.color_picker("decreasing candle", "#00FFFB")
+    incr_candle_color = c1.color_picker("increasing candle", "#ABF7A8")
+    decr_candle_color = c2.color_picker("decreasing candle", "#FFF8CA")
 
     
     MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
@@ -105,7 +105,7 @@ if UHCs :
 #plot
 fig=go.Figure()
 fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
-                              increasing=dict(line=dict(color="palegreen")), decreasing=dict(line=dict(color="antiquewhite"))))
+                              increasing=dict(line=dict(color=incr_candle_color)), decreasing=dict(line=dict(color=decr_candle_color))))
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]))
