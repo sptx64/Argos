@@ -103,7 +103,7 @@ for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]))
 
-if UMCs :
+if UHCs :
     fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
                                  high=hammers["High"].values, low=hammers["Low"].values,
                                  close=hammers["Close"].values, increasing=dict(line=dict(color="red")),
