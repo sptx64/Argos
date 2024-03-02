@@ -65,8 +65,9 @@ with st.expander("Plot options") :
     col1,col2,col3,col4 = st.columns(4)
 
     c1,c2=col1.columns(2)
-    incr_candle_color = c1.color_picker("increasing candle", "#ABF7A8")
-    decr_candle_color = c2.color_picker("decreasing candle", "#FFF8CA")
+    incr_candle_color = c1.color_picker("increasing candle", "#FFFFFF")
+    decr_candle_color = c2.color_picker("decreasing candle", "#8E8E8E")
+    col1.write("---")
 
     
     MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA to display")
@@ -78,8 +79,10 @@ with st.expander("Plot options") :
     ma50_color=c1.color_picker("50MA", "#550092")
     ma200_color=c2.color_picker("200MA", "#0009FF")
     dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
+    col2.write("---")
 
     UHCs = col3.toggle("Show Hammer/Umbrella candles")
+    col3.write("---")
     
     
 
