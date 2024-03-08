@@ -16,9 +16,8 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 import ta
 import numpy as np
 st.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
-"# :zap: Zeus"
+":zap:"
 st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. His name is cognate with the first syllable of his Roman equivalent Jupiter._")
-""
 ""
 
 market = st.sidebar.radio('Market', ['sp500', 'crypto'], index=1)
