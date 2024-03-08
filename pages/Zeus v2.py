@@ -201,7 +201,7 @@ if len(RSIs) > 0 :
 
 if AO :
     for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
-        fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, marker_color=color), col=1, row=subplot_row)
+        fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, marker_color=color, marker_line_width=0), col=1, row=subplot_row)
     fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
 
     subplot_row+=1
