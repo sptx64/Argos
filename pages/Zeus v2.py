@@ -134,7 +134,7 @@ if len(RSIs) > 0 :
 if subplot>0 :
     heights=[0.7]
     for i in range(subplot) :
-        heights.append((1-heights[0])/subplots)
+        heights.append((1-heights[0])/subplot)
     fig = make_subplots(rows=subplots+1, cols=1, row_heights=heights)
 else :
     fig=go.Figure()
