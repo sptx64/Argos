@@ -247,24 +247,6 @@ if VOL:
     data["Volume3MA"]=data["Volume"].rolling(3).mean()
     fig.add_trace(go.Scatter(x=df["Date"].values, y=data["Volume3MA"].values, name="Volume3MA"), col=1, row=subplot_row)
 
-    data, data_bottom, data_top = div(data, "Close", "Volume3MA", None)
-    
-    for i in range(len(data_bottom)):
-        row = data_bottom.iloc[i]
-        prev_row = data_bottom.iloc[i-1]
-        if row['bullish_div'] == True :
-            x = [row['Date'], prev_row['Date']]
-            y = [row["Volume3MA"], prev_row["Volume3MA"]]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
-    
-    for i in range(len(data_top)):
-        row = data_top.iloc[i]
-        prev_row = data_top.iloc[i-1]
-        if row['bearish_div'] == True :
-            x = [row['Date'], prev_row['Date']]
-            y = [row["Volume3MA"], prev_row["Volume3MA"]]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
-    
     subplot_row+=1
 
 
