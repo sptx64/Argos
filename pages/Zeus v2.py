@@ -135,9 +135,14 @@ if AO :
     data["ao"] = ao(data)
     data["bob_ao"] = bob_ao(data)
     subplot+=1
-    data
+    neg_rising=data[(data["bob_ao"].values=="Bullish") & (data["ao"].values<=0)]
+    pos_rising=data[(data["bob_ao"].values=="Bullish") & (data["ao"].values>0)]
+    pos_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values>0)]
+    neg_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values<=0)]
+    for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
+        fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, marker_color=color), col=1, row=subplot)
+    
     # neg_rising=data[(data["ao"].values <= 0) 
-    # fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
     
