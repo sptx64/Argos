@@ -244,7 +244,7 @@ if VOL:
     data_down=data[data["Open"].values>=data["Close"].values]
     for df, color in zip([data_up, data_down],["lightseagreen", "red"]) :
         fig.add_trace(go.Bar(x=df["Date"].values, y=df["Volume"].values, name="Volume", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
-    data["Volume3MA"]=data["Volume"].rolling(3).mean()
+    data["Volume3MA"]=data["Volume"].rolling(3).sum()
     fig.add_trace(go.Scatter(x=df["Date"].values, y=data["Volume3MA"].values, name="Volume3MA"), col=1, row=subplot_row)
 
     subplot_row+=1
