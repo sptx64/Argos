@@ -229,7 +229,8 @@ if SR :
     
 
 
-
+plotheight=700
+subplotheight=100
 #plot
 if subplot>0 :
     heights=[0.7]
@@ -280,7 +281,7 @@ if VOL:
     for df, color in zip([data_up, data_down],["lightseagreen", "red"]) :
         fig.add_trace(go.Bar(x=df["Date"].values, y=df["Volume"].values, name="Volume", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
 
-
+    plotheight+=subplotheight
     subplot_row+=1
 
 
@@ -319,7 +320,7 @@ if len(RSIs) > 0 :
     fig.add_hline(y=70, line_width=1, line_dash="dot", line_color="black", row=subplot_row)
 
 
-
+    plotheight+=subplotheight
     subplot_row+=1
 
 if AO :
@@ -345,7 +346,7 @@ if AO :
             y = [row['ao'], prev_row['ao']]
             fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
 
-    
+    plotheight+=subplotheight
     subplot_row+=1
     
     
