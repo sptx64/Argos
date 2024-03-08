@@ -23,7 +23,7 @@ def div(df, close, indicator, indicator_filter) :
     ind = df[indicator].values
     df['top'], df['bot'] = False, False
 
-    if indicator in ["RSI"] :
+    if indicator.startswith("RSI") :
         from scipy.signal import argrelextrema
         distance = 9
         tops = argrelextrema(ind, np.greater, order=distance)
@@ -235,6 +235,29 @@ subplot_row = 2
 if len(RSIs) > 0 :
     for rs in cns_rsi :
         fig.add_trace(go.Scatter(x=data["Date"].values, y=data[rs].values, name=rs, mode="lines"), col=1, row=subplot_row)
+        data, data_bottom, data_top = div(data, "Close", rs, None)
+    
+        for i in range(len(data_bottom)):
+            row = data_bottom.iloc[i]
+            prev_row = data_bottom.iloc[i-1]
+            if row['bullish_div'] == True :
+                x = [row['Date'], prev_row['Date']]
+                y = [row[rs], prev_row[rs]]
+                fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+    
+        for i in range(len(data_top)):
+            row = data_top.iloc[i]
+            prev_row = data_top.iloc[i-1]
+            if row['bearish_div'] == True :
+                x = [row['Date'], prev_row['Date']]
+                y = [row[rs], prev_row[rs]]
+                fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+
+
+
+
+
+    
     fig.add_hline(y=50, line_width=1, line_color="black", row=subplot_row)
     fig.add_hline(y=100, line_width=1, line_color="black", row=subplot_row)
     fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
