@@ -16,6 +16,50 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 
 import ta
 import numpy as np
+
+def div(df, close, indicator, indicator_filter) :
+    import numpy as np
+    df = df.reset_index(drop=True)
+    ind = df[indicator].values
+    df['top'], df['bot'] = False, False
+
+    if indicator in ["RSI"] :
+        from scipy.signal import argrelextrema
+        distance = 9
+        tops = argrelextrema(ind, np.greater, order=distance)
+        bottoms = argrelextrema(ind, np.less, order=distance)
+
+        for i in tops[0] :
+            df['top'][i] = True
+
+        for i in bottoms[0] :
+            df['bot'][i] = True
+
+    else :
+        df.loc[(df[indicator_filter].values == "Bearish") & (df[indicator_filter].shift(1) == "Bullish"), "top"]=True
+        df.loc[(df[indicator_filter].values == "Bullish") & (df[indicator_filter].shift(1) == "Bearish"), "bot"]=True
+
+
+    
+
+    df_bottom = df[df['bot'].values == True]
+    df_bottom['bullish_div'] = False
+    df_bottom.loc[(df_bottom[indicator].values >= df_bottom[indicator].shift(1)) & (df_bottom[close] <= df_bottom[close].shift(1)), 'bullish_div'] = True
+
+    df_top = df[df['top'].values == True]
+    df_top['bearish_div'] = False
+    df_top.loc[(df_top[indicator] <= df_top['rsi'].shift(1)) & (df_top[close] >= df_top[close].shift(1)), 'bearish_div'] = True
+    return df, df_bottom, df_top
+
+
+
+
+
+
+
+
+
+
 st.sidebar.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 ":zap:"
 st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. His name is cognate with the first syllable of his Roman equivalent Jupiter._")
@@ -207,7 +251,26 @@ if AO :
     for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
         fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, name="AO", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
     fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
+    
+    data, data_bottom, data_top = div(data, "Close", "ao", "bob_ao")
 
+    for i in range(len(data_bottom)):
+        row = data_bottom.iloc[i]
+        prev_row = data_bottom.iloc[i-1]
+        if row['bullish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row['ao'], prev_row['ao']]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='lines', line_color='limegreen', line_width=1, showlegend = False), col=1, row=subplot_row)
+
+    for i in range(len(data_top)):
+        row = data_top.iloc[i]
+        prev_row = data_top.iloc[i-1]
+        if row['bearish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row['ao'], prev_row['ao']]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='lines', line_color='crimson', line_width=1, showlegend = False), col=1, row=subplot_row)
+
+    
     subplot_row+=1
     
     
