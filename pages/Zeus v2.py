@@ -81,6 +81,7 @@ with st.expander("Plot options") :
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
     RSIs=col3.multiselect("Show RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    
     col4.write("Doji")
     UHCs = col4.toggle("Hammer/umbrella")
     DGCs = col4.toggle("Dragonfly/Gravestone")
@@ -94,7 +95,7 @@ with st.expander("Plot options") :
 
 
     
-subplot=False
+subplot=0
 
 #compute
 
@@ -123,40 +124,47 @@ if UHCs or DGCs :
 #RSI
 cns_rsi=[]
 if len(RSIs) > 0 :
-    subplot=True
+    subplot+=1
     for period in RSIs :
         cns_rsi.append(f"RSI{period}")
         data[f"RSI{period}"] = RSI(data, period)
 
 
 #plot
-fig=go.Figure()
+if subplot>0 :
+    heights=[0.7]
+    for i in range(subplot) :
+        heights.append((1-heights[0])/subplots)
+    fig = make_subplots(rows=subplots+1, cols=1, row_heights=heights)
+else :
+    fig=go.Figure()
+
 fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
-                              increasing=dict(line=dict(color=incr_candle_color)), decreasing=dict(line=dict(color=decr_candle_color))))
+                              increasing=dict(line=dict(color=incr_candle_color)), decreasing=dict(line=dict(color=decr_candle_color))), col=None if subplots==0 else 1, row=None if subplots==0 else 1)
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
-    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]))
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]), col=None if subplots==0 else 1, row=None if subplots==0 else 1)
 
 if UHCs :
     fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
                                  high=hammers["High"].values, low=hammers["Low"].values,
                                  close=hammers["Close"].values, increasing=dict(line=dict(color="gold")),
-                                 decreasing=dict(line=dict(color="gold"))))
+                                 decreasing=dict(line=dict(color="gold"))), col=None if subplots==0 else 1, row=None if subplots==0 else 1)
 
     fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
                                  high=umbrellas["High"].values, low=umbrellas["Low"].values,
                                  close=umbrellas["Close"].values, increasing=dict(line=dict(color="blue")),
-                                 decreasing=dict(line=dict(color="blue"))))
+                                 decreasing=dict(line=dict(color="blue"))), col=None if subplots==0 else 1, row=None if subplots==0 else 1)
 if DGCs :
     fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
                                  high=gravestones["High"].values, low=gravestones["Low"].values,
                                  close=gravestones["Close"].values, increasing=dict(line=dict(color="red")),
-                                 decreasing=dict(line=dict(color="red"))))
+                                 decreasing=dict(line=dict(color="red"))), col=None if subplots==0 else 1, row=None if subplots==0 else 1)
 
     fig.add_trace(go.Candlestick( x=dragonflys["Date"].values, name="dragonflys", open=dragonflys["Open"].values,
                                  high=dragonflys["High"].values, low=dragonflys["Low"].values,
                                  close=dragonflys["Close"].values, increasing=dict(line=dict(color="green")),
-                                 decreasing=dict(line=dict(color="green"))))
+                                 decreasing=dict(line=dict(color="green"))), col=None if subplots==0 else 1, row=None if subplots==0 else 1)
 
 
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
