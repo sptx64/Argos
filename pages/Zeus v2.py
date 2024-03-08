@@ -112,11 +112,11 @@ if UHCs or DGCs :
     if DGCs :
         oc_delta=hammers["Close"].values-hammers["Open"].values
         hl_delta=hammers["High"].values-hammers["Low"].values
-        gravestones = hammers[oc_delta<(hl_delta*0.01)]
+        gravestones = hammers[np.abs(oc_delta)<(hl_delta*0.01)]
         
         oc_delta=umbrellas["Close"].values-umbrellas["Open"].values
         hl_delta=umbrellas["High"].values-umbrellas["Low"].values
-        dragonflys = umbrellas[oc_delta<(hl_delta*0.01)]
+        dragonflys = umbrellas[np.abs(oc_delta)<(hl_delta*0.01)]
         
 
 #RSI
