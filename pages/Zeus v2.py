@@ -205,7 +205,7 @@ else :
     fig=go.Figure()
 
 fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
-                              increasing=dict(line=dict(color=incr_candle_color)), decreasing=dict(line=dict(color=decr_candle_color))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                              increasing=dict(line=dict(color=incr_candle_color, width=1)), decreasing=dict(line=dict(color=decr_candle_color, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
