@@ -205,7 +205,7 @@ else :
     fig=go.Figure()
 
 fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
-                              increasing=dict(line=dict(color=incr_candle_color, width=1)), decreasing=dict(line=dict(color=decr_candle_color, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                              increasing=dict(line=dict(color=incr_candle_color, width=0.5)), decreasing=dict(line=dict(color=decr_candle_color, width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
@@ -213,23 +213,23 @@ for cn in ma_cns :
 if UHCs :
     fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
                                  high=hammers["High"].values, low=hammers["Low"].values,
-                                 close=hammers["Close"].values, increasing=dict(line=dict(color="gold")),
-                                 decreasing=dict(line=dict(color="gold"))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 close=hammers["Close"].values, increasing=dict(line=dict(color="gold", width=0.5)),
+                                 decreasing=dict(line=dict(color="gold", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
     fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
                                  high=umbrellas["High"].values, low=umbrellas["Low"].values,
-                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="blue")),
-                                 decreasing=dict(line=dict(color="blue"))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="blue", width=0.5)),
+                                 decreasing=dict(line=dict(color="blue", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 if DGCs :
     fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
                                  high=gravestones["High"].values, low=gravestones["Low"].values,
-                                 close=gravestones["Close"].values, increasing=dict(line=dict(color="red")),
-                                 decreasing=dict(line=dict(color="red"))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 close=gravestones["Close"].values, increasing=dict(line=dict(color="red", width=0.5)),
+                                 decreasing=dict(line=dict(color="red", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
     fig.add_trace(go.Candlestick( x=dragonflys["Date"].values, name="dragonflys", open=dragonflys["Open"].values,
                                  high=dragonflys["High"].values, low=dragonflys["Low"].values,
-                                 close=dragonflys["Close"].values, increasing=dict(line=dict(color="green")),
-                                 decreasing=dict(line=dict(color="green"))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 close=dragonflys["Close"].values, increasing=dict(line=dict(color="green", width=0.5)),
+                                 decreasing=dict(line=dict(color="green", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 subplot_row = 2
 if len(RSIs) > 0 :
