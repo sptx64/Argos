@@ -40,15 +40,13 @@ def div(df, close, indicator, indicator_filter) :
         df.loc[(df[indicator_filter].values == "Bullish") & (df[indicator_filter].shift(1) == "Bearish"), "bot"]=True
 
 
-    
-
     df_bottom = df[df['bot'].values == True]
     df_bottom['bullish_div'] = False
     df_bottom.loc[(df_bottom[indicator].values >= df_bottom[indicator].shift(1)) & (df_bottom[close] <= df_bottom[close].shift(1)), 'bullish_div'] = True
 
     df_top = df[df['top'].values == True]
     df_top['bearish_div'] = False
-    df_top.loc[(df_top[indicator] <= df_top['rsi'].shift(1)) & (df_top[close] >= df_top[close].shift(1)), 'bearish_div'] = True
+    df_top.loc[(df_top[indicator] <= df_top[indicator].shift(1)) & (df_top[close] >= df_top[close].shift(1)), 'bearish_div'] = True
     return df, df_bottom, df_top
 
 
