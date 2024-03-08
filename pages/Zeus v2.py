@@ -127,12 +127,16 @@ with st.expander("Plot options") :
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
+    col2.write("Close SR")
+    SR=col2.toggle("Close S/R")
+    
     col3.write("RSI")
     RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display", label_visibility="collapsed")
     col3.write("Volume")
     VOL=col3.toggle("Volume")
     col3.write("AO")
     AO=col3.toggle("Awesome oscillator")
+    
     
     col4.write("Doji")
     UHCs = col4.toggle("Hammer/umbrella")
@@ -197,6 +201,30 @@ if VOL :
     
     # neg_rising=data[(data["ao"].values <= 0) 
 
+if SR :
+    def float_to_rgba_jet(column):
+    normalized_column = (column - column.min()) / (column.max() - column.min())
+    rgb_column = []
+    for i in normalized_column :
+        if i <= 0.125:
+            R, G, B, A = 0, 0, 4 * i + 0.5, 0.03
+        elif i <= 0.375:
+            R, G, B, A = 0, 4 * (i - 0.125), 1, 0.1
+        elif i <= 0.625:
+            R,G,B,A = 4 * (i - 0.375), 1, 1 - 4 * (i - 0.375), 0.2
+        elif i <= 0.875:
+            R, G, B, A = 1, 1 - 4 * (i - 0.625), 0, 0.5
+        else:
+            R = 1 - 4 * (i - 0.875), 0, 0, 0.7
+            
+        R, G, B = int(R * 255), int(G * 255), int(B * 255)
+        rgb_value = (R, G, B, A)
+        rgb_column.append('rgba'+str(rgb_value))
+    return rgb_column
+
+    data['volume_color'] = float_to_rgba_jet(data['Volume'])
+
+
 
     
 
@@ -237,6 +265,13 @@ if DGCs :
                                  high=dragonflys["High"].values, low=dragonflys["Low"].values,
                                  close=dragonflys["Close"].values, increasing=dict(line=dict(color="lightseagreen", width=1)),
                                  decreasing=dict(line=dict(color="lightseagreen", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+if SR :
+    for i in range(len(data)) :
+        row = data.iloc[i]
+        fig.add_trace(go.Scatter(x=[row['Date'], data.iloc[-1]['Date']], y=[row['Close'], row['Close']], mode='lines', line_color=row['volume_color'], showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
 
 subplot_row = 2
 if VOL:
