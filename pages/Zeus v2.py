@@ -140,8 +140,7 @@ if AO :
     pos_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values>0)]
     neg_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values<=0)]
     
-    for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
-        fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, marker_color=color), col=1, row=subplot)
+
     
     # neg_rising=data[(data["ao"].values <= 0) 
 
@@ -200,7 +199,10 @@ if len(RSIs) > 0 :
 
     subplot_row+=1
 
-    
+if AO :
+    for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
+        fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, marker_color=color), col=1, row=subplot_row)
+    subplot_row+=1
     
 
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
