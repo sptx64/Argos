@@ -258,7 +258,7 @@ if AO :
         if row['bullish_div'] == True :
             x = [row['Date'], prev_row['Date']]
             y = [row['ao'], prev_row['ao']]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
 
     for i in range(len(data_top)):
         row = data_top.iloc[i]
@@ -266,7 +266,7 @@ if AO :
         if row['bearish_div'] == True :
             x = [row['Date'], prev_row['Date']]
             y = [row['ao'], prev_row['ao']]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
 
     
     subplot_row+=1
