@@ -124,7 +124,7 @@ data.loc[data['dot'] == -1, 'dot_y'] = data['High']
 color_dict = {1:'green', -1:'red'}
 
 data_len = len(data)
-days = col3.slider("days to load", 2, data_len, 2000 if data_len>2000 else data_len)
+days = st.sidebar.slider("days to load", 2, data_len, 2000 if data_len>2000 else data_len)
 data = data.tail(days)
 
 #sqz
