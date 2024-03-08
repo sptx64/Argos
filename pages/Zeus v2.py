@@ -20,12 +20,12 @@ st.sidebar.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 ":zap:"
 st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. His name is cognate with the first syllable of his Roman equivalent Jupiter._")
 ""
-
-market = st.sidebar.radio('Market', ['sp500', 'crypto'], index=1)
+c1,c2=st.sidebar.columns(2)
+market = c1.radio('Market', ['sp500', 'crypto'], index=1)
 
 broker="binance"
 if market == "crypto" :
-    broker = st.sidebar.radio("broker", ["binance","coinbase"], index=1)
+    broker = c2.radio("broker", ["binance","coinbase"], index=1)
 
 path = f'dataset/{market}_{broker}/' if market == "crypto" else f'dataset/{market}/'
 
