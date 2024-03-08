@@ -126,6 +126,8 @@ with st.expander("Plot options") :
         ma50_color=c1.color_picker("50MA", "#550092")
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
+    col3.write("Volume")
+    VOL=col3.toggle("Volume")
     col3.write("RSI")
     RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display", label_visibility="collapsed")
     col3.write("AO")
@@ -170,6 +172,7 @@ if UHCs or DGCs :
         dragonflys = umbrellas[np.abs(oc_delta)<(hl_delta*0.02)]
         
 
+
 #RSI
 cns_rsi=[]
 if len(RSIs) > 0 :
@@ -187,6 +190,8 @@ if AO :
     pos_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values>0)]
     neg_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values<=0)]
     
+if VOL :
+    subplot+=1
 
     
     # neg_rising=data[(data["ao"].values <= 0) 
@@ -233,6 +238,16 @@ if DGCs :
                                  decreasing=dict(line=dict(color="lightseagreen", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 subplot_row = 2
+if VOL:
+    data_up=data[data["Open"].values<data["Close"].values]
+    data_down=data[data["Open"].values>=data["Close"].values]
+    for df, color in zip([data_up, data_down],["lightseagreen", "red"]) :
+        fig.add_trace(go.Bar(x=df["Date"].values, y=df["Volume"].values, name="Volume", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
+    subplot_row+=1
+
+
+
+
 if len(RSIs) > 0 :
     for rs in cns_rsi :
         fig.add_trace(go.Scatter(x=data["Date"].values, y=data[rs].values, name=rs, mode="lines"), col=1, row=subplot_row)
@@ -297,7 +312,7 @@ if AO :
     
     
 
-fig.update_layout(height=750, template='simple_white', title_text=f"{ticker} daily")
+fig.update_layout(height=800, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date", visible=False)
 
 st.plotly_chart(fig, use_container_width=True)
