@@ -139,6 +139,7 @@ if AO :
     pos_rising=data[(data["bob_ao"].values=="Bullish") & (data["ao"].values>0)]
     pos_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values>0)]
     neg_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values<=0)]
+    
     for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
         fig.add_trace(go.Bar(x=df["Date"].values, y=df["ao"].values, marker_color=color), col=1, row=subplot)
     
