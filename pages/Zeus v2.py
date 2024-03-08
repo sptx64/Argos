@@ -230,7 +230,7 @@ if SR :
 
 
 plotheight=700
-subplotheight=100
+subplotheight=150
 #plot
 if subplot>0 :
     heights=[0.7]
