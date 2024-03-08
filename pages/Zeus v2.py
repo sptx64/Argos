@@ -171,6 +171,14 @@ subplot_row = 2
 if len(RSIs) > 0 :
     for rs in cns_rsi :
         fig.add_trace(go.Scatter(x=data["Date"].values, y=data[rs].values, name=rs, mode="lines"), col=1, row=subplot_row)
+    fig.add_hline(y=50, line_width=1, line_color="black", row=subplot_row)
+    fig.add_hline(y=100, line_width=1, line_color="black", row=subplot_row)
+    fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
+    fig.add_hline(y=30, line_width=1, line_dash="dot", line_color="black", row=subplot_row)
+    fig.add_hline(y=70, line_width=1, line_dash="dot", line_color="black", row=subplot_row)
+
+
+
     subplot_row+=1
 
     
