@@ -140,12 +140,12 @@ if UHCs :
     fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
                                  high=hammers["High"].values, low=hammers["Low"].values,
                                  close=hammers["Close"].values, increasing=dict(line=dict(color="salmon")),
-                                 decreasing=dict(line=dict(color="red"))))
+                                 decreasing=dict(line=dict(color="salmon"))))
 
     fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
                                  high=umbrellas["High"].values, low=umbrellas["Low"].values,
                                  close=umbrellas["Close"].values, increasing=dict(line=dict(color="palegreen")),
-                                 decreasing=dict(line=dict(color="green"))))
+                                 decreasing=dict(line=dict(color="palegreen"))))
 if DGCs :
     fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
                                  high=gravestones["High"].values, low=gravestones["Low"].values,
