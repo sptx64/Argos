@@ -245,8 +245,8 @@ def ao(df):
 
 def bob_ao(df):
     df['bob_ao'] = 'Neutral'
-    df.loc[(df['ao']>=0) & (df['ao']>df['ao'].shift(1)), 'bob_ao'] = 'Bullish'
-    df.loc[(df['ao']<=0) & (df['ao']<df['ao'].shift(1)), 'bob_ao'] = 'Bearish'
+    df.loc[(df['ao']>df['ao'].shift(1)), 'bob_ao'] = 'Bullish'
+    df.loc[(df['ao']<df['ao'].shift(1)), 'bob_ao'] = 'Bearish'
     return df['bob_ao']
 
 def bull_bear_rsi_div(data) :
