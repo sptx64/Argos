@@ -203,24 +203,24 @@ if VOL :
 
 if SR :
     def float_to_rgba_jet(column):
-    normalized_column = (column - column.min()) / (column.max() - column.min())
-    rgb_column = []
-    for i in normalized_column :
-        if i <= 0.125:
-            R, G, B, A = 0, 0, 4 * i + 0.5, 0.03
-        elif i <= 0.375:
-            R, G, B, A = 0, 4 * (i - 0.125), 1, 0.1
-        elif i <= 0.625:
-            R,G,B,A = 4 * (i - 0.375), 1, 1 - 4 * (i - 0.375), 0.2
-        elif i <= 0.875:
-            R, G, B, A = 1, 1 - 4 * (i - 0.625), 0, 0.5
-        else:
-            R = 1 - 4 * (i - 0.875), 0, 0, 0.7
-            
-        R, G, B = int(R * 255), int(G * 255), int(B * 255)
-        rgb_value = (R, G, B, A)
-        rgb_column.append('rgba'+str(rgb_value))
-    return rgb_column
+        normalized_column = (column - column.min()) / (column.max() - column.min())
+        rgb_column = []
+        for i in normalized_column :
+            if i <= 0.125:
+                R, G, B, A = 0, 0, 4 * i + 0.5, 0.03
+            elif i <= 0.375:
+                R, G, B, A = 0, 4 * (i - 0.125), 1, 0.1
+            elif i <= 0.625:
+                R,G,B,A = 4 * (i - 0.375), 1, 1 - 4 * (i - 0.375), 0.2
+            elif i <= 0.875:
+                R, G, B, A = 1, 1 - 4 * (i - 0.625), 0, 0.5
+            else:
+                R = 1 - 4 * (i - 0.875), 0, 0, 0.7
+                
+            R, G, B = int(R * 255), int(G * 255), int(B * 255)
+            rgb_value = (R, G, B, A)
+            rgb_column.append('rgba'+str(rgb_value))
+        return rgb_column
 
     data['volume_color'] = float_to_rgba_jet(data['Volume'])
 
