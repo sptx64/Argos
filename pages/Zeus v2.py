@@ -154,7 +154,7 @@ if subplot>0 :
     heights=[0.7]
     for i in range(subplot) :
         heights.append((1-heights[0])/subplot)
-    fig = make_subplots(rows=subplot+1, cols=1, row_heights=heights)
+    fig = make_subplots(rows=subplot+1, cols=1, row_heights=heights, shared_xaxes=True)
 else :
     fig=go.Figure()
 
