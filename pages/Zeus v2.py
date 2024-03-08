@@ -177,6 +177,6 @@ if len(RSIs) > 0 :
     
 
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
-fig.update_xaxes(rangeslider_visible=False, title="Date")
+fig.update_xaxes(rangeslider_visible=False, title="Date", visible=False)
 
 st.plotly_chart(fig, use_container_width=True)
