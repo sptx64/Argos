@@ -60,6 +60,9 @@ for col in list_col :
 if market == 'crypto' :
     data['Date'] = data['order'].astype(str).str[6:8] + '/' + data['order'].astype(str).str[4:6] + '/' + data['order'].astype(str).str[:4]
 
+days = st.sidebar.slider("days to load", 2, data_len, 2000 if data_len>2000 else data_len)
+data = data.tail(days)
+
 
 with st.expander("Plot options") :
     col1,col2,col3,col4 = st.columns(4)
