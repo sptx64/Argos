@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import sqlite3
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 import plotly.express as px
 from app.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI
 
