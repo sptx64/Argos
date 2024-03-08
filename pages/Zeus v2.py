@@ -167,6 +167,14 @@ if DGCs :
                                  close=dragonflys["Close"].values, increasing=dict(line=dict(color="green")),
                                  decreasing=dict(line=dict(color="green"))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
+subplot_row = 2
+if len(RSIs) > 0 :
+    for rs in cns_rsi :
+        fig.add_trace(go.Scatter(x=data["Date"].values, y=data[rs].values, name=rs, mode="lines"), col=1, row=subplot_row)
+    subplot_row+=1
+
+    
+    
 
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date")
