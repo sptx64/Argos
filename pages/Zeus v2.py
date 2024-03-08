@@ -81,7 +81,8 @@ with st.expander("Plot options") :
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
-    RSIs=col3.multiselect("Show RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    AO=col3.toggle("Awesome oscillator")
     
     col4.write("Doji")
     UHCs = col4.toggle("Hammer/umbrella")
@@ -129,6 +130,18 @@ if len(RSIs) > 0 :
     for period in RSIs :
         cns_rsi.append(f"RSI{period}")
         data[f"RSI{period}"] = RSI(data, period)
+
+if AO :
+    data["ao"] = ao(data)
+    data["bob_ao"] = bob_ao(data)
+    subplot+=1
+    data
+    # neg_rising=data[(data["ao"].values <= 0) 
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data[cn].values, name=cn, mode="lines", line_color=dict_ma_colors[ma]), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+    
+
 
 
 #plot
