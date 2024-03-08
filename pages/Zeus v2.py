@@ -115,7 +115,7 @@ if UHCs or DGCs :
         dragonflys = hammers[oc_delta<(hl_delta*0.05)]
         
         oc_delta=umbrellas["Close"].values-umbrellas["Open"].values
-        hl_delta=umbrellas["High"].values-umbrellas["Low"].value
+        hl_delta=umbrellas["High"].values-umbrellas["Low"].values
         gravestones = umbrellas[oc_delta<(hl_delta*0.05)]
         
 
