@@ -81,8 +81,9 @@ with st.expander("Plot options") :
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
     RSIs=col3.multiselect("Show RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-    UHCs = col4.toggle("Show hammer umbrella doji")
-    DGCs = col4.toggle("Show dragonfly gravestone doji")
+    col4.write("Doji")
+    UHCs = col4.toggle("Hammer/umbrella")
+    DGCs = col4.toggle("Dragonfly/Gravestone")
     
 
 
@@ -139,13 +140,13 @@ for cn in ma_cns :
 if UHCs :
     fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
                                  high=hammers["High"].values, low=hammers["Low"].values,
-                                 close=hammers["Close"].values, increasing=dict(line=dict(color="salmon")),
-                                 decreasing=dict(line=dict(color="salmon"))))
+                                 close=hammers["Close"].values, increasing=dict(line=dict(color="gold")),
+                                 decreasing=dict(line=dict(color="gold"))))
 
     fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
                                  high=umbrellas["High"].values, low=umbrellas["Low"].values,
-                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="palegreen")),
-                                 decreasing=dict(line=dict(color="palegreen"))))
+                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="blue")),
+                                 decreasing=dict(line=dict(color="blue"))))
 if DGCs :
     fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
                                  high=gravestones["High"].values, low=gravestones["Low"].values,
