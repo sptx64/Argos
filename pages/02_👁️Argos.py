@@ -11,7 +11,7 @@ from app.logging import logging
 logging(st.secrets["secret1"], st.secrets["secret2"])
 c1,c2=st.columns(2)
 c2.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
-c1.write(':eye:')
+st.sidebar.write(':eye:')
 st.caption("""_Argus Panoptes (Ἄργος Πανόπτης) was the guardian of the heifer-nymph Io and the son of Arestor. According to Asclepiades, Argus Panoptes was a son of Inachus, and according to Cercops he was a son of Argus and Ismene, daughter of Asopus. Acusilaus says that he was earth-born (authochthon), born from Gaia. Probably Mycene (in another version the son of Gaia) was a primordial giant whose epithet Panoptes, "all-seeing", led to his being described with multiple, often one hundred eyes._""")
 
 col1, col2, col3 = st.columns(3)
