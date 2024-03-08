@@ -223,13 +223,13 @@ if UHCs :
 if DGCs :
     fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
                                  high=gravestones["High"].values, low=gravestones["Low"].values,
-                                 close=gravestones["Close"].values, increasing=dict(line=dict(color="red", width=0.5)),
-                                 decreasing=dict(line=dict(color="red", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 close=gravestones["Close"].values, increasing=dict(line=dict(color="red", width=1)),
+                                 decreasing=dict(line=dict(color="red", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
     fig.add_trace(go.Candlestick( x=dragonflys["Date"].values, name="dragonflys", open=dragonflys["Open"].values,
                                  high=dragonflys["High"].values, low=dragonflys["Low"].values,
-                                 close=dragonflys["Close"].values, increasing=dict(line=dict(color="green", width=0.5)),
-                                 decreasing=dict(line=dict(color="green", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 close=dragonflys["Close"].values, increasing=dict(line=dict(color="lightseagreen", width=1)),
+                                 decreasing=dict(line=dict(color="lightseagreen", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 subplot_row = 2
 if len(RSIs) > 0 :
