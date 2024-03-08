@@ -126,10 +126,11 @@ with st.expander("Plot options") :
         ma50_color=c1.color_picker("50MA", "#550092")
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
-    col3.write("Volume")
-    VOL=col3.toggle("Volume")
+
     col3.write("RSI")
     RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display", label_visibility="collapsed")
+    col3.write("Volume")
+    VOL=col3.toggle("Volume")
     col3.write("AO")
     AO=col3.toggle("Awesome oscillator")
     
