@@ -280,7 +280,7 @@ if VOL:
     data_down=data[data["Open"].values>=data["Close"].values]
     for df, color in zip([data_up, data_down],["lightseagreen", "red"]) :
         fig.add_trace(go.Bar(x=df["Date"].values, y=df["Volume"].values, name="Volume", marker_color=color, marker_line_color="rgba(0,0,0,0)", marker_line_width=0), col=1, row=subplot_row)
-
+    fig.update_layout(coloraxis_colorbar_x=-0.17)
     plotheight+=subplotheight
     subplot_row+=1
 
