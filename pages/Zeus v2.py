@@ -80,11 +80,12 @@ with st.expander("Plot options") :
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
-    UHCs = col3.toggle("Show Hammer/Umbrella candles")
-    col3.write("---")
-
     RSIs=col3.multiselect("Show RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    UHCs = col4.toggle("Show hammer umbrella doji")
+    DGCs = col4.toggle("Show dragonfly gravestone doji")
     
+
+
 
     
     
@@ -104,10 +105,19 @@ for ma in MAs :
     ma_cns.append(cn)
 
 #Umbrella and Hammer
-if UHCs :
+if UHCs or DGCs :
     data["HU"] = HU(data)
-    hammers = data[data["HU"]=="hammer"]
-    umbrellas = data[data["HU"]=="umbrella"]
+    hammers = data[data["HU"].values=="hammer"]
+    umbrellas = data[data["HU"].values=="umbrella"]
+    if DGCs :
+        oc_delta=hammers["Close"].values-hammers["Open"].values
+        hl_delta=hammers["High"].values-hammers["Low"].values
+        dragonflys = hammers[oc_delta<(hl_delta*0.05)]
+        
+        oc_delta=umbrellas["Close"].values-umbrellas["Open"].values
+        hl_delta=umbrellas["High"].values-umbrellas["Low"].value
+        gravestones = umbrellas[oc_delta<(hl_delta*0.05)]
+        
 
 #RSI
 cns_rsi=[]
@@ -129,13 +139,24 @@ for cn in ma_cns :
 if UHCs :
     fig.add_trace(go.Candlestick( x=hammers["Date"].values, name="hammers", open=hammers["Open"].values,
                                  high=hammers["High"].values, low=hammers["Low"].values,
-                                 close=hammers["Close"].values, increasing=dict(line=dict(color="red")),
+                                 close=hammers["Close"].values, increasing=dict(line=dict(color="salmon")),
                                  decreasing=dict(line=dict(color="red"))))
 
     fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
                                  high=umbrellas["High"].values, low=umbrellas["Low"].values,
-                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="green")),
+                                 close=umbrellas["Close"].values, increasing=dict(line=dict(color="palegreen")),
                                  decreasing=dict(line=dict(color="green"))))
+if DGCs :
+    fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
+                                 high=gravestones["High"].values, low=gravestones["Low"].values,
+                                 close=gravestones["Close"].values, increasing=dict(line=dict(color="red")),
+                                 decreasing=dict(line=dict(color="red"))))
+
+    fig.add_trace(go.Candlestick( x=dragonflys["Date"].values, name="dragonflys", open=dragonflys["Open"].values,
+                                 high=dragonflys["High"].values, low=dragonflys["Low"].values,
+                                 close=dragonflys["Close"].values, increasing=dict(line=dict(color="green")),
+                                 decreasing=dict(line=dict(color="green"))))
+
 
 fig.update_layout(height=650, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date")
