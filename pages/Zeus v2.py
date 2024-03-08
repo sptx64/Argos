@@ -111,12 +111,12 @@ with st.expander("Plot options") :
     col1,col2,col3,col4 = st.columns(4)
     col1.write("Candles")
     c1,c2=col1.columns(2)
-    incr_candle_color = c1.color_picker("increasing candle", "#FFFFFF")
-    decr_candle_color = c2.color_picker("decreasing candle", "#8E8E8E")
+    incr_candle_color = c1.color_picker("incr. candle", "#FFFFFF")
+    decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E")
     col1.write("---")
 
     col2.write("Moving averages")
-    MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
+    MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display", label_visibility="collapsed")
     if len(MAs)>0 :
         show_ema = col2.toggle("Show EMA")
         c1,c2,c3 = col2.columns(3)
@@ -126,8 +126,8 @@ with st.expander("Plot options") :
         ma50_color=c1.color_picker("50MA", "#550092")
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
-
-    RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    
+    RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display", label_visibility="collapsed")
     AO=col3.toggle("Awesome oscillator")
     
     col4.write("Doji")
