@@ -235,7 +235,7 @@ if SMOM :
         linear = np.zeros(size)
         st.write(size)
         st.write(length)
-        range(length, size)
+        range(length)
         for i in range(length, size):
             sumX = 0.0
             sumY = 0.0
