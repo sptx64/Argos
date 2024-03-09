@@ -280,6 +280,7 @@ if SMOM :
     sqzOn  = (lowerBB.values > lowerKC.values) & (upperBB.values < upperKC.values)
     sqzOff = (lowerBB.values < lowerKC.values) & (upperBB.values > upperKC.values)
     noSqz  = (sqzOn == False) & (sqzOff == False)
+    [(x+y)/2 if (x>=0) & (y>=0) else 0 for x,y in zip(data["High"].rolling(window_kc).max().values, data["Low"].rolling(window_kc).min().values)],
     np.mean(data["High"].rolling(window_kc).max().values, data["Low"].rolling(window_kc).min().values)
     data["Mom"] = Linreg(source  -  mean(mean(data["High"].rolling(window_kc).max(), data["Low"].rolling(window_kc).min()), data["Close"].rolling(window_kc).mean()), window_kc, 0)
     
