@@ -116,7 +116,7 @@ with st.expander("Plot options") :
 
     
     col2.write("Moving averages")
-    MAs=col2.multiselect("Show moving averages", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display", label_visibility="collapsed")
+    MAs=col2.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
     if len(MAs)>0 :
         show_ema = col2.toggle("Show EMA")
         c1,c2,c3 = col2.columns(3)
@@ -127,30 +127,22 @@ with st.expander("Plot options") :
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
-    col2.write("Close SR")
     SR=col2.toggle("Close S/R")
     
-    col3.write("RSI")
-    RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display", label_visibility="collapsed")
-    col3.write("Volume")
+    RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
     VOL=col3.toggle("Volume")
-    col3.write("AO")
     AO=col3.toggle("Awesome oscillator")
+    SMOM=col3.toggle("Squeeze Mom Lazy Bear")
     
     
     col4.write("Doji")
     UHCs = col4.toggle("Hammer/umbrella")
     DGCs = col4.toggle("Dragonfly/Gravestone")
-    
 
 
 
-    
-    
 
 
-
-    
 subplot=0
 
 #compute
@@ -225,7 +217,85 @@ if SR :
     data['volume_color'] = float_to_rgba_jet(data['Volume'])
 
 
-
+if SMOM :
+    def np_shift(array: np.ndarray, offset: int = 1, fill_value=np.nan):
+        result = np.empty_like(array)
+        if offset > 0:
+            result[:offset] = fill_value
+            result[offset:] = array[:-offset]
+        elif offset < 0:
+            result[offset:] = fill_value
+            result[:offset] = array[-offset:]
+        else:
+            result[:] = array
+        return result
+    
+    def Linreg(source: np.ndarray, length: int, offset: int = 0):
+        size = len(source)
+        linear = np.zeros(size)
+    
+        for i in range(length, size):
+    
+            sumX = 0.0
+            sumY = 0.0
+            sumXSqr = 0.0
+            sumXY = 0.0
+    
+            for z in range(length):
+                val = source[i-z]
+                per = z + 1.0
+                sumX += per
+                sumY += val
+                sumXSqr += per * per
+                sumXY += val * per
+    
+            slope = (length * sumXY - sumX * sumY) / (length * sumXSqr - sumX * sumX)
+            average = sumY / length
+            intercept = average - slope * sumX / length + slope
+    
+            linear[i] = intercept
+    
+        if offset != 0:
+            linear = np_shift(linear, offset)
+            
+        return linear
+    
+    window, mult, window_kc, multKC = 20, 2.0, 20, 1.5
+    
+    # useTrueRange = input(true, title="Use TrueRange (KC)", type=bool)
+    
+    # Calculate BB
+    source = data["Close"]
+    basis = source.rolling(window).mean()
+    dev = multKC * source.rolling(window).std()
+    upperBB = basis + dev
+    lowerBB = basis - dev
+    
+    # Calculate KC
+    ma = source
+    range = data["High"] - data["Low"]
+    rangema = range.rolling(window_kc).mean()
+    upperKC = ma + rangema * multKC
+    lowerKC = ma - rangema * multKC
+    
+    sqzOn  = (lowerBB.values > lowerKC.values) & (upperBB.values < upperKC.values)
+    sqzOff = (lowerBB.values < lowerKC.values) & (upperBB.values > upperKC.values)
+    noSqz  = (sqzOn == False) & (sqzOff == False)
+    
+    data["Mom"] = Linreg(source  -  mean(mean(data["High"].rolling(lengthKC).max(), data["Low"].rolling(lengthKC).min()), data["Close"].rolling(lengthKC).mean()), lengthKC, 0)
+    
+    data["Squeeze"]="no sqz"
+    data.loc[sqzOff, "Squeeze"]="sqz off"
+    data.loc[sqzOn, "Squeeze"]="sqz on"
+    
+    data.loc[(data["Mom"].values <= data["Mom"].shift(1)), "bob_mom"]="Bearish"
+    data.loc[(data["Mom"].values > data["Mom"].shift(1)), "bob_mom"]="Bullish"
+    
+    
+    mom_rising_neg=data[(data["Mom"].values > data["Mom"].shift(1)) & (data["Mom"]<0)]
+    mom_rising_pos=data[(data["Mom"].values > data["Mom"].shift(1)) & data["Mom"]>=0]
+    mom_falling_pos=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]>=0]
+    mom_falling_neg=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]<0]
     
 
 
