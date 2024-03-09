@@ -263,7 +263,6 @@ if SMOM :
     window, mult, window_kc, multKC = 20, 2.0, 20, 1.5
     
     # useTrueRange = input(true, title="Use TrueRange (KC)", type=bool)
-    
     # Calculate BB
     source = data["Close"]
     basis = source.rolling(window).mean()
@@ -281,7 +280,7 @@ if SMOM :
     sqzOn  = (lowerBB.values > lowerKC.values) & (upperBB.values < upperKC.values)
     sqzOff = (lowerBB.values < lowerKC.values) & (upperBB.values > upperKC.values)
     noSqz  = (sqzOn == False) & (sqzOff == False)
-    np.mean(np.mean(data["High"].rolling(window_kc).max(), data["Low"].rolling(window_kc).min()), data["Close"].rolling(window_kc).mean())
+    np.mean(data["High"].rolling(window_kc).max().values, data["Low"].rolling(window_kc).min().values)
     data["Mom"] = Linreg(source  -  mean(mean(data["High"].rolling(window_kc).max(), data["Low"].rolling(window_kc).min()), data["Close"].rolling(window_kc).mean()), window_kc, 0)
     
     data["Squeeze"]="no sqz"
