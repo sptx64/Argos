@@ -233,7 +233,8 @@ if SMOM :
     def Linreg(source: np.ndarray, length: int, offset: int = 0):
         size = len(source)
         linear = np.zeros(size)
-    
+        st.write(size)
+        st.write(length)
         for i in range(length, size):
     
             sumX = 0.0
