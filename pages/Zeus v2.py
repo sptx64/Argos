@@ -132,7 +132,7 @@ with st.expander("Plot options") :
     RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
     VOL=col3.toggle("Volume")
     AO=col3.toggle("Awesome oscillator")
-    SMOM=col3.toggle("Squeeze Mom Lazy Bear")
+    SMOM=col3.toggle("Squeeze Mom Lazy Bear", disabled=True)
     
     
     col4.write("Doji")
@@ -233,8 +233,6 @@ if SMOM :
     def Linreg(source: np.ndarray, length: int, offset: int = 0):
         size = len(source)
         linear = np.zeros(size)
-        st.write(type(length))
-        st.write(type(size))
         for i in range(length, size):
             sumX = 0.0
             sumY = 0.0
@@ -284,7 +282,7 @@ if SMOM :
     mean_hl=[(x+y)/2 if (x>=0) & (y>=0) else 0 for x,y in zip(data["High"].rolling(window_kc).max().values, data["Low"].rolling(window_kc).min().values)]
     mean_hl_sma = [(x+y)/2 if (x>=0) & (y>=0) else 0 for x,y in zip(mean_hl, data["Close"].rolling(window_kc).mean())]
     
-    data["Mom"] = Linreg(source.values-mean_hl_sma, window_kc, 0)
+    data["Mom"] = Linreg((source.values-mean_hl_sma), window_kc, 0)
     
     data["Squeeze"]="no sqz"
     data.loc[sqzOff, "Squeeze"]="sqz off"
