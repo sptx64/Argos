@@ -41,11 +41,11 @@ def div(df, close, indicator, indicator_filter) :
 
 
     df_bottom = df[df['bot'].values == True]
-    df_bottom['bullish_div'] = False
+    df_bottom.loc[:, 'bullish_div'] = False
     df_bottom.loc[(df_bottom[indicator].values >= df_bottom[indicator].shift(1)) & (df_bottom[close] <= df_bottom[close].shift(1)), 'bullish_div'] = True
 
     df_top = df[df['top'].values == True]
-    df_top['bearish_div'] = False
+    df_top.loc[:, 'bearish_div'] = False
     df_top.loc[(df_top[indicator] <= df_top[indicator].shift(1)) & (df_top[close] >= df_top[close].shift(1)), 'bearish_div'] = True
     return df, df_bottom, df_top
 
@@ -292,11 +292,13 @@ if SMOM :
     data.loc[(data["Mom"].values > data["Mom"].shift(1)), "bob_mom"]="Bullish"
     
     
-    mom_rising_neg=data[(data["Mom"].values > data["Mom"].shift(1)) & (data["Mom"]<0)]
-    mom_rising_pos=data[(data["Mom"].values > data["Mom"].shift(1)) & data["Mom"]>=0]
-    mom_falling_pos=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]>=0]
-    mom_falling_neg=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]<0]
+    mom_neg_rising=data[(data["Mom"].values > data["Mom"].shift(1)) & (data["Mom"]<0)]
+    mom_pos_rising=data[(data["Mom"].values > data["Mom"].shift(1)) & data["Mom"]>=0]
+    mom_pos_falling=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]>=0]
+    mom_neg_falling=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]<0]
     
+    subplot+=1
+
 
 
 plotheight=700
@@ -418,8 +420,32 @@ if AO :
 
     plotheight+=subplotheight
     subplot_row+=1
+
+if SMOM :
+    for df, color in zip([mom_neg_rising, mom_pos_rising, mom_pos_falling, mom_neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
+        fig.add_trace(go.Bar(x=df["Date"].values, y=df["Mom"].values, name="Momentum", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
+    fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
     
-    
+    data, data_bottom, data_top = div(data, "Close", "Mom", "bob_mom")
+
+    for i in range(len(data_bottom)):
+        row = data_bottom.iloc[i]
+        prev_row = data_bottom.iloc[i-1]
+        if row['bullish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row['Mom'], prev_row['Mom']]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+
+    for i in range(len(data_top)):
+        row = data_top.iloc[i]
+        prev_row = data_top.iloc[i-1]
+        if row['bearish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row['Mom'], prev_row['Mom']]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+
+    plotheight+=subplotheight
+    subplot_row+=1
 
 fig.update_layout(height=800, template='simple_white', title_text=f"{ticker} daily")
 fig.update_xaxes(rangeslider_visible=False, title="Date", visible=False)
