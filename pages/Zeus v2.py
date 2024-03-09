@@ -281,7 +281,7 @@ if SMOM :
     sqzOn  = (lowerBB.values > lowerKC.values) & (upperBB.values < upperKC.values)
     sqzOff = (lowerBB.values < lowerKC.values) & (upperBB.values > upperKC.values)
     noSqz  = (sqzOn == False) & (sqzOff == False)
-    
+    mean(data["High"].rolling(lengthKC).max(), data["Low"].rolling(lengthKC).min())
     data["Mom"] = Linreg(source  -  mean(mean(data["High"].rolling(lengthKC).max(), data["Low"].rolling(lengthKC).min()), data["Close"].rolling(lengthKC).mean()), lengthKC, 0)
     
     data["Squeeze"]="no sqz"
