@@ -137,6 +137,7 @@ with col3.popover("Indicators", use_container_width=True) :
 with col4.popover("Doji", use_container_width=True) :
     UHCs = st.toggle("Hammer/umbrella")
     DGCs = st.toggle("Dragonfly/Gravestone")
+    tweez = st.toggle("Tweezer candles")
 
 
 
@@ -167,6 +168,28 @@ if UHCs or DGCs :
         hl_delta=umbrellas["High"].values-umbrellas["Low"].values
         dragonflys = umbrellas[np.abs(oc_delta)<(hl_delta*0.02)]
         
+if tweez :
+    high, low, open, close = data["High"].values, data["Low"].values, data["Open"].values, data["Close"].values
+    range = high-low
+    top,bot=[],[]
+    for i in range(len(high)) :
+        if i==0 :
+            top.append(False)
+            continue
+        val=(np.abs(high[i]-high[-1]) < range[i]*0.01) and (close[i] < open[i])
+        top.append(val)
+
+    for i in range(len(low)) :
+        if i==0 :
+            bot.append(False)
+            continue
+        val = np.abs(low[i]-low[-1]) < range[i]*0.01 and (close[i] > open[i])
+        bot.append(val)
+
+    data["tweezer top"],data["tweezer bot"]=top,bot
+    TT, TB = data[data["tweezer top"]], data[data["tweezer bot"]]
+    
+    
 
 
 #RSI
@@ -337,6 +360,17 @@ if DGCs :
                                  high=dragonflys["High"].values, low=dragonflys["Low"].values,
                                  close=dragonflys["Close"].values, increasing=dict(line=dict(color="lightseagreen", width=1)),
                                  decreasing=dict(line=dict(color="lightseagreen", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+if tweez :
+    fig.add_trace(go.Candlestick( x=TT["Date"].values, name="tweezer top", open=TT["Open"].values,
+                                 high=TT["High"].values, low=TT["Low"].values,
+                                 close=TT["Close"].values, increasing=dict(line=dict(color="orange", width=1)),
+                                 decreasing=dict(line=dict(color="orange", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    
+    fig.add_trace(go.Candlestick( x=TB["Date"].values, name="tweezer bot", open=TB["Open"].values,
+                                 high=TB["High"].values, low=TB["Low"].values,
+                                 close=TB["Close"].values, increasing=dict(line=dict(color="cyan", width=1)),
+                                 decreasing=dict(line=dict(color="cyan", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 if SR :
     for i in range(len(data)) :
