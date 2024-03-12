@@ -107,13 +107,13 @@ data = data.tail(days)
 
 
 col1,col2,col3,col4 = st.columns(4)
-with col1.popover("Candles") :
+with col1.popover("Candles", use_container_width=True) :
     c1,c2=st.columns(2)
     incr_candle_color = c1.color_picker("incr. candle", "#FFFFFF")
     decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E")
 
     
-with col2.popover("Moving averages") :
+with col2.popover("Moving averages", use_container_width=True) :
     MAs=st.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
     if len(MAs)>0 :
         show_ema = st.toggle("Show EMA")
@@ -125,17 +125,17 @@ with col2.popover("Moving averages") :
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
-SR=col2.toggle("Close S/R")
+with col3.popover("Indicators", use_container_width=True) :
+    SR=st.toggle("Close S/R")
+    RSIs=st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    VOL=st.toggle("Volume")
+    AO=st.toggle("Awesome oscillator")
+    SMOM=st.toggle("Squeeze Mom Lazy Bear", disabled=True)
     
-RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-VOL=col3.toggle("Volume")
-AO=col3.toggle("Awesome oscillator")
-MOM=col3.toggle("Squeeze Mom Lazy Bear", disabled=True)
     
-    
-col4.write("Doji")
-UHCs = col4.toggle("Hammer/umbrella")
-DGCs = col4.toggle("Dragonfly/Gravestone")
+with col4.popover("Doji", use_container_width=True) :
+    UHCs = st.toggle("Hammer/umbrella")
+    DGCs = st.toggle("Dragonfly/Gravestone")
 
 
 
