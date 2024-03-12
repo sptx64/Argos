@@ -126,11 +126,12 @@ with col2.popover("Moving averages", use_container_width=True) :
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
 with col3.popover("Indicators", use_container_width=True) :
-    SR=st.toggle("Close S/R")
     RSIs=st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-    VOL=st.toggle("Volume")
-    AO=st.toggle("Awesome oscillator")
-    SMOM=st.toggle("Squeeze Mom Lazy Bear", disabled=True)
+    c1,c2=st.columns(2)
+    SR=c1.toggle("S/R")
+    VOL=c2.toggle("Volume")
+    AO=c1.toggle("AO")
+    SMOM=c2.toggle("Squeeze Mom Lazy Bear", disabled=True)
     
     
 with col4.popover("Doji", use_container_width=True) :
