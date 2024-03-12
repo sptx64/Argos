@@ -292,9 +292,9 @@ if SMOM :
     
     
     mom_neg_rising=data[(data["bob_mom"].values == "Bullish") & (data["Mom"]<0)]
-    mom_pos_rising=data[(data["bob_mom"].values == "Bullish")  & data["Mom"]>=0]
-    mom_pos_falling=data[(data["bob_mom"].values == "Bearish")  & data["Mom"]>=0]
-    mom_neg_falling=data[(data["bob_mom"].values == "Bearish")  & data["Mom"]<0]
+    mom_pos_rising=data[(data["bob_mom"].values == "Bullish")  & (data["Mom"]>=0)]
+    mom_pos_falling=data[(data["bob_mom"].values == "Bearish")  & (data["Mom"]>=0)]
+    mom_neg_falling=data[(data["bob_mom"].values == "Bearish")  & (data["Mom"]<0)]
     
     subplot+=1
 
