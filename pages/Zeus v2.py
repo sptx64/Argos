@@ -421,7 +421,7 @@ if AO :
     subplot_row+=1
 
 if SMOM :
-    for df, color in zip([mom_neg_rising, mom_pos_rising, mom_pos_falling, mom_neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
+    for df, color in zip([mom_neg_rising, mom_pos_rising, mom_pos_falling, mom_neg_falling],["darkred", "palegreen", "lightseagreen", "red"]) :
         fig.add_trace(go.Bar(x=df["Date"].values, y=df["Mom"].values, name="Momentum", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
     fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
     
