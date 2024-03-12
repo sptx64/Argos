@@ -232,6 +232,12 @@ if SMOM :
     def Linreg(source, length, offset: int = 0):
         size = len(source)
         linear = np.zeros(size)
+        st.write("size")
+        st.write("linear")
+        st.write("length")
+        for i in range(length, size) :
+            st.write("test")
+        
         for i in range(length, size):
             sumX = 0.0
             sumY = 0.0
