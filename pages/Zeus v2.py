@@ -2,7 +2,6 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 import os
-import sqlite3
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
@@ -107,19 +106,18 @@ days = st.sidebar.slider("days to load", 2, data_len, 2000 if data_len>2000 else
 data = data.tail(days)
 
 
-with st.expander("Plot options") :
-    col1,col2,col3,col4 = st.columns(4)
-    col1.write("Candles")
-    c1,c2=col1.columns(2)
+col1,col2,col3,col4 = st.columns(4)
+with col1.popover("Candles") :
+    c1,c2=st.columns(2)
     incr_candle_color = c1.color_picker("incr. candle", "#FFFFFF")
     decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E")
 
     
-    col2.write("Moving averages")
-    MAs=col2.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
+with col2.popover("Moving averages") :
+    MAs=st.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
     if len(MAs)>0 :
-        show_ema = col2.toggle("Show EMA")
-        c1,c2,c3 = col2.columns(3)
+        show_ema = st.toggle("Show EMA")
+        c1,c2,c3 = st.columns(3)
         ma6_color=c1.color_picker("6MA", "#00FFFB")
         ma14_color=c2.color_picker("14MA", "#FFA200")
         ma20_color=c3.color_picker("20MA", "#E400DF")
@@ -127,17 +125,17 @@ with st.expander("Plot options") :
         ma200_color=c2.color_picker("200MA", "#0009FF")
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
-    SR=col2.toggle("Close S/R")
+SR=col2.toggle("Close S/R")
     
-    RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-    VOL=col3.toggle("Volume")
-    AO=col3.toggle("Awesome oscillator")
-    SMOM=col3.toggle("Squeeze Mom Lazy Bear", disabled=True)
+RSIs=col3.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+VOL=col3.toggle("Volume")
+AO=col3.toggle("Awesome oscillator")
+MOM=col3.toggle("Squeeze Mom Lazy Bear", disabled=True)
     
     
-    col4.write("Doji")
-    UHCs = col4.toggle("Hammer/umbrella")
-    DGCs = col4.toggle("Dragonfly/Gravestone")
+col4.write("Doji")
+UHCs = col4.toggle("Hammer/umbrella")
+DGCs = col4.toggle("Dragonfly/Gravestone")
 
 
 
