@@ -235,7 +235,7 @@ if SMOM :
         st.write(size)
         st.write(linear)
         st.write(length)
-        for i in range(length, size) :
+        for i in range(20, 500) :
             st.write("test")
         
         for i in range(length, size):
