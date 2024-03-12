@@ -131,7 +131,7 @@ with col3.popover("Indicators", use_container_width=True) :
     SR=c1.toggle("S/R")
     VOL=c2.toggle("Volume")
     AO=c1.toggle("AO")
-    SMOM=c2.toggle("Squeeze Mom Lazy Bear", disabled=True)
+    SMOM=c2.toggle("Squeeze Mom Lazy Bear")
     
     
 with col4.popover("Doji", use_container_width=True) :
@@ -281,7 +281,7 @@ if SMOM :
     mean_hl=[(x+y)/2 if (x>=0) & (y>=0) else 0 for x,y in zip(data["High"].rolling(window_kc).max().values, data["Low"].rolling(window_kc).min().values)]
     mean_hl_sma = [(x+y)/2 if (x>=0) & (y>=0) else 0 for x,y in zip(mean_hl, data["Close"].rolling(window_kc).mean())]
     
-    data["Mom"] = Linreg((source.values-mean_hl_sma), window_kc, 0)
+    data["Mom"] = Linreg(np.array((source.values-mean_hl_sma)), window_kc, 0)
     
     data["Squeeze"]="no sqz"
     data.loc[sqzOff, "Squeeze"]="sqz off"
