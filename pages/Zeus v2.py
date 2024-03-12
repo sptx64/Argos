@@ -415,8 +415,7 @@ if len(RSIs) > 0 :
             if row['bullish_div'] == True :
                 x = [row['Date'], prev_row['Date']]
                 y = [row[rs], prev_row[rs]]
-                if y[0] < 0 :
-                    fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+                fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
     
         for i in range(len(data_top)):
             row = data_top.iloc[i]
@@ -424,8 +423,7 @@ if len(RSIs) > 0 :
             if row['bearish_div'] == True :
                 x = [row['Date'], prev_row['Date']]
                 y = [row[rs], prev_row[rs]]
-                if y[0] > 0 :
-                    fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+                fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
 
 
 
@@ -483,7 +481,8 @@ if SMOM :
         if row['bullish_div'] == True :
             x = [row['Date'], prev_row['Date']]
             y = [row['Mom'], prev_row['Mom']]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+            if y[0] < 0 :
+                fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
 
     for i in range(len(data_top)):
         row = data_top.iloc[i]
@@ -491,7 +490,8 @@ if SMOM :
         if row['bearish_div'] == True :
             x = [row['Date'], prev_row['Date']]
             y = [row['Mom'], prev_row['Mom']]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+            if y[0] > 0 :
+                fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
 
     plotheight+=subplotheight
     subplot_row+=1
