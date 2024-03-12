@@ -275,8 +275,8 @@ if SMOM :
     
     # Calculate KC
     ma = source
-    range = data["High"] - data["Low"]
-    rangema = range.rolling(window_kc).mean()
+    rnge = data["High"] - data["Low"]
+    rangema = rnge.rolling(window_kc).mean()
     upperKC = ma + rangema * multKC
     lowerKC = ma - rangema * multKC
     
