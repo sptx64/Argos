@@ -346,21 +346,28 @@ if UHCs :
                                  high=hammers["High"].values, low=hammers["Low"].values,
                                  close=hammers["Close"].values, increasing=dict(line=dict(color="gold", width=0.5)),
                                  decreasing=dict(line=dict(color="gold", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=hammers["Date"].values, y=hammers["High"].values, mode='text', text="H", textposition="top center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
     fig.add_trace(go.Candlestick( x=umbrellas["Date"].values, name="umbrellas", open=umbrellas["Open"].values,
                                  high=umbrellas["High"].values, low=umbrellas["Low"].values,
                                  close=umbrellas["Close"].values, increasing=dict(line=dict(color="blue", width=0.5)),
                                  decreasing=dict(line=dict(color="blue", width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=umbrellas["Date"].values, y=umbrellas["Low"].values, mode='text', text="U", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
 if DGCs :
     fig.add_trace(go.Candlestick( x=gravestones["Date"].values, name="gravestones", open=gravestones["Open"].values,
                                  high=gravestones["High"].values, low=gravestones["Low"].values,
                                  close=gravestones["Close"].values, increasing=dict(line=dict(color="red", width=1)),
                                  decreasing=dict(line=dict(color="red", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=gravestones["Date"].values, y=gravestones["High"].values, mode='text', text="GS", textposition="top center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
+    
     fig.add_trace(go.Candlestick( x=dragonflys["Date"].values, name="dragonflys", open=dragonflys["Open"].values,
                                  high=dragonflys["High"].values, low=dragonflys["Low"].values,
                                  close=dragonflys["Close"].values, increasing=dict(line=dict(color="lightseagreen", width=1)),
                                  decreasing=dict(line=dict(color="lightseagreen", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=dragonflys["Date"].values, y=dragonflys["Low"].values, mode='text', text="DF", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
 
 if tweez :
     fig.add_trace(go.Candlestick( x=TT["Date"].values, name="tweezer top", open=TT["Open"].values,
@@ -375,6 +382,7 @@ if tweez :
                                  high=TB["High"].values, low=TB["Low"].values,
                                  close=TB["Close"].values, increasing=dict(line=dict(color="cyan", width=1)),
                                  decreasing=dict(line=dict(color="cyan", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=TB["Date"].values, y=TB["Low"].values, mode='text', text="TBot", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 if SR :
     for i in range(len(data)) :
