@@ -290,11 +290,11 @@ if SMOM :
     data.loc[(data["Mom"].values <= data["Mom"].shift(1)), "bob_mom"]="Bearish"
     data.loc[(data["Mom"].values > data["Mom"].shift(1)), "bob_mom"]="Bullish"
     
-    data
-    mom_neg_rising=data[(data["Mom"].values > data["Mom"].shift(1)) & (data["Mom"]<0)]
-    mom_pos_rising=data[(data["Mom"].values > data["Mom"].shift(1)) & data["Mom"]>=0]
-    mom_pos_falling=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]>=0]
-    mom_neg_falling=data[(data["Mom"].values <= data["Mom"].shift(1)) & data["Mom"]<0]
+    
+    mom_neg_rising=data[(data["bob_mom"].values == "Bullish") & (data["Mom"]<0)]
+    mom_pos_rising=data[(data["bob_mom"].values == "Bullish")  & data["Mom"]>=0]
+    mom_pos_falling=data[(data["bob_mom"].values == "Bearish")  & data["Mom"]>=0]
+    mom_neg_falling=data[(data["bob_mom"].values == "Bearish")  & data["Mom"]<0]
     
     subplot+=1
 
