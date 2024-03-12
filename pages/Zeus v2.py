@@ -229,7 +229,7 @@ if SMOM :
             result[:] = array
         return result
     
-    def Linreg(source: np.ndarray, length: int, offset: int = 0):
+    def Linreg(source, length, offset: int = 0):
         size = len(source)
         linear = np.zeros(size)
         for i in range(length, size):
