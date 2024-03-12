@@ -170,20 +170,20 @@ if UHCs or DGCs :
         
 if tweez :
     high, low, open, close = data["High"].values, data["Low"].values, data["Open"].values, data["Close"].values
-    range = high-low
+    rnge = high-low
     top,bot=[],[]
     for i in range(len(high)) :
         if i==0 :
             top.append(False)
             continue
-        val=(np.abs(high[i]-high[-1]) < range[i]*0.01) and (close[i] < open[i])
+        val=(np.abs(high[i]-high[-1]) < rnge[i]*0.01) and (close[i] < open[i])
         top.append(val)
 
     for i in range(len(low)) :
         if i==0 :
             bot.append(False)
             continue
-        val = np.abs(low[i]-low[-1]) < range[i]*0.01 and (close[i] > open[i])
+        val = np.abs(low[i]-low[-1]) < rnge[i]*0.01 and (close[i] > open[i])
         bot.append(val)
 
     data["tweezer top"],data["tweezer bot"]=top,bot
