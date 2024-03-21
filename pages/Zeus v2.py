@@ -382,7 +382,7 @@ if tweez :
     fig.add_trace(go.Candlestick( x=TT["Date"].values, name="tweezer top", open=TT["Open"].values,
                                  high=TT["High"].values, low=TT["Low"].values,
                                  close=TT["Close"].values, increasing=dict(line=dict(color="PapayaWhip", width=1)),
-                                 decreasing=dict(line=dict(color="orange", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 decreasing=dict(line=dict(color="PapayaWhip", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=TT["Date"].values, y=TT["High"].values, mode='text', text="TT", textposition="top center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
     fig.add_trace(go.Candlestick( x=TT_conf["Date"].values, name="tweezer top", open=TT_conf["Open"].values,
@@ -400,7 +400,7 @@ if tweez :
     fig.add_trace(go.Candlestick( x=TB_conf["Date"].values, name="tweezer bot", open=TB_conf["Open"].values,
                                  high=TB_conf["High"].values, low=TB_conf["Low"].values,
                                  close=TB_conf["Close"].values, increasing=dict(line=dict(color="RoyalBlue", width=1)),
-                                 decreasing=dict(line=dict(color="cyan", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                                 decreasing=dict(line=dict(color="RoyalBlue", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=TB_conf["Date"].values, y=TB_conf["Low"].values, mode='text', text="TBC", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
