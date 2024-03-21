@@ -381,7 +381,7 @@ if tweez :
     
     fig.add_trace(go.Candlestick( x=TT["Date"].values, name="tweezer top", open=TT["Open"].values,
                                  high=TT["High"].values, low=TT["Low"].values,
-                                 close=TT["Close"].values, increasing=dict(line=dict(color="SandyBrown", width=1)),
+                                 close=TT["Close"].values, increasing=dict(line=dict(color="PapayaWhip", width=1)),
                                  decreasing=dict(line=dict(color="orange", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=TT["Date"].values, y=TT["High"].values, mode='text', text="TT", textposition="top center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
