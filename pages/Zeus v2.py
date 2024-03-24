@@ -407,7 +407,7 @@ if tweez :
 if SR :
     for i in range(len(data)) :
         row = data.iloc[i]
-        fig.add_trace(go.Scatter(x=[row['Date'], data.iloc[-1]['Date']], y=[row['Close'], row['Close']], mode='lines', line_width=0.1, line_color=row['volume_color'], showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+        fig.add_trace(go.Scatter(x=[row['Date'], data.iloc[-1]['Date']], y=[row['Close'], row['Close']], mode='lines', line_width=0.5, line_color=row['volume_color'], showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
 
