@@ -96,15 +96,11 @@ if update :
         my_bar = st.progress(0., "SP500 updating datas")
         tickers = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
         tickers=tickers['Symbol'].values
-        tickers_PA=pd.read_csv("PA_tickers/Euronext.csv")
-        tickers_PA=tickers_PA["Symbol"].values
-
-        try :
-            tickers_PA=pd.read_csv("PA_tickers/Euronext.csv")["Symbol"].values
+        if os.path.exists("PA_tickers/Euronext.csv") :
+            tickers_PA=pd.read_csv("PA_tickers/Euronext.csv")
+            tickers_PA=tickers_PA["Symbol"].values
             tickers = list(tickers) + list(tickers_PA)
-        except :
-            pass
-
+        
         col1, col2, col3 = st.columns(3)
         #read lines from csv tickers
 
