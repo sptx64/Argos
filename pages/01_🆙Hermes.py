@@ -98,7 +98,7 @@ if update :
         tickers=tickers['Symbol'].values
         if os.path.exists("PA_tickers/Euronext.csv") :
             tickers_PA=pd.read_csv("PA_tickers/Euronext.csv")
-            tickers_PA=tickers_PA["Symbol"].values
+            tickers_PA=tickers_PA["Ticker"].values
             tickers = list(tickers) + list(tickers_PA)
         
         col1, col2, col3 = st.columns(3)
