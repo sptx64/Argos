@@ -97,8 +97,8 @@ if update :
         tickers = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
         tickers=tickers['Symbol'].values
         if os.path.exists("PA_tickers/Euronext.csv") :
-            tickers_PA=pd.read_csv("PA_tickers/Euronext.csv")
-            tickers_PA=tickers_PA["Ticker"].values
+            tickers_PA=pd.read_csv("PA_tickers/Euronext.csv")["Ticker"].values
+            tickers_PA=[x for x in tickers_PA if x.endswith(".PA")]
             tickers = list(tickers) + list(tickers_PA)
         
         col1, col2, col3 = st.columns(3)
