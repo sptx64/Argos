@@ -437,8 +437,8 @@ if SR :
 if DOT :
     fig.add_trace(go.Scatter(x=data[data['sentiment']=='bearish']["Date"], y=data[data['sentiment']=='bearish']["dot_y"], name="bear-dot", mode="markers", marker_color='red'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data[data['sentiment']=='bullish']["Date"], y=data[data['sentiment']=='bullish']["dot_y"], name="bull-dot", mode="markers", marker_color='green', marker_size=8), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-    fig.add_trace(go.Scatter(x=data["Date"], y=data['trendline'], name="20d ema", mode='lines', line_width=1, line_color='yellow'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-    fig.add_trace(go.Scatter(x=data["Date"], y=data['dot'], name="20(20d ema) ema", mode='lines', line_width=1, line_color='dodgerblue'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"], y=data['trendline'], name="trendline (20(20d ema) ema)", mode='lines', line_width=1, line_color='yellow'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"], y=data['dot'], name="20d ema", mode='lines', line_width=1, line_color='dodgerblue'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 subplot_row = 2
 if VOL:
