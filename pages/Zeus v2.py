@@ -132,7 +132,7 @@ with col3.popover("Indicators", use_container_width=True) :
     VOL=c2.toggle("Volume")
     AO=c1.toggle("AO")
     SMOM=c2.toggle("Squeeze Mom Lazy Bear")
-    DOTS=c1.toggle("Dots trend streategy")
+    DOT=c1.toggle("Dots trend streategy")
     
     
 with col4.popover("Doji", use_container_width=True) :
