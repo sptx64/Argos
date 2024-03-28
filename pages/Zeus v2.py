@@ -355,7 +355,7 @@ if DOT :
     color_dict = {1:'green', -1:'red'}
     
 
-plotheight=600
+plotheight=700
 subplotheight=200
 #plot
 if subplot>0 :
