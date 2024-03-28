@@ -341,7 +341,10 @@ if DOT :
     # Determine trend based on "dot" and "trendline" indicators
     data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'bullish'
     data.loc[data["dot"] < data["trendline"], 'sentiment'] = 'bearish'
-    data.loc[ (data["rsi"] > 40) & (data["rsi"] < 60) , "sentiment"] = np.nan
+    if "RSI14" not in data :
+        data["RSI14"] = RSI(data, 14)
+    
+    data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = np.nan
     
     data.loc[data["sentiment"]=='bullish', 'dot_y'] = data['Low']
     data.loc[data["sentiment"]=='bearish', 'dot_y'] = data['High']
@@ -351,9 +354,6 @@ if DOT :
     
     color_dict = {1:'green', -1:'red'}
     
-    # data_bear_dot = data[data['sentiment']=='bearish']
-    # data_bull_dot = data[data['sentiment']=='bullish']
-
 
 plotheight=600
 subplotheight=200
