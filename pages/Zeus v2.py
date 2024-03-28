@@ -132,6 +132,7 @@ with col3.popover("Indicators", use_container_width=True) :
     VOL=c2.toggle("Volume")
     AO=c1.toggle("AO")
     SMOM=c2.toggle("Squeeze Mom Lazy Bear")
+    DOTS=c1.toggle("Dots trend streategy")
     
     
 with col4.popover("Doji", use_container_width=True) :
@@ -328,10 +329,34 @@ if SMOM :
     
     subplot+=1
 
+if DOT :
+    # Calculate Dot
+    # Calculate "dot" and "trendline" indicators
+    data["dot"] = data["Close"].ewm(span=window, adjust=False).mean()
+    data["trendline"] = data["Close"].ewm(span=window, adjust=False).mean().ewm(span=window, adjust=False).mean()
+    if "ao" not in data :
+        data['ao'] = ao(data)
+        data['bob_ao'] = bob_ao(data)
+
+    # Determine trend based on "dot" and "trendline" indicators
+    data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'bullish'
+    data.loc[data["dot"] < data["trendline"], 'sentiment'] = 'bearish'
+    data.loc[ (data["rsi"] > 40) & (data["rsi"] < 60) , "sentiment"] = np.nan
+    
+    data.loc[data["sentiment"]=='bullish', 'dot_y'] = data['Low']
+    data.loc[data["sentiment"]=='bearish', 'dot_y'] = data['High']
+    
+    data.loc[data['dot'] == 1, 'dot_y'] = data['Low']
+    data.loc[data['dot'] == -1, 'dot_y'] = data['High']
+    
+    color_dict = {1:'green', -1:'red'}
+    
+    # data_bear_dot = data[data['sentiment']=='bearish']
+    # data_bull_dot = data[data['sentiment']=='bullish']
 
 
-plotheight=700
-subplotheight=170
+plotheight=600
+subplotheight=200
 #plot
 if subplot>0 :
     heights=[0.7 if subplot<=2 else 0.6]
@@ -409,7 +434,11 @@ if SR :
         row = data.iloc[i]
         fig.add_trace(go.Scatter(x=[row['Date'], data.iloc[-1]['Date']], y=[row['Close'], row['Close']], mode='lines', line_width=1, line_color=row['volume_color'], showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
-
+if DOT :
+    fig.add_trace(go.Scatter(x=data[data['sentiment']=='bearish']["Date"], y=data[data['sentiment']=='bearish']["dot_y"], name="bear-dot", mode="markers", marker_color='red'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data[data['sentiment']=='bullish']["Date"], y=data[data['sentiment']=='bullish']["dot_y"], name="bull-dot", mode="markers", marker_color='green', marker_size=8), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"], y=data['trendline'], name="20d ema", mode='lines', line_width=1, line_color='yellow'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"], y=data['dot'], name="20(20d ema) ema", mode='lines', line_width=1, line_color='dodgerblue'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 subplot_row = 2
 if VOL:
