@@ -212,7 +212,7 @@ if len(RSIs) > 0 :
 if AO or bind :
     data["ao"] = ao(data)
     data["bob_ao"] = bob_ao(data)
-    subplot+=1
+    subplot+=1 if AO else 0
     neg_rising=data[(data["bob_ao"].values=="Bullish") & (data["ao"].values<=0)]
     pos_rising=data[(data["bob_ao"].values=="Bullish") & (data["ao"].values>0)]
     pos_falling=data[(data["bob_ao"].values=="Bearish") & (data["ao"].values>0)]
@@ -328,7 +328,7 @@ if SMOM or bind :
     mom_pos_falling=data[(data["bob_mom"].values == "Bearish")  & (data["Mom"]>=0)]
     mom_neg_falling=data[(data["bob_mom"].values == "Bearish")  & (data["Mom"]<0)]
     
-    subplot+=1
+    subplot+=1 if SMOM else 0
 
 if DOT :
     # Calculate Dot
