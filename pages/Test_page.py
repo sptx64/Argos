@@ -504,6 +504,7 @@ if bind :
     fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='limegreen', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data["Date"], y=data["trend_bind1"], mode='lines', marker_color='orange', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data["Date"], y=data["trend_bind2"], mode='lines', marker_color='orange', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"], y=data["bind"], mode='lines', marker_color='orange', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
 if AO :
