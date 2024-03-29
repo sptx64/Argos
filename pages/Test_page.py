@@ -491,13 +491,13 @@ if len(RSIs) > 0 :
     subplot_row+=1
 
 if bind :
-    d=20
+    d=14
     data["MACD"] = data["Close"].ewm(span=12, adjust=False).mean() - data["Close"].ewm(span=26, adjust=False).mean()
     data["MACD_diff"] = data["MACD"]-data["MACD"].ewm(span=9, adjust=False).mean()
     
     data["bind"] = ( (data["ao"]/data["ao"].max()) + (data["Mom"]/data["Mom"].max()) + (data["MACD_diff"]/data["MACD_diff"].max()) )/3
     data["bind"]=data["bind"].ewm(span=d, adjust=False).mean()
-    data["trend_bind"] = data["Close"].ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean()
+    data["trend_bind"] = data["Close"].ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean()
     data_bull_bind = data[data["bind"]>data["bind"].shift(1)]
     data_bear_bind = data[data["bind"]<data["bind"].shift(1)]
     fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='limegreen', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
