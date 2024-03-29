@@ -499,8 +499,8 @@ if bind :
     data["bind"]=data["bind"].ewm(span=d, adjust=False).mean()
     data_bull_bind = data[(data["bind"]>data["bind"].shift(1)) & (data["bind"]>0)]
     data_bear_bind = data[(data["bind"]<data["bind"].shift(1))]
-    fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='yellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-    fig.add_trace(go.Scatter(x=data_bear_bind["Date"], y=data_bear_bind["High"], mode='markers', marker_color='deeppink', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data_bear_bind["Date"], y=data_bear_bind["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
 
