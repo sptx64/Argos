@@ -491,7 +491,7 @@ if len(RSIs) > 0 :
     subplot_row+=1
 
 if bind :
-    d=14
+    d=9
     data["MACD"] = data["Close"].ewm(span=12, adjust=False).mean() - data["Close"].ewm(span=26, adjust=False).mean()
     data["MACD_diff"] = data["MACD"]-data["MACD"].ewm(span=9, adjust=False).mean()
     
