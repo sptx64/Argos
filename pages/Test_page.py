@@ -491,7 +491,7 @@ if len(RSIs) > 0 :
     subplot_row+=1
 
 if bind :
-    d=20
+    d=3
     data["bind"] = ((data["ao"]/data["ao"].max()) + (data["Mom"]/data["Mom"].max()))/2
     data["bind"]=data["bind"].ewm(span=d, adjust=False).mean()
     data["trend_bind"] = (data["High"].ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean() + data["Low"].ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean())/2
