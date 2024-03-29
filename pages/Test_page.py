@@ -491,10 +491,10 @@ if len(RSIs) > 0 :
     subplot_row+=1
 
 if bind :
-    d=3
+    d=14
     data["bind"] = ((data["ao"]/data["ao"].max()) + (data["Mom"]/data["Mom"].max()))/2
     data["bind"]=data["bind"].ewm(span=d, adjust=False).mean()
-    data["trend_bind"] = (data["High"].ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean() + data["Low"].ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean())/2
+    data["trend_bind"] = ((data["High"] + data["Low"])/2).ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean()
     data_bull_bind = data[data["bind"]>data["bind"].shift(1)]
     data_bear_bind = data[data["bind"]<data["bind"].shift(1)]
     fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='limegreen', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
