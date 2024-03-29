@@ -492,7 +492,10 @@ if len(RSIs) > 0 :
 
 if bind :
     d=14
-    data["bind"] = ((data["ao"]/data["ao"].max()) + (data["Mom"]/data["Mom"].max()))/2
+    data["MACD"] = data["Close"].ewm(span=12, adjust=False).mean() - data["Close"].ewm(span=26, adjust=False).mean()
+    data["MACD_diff"] = data["MACD"]-data["MACD"].ewm(span=9, adjust=False).mean()
+    
+    data["bind"] = ( (data["ao"]/data["ao"].max()) + (data["Mom"]/data["Mom"].max()) + (data["MACD_diff"]/data["MACD_diff"].max()) )/3
     data["bind"]=data["bind"].ewm(span=d, adjust=False).mean()
     data["trend_bind"] = ((data["High"] + data["Low"])/2).ewm(span=d, adjust=False).mean().ewm(span=d, adjust=False).mean()
     data_bull_bind = data[data["bind"]>data["bind"].shift(1)]
