@@ -494,7 +494,7 @@ if bind :
     data["bind"] = ((data["ao"]/data["ao"].max()) + (data["Mom"]/data["Mom"].max()))/2
     data_bull_bind = data[data["bind"]>data["bind"].shift(1)]
     data_bear_bind = data[data["bind"]<data["bind"].shift(1)]
-    fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='limegreen', marker_symbol="triangle-up", showlegend=False), col=1, row=1)
+    fig.add_trace(go.Scatter(x=data_bull_bind["Date"], y=data_bull_bind["Low"], mode='markers', marker_color='limegreen', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 if AO :
     for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
