@@ -502,7 +502,8 @@ if bind :
     fig.add_trace(go.Scatter(x=data_bull_tick["Date"], y=data_bull_tick["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data_bear_tick["Date"], y=data_bear_tick["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     data
-    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["tick"].values, mode="lines", name="wick", line_color="Blue"), col=1, row=subplot_row)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["tick"].values, mode="lines", name="wick", line_color="yellow", line_width=1), col=1, row=subplot_row)
+    fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
 
     
     plotheight+=subplotheight
