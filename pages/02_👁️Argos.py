@@ -24,25 +24,30 @@ if market == "crypto" :
 path = path + "/"
 '---'
 c1, c2, c3 = st.columns(3)
-with c1.popover("RSI") :
+with c1.popover("RSI", use_container_width=True) :
     cl1, cl2 = st.columns(2)
     ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.checkbox('Under rsi')
     ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10) if ab_rsi else None
     un_rsi_number = st.slider('under rsi', 0, 100, 10, 10) if un_rsi else None
+
+with c2.popover("Candlesticks", use_container_width=True) :
+    cl1, cl2 = st.columns(2)
+    twz = cl1.checkbox('Tweezer')
+    um_ham = cl2.checkbox('umbrella/hammer')
+    umbrella_or_hammer = cl2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
+    twz_type = st.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
 
 col1, col2, col3, col4, col5 = st.columns(5)
 # ab_rsi, un_rsi = col1.checkbox('Above rsi'), col2.checkbox('Under rsi')
 # ab_rsi_number = col1.slider('rsi >', 0, 100, 90, 10) if ab_rsi else None
 # un_rsi_number = col2.slider('rsi <', 0, 100, 10, 10) if un_rsi else None
 
-sqz, twz = col3.checkbox('Squeeze'), col4.checkbox('Tweezer')
-twz_type = col4.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
+sqz = col3.checkbox('Squeeze')
 
 bbands = col1.checkbox('BB')
 above_under_bb = col1.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
 
-um_ham, um_ham_mean = col2.checkbox('umbrella/hammer'), col3.checkbox('um_ham_mean')
-umbrella_or_hammer = col2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
+um_ham_mean = col3.checkbox('um_ham_mean')
 um_ham_mean_kind = col3.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
 
 touching_ma20, divergence = col4.checkbox('touching SMA20'), col5.checkbox('divergences')
