@@ -32,7 +32,7 @@ with c1.popover("RSI", use_container_width=True) :
 
 with c2.popover("Candlesticks", use_container_width=True) :
     cl1, cl2 = st.columns(2)
-    twz = cl1.checkbox('Tweezer')
+    twz = cl1.checkbox('Tweezer', help="Warning, code to update")
     um_ham = cl2.checkbox('umbrella/hammer')
     umbrella_or_hammer = cl2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
     twz_type = cl1.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
