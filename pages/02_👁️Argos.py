@@ -103,7 +103,7 @@ if go :
             if twz :
                 count+=1
                 if twz_type == 'bearish' :
-                    twz_result = ta.(data, range_accept = 0.1/100, percent_retrace = 0.33/100)
+                    twz_result = ta.check_twz_bear(data, range_accept = 0.1/100, percent_retrace = 0.33/100)
                     df_check.loc[df_check['ta_ref'] == 'tweezer', 'result'] = twz_result
                 elif twz_type == 'bullish' :
                     twz_result = ta.check_twz_bull(data, range_accept = 0.1/100, percent_retrace = 0.33/100)
