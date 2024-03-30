@@ -26,35 +26,30 @@ path = path + "/"
 c1, c2, c3 = st.columns(3)
 with c1.popover("RSI", use_container_width=True) :
     cl1, cl2 = st.columns(2)
-    ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.checkbox('Under rsi')
+    ab_rsi, un_rsi = cl1.toggle('Above rsi'), cl2.toggle('Under rsi')
     ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10) if ab_rsi else None
     un_rsi_number = st.slider('under rsi', 0, 100, 10, 10) if un_rsi else None
 
 with c2.popover("Candlesticks", use_container_width=True) :
     cl1, cl2 = st.columns(2)
-    twz = cl1.checkbox('Tweezer')
-    um_ham = cl2.checkbox('umbrella/hammer')
+    twz = cl1.toggle('Tweezer')
+    um_ham = cl2.toggle('umbrella/hammer')
     umbrella_or_hammer = cl2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
-    twz_type = st.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
+    twz_type = cl1.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
 
-col1, col2, col3, col4, col5 = st.columns(5)
-# ab_rsi, un_rsi = col1.checkbox('Above rsi'), col2.checkbox('Under rsi')
-# ab_rsi_number = col1.slider('rsi >', 0, 100, 90, 10) if ab_rsi else None
-# un_rsi_number = col2.slider('rsi <', 0, 100, 10, 10) if un_rsi else None
+with c3.popover("Indicators", use_container_width=True) :
+    cl1, cl2 = st.columns(2)
+    bbands = cl1.toggle('Bollinger bands')
+    above_under_bb = cl1.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
+    um_ham_mean = cl2.toggle('umb/ham count')
+    um_ham_mean_kind = cl2.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
+    sqz = cl1.checkbox('Squeeze')
+    touching_ma20, divergence = cl2.toggle('touching SMA20'), cl1.toggle('divergences')
+    compression = cl1.toggle('Compression')
+    vlum = cl2.checkbox("High volume")
+    if vlum :
+        perc=cl2.slider("Above percentile", 0., 1., .85)
 
-sqz = col3.checkbox('Squeeze')
-
-bbands = col1.checkbox('BB')
-above_under_bb = col1.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
-
-um_ham_mean = col3.checkbox('um_ham_mean')
-um_ham_mean_kind = col3.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
-
-touching_ma20, divergence = col4.checkbox('touching SMA20'), col5.checkbox('divergences')
-compression = col5.checkbox('Compression')
-vlum = col1.checkbox("High volume")
-if vlum :
-    perc=col1.slider("Above percentile", 0., 1., .85)
 ''
 go = st.button("Let's go!")
 '---'
