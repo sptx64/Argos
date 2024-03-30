@@ -23,10 +23,17 @@ if market == "crypto" :
     path = path + f"_{boc}"
 path = path + "/"
 '---'
+c1, c2, c3 = st.columns(3)
+with c1.popover("RSI") :
+    cl1, cl2 = st.columns(2)
+    ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.checkbox('Under rsi')
+    ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10) if ab_rsi else None
+    un_rsi_number = st.slider('under rsi', 0, 100, 10, 10) if un_rsi else None
+
 col1, col2, col3, col4, col5 = st.columns(5)
-ab_rsi, un_rsi = col1.checkbox('Above rsi'), col2.checkbox('Under rsi')
-ab_rsi_number = col1.slider('rsi >', 0, 100, 90, 10) if ab_rsi else None
-un_rsi_number = col2.slider('rsi <', 0, 100, 10, 10) if un_rsi else None
+# ab_rsi, un_rsi = col1.checkbox('Above rsi'), col2.checkbox('Under rsi')
+# ab_rsi_number = col1.slider('rsi >', 0, 100, 90, 10) if ab_rsi else None
+# un_rsi_number = col2.slider('rsi <', 0, 100, 10, 10) if un_rsi else None
 
 sqz, twz = col3.checkbox('Squeeze'), col4.checkbox('Tweezer')
 twz_type = col4.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
