@@ -330,6 +330,10 @@ if SMOM or bind :
     
     subplot+=1 if SMOM else 0
 
+if bind :
+    subplot+=1 if SMOM else 0
+
+
 if DOT :
     # Calculate Dot
     # Calculate "dot" and "trendline" indicators
