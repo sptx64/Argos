@@ -436,10 +436,6 @@ if tweez :
                                  decreasing=dict(line=dict(color="RoyalBlue", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=TB_conf["Date"].values, y=TB_conf["Low"].values, mode='text', text="TBC", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
-if WT :
-    fig.add_trace(go.Scatter(x=data_bull_tick["Date"], y=data_bull_tick["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-    fig.add_trace(go.Scatter(x=data_bear_tick["Date"], y=data_bear_tick["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-
 
 if SR :
     for i in range(len(data)) :
@@ -451,6 +447,11 @@ if DOT :
     fig.add_trace(go.Scatter(x=data[data['sentiment']=='bullish']["Date"], y=data[data['sentiment']=='bullish']["dot_y"], name="bull-dot", mode="markers", marker_color='green', marker_size=8), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data["Date"], y=data['trendline'], name="trendline (20(20d ema) ema)", mode='lines', line_width=1, line_color='yellow'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data["Date"], y=data['dot'], name="20d ema", mode='lines', line_width=1, line_color='dodgerblue'), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+if WT :
+    fig.add_trace(go.Scatter(x=data_bull_tick["Date"], y=data_bull_tick["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data_bear_tick["Date"], y=data_bear_tick["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
 
 subplot_row = 2
 if VOL:
