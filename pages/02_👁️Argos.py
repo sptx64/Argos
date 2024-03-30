@@ -39,7 +39,7 @@ with c2.popover("Candlesticks", use_container_width=True) :
 
 with c3.popover("Bollinger bands", use_container_width=True) :
     bbands = st.checkbox('Bollinger bands')
-    above_under_bb = st.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
+    above_under_bb = st.radio('above or under BB?', ['above', 'under'], horizontal=True, help="Checking if 'High' above BB or 'Low' under BB") if bbands else None
 
 
 with c1.popover("Umbrella hammer count", use_container_width=True) :
@@ -47,12 +47,12 @@ with c1.popover("Umbrella hammer count", use_container_width=True) :
     um_ham_mean_kind = st.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
 
 with c2.popover("Squeeze & volume", use_container_width=True) :
-    sqz = st.checkbox('Squeeze')
+    sqz = st.checkbox('Squeeze', help="Checking if BB in between KC")
     vlum = st.checkbox("High volume")
     if vlum :
-        perc=st.slider("Above percentile", 0., 1., .85)
+        perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
 
-with c3.popover("Squeeze", use_container_width=True) :
+with c3.popover("TMA20, Div, Comp", use_container_width=True) :
     touching_ma20, divergence = st.checkbox('touching SMA20'), st.checkbox('divergences')
     compression = st.checkbox('Compression')
 
@@ -72,10 +72,8 @@ if go :
         except :
             continue
 
-        data['Open'] = data['Open'].astype(float)
-        data['Close'] = data['Close'].astype(float)
-        data['High'] = data['High'].astype(float)
-        data['Low'] = data['Low'].astype(float)
+        for elem in ["Open", "Close", "High", "Low"] :
+            data[elem] = data[elem].astype(float)
 
         if len(data) > 0 :
             if ab_rsi :
@@ -87,10 +85,12 @@ if go :
                 count+=1
                 un_rsi_result = ta.check_if_under_rsi(data, 14, un_rsi_number)
                 df_check.loc[df_check['ta_ref'] == 'under_rsi', 'result'] = str(un_rsi_result)
+
             if sqz :
                 count+=1
                 sqz_result = ta.check_if_sqz(data, 20)
                 df_check.loc[df_check['ta_ref'] == 'squeeze', 'result'] = sqz_result
+                
             if bbands :
                 count+=1
                 if above_under_bb == 'above' :
@@ -99,10 +99,11 @@ if go :
                 elif above_under_bb == 'under' :
                     un_bb_results = ta.check_under_bband(data, 20)
                     df_check.loc[df_check['ta_ref'] == 'under_bb', 'result'] = un_bb_results
+                
             if twz :
                 count+=1
                 if twz_type == 'bearish' :
-                    twz_result = ta.check_twz_bear(data, range_accept = 0.1/100, percent_retrace = 0.33/100)
+                    twz_result = ta.(data, range_accept = 0.1/100, percent_retrace = 0.33/100)
                     df_check.loc[df_check['ta_ref'] == 'tweezer', 'result'] = twz_result
                 elif twz_type == 'bullish' :
                     twz_result = ta.check_twz_bull(data, range_accept = 0.1/100, percent_retrace = 0.33/100)
