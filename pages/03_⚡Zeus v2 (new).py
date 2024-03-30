@@ -133,6 +133,8 @@ with col3.popover("Indicators", use_container_width=True) :
     AO=c1.toggle("AO")
     SMOM=c2.toggle("Squeeze Mom Lazy Bear")
     DOT=c1.toggle("Dots trend streategy")
+    WT=c2.toggle("Wick trend")
+
     
     
 with col4.popover("Doji", use_container_width=True) :
@@ -207,6 +209,12 @@ if len(RSIs) > 0 :
     for period in RSIs :
         cns_rsi.append(f"RSI{period}")
         data[f"RSI{period}"] = RSI(data, period)
+
+if WT :
+    data["wick"]=(data["Close"]-data["Low"]) - (data["High"]-data["Close"])
+    data["wick"] = data["wick"].ewm(span=20, adjust=False).mean()
+    data_bull_tick = data[data["wick"] > 0]
+    data_bear_tick = data[data["wick"] < 0]
 
 if AO :
     data["ao"] = ao(data)
@@ -427,6 +435,10 @@ if tweez :
                                  close=TB_conf["Close"].values, increasing=dict(line=dict(color="RoyalBlue", width=1)),
                                  decreasing=dict(line=dict(color="RoyalBlue", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=TB_conf["Date"].values, y=TB_conf["Low"].values, mode='text', text="TBC", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+if WT :
+    fig.add_trace(go.Scatter(x=data_bull_tick["Date"], y=data_bull_tick["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data_bear_tick["Date"], y=data_bear_tick["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
 if SR :
