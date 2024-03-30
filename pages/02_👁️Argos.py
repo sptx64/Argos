@@ -37,18 +37,25 @@ with c2.popover("Candlesticks", use_container_width=True) :
     umbrella_or_hammer = cl2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
     twz_type = cl1.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
 
-with c3.popover("Indicators", use_container_width=True) :
-    cl1, cl2 = st.columns(2)
-    bbands = cl1.toggle('Bollinger bands')
-    above_under_bb = cl1.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
-    um_ham_mean = cl2.toggle('umb/ham count')
-    um_ham_mean_kind = cl2.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
-    sqz = cl1.checkbox('Squeeze')
-    touching_ma20, divergence = cl2.toggle('touching SMA20'), cl1.toggle('divergences')
-    compression = cl1.toggle('Compression')
-    vlum = cl2.checkbox("High volume")
+with c3.popover("Bollinger bands", use_container_width=True) :
+    bbands = st.toggle('Bollinger bands')
+    above_under_bb = st.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
+
+
+with c1.popover("Umbrella hammer count", use_container_width=True) :
+    um_ham_mean = st.toggle('umb/ham count')
+    um_ham_mean_kind = st.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
+
+with c2.popover("Squeeze & volume", use_container_width=True) :
+    sqz = st.checkbox('Squeeze')
+    vlum = st.checkbox("High volume")
     if vlum :
-        perc=cl2.slider("Above percentile", 0., 1., .85)
+        perc=st.slider("Above percentile", 0., 1., .85)
+
+with c3.popover("Squeeze", use_container_width=True) :
+    touching_ma20, divergence = st.toggle('touching SMA20'), st.toggle('divergences')
+    compression = st.toggle('Compression')
+
 
 ''
 go = st.button("Let's go!")
