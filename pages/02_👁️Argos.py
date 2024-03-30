@@ -26,9 +26,9 @@ path = path + "/"
 c1, c2, c3 = st.columns(3)
 with c1.popover("RSI", use_container_width=True) :
     cl1, cl2 = st.columns(2)
-    ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.toggle('Under rsi')
-    ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10) if ab_rsi else None
-    un_rsi_number = st.slider('under rsi', 0, 100, 10, 10) if un_rsi else None
+    ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.checkbox('Under rsi')
+    ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10, help="Looking for all asset with RSI above this value") if ab_rsi else None
+    un_rsi_number = st.slider('under rsi', 0, 100, 10, 10, help="Looking for all asset with RSI under this value") if un_rsi else None
 
 with c2.popover("Candlesticks", use_container_width=True) :
     cl1, cl2 = st.columns(2)
