@@ -26,24 +26,24 @@ path = path + "/"
 c1, c2, c3 = st.columns(3)
 with c1.popover("RSI", use_container_width=True) :
     cl1, cl2 = st.columns(2)
-    ab_rsi, un_rsi = cl1.toggle('Above rsi'), cl2.toggle('Under rsi')
+    ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.toggle('Under rsi')
     ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10) if ab_rsi else None
     un_rsi_number = st.slider('under rsi', 0, 100, 10, 10) if un_rsi else None
 
 with c2.popover("Candlesticks", use_container_width=True) :
     cl1, cl2 = st.columns(2)
-    twz = cl1.toggle('Tweezer')
-    um_ham = cl2.toggle('umbrella/hammer')
+    twz = cl1.checkbox('Tweezer')
+    um_ham = cl2.checkbox('umbrella/hammer')
     umbrella_or_hammer = cl2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
     twz_type = cl1.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
 
 with c3.popover("Bollinger bands", use_container_width=True) :
-    bbands = st.toggle('Bollinger bands')
+    bbands = st.checkbox('Bollinger bands')
     above_under_bb = st.radio('above or under BB?', ['above', 'under'], horizontal=True) if bbands else None
 
 
 with c1.popover("Umbrella hammer count", use_container_width=True) :
-    um_ham_mean = st.toggle('umb/ham count')
+    um_ham_mean = st.checkbox('umb/ham count')
     um_ham_mean_kind = st.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
 
 with c2.popover("Squeeze & volume", use_container_width=True) :
@@ -53,8 +53,8 @@ with c2.popover("Squeeze & volume", use_container_width=True) :
         perc=st.slider("Above percentile", 0., 1., .85)
 
 with c3.popover("Squeeze", use_container_width=True) :
-    touching_ma20, divergence = st.toggle('touching SMA20'), st.toggle('divergences')
-    compression = st.toggle('Compression')
+    touching_ma20, divergence = st.checkbox('touching SMA20'), st.checkbox('divergences')
+    compression = st.checkbox('Compression')
 
 
 ''
