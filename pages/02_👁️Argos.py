@@ -46,8 +46,11 @@ with c1.popover("Umbrella hammer count", use_container_width=True) :
     um_ham_mean = st.checkbox('umb/ham count')
     um_ham_mean_kind = st.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
 
-with c2.popover("Squeeze & volume", use_container_width=True) :
+with c2.popover("Squeeze, volume & wick", use_container_width=True) :
     sqz = st.checkbox('Squeeze', help="Checking if BB in between KC")
+    wick = st.checkbox("Wick trend")
+    if wick :
+        wick_trend = st.radio("Type of wick trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
     vlum = st.checkbox("High volume")
     if vlum :
         perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
@@ -76,6 +79,23 @@ if go :
             data[elem] = data[elem].astype(float)
 
         if len(data) > 0 :
+            if wick :
+                count+=1
+                data["wick_trend"]=None
+                data["wick"]=(data["Close"].values-data["Low"].values) - (data["High"].values-data["Close"].values)
+                data["wick"] = data["wick"].ewm(span=20, adjust=False).mean()
+                data.loc[data["wick"].values > 0, "wick_trend"] = "Bullish"
+                data.loc[data["wick"].values < 0, "wick_trend"] = "Bearish"
+                wt = data["wick_trend"].values
+                if len(wt) > 2 :
+                    if wick_trend == "Bullish" :
+                        if (wt[-2] == "Bearish") & (wt[-1] == "Bullish") :
+                            df_check.loc[df_check['ta_ref'] == 'wick', 'result'] = "Bullish"
+                    if wick_trend == "Bearish" :
+                        if (wt[-2] == "Bullish") & (wt[-1] == "Bearish") :
+                            df_check.loc[df_check['ta_ref'] == 'wick', 'result'] = "Bearish"
+
+
             if ab_rsi :
                 count+=1
                 ab_rsi_result = ta.check_if_above_rsi(data, 14, ab_rsi_number)
