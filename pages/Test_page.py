@@ -498,6 +498,11 @@ if bind :
     fig.add_trace(go.Scatter(x=data_bull_tick["Date"], y=data_bull_tick["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data_bear_tick["Date"], y=data_bear_tick["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
+    for df, color in zip([data_bull_tick, data_bear_tick],["lightseagreen", "red"]) :
+        fig.add_trace(go.Bar(x=df["Date"].values, y=df["tick"].values, name="wick", marker_color=color, marker_line_width=0), col=1, row=subplot_row)
+    
+    plotheight+=subplotheight
+    subplot_row+=1
 
     
     # d=9
