@@ -496,13 +496,15 @@ if len(RSIs) > 0 :
 
 if bind :
     data["tick"]=(data["Close"]-data["Low"]) - (data["High"]-data["Close"])
-    data["tick"] = data["tick"].ewm(span=20, adjust=False).mean().ewm(span=20, adjust=False).mean()
+    data["tick"] = data["tick"].ewm(span=20, adjust=False).mean()
     data_bull_tick = data[data["tick"] > 0]
     data_bear_tick = data[data["tick"] < 0]
     fig.add_trace(go.Scatter(x=data_bull_tick["Date"], y=data_bull_tick["Low"], mode='markers', marker_color='GreenYellow', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=data_bear_tick["Date"], y=data_bear_tick["High"], mode='markers', marker_color='IndianRed', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-    data
+    
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data["tick"].values, mode="lines", name="wick", line_color="orange", line_width=1), col=1, row=subplot_row)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["tick"].ewm(span=20, adjust=False).mean().values, mode="lines", name="wick", line_color="red", line_width=1), col=1, row=subplot_row)
+
     fig.add_hline(y=0, line_width=1, line_color="grey", row=subplot_row)
 
     
