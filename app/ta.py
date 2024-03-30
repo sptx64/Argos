@@ -71,15 +71,17 @@ def HU(df) :
 def check_H(df) :
     hu = HU(df)
     state = False
-    if hu.iloc[-1] == 'hammer' :
-        state = True
+    if len(hu) > 2 :
+        if (hu.iloc[-1] == 'hammer') or (hu.iloc[-2] == 'hammer') :
+            state = True
     return state
 
 def check_U(df) :
     hu = HU(df)
     state = False
-    if hu.iloc[-1] == 'umbrella' :
-        state = True
+    if len(hu) > 2 :
+        if (hu.iloc[-1] == 'umbrella') or (hu.iloc[-2] == 'umbrella') :
+            state = True
     return state
 
 def get_HU_mean(df, window) :
