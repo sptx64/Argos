@@ -45,22 +45,25 @@ def import_crypto(ticker, tframe, start_date=None) :
 #coinbase
 def update_pair(pair, date, pair_path) :
     new = HistoricalData(pair,86400,date).retrieve_data()
-    cols = new.columns
-    new_cols=[]
-    for i in range(len(new.columns)) :
-        new_cols.append(cols[i].title())
-    new.columns = new_cols
-
-    new["timeframe"] = "1d"
-    new=new.reset_index()
-    new["yr"],new["mth"],new["dy"] = new["time"].dt.year, new["time"].dt.month, new["time"].dt.day
-    new["Day"], new["Month"] = new["dy"].astype(str), new["mth"].astype(str)
-    new.loc[new["dy"]<10, "Day"] = "0"+new["Day"]
-    new.loc[new["mth"]<10, "Month"] = "0"+new["Month"]
-
-    new["Date"] = new["Day"] + "/" + new["Month"] +"/"+ new["yr"].astype(str)
-    new["pair"] = pair
-    return new.drop(columns=["dy", "yr", "mth", "Day", "Month"])
+    if not new.empty :
+        cols = new.columns
+        new_cols=[]
+        for i in range(len(new.columns)) :
+            new_cols.append(cols[i].title())
+        new.columns = new_cols
+    
+        new["timeframe"] = "1d"
+        new=new.reset_index()
+        new["yr"],new["mth"],new["dy"] = new["time"].dt.year, new["time"].dt.month, new["time"].dt.day
+        new["Day"], new["Month"] = new["dy"].astype(str), new["mth"].astype(str)
+        new.loc[new["dy"]<10, "Day"] = "0"+new["Day"]
+        new.loc[new["mth"]<10, "Month"] = "0"+new["Month"]
+    
+        new["Date"] = new["Day"] + "/" + new["Month"] +"/"+ new["yr"].astype(str)
+        new["pair"] = pair
+        return new.drop(columns=["dy", "yr", "mth", "Day", "Month"])
+    else :
+        return new
 
 
 
@@ -219,8 +222,8 @@ if update :
                 else :
                     data = update_pair(pair, start_date, pair_path)
 
-
-                data.to_parquet(pair_path, compression="brotli")
+                if not data.empty :
+                    data.to_parquet(pair_path, compression="brotli")
                 my_bar.progress(value/len_pairs, f"Coinbase {value}/{len_pairs} {pair}")
                 value+=1
     my_bar.empty()
