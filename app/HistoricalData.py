@@ -152,12 +152,13 @@ class HistoricalData(object):
                     sys.exit()
                 else:
                     sys.exit()
-            data.columns = ["time", "low", "high", "open", "close", "volume"]
-            data["time"] = pd.to_datetime(data["time"], unit='s')
-            data = data[data['time'].between(start, end)]
-            data.set_index("time", drop=True, inplace=True)
-            data.sort_index(ascending=True, inplace=True)
-            data.drop_duplicates(subset=None, keep='first', inplace=True)
+            if not data.empty :
+                data.columns = ["time", "low", "high", "open", "close", "volume"]
+                data["time"] = pd.to_datetime(data["time"], unit='s')
+                data = data[data['time'].between(start, end)]
+                data.set_index("time", drop=True, inplace=True)
+                data.sort_index(ascending=True, inplace=True)
+                data.drop_duplicates(subset=None, keep='first', inplace=True)                
             return data
 
 
