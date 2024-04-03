@@ -24,29 +24,29 @@ if market == "crypto" :
 path = path + "/"
 '---'
 c1, c2, c3 = st.columns(3)
-with c1.popover("RSI", use_container_width=True) :
+with c1.expander("RSI", expanded=True) :
     cl1, cl2 = st.columns(2)
     ab_rsi, un_rsi = cl1.checkbox('Above rsi'), cl2.checkbox('Under rsi')
     ab_rsi_number = st.slider('above rsi', 0, 100, 90, 10, help="Looking for all asset with RSI above this value") if ab_rsi else None
     un_rsi_number = st.slider('under rsi', 0, 100, 10, 10, help="Looking for all asset with RSI under this value") if un_rsi else None
 
-with c2.popover("Candlesticks", use_container_width=True) :
+with c2.expander("Candlesticks", expanded=True) :
     cl1, cl2 = st.columns(2)
     twz = cl1.checkbox('Tweezer', help="Warning, code to update")
     um_ham = cl2.checkbox('umbrella/hammer')
     umbrella_or_hammer = cl2.radio('umbrella or hammer?', ['umbrella', 'hammer'], horizontal=True) if um_ham else None
     twz_type = cl1.radio('TWZ : bear or bear?', ['bearish', 'bullish'], horizontal=True) if twz else None
 
-with c3.popover("Bollinger bands", use_container_width=True) :
+with c3.expander("Bollinger bands", expanded=True) :
     bbands = st.checkbox('Bollinger bands')
     above_under_bb = st.radio('above or under BB?', ['above', 'under'], horizontal=True, help="Checking if 'High' above BB or 'Low' under BB") if bbands else None
 
 
-with c1.popover("Umbrella hammer count", use_container_width=True) :
+with c1.expander("Umbrella hammer count", expanded=True) :
     um_ham_mean = st.checkbox('umb/ham count')
     um_ham_mean_kind = st.radio('bear or bull?', ['bearish', 'bullish'], horizontal=True) if um_ham_mean else None
 
-with c2.popover("Squeeze, volume & wick", use_container_width=True) :
+with c2.expander("Squeeze, volume & wick", expanded=True) :
     sqz = st.checkbox('Squeeze', help="Checking if BB in between KC")
     wick = st.checkbox("Wick trend")
     if wick :
@@ -55,7 +55,7 @@ with c2.popover("Squeeze, volume & wick", use_container_width=True) :
     if vlum :
         perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
 
-with c3.popover("TMA20, Div, Comp", use_container_width=True) :
+with c3.expander("TMA20, Div, Comp", expanded=True) :
     touching_ma20, divergence = st.checkbox('touching SMA20'), st.checkbox('divergences')
     compression = st.checkbox('Compression')
 
