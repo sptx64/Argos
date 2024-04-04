@@ -198,7 +198,7 @@ if go :
                         data["RSI14"] = ta.RSI(data, 14)
                     
                     data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = ""
-                    if (data["sentiment"].values[-1] == dot_trend) | (data["sentiment"].values[-2] == dot_trend) :
+                    if ((data["sentiment"].values[-1] == dot_trend)&(data["sentiment"].values[-2] != dot_trend)) | ((data["sentiment"].values[-2] == dot_trend)&(data["sentiment"].values[-3] != dot_trend)) :
                         df_check.loc[df_check['ta_ref'] == 'dot', 'result'] = dot_trend
 
                     
