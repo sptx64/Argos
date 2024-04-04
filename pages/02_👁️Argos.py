@@ -54,6 +54,12 @@ with c2.expander("Squeeze, volume & wick", expanded=True) :
     vlum = st.checkbox("High volume")
     if vlum :
         perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
+    
+    DOT=st.toggle("Dots trend streategy")
+    if DOT :
+        dot_trend = st.radio("Type of dot trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
+
+
 
 with c3.expander("TMA20, Div, Comp", expanded=True) :
     touching_ma20, divergence = st.checkbox('touching SMA20'), st.checkbox('divergences')
@@ -173,6 +179,29 @@ if go :
                 data.Volume=data.Volume.astype(float)
                 if (data['Volume'].quantile(q=perc) < data['Volume'].iloc[-1])|(data['Volume'].quantile(q=perc) < data['Volume'].iloc[-2]) :
                     df_check.loc[df_check['ta_ref'] == 'volume', 'result'] = 'high 🔥'
+
+            if DOT :
+                count+=1
+                # Calculate Dot
+                # Calculate "dot" and "trendline" indicators
+                data["dot"] = data["Close"].ewm(span=window, adjust=False).mean()
+                data["trendline"] = data["Close"].ewm(span=window, adjust=False).mean().ewm(span=window, adjust=False).mean()
+                if "ao" not in data :
+                    data['ao'] = ao(data)
+                    data['bob_ao'] = bob_ao(data)
+            
+                # Determine trend based on "dot" and "trendline" indicators
+                data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'Bullish'
+                data.loc[data["dot"] < data["trendline"], 'sentiment'] = 'Bearish'
+                if "RSI14" not in data :
+                    data["RSI14"] = RSI(data, 14)
+                
+                data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = ""
+                if (data["sentiment"].values[-1] == dot_trend) | (data["sentiment"].values[-2] == dot_trend) :
+                    df_check.loc[df_check['ta_ref'] == 'dot', 'result'] = dot_trend
+
+                    
+
 
 
             # df_check
