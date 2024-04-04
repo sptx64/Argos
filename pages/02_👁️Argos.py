@@ -184,21 +184,22 @@ if go :
                 count+=1
                 # Calculate Dot
                 # Calculate "dot" and "trendline" indicators
-                data["dot"] = data["Close"].ewm(span=20, adjust=False).mean()
-                data["trendline"] = data["Close"].ewm(span=20, adjust=False).mean().ewm(span=20, adjust=False).mean()
-                if "ao" not in data :
-                    data['ao'] = ta.ao(data)
-                    data['bob_ao'] = ta.bob_ao(data)
-            
-                # Determine trend based on "dot" and "trendline" indicators
-                data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'Bullish'
-                data.loc[data["dot"] < data["trendline"], 'sentiment'] = 'Bearish'
-                if "RSI14" not in data :
-                    data["RSI14"] = ta.RSI(data, 14)
+                if len(data) > 2 :
+                    data["dot"] = data["Close"].ewm(span=20, adjust=False).mean()
+                    data["trendline"] = data["Close"].ewm(span=20, adjust=False).mean().ewm(span=20, adjust=False).mean()
+                    if "ao" not in data :
+                        data['ao'] = ta.ao(data)
+                        data['bob_ao'] = ta.bob_ao(data)
                 
-                data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = ""
-                if (data["sentiment"].values[-1] == dot_trend) | (data["sentiment"].values[-2] == dot_trend) :
-                    df_check.loc[df_check['ta_ref'] == 'dot', 'result'] = dot_trend
+                    # Determine trend based on "dot" and "trendline" indicators
+                    data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'Bullish'
+                    data.loc[data["dot"] < data["trendline"], 'sentiment'] = 'Bearish'
+                    if "RSI14" not in data :
+                        data["RSI14"] = ta.RSI(data, 14)
+                    
+                    data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = ""
+                    if (data["sentiment"].values[-1] == dot_trend) | (data["sentiment"].values[-2] == dot_trend) :
+                        df_check.loc[df_check['ta_ref'] == 'dot', 'result'] = dot_trend
 
                     
 
