@@ -53,11 +53,11 @@ with c2.expander("Squeeze, volume & wick", expanded=True) :
         col1, col2 = st.columns(2)
         wick_trend = col1.radio("Wick trend", ["Bullish", "Bearish"], help="Checks if last candle is bull or bear")
         wick_breakout = col2.toggle("Wick breakout", help="Last candle flipped to bull or bear")
-    vlum = st.checkbox("High volume")
+    vlum = st.checkbox("High volume", help="Are your assets under the radar")
     if vlum :
         perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
     
-    DOT=st.checkbox("Dots trend streategy")
+    DOT=st.checkbox("Dots trend streategy", help="mixing AO and RSI to evaluate trends")
     if DOT :
         col1, col2 = st.columns(2)
         dot_trend = col1.radio("Type of dot trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
