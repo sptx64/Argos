@@ -194,7 +194,7 @@ if go :
                 data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'Bullish'
                 data.loc[data["dot"] < data["trendline"], 'sentiment'] = 'Bearish'
                 if "RSI14" not in data :
-                    data["RSI14"] = RSI(data, 14)
+                    data["RSI14"] = ta.RSI(data, 14)
                 
                 data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = ""
                 if (data["sentiment"].values[-1] == dot_trend) | (data["sentiment"].values[-2] == dot_trend) :
