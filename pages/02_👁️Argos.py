@@ -59,7 +59,7 @@ with c2.expander("Squeeze, volume & wick", expanded=True) :
     
     DOT=st.checkbox("Dots trend streategy")
     if DOT :
-        col1, col2 = c2.columns(2)
+        col1, col2 = st.columns(2)
         dot_trend = col1.radio("Type of dot trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
         dot_breakout = col2.toggle("Dot breakout", help="Last candle flipped to bull or bear")
 
