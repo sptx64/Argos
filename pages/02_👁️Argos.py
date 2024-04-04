@@ -55,7 +55,7 @@ with c2.expander("Squeeze, volume & wick", expanded=True) :
     if vlum :
         perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
     
-    DOT=st.toggle("Dots trend streategy")
+    DOT=st.checkbox("Dots trend streategy")
     if DOT :
         dot_trend = st.radio("Type of dot trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
 
@@ -184,8 +184,8 @@ if go :
                 count+=1
                 # Calculate Dot
                 # Calculate "dot" and "trendline" indicators
-                data["dot"] = data["Close"].ewm(span=window, adjust=False).mean()
-                data["trendline"] = data["Close"].ewm(span=window, adjust=False).mean().ewm(span=window, adjust=False).mean()
+                data["dot"] = data["Close"].ewm(span=20, adjust=False).mean()
+                data["trendline"] = data["Close"].ewm(span=20, adjust=False).mean().ewm(span=20, adjust=False).mean()
                 if "ao" not in data :
                     data['ao'] = ao(data)
                     data['bob_ao'] = bob_ao(data)
