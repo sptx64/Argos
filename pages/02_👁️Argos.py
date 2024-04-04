@@ -91,7 +91,7 @@ if go :
         if len(data) > 0 :
             if wick :
                 count+=1
-                if len(wt) > 3 :
+                if len(data) > 3 :
                     data["wick_trend"]=None
                     data["wick"]=(data["Close"].values-data["Low"].values) - (data["High"].values-data["Close"].values)
                     data["wick"] = data["wick"].ewm(span=20, adjust=False).mean()
