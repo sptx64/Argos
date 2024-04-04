@@ -6,7 +6,7 @@ from scipy.signal import argrelextrema
 
 
 def df_check() :
-    df = pd.DataFrame({'ta_ref' : ['touching_MA','above_rsi', 'under_rsi', 'above_bb', 'under_bb', 'hu_mean', 'um', 'ham', 'squeeze', 'tweezer','divergence', 'compression', 'volume', "wick"], 'result' : ['', '','','','','','','','','','','','','']})
+    df = pd.DataFrame({'ta_ref' : ['touching_MA','above_rsi', 'under_rsi', 'above_bb', 'under_bb', 'hu_mean', 'um', 'ham', 'squeeze', 'tweezer','divergence', 'compression', 'volume', "wick", "dot"], 'result' : ['', '','','','','','','','','','','','','','']})
     #df = pd.DataFrame({'ta_ref' : ['touching_MA','above_rsi', 'under_rsi', 'above_bb', 'under_bb', 'hu_mean', 'um', 'ham', 'squeeze', 'tweezer','divergence'], 'result' : ['','','','','','','','','','','']})
     return df
 
