@@ -187,8 +187,8 @@ if go :
                 data["dot"] = data["Close"].ewm(span=20, adjust=False).mean()
                 data["trendline"] = data["Close"].ewm(span=20, adjust=False).mean().ewm(span=20, adjust=False).mean()
                 if "ao" not in data :
-                    data['ao'] = ao(data)
-                    data['bob_ao'] = bob_ao(data)
+                    data['ao'] = ta.ao(data)
+                    data['bob_ao'] = ta.bob_ao(data)
             
                 # Determine trend based on "dot" and "trendline" indicators
                 data.loc[data["dot"] > data["trendline"], 'sentiment'] = 'Bullish'
