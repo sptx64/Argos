@@ -51,7 +51,7 @@ with c2.expander("Squeeze, volume & wick", expanded=True) :
     wick = st.checkbox("Wick trend")
     if wick :
         col1, col2 = st.columns(2)
-        wick_trend = st.radio("Wick trend", ["Bullish", "Bearish"], help="Checks if last candle is bull or bear")
+        wick_trend = col1.radio("Wick trend", ["Bullish", "Bearish"], help="Checks if last candle is bull or bear")
         wick_breakout = col2.toggle("Wick breakout", help="Last candle flipped to bull or bear")
     vlum = st.checkbox("High volume")
     if vlum :
