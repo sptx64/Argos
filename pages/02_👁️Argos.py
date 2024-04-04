@@ -50,14 +50,18 @@ with c2.expander("Squeeze, volume & wick", expanded=True) :
     sqz = st.checkbox('Squeeze', help="Checking if BB in between KC")
     wick = st.checkbox("Wick trend")
     if wick :
-        wick_trend = st.radio("Type of wick trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
+        col1, col2 = st.columns(2)
+        wick_trend = st.radio("Wick trend", ["Bullish", "Bearish"], help="Checks if last candle is bull or bear")
+        wick_breakout = col2.toggle("Wick breakout", help="Last candle flipped to bull or bear")
     vlum = st.checkbox("High volume")
     if vlum :
         perc=st.slider("Above percentile", 0., 1., .85, help="Last volume value above this percentile")
     
     DOT=st.checkbox("Dots trend streategy")
     if DOT :
-        dot_trend = st.radio("Type of dot trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
+        col1, col2 = c2.columns(2)
+        dot_trend = col1.radio("Type of dot trend", ["Bullish", "Bearish"], help="Checks if last candle turned bull to bear or bear to bull")
+        dot_breakout = col2.toggle("Dot breakout", help="Last candle flipped to bull or bear")
 
 
 
@@ -87,19 +91,16 @@ if go :
         if len(data) > 0 :
             if wick :
                 count+=1
-                data["wick_trend"]=None
-                data["wick"]=(data["Close"].values-data["Low"].values) - (data["High"].values-data["Close"].values)
-                data["wick"] = data["wick"].ewm(span=20, adjust=False).mean()
-                data.loc[data["wick"].values > 0, "wick_trend"] = "Bullish"
-                data.loc[data["wick"].values < 0, "wick_trend"] = "Bearish"
-                wt = data["wick_trend"].values
-                if len(wt) > 2 :
-                    if wick_trend == "Bullish" :
-                        if (wt[-2] == "Bearish") & (wt[-1] == "Bullish") :
-                            df_check.loc[df_check['ta_ref'] == 'wick', 'result'] = "Bullish"
-                    if wick_trend == "Bearish" :
-                        if (wt[-2] == "Bullish") & (wt[-1] == "Bearish") :
-                            df_check.loc[df_check['ta_ref'] == 'wick', 'result'] = "Bearish"
+                if len(wt) > 3 :
+                    data["wick_trend"]=None
+                    data["wick"]=(data["Close"].values-data["Low"].values) - (data["High"].values-data["Close"].values)
+                    data["wick"] = data["wick"].ewm(span=20, adjust=False).mean()
+                    data.loc[data["wick"].values > 0, "wick_trend"] = "Bullish"
+                    data.loc[data["wick"].values < 0, "wick_trend"] = "Bearish"
+                    wt = data["wick_trend"].values
+                    cond = ((wt[-2] != wick_trend) & (wt[-1] == wick_trend)|(wt[-3] != wick_trend) & (wt[-2] == wick_trend)) if wick_breakout else ((wt[-1] == wick_trend) | (wt[-2] == wick_trend))
+                    if cond :
+                        df_check.loc[df_check['ta_ref'] == 'wick', 'result'] = wick_trend
 
 
             if ab_rsi :
@@ -184,7 +185,7 @@ if go :
                 count+=1
                 # Calculate Dot
                 # Calculate "dot" and "trendline" indicators
-                if len(data) > 2 :
+                if len(data) > 3 :
                     data["dot"] = data["Close"].ewm(span=20, adjust=False).mean()
                     data["trendline"] = data["Close"].ewm(span=20, adjust=False).mean().ewm(span=20, adjust=False).mean()
                     if "ao" not in data :
@@ -198,7 +199,9 @@ if go :
                         data["RSI14"] = ta.RSI(data, 14)
                     
                     data.loc[ (data["RSI14"] > 40) & (data["RSI14"] < 60) , "sentiment"] = ""
-                    if ((data["sentiment"].values[-1] == dot_trend)&(data["sentiment"].values[-2] != dot_trend)) | ((data["sentiment"].values[-2] == dot_trend)&(data["sentiment"].values[-3] != dot_trend)) :
+                    dot_col = data["sentiment"].values
+                    cond = ((dot_col[-1] == dot_trend)&(dot_col[-2] != dot_trend)) | ((dot_col[-2] == dot_trend)&(dot_col[-3] != dot_trend)) if dot_breakout else ((dot_col[-1] == dot_trend)|(dot_col[-2] == dot_trend))
+                    if cond :
                         df_check.loc[df_check['ta_ref'] == 'dot', 'result'] = dot_trend
 
                     
