@@ -48,7 +48,7 @@ with c1.expander("Umbrella hammer count", expanded=True) :
 
 with c2.expander("Squeeze, volume & wick", expanded=True) :
     sqz = st.checkbox('Squeeze', help="Checking if BB in between KC")
-    wick = st.checkbox("Wick trend")
+    wick = st.checkbox("Wick trend", help="high wicks vs low wicks")
     if wick :
         col1, col2 = st.columns(2)
         wick_trend = col1.radio("Wick trend", ["Bullish", "Bearish"], help="Checks if last candle is bull or bear")
