@@ -59,6 +59,7 @@ def ml_price() :
         tables = [x for x in os.listdir(pth) if x.endswith(".parquet")]
         for tble in tables :
             df=pd.read_parquet(pth+tble)
+            list(df),
             st.stop()
             
 
