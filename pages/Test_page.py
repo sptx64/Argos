@@ -69,19 +69,19 @@ def ml_price() :
                     df[f"day{i}"]= [ [o,h,l,c,v] for o,h,l,c,v in zip(df_shift["Open"],df_shift["High"],df_shift["Low"],df_shift["Close"],df_shift["Volume"]) ]
 
                 next_14_days = []
-                ohlc = df[["Open","High","Low","Close","Volume"]].values
+                o, h, l, c = df["Open"].values, df["High"].values, df["Low"].values, df["Close"].values
                 for i in range(len(df)) :
                     row_res=[]
                     if i<(len(df)-days_to_predict) :
                         for j in range(1, days_to_predict) :
-                            row_res.append(ohlc[i+j])
+                            row_res.append( [o[i+j], h[i+j], l[i+j], c[i+j]] )
                     else :
                         row_res.append(None)
                     next_14_days.append(row_res)
                     
-                next_14_days
-                st.stop()
-                df[f"next{days}days"] = next_14_days
+                
+                
+                df[f"next{days_to_predict}days"] = next_14_days
                 df=df.dropna()
                 dfs.append(df)
     df = pd.concat(dfs)
