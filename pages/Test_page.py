@@ -62,6 +62,16 @@ def ml_price() :
         val=0
         for tble in tables :
             df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
+            min_low=df["Low"].rolling(days_to_train_on).min()
+            for elem in ["Open", "High", "Low", "Close"]:
+                df[elem] = df[elem] - min_low
+            
+            max_high=df["High"].rolling(days_to_train_on).max()
+            for elem in ["Open", "High", "Low", "Close"]:
+                df[elem] = df[elem] / max_high
+
+            for elem in ["Open", "High", "Low", "Close"]:
+                df[elem] = df[elem].round(6)
             
             if len(df)>100 :
                 for i in range(0, days_to_train_on) :
@@ -83,6 +93,7 @@ def ml_price() :
                 
                 df[f"next{days_to_predict}days"] = next_14_days
                 df=df.dropna()
+                df=df.drop(columns=["Open", "High", "Low", "Close","Volume"])
                 dfs.append(df)
     df = pd.concat(dfs)
     
