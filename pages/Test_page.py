@@ -59,10 +59,10 @@ def ml_price() :
         tables = [x for x in os.listdir(pth) if x.endswith(".parquet")]
         val=0
         for tble in tables :
-            df=pd.read_parquet(pth+tble)
-            list(df),
-            break
-    st.stop()
+            df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
+            if len(df)>40 :
+                dfs.append(df)
+    len(dfs)
             
 
 ml_price()
