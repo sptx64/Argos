@@ -63,11 +63,10 @@ def ml_price() :
         for tble in tables :
             df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
             
-            df["day0"] = [ [o,h,l,c,v] for o,h,l,c,v in zip(df["Open"],df["High"],df["Low"],df["Close"],df["Volume"]) ]
-
             if len(df)>100 :
-                for i in range(1, days_to_train_on) :
-                    df[f"day{i}"]=df[["Open","High","Low","Close","Volume"]].shift(i)
+                for i in range(0, days_to_train_on) :
+                    df_shift = df.shift(i)
+                    df[f"day{i}"]= [ [o,h,l,c,v] for o,h,l,c,v in zip(df_shift["Open"],df_shift["High"],df_shift["Low"],df_shift["Close"],df_shift["Volume"]) ]
 
                 next_14_days = []
                 ohlc = df[["Open","High","Low","Close","Volume"]].values
