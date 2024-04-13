@@ -104,11 +104,24 @@ def ml_price() :
     y = df[f"next{days_to_predict}days"]
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-    pred = RandomForestRegressor()
-    pred.fit(X_train, y_train)
+    from sklearn.neural_network import MLPRegressor
+    import warnings
+    warnings.filterwarnings('ignore')  # early-stop warnings
+    
+    from sklearn import metrics
+    from sklearn.model_selection import GridSearchCV
+    
+    mlp_reg = MLPRegressor(hidden_layer_sizes=(150,100,50),
+                       max_iter = 300,activation = 'relu',
+                       solver = 'adam')
 
-    # st.write(f"Accuracy {mname}: {pred.score(X_test, y_test)}")
-    y_pred = pred.predict(X_test)
+    mlp_reg.fit(X_train, y_train)
+
+    # pred = RandomForestRegressor()
+    # pred.fit(X_train, y_train)
+
+    # # st.write(f"Accuracy {mname}: {pred.score(X_test, y_test)}")
+    # y_pred = pred.predict(X_test)
 
 
     
