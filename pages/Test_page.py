@@ -62,7 +62,8 @@ def ml_price() :
             df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
             if len(df)>40 :
                 dfs.append(df)
-    len(dfs)
+    df = pd.concat(dfs)
+    len(df),
             
 
 ml_price()
