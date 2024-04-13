@@ -52,8 +52,17 @@ def div(df, close, indicator, indicator_filter) :
 
 
 
+def ml_price() :
+    path_list = ['dataset/crypto_binance/', 'dataset/crypto_coinbase/', 'dataset/sp500/']
+    dfs = []
+    for pth in path_list :
+        tables = [x for x in os.listdir(pth) if x.endswith(".parquet")]
+        for tble in tables :
+            df=pd.read_parquet(pth+tble)
+            st.stop()
+            
 
-
+ml_price()
 
 
 
