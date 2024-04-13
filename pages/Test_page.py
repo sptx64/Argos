@@ -55,8 +55,8 @@ def div(df, close, indicator, indicator_filter) :
 def ml_price() :
     path_list = ['dataset/crypto_binance/', 'dataset/crypto_coinbase/']#, 'dataset/sp500/']
     dfs = []
-    days_to_train_on = 20
-    days_to_predict = 14
+    days_to_train_on = 15
+    days_to_predict = 10
     for pth in path_list :
         tables = [x for x in os.listdir(pth) if x.endswith(".parquet")]
         val=0
@@ -85,9 +85,8 @@ def ml_price() :
                 df=df.dropna()
                 dfs.append(df)
     df = pd.concat(dfs)
-    len(df),
+    
             
-"test"
 ml_price()
 
 
