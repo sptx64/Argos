@@ -95,6 +95,23 @@ def ml_price() :
                 df=df.drop(columns=["Open", "High", "Low", "Close","Volume","max_high","min_low"])
                 dfs.append(df)
     df = pd.concat(dfs)
+    
+    #ml
+    from sklearn.ensemble import RandomForestRegressor
+    from sklearn.model_selection import train_test_split
+
+    X = df.drop(columns=[f"next{days_to_predict}days"])
+    y = df[f"next{days_to_predict}days"]
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    pred = RandomForestRegressor()
+    pred.fit(X_train, y_train)
+
+    # st.write(f"Accuracy {mname}: {pred.score(X_test, y_test)}")
+    y_pred = pred.predict(X_test)
+
+
+    
     #ml
     
     
