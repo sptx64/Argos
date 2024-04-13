@@ -62,6 +62,8 @@ def ml_price() :
         val=0
         for tble in tables :
             df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
+            for elem in df :
+                df[elem] = df[elem].astype(float)
             
             df["min_low"]=df["Low"].rolling(days_to_train_on).min()
             df["max_high"]=df["High"].rolling(days_to_train_on).max()
