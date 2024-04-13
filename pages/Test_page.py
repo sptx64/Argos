@@ -64,7 +64,7 @@ def ml_price() :
             df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
             df["day0"] = df[["Open","High","Low","Close","Volume"]]
             if len(df)>100 :
-                for i in range(i, days_to_train_on) :
+                for i in range(1, days_to_train_on) :
                     df[f"day{i}"]=df[["Open","High","Low","Close","Volume"]].shift(i)
 
                 next_14_days = []
