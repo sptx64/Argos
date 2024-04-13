@@ -62,7 +62,7 @@ def ml_price() :
             df=pd.read_parquet(pth+tble)
             list(df),
             break
-        st.stop()
+    st.stop()
             
 
 ml_price()
