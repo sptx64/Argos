@@ -75,33 +75,27 @@ def ml_price() :
             if len(df)>100 :
                 for i in range(0, days_to_train_on) :
                     df_shift = df.shift(i)
-                    df[f"day{i}"]= [ [o,h,l,c,v] for o,h,l,c,v in zip(df_shift["Open"],df_shift["High"],df_shift["Low"],df_shift["Close"],df_shift["Volume"]) ]
-
-                next_14_days = []
-                o, h, l, c = df["Open"].values, df["High"].values, df["Low"].values, df["Close"].values
-                for i in range(len(df)) :
-                    row_res=[]
-                    if i<(len(df)-days_to_predict) :
-                        for j in range(1, days_to_predict) :
-                            row_res.append( [o[i+j], h[i+j], l[i+j], c[i+j]] )
-                    else :
-                        row_res.append(None)
-                    next_14_days.append(row_res)
+                    for elem in ["Open","High","Low","Close","Volume"]:
+                        df[f"{elem}-{i}"]=df_shift[elem]
+                        # df[f"day{i}"]= [ [o,h,l,c,v] for o,h,l,c,v in zip(df_shift["Open"],df_shift["High"],df_shift["Low"],df_shift["Close"],df_shift["Volume"]) ]
+                
+                for i in range(0, days_to_predict) :
+                    df_shift = df.shift(-i)
+                    for elem in ["Open","High","Low","Close"]:
+                        df[f"{elem}+{i}"]=df_shift[elem]
                     
                 
-                
-                df[f"next{days_to_predict}days"] = next_14_days
                 df=df.dropna()
                 df=df.drop(columns=["Open", "High", "Low", "Close","Volume","max_high","min_low"])
                 dfs.append(df)
     df = pd.concat(dfs)
-    
+    y_columns=[x for x in df.columns if "+" in x]
+
     #ml
-    from sklearn.ensemble import RandomForestRegressor
     from sklearn.model_selection import train_test_split
 
-    X = df.drop(columns=[f"next{days_to_predict}days"])
-    y = df[f"next{days_to_predict}days"]
+    X = df.drop(columns=y_columns)
+    y = df[y_columns]
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
     from sklearn.neural_network import MLPRegressor
