@@ -53,14 +53,34 @@ def div(df, close, indicator, indicator_filter) :
 
 
 def ml_price() :
-    path_list = ['dataset/crypto_binance/', 'dataset/crypto_coinbase/', 'dataset/sp500/']
+    path_list = ['dataset/crypto_binance/', 'dataset/crypto_coinbase/']#, 'dataset/sp500/']
     dfs = []
+    days_to_train_on = 20
+    days_to_predict = 14
     for pth in path_list :
         tables = [x for x in os.listdir(pth) if x.endswith(".parquet")]
         val=0
         for tble in tables :
             df=pd.read_parquet(pth+tble)[["Open","High","Low","Close","Volume"]].dropna()
-            if len(df)>40 :
+            df["day0"] = df[["Open","High","Low","Close","Volume"]]
+            if len(df)>100 :
+                for i in range(i, days_to_train_on) :
+                    df[f"day{i}"]=df[["Open","High","Low","Close","Volume"]].shift(i)
+
+                next_14_days = []
+                ohlc = df[["Open","High","Low","Close","Volume"]].values
+                for i in range(len(df)) :
+                    row_res=[]
+                    if i<(len(df)-days_to_predict) :
+                        for j in range(1, days_to_predict) :
+                            row_res.append(ohlc[i+j])
+                    else :
+                        row_res.append(None)
+                    next_14_days.append(row_res)
+                    
+                    
+                df[f"next{days}days"] = next_14_days
+                df=df.dropna()
                 dfs.append(df)
     df = pd.concat(dfs)
     len(df),
