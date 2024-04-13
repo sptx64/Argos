@@ -92,9 +92,11 @@ def ml_price() :
                 
                 df[f"next{days_to_predict}days"] = next_14_days
                 df=df.dropna()
-                df=df.drop(columns=["Open", "High", "Low", "Close","Volume"])
+                df=df.drop(columns=["Open", "High", "Low", "Close","Volume","max_high","min_low"])
                 dfs.append(df)
     df = pd.concat(dfs)
+    #ml
+    
     
             
 ml_price()
