@@ -79,7 +79,8 @@ def ml_price() :
                         row_res.append(None)
                     next_14_days.append(row_res)
                     
-                    
+                next_14_days
+                st.stop()
                 df[f"next{days}days"] = next_14_days
                 df=df.dropna()
                 dfs.append(df)
