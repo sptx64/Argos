@@ -109,6 +109,8 @@ data = data.tail(days)
 col1,col2,col3,col4 = st.columns(4)
 with col1.popover("Candles", use_container_width=True) :
     mrk_vol = st.toggle("Show candles as volume markers")
+    if mrk_vol :
+        mrk_max_size = st.slider("Marker max size", 5, 50, 20)
     c1,c2=st.columns(2)
     incr_candle_color = c1.color_picker("incr. candle", "#EEEEEE", disabled=mrk_vol)
     decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E", disabled=mrk_vol)
@@ -377,7 +379,7 @@ else :
 
 if mrk_vol :
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data["Close"].values, name="close-volume markers", mode="markers",
-                             marker_color=data["Volume"].values, marker_size=data["Volume"].values/max(data["Volume"].values)*30), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                             marker_color=data["Volume"].values, marker_size=data["Volume"].values/max(data["Volume"].values)*mrk_max_size), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 else :
     fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color=incr_candle_color, width=0.5)), decreasing=dict(line=dict(color=decr_candle_color, width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
