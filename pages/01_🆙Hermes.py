@@ -15,6 +15,7 @@ st.caption("""  _Hermes (/ˈhɜːrmiːz/; Greek: Ἑρμῆς) is an Olympian de
 He is also considered the protector of human heralds, travelers, thieves, merchants, and orators. He is able to move quickly and freely between the worlds of the mortal and the divine aided by his winged sandals. Hermes plays the role of the psychopomp or "soul guide"—a conductor of souls into the afterlife.
 In myth, Hermes functions as the emissary and messenger of the gods, and is often presented as the son of Zeus and Maia, the Pleiad. He is regarded as "the divine trickster", about which the Homeric Hymn to Hermes offers the most well-known account._
 """)
+st.caption("Better to update database at 12:00 UTC (=daily candle close). Binance=Binance US compatible coins. Update speed : Binance=fast, SP500+Euronext=normal, Coinbase=slow initialisation then normal.")
 
 import requests
 import ast
