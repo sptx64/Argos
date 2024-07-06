@@ -15,14 +15,18 @@ st.caption("""_Argus Panoptes (Ἄργος Πανόπτης) was the guardian of
 
 col1, col2, col3 = st.columns(3)
 market = col1.radio('Market', ['sp500', 'crypto'], horizontal=True)
-if market == "crypto" :
-    boc = col2.radio("Crypto broker", ["binance", "coinbase"], horizontal=True)
+if market == "sp500" :
+    st.caption("*sp500 + euronext")
 
 path = f"dataset/{market}"
 if market == "crypto" :
+    boc = col2.radio("Crypto broker", ["binance", "coinbase"], horizontal=True)
     path = path + f"_{boc}"
+
 path = path + "/"
+
 '---'
+
 c1, c2, c3 = st.columns(3)
 with c1.expander("RSI", expanded=True) :
     cl1, cl2 = st.columns(2)
