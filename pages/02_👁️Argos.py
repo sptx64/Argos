@@ -178,8 +178,9 @@ if go :
             if vlum :
                 count+=1
                 data.Volume=data.Volume.astype(float)
-                if (data['Volume'].quantile(q=perc) < data['Volume'].iloc[-1])|(data['Volume'].quantile(q=perc) < data['Volume'].iloc[-2]) :
-                    df_check.loc[df_check['ta_ref'] == 'volume', 'result'] = 'high 🔥'
+                if len(data) > 3 :
+                    if (data['Volume'].quantile(q=perc) < data['Volume'].iloc[-1])|(data['Volume'].quantile(q=perc) < data['Volume'].iloc[-2]) :
+                        df_check.loc[df_check['ta_ref'] == 'volume', 'result'] = 'high 🔥'
 
             if DOT :
                 count+=1
