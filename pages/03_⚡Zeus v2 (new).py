@@ -109,8 +109,9 @@ data = data.tail(days)
 col1,col2,col3,col4 = st.columns(4)
 with col1.popover("Candles", use_container_width=True) :
     c1,c2=st.columns(2)
-    incr_candle_color = c1.color_picker("incr. candle", "#FFFFFF")
-    decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E")
+    mrk_vol = st.toggle("Show candles as volume markers")
+    incr_candle_color = c1.color_picker("incr. candle", "#EEEEEE", disabled=mrk_vol)
+    decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E", disabled=mrk_vol)
 
     
 with col2.popover("Moving averages", use_container_width=True) :
@@ -374,7 +375,10 @@ if subplot>0 :
 else :
     fig=go.Figure()
 
-fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
+if mrk_vol :
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["Close"].values, name="close-volume markers", mode="markers", marker_color=data["Volume"].values), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+else :
+    fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color=incr_candle_color, width=0.5)), decreasing=dict(line=dict(color=decr_candle_color, width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 for cn in ma_cns :
     ma=cn.replace("EMA","") if show_ema else cn.replace("SMA","")
