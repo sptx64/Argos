@@ -379,7 +379,8 @@ else :
 
 if mrk_vol :
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data["Close"].values, name="close-volume markers", mode="markers",
-                             marker_color=data["Volume"].values, marker_size=data["Volume"].values/max(data["Volume"].values)*mrk_max_size), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+                             marker_color=data["Volume"].values, marker_size=data["Volume"].values/max(data["Volume"].values)*mrk_max_size,
+                             color_continuous_scale="Jet"), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 else :
     fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color=incr_candle_color, width=0.5)), decreasing=dict(line=dict(color=decr_candle_color, width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
