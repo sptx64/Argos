@@ -23,8 +23,11 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 
 "# Panoptès"
 '### 📊 A technical analysis dashboard'
-st.image("img/panoptes.jpg")
-
+tab1, tab2 = st.tabs(["Picture", "Preview video"])
+with tab1 :
+    st.image("img/panoptes.jpg")
+with tab2 :
+    st.video("img/streamlit-Panoptes-2024-07-06-22-07-47.webm")
 st.caption('For educational only, not financial advise')
 
 ''
