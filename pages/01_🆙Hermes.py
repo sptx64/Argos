@@ -254,8 +254,13 @@ with st.sidebar.popover("Dev update tool", use_container_width=True) :
                     parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
                 my_bar.empty()
         return buf
-    if st.toggle("Download parquet database") :
-        st.download_button(label="Download .zip", data=zip_and_download().getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive", value=True)
+
+
+    if "downloaded" in st.session_state :
+        val = False
+        del st.session_state.downloaded
+    if st.toggle("Download parquet database", value=val if "val" in locals() else None) :
+        st.session_state.downloaded = st.download_button(label="Download .zip", data=zip_and_download().getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive")
 
     # if st.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
     #     list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
