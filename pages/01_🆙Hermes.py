@@ -229,3 +229,26 @@ if update :
                 value+=1
     my_bar.empty()
     col1.success(market + ' updated !')
+
+if st.button('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
+    list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
+    # buf = io.BytesIO()
+    # with zipfile.ZipFile(buf, "x") as parquet_zip:
+
+    for x in list_paths :
+        if not os.path.exists(x) :
+            st.toast(f"{x} does not exist")
+            continue
+        list_files = [x for x in os.listdir(x) if x.endswith(".parquet")]
+        for f in list_files :
+            st.toast(f)
+
+        # csv_zip.writestr("collars.csv", csv_col)
+        #     csv_zip.writestr("all_catego.csv", csv)
+        
+        # st.download_button(label="Download zip(collars+all_catego)", data=buf.getvalue(),
+        #                            file_name="ac+collars.zip", mime="application/zip")
+
+               
+dataset_path="dataset/sp500/" if market=="sp500" else f"dataset/crypto_{boc}/"
+
