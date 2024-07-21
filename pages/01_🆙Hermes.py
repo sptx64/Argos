@@ -246,7 +246,7 @@ if st.button('Download zipped .parquets', help = 'download zip of all the .parqu
             len_list_files = len(list_files)
             for i,f in enumerate(list_files) :
                 my_bar.progress((i+1)/len_list_files, os.path.join(x,f))
-                parquet_zip.write(f"{f}_{x.split("_")[-1].replace("/","")}", os.path.join(x,f))
+                parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
             my_bar.empty()
             
                 
