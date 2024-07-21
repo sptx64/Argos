@@ -254,4 +254,4 @@ with st.sidebar.popover("Dev update tool", use_container_width=True) :
                     parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
                 my_bar.empty()
     
-        st.download_button(label="Download zip (sp500 + binance + coinbase)", data=buf.getvalue(), file_name="historical_data.zip", mime="application/zip")
+        st.download_button(label="Download .zip", data=buf.getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive")
