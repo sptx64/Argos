@@ -130,10 +130,10 @@ if update :
             path_to_file = dataset_path+tick+".parquet"
             if os.path.exists(path_to_file) :
                 data = pd.read_parquet(path_to_file)
-                data
                 if len(data) > 10 :
                     to_drop=9
                     from_date = data["Date"].astype(str).values[-to_drop][:10]
+                    from_date
                     new_data = yf.download(tickers = tick, start = from_date, interval = "1d").reset_index()
                     data.drop(data.tail(to_drop).index, inplace=True)
                     data=pd.concat([data,new_data], ignore_index=True)
