@@ -130,6 +130,7 @@ if update :
             path_to_file = dataset_path+tick+".parquet"
             if os.path.exists(path_to_file) :
                 data = pd.read_parquet(path_to_file)
+                data
                 if len(data) > 10 :
                     to_drop=9
                     from_date = data["Date"].astype(str).values[-to_drop][:10]
