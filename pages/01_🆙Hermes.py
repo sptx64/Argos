@@ -231,11 +231,12 @@ if update :
     col1.success(market + ' updated !')
 
 with st.sidebar.popover("Dev update tool", use_container_width=True) :
-    if st.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
+    def convert_df(df):
+        return df.to_parquet()
+    
+    @st.cache_data
+    def zip_and_download() :
         list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
-        
-        def convert_df(df):
-            return df.to_parquet()
         
         import io, zipfile
         buf = io.BytesIO()
@@ -253,5 +254,31 @@ with st.sidebar.popover("Dev update tool", use_container_width=True) :
                     # parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
                     parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
                 my_bar.empty()
+        return buf
     
-        st.download_button(label="Download .zip", data=buf.getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive")
+    st.download_button(label="Download .zip", data=zip_and_download().getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive")
+
+    # if st.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
+    #     list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
+        
+    #     def convert_df(df):
+    #         return df.to_parquet()
+        
+    #     import io, zipfile
+    #     buf = io.BytesIO()
+    #     with zipfile.ZipFile(buf, "x") as parquet_zip:
+    #         for x in list_paths :
+    #             st.toast(f"Processing {x}")
+    #             if not os.path.exists(x) :
+    #                 st.toast(f"{x} does not exist")
+    #                 continue
+    #             list_files = [y for y in os.listdir(x) if y.endswith(".parquet")]
+    #             my_bar = st.progress(0., x)
+    #             len_list_files = len(list_files)
+    #             for i,f in enumerate(list_files) :
+    #                 my_bar.progress((i+1)/len_list_files, os.path.join(x,f))
+    #                 # parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
+    #                 parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
+    #             my_bar.empty()
+    
+    #     st.download_button(label="Download .zip", data=buf.getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive")
