@@ -71,7 +71,7 @@ dict_up = {}
 for dbases_path in [os.path.join("dataset",x) for x in ["sp500", "crypto_binance", "crypto_coinbase"]] :
     dict_up[dbases_path] = {}
     for f in [x for x in os.listdir(dbases_path) if x.endswith(".parquet")] :
-        f
+        os.path.join(dbases_path, f),
         dict_up[dbases_path][f] = os.getmtime(os.path.join(dbases_path, f))
     if len(dict_up[dbases_path]) == 0 :
         continue
