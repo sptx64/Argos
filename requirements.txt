@@ -5,6 +5,4 @@ yfinance
 plotly
 scikit-learn
 ta
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
+gdown
