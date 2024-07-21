@@ -81,6 +81,7 @@ def update_pair(pair, date, pair_path) :
 
 with st.sidebar.popover("(Dev) update from archive") :
     if st.button("Load archive files from g drive", use_container_width=True) :
+        ""
         
         
 
