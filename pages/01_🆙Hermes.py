@@ -230,7 +230,7 @@ if update :
     my_bar.empty()
     col1.success(market + ' updated !')
 
-if st.button('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
+if st.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
     list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
     
     def convert_df(df):
@@ -252,15 +252,5 @@ if st.button('Download zipped .parquets', help = 'download zip of all the .parqu
                 # parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
                 parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
             my_bar.empty()
-            
-                
 
-        # csv_zip.writestr("collars.csv", csv_col)
-        #     csv_zip.writestr("all_catego.csv", csv)
-        
-        # st.download_button(label="Download zip(collars+all_catego)", data=buf.getvalue(),
-        #                            file_name="ac+collars.zip", mime="application/zip")
-
-  # with zipfile.ZipFile(zip_file_path, 'a') as zip_handle:
-  #   zip_handle.write(file_path, arcname=arcname)
-
+    st.download_button(label="Download zip (sp500 + binance + coinbase)", data=buf.getvalue(), file_name="historical_data.zip", mime="application/zip")
