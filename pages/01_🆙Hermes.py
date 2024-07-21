@@ -236,12 +236,13 @@ if st.button('Download zipped .parquets', help = 'download zip of all the .parqu
     # with zipfile.ZipFile(buf, "x") as parquet_zip:
 
     for x in list_paths :
+        st.toast(f"Processing {x}")
         if not os.path.exists(x) :
             st.toast(f"{x} does not exist")
             continue
         list_files = [y for y in os.listdir(x) if y.endswith(".parquet")]
         for f in list_files :
-            st.toast(os.path.join(x,f))
+            st.write(os.path.join(x,f))
 
         # csv_zip.writestr("collars.csv", csv_col)
         #     csv_zip.writestr("all_catego.csv", csv)
