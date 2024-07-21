@@ -239,9 +239,9 @@ if st.button('Download zipped .parquets', help = 'download zip of all the .parqu
         if not os.path.exists(x) :
             st.toast(f"{x} does not exist")
             continue
-        list_files = [x for x in os.listdir(x) if x.endswith(".parquet")]
+        list_files = [y for y in os.listdir(x) if y.endswith(".parquet")]
         for f in list_files :
-            st.toast(f)
+            st.toast(os.path.join(x,f))
 
         # csv_zip.writestr("collars.csv", csv_col)
         #     csv_zip.writestr("all_catego.csv", csv)
