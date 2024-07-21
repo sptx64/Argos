@@ -232,17 +232,24 @@ if update :
 
 if st.button('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
     list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
-    # buf = io.BytesIO()
-    # with zipfile.ZipFile(buf, "x") as parquet_zip:
-
-    for x in list_paths :
-        st.toast(f"Processing {x}")
-        if not os.path.exists(x) :
-            st.toast(f"{x} does not exist")
-            continue
-        list_files = [y for y in os.listdir(x) if y.endswith(".parquet")]
-        for f in list_files :
-            st.write(os.path.join(x,f))
+    
+    import io, zipfile
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "x") as parquet_zip:
+        for x in list_paths :
+            st.toast(f"Processing {x}")
+            if not os.path.exists(x) :
+                st.toast(f"{x} does not exist")
+                continue
+            list_files = [y for y in os.listdir(x) if y.endswith(".parquet")]
+            my_bar = st.progress(0., x)
+            len_list_files = len(list_files)
+            for i,f in enumerate(list_files) :
+                my_bar.progress((i+1)/len_list_files, os.path.join(x,f))
+                parquet_zip.write(f"{f}_{x.split("_")[-1].replace("/","")}", os.path.join(x,f))
+            my_bar.empty()
+            
+                
 
         # csv_zip.writestr("collars.csv", csv_col)
         #     csv_zip.writestr("all_catego.csv", csv)
@@ -250,6 +257,6 @@ if st.button('Download zipped .parquets', help = 'download zip of all the .parqu
         # st.download_button(label="Download zip(collars+all_catego)", data=buf.getvalue(),
         #                            file_name="ac+collars.zip", mime="application/zip")
 
-               
-dataset_path="dataset/sp500/" if market=="sp500" else f"dataset/crypto_{boc}/"
+  # with zipfile.ZipFile(zip_file_path, 'a') as zip_handle:
+  #   zip_handle.write(file_path, arcname=arcname)
 
