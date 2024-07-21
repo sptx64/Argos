@@ -233,6 +233,9 @@ if update :
 if st.button('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
     list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
     
+    def convert_df(df):
+        return df.to_parquet()
+    
     import io, zipfile
     buf = io.BytesIO()
     with zipfile.ZipFile(buf, "x") as parquet_zip:
@@ -246,7 +249,8 @@ if st.button('Download zipped .parquets', help = 'download zip of all the .parqu
             len_list_files = len(list_files)
             for i,f in enumerate(list_files) :
                 my_bar.progress((i+1)/len_list_files, os.path.join(x,f))
-                parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
+                # parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
+                parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
             my_bar.empty()
             
                 
