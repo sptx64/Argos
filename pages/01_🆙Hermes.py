@@ -230,8 +230,8 @@ if update :
     my_bar.empty()
     col1.success(market + ' updated !')
 
-with st.popover("Dev update tool") :
-    if st.sidebar.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
+with st.sidebar.popover("Dev update tool", use_container_width=True) :
+    if st.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
         list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
         
         def convert_df(df):
