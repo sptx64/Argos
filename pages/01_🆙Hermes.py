@@ -78,6 +78,10 @@ def update_pair(pair, date, pair_path) :
 #         continue
 #     dict_up[dbases_path].values
 
+
+with st.sidebar.popover("(Dev) update from archive") :
+    if st.button("Load archive files from g drive", use_container_width=True) :
+        
         
 
 col1,col2,col3 = st.columns(3)
@@ -242,7 +246,7 @@ if update :
     my_bar.empty()
     col1.success(market + ' updated !')
 
-with st.sidebar.popover("Dev update tool", use_container_width=True) :
+with st.sidebar.popover("(Dev) zip extractor tool", use_container_width=True) :
     def convert_df(df):
         return df.to_parquet()
     
