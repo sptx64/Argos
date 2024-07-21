@@ -255,7 +255,7 @@ with st.sidebar.popover("Dev update tool", use_container_width=True) :
                 my_bar.empty()
         return buf
     if st.toggle("Download parquet database") :
-        st.download_button(label="Download .zip", data=zip_and_download().getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive")
+        st.download_button(label="Download .zip", data=zip_and_download().getvalue(), file_name="historical_data.zip", mime="application/zip", help="upload the zipfile to g drive", value=True)
 
     # if st.toggle('Download zipped .parquets', help = 'download zip of all the .parquets available in the cloud. Useful to upload it on a gdrive') :
     #     list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
