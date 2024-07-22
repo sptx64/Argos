@@ -132,7 +132,8 @@ dataset_path="dataset/sp500/" if market=="sp500" else f"dataset/crypto_{boc}/"
 
 today_utc = datetime.datetime.utcnow().strftime('%Y-%m-%d')
 
-update = st.button('Update !', type="primary")
+c1, c2, c3 = st.columns(3)
+update = c1.button('Update !', type="primary")
 st.caption(f"Today's UTC date : {today_utc}")
 
 if update :
@@ -281,6 +282,18 @@ if update :
                 value+=1
     my_bar.empty()
     col1.success(market + ' updated !')
+
+if c2.button("View database state") :
+    dict_ld = {}
+    for f in [x for x in os.path.exists(dataset_path) if x.endswith(".parquet")] :
+        df = pd.read_parquet(os.path.join(dataset_path, f))
+        last_date = df["date"].values[-1]
+        if last_date not in dict_ld :
+            dict_ld[last_date] = [f]
+        else :
+            dict_ld[last_date].append(f)
+    dict_ld
+
 
 with st.sidebar.popover("(Dev) zip extractor tool", use_container_width=True) :
     def convert_df(df):
