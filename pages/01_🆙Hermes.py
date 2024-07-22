@@ -288,11 +288,12 @@ if c2.button("View database state") :
     list_files = [x for x in os.listdir(dataset_path) if x.endswith(".parquet")]
     for f in list_files :
         df = pd.read_parquet(os.path.join(dataset_path, f))
-        last_date = df["date"].values[-1]
-        if last_date not in dict_ld :
-            dict_ld[last_date] = [f]
-        else :
-            dict_ld[last_date].append(f)
+        if len(df) > 1 :
+            last_date = df["Date"].values[-1]
+            if last_date not in dict_ld :
+                dict_ld[last_date] = [f]
+            else :
+                dict_ld[last_date].append(f)
     dict_ld
 
 
