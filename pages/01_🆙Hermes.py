@@ -285,7 +285,8 @@ if update :
 
 if c2.button("View database state") :
     dict_ld = {}
-    for f in [x for x in os.path.exists(dataset_path) if x.endswith(".parquet")] :
+    list_files = [x for x in os.listdir(dataset_path) if x.endswith(".parquet")]
+    for f in list_files :
         df = pd.read_parquet(os.path.join(dataset_path, f))
         last_date = df["date"].values[-1]
         if last_date not in dict_ld :
