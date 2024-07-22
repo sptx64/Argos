@@ -134,7 +134,7 @@ if update :
                     to_drop=9
                     from_date = data["Date"].astype(str).values[-to_drop][:10]
                     tick, from_date
-                    yf.download(tickers = "AAPL", start = from_date, interval = "1d").reset_index()
+                    yf.download(tickers = "AAPL", start = from_date, interval = "1d", progress=False).reset_index()
                     "ok"
 
                     new_data = yf.download(tickers = tick, start = from_date, interval = "1d").reset_index()
