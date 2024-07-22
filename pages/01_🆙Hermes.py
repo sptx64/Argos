@@ -143,10 +143,13 @@ if update :
                         data = yf.Ticker(tick).history(period="max", interval='1d', progress=False).reset_index()
                         data.to_parquet(path_to_file, compression="brotli")
                     except :
-                        st.toast("Error for path_to_file", icon="❌")
+                        st.toast(f"Error for uploading :red[{path_to_file}] on existing file.", icon="❌")
             else:
-                data = yf.Ticker(tick).history(period="max", interval='1d', progress=False).reset_index()
-                data.to_parquet(path_to_file, compression="brotli")
+                try :
+                    data = yf.Ticker(tick).history(period="max", interval='1d', progress=False).reset_index()
+                    data.to_parquet(path_to_file, compression="brotli")
+                except :
+                    st.toast(f"Error for uploading :red[{path_to_file}] on non-existing file.", icon="❌")
 
             my_bar.progress(value/len_sp5, f"SP500 {value}/{len_sp5} {tick}")
             value+=1
