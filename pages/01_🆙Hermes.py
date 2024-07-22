@@ -81,9 +81,37 @@ def update_pair(pair, date, pair_path) :
 
 with st.sidebar.popover("(Dev) update from archive", use_container_width=True) :
     if st.button("Load archive files from g drive", use_container_width=True) :
+        st.toast("Downloading zipfile from gdrive")
+        import gdown
         url_gdrive_file = "xxx"
+        output = "database/drive_parquets.zip"
+        gdown.download(url_gdrive_file, output)
+
+        st.toast("extracting zipfile to database")
+        import zipfile
+        archive = zipfile.ZipFile(output)
+        for file in archive.namelist():
+            for desti in ["crypto_binance", "crypto_coinbase", "sp500"] :
+                if file.endswith(f'{desti}.parquet'):
+                    archive.extract(file, f'database/{desti}/')
+
+        st.toast("renaming parquet with correct names")
+        for desti in ["crypto_binance", "crypto_coinbase", "sp500"] :
+            
+            folder_path = os.path.join("database", desti)
+            list_files = [x for x in os.path.exists(folder_path) if x.endswith(".parquet")]
+            for f in list_files :
+                if f.replace(desti,"") in list_files :
+                    os.remove(os.path.join(folder_path, f))
+                else :
+                    os.rename(os.path.join(folder_path, f), os.path.join(folder_path, f).replace(desti,""))
+
+        st.toast("Done")
+
         
+
         
+
         
 
 col1,col2,col3 = st.columns(3)
@@ -144,13 +172,13 @@ if update :
                         data = yf.Ticker(tick).history(period="max", interval='1d', progress=False).reset_index()
                         data.to_parquet(path_to_file, compression="brotli")
                     except :
-                        st.toast(f"Error for uploading :red[{path_to_file}] on existing file.", icon="❌")
+                        st.toast(f"Error on uploading :red[{path_to_file}] with an existing file.", icon="❌")
             else:
                 try :
                     data = yf.Ticker(tick).history(period="max", interval='1d', progress=False).reset_index()
                     data.to_parquet(path_to_file, compression="brotli")
                 except :
-                    st.toast(f"Error for uploading :red[{path_to_file}] on non-existing file.", icon="❌")
+                    st.toast(f"Error on uploading :red[{path_to_file}] with no existing file.", icon="❌")
 
             my_bar.progress(value/len_sp5, f"SP500 {value}/{len_sp5} {tick}")
             value+=1
@@ -256,7 +284,7 @@ if update :
 
 with st.sidebar.popover("(Dev) zip extractor tool", use_container_width=True) :
     def convert_df(df):
-        return df.to_parquet()
+        return df.to_parquet(compression="brotli")
     
     def zip_and_download() :
         list_paths = [os.path.join("dataset", x) for x in ["sp500","crypto_coinbase", "crypto_binance"] ]
