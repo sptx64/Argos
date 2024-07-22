@@ -133,17 +133,13 @@ if update :
                 if len(data) > 10 :
                     to_drop=9
                     from_date = data["Date"].astype(str).values[-to_drop][:10]
-                    tick, from_date
-                    yf.download(tickers = "AAPL", start = from_date, interval = "1d", progress=False).reset_index()
-                    "ok"
-
-                    new_data = yf.download(tickers = tick, start = from_date, interval = "1d").reset_index()
+                    new_data = yf.download(tickers = tick, start = from_date, interval = "1d", progress=False).reset_index()
                     data.drop(data.tail(to_drop).index, inplace=True)
                     data=pd.concat([data,new_data], ignore_index=True)
                     data.to_parquet(path_to_file, compression="brotli")
 
                 else :
-                    data = yf.Ticker(tick).history(period="max", interval='1d').reset_index()
+                    data = yf.Ticker(tick).history(period="max", interval='1d', progress=False).reset_index()
                     data.to_parquet(path_to_file, compression="brotli")
             else:
                 data = yf.Ticker(tick).history(period="max", interval='1d').reset_index()
