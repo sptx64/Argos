@@ -294,6 +294,7 @@ if c2.button("View database state") :
                 dict_ld[last_date] = [f]
             else :
                 dict_ld[last_date].append(f)
+    "Here is the list of all available parquets for this market grouped by last row date. You may need to launch an update according to what you see."
     dict_ld
 
 
