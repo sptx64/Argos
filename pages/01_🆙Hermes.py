@@ -132,7 +132,7 @@ dataset_path="dataset/sp500/" if market=="sp500" else f"dataset/crypto_{boc}/"
 
 today_utc = datetime.datetime.utcnow().strftime('%Y-%m-%d')
 
-c1, c2, c3 = st.columns(3)
+c1, c2, c3, c4, c5 = st.columns(5)
 update = c1.button('Update !', type="primary")
 st.caption(f"Today's UTC date : {today_utc}")
 
