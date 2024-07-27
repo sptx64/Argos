@@ -41,7 +41,7 @@ ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
 dfs={}
 for t in ticker :
-    file_path = os.path.join(path, t)
+    file_path = os.path.join(path, f"{t}.parquet")
     file_path
     dfs[t] = pd.read_parquet(file_path)
     
