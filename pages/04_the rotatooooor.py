@@ -14,12 +14,10 @@ postFilter =  True
 opacity_A  =  100
 opacity_B  =  14
 
-
-
-
-
 st.sidebar.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
+
 c1,c2=st.sidebar.columns(2)
+
 market = c1.radio('Market', ['sp500', 'crypto'], index=1)
 
 broker="binance"
