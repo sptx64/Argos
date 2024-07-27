@@ -43,6 +43,7 @@ dfs={}
 for t in ticker :
     file_path = os.path.join(path, t)
     dfs[t] = pd.read_parquet(file_path)
+    file_path
 
     
 
