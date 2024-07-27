@@ -29,7 +29,7 @@ tables = [x.replace(".parquet","") for x in os.listdir(path)]
 
 # Create dropdown menu to select ticker
 val=None
-if market == crypto :
+if market == "crypto" :
     if broker == "binance" :
         val=["BTCUSDT", "ETHUSDT", "DOGEUSDT", "AVAXUSDT", "FTMUSDT", "SOLUSDT", "ATOMUSDT"]
     elif broker == "coinbase":
