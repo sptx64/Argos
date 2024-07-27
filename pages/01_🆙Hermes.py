@@ -83,16 +83,16 @@ with st.sidebar.popover("(Dev) update from archive", use_container_width=True) :
     if st.button("Load archive files from g drive", use_container_width=True) :
         st.toast("Downloading zipfile from gdrive")
         import gdown
-        url_gdrive_file = "xxx"
+        url_gdrive_file = "1cnauaTZ8fjnsAWyZoMv4bkcey4Jd_PUL"
         output = "database/drive_parquets.zip"
-        gdown.download(url_gdrive_file, output)
+        gdown.download(id=url_gdrive_file, output=output)
 
         st.toast("extracting zipfile to database")
         import zipfile
         archive = zipfile.ZipFile(output)
         for file in archive.namelist():
             for desti in ["crypto_binance", "crypto_coinbase", "sp500"] :
-                if file.endswith(f'{desti}.parquet'):
+                if file.endswith(f'{desti}'):
                     archive.extract(file, f'database/{desti}/')
 
         st.toast("renaming parquet with correct names")
