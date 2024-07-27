@@ -25,11 +25,18 @@ if market == "crypto" :
     broker = c2.radio("broker", ["binance","coinbase"], index=1)
 
 path = f'dataset/{market}_{broker}/' if market == "crypto" else f'dataset/{market}/'
-path
 tables = [x.replace(".parquet","") for x in os.listdir(path)]
 
 # Create dropdown menu to select ticker
-ticker = st.sidebar.multiselect("Select a ticker:", tables, None)
+val=None
+if market == crypto :
+    if broker == "binance" :
+        val=["BTCUSDT", "ETHUSDT", "DOGEUSDT", "AVAXUSDT", "FTMUSDT", "SOLUSDT", "ATOMUSDT"]
+    elif broker == "coinbase":
+        val=["BTC-USDT", "ETH-USDT", "DOGE-USDT", "AVAX-USDT", "RONIN-USDT", "SOL-USDT", "ATOM-USDT"]
+    else :
+        val=None
+ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
 
 
