@@ -1,8 +1,5 @@
-'# Asset Rotation Aperture' 
-#format=format.percent, precision=3, scale=scale.right)
-
+'# Asset Rotation Aperture'
 D1='Feature Switch A'
-
 
 res_htf = 60 # 'Timeframe HTF Source', group="Hardcoded Soon")
 alt_vol_src = 'INDEX:BTCUSD' #('INDEX:BTCUSD', 'Alt Volume source', group="Hardcoded Soon")
@@ -14,7 +11,7 @@ postFilter=True
 opacity_A=100
 opacity_B=14
 
-st.caption("NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY")
+# st.caption("NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY")
 
 c1,c2=st.sidebar.columns(2)
 
