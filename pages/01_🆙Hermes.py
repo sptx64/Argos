@@ -319,7 +319,7 @@ with st.sidebar.popover("(Dev) zip extractor tool", use_container_width=True) :
                 for i,f in enumerate(list_files) :
                     my_bar.progress((i+1)/len_list_files, os.path.join(x,f))
                     # parquet_zip.write(f"{f}_{x.split('_')[-1].replace('/','')}", os.path.join(x,f))
-                    parquet_zip.writestr(f"{f}_{x.split('_')[-1].replace('/','')}", convert_df(pd.read_parquet(os.path.join(x,f))) )
+                    parquet_zip.writestr(f"{f.replace(".parquet",""}_{x.split('_')[-1].replace('/','')}.parquet", convert_df(pd.read_parquet(os.path.join(x,f))) )
                 my_bar.empty()
         return buf
 
