@@ -1,21 +1,20 @@
 '# Asset Rotation Aperture' 
 #format=format.percent, precision=3, scale=scale.right)
 
-D01='Feature Switch A'
+D1='Feature Switch A'
 
 
-res_htf = 60 #// 'Timeframe HTF Source', group="Hardcoded Soon")
-alt_vol_src = 'INDEX:BTCUSD' #//('INDEX:BTCUSD', 'Alt Volume source', group="Hardcoded Soon")
-res = 15 #//('15', 'Timeframe')
-oscMode = D01 #// 'Oscillator Mode', [D01, D02, D03])
-oscLength  =  3600 #//(3600, 'Length', minval=2)
-smoothing  =  360 #// "Smoothing", minval = 1)
-postFilter =  True
-opacity_A  =  100
-opacity_B  =  14
+res_htf = 60 # 'Timeframe HTF Source', group="Hardcoded Soon")
+alt_vol_src = 'INDEX:BTCUSD' #('INDEX:BTCUSD', 'Alt Volume source', group="Hardcoded Soon")
+res = 15 #('15', 'Timeframe')
+oscMode=D1 # 'Oscillator Mode', [D01, D02, D03])
+oscLength=3600 #(3600, 'Length', minval=2)
+smoothing=360 # "Smoothing", minval = 1)
+postFilter=True
+opacity_A=100
+opacity_B=14
 
-st.sidebar.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
-
+st.sidebar.caption("NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY")
 c1,c2=st.sidebar.columns(2)
 
 market = c1.radio('Market', ['sp500', 'crypto'], index=1)
