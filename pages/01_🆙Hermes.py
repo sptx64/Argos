@@ -84,7 +84,7 @@ with st.sidebar.popover("(Dev) update from archive", use_container_width=True) :
         st.toast("Downloading zipfile from gdrive")
         import gdown
         url_gdrive_file = "1cnauaTZ8fjnsAWyZoMv4bkcey4Jd_PUL"
-        output = "database/drive_parquets.zip"
+        output = "database/historical_data.zip"
         gdown.download(id=url_gdrive_file, output=output)
 
         st.toast("extracting zipfile to database")
