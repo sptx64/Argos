@@ -39,48 +39,17 @@ if market == "crypto" :
 
 ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
+dfs={}
+for t in tickers :
+    file_path = os.path.join(path, t)
+    dfs[t] = pd.read_parquet(file_path)
+
+    
 
 
 
 
 
-
-
-
-
-
-# use_asset_1=  input.bool        (true, '', inline='1', group='Main')
-# color_1    =  input.color       (#ffa600, '', inline='1', group='Main')
-# desc_1     =  input.string      ('BITCOIN', '', inline='1', group='Main')
-# symbol_1   =  input.symbol      ('BINANCE:BTCUSDT', '', inline='1', group='Main')
-# use_asset_2=  input.bool        (true, '', inline='2', group='Main')
-# color_2    =  input.color       (#59e3ff, '', inline='2', group='Main')
-# desc_2     =  input.string      ('ETHEREUM', '', inline='2', group='Main')
-# symbol_2   =  input.symbol      ('BINANCE:ETHUSDT', '', inline='2', group='Main')
-# use_asset_3=  input.bool        (true, '', inline='3', group='Main')
-# color_3   =   input.color        (#fff200, '', inline='3', group='Main')
-# desc_3    =   input.string       ('BINANCE COIN', '', inline='3', group='Main')
-# symbol_3  =   input.symbol       ('BINANCE:BNBUSDT', '', inline='3', group='Main')
-# use_asset_4=  input.bool         (true, '', inline='4', group='Main')
-# color_4   =   input.color        (#ffffff, '', inline='4', group='Main')
-# desc_4    =   input.string       ('DOGE', '', inline='4', group='Main')
-# symbol_4  =   input.symbol       ('BINANCE:DOGEUSDT', '', inline='4', group='Main')
-# use_asset_5=  input.bool         (true, '', inline='5', group='Main')
-# color_5   =   input.color        (#2aff31, '', inline='5', group='Main')
-# desc_5    =   input.string       ('SOL', '', inline='5', group='Main')
-# symbol_5  =   input.symbol       ('BINANCE:SOLUSDT', '', inline='5', group='Main')
-# use_asset_6=  input.bool         (true, '', inline='6', group='Main')
-# color_6   =   input.color        (#9f90ff,'', inline='6', group='Main')
-# desc_6    =   input.string       ('LINK', '',  inline='6', group='Main')
-# symbol_6  =   input.symbol       ('BINANCE:LINKUSDT', '', inline='6', group='Main')
-# use_asset_7=  input.bool         (true, '',inline='7', group='Main')
-# color_7   =   input.color        (#ff5d5d, '', inline='7', group='Main')
-# desc_7    =   input.string       ('UNI','', inline='7',group='Main')
-# symbol_7  =   input.symbol       ('BINANCE:UNIUSDT', '',inline='7',group='Main')
-# use_asset_8=  input.bool         (true, '', inline='8', group='Main')
-# color_8   =   input.color        (#a7ffb8, '', inline='8',group='Main')
-# desc_8    =   input.string       ('RUNE','', inline='8', group='Main')
-# symbol_8  =   input.symbol       ('BINANCE:RUNEUSDT', '', inline='8', group='Main')
 
 
 # mode_selector (src, len, sel, filt) =>
