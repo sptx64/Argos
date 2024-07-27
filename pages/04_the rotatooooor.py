@@ -1,17 +1,19 @@
+import streamlit as st
+
 '# Asset Rotation Aperture'
 D1='Feature Switch A'
 
-res_htf = 60 # 'Timeframe HTF Source', group="Hardcoded Soon")
-alt_vol_src = 'INDEX:BTCUSD' #('INDEX:BTCUSD', 'Alt Volume source', group="Hardcoded Soon")
-res = 15 #('15', 'Timeframe')
-oscMode=D1 # 'Oscillator Mode', [D01, D02, D03])
-oscLength=3600 #(3600, 'Length', minval=2)
-smoothing=360 # "Smoothing", minval = 1)
+res_htf = 60
+alt_vol_src = 'INDEX:BTCUSD'
+res = 15
+oscMode=D1
+oscLength=3600
+smoothing=360
 postFilter=True
 opacity_A=100
 opacity_B=14
 
-# st.caption("NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY")
+st.caption("NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY")
 
 c1,c2=st.sidebar.columns(2)
 
