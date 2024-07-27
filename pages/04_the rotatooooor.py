@@ -24,7 +24,7 @@ if market == "crypto" :
     broker = c2.radio("broker", ["binance","coinbase"], index=1)
 
 path = f'dataset/{market}_{broker}/' if market == "crypto" else f'dataset/{market}/'
-
+path
 tables = [x.replace(".parquet","") for x in os.listdir(path)]
 
 # Create dropdown menu to select ticker
