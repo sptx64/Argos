@@ -36,6 +36,7 @@ if market == "crypto" :
         val=["BTC-USDT", "ETH-USDT", "DOGE-USDT", "AVAX-USDT", "RONIN-USDT", "SOL-USDT", "ATOM-USDT"]
     else :
         val=None
+
 ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
 
