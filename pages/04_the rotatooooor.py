@@ -1,6 +1,8 @@
 import streamlit as st
 import os
 import pandas as pd
+from app.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI
+
 
 '# Asset Rotation Aperture'
 D1='Feature Switch A'
@@ -45,6 +47,7 @@ for t in ticker :
     file_path = os.path.join(path, f"{t}.parquet")
     file_path
     dfs[t] = pd.read_parquet(file_path)
+    RSI(dfs[t], 14),
     
 
     
