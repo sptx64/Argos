@@ -52,12 +52,12 @@ for t in ticker :
     dfs[t] = pd.read_parquet(file_path)
     for elem in ["High","Low","Open","Close","Volume"] :
         dfs[t][elem] = dfs[t][elem].astype(float)
-        if method == "RSI" :
-            dfs[t][method] = RSI(dfs[t], period)
-        # elif method == "CMO" :
-        #     dfs[t][method] = ta.cmo(dfs[t]["Close"], period)
-        elif method == "MFI" :
-            dfs[t][method] = ta.volume.mfi(high=dfs[t]["High"], close=dfs[t]["Close"], low=dfs[t]["Low"], volume=dfs[t]["Volume"], window=period)
+    if method == "RSI" :
+        dfs[t][method] = RSI(dfs[t], period)
+    # elif method == "CMO" :
+    #     dfs[t][method] = ta.cmo(dfs[t]["Close"], period)
+    elif method == "MFI" :
+        dfs[t][method] = ta.volume.mfi(high=dfs[t]["High"], close=dfs[t]["Close"], low=dfs[t]["Low"], volume=dfs[t]["Volume"], window=period)
 
         
     
