@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import pandas as pd
 from app.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI
+import plotly.graph_objects as go
 # import pandas_ta as pta
 import ta
 
@@ -46,6 +47,8 @@ period = st.sidebar.select_slider("Select period", [14,20,36,50,200])
 ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
 dfs={}
+fig = make_subplots(rows=2, cols=1)
+
 for t in ticker :
     file_path = os.path.join(path, f"{t}.parquet")
     file_path
@@ -58,6 +61,14 @@ for t in ticker :
     #     dfs[t][method] = ta.cmo(dfs[t]["Close"], period)
     elif method == "MFI" :
         dfs[t][method] = ta.volume.mfi(high=dfs[t]["High"], close=dfs[t]["Close"], low=dfs[t]["Low"], volume=dfs[t]["Volume"], window=period)
+    fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t][method], mode="lines"), row=2, col=1)
+    fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t]["Close"], mode="lines"), row=1, col=1)
+
+fig.update_layout(hovermode="x unified", xaxis='x1')
+st.plotly_chart(fig, user_container_width=True)
+
+
+    
 
         
     
