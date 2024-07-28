@@ -3,6 +3,7 @@ import os
 import pandas as pd
 from app.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 # import pandas_ta as pta
 import ta
 
