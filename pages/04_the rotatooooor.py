@@ -62,7 +62,7 @@ for t in ticker :
     #     dfs[t][method] = ta.cmo(dfs[t]["Close"], period)
     elif method == "MFI" :
         dfs[t][method] = ta.volume.mfi(high=dfs[t]["High"], close=dfs[t]["Close"], low=dfs[t]["Low"], volume=dfs[t]["Volume"], window=period)
-    fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t][method], mode="lines", name=t), row=2, col=1)
+    fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t][method], mode="lines", name=f"{t}_{method}"), row=2, col=1)
     fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t]["Close"], mode="lines", name=t), row=1, col=1)
 
 # fig.update_layout(hovermode="x unified", xaxis='x1')
