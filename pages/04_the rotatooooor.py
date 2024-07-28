@@ -56,6 +56,7 @@ for t in ticker :
     dfs[t] = pd.read_parquet(file_path)
     for elem in ["High","Low","Open","Close","Volume"] :
         dfs[t][elem] = dfs[t][elem].astype(float)
+    dfs[t]
     if method == "RSI" :
         dfs[t][method] = RSI(dfs[t], period)
     # elif method == "CMO" :
