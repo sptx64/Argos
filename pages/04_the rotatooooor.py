@@ -40,6 +40,8 @@ if market == "crypto" :
     else :
         val=None
 
+method = st.sidebar.selectbar("Select a method", ["RSI"])
+period = st.sidebar.selectslider("Select period", [14,20,36,50,200])
 ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
 dfs={}
@@ -49,8 +51,9 @@ for t in ticker :
     dfs[t] = pd.read_parquet(file_path)
     for elem in ["High","Low","Open","Close","Volume"] :
         dfs[t][elem] = dfs[t][elem].astype(float)
-    dfs[t]["RSI"] = RSI(dfs[t], 14)
-    
+    if method == "RSI" :
+        dfs[t][method] = RSI(dfs[t], 14)
+    elif :
     
 
     
