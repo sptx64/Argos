@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import pandas as pd
 
 '# Asset Rotation Aperture'
 D1='Feature Switch A'
