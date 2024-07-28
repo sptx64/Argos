@@ -2,8 +2,8 @@ import streamlit as st
 import os
 import pandas as pd
 from app.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI
-import pandas_ta as pta
-
+# import pandas_ta as pta
+import ta
 
 '# Asset Rotation Aperture'
 D1='Feature Switch A'
@@ -41,7 +41,7 @@ if market == "crypto" :
     else :
         val=None
 
-method = st.sidebar.selectbar("Select a method", ["RSI","CMO","MFI"])
+method = st.sidebar.selectbar("Select a method", ["RSI","MFI"])
 period = st.sidebar.selectslider("Select period", [14,20,36,50,200])
 ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
@@ -54,10 +54,10 @@ for t in ticker :
         dfs[t][elem] = dfs[t][elem].astype(float)
         if method == "RSI" :
             dfs[t][method] = RSI(dfs[t], period)
-        elif method == "CMO" :
-            dfs[t][method] = pta.cmo(dfs[t]["Close"], period)
+        # elif method == "CMO" :
+        #     dfs[t][method] = ta.cmo(dfs[t]["Close"], period)
         elif method == "MFI" :
-            dfs[t][method] = pta.mfi(dfs[t]["Close"], period)
+            dfs[t][method] = ta.volume.mfi(high=dfs[t]["High"], close=dfs[t]["Close"], low=dfs[t]["Low"], volume=dfs[t]["Volume"], window=period)
 
         
     
