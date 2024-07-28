@@ -41,7 +41,7 @@ if market == "crypto" :
     else :
         val=None
 
-method = st.sidebar.selectbar("Select a method", ["RSI","MFI"])
+method = st.sidebar.selectbox("Select a method", ["RSI","MFI"])
 period = st.sidebar.selectslider("Select period", [14,20,36,50,200])
 ticker = st.sidebar.multiselect("Select a ticker:", tables, val)
 
