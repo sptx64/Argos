@@ -47,6 +47,7 @@ for t in ticker :
     file_path = os.path.join(path, f"{t}.parquet")
     file_path
     dfs[t] = pd.read_parquet(file_path)
+    list(dfs[t]),
     dfs[t]["RSI"] = RSI(dfs[t], 14)
     
     
