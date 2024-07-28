@@ -53,6 +53,8 @@ fig = make_subplots(rows=2, cols=1)
 for t in ticker :
     file_path = os.path.join(path, f"{t}.parquet")
     file_path
+    pd.read_parquet(file_path),
+
     dfs[t] = pd.read_parquet(file_path)
     
     for elem in ["High","Low","Open","Close","Volume"] :
