@@ -54,7 +54,6 @@ for t in ticker :
     file_path = os.path.join(path, f"{t}.parquet")
     file_path
     dfs[t] = pd.read_parquet(file_path)
-    dfs[t]
     
     for elem in ["High","Low","Open","Close","Volume"] :
         dfs[t][elem] = dfs[t][elem].astype(float)
