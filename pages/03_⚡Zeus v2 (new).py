@@ -570,3 +570,4 @@ fig.update_layout(height=800, template='simple_white', title_text=f"{ticker} dai
 fig.update_xaxes(rangeslider_visible=False, title="Date", visible=False)
 
 st.plotly_chart(fig, use_container_width=True)
+data
