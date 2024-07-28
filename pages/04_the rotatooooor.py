@@ -65,7 +65,7 @@ for t in ticker :
     fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t][method], mode="lines", name=f"{t}_{method}"), row=2, col=1)
     fig.add_trace(go.Scatter(x=dfs[t]["Date"], y=dfs[t]["Close"], mode="lines", name=t), row=1, col=1)
 
-fig.update_layout(xaxis='x1')
+fig.update_layout(hovermode='x unified', height=700)
 # fig.update_layout(hovermode="x unified", xaxis='x1')
 st.plotly_chart(fig, user_container_width=True)
 
