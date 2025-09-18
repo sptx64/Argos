@@ -15,7 +15,7 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 
 st.write(os.listdir("."))
 
-st.image("img/panoptes.jpg", width="stretch")
+st.image("app/img/panoptes.jpg", width="stretch")
 st.caption('For educational only, not financial advise')
 
 ''
