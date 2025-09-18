@@ -17,8 +17,8 @@ img_path = os.path.join(pf.get_path_app(), "img/panoptes.jpg")
 st.write(os.listdir("."))
 
 st.write(os.listdir("app"))
-st.write(os.listdir("app/img"))
-
+# st.write(os.listdir("app/img/panoptes.JPG"))
+st.image("app/img/panoptes.JPG")
 
 st.image(img_path, width="stretch")
 st.caption('For educational only, not financial advise')
