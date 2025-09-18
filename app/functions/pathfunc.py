@@ -1,5 +1,8 @@
 import os
 
+def get_path_app() :
+    return "/app"
+
 def get_path_data() :
     return "/data"
 
