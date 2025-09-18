@@ -12,8 +12,8 @@ def logging(secret1, secret2) :
     if "password" not in st.session_state :
         col1,col2,col3 = st.columns(3)
         with col2.form("logging"):
-            password1 = st.text_input("Insert access password1", None, placeholder="PASSWORD1", type="password").replace("/","").replace(":","").replace("'","")
-            password2 = st.text_input("Insert access password2", None, placeholder="PASSWORD2", type="password").replace("/","").replace(":","").replace("'","")
+            password1 = st.text_input("Insert access password1", "", placeholder="PASSWORD1", type="password").replace("/","").replace(":","").replace("'","")
+            password2 = st.text_input("Insert access password2", "", placeholder="PASSWORD2", type="password").replace("/","").replace(":","").replace("'","")
             connect = st.form_submit_button("Connect", type="primary", disabled = False if st.session_state.wait==False else True)
             if connect :
                 if (password1 != secret1) | (password2 != secret2) :
@@ -28,4 +28,5 @@ def logging(secret1, secret2) :
         st.stop()
 
 # logging(secret1,secret2)
+
 
