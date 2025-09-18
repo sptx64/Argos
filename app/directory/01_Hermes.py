@@ -92,8 +92,8 @@ if update:
         my_bar = st.progress(0., "SP500 updating datas")
         # my_toast = st.toast( f"Updating...", icon=":material/hourglass_top:" )
 
-        # tickers = pd.read_html(req)[0]
-        tickers = pd.read_csv("sp500_companies.csv")["Symbol"].values
+        # tickers = pd.read_html(req)[0
+        tickers = pd.read_csv("app/sp500_companies.csv")["Symbol"].values
 
         #below have been blocked by wikipedia
         # tickers = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
