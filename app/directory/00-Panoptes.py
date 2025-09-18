@@ -15,6 +15,11 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 
 img_path = os.path.join(pf.get_path_app(), "img/panoptes.jpg")
 st.write(os.listdir("."))
+
+st.write(os.listdir("app"))
+st.write(os.listdir("app/img"))
+
+
 st.image(img_path, width="stretch")
 st.caption('For educational only, not financial advise')
 
