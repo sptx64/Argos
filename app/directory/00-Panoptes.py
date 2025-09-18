@@ -13,7 +13,7 @@ logging(st.secrets["secret1"], st.secrets["secret2"])
 "# Panoptes"
 '### :material/candlestick_chart: A technical analysis dashboard'
 
-os.listdir(".")
+st.write(os.listdir("."))
 
 st.image("img/panoptes.jpg", width="stretch")
 st.caption('For educational only, not financial advise')
