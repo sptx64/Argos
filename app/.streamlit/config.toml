@@ -1,0 +1,9 @@
+[theme]
+base="light"
+primaryColor="#000000"
+secondaryBackgroundColor="#e0e0e0"
+baseRadius="large"
+
+[server]
+maxUploadSize = 2000
+maxMessageSize = 2000
