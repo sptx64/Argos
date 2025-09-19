@@ -88,7 +88,10 @@ if compile_results :
 
 if go :
     tickers = [x.replace(".parquet", "") for x in os.listdir(path)]
+    toast_tickers = st.toast("Screening...", duration="infinite", icon=":material/search:")
+    toast_found = st.toast("No match yet...", duration="infinite")
     for symbol in tickers :
+        toast_tickers.toast(f"Screening... {symbol}", duration="infinite", icon=":material/search:")
         df_check = ta.df_check()
         count = 0
 
@@ -231,6 +234,7 @@ if go :
             df_check = df_check[(df_check['result'] != '') & (df_check['result'] != False) & (df_check['result'] != 'False') & (df_check['result'] != 'off')]
 
             if (len(df_check) == count) & (len(df_check) > 0) :
+                toast_found.toast(f"Found {symbol}", duration="infinite", icon=":material/check_small:") 
                 if compile_results :
                     dataf = pd.read_parquet( os.path.join(path, f"{symbol}.parquet") )
                     dataf["Symbol"] = symbol
@@ -289,7 +293,9 @@ if go :
             fig = px.scatter(comp_res_argos, x="Date", y="Close", animation_frame="Symbol", color="Volume_ratio", color_continuous_scale="Jet")#range_x=[100,100000], range_y=[25,90]
             st.plotly_chart(fig)
 
+    
     st.badge('Done', color="green", icon=":material/check_small:")
-    st.toast("Screening complete", icon=":material/check_small:")
+    toast_found.toast("Done", duration="short")
+    toast_tickers.toast("Screening complete", icon=":material/check_small:", duration="short")
 
     st.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
