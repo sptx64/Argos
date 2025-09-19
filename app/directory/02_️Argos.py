@@ -258,7 +258,7 @@ if go :
                                 mrk_max_size = st.slider("Marker max size", 5, 50, 20)
                                 fig = pgo.Figure()
 
-                                st.write( dataframe )
+                                # st.write( dataframe )
                                 dataframe["Volume"] = pd.to_numeric(dataframe["Volume"], errors="coerce")
                                 dataframe_vol = dataframe[dataframe["Volume"]>0]
                                 
