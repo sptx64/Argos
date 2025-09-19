@@ -257,7 +257,10 @@ if go :
                             if st.toggle("Volume markers") :
                                 mrk_max_size = st.slider("Marker max size", 5, 50, 20)
                                 fig = pgo.Figure()
+
+                                st.write( dataframe )
                                 dataframe_vol = dataframe[dataframe["Volume"]>0]
+                                
                                 fig.add_trace(pgo.Scatter(x=dataframe_vol["Date"].values, y=dataframe_vol["Close"].values, name="Volume markers", mode="markers",
                                                          marker_color=dataframe_vol["Volume"].values, marker_size=dataframe_vol["Volume"].values/max(dataframe_vol["Volume"].values)*mrk_max_size,
                                                          marker_colorscale="Jet"))
