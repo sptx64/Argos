@@ -119,6 +119,8 @@ if update:
             value += 1
             if value % 20 == 0 :
                 time.sleep(1)
+            if value % 500 == 0 :
+                time.sleep(5)
 
 
 
