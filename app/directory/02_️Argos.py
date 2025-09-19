@@ -259,6 +259,7 @@ if go :
                                 fig = pgo.Figure()
 
                                 st.write( dataframe )
+                                dataframe["Volume"] = pd.to_numeric(dataframe["Volume"], errors="coerce")
                                 dataframe_vol = dataframe[dataframe["Volume"]>0]
                                 
                                 fig.add_trace(pgo.Scatter(x=dataframe_vol["Date"].values, y=dataframe_vol["Close"].values, name="Volume markers", mode="markers",
