@@ -98,7 +98,7 @@ if update:
         #below have been blocked by wikipedia
         # tickers = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
         # tickers = tickers['Symbol'].values
-        if os.path.exists("Euronext.csv"):
+        if os.path.exists(os.path.join(pf.get_path_app(), "Euronext.csv")):
             tickers_PA = pd.read_csv("Euronext.csv")["Ticker"].values
             tickers_PA = [x for x in tickers_PA if x.endswith(".PA")]
             tickers = list(tickers) + list(tickers_PA)
