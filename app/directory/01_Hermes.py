@@ -104,6 +104,7 @@ if update:
             tickers = list(tickers) + list(tickers_PA)
 
         len_sp5, value = len(tickers), 0
+        
         for tick in tickers:
             path_to_file = os.path.join(dataset_path, tick + ".parquet")
             data = yf.Ticker(tick).history(period="20y", interval='1d').reset_index()
@@ -116,6 +117,8 @@ if update:
             my_bar.progress(value / len_sp5, f"SP500 {value}/{len_sp5} {tick}")
             my_toast.toast( f"Updated {tick}", icon=":material/check_small:", duration="infinite")
             value += 1
+            if value % 20 == 0 :
+                time.sleep(1)
 
 
 
