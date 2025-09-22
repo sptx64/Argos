@@ -1,5 +1,4 @@
-# Argos
-## a trading analysis stock explorer
+# Argos - a trading analysis stock explorer
 
 Argos is a Streamlit-based application that empowers you to download, screen, and analyze financial data. It supports:
 - S&P 500 and Euronext stock data via the yfinance API.
@@ -9,8 +8,7 @@ Built purely out of a passion for coding, this app is for educational purposes o
 
 ***
 
-Key Features
-
+## Key Features
 1. Hermes: The Data Messenger
 The Hermes module manages database updates by fetching data from yfinance or Binance APIs.
 Note: Data retrieval can be time-consuming and may hit yfinance API rate limits. Adjust the time.sleep(x) parameter to avoid issues.
