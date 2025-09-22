@@ -25,7 +25,7 @@ Once you’ve identified a stock or crypto of interest, the Zeus page lets you z
 
 ***
 
-Deployment Options - two ways to use Argos
+## Deployment Options - two ways to use Argos
 
 Fork and Deploy on Streamlit Community Cloud:
 Fork the repository and deploy your own instance. You do not need any coding experience.
@@ -46,23 +46,22 @@ streamlit run app.py
 
 ***
 
+## Passwords
 Passwords are in the .streamlit/secrets.toml file
 
 ***
 
-This project is a passion project, built for the love of coding.
-Use at your own risk. It is not financial advice—always conduct your own research.
-
-***
-
-Contributing
+## Contributing
 Contributions are welcome! To contribute:
 Report bugs or suggest features via Issues.
 Submit pull requests with enhancements or fixes.
 
 ***
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 Built with ❤️
+
+This project is a passion project, built for the love of coding. Use at your own risk. It is not financial advice : always conduct your own research.
+
 Explore, analyze, and experiment responsibly!
