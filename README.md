@@ -1,4 +1,5 @@
-# Argos: a trading analysis stock explorer
+# Argos
+## a trading analysis stock explorer
 
 Argos is a Streamlit-based application that empowers you to download, screen, and analyze financial data. It supports:
 - S&P 500 and Euronext stock data via the yfinance API.
