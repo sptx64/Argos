@@ -103,6 +103,9 @@ if go :
         for elem in ["Open", "Close", "High", "Low"] :
             data[elem] = data[elem].astype(float)
 
+        if not len(data) > 20 :
+            continue
+
         if len(data) > 20 :
             if wick :
                 count+=1
