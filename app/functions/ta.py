@@ -447,11 +447,8 @@ def bull_bear_rsi_div(data) :
         #data.loc[data.index == i, 'top_rsi'] = True
     
     data_bottom = data[data['bot_rsi'] == True]
-    try :
-        data_bottom['bullish_rsi_div'] = [ None for y in range(len(data_bottom))]
-        data_bottom.loc[(data_bottom['rsi'] >= data_bottom['rsi'].shift(1)) & (data_bottom['Close'] <= data_bottom['Close'].shift(1)), 'bullish_rsi_div'] = True
-    except :
-        st.write(data_bottom)
+    data_bottom['bullish_rsi_div'] = [ None for y in range(len(data_bottom))]
+    data_bottom.loc[(data_bottom['rsi'] >= data_bottom['rsi'].shift(1)) & (data_bottom['Close'] <= data_bottom['Close'].shift(1)), 'bullish_rsi_div'] = True
 
 
     data_top = data[data['top_rsi'] == True]
