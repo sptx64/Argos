@@ -689,7 +689,7 @@ if SMOM :
     plotheight+=subplotheight
     subplot_row+=1
 
-fig.update_layout(height=800, template='simple_white', title_text=f"{ticker} daily")
+fig.update_layout(height=800, template='simple_white', title_text=f"{ticker} daily", showlegend=False)
 fig.update_xaxes(rangeslider_visible=False, title="Date", visible=False)
 
 st.plotly_chart(fig, use_container_width=True)
