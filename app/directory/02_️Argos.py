@@ -178,7 +178,10 @@ if go :
 
             if divergence :
                 count+=1
-                data, data_bottom, data_top = ta.bull_bear_rsi_div(data)
+                try:
+                    data, data_bottom, data_top = ta.bull_bear_rsi_div(data)
+                except:
+                    continue
                 if (len(data_bottom) > 4) & (len(data_top) > 4) :
                     if (data_bottom.iloc[-2]['bullish_rsi_div'] == True) | (data_bottom.iloc[-3]['bullish_rsi_div'] == True) | (data_bottom.iloc[-4]['bullish_rsi_div'] == True) :
                         df_check.loc[df_check['ta_ref'] == 'divergence', 'result'] = 'bullish rsi 🐸'
