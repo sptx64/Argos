@@ -121,6 +121,8 @@ if update:
                 time.sleep(1)
             if value % 500 == 0 :
                 time.sleep(5)
+            if value % 1000 == 0 :
+                time.sleep(10)
 
 
 
