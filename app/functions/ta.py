@@ -450,6 +450,8 @@ def bull_bear_rsi_div(data) :
     if len(data_bottom) > 4:
         data_bottom['bullish_rsi_div'] = [ None for y in range(len(data_bottom))]
         data_bottom.loc[(data_bottom['rsi'] >= data_bottom['rsi'].shift(1)) & (data_bottom['Close'] <= data_bottom['Close'].shift(1)), 'bullish_rsi_div'] = True
+    else :
+        st.write(data_bottom)
 
 
     data_top = data[data['top_rsi'] == True]
