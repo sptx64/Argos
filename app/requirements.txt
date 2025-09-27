@@ -4,6 +4,4 @@ numpy
 scipy
 yfinance
 plotly
-ta
-pandas-ta
 requests
