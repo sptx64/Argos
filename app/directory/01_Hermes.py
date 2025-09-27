@@ -117,6 +117,7 @@ if update:
             my_bar.progress(value / len_sp5, f"SP500 {value}/{len_sp5} {tick}")
             my_toast.toast( f"Updated {tick}", icon=":material/check_small:", duration="infinite")
             value += 1
+            time.sleep(0.25)
             if value % 20 == 0 :
                 time.sleep(1)
             if value % 500 == 0 :
