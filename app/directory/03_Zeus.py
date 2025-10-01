@@ -77,8 +77,10 @@ if market == "crypto" :
 
 if broker != "dexscreener" :
     path = pf.get_path_crypto() if market == "crypto" else pf.get_path_sp500()
-    if not os.path.exists : 
+    if not os.path.exists(path) : 
         st.info("Start by updating datasets in Hermes module or change the market (sidebar)")
+        st.stop()
+        
     tables = [x.replace(".parquet","") for x in os.listdir(path) if not x.endswith(".txt")]
 
     # Create dropdown menu to select ticker
