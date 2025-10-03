@@ -432,7 +432,7 @@ else :
     fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color=incr_candle_color, width=0.5)), decreasing=dict(line=dict(color=decr_candle_color, width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
-fig.add_hline(y=data["Close"].values, line_width=1, line_color="grey", line_dash="dot", row=None if subplot==0 else 1)
+fig.add_hline(y=data["Close"].values[-1], line_width=1, line_color="grey", line_dash="dot", row=None if subplot==0 else 1, annotation_text=f"{data["Close"].values[-1]}", annotation_position="top left")
 
 
 if grid_search:
