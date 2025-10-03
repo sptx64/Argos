@@ -28,7 +28,7 @@ def np_rsi(close, periods):
 
     return rsi
 
-def ad(volume, close, high, low) :
+def acad(volume, close, high, low) :
     "accumulation distribution"
     close = np.array(close)
     high = np.array(high)
