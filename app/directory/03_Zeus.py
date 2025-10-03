@@ -246,7 +246,7 @@ if rsi5014 :
     data.loc[(data[f"RSIoscillator"].shift(1).values>=0) & (data[f"RSIoscillator"].values<0), "RSIOCalls"] = "Bearish"
 
 if ACD :
-    subplot+=1
+    subplot+=2
     data["ACD"], data["MFV"] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
     
     
@@ -577,7 +577,11 @@ if VOL:
 
 if ACD:
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data["ACD"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
+    plotheight+=subplotheight
+    subplot_row+=1
     
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["MFM"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
+    fig.add_hline(y=0, line_color="grey", line_width=1, row=subplot_row)
     plotheight+=subplotheight
     subplot_row+=1
 
