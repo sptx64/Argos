@@ -40,7 +40,6 @@ def acd(volume, close, high, low) :
     mfm = np.where(high == low, 0, mfm)
     mfv = mfm * volume
     ad_line = np.cumsum(mfv)
-    
     return ad_line
     
 
