@@ -248,6 +248,7 @@ if rsi5014 :
 if ACD :
     subplot+=1
     data["ACD"], data["MFM"] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
+    data, data_bot_acd, data_top_acd = bull_bear_acd_div(data)
     
     
 
@@ -577,6 +578,23 @@ if VOL:
 
 if ACD:
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data["ACD"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
+    data_bottom
+    for i in range(len(data_bottom)):
+        row = data_bottom.iloc[i]
+        prev_row = data_bottom.iloc[i-1]
+        if row['bullish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row[rs], prev_row[rs]]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+
+    for i in range(len(data_top)):
+        row = data_top.iloc[i]
+        prev_row = data_top.iloc[i-1]
+        if row['bearish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row[rs], prev_row[rs]]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+    
     plotheight+=subplotheight
     subplot_row+=1
     
