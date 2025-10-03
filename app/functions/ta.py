@@ -42,6 +42,39 @@ def acd(volume, close, high, low) :
     ad_line = np.cumsum(mfv)
     return ad_line, mfv
     
+def bull_bear_acd_div(data) :
+    if "ACD" not in data :
+        data['ACD'] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
+    data = data.reset_index(drop=True)
+
+    a_values = data['ACD'].values
+
+    distance = 7
+    tops = argrelextrema(a_values, np.greater, order=distance)
+    bottoms = argrelextrema(a_values, np.less, order=distance)
+
+    data.loc[:, 'top_acd'] = False
+    for i in tops[0] :
+        # data['top_rsi'][i] = True
+        data.loc[i, 'top_acd'] = True
+        #data.loc[data.index == i, 'top_rsi'] = True
+
+    data.loc[:, 'bot_acd'] = False
+    for i in bottoms[0] :
+        # data['bot_rsi'][i] = True
+        data.loc[i, 'bot_acd'] = True
+        #data.loc[data.index == i, 'top_rsi'] = True
+    
+    data_bottom = data[data['bot_acd'] == True]
+    data_bottom['bullish_acd_div'] = [ None for y in range(len(data_bottom))]
+    data_bottom.loc[(data_bottom['ACD'] >= data_bottom['ACD'].shift(1)) & (data_bottom['Close'] <= data_bottom['Close'].shift(1)), 'bullish_acd_div'] = True
+
+
+    data_top = data[data['top_acd'] == True]
+    data_top['bearish_acd_div'] = [None for y in range(len(data_top))]
+    data_top.loc[(data_top['ACD'] <= data_top['ACD'].shift(1)) & (data_top['Close'] >= data_top['Close'].shift(1)), 'bearish_acd_div'] = True
+    return data, data_bottom, data_top
+
 
 
 def check_supertrend_flip(data, period=10, multiplier=3):
