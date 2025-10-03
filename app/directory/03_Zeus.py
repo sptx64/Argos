@@ -5,7 +5,7 @@ import os
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
-from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi
+from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi, acd
 import functions.pathfunc as pf
 
 from functions.logging import logging
@@ -132,32 +132,35 @@ with col1.popover(":material/candlestick_chart: Candles", use_container_width=Tr
 with col2.popover(":material/avg_time: Moving averages", use_container_width=True) :
     MAs=st.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
     if len(MAs)>0 :
-        show_ema = st.toggle("Show EMA")
-        c1,c2,c3 = st.columns(3)
-        ma6_color=c1.color_picker("6MA", "#00FFFB")
-        ma14_color=c2.color_picker("14MA", "#FFA200")
-        ma20_color=c3.color_picker("20MA", "#E400DF")
-        ma50_color=c1.color_picker("50MA", "#550092")
-        ma200_color=c2.color_picker("200MA", "#0009FF")
-        dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
+        show_ema       = st.toggle("Show EMA")
+        c1,c2,c3       = st.columns(3)
+        ma6_color      = c1.color_picker("6MA", "#00FFFB")
+        ma14_color     = c2.color_picker("14MA", "#FFA200")
+        ma20_color     = c3.color_picker("20MA", "#E400DF")
+        ma50_color     = c1.color_picker("50MA", "#550092")
+        ma200_color    = c2.color_picker("200MA", "#0009FF")
+        dict_ma_colors = {"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
 with col3.popover(":material/function: Indicators", use_container_width=True) :
-    RSIs=st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-    c1,c2=st.columns(2)
-    SR=c1.toggle("S/R")
-    VOL=c2.toggle("Volume")
-    AO=c1.toggle("AO")
-    SMOM=c2.toggle("Squeeze Mom Lazy Bear")
-    DOT=c1.toggle("Dots trend streategy")
-    WT=c2.toggle("Wick trend")
+    RSIs  = st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    c1,c2 = st.columns(2)
+    SR    = c1.toggle("S/R")
+    VOL   = c2.toggle("Volume")
+    AO    = c1.toggle("AO")
+    SMOM  = c2.toggle("Squeeze Mom Lazy Bear")
+    DOT   = c1.toggle("Dots trend streategy")
+    WT    = c2.toggle("Wick trend")
     "---"
-    rsi5014=c2.toggle("RSI oscillator trend (experimental)")
-    sqz=c1.toggle("Squeeze")
+    rsi5014 = c2.toggle("RSI oscillator trend (experimental)")
+    sqz     = c1.toggle("Squeeze")
+    ACD    = c2.toggle("ac/ad")
+    
     grid_search = c1.toggle("Grid search")
     if grid_search:
-        grid_x = st.slider("Grid size X (days)", 6, 200, 20)
-        grid_type = st.radio("Grid type", ["Volume cum", "RSI Correlation (Pearson)"])
+        grid_x         = st.slider("Grid size X (days)", 6, 200, 20)
+        grid_type      = st.radio("Grid type", ["Volume cum", "RSI Correlation (Pearson)"])
         gs_multiwindow = st.button("Multiwindow search")
+    
 
 
 with col4.popover(":material/sports_basketball: Doji", use_container_width=True) :
@@ -242,7 +245,11 @@ if rsi5014 :
     data.loc[(data[f"RSIoscillator"].shift(1).values<=0) & (data[f"RSIoscillator"].values>0), "RSIOCalls"] = "Bullish"
     data.loc[(data[f"RSIoscillator"].shift(1).values>=0) & (data[f"RSIoscillator"].values<0), "RSIOCalls"] = "Bearish"
 
-
+if ACD :
+    subplot+=1
+    data["ACD"] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
+    
+    
 
 if WT :
     # data["wick"]=(data["Close"]-data["Low"]) - (data["High"]-data["Close"])
