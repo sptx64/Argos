@@ -28,6 +28,22 @@ def np_rsi(close, periods):
 
     return rsi
 
+def ad(volume, close, high, low) :
+    "accumulation distribution"
+    close = np.array(close)
+    high = np.array(high)
+    low = np.array(low)
+    volume = np.array(volume)
+    
+    # Calculer le Money Flow Multiplier (MFM)
+    mfm = ((close - low) - (high - close)) / (high - low)
+    mfm = np.where(high == low, 0, mfm)
+    mfv = mfm * volume
+    ad_line = np.cumsum(mfv)
+    
+    return ad_line
+    
+
 
 def check_supertrend_flip(data, period=10, multiplier=3):
     """
