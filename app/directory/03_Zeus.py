@@ -247,7 +247,7 @@ if rsi5014 :
 
 if ACD :
     subplot+=1
-    data["ACD"] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
+    data["ACD"], data["MFV"] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
     
     
 
