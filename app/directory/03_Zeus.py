@@ -584,7 +584,7 @@ if ACD:
         prev_row = data_bot_acd.iloc[i-1]
         if row['bullish_acd_div'] == True :
             x = [row['Date'], prev_row['Date']]
-            y = [row[rs], prev_row[rs]]
+            y = [row["ACD"], prev_row["ACD"]]
             fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
 
     for i in range(len(data_top_acd)):
@@ -592,7 +592,7 @@ if ACD:
         prev_row = data_top_acd.iloc[i-1]
         if row['bearish_acd_div'] == True :
             x = [row['Date'], prev_row['Date']]
-            y = [row[rs], prev_row[rs]]
+            y = [row["ACD"], prev_row["ACD"]]
             fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
     
     plotheight+=subplotheight
