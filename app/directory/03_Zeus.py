@@ -425,7 +425,7 @@ else :
 
 if mrk_vol :
     data_vol = data[data["Volume"] > 0][["Date","Close","Volume"]]
-    fig.add_trace(go.Scatter(x=data_vol["Date"].values, y=data_vol["Close"].values, name="close-volume markers", mode="markers",
+    fig.add_trace(go.Scatter(x=data_vol["Date"].values, y=data_vol["Close"].values, name="close-volume markers", mode="markers", marker_line_width=0, 
                              marker_color=data_vol["Volume"].values, marker_size=data_vol["Volume"].values/max(data_vol["Volume"].values)*mrk_max_size,
                              marker_colorscale="Jet"), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 else :
