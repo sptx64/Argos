@@ -575,6 +575,12 @@ if VOL:
     plotheight+=subplotheight
     subplot_row+=1
 
+if ACD:
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["ACD"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
+    
+    plotheight+=subplotheight
+    subplot_row+=1
+
 if grid_search:
     fig.add_trace(go.Scatter(x=data["Date"], y=data[grid_type], mode="lines", line_width=1, line_color="crimson", fill='tozeroy'), col=1, row=subplot_row)
     fig.add_hline(y=0, line_color="grey", line_width=1)
