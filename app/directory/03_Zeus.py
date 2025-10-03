@@ -578,7 +578,6 @@ if VOL:
 
 if ACD:
     fig.add_trace(go.Scatter(x=data["Date"].values, y=data["ACD"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
-    data_bot_acd
     for i in range(len(data_bot_acd)):
         row = data_bot_acd.iloc[i]
         prev_row = data_bot_acd.iloc[i-1]
