@@ -5,7 +5,7 @@ import os
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
-from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi, acd
+from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi, acd, bull_bear_acd_div
 import functions.pathfunc as pf
 
 from functions.logging import logging
