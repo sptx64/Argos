@@ -55,6 +55,14 @@ def import_crypto(ticker, tframe, start_date=None, api_id=3,):
 col1, col2, col3 = st.columns(3)
 market = col1.radio('Market', ['sp500', 'crypto'], horizontal=True)
 
+rate=col1.radio("rate **only for yahoo finance**", ["permissive","restrictive"], help="to accomodate with yahoo finance limit rate, restrictive adds waiting time")
+
+time_wait = [0.25, 1, 5, 10]
+
+if rate=='restrictive' :
+    multiple = st.number_input("multiply wait time by :", 1.0, 100.0, 2.0)
+    time_wait = [ x * multiple for x in time_wait]
+
 if market == 'sp500':
     boc = "binance"
 elif market == 'crypto':
@@ -117,13 +125,13 @@ if update:
             my_bar.progress(value / len_sp5, f"SP500 {value}/{len_sp5} {tick}")
             my_toast.toast( f"Updated {tick}", icon=":material/check_small:", duration="infinite")
             value += 1
-            time.sleep(0.25)
+            time.sleep(time_wait[0])
             if value % 20 == 0 :
-                time.sleep(1)
+                time.sleep(time_wait[1])
             if value % 500 == 0 :
-                time.sleep(5)
+                time.sleep(time_wait[2])
             if value % 1000 == 0 :
-                time.sleep(10)
+                time.sleep(time_wait[3])
 
 
 
