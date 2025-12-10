@@ -8,6 +8,7 @@ import requests
 import json
 import ast
 import time
+from yfinance.exceptions import YFRateLimitError
 
 import functions.pathfunc as pf
 
@@ -120,7 +121,24 @@ if update:
         
         for tick in tickers:
             path_to_file = os.path.join(dataset_path, tick + ".parquet")
-            data = yf.Ticker(tick).history(period="20y", interval='1d').reset_index()
+            
+            max_retries = 6
+            wait_retries = [30, 60, 120, 180, 240]
+            
+            for i_try in range(max_retries):
+                try:
+                    data = yf.Ticker(tick).history(period="20y", interval='1d').reset_index()
+                    break
+                except YFRateLimitError:
+                    if i_try == max_retries-1 :
+                        st.error("Could not pass YFRateLimitError, stopping.")
+                        st.stop()
+                    wait_try = wait_retries[i_try]
+                    st.toast(f"YFRateLimitError,{wait_try} seconds sleep...")
+                    time.sleep(wait_try)
+                
+
+
             if not data.empty :
                 if "Dividends" in data :
                     data["Dividends"] = data["Dividends"].astype(str).str.replace(r'[^0-9.]', '', regex=True)
