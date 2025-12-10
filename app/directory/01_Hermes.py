@@ -57,7 +57,7 @@ market = col1.radio('Market', ['sp500', 'crypto'], horizontal=True)
 
 rate=col1.radio("rate **only for yahoo finance**", ["permissive","restrictive"], help="to accomodate with yahoo finance limit rate, restrictive adds waiting time")
 
-time_wait = [0.25, 1, 5, 10]
+time_wait = [0.25, 0.5, 15, 30]
 
 if rate=='restrictive' :
     multiple = st.number_input("multiply wait time by :", 1.0, 100.0, 2.0)
