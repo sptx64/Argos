@@ -120,6 +120,8 @@ if update:
         len_sp5, value = len(tickers), 0
         
         for tick in tickers:
+            if tick == "NEM" :
+                continue
             path_to_file = os.path.join(dataset_path, tick + ".parquet")
             
             max_retries = 6
