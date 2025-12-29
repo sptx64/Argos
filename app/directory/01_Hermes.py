@@ -118,9 +118,11 @@ if update:
             tickers_PA = [x for x in tickers_PA if x.endswith(".PA")]
             tickers = list(tickers) + list(tickers_PA)
 
-        len_sp5, value = len(tickers), 0
 
         tickers = [ t for t in tickers if not t in exclude_tickers ]
+
+        len_sp5, value = len(tickers), 0
+
         
         for tick in tickers:
             path_to_file = os.path.join(dataset_path, tick + ".parquet")
