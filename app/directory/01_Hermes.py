@@ -16,6 +16,7 @@ st.set_page_config(layout = 'centered')
 
 # import urllib.request
 
+exclude_tickers=["NEM",]
 
 # Placeholder for logging (adjust as per your actual implementation)
 from functions.logging import logging
@@ -118,10 +119,10 @@ if update:
             tickers = list(tickers) + list(tickers_PA)
 
         len_sp5, value = len(tickers), 0
+
+        tickers = [ t for t in tickers if not t in exclude_tickers ]
         
         for tick in tickers:
-            if tick == "NEM" :
-                continue
             path_to_file = os.path.join(dataset_path, tick + ".parquet")
             
             max_retries = 6
