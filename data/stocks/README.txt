@@ -1,0 +1,1 @@
+stocks form diferent markets
