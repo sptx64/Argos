@@ -1,0 +1,789 @@
+name,symbol,instrument type,exchange,industry
+Gazprom OAO-ADR,OGZDL.L,Stocks,London,Utilities
+KazMunaiGas Exploration Production JSC,KMGL.L,Stocks,London,Utilities
+Lukoil OAO-ADR,LKOD.L,Stocks,London,BasicMaterials
+Magnit PJSC,MGNTL.L,Stocks,London,ConsumerGoods
+MegaFon OAO,MFONL.L,Stocks,London,Utilities
+MMC Norilsk Nickel OJSC-ADR,MNODL.L,Stocks,London,BasicMaterials
+NOVATEK OAO,NVTKL.L,Stocks,London,Utilities
+PhosAgro OAO,PHORL.L,Stocks,London,IndustrialGoods
+Rosneft OAO,ROSNL.L,Stocks,London,BasicMaterials
+Severstal PAO,SVSTL.L,Stocks,London,BasicMaterials
+Surgutneftegas OAO-ADR,SGGD.L,Stocks,London,Utilities
+Tatneft OAO-ADR,ATADL.L,Stocks,London,Utilities
+Uralkali PJSC,URKAL.L,Stocks,London,IndustrialGoods
+iShares $ Treasury Bond 0-1yr UCITS ETF,IB01.L,ETF,London,Services
+Dowlais Group PLC,DWL.L,Stocks,London,IndustrialGoods
+Reliance Industries Limited,RIGD.L,Stocks,London,Services
+Axis Bank Limited,AXB.L,Stocks,London,Financial
+State Bank of India,SBID.L,Stocks,London,Financial
+Larsen & Toubro Limited,LTOD.L,Stocks,London,IndustrialGoods
+Mahindra & Mahindra Limited,MHID.L,Stocks,London,ConsumerGoods
+GAIL India Limited,GAID.L,Stocks,London,Utilities
+Tata Steel Limited,TTST.L,Stocks,London,IndustrialGoods
+Canal+ France,CAN.L,Stocks,London,Technology
+Valterra Platinum Limited,VALT.L,Stocks,London,BasicMaterials
+Anglo American,AAL.L,Stocks,London,BasicMaterials
+Associated British Foods,ABF.L,Stocks,London,ConsumerGoods
+Admiral Group,ADM.L,Stocks,London,Financial
+Aberdeen Asset Management,ADN.L,Stocks,London,Financial
+Aggreko,AGK.L,Stocks,London,Services
+Ashtead Group,AHT.L,Stocks,London,Services
+Amec Foster Wheeler Plc,AMFW.L,Stocks,London,BasicMaterials
+Antofagasta,ANTO.L,Stocks,London,BasicMaterials
+ARM Holdings,ARM.L,Stocks,London,Technology
+Aviva,AV.L,Stocks,London,Financial
+AstraZeneca,AZN.L,Stocks,London,Healthcare
+BAE Systems,BA.old,Stocks,London,IndustrialGoods
+Babcock International,BAB.L,Stocks,London,Services
+Barclays,BARC.L,Stocks,London,Financial
+British American Tobacco,BATS.L,Stocks,London,ConsumerGoods
+BG Group,BG.L,Stocks,London,BasicMaterials
+British Land,BLND.L,Stocks,London,Financial
+BHP Group Ltd ,BHP.L,Stocks,London,BasicMaterials
+Bunzl,BNZL.L,Stocks,London,Services
+BP,BP.L,Stocks,London,BasicMaterials
+Burberry Group,BRBY.L,Stocks,London,Services
+Sky PLC,SKY.L,Stocks,London,Services
+BT Group,BT.L,Stocks,London,Technology
+Coca Cola Hellenic,CCH.L,Stocks,London,ConsumerGoods
+Carnival,CCL.L,Stocks,London,ConsumerGoods
+Centrica,CNA.L,Stocks,London,Utilities
+Compass Group,CPG.L,Stocks,London,Services
+Capita,CPI.L,Stocks,London,Services
+CRH,CRH.old,Stocks,London,IndustrialGoods
+Diageo,DGE.L,Stocks,London,ConsumerGoods
+Experian,EXPN.L,Stocks,London,Services
+easyJet,EZJ.L,Stocks,London,Services
+Fresnillo,FRES.L,Stocks,London,BasicMaterials
+G4S,GFS.L,Stocks,London,Services
+GKN,GKN.L,Stocks,London,ConsumerGoods
+Glencore Plc,GLEN.L,Stocks,London,BasicMaterials
+GlaxoSmithKline,GSK.L,Stocks,London,Healthcare
+Hargreaves Lansdown,HL.L,Stocks,London,Financial
+Hammerson,HMSO.L,Stocks,London,Financial
+HSBC Holdings,HSBA.L,Stocks,London,Financial
+International Consolidated Airlines,IAG.L,Stocks,London,Services
+InterContinental Hotels Group,IHG.old,Stocks,London,Services
+IMI,IMI.L,Stocks,London,IndustrialGoods
+Imperial Brands PLC,IMB.L,Stocks,London,ConsumerGoods
+Intertek Group,ITRK.L,Stocks,London,Services
+ITV,ITV.L,Stocks,London,Services
+Johnson Matthey,JMAT.L,Stocks,London,BasicMaterials
+Kingfisher,KGF.L,Stocks,London,Services
+Land Securities,LAND.L,Stocks,London,Financial
+Legal & General,LGEN.L,Stocks,London,Financial
+Lloyd's Banking Group PLC,LLOY.L,Stocks,London,Financial
+London Stock Exchange,LSEG.L,Stocks,London,Financial
+Meggitt,MGGT.L,Stocks,London,IndustrialGoods
+Marks & Spencer,MKS.L,Stocks,London,Services
+Mondi,MNDI.L,Stocks,London,ConsumerGoods
+Melrose Industries,MRO.L,Stocks,London,IndustrialGoods
+Wm Morrison Supermarkets PLC,MRW.L,Stocks,London,Services
+National Grid,NG.L,Stocks,London,Utilities
+Next PLC,NXT.L,Stocks,London,Services
+Old Mutual,OML.L,Stocks,London,Financial
+Petrofac,PFC.L,Stocks,London,BasicMaterials
+Prudential,PRU.L,Stocks,London,Financial
+Persimmon,PSN.L,Stocks,London,IndustrialGoods
+Pearson,PSON.L,Stocks,London,Services
+Reckitt Benckiser,RKT.L,Stocks,London,ConsumerGoods
+Natwest Group PLC,NWG.L,Stocks,London,Financial
+Royal Dutch Shell,RDSA.L,Stocks,London,BasicMaterials
+RELX PLC,REL.L,Stocks,London,Services
+REXAM,REX.L,Stocks,London,ConsumerGoods
+Rio Tinto,RIO.L,Stocks,London,BasicMaterials
+International Distributions Services PLC,IDS.L,Stocks,London,Services
+Rolls-Royce,RR.L,Stocks,London,IndustrialGoods
+Randgold Resources,RRS.L,Stocks,London,BasicMaterials
+RSA Insurance,RSA.L,Stocks,London,Financial
+Resolution,RSL.L,Stocks,London,Financial
+SABMiller,SAB.L,Stocks,London,ConsumerGoods
+J Sainsbury PLC,SBRY.L,Stocks,London,Services
+Schroders,SDR.L,Stocks,London,Financial
+Sage Group,SGE.old,Stocks,London,Technology
+Shire,SHP.L,Stocks,London,Healthcare
+abrdn PLC,ABDN.L,Stocks,London,Financial
+Smiths Group,SMIN.L,Stocks,London,IndustrialGoods
+Smith & Nephew,SN.L,Stocks,London,Healthcare
+Frasers Group,FRAS,Stocks,London,Services
+SSE,SSE.L,Stocks,London,Utilities
+Standard Chartered,STAN.L,Stocks,London,Financial
+Severn Trent,SVT.L,Stocks,London,Utilities
+Tate & Lyle,TATE.L,Stocks,London,ConsumerGoods
+Tullow Oil,TLW.L,Stocks,London,BasicMaterials
+Travis Perkins,TPK.L,Stocks,London,IndustrialGoods
+Tesco,TSCO.L,Stocks,London,Services
+TUI Travel,TT.L,Stocks,London,ConsumerGoods
+Unilever,ULVR.L,Stocks,London,ConsumerGoods
+United Utilities,UU.L,Stocks,London,Utilities
+Vodafone Group PLC,VOD.l.OLD,Stocks,London,Technology
+Weir Group,WEIR.L,Stocks,London,IndustrialGoods
+William Hill,WMH.L,Stocks,London,Services
+Ferguson PLC,FERG.L,Stocks,London,IndustrialGoods
+WPP,WPP.L,Stocks,London,Services
+Whitbread,WTB.L,Stocks,London,Services
+Daily Mail plc,DMGT.L,Stocks,London,Technology
+3i Group PLC,III,Stocks,London,Financial
+BAE Systems plc ,BA.L,Stocks,London,IndustrialGoods
+CRH plc,CRH.L,Stocks,London,IndustrialGoods
+InterContinental Hotels Group PLC,IHG.L,Stocks,London,ConsumerGoods
+The Sage Group plc ,SGE.L,Stocks,London,Technology
+M&G plc,MNG.L,Stocks,London,Financial
+THG Plc,THG.L,Stocks,London,Services
+Darktrace plc,DARK.L,Stocks,London,Technology
+Future plc,FUTR.L,Stocks,London,Services
+Airtel Africa Plc,AAF.L,Stocks,London,Services
+Watches of Switzerland Group plc,WOSG.L,Stocks,London,ConsumerGoods
+Harbour Energy plc,HBR.L,Stocks,London,Services
+Dr. Martens plc,DOCS.L,Stocks,London,ConsumerGoods
+Volution Group plc,FAN.L,Stocks,London,IndustrialGoods
+Liontrust Asset Management PLC,LIO.L,Stocks,London,Financial
+LXI REIT plc,LXI.L,Stocks,London,Financial
+Kainos Group plc,KNOS.L,Stocks,London,Technology
+Molten Ventures Plc,GROW.L,Stocks,London,Financial
+AJ Bell plc,AJB.L,Stocks,London,Financial
+Sirius Real Estate Limited,SRE.L,Stocks,London,Financial
+Chrysalis Investments Limited,CHRY.L,Stocks,London,Financial
+IntegraFin Holdings plc,IHP.L,Stocks,London,Financial
+Diversified Energy Company PLC,DEC.L,Stocks,London,Services
+Energean plc,ENOG.L,Stocks,London,Services
+Endeavour Mining plc,EDV.L,Stocks,London,BasicMaterials
+Bridgepoint Group plc,BPT.L,Stocks,London,Financial
+Bytes Technology Group plc,BYIT.L,Stocks,London,Technology
+Network International Holdings plc,NETW.L,Stocks,London,ConsumerGoods
+Petershill Partners PLC,PHLL.L,Stocks,London,Financial
+Oxford Instruments plc,OXIG.L,Stocks,London,IndustrialGoods
+Premier Foods plc,PFD.L,Stocks,London,ConsumerGoods
+Auction Technology Group plc,ATG.L,Stocks,London,Services
+Helios Towers plc,HTWS.L,Stocks,London,IndustrialGoods
+JTC PLC,JTC.L,Stocks,London,Financial
+Ninety One Group,N91.L,Stocks,London,Financial
+Morgan Sindall Group plc,MGNS,Stocks,London,IndustrialGoods
+SDCL Efficiency Income Trust Plc,SEIT.L,Stocks,London,Financial
+Barratt Redrow PLC,BTRW.L,Stocks,London,Services
+Croda International,CRDA.L,Stocks,London,BasicMaterials
+DCC PLC,DCC.L,Stocks,London,Services
+Direct Line Group,DLG.L,Stocks,London,Services
+Informa,INF.L,Stocks,London,Services
+Micro Focus International PLC,MCRO.L,Stocks,London,Services
+Flutter Entertainment,FLTR.L,Stocks,London,Services
+Rentokil Initial PLC,RTO.L,Stocks,London,ConsumerGoods
+Segro,SGRO.L,Stocks,London,Financial
+Smurfit WestRock Public Limited Company,SWR.L,Stocks,London,Services
+Scottish Mortgage Investment Trust,SMT.L,Stocks,London,Financial
+TUI AG,TUI.L,Stocks,London,Services
+Taylor Wimpey,TW.L,Stocks,London,IndustrialGoods
+Quilter PLC,QLT.L,Stocks,London,Financial
+Mediclinic International PLC,MDC.L,Stocks,London,ConsumerGoods
+Aston Martin Lagonda Global Holdings PLC,AML.L,Stocks,London,ConsumerGoods
+ASOS PLC,ASC.L,Stocks,London,Services
+Shell PLC,SHEL.L,Stocks,London,ConsumerGoods
+Ryanair Holdings PLC,RYyA.L.OLD,Stocks,London,Services
+Avast PLC,AVST.L,Stocks,London,Technology
+Samsung Electronics Co Ltd - GDR,SMSN.L,Stocks,London,Technology
+Trainline PLC,TRN.L,Stocks,London,Utilities
+Hill & Smith PLC,HILS.L,Stocks,London,ConsumerGoods
+Morgan Advanced Materials PLC,MGAM.L,Stocks,London,Financial
+Coats Group PLC,COA.L,Stocks,London,Financial
+Dechra Pharmaceuticals PLC,DPH.L,Stocks,London,ConsumerGoods
+Marshalls PLC,MSLH.L,Stocks,London,ConsumerGoods
+Howden Joinery Group PLC,HWDN.L,Stocks,London,IndustrialGoods
+Intu Properties PLC,INTU.L,Stocks,London,Technology
+Senior PLC,SNR.L,Stocks,London,IndustrialGoods
+OSB Group PLC,OSB.L,Stocks,London,ConsumerGoods
+Spectris PLC,SXS.L,Stocks,London,ConsumerGoods
+Spirax-Sarco Engineering PLC,SPX.L,Stocks,London,Utilities
+TP ICAP PLC,TCAP.L,Stocks,London,IndustrialGoods
+James Fisher & Sons PLC,FSJ.L,Stocks,London,Technology
+Balfour Beatty PLC,BBY.L,Stocks,London,Technology
+Cobham PLC,COB.L,Stocks,London,IndustrialGoods
+Rightmove PLC,RMV.L,Stocks,London,Utilities
+SIG PLC,SHI.L,Stocks,London,Financial
+Synthomer PLC,SYNT.L,Stocks,London,ConsumerGoods
+Hays PLC,HAS.L,Stocks,London,Financial
+RIT Capital Partners PLC,RCP.L,Stocks,London,BasicMaterials
+UNITE Group PLC,UTG.L,Stocks,London,ConsumerGoods
+DS Smith PLC,SMDS.L,Stocks,London,Financial
+Hunting PLC,HTG.L,Stocks,London,Financial
+Hastings Group Holdings PLC,HSTG.L,Stocks,London,IndustrialGoods
+Bodycote PLC,BOY.L,Stocks,London,ConsumerGoods
+John Laing Group PLC,JLG.L,Stocks,London,Financial
+Hansteen Holdings PLC,HSTN.L,Stocks,London,IndustrialGoods
+Essentra PLC,ESNT.L,Stocks,London,ConsumerGoods
+IG Group Holdings PLC,IGG.L,Stocks,London,BasicMaterials
+Dignity PLC,DTY.L,Stocks,London,ConsumerGoods
+Rank Group PLC,RNK.L,Stocks,London,ConsumerGoods
+Renishaw PLC,RSW.L,Stocks,London,Financial
+Playtech Plc,PTEC.L,Stocks,London,ConsumerGoods
+Crest Nicholson Holdings plc,CRST.L,Stocks,London,IndustrialGoods
+Redrow PLC,RDW.L,Stocks,London,ConsumerGoods
+Drax Group PLC,DRX.L,Stocks,London,BasicMaterials
+Signature Aviation Plc,SIG.L,Stocks,London,Financial
+Computacenter PLC,CCC.L,Stocks,London,Utilities
+Sophos Group PLC,SOPH.L,Stocks,London,Financial
+Esken Ltd,ESKN.L,Stocks,London,Financial
+Inmarsat PLC,ISAT.L,Stocks,London,Financial
+Derwent London PLC,DLN.L,Stocks,London,BasicMaterials
+Restaurant Group PLC,RTN.L,Stocks,London,BasicMaterials
+BMO Commercial Property Trust Ltd,BCPT.L,Stocks,London,Utilities
+Polymetal International PLC,POLY.L,Stocks,London,IndustrialGoods
+IWG PLC,IWG.L,Stocks,London,Financial
+Perpetual Income and Growth Investment T,PLI.L,Stocks,London,ConsumerGoods
+Shaftesbury Capital PLC,SHC.L,Stocks,London,Technology
+Grafton Group PLC,GFTU.L,Stocks,London,ConsumerGoods
+Temple Bar Investment Trust PLC,TMPL.L,Stocks,London,Financial
+Clarkson PLC,CKN.L,Stocks,London,Technology
+Greggs PLC,GRG.L,Stocks,London,ConsumerGoods
+Elementis PLC,ELM.L,Stocks,London,IndustrialGoods
+Rathbone Brothers PLC,RAT.L,Stocks,London,ConsumerGoods
+Pagegroup PLC,PAGE.L,Stocks,London,Financial
+Savills PLC,SVS.L,Stocks,London,BasicMaterials
+Phoenix Group Holdings,PHNX.L,Stocks,London,IndustrialGoods
+Stagecoach Group PLC,SGC.L,Stocks,London,Financial
+Ultra Electronics Holdings PLC,ULE.L,Stocks,London,ConsumerGoods
+Mobico Group PLC,MCG.L,Stocks,London,ConsumerGoods
+Ascential PLC,ASCL.L,Stocks,London,Financial
+Centamin PLC,CEY.L,Stocks,London,Financial
+LondonMetric Property PLC,LMP.L,Stocks,London,BasicMaterials
+Auto Trader Group PLC,AUTO.L,Stocks,London,IndustrialGoods
+Alliance Witan PLC,ALW.L,Stocks,London,ConsumerGoods
+esure Group PLC,ESUR.L,Stocks,London,IndustrialGoods
+Hochschild Mining PLC,HOC.L,Stocks,London,Financial
+Acacia Mining PLC,ACA.L,Stocks,London,Financial
+John Wood Group PLC,WG.L,Stocks,London,ConsumerGoods
+Genuit Group PLC,GEN.L,Stocks,London,IndustrialGoods
+Jardine Lloyd Thompson Group PLC,JLT.L,Stocks,London,Financial
+Hikma Pharmaceuticals PLC,HIK.L,Stocks,London,ConsumerGoods
+Fidessa Group PLC,FDSA.L,Stocks,London,ConsumerGoods
+Currys PLC,CURY.L,Stocks,London,Utilities
+HICL Infrastructure Co Ltd,HICL.L,Stocks,London,Financial
+FDM Group Holdings PLC,FDM.L,Stocks,London,Financial
+Cineworld Group PLC,CINE.L,Stocks,London,Financial
+Rotork PLC,ROR.L,Stocks,London,ConsumerGoods
+Berkeley Group Holdings PLC,BKG.L,Stocks,London,Financial
+Renewables Infrastructure Group Ltd,TRIG.L,Stocks,London,Financial
+Evraz PLC,EVR.L,Stocks,London,Financial
+Ibstock PLC,IBST.L,Stocks,London,Financial
+Man Group PLC,EMG.L,Stocks,London,Financial
+Millennium & Copthorne Hotels PLC,MLC.L,Stocks,London,Financial
+Zigup PLC,ZIG.L,Stocks,London,ConsumerGoods
+Virgin Money Holdings UK PLC,VM.L,Stocks,London,IndustrialGoods
+Hiscox Ltd,HSX.L,Stocks,London,ConsumerGoods
+Ferrexpo PLC,FXPO.L,Stocks,London,ConsumerGoods
+Vesuvius PLC,VSVS.L,Stocks,London,Financial
+Greene King PLC,GNK.L,Stocks,London,Financial
+UK Commercial Property Trust Ltd,UKCM.L,Stocks,London,Utilities
+Lancashire Holdings Ltd,LRE.L,Stocks,London,ConsumerGoods
+St Modwen Properties PLC,SMP.L_old,Stocks,London,Utilities
+PZ Cussons PLC,PZC.L,Stocks,London,ConsumerGoods
+RPC Group PLC,RPC.L,Stocks,London,Financial
+Inchcape PLC,INCH.L,Stocks,London,Financial
+Domino's Pizza Group PLC,DOM.L,Stocks,London,Financial
+Halfords Group PLC,HFD.L,Stocks,London,ConsumerGoods
+Moneysupermarket.com Group PLC,MONY.L,Stocks,London,Financial
+QinetiQ Group PLC,QQ.L,Stocks,London,Financial
+Beazley PLC,BEZ.L,Stocks,London,Financial
+Jupiter Fund Management PLC,JUP.L,Stocks,London,ConsumerGoods
+Investec PLC,INVP.L,Stocks,London,Financial
+City of London Investment Trust PLC,CTY.L,Stocks,London,Financial
+Vedanta Resources PLC,VED.L,Stocks,London,ConsumerGoods
+Tritax Big Box REIT Plc,BBOX.L,Stocks,London,ConsumerGoods
+Safestore Holdings PLC,SAFE.L,Stocks,London,Financial
+Halma PLC,HLMA.L,Stocks,London,IndustrialGoods
+WH Smith PLC,SMWH.L,Stocks,London,Financial
+Workspace Group PLC,WKP.L,Stocks,London,Financial
+HomeServe PLC,HSV.L,Stocks,London,Financial
+Pennon Group PLC,PNN.L,Stocks,London,Financial
+N Brown Group PLC,BWNG.L,Stocks,London,Financial
+Telecom Plus PLC,TEP.L,Stocks,London,ConsumerGoods
+Entertainment One Ltd,ETO.L,Stocks,London,Financial
+Monks Investment Trust PLC,MNKS.L,Stocks,London,Financial
+TalkTalk Telecom Group PLC,TALK.L,Stocks,London,BasicMaterials
+Foreign & Colonial Investment Trust PLC,FCIT.L,Stocks,London,Financial
+Paragon Group of Cos PLC,PAG.L,Stocks,London,ConsumerGoods
+Dairy Crest Group PLC,DCG.L,Stocks,London,Financial
+NEX Group PLC,NXG.L,Stocks,London,ConsumerGoods
+Cranswick PLC,CWK.L,Stocks,London,ConsumerGoods
+B&M European Value Retail SA,BME.L,Stocks,London,Financial
+Bank of Georgia Group PLC,BGEO.L,Stocks,London,ConsumerGoods
+Big Yellow Group PLC,BYG.L,Stocks,London,ConsumerGoods
+PayPoint PLC,PAY.L,Stocks,London,ConsumerGoods
+Mitie Group PLC,MTO.L,Stocks,London,ConsumerGoods
+JD Sports Fashion PLC,JD.L,Stocks,London,ConsumerGoods
+Mercantile Investment Trust PLC,MRC.L,Stocks,London,Utilities
+Electrocomponents PLC,RS1.L,Stocks,London,Financial
+Assura PLC,AGR.L,Stocks,London,Financial
+Templeton Emerging Markets Investment Tr,TEM.L,Stocks,London,ConsumerGoods
+Indivior PLC,INDV.L,Stocks,London,ConsumerGoods
+3i Infrastructure PLC,3IN.L,Stocks,London,Financial
+Intermediate Capital Group PLC,ICG.L,Stocks,London,ConsumerGoods
+Shaftesbury PLC,SHB.L,Stocks,London,ConsumerGoods
+Pets at Home Group Plc,PETS.L,Stocks,London,IndustrialGoods
+NewRiver REIT PLC,NRR.L,Stocks,London,Financial
+TBC Bank Group PLC,TBCG.L,Stocks,London,ConsumerGoods
+Victrex PLC,VCT.L,Stocks,London,Financial
+RDI REIT P.L.C.,RDI.L,Stocks,London,Financial
+Spire Healthcare Group PLC,SPI.L,Stocks,London,ConsumerGoods
+Grainger PLC,GRI.L,Stocks,London,IndustrialGoods
+ZPG PLC,ZPG.L,Stocks,London,Technology
+Countryside Properties PLC,CSP.L,Stocks,London,IndustrialGoods
+UDG Healthcare PLC,UDG.L,Stocks,London,Financial
+Great Portland Estates PLC,GPE.L,Stocks,London,Financial
+Greencore Group PLC,GNC.L,Stocks,London,Financial
+SSP Group Plc,SSPG.L,Stocks,London,ConsumerGoods
+Britvic PLC,BVIC.L,Stocks,London,ConsumerGoods
+Mitchells & Butlers PLC,MAB.L,Stocks,London,Financial
+Diploma PLC,DPLM.L,Stocks,London,ConsumerGoods
+Euromoney Institutional Investor PLC,ERM.L,Stocks,London,ConsumerGoods
+Marston's PLC,MARS.L,Stocks,London,Financial
+Brewin Dolphin Holdings PLC,BRW.L,Stocks,London,Utilities
+Bellway PLC,BWY.L,Stocks,London,BasicMaterials
+Ted Baker PLC,TED.L,Stocks,London,Utilities
+A.G. Barr PLC,BAG.L,Stocks,London,Financial
+Saga PLC,SAGA.L,Stocks,London,BasicMaterials
+AA PLC,AA.L,Stocks,London,IndustrialGoods
+NMC Health PLC,NMC,Stocks,London,Utilities
+Just Group PLC,JUST.L,Stocks,London,Financial
+Card Factory PLC,CARD.L,Stocks,London,Financial
+J D Wetherspoon PLC,JDW.L,Stocks,London,Financial
+McCarthy & Stone PLC,MCS.L_old,Stocks,London,ConsumerGoods
+International Public Partnerships Ltd,INPP.L,Stocks,London,ConsumerGoods
+Sanne Group PLC,SNN.L,Stocks,London,Financial
+Entain PLC,ENT.L,Stocks,London,Utilities
+Kier Group PLC,KIE.L,Stocks,London,Financial
+Softcat PLC,SCT.L,Stocks,London,Technology
+Go-Ahead Group PLC,GOG.L,Stocks,London,ConsumerGoods
+Close Brothers Group PLC,CBG.L,Stocks,London,Financial
+Dunelm Group PLC,DNLM.L,Stocks,London,Financial
+Vistry Group PLC,VTY.L,Stocks,London,Financial
+Galliford Try PLC,GFRD.L,Stocks,London,ConsumerGoods
+Ashmore Group PLC,ASHM.L,Stocks,London,Financial
+Thomas Cook Group PLC,TCG.L,Stocks,London,ConsumerGoods
+Genus PLC,GNS.L,Stocks,London,Financial
+Serco Group PLC,SRP.L,Stocks,London,BasicMaterials
+Petra Diamonds Ltd,PDL.L,Stocks,London,Utilities
+Nostrum Oil & Gas PLC,NOG.L,Stocks,London,Financial
+HarbourVest Global Private Equity Ltd,HVPE.L,Stocks,London,BasicMaterials
+KAZ Minerals PLC,KAZ.L,Stocks,London,Healthcare
+Firstgroup PLC,FGP.L,Stocks,London,Utilities
+Capricorn Energy PLC,CNE.L,Stocks,London,ConsumerGoods
+BTG PLC,BTG.L,Stocks,London,Financial
+Fidelity Emerging Markets Limited ,FEML.L,Stocks,London,ConsumerGoods
+Wizz Air Holdings Plc,WIZZ.L,Stocks,London,ConsumerGoods
+Ocado Group PLC,OCDO.L,Stocks,London,BasicMaterials
+Sirius Minerals PLC,SXX.L,Stocks,London,Financial
+Metro Bank PLC,MTRO.L,Stocks,London,Technology
+AVEVA Group PLC,AVV.L,Stocks,London,ConsumerGoods
+Vectura Group PLC,VEC.L,Stocks,London,Financial
+Pershing Square Holdings Ltd,PSH.L,Stocks,London,Financial
+Virgin Money UK,VMUK.L,Stocks,London,Services
+Just Eat PLC,JE.L,Stocks,London,Financial
+IP Group PLC,IPO.L,Stocks,London,ConsumerGoods
+VinaCapital Vietnam Opportunity Fund,VOF.L,Stocks,London,Financial
+TI Fluid Systems,TIFS.L,Stocks,London,ConsumerGoods
+Superdry,SDRY.L,Stocks,London,ConsumerGoods
+Sequoia Economic Infrastructure Income Fund,SEQI.L,Stocks,London,Financial
+Schroder AsiaPacific Fund,SDP.L,Stocks,London,Financial
+RHI Magnesita,RHIM.L,Stocks,London,BasicMaterials
+Renewi,RWI.L,Stocks,London,BasicMaterials
+Purecircle,PURE.L,Stocks,London,ConsumerGoods
+Vanquis Banking Group PLC,VANQ.L,Stocks,London,Financial
+Primary Health Properties,PHP.L,Stocks,London,Financial
+Pantheon International,PIN.L,Stocks,London,Financial
+On the Beach,OTB.L,Stocks,London,ConsumerGoods
+Merlin Entertainments,MERL.L,Stocks,London,ConsumerGoods
+European Opportunities Trust,EOT.L,Stocks,London,Financial
+Games Workshop,GAW.L,Stocks,London,ConsumerGoods
+Equiniti,EQN.L,Stocks,London,ConsumerGoods
+Edinburgh Dragon Trust,DGN.L,Stocks,London,Financial
+ConvaTec,CTEC.L,Stocks,London,ConsumerGoods
+ContourGlobal,GLO.L,Stocks,London,Utilities
+Charter Court Financial Services,CCFS.L,Stocks,London,Financial
+BCA Marketplace,BCA.L,Stocks,London,ConsumerGoods
+Bakkavor,BAKK.L,Stocks,London,ConsumerGoods
+Evoke PLC,EVOK.L,Stocks,London,Technology
+iShares US Aggregate Bond UCITS ETF,IUAA.L,ETF,London,Financial
+Spirent Communications PLC,SPT.L,Stocks,London,Services
+SPDR S&P 500 UCITS ETF,SPY5.L,ETF,London,Financial
+SPDR S&P US Dividend Aristocrats UCITS ETF,UDVD.L,ETF,London,Financial
+iShares $ Corporate Bond UCITS ETF,LQDE.L,ETF,London,Financial
+iShares AEX UCITS ETF,IAEX.L,ETF,London,Financial
+iShares Asia Pacific Dividend UCITS ETF,IAPD.L,ETF,London,Financial
+iShares Core MSCI World UCITS ETF,SWDA.L,ETF,London,Financial
+iShares J.P. Morgan EM Local Govt Bond UCITS ETF ,IEML.L,ETF,London,Financial
+iShares Core FTSE 100 UCITS ETF (Dist),ISF.L,ETF,London,Financial
+iShares FTSE MIB UCITS ETF (Dist),IMIB.L,ETF,London,Financial
+iShares J.P. Morgan $ Emerging Markets Bond UCITS ETF,SEMB.L,ETF,London,Financial
+iShares MSCI AC Far East ex-Japan UCITS ETF,IFFF.L,ETF,London,Financial
+iShares MSCI Brazil UCITS ETF (Dist),IBZL.L,ETF,London,Financial
+iShares MSCI Emerging Markets UCITS ETF (Dist),IDEM.L,ETF,London,Financial
+iShares MSCI Europe UCITS ETF (Dist),IMEU.L,ETF,London,Financial
+iShares MSCI Japan EUR Hedged UCITS ETF,IJPE.L,ETF,London,Financial
+iShares MSCI Taiwan UCITS ETF,ITWN.L,ETF,London,Financial
+iShares S&P 500 UCITS ETF (Dist),IUSA.L,ETF,London,Financial
+iShares UK Property UCITS ETF,IUKP.L,ETF,London,Financial
+iShares Gold Producers UCITS ETF,SPGP.L,ETF,London,Financial
+WisdomTree Europe Defence UCITS ETF,WDEF.L,ETF,London,Financial
+Oxford Nanopore Technologies plc,ONT.L,Stocks,London,ConsumerGoods
+iShares iBonds Dec 2027 Term $ Corp UCITS ETF,ID27.L,ETF,London,Financial
+iShares US Mortgage Backed Securities UCITS ETF,IMBA.L,ETF,London,Financial
+iShares USD Ultrashort Bond UCITS ETF,ERNA.L,ETF,London,Financial
+iShares USD High Yield Corp Bond UCITS ETF,IHYA.L,ETF,London,Financial
+iShares USD Short Duration High Yield Corp Bond UCITS ETF,SDHA.L,ETF,London,Financial
+iShares USD High Yield Corp Bond ESG UCITS ETF,DHYA.L,ETF,London,Financial
+iShares USD Floating Rate Bond UCITS ETF,FLOA.L,ETF,London,Financial
+iShares MSCI USA UCITS ETF,CSUS.L,ETF,London,Financial
+iShares Core MSCI Japan IMI UCITS ETF,IJPA.L,ETF,London,Financial
+iShares Core EURO STOXX 50 ETF,CSX5.L,ETF,London,Financial
+iShares Core S&P 500 UCITS ETF,CSPX.L,ETF,London,Financial
+Xtrackers MSCI Europe Utilities ESG Screened UCITS ETF,XS6R.L,ETF,London,Financial
+Xtrackers Nikkei 225 UCITS ETF,XDJP.L,ETF,London,ConsumerGoods
+Xtrackers MSCI India Swap UCITS ETF,XCX5.L,ETF,London,Financial
+PLUS 500 LTD,PLUS.L,Stocks,London,Financial
+CMC MARKETS PLC,CMCX,Stocks,London,Financial
+Ryanair,Ryanair,Stocks,London,Services
+Glanbia Plc,GLB.L.GBX,Stocks,London,ConsumerGoods
+Kerry Group Plc,KYG.L.GBX,Stocks,London,ConsumerGoods
+Kingspan Group Plc,KSP.L.GBX,Stocks,London,IndustrialGoods
+St.James's Place Capital Plc,STJ.L old,Stocks,London,Financial
+iShares FTSE 250 UCITS ETF,MIDD.L,ETF,London,Financial
+ Vodafone Group PLC,VOD.L,Stocks,London,Services
+iShares NASDAQ 100 UCITS ETF usd,CNDX.L,ETF,London,Financial
+iShares Core S&P 500 UCITS ETF,CSP1.L,ETF,London,ConsumerGoods
+iShares USD Short Duration Corp Bond UCITS ETF,SDIA.L,ETF,London,Financial
+Sberbank Moscow,SBER.MOEX,Stocks,London,Services
+Raspberry Pi Ltd,RPI.L,Stocks,London,Technology
+Bank of Ireland Group plc,BIRG.L,Stocks,London,Financial
+Invesco Technology S&P US Select Sector UCITS ETF,XLKS.L,ETF,London,Financial
+SPDR MSCI World Technology UCITS ETF USD Acc (EUR),WTEC.L,ETF,London,Financial
+iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc),IUIT.L,ETF,London,Financial
+First Trust Dow Jones International Internet ETF Class A USD (EUR),FDIU.L,ETF,London,Financial
+Deliveroo Holdings PLC,ROO.L,Stocks,London,ConsumerGoods
+Wise Ltd,WISE.L,Stocks,London,Technology
+St.James's Place Capital Plc,STJ.L,Stocks,London,Financial
+ iShares iBonds Dec 2026 Term $ Corp UCITS ETF,D26A.L,ETF,London,Financial
+Rize Environmental Impact 100 UCITS ETF,LIFE.L,ETF,London,Services
+Rize Cybersecurity Data Privacy UCITS ETF,CYBR.L,ETF,London,Services
+Hon Hai Precision-Gdr Reg S,HHPD.L,Stocks,London,IndustrialGoods
+Rize Global Sustainable Infrastructure UCITS ETF,NFRA.L,ETF,London,Services
+Samsung Electro-Regs Gdr Pfd,SMSD.L,Stocks,London,Technology
+Rize Sustainable Future of Food UCITS ETF,FOOD.L,ETF,London,Services
+Rize USA Environmental Impact UCITS ETF,LUSA.L,ETF,London,Services
+ARK Innovation UCITS ETF,ARKK.L,ETF,London,Services
+ARK Artificial Intelligence & Robotics UCITS ETF,ARKI.L,ETF,London,Services
+Pinewood Technologies Group Plc,PINE.L,Stocks,London,ConsumerGoods
+Trustpilot Group Plc,TRST.L,Stocks,London,Services
+Nac Kazatomprom Jsc-Gdr Regs,KAP.L,Stocks,London,BasicMaterials
+Halyk Savings Bank-Gdr Reg S,HSBK.L,Stocks,London,Financial
+Commercial Intl Bank-Gdr Reg,CBKD.L,Stocks,London,Financial
+Hollywood Bowl Group Plc,BOWL.L,Stocks,London,ConsumerGoods
+Hyundai Motor Co-Reg S Gdr,HYUD.L,Stocks,London,ConsumerGoods
+Mears Group Plc,MER.L,Stocks,London,ConsumerGoods
+Cab Payments Holdings Plc,CABP.L,Stocks,London,Financial
+Thungela Resources Limited,TGA.L,Stocks,London,Utilities
+Guaranty Trust Holding C-Gdr,GTCO.L,Stocks,London,Financial
+ARK Genomic Revolution UCITS ETF,ARKG.L,ETF,London,Services
+Xps Pensions Group Plc,XPS.L,Stocks,London,ConsumerGoods
+Gulf Keystone Petroleum Ld,GKP.L,Stocks,London,Utilities
+Fondul Proprietatea Sa/Fund,FP.L,Stocks,London,Financial
+Mhp Se,MHPC.L,Stocks,London,ConsumerGoods
+Xp Power Ld,XPP.L,Stocks,London,Utilities
+Integrated Diagnostics Holdi,IDHC.L,Stocks,London,ConsumerGoods
+Keller Group Plc,KLR.L,Stocks,London,IndustrialGoods
+Symphony International Holdi,SIHL.L,Stocks,London,Financial
+Pollen Street Group Limited,POLN.L,Stocks,London,Financial
+MAGNUM ICE CREAM CO BV,MICC.L,Stocks,London,ConsumerGoods
+Enquest Plc,ENQ.L,Stocks,London,Utilities
+Hostelworld Group Plc,HSW.L,Stocks,London,Technology
+Wickes Group Plc,WIX.L,Stocks,London,ConsumerGoods
+Regional Reit Ld,RGL.L,Stocks,London,Financial
+Warehouse Reit Plc,WHR.L,Stocks,London,Financial
+Foresight Group Holdings Limited,FSG.L,Stocks,London,Financial
+Target Healthcare Reit Plc,THRL.L,Stocks,London,Financial
+Nexxen International Ltd,NEXN.L,Stocks,London,Services
+Ao World Plc,AO.L,Stocks,London,Services
+Abrdn Property Income Trust Limited,API.L,Stocks,London,Financial
+Care Reit Plc,CRT.L,Stocks,London,Financial
+Harworth Group Plc,HWG.L,Stocks,London,Financial
+Abrdn European Logistics Income Plc,ASLI.L,Stocks,London,Financial
+Picton Property Income Ld,PCTN.L,Stocks,London,Financial
+Reach Plc,RCH.L,Stocks,London,Services
+Ncc Group Plc,NCC.L,Stocks,London,Technology
+Ricardo Plc,RCDO.L,Stocks,London,IndustrialGoods
+Treatt Plc,TET.L,Stocks,London,BasicMaterials
+Prs Reit (The) Plc,PRSR.L,Stocks,London,Financial
+Pan African Resources Plc,PAF.L,Stocks,London,BasicMaterials
+Atalaya Mining Plc,ATYM.L,Stocks,London,BasicMaterials
+Iqgeo Group Plc,IQG.L,Stocks,London,Technology
+Zegona Communications Plc,ZEG.L,Stocks,London,Financial
+Trifast Plc,TRI.L,Stocks,London,IndustrialGoods
+Custodian Property Income Reit Plc,CREI.L,Stocks,London,Financial
+Wilmington Plc,WIL.L,Stocks,London,ConsumerGoods
+Macfarlane Group Plc,MACF.L,Stocks,London,ConsumerGoods
+Videndum Plc,VID.L,Stocks,London,IndustrialGoods
+Alfa Financial Software Holdings Pl,ALFA.L,Stocks,London,Technology
+Forterra Plc,FORT.L,Stocks,London,IndustrialGoods
+Mj Gleeson Plc,GLE.L,Stocks,London,ConsumerGoods
+The Gym Group Plc,GYM.L,Stocks,London,ConsumerGoods
+Hemogenyx Pharmaceuticals Plc,HEMO.L,Stocks,London,ConsumerGoods
+Avon Protection Plc,AVON.L,Stocks,London,IndustrialGoods
+OXB,OXB.L,Stocks,London,ConsumerGoods
+Gulf Marine Services Plc,GMS.L,Stocks,London,ConsumerGoods
+Tt Electronics Plc,TTG.L,Stocks,London,IndustrialGoods
+Funding Circle Holdings Plc,FCH.L,Stocks,London,Financial
+Zotefoams Plc,ZTF.L,Stocks,London,BasicMaterials
+Speedy Hire Plc,SDY.L,Stocks,London,ConsumerGoods
+Luceco Plc,LUCE.L,Stocks,London,IndustrialGoods
+Life Science Reit Plc,LABS.L,Stocks,London,Financial
+Robert Walters Plc,RWA.L,Stocks,London,ConsumerGoods
+Mcbride Plc,MCB.L,Stocks,London,ConsumerGoods
+Bloomsbury Publishing Plc,BMY.L,Stocks,London,Services
+Aew Uk Reit Plc,AEWU.L,Stocks,London,Financial
+Costain Group Plc,COST.L,Stocks,London,IndustrialGoods
+"Fuller,Smith & Turner Plc",FSTA.L,Stocks,London,ConsumerGoods
+Boot (Henry) Plc,BOOT.L,Stocks,London,Financial
+Sabre Insurance Group Plc,SBRE.L,Stocks,London,Financial
+Triple Point Social Housing Reit Pl,SOHO.L,Stocks,London,Financial
+Pphe Hotel Group Ld,PPH.L,Stocks,London,ConsumerGoods
+Chesnara Plc,CSN.L,Stocks,London,Financial
+Ecora Royalties Plc,ECOR.L,Stocks,London,BasicMaterials
+Schroder Real Estate Inv. Tst. Ld,SREI.L,Stocks,London,Financial
+Secure Trust Bank Plc,STB.L,Stocks,London,Financial
+Foxtons Group Plc,FOXT.L,Stocks,London,Financial
+Helical Plc,HLCL.L,Stocks,London,Financial
+Dfs Furniture Plc,DFS.L,Stocks,London,ConsumerGoods
+I3 Energy Plc,I3E.L,Stocks,London,Utilities
+Genel Energy Plc,GENL.L,Stocks,London,Utilities
+Nanoco Group Plc,NANO.L,Stocks,London,Technology
+Headlam Group Plc,HEAD.L,Stocks,London,ConsumerGoods
+Lsl Property Services Plc,LSL.L,Stocks,London,Financial
+Adriatic Metals Plc,ADT1.L,Stocks,London,BasicMaterials
+Ocean Wilsons Holdings Ld,OCN.L,Stocks,London,ConsumerGoods
+International Personal Finance Plc,IPF.L,Stocks,London,Financial
+Seraphim Space Investment Trust Plc,SSIT.L,Stocks,London,Financial
+Phoenix Spree Deutschland Limited,PSDL.L,Stocks,London,Financial
+Seplat Energy Plc,SEPL.L,Stocks,London,Utilities
+Severfield Plc,SFR.L,Stocks,London,IndustrialGoods
+Porvair Plc,PRV.L,Stocks,London,IndustrialGoods
+De La Rue Plc,DLAR.L,Stocks,London,ConsumerGoods
+Brooks Macdonald Group Plc,BRK.L,Stocks,London,Financial
+Pensionbee Group Plc,PBEE.L,Stocks,London,Financial
+Stv Group Plc,STVG.L,Stocks,London,Services
+Smiths News Plc,SNWS.L,Stocks,London,Services
+Vp Plc,VP.L,Stocks,London,ConsumerGoods
+Norcros Plc,NXR.L,Stocks,London,IndustrialGoods
+Global Ports Holding Plc,GPH.L,Stocks,London,ConsumerGoods
+Palace Capital Plc,PCA.L,Stocks,London,Financial
+City Of London Investment Group Plc,CLIG.L,Stocks,London,Financial
+Goodwin Plc,GDWN.L,Stocks,London,IndustrialGoods
+Avation Plc,AVAP.L,Stocks,London,Financial
+Capital Ld,CAPD.L,Stocks,London,BasicMaterials
+Braemar Plc,BMS.L,Stocks,London,IndustrialGoods
+Castings Plc,CGS.L,Stocks,London,BasicMaterials
+Residential Secure Income Plc,RESI.L,Stocks,London,Financial
+Schroder European Reit Plc,SERE.L,Stocks,London,Financial
+Pensana Plc,PRE.L,Stocks,London,BasicMaterials
+Ultimate Products Plc,ULTP.L,Stocks,London,ConsumerGoods
+Xaar Plc,XAR.L,Stocks,London,Technology
+Taylor Maritime Investments Limited,TMIP.L,Stocks,London,IndustrialGoods
+Elixirr International Plc,ELIX.L,Stocks,London,ConsumerGoods
+Batm Advanced Communications Ld,BVC.L,Stocks,London,ConsumerGoods
+Old Mutual Limited,OMU.L,Stocks,London,Financial
+S & U Plc,SUS.L,Stocks,London,Financial
+Record Plc,REC.L,Stocks,London,Financial
+Dialight Plc,DIA.L,Stocks,London,IndustrialGoods
+Aptitude Software Group Plc,APTD.L,Stocks,London,Technology
+Fevara PLC,FVA.L,Stocks,London,ConsumerGoods
+Topps Tiles Plc,TPT.L,Stocks,London,IndustrialGoods
+Pod Point Group Holdings Plc,PODP.L,Stocks,London,IndustrialGoods
+Mountview Estates Plc,MTVW.L,Stocks,London,Financial
+Stelrad Group Plc,SRAD.L,Stocks,London,IndustrialGoods
+Tclarke Plc,CTO.L,Stocks,London,IndustrialGoods
+Kelso Group Holdings Plc,KLSO.L,Stocks,London,Services
+Motorpoint Group Plc,MOTR.L,Stocks,London,ConsumerGoods
+Pharos Energy Plc,PHAR.L,Stocks,London,Utilities
+Resolute Mining Limited,RSG.L,Stocks,London,BasicMaterials
+AEP Plantations Plc,AEP.L,Stocks,London,ConsumerGoods
+Capital & Regional Plc,CAL.L,Stocks,London,Financial
+Heiq Plc,HEIQ.L,Stocks,London,ConsumerGoods
+Altyngold Plc,ALTN.L,Stocks,London,BasicMaterials
+Hostmore Plc,MORE.L,Stocks,London,Services
+Town Centre Securities Plc,TOWN.L,Stocks,London,Financial
+Pyx Resources Limited,PYX.L,Stocks,London,BasicMaterials
+Hansard Global Plc,HSD.L,Stocks,London,Financial
+Gem Diamonds Ld,GEMD.L,Stocks,London,BasicMaterials
+Asa International Group Plc,ASAI.L,Stocks,London,Financial
+Procook Group Plc,PROC.L,Stocks,London,ConsumerGoods
+Carclo Plc,CAR.L,Stocks,London,IndustrialGoods
+Quiz Plc,QUIZ.L,Stocks,London,ConsumerGoods
+Alina Holdings Plc,ALNA.L,Stocks,London,Financial
+WisdomTree Enhanced Commodity UCITS ETF,WCOA.L,ETF,London,Financial
+WisdomTree Brent Crude Oil,BRNT.L,ETF,London,Financial
+WisdomTree Gasoline,UGAS.L,ETF,London,Financial
+WisdomTree Natural Gas,NGAS.L,ETF,London,Financial
+WisdomTree Nickel,NICK.L,ETF,London,Financial
+WisdomTree Silver,SLVR.L,ETF,London,Financial
+WisdomTree Zinc,ZINC.L,ETF,London,Financial
+WisdomTree Physical Platinum,PHPT.L,ETF,London,Financial
+WisdomTree Aluminium,ALUM.L,ETF,London,Financial
+WisdomTree Core Physical Silver UCITS ETF,WSLV.L,ETF,London,Financial
+WisdomTree Core Physical Gold,WGLD.L,ETF,London,Financial
+Invesco S&P 500 UCITS ETF,SPXS.L,ETF,London,Financial
+Franklin S&P 500 Paris Aligned Climate UCITS ETF,USPA.L,ETF,London,Financial
+Amundi Core Stoxx Europe 600 UCITS ETF,MEUS.L,ETF,London,Financial
+Xtrackers MSCI Japan UCITS ETF,XMJD.L,ETF,London,Financial
+iShares MSCI EM UCITS ETF USD Acc,IEMA.L,ETF,London,Financial
+iShares USD Treasury Bond 1-3yr UCITS ETF,IBTA.L,ETF,London,Financial
+Franklin USD Investment Grade Corporate Bond UCITS ETF,FLUC.L,ETF,London,Financial
+iShares Core Global Aggregate Bond UCITS ETF,AGGU.L,ETF,London,Financial
+Xtrackers II Global Government Bond UCITS ETF,XGSI.L,ETF,London,Financial
+Vanguard USD Emerging Markets Government Bond UCITS ETF,VDEA.L,ETF,London,Financial
+Franklin US Equity UCITS ETF,FRUE.L,ETF,London,Financial
+Vanguard FTSE North America UCITS ETF,VNRA.L,ETF,London,Financial
+Vanguard FTSE Developed Europe UCITS ETF,VWCG.L,ETF,London,Financial
+Vanguard FTSE Developed Asia Pacific ex Japan UCITS ETF,VAPU.L,ETF,London,Financial
+Vanguard FTSE Japan UCITS ETF,VJPA.L,ETF,London,Financial
+Vanguard FTSE Emerging Markets UCITS ETF,VFEA.L,ETF,London,Financial
+Vanguard Global Aggregate Bond UCITS ETF,VAGU.L,ETF,London,Financial
+iShares USD Treasury Bond 7-10yr UCITS ETF USD Acc,CBU0.L,ETF,London,Financial
+iShares USD Treasury Bond 20+yr UCITS ETF,DTLA.L,ETF,London,Financial
+iShares JP Morgan USD EM Corp Bond UCITS ETF,EMCA.L,ETF,London,Financial
+WisdomTree Heating Oil,HEAT.L,ETF,London,-
+WisdomTree Physical Palladium,PHPD.L,ETF,London,-
+Amundi MSCI China UCITS ETF Acc,LCCN.L,ETF,London,-
+Amundi MSCI Emerging Markets II UCITS ETF Acc,LEMA.L,ETF,London,-
+Amundi MSCI Water UCITS ETF Acc,WATC.L,ETF,London,-
+Amundi MSCI Digital Economy UCITS ETF Acc,DIGE.L,ETF,London,-
+Amundi Index MSCI Europe UCITS ETF ,CEU2.L,ETF,London,-
+Amundi MSCI Japan UCITS ETF Acc,LCJD.L,ETF,London,-
+Amundi S&P 500 II UCITS ETF Acc,SP5C.L,ETF,London,-
+iShares GBP Ultrashort Bond UCITS ETF,ERNS.L,ETF,London,Financial
+Amundi Smart Overnight Return GBP Hedged UCITS ETF Acc,CSH2.L,ETF,London,Financial
+Amundi FTSE 100 UCITS ETF Acc,L100.L,ETF,London,-
+Amundi UK Equity All Cap UCITS ETF Dist,LCUK.L,ETF,London,-
+Amundi Prime UK Mid & Small Cap UCITS ETF DR - GBP (D),PRUK.L,ETF,London,-
+iShares Global HY Corp Bond UCITS ETF USD Dist,GHYG.L,ETF,London,-
+iShares ? Corp Bond 0-5yr UCITS ETF GBP (Dist),IS15.L,ETF,London,-
+iShares Core ? Corp Bond UCITS ETF GBP (Dist),SLXX.L,ETF,London,-
+HSBC Euro Stoxx 50 UCITS ETF,H50E.L,ETF,London,-
+Amundi MSCI Semiconductors UCITS ETF Acc,SEMU.L,ETF,London,-
+Amundi MSCI New Energy UCITS ETF Acc,NRJC.L,ETF,London,-
+Amundi MSCI Smart Cities UCITS ETF ACC,IQCT.L,ETF,London,-
+Amundi Australia S&P/ASX 200 UCITS ETF Dist,LAUU.L,ETF,London,-
+Amundi MSCI Brazil UCITS ETF Acc,RIOU.L,ETF,London,-
+Amundi MSCI Korea UCITS ETF Acc,KRW.L,ETF,London,-
+WisdomTree Europe Equity Income UCITS ETF Acc,EEIA.L,ETF,London,-
+iShares Core MSCI Europe UCITS ETF EUR (Acc),SMEA.L,ETF,London,-
+iShares MSCI Europe Screened UCITS ETF EUR A,SAEU.L,ETF,London,-
+iShares MSCI Europe Screened UCITS ETF EUR A,SDUE.L,ETF,London,-
+iShares Core EURO STOXX 50 UCITS ETF EUR Dist,EUE.L,ETF,London,-
+JPM Europe Rsrch Enh Idx Eqty Actv UCITS ETF EUR A,JRDE.L,ETF,London,-
+iShares MSCI EMU IMI Screened UCITS ETF EUR A,SAUM.L,ETF,London,-
+JPMorgan Betabuilders US Treasury Bond 0-3 Months UCITS ETF,BB3M.L,ETF,London,-
+Vanguard US Treasury 0-1 Year Bond UCITS ETF,VDST.L,ETF,London,-
+Invesco US Treasury Bond 0-1 Year UCITS ETF,TRIA.L,ETF,London,-
+Franklin US Treasury 0-1 Year UCITS ETF,SHOR.L,ETF,London,-
+Franklin FTSE China UCITS ETF,FLXC.L,ETF,London,-
+Franklin FTSE India UCITS ETF,FLXI.L,ETF,London,-
+Franklin FTSE Korea UCITS ETF,FLXK.L,ETF,London,-
+Franklin FTSE Taiwan UCITS ETF,FLXT.L,ETF,London,-
+Franklin FTSE Brazil UCITS ETF,FLXB.L,ETF,London,-
+Franklin FTSE Emerging Markets ETF,EMGM.L,ETF,London,-
+Franklin FTSE Emerging Markets ex China ETF,EXCN.L,ETF,London,-
+Franklin FTSE Asia ex China ex Japan UCITS ETF,FLQA.L,ETF,London,-
+Franklin ClearBridge US Smaller Companies UCITS ETF,CBSM.L,ETF,London,-
+"Franklin AI, Metaverse and Blockchain UCITS ETF",METE.L,ETF,London,-
+Franklin Future of Food UCITS ETF,FOFD.L,ETF,London,-
+Franklin Future of Health & Wellness UCITS ETF,FOHW.L,ETF,London,-
+Franklin Euro IG Corporate UCITS ETF,EURO.L,ETF,London,-
+Global X 1-3 Month T-Bill UCITS ETF,CLIP.L,ETF,London,-
+Xtrackers US Treasuries Ultrashort Bond UCITS ETF,XT0D.L,ETF,London,-
+ARK Space & Defence Innovation UCITS ETF,ARKX.L,ETF,London,-
+Amundi MSCI World UCITS ETF Acc,MWRU.L,ETF,London,-
+Amundi MSCI All Country World UCITS ETF USD Acc,ACWU.L,ETF,London,-
+Amundi Global Gender Equality UCITS ETF Acc,ELLE.L,ETF,London,-
+Amundi Global Bioenergy UCITS ETF USD Acc,CWEU.L,ETF,London,-
+Amundi MSCI Future Mobility ESG Screened UCITS ETF Acc,MOBI.L,ETF,London,-
+Amundi MSCI Disruptive Technology UCITS ETF Acc,UNIC.L,ETF,London,-
+Amundi MSCI Millennials UCITS ETF Acc,GENY.L,ETF,London,-
+Amundi MSCI World Catholic Principles UCITS ETF Acc,CATP.L,ETF,London,-
+Amundi S&P Global Luxury UCITS ETF - USD (C),LUXU.L,ETF,London,-
+Amundi FTSE 100 UCITS ETF USD Hedged Acc,100H.L,ETF,London,-
+Amundi EURO STOXX 50 II UCITS ETF USD Hedged Acc,MSEU.L,ETF,London,-
+Amundi Japan Topix UCITS ETF - DAILY HEDGED USD (C),TPHU.L,ETF,London,-
+Amundi MSCI Emerging Ex China UCITS ETF Acc,EMXC.L,ETF,London,-
+Amundi MSCI India UCITS ETF - USD (C),CI2U.L,ETF,London,-
+Amundi MSCI Em Latin America UCITS ETF - USD (C),ALAU.L,ETF,London,-
+Amundi MSCI China Tech UCITS ETF USD,CC1U.L,ETF,London,-
+Amundi Smart Overnight Return UCITS ETF USD Hedged Acc,SMTC.L,ETF,London,-
+Amundi Prime Emerging Markets UCITS ETF DR (C),PRAM.L,ETF,London,-
+iShares MSCI Europe ex-UK UCITS ETF EUR (Dist),IEUX.L,ETF,London,-
+WisdomTree Artificial Intelligence UCITS ETF - USD Acc,WTAI.L,ETF,London,-
+WisdomTree AT1 CoCo Bond UCITS ETF - USD Acc,COCB.L,ETF,London,-
+WisdomTree AT1 CoCo Bond UCITS ETF - USD Hedged,CODO.L,ETF,London,-
+WisdomTree Battery Solutions UCITS ETF - USD Acc,VOLT.L,ETF,London,-
+WisdomTree BioRevolution UCITS ETF - USD Acc,WDNA.L,ETF,London,-
+WisdomTree Broad Commodities UCITS ETF - USD Acc,PCOM.L,ETF,London,-
+WisdomTree Cloud Computing UCITS ETF - USD Acc,WCLD.L,ETF,London,-
+WisdomTree Cybersecurity UCITS ETF - USD Acc,WCBR.L,ETF,London,-
+WisdomTree Emerging Markets Equity Income UCITS ETF - Acc,DEMR.L,ETF,London,-
+WisdomTree Emerging Markets ex-State-Owned Enterprises UCITS ETF - USD Acc,XSOE.L,ETF,London,-
+WisdomTree Emerging Markets SmallCap Dividend UCITS ETF,DGSD.L,ETF,London,-
+WisdomTree Enhanced Commodity ex-Agriculture UCITS ETF - USD Acc,WXAG.L,ETF,London,-
+WisdomTree Europe Equity UCITS ETF - USD Hedged Acc,HEDK.L,ETF,London,-
+WisdomTree Global Efficient Core UCITS ETF - USD Acc,NTSG.L,ETF,London,-
+WisdomTree Global Quality Dividend Growth UCITS ETF - USD Acc,GGRA.L,ETF,London,-
+WisdomTree Global Quality Growth UCITS ETF - USD Acc,WGRO.L,ETF,London,-
+WisdomTree Global Sustainable Equity UCITS ETF - USD Acc,WSDG.L,ETF,London,-
+WisdomTree Japan Equity UCITS ETF - USD Hedged Acc,DXJA.L,ETF,London,-
+WisdomTree Megatrends UCITS ETF - USD Acc,WMGT.L,ETF,London,-
+WisdomTree New Economy Real Estate UCITS ETF - USD Acc,WTRE.L,ETF,London,-
+WisdomTree Quantum Computing UCITS ETF - USD Acc,WQTM.L,ETF,London,-
+WisdomTree Renewable Energy UCITS ETF - USD Acc,WRNW.L,ETF,London,-
+WisdomTree Strategic Metals and Rare Earths Miners UCITS ETF - USD Acc,RARE.L,ETF,London,-
+WisdomTree Strategic Metals UCITS ETF - USD Acc,WENU.L,ETF,London,-
+WisdomTree Uranium and Nuclear Energy UCITS ETF - USD Acc,NCLR.L,ETF,London,-
+WisdomTree US Efficient Core UCITS ETF - USD Acc,NTSX.L,ETF,London,-
+WisdomTree US Equity Income UCITS ETF - Acc,DHSA.L,ETF,London,-
+WisdomTree US Quality Dividend Growth UCITS ETF - USD Acc,DGRA.L,ETF,London,-
+WisdomTree USD Floating Rate Treasury Bond UCITS ETF - USD Acc,TFRN.L,ETF,London,-
+WisdomTree WTI Crude Oil,CRUD.L,ETF,London,-
+WisdomTree Copper,COPA.L,ETF,London,-
+iShares MSCI USA ESG Screened UCITS ETF,SASU.L,ETF,London,-
+iShares MSCI USA ESG Enhanced UCITS ETF,EEDS.L,ETF,London,-
+iShares VII PLC - iShares MSCI EMU USD Hedged UCITS ETF,EMUU.L,ETF,London,-
+iShares MSCI ACWI UCITS ETF,ISAC.L,ETF,London,-
+iShares $ Corp Bond Interest Rate Hedged UCITS ETF,HLQD.L,ETF,London,-
+iShares MSCI Canada UCITS ETF,CCAU.L,ETF,London,-
+iShares MSCI EM Asia UCITS ETF,CEMA.L,ETF,London,-
+iShares Core MSCI Pacific ex-Japan UCITS ETF,CPXJ.L,ETF,London,-
+iShares MSCI USA Small Cap ESG Enhanced CTB UCITS ETF,CUSS.L,ETF,London,-
+iShares Core MSCI EM IMI UCITS ETF,EIMI.L,ETF,London,-
+iShares MSCI Australia UCITS ETF,IAUS.L,ETF,London,-
+iShares USD TIPS UCITS ETF,IDTP.L,ETF,London,-
+iShares Developed Markets Property Yield UCITS ETF,DPYA.L,ETF,London,-
+iShares J.P. Morgan USD EM Bond UCITS ETF,JPEA.L,ETF,London,-
+iShares Physical Gold ETC,IGLN.L,ETF,London,-
+iShares MSCI Japan USD Hedged UCITS ETF Acc,IJPD.L,ETF,London,-
+iShares Edge MSCI Europe Minimum Volatility UCITS ETF,IMVU.L,ETF,London,-
+iShares Euro Dividend UCITS ETF EUR Dist,IDVY.L,ETF,London,-
+iShares plc - iShares Core FTSE 100 UCITS ETF,ISFD.L,ETF,London,-
+iShares Edge MSCI USA Momentum Factor UCITS ETF,IUMO.L,ETF,London,-
+iShares Edge MSCI USA Quality Factor UCITS ETF,IUQA.L,ETF,London,-
+iShares MSCI Europ Quality Div Adv UCITS ETF EUR D,EQDS.L,ETF,London,-
+iShares Edge MSCI World Minimum Volatility UCITS ETF,MVOL.L,ETF,London,-
+L&G Europe Ex UK Equity UCITS ETF EUR Acc,LGEG.L,ETF,London,-
+iShares Edge S&P 500 Minimum Volatility UCITS ETF,SPMV.L,ETF,London,-
+iShares NASDAQ US Biotechnology UCITS ETF USD Acc,BTEE.L,ETF,London,-
+iShares Edge MSCI USA Qual Fctr UCITS ETF USD A,IUQD.L,ETF,London,-
+iShs Edge MSCI Europ Mmntm Fctr UCITS ETF EUR A,IEFM.L,ETF,London,-
+iShares iBonds Dec 2031 Term $ Corp UCITS ETF,ID31.L,ETF,London,-
+iShares iBonds Dec 2032 Term $ Corp UCITS ETF,ID32.L,ETF,London,-
+iShares iBonds Dec 2033 Term $ Corp UCITS ETF,ID33.L,ETF,London,-
+iShares iBonds Dec 2034 Term $ Corp UCITS ETF,ID34.L,ETF,London,-
+iShares iBonds Dec 2030 Term $ Corp UCITS ETF,ID30.L,ETF,London,-
+iShares iBonds Dec 2029 Term $ Corp UCITS ETF,ID29.L,ETF,London,-
+iShares iBonds Dec 2029 Term $ Treasury UCITS ETF,IT29.L,ETF,London,-
+iShares iBonds Dec 2027 Term $ Treasury UCITS ETF,IT27.L,ETF,London,-
+iShares iBonds Dec 2028 Term $ Corp UCITS ETF,D28A.L,ETF,London,-

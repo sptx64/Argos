@@ -1,0 +1,53 @@
+name,symbol,instrument type,exchange,industry
+ArcelorMittal,MTS.MC,Stocks,BolsaDeMadrid,BasicMaterials
+Abertis,ABE.MC,Stocks,BolsaDeMadrid,Services
+ACS,ACS.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Amadeus IT Hold -A-,AMS.MC,Stocks,BolsaDeMadrid,Technology
+Acciona,ANA.MC,Stocks,BolsaDeMadrid,Utilities
+BBVA,BBVA.MC,Stocks,BolsaDeMadrid,Financial
+Bankinter,BKT.MC,Stocks,BolsaDeMadrid,Financial
+Caixabank,CABK.MC,Stocks,BolsaDeMadrid,Financial
+Distribuidora Internacional de Alimentacion SA,DIA.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Endesa,ELE.MC,Stocks,BolsaDeMadrid,Utilities
+Enagas,ENG.MC,Stocks,BolsaDeMadrid,Utilities
+Fomento de Construcciones,FCC.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Ferrovial SE,FER.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+"Naturgy Energy Group, S.A.",NTGY.MC,Stocks,BolsaDeMadrid,Utilities
+Grifols SA,GRF.MC,Stocks,BolsaDeMadrid,Healthcare
+Iberdrola,IBE.MC,Stocks,BolsaDeMadrid,Utilities
+Indra Sistemas SA,IDR.MC,Stocks,BolsaDeMadrid,Technology
+Industria de Diseno Textil SA,ITX.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Mapfre,MAP.MC,Stocks,BolsaDeMadrid,Financial
+OHL,OHLA.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Red Electrica Corp,RED.MC,Stocks,BolsaDeMadrid,Utilities
+Repsol,REP.MC,Stocks,BolsaDeMadrid,Utilities
+Banco Sabadell,SAB.MC,Stocks,BolsaDeMadrid,Financial
+Sacyr,SCYR.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Tecnicas Reunidas,TRE.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Inmocemento,IMC.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Fluidra S.A,FDR.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Corporación Acciona Energías Renovables S.A.,ANE.MC,Stocks,BolsaDeMadrid,Utilities
+Grupo Catalana Occidente S.A.,GCO.MC,Stocks,BolsaDeMadrid,Financial
+CIE Automotive S.A.,CIE.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Vidrala S.A.,VID.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Laboratorios Farmaceuticos Rovi S.A.,ROVI.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Faes Farma S.A.,FAE.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Construcciones y Auxiliar de Ferrocarriles S.A,CAF.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Línea Directa Aseguradora S.A. Compania de Seguros y Reaseguros,LDA.MC,Stocks,BolsaDeMadrid,Financial
+Grenergy Renovables S.A.,GRE.MC,Stocks,BolsaDeMadrid,Utilities
+Acerinox SA,ACX.MC,Stocks,BolsaDeMadrid,BasicMaterials
+Aena SME,AENA.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Laboratorios Almirall SA,ALM.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Ence Energia Y Celulosa SA,ENC.MC,Stocks,BolsaDeMadrid,BasicMaterials
+Gestamp Automocion,GEST.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Compania de Distribucion Integral Logista Holdings,LOG.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Melia Hotels International SA,MEL.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Pharma Mar SA,PHM.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Prosegur Compania de Seguridad SA,PSG.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Unicaja Banco SA,UNI.MC,Stocks,BolsaDeMadrid,Financial
+Viscofan SA,VIS.MC,Stocks,BolsaDeMadrid,ConsumerGoods
+Cellnex Telecom SA,CLNX.MC,Stocks,BolsaDeMadrid,IndustrialGoods
+Colonial SFL Socimi SA,COL.MC,Stocks,BolsaDeMadrid,Financial
+Merlin Properties SOCIMI SA,MRL.MC,Stocks,BolsaDeMadrid,Financial
+Banco Santander SA,SAN.MC,Stocks,BolsaDeMadrid,Financial
+Telefonica SA,TEF.MC,Stocks,BolsaDeMadrid,Services

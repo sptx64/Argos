@@ -1,0 +1,80 @@
+name,symbol,instrument type,exchange,industry
+A2A Group,A2A.MI,Stocks,BorsaItaliana,Utilities
+Azimut Holding,AZM.MI,Stocks,BorsaItaliana,Financial
+BPER Banca,BPE.MI,Stocks,BorsaItaliana,Financial
+Buzzi Spa,BZU.MI,Stocks,BorsaItaliana,IndustrialGoods
+Davide Campari - Milano Beverage,CPR.MI,Stocks,BorsaItaliana,ConsumerGoods
+Enel Power Company,ENEL.MI,Stocks,BorsaItaliana,Utilities
+Eni Energy Company,ENI.MI,Stocks,BorsaItaliana,BasicMaterials
+Stellantis NV,STLAM.MI,Stocks,BorsaItaliana,ConsumerGoods
+Leonardo SpA,LDO.MI,Stocks,BorsaItaliana,IndustrialGoods
+Assicurazioni Generali SpA,G.MI,Stocks,BorsaItaliana,Financial
+Intesa Sanpaolo Group,ISP.MI,Stocks,BorsaItaliana,Financial
+Mediobanca Banca Di Credito Fnnzr SpA,MB.MI,Stocks,BorsaItaliana,Financial
+Moncler,MONC.MI,Stocks,BorsaItaliana,ConsumerGoods
+MFE - MediaForEurope NV,MFEB.MI,Stocks,BorsaItaliana,ConsumerGoods
+Prysmian Group,PRY.MI,Stocks,BorsaItaliana,IndustrialGoods
+Salvatore Ferragamo Company,SFER.MI,Stocks,BorsaItaliana,ConsumerGoods
+Snam Group,SRG.MI,Stocks,BorsaItaliana,Utilities
+STMicroelectronics Company,STMMI.MI,Stocks,BorsaItaliana,Technology
+Ansaldo STS Company,STS.MI,Stocks,BorsaItaliana,IndustrialGoods
+Tenaris Group,TEN.MI,Stocks,BorsaItaliana,BasicMaterials
+Telecom Italia S.p.A.,TIT.MI,Stocks,BorsaItaliana,Utilities
+Terna SPA,TRN.MI,Stocks,BorsaItaliana,Utilities
+UniCredit Commercial Bank,UCG.MI,Stocks,BorsaItaliana,Financial
+Yoox Net-A-Porter Group,YNAP.MI,Stocks,BorsaItaliana,ConsumerGoods
+Lottomatica Group Spa,LTMC.MI,Stocks,BorsaItaliana,ConsumerGoods
+Saipem Spa,SPM.MI,Stocks,BorsaItaliana,Services
+Nexi S.P.A,NEXI.MI,Stocks,BorsaItaliana,ConsumerGoods
+Iveco Group N.V,IVG.MI,Stocks,BorsaItaliana,ConsumerGoods
+Banca Monte Dei Paschi Di Siena S.P.A,BMPS.MI,Stocks,BorsaItaliana,Financial
+Banca Mediolanum S.P.A,BMED.MI,Stocks,BorsaItaliana,Financial
+Infrastrutture Wireless Italiane S.P.A,INW.MI,Stocks,BorsaItaliana,IndustrialGoods
+Technoprobe S.P.A,TPRO.MI,Stocks,BorsaItaliana,Technology
+Brunello Cucinelli S.p.A.,BC.MI,Stocks,BorsaItaliana,ConsumerGoods
+ICoP SpA SB Societa Benefit,ICOP.MI,Stocks,BorsaItaliana,IndustrialGoods
+Anima Holding S.p.A,ANIM.MI,Stocks,BorsaItaliana,Financial
+BFF Bank S.p.A,BFF.MI,Stocks,BorsaItaliana,Financial
+Reply S.p.A,REY.MI,Stocks,BorsaItaliana,Services
+Banca Popolare di Sondrio S.p.A,BPSO.MI,Stocks,BorsaItaliana,Financial
+Webuild S.p.A,WBD.MI,Stocks,BorsaItaliana,IndustrialGoods
+Piaggio & C. SpA,PIA.MI,Stocks,BorsaItaliana,ConsumerGoods
+Maire Tecnimont S.p.A,MAIRE.MI,Stocks,BorsaItaliana,IndustrialGoods
+Industrie De Nora S.p.A,DNR.MI,Stocks,BorsaItaliana,BasicMaterials
+DeLonghi S.p.A,DLG.MI,Stocks,BorsaItaliana,ConsumerGoods
+Technogym S.p.A,TGYM.MI,Stocks,BorsaItaliana,ConsumerGoods
+Credito Emiliano S.p.A,CE.MI,Stocks,BorsaItaliana,Financial
+Tamburi Investment Partners S.p.A,TIP.MI,Stocks,BorsaItaliana,Financial
+Fincantieri S.p.A,FCT.MI,Stocks,BorsaItaliana,IndustrialGoods
+ACEA S.p.A.,ACE.MI,Stocks,BorsaItaliana,Utilities
+SeSa S.p.A,SES.MI,Stocks,BorsaItaliana,IndustrialGoods
+Zignago Vetro S.p.A,ZV.MI,Stocks,BorsaItaliana,IndustrialGoods
+Intercos S.p.A,ICOS.MI,Stocks,BorsaItaliana,ConsumerGoods
+ENAV S.p.A,ENAV.MI,Stocks,BorsaItaliana,IndustrialGoods
+SOL S.p.A,SOL.MI,Stocks,BorsaItaliana,BasicMaterials
+Sanlorenzo S.p.A,SL.MI,Stocks,BorsaItaliana,ConsumerGoods
+Ariston Holding N.V,ARIS.MI,Stocks,BorsaItaliana,IndustrialGoods
+GVS S.p.A,GVS.MI,Stocks,BorsaItaliana,IndustrialGoods
+Danieli & C. Officine Meccaniche S.p.A,DAN.MI,Stocks,BorsaItaliana,IndustrialGoods
+Rai Way S.p.A,RWAY.MI,Stocks,BorsaItaliana,ConsumerGoods
+Italmobiliare S.p.A,ITM.MI,Stocks,BorsaItaliana,Financial
+Carel Industries S.p.A,CRL.MI,Stocks,BorsaItaliana,IndustrialGoods
+EuroGroup Laminations S.p.A,EGLA.MI,Stocks,BorsaItaliana,IndustrialGoods
+Cementir Holding N.V,CEM.MI,Stocks,BorsaItaliana,IndustrialGoods
+Gruppo MutuiOnline S.p.A,MOL.MI,Stocks,BorsaItaliana,ConsumerGoods
+Alerion Clean Power S.p.A,ARN.MI,Stocks,BorsaItaliana,Utilities
+Amplifon,AMP.MI,Stocks,BorsaItaliana,Healthcare
+Banca Generali,BGN.MI,Stocks,BorsaItaliana,Financial
+Banco Bpm,BAMI.MI,Stocks,BorsaItaliana,Financial
+Brembo,BRE.MI,Stocks,BorsaItaliana,IndustrialGoods
+Diasorin,DIA.MI,Stocks,BorsaItaliana,Technology
+FinecoBank,FBK.MI,Stocks,BorsaItaliana,Financial
+Italgas,IG.MI,Stocks,BorsaItaliana,Utilities
+Juventus Football Club,JUVE.MI,Stocks,BorsaItaliana,ConsumerGoods
+Pirelli & C,PIRC.MI,Stocks,BorsaItaliana,Technology
+Poste Italiane,PST.MI,Stocks,BorsaItaliana,Services
+Recordati,REC.MI,Stocks,BorsaItaliana,Services
+Unipol,UNI.MI,Stocks,BorsaItaliana,Services
+Iren,IRE.MI,Stocks,BorsaItaliana,Utilities
+Hera SPA,HER.MI,Stocks,BorsaItaliana,Utilities
+Interpump Group,IP.MI,Stocks,BorsaItaliana,IndustrialGoods

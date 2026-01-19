@@ -1,0 +1,3698 @@
+name,symbol,instrument type,exchange,industry
+Apple,AAPL,Stocks,NASDAQ,ConsumerGoods
+Alphabet,GOOG,Stocks,NASDAQ,Technology
+Meta Platforms Inc,META,Stocks,NASDAQ,Technology
+Microsoft,MSFT,Stocks,NASDAQ,Technology
+Amazon.com Inc,AMZN,Stocks,NASDAQ,Services
+Altaba Inc,AABA,Stocks,NASDAQ,Technology
+Zynga,ZNGA,Stocks,NASDAQ,Technology
+Cisco Systems Inc,CSCO,Stocks,NASDAQ,Technology
+Intel,INTC,Stocks,NASDAQ,Technology
+Walmart Inc.,WMT,Stocks,NASDAQ,Services
+PepsiCo,PEP,Stocks,NASDAQ,ConsumerGoods
+Vodafone Group plc-ADR,VOD,Stocks,NASDAQ,Technology
+eBay,EBAY,Stocks,NASDAQ,Services
+Nebius Group NV,NBIS,Stocks,NASDAQ,Technology
+Qiwi Plc-ADR,QIWI,Stocks,NASDAQ,Financial
+Liberty Broadband Corporation,LBRDA,Stocks,NASDAQ,Services
+ Liberty Media Corp-Liberty Formula One -C,FWONK,Stocks,NASDAQ,Services
+"Karuna Therapeutics, Inc",KRTX,Stocks,NASDAQ,ConsumerGoods
+"Option Care Health, Inc",OPCH,Stocks,NASDAQ,ConsumerGoods
+"Lantheus Holdings, Inc",LNTH,Stocks,NASDAQ,ConsumerGoods
+Novanta Inc,NOVT,Stocks,NASDAQ,IndustrialGoods
+"Privia Health Group, Inc",PRVA,Stocks,NASDAQ,Technology
+"Ziff Davis, Inc",ZD,Stocks,NASDAQ,Services
+"Beacon Roofing Supply, Inc",BECN,Stocks,NASDAQ,ConsumerGoods
+"Super Micro Computer, Inc",SMCI,Stocks,NASDAQ,Technology
+"PTC Therapeutics, Inc",PTCT,Stocks,NASDAQ,ConsumerGoods
+Enovix Corporation,ENVX,Stocks,NASDAQ,IndustrialGoods
+"Cal-Maine Foods, Inc",CALM,Stocks,NASDAQ,ConsumerGoods
+Neogen Corporation,NEOG,Stocks,NASDAQ,ConsumerGoods
+Veru Inc,VERU,Stocks,NASDAQ,ConsumerGoods
+"SIGA Technologies, Inc",SIGA,Stocks,NASDAQ,ConsumerGoods
+iShares ESG Aware MSCI USA ETF,ESGU,ETF,NASDAQ,-
+iShares 1-5 Year Investment Grade Corporate Bond ETF ,IGSB,ETF,NASDAQ,-
+iShares MBS ETF,MBB,ETF,NASDAQ,-
+Vanguard Short-Term Treasury Index Fund,VGSH,ETF,NASDAQ,-
+iShares 3-7 Year Treasury Bond ETF ,IEI,ETF,NASDAQ,-
+Vanguard Intermediate-Term Treasury Index Fund,VGIT,ETF,NASDAQ,-
+iShares MSCI EAFE Small-Cap ETF,SCZ,ETF,NASDAQ,-
+iShares 5-10 Year Investment Grade Corporate Bond ETF,IGIB,ETF,NASDAQ,-
+Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF ,PDBC,ETF,NASDAQ,-
+Directv,DTV,Stocks,NASDAQ,Services
+SanDisk Corp_Old,SNDK_OLD,Stocks,NASDAQ,Technology
+"Tesla Motors, Inc.",TSLA,Stocks,NASDAQ,ConsumerGoods
+"First Solar, Inc.",FSLR,Stocks,NASDAQ,Technology
+TripAdvisor Inc,TRIP,Stocks,NASDAQ,Technology
+Electronic Arts Inc,EA,Stocks,NASDAQ,Technology
+Urban Outfitters Inc.,URBN,Stocks,NASDAQ,Services
+Adobe Systems Inc,ADBE,Stocks,NASDAQ,Technology
+"Netflix, Inc.",NFLX,Stocks,NASDAQ,Services
+Western Digital Corporation,WDC,Stocks,NASDAQ,Technology
+"Micron Technology, Inc.",MU,Stocks,NASDAQ,Technology
+AGNC Investment Corp,AGNC,Stocks,NASDAQ,Financial
+"Autodesk, Inc.",ADSK,Stocks,NASDAQ,Technology
+NVIDIA Corporation,NVDA,Stocks,NASDAQ,Technology
+Avis Budget Group Inc,CAR,Stocks,NASDAQ,Services
+"Baidu, Inc.-ADR",BIDU,Stocks,NASDAQ,Technology
+Starbucks Corp,SBUX,Stocks,NASDAQ,Services
+Amgen Inc,AMGN,Stocks,NASDAQ,Healthcare
+"Activision Blizzard, Inc.",ATVI,Stocks,NASDAQ,Technology
+Check Point Software Technologies,CHKP,Stocks,NASDAQ,Technology
+PetSmart Inc.,PETM,Stocks,NASDAQ,Services
+Keurig Dr Pepper Inc,KDP,Stocks,NASDAQ,ConsumerGoods
+Dropbox Inc,DBX,Stocks,NASDAQ,Technology
+Wix.com Ltd ,WIX,Stocks,NASDAQ,Technology
+Ryanair Holdings plc-ADR,RYAAY,Stocks,NASDAQ,Services
+Aurora Cannabis Inc,ACB,Stocks,NASDAQ,Healthcare
+Tvardi Therapeutics Inc,TVRD,Stocks,NASDAQ,Healthcare
+Insys Therapeutics Inc,INSY,Stocks,NASDAQ,Healthcare
+Zynerba Pharmaceuticals Inc,ZYNE,Stocks,NASDAQ,Healthcare
+Corbus Pharmaceuticals Holding,CRBP,Stocks,NASDAQ,Healthcare
+Cronos Group Inc,CRON,Stocks,NASDAQ,Healthcare
+Pattern Energy Group,PEGI,Stocks,NASDAQ,Utilities
+Tilray Brands Inc,TLRY,Stocks,NASDAQ,Healthcare
+LYFT Inc,LYFT,Stocks,NASDAQ,Services
+Beyond Meat Inc.,BYND,Stocks,NASDAQ,Services
+Selina Hospitality PLC,SLNAF,Stocks,NASDAQ,ConsumerGoods
+ARBE Robotics LTD,ARBE,Stocks,NASDAQ,ConsumerGoods
+Oddity Tech Ltd,ODD,Stocks,NASDAQ,Technology
+VinFast Auto Ltd,VFS,Stocks,NASDAQ,Services
+ARM Holdings PLC,ARM,Stocks,NASDAQ,Technology
+iShares Bitcoin Trust,IBIT,ETF,NASDAQ,Technology
+ChangYou.com,CYOU.CH,Stocks,NASDAQ,Technology
+Qunar Cayman Islands,QUNR.CH,Stocks,NASDAQ,Technology
+Orchard Therapeutics plc-ADR CVR,ORTX.CVR,Stocks,NASDAQ,Services
+NetEase Inc.-ADR,NTES,Stocks,NASDAQ,Technology
+JD.com-ADR,JD.US,Stocks,NASDAQ,Technology
+Trip.com Group Ltd-ADR,TCOM.CH,Stocks,NASDAQ,Services
+51Job Inc.,JOBS,Stocks,NASDAQ,Services
+XOS Inc,XOS,Stocks,NASDAQ,Services
+Global Sources,GSOL.CH,Stocks,NASDAQ,ConsumerGoods
+Hello Group Inc-ADR,MOMO,Stocks,NASDAQ,Technology
+Take Two Interactive Software Inc,TTWO,Stocks,NASDAQ,Technology
+First Trust Capital Strength ETF,FTCS,ETF,NASDAQ,-
+iShares ESG Aware MSCI EAFE ETF ,ESGD,ETF,NASDAQ,-
+iShares GSCI Commodity Dynamic Roll Strategy ETF,COMT,ETF,NASDAQ,-
+iShares Fallen Angels USD Bond ETF,FALN,ETF,NASDAQ,-
+Marex Group plc,MRX,Stocks,NASDAQ,Financial
+American Airlines Group Inc,AAL,Stocks,NASDAQ,Services
+Biogen Inc,BIIB,Stocks,NASDAQ,Healthcare
+Paramount Skydance Corp,PSKY,Stocks,NASDAQ,ConsumerGoods
+Celgene Corp,CELG,Stocks,NASDAQ,Healthcare
+Comcast Corp,CMCSA,Stocks,NASDAQ,ConsumerGoods
+Costco Wholesale Corp,COST,Stocks,NASDAQ,ConsumerGoods
+Twenty-First Century Fox Inc,FOX.OLD,Stocks,NASDAQ,ConsumerGoods
+Gilead Sciences Inc,GILD,Stocks,NASDAQ,Healthcare
+GoPro Inc,GPRO,Stocks,NASDAQ,ConsumerGoods
+Honeywell International Inc,HON,Stocks,NASDAQ,IndustrialGoods
+Booking Holdings Inc,BKNG,Stocks,NASDAQ,Services
+PayPal Holdings,PYPL,Stocks,NASDAQ,Technology
+Qualcomm Inc,QCOM,Stocks,NASDAQ,Technology
+Walgreens Boots Alliance Inc,WBA,Stocks,NASDAQ,ConsumerGoods
+First Bancorp Inc Maine,FNMA,Stocks,NASDAQ,Financial
+Express Scripts Holding Co,ESRX,Stocks,NASDAQ,Healthcare
+Plains GP Holdings LP,PAGP,Stocks,NASDAQ,BasicMaterials
+United Airlines Holdings Inc,UAL,Stocks,NASDAQ,Services
+Mondelez International Inc,MDLZ,Stocks,NASDAQ,ConsumerGoods
+StoneX Group Inc,SNEX,Stocks,NASDAQ,Financial
+Sears Holdings Corp,SHLD,Stocks,NASDAQ,Services
+Tech Data Corp,TECD,Stocks,NASDAQ,Services
+Avnet Inc,AVT,Stocks,NASDAQ,Services
+Exelon Corp,EXC,Stocks,NASDAQ,Utilities
+QVC Group Inc,QVCGA,Stocks,NASDAQ,ConsumerGoods
+Staples Inc,SPLS,Stocks,NASDAQ,Services
+Kimberly-Clark Corp,KMB,Stocks,NASDAQ,ConsumerGoods
+Xerox Corp,XRX,Stocks,NASDAQ,Technology
+Icahn Enterprises LP,IEP,Stocks,NASDAQ,Conglomerates
+Paccar Inc,PCAR,Stocks,NASDAQ,ConsumerGoods
+Goodyear Tire & Rubber Co,GT,Stocks,NASDAQ,ConsumerGoods
+American Electric Power Inc,AEP,Stocks,NASDAQ,Utilities
+The ODP Corporation,ODP,Stocks,NASDAQ,Services
+DISH Network Corp,DISH,Stocks,NASDAQ,Services
+Whole Foods Market Inc,WFM,Stocks,NASDAQ,Services
+APA Corporation,APA,Stocks,NASDAQ,BasicMaterials
+Viacom Inc,VIAold,Stocks,NASDAQ,Services
+C.H.Robinson Worldwide Inc,CHRW,Stocks,NASDAQ,Services
+Texas Instruments Inc,TXN,Stocks,NASDAQ,Technology
+CSX Corp,CSX,Stocks,NASDAQ,Services
+Automatic Data Processing Inc,ADP,Stocks,NASDAQ,Technology
+CDW Corp,CDW,Stocks,NASDAQ,Technology
+Xcel Energy Inc,XEL,Stocks,NASDAQ,Utilities
+Bed Bath & Beyond Inc,BBBYQ,Stocks,NASDAQ,Services
+Ross Stores Inc,ROST,Stocks,NASDAQ,Services
+Principal Financial Group Inc,PFG,Stocks,NASDAQ,Financial
+Henry Schein Inc,HSIC,Stocks,NASDAQ,Services
+Cognizant Technology Solutions Corp,CTSH,Stocks,NASDAQ,Technology
+HD Supply Holdings Inc,HDS,Stocks,NASDAQ,Services
+Charter Communications Inc,CHTR,Stocks,NASDAQ,Services
+Applied Materials Inc,AMAT,Stocks,NASDAQ,Technology
+Steel Dynamics Inc,STLD,Stocks,NASDAQ,BasicMaterials
+Caesars Entertainment Corp,CZRdel,Stocks,NASDAQ,Services
+Dollar Tree Inc,DLTR,Stocks,NASDAQ,ConsumerGoods
+News Corp,NWSA,Stocks,NASDAQ,Services
+Broadcom Corporation,BRCM,Stocks,NASDAQ,Technology
+Campbell Soup Co,CPB,Stocks,NASDAQ,ConsumerGoods
+Visteon Corp,VC,Stocks,NASDAQ,ConsumerGoods
+Core-Mark Holding Company Inc,CORE,Stocks,NASDAQ,Services
+SpartanNash Company,SPTN,Stocks,NASDAQ,Services
+TravelCenters of America LLC,TA,Stocks,NASDAQ,Services
+O'Reilly Automotive Inc,ORLY,Stocks,NASDAQ,Services
+Casey's General Stores Inc,CASY,Stocks,NASDAQ,Services
+LKQ Corp,LKQ,Stocks,NASDAQ,ConsumerGoods
+Gen Digital Inc,GEN,Stocks,NASDAQ,Technology
+Fifth Third Bancorp,FITB,Stocks,NASDAQ,Financial
+NetApp Inc,NTAP,Stocks,NASDAQ,Technology
+Discovery Inc,DISCA,Stocks,NASDAQ,Services
+Sanmina Corp,SANM,Stocks,NASDAQ,Technology
+J.B.Hunt Transport Services Inc,JBHT,Stocks,NASDAQ,Services
+Mattel Inc,MAT,Stocks,NASDAQ,ConsumerGoods
+Albany Molecular Research Inc,AMRI,Stocks,NASDAQ,Healthcare
+JetBlue Airways Corp,JBLU,Stocks,NASDAQ,Services
+Newell Brands Inc.,NWL,Stocks,NASDAQ,ConsumerGoods
+Calumet Inc,CLMT,Stocks,NASDAQ,BasicMaterials
+Expedia Group Inc,EXPE,Stocks,NASDAQ,Services
+Navient Corp,NAVI,Stocks,NASDAQ,Financial
+Advanced Micro Devices Inc,AMD,Stocks,NASDAQ,Technology
+Wynn Resorts Ltd,WYNN,Stocks,NASDAQ,Services
+Host Hotels & Resorts Inc,HST,Stocks,NASDAQ,Financial
+Essendant Inc,ESND,Stocks,NASDAQ,Services
+ARRIS Group Inc,ARRS,Stocks,NASDAQ,Technology
+LifePoint Health Inc,LPNT,Stocks,NASDAQ,Healthcare
+Fiserv Inc,FISV,Stocks,NASDAQ,Services
+Cincinnati Financial Corp,CINF,Stocks,NASDAQ,Financial
+Ascena Retail Group Inc,ASNA,Stocks,NASDAQ,Services
+Zillow Group Inc,Z,Stocks,NASDAQ,Financial
+Frontier Communications Corporation,FTR,Stocks,NASDAQ,Technology
+The Michaels Companies Inc,MIK,Stocks,NASDAQ,Services
+Rush Enterprises Inc,RUSHB_old,Stocks,NASDAQ,Services
+Keurig Green Mountain Inc,GMCR,Stocks,NASDAQ,ConsumerGoods
+Lam Research Corp,LRCX,Stocks,NASDAQ,Technology
+Cintas Corp,CTAS,Stocks,NASDAQ,Services
+Andersons Inc,ANDE,Stocks,NASDAQ,ConsumerGoods
+Northern Trust Corp,NTRS,Stocks,NASDAQ,Financial
+Intuit Inc,INTU,Stocks,NASDAQ,Technology
+Liberty Media Formula One Corp Series A ,FWONA,Stocks,NASDAQ,Services
+Bloomin Brands Inc,BLMN,Stocks,NASDAQ,Services
+VWR Corp,VWR,Stocks,NASDAQ,Services
+Hasbro Inc,HAS,Stocks,NASDAQ,ConsumerGoods
+B/E Aerospace Inc,BEAV,Stocks,NASDAQ,IndustrialGoods
+AmTrust Financial Services Inc,AFSI,Stocks,NASDAQ,Financial
+Patterson Companies Inc,PDCO,Stocks,NASDAQ,Services
+T Rowe Price Group Inc,TROW,Stocks,NASDAQ,Financial
+Silgan Holdings Inc,SLGN,Stocks,NASDAQ,ConsumerGoods
+Marriott International Inc,MAR,Stocks,NASDAQ,Services
+"Match Group, Inc",MTCH,Stocks,NASDAQ,Services
+SolarEdge Technologies,SEDG,Stocks,NASDAQ,IndustrialGoods
+Nintendo CO Ltd-ADR,NTDOY,Stocks,NASDAQ,IndustrialGoods
+Regeneron Pharmaceuticals Inc,REGN,Stocks,NASDAQ,Healthcare
+Sangamo Therapeutics Inc,SGMO,Stocks,NASDAQ,Healthcare
+Intellia Therapeutics Inc,NTLA,Stocks,NASDAQ,IndustrialGoods
+Editas Medicine Inc,EDIT,Stocks,NASDAQ,IndustrialGoods
+Cellectis SA-ADR,CLLS,Stocks,NASDAQ,IndustrialGoods
+First Interstate BancSystem Inc,FIBK,Stocks,NASDAQ,Financial
+UMB Financial Corp,UMBF,Stocks,NASDAQ,Financial
+Commerce Bancshares Inc,CBSH,Stocks,NASDAQ,Financial
+First Financial Bankshares Inc,FFIN,Stocks,NASDAQ,Financial
+United Bankshares Inc/WV,UBSI,Stocks,NASDAQ,Financial
+Hancock Whitney Corp,HWC,Stocks,NASDAQ,Financial
+Triumph Financial Inc,TFIN,Stocks,NASDAQ,Financial
+BOK Financial Corp,BOKF,Stocks,NASDAQ,Financial
+CVB Financial Corp,CVBF,Stocks,NASDAQ,Financial
+Fulton Financial Corp,FULT,Stocks,NASDAQ,Financial
+Cathay General Bancorp,CATY,Stocks,NASDAQ,Financial
+Independent Bank Group Inc,IBTX,Stocks,NASDAQ,Financial
+First Hawaiian Inc,FHB,Stocks,NASDAQ,Financial
+Eastern Bankshares Inc,EBC,Stocks,NASDAQ,Financial
+Simmons First National Corp,SFNC,Stocks,NASDAQ,Financial
+Meta Financial Group Inc,CASH,Stocks,NASDAQ,Financial
+Lakeland Financial Corp,LKFN,Stocks,NASDAQ,Financial
+Pacific Premier Bancorp Inc,PPBI,Stocks,NASDAQ,Financial
+PetMed Express,PETS.US,Stocks,NASDAQ,ConsumerGoods
+Bancorp Inc,TBBK,Stocks,NASDAQ,Financial
+Veritex Holdings Inc,VBTX,Stocks,NASDAQ,Financial
+First Bancorp/Southern Pines NC,FBNC,Stocks,NASDAQ,Financial
+Atlanta Braves Holdings IN-C,BATRK,Stocks,NASDAQ,Services
+PetIQ Inc,PETQ,Stocks,NASDAQ,ConsumerGoods
+Five9 Inc,FIVN,Stocks,NASDAQ,Technology
+Himax Technologies Inc-ADR,HIMX,Stocks,NASDAQ,Technology
+Genmab A/S -ADR,GMAB.US,Stocks,NASDAQ,ConsumerGoods
+Advanced Energy Industries Inc,AEIS,Stocks,NASDAQ,IndustrialGoods
+Proterra Inc,PTRAQ,Stocks,NASDAQ,ConsumerGoods
+Middlesex Water Company,MSEX,Stocks,NASDAQ,Utilities
+Cipher Mining Inc,CIFR,Stocks,NASDAQ,ConsumerGoods
+Mobileye Global Inc,MBLY,Stocks,NASDAQ,Technology
+Nextpower Inc,NXT.US,Stocks,NASDAQ,IndustrialGoods
+Enlight Renewable Energy Ltd,ENLT,Stocks,NASDAQ,Utilities
+AtaiBeckley Inc,ATAI,Stocks,NASDAQ,Healthcare
+Dave Inc.,DAVE,Stocks,NASDAQ,Services
+Top Financial Group LTD,TOP.US,Stocks,NASDAQ,Services
+Shift Technologies Inc Class A,SFTGQ,Stocks,NASDAQ,ConsumerGoods
+U-Haul Holding Co,UHAL.B,Stocks,NASDAQ,Services
+GE HealthCare Technologies Inc,GEHC,Stocks,NASDAQ,ConsumerGoods
+"Scilex Holding Company ""Restricted Stock""",SCLX,Stocks,NASDAQ,ConsumerGoods
+Toro Corp,TORO,Stocks,NASDAQ,IndustrialGoods
+Liberty Live Holdings Inc-A ,LLYVA,Stocks,NASDAQ,Services
+WEBTOON Entertainment Inc,WBTN,Stocks,NASDAQ,ConsumerGoods
+CXApp Inc,CXAI,Stocks,NASDAQ,Technology
+Mink Therapeutics Inc,INKT,Stocks,NASDAQ,Healthcare
+Ouster Inc,OUST,Stocks,NASDAQ,Technology
+Invesco QQQ,QQQ,ETF,NASDAQ,Financial
+iShares 20+ Year Treasury Bond ETF ,TLT,ETF,NASDAQ,Financial
+Ishares Nasdaq Biotechnology ,IBB,ETF,NASDAQ,Financial
+Credit Suisse AG - VelocityShares Daily Inverse VIX Short Term ETN,XIV,ETF,NASDAQ,Financial
+iShares 1-3 Year Treasury Bond ETF,SHY,ETF,NASDAQ,Financial
+iShares 7-10 Year Treasury Bond ETF,IEF,ETF,NASDAQ,Financial
+iShares Core MSCI Total International Stock ETF,IXUS,ETF,NASDAQ,Financial
+iShares Core S&P US Growth,IUSG,ETF,NASDAQ,Financial
+iShares Core S&P US Value,IUSV,ETF,NASDAQ,Financial
+iShares Core Total USD Bond Market ETF,IUSB,ETF,NASDAQ,Financial
+iShares Core 1-5 Year USD Bond ETF,ISTB,ETF,NASDAQ,Financial
+Defiance Connective Technologies ETF,SIXG,ETF,NASDAQ,Financial
+iShares iBonds Dec 2026 Term Treasury ETF,IBTG,ETF,NASDAQ,Financial
+iShares iBonds Dec 2025 Term Treasury ETF,IBTF,ETF,NASDAQ,Financial
+iShares MSCI ACWI Index Fund,ACWI,ETF,NASDAQ,Financial
+Akamai Technologies,AKAM,Stocks,NASDAQ,Technology
+Akorn,AKRX,Stocks,NASDAQ,Healthcare
+ANSYS,ANSS,Stocks,NASDAQ,Technology
+American Railcar Industries Inc,ARII,Stocks,NASDAQ,Services
+Brookfield Property Partners L.P.,BPY,Stocks,NASDAQ,Financial
+Caesars Acquisition,CACQ,Stocks,NASDAQ,Utilities
+Cavium Inc,CAVM,Stocks,NASDAQ,Technology
+China Biologic,CBPO,Stocks,NASDAQ,Healthcare
+Cerner Corp.,CERN,Stocks,NASDAQ,Technology
+Churchill Downs Inc.,CHDN,Stocks,NASDAQ,Services
+CME Group,CME,Stocks,NASDAQ,Financial
+The Cooper Companies Inc,COO,Stocks,NASDAQ,Healthcare
+Uniti Group Inc,UNIT,Stocks,NASDAQ,Services
+CyberArk,CYBR,Stocks,NASDAQ,Technology
+Domino's Pizza Inc,DPZ,Stocks,NASDAQ,Services
+Federal-Mogul Corp.,FDML,Stocks,NASDAQ,ConsumerGoods
+Mandiant Inc,MNDT,Stocks,NASDAQ,Technology
+Gaming and Leisure,GLPI,Stocks,NASDAQ,Financial
+Garmin Ltd.,GRMN,Stocks,NASDAQ,Technology
+Globalstar,GSAT,Stocks,NASDAQ,Technology
+GW Pharmaceuticals Plc,GWPH,Stocks,NASDAQ,Healthcare
+Hain Celestial,HAIN,Stocks,NASDAQ,Services
+Interactive Brokers Group,IBKR,Stocks,NASDAQ,Financial
+Intercept Pharma,ICPT,Stocks,NASDAQ,Healthcare
+Illumina,ILMN,Stocks,NASDAQ,Healthcare
+Imperva,IMPV,Stocks,NASDAQ,Technology
+Incyte Corp.,INCY,Stocks,NASDAQ,Healthcare
+Ionis Pharmaceuticals,IONS,Stocks,NASDAQ,Healthcare
+Ipg Photonics Corp.,IPGP,Stocks,NASDAQ,Technology
+Jazz Pharmaceuticals,JAZZ,Stocks,NASDAQ,Healthcare
+Kraft Heinz Co,KHC,Stocks,NASDAQ,ConsumerGoods
+Lamar Advertising Company,LAMR,Stocks,NASDAQ,Financial
+Liberty Global A,LBTYA,Stocks,NASDAQ,Services
+Liberty Global C,LBTYK,Stocks,NASDAQ,Services
+Liberty Latin America Ltd.,LILA,Stocks,NASDAQ,Services
+Linear Technology Corporation,LLTC,Stocks,NASDAQ,Technology
+Liberty Media Corporation Series A Liberty SiriusXM Common Stock,LSXMA,Stocks,NASDAQ,Services
+Media General,MEG,Stocks,NASDAQ,Services
+MercadoLibre Inc,MELI,Stocks,NASDAQ,Services
+Makemytrip,MMYT,Stocks,NASDAQ,Services
+Monster Beverage Corp,MNST,Stocks,NASDAQ,Services
+National Instruments Corporation,NATI,Stocks,NASDAQ,Technology
+Nuance Communications,NUAN,Stocks,NASDAQ,Technology
+NXP Semiconductors,NXPI,Stocks,NASDAQ,Technology
+Puma Biotechnology Inc,PBYI,Stocks,NASDAQ,Healthcare
+Power Integrations,POWI,Stocks,NASDAQ,Technology
+Pilgrim's Pride,PPC,Stocks,NASDAQ,ConsumerGoods
+Roper Technologies Inc,ROP,Stocks,NASDAQ,IndustrialGoods
+SBA Communications Corporation,SBAC,Stocks,NASDAQ,Technology
+Signature Bank,SBNY,Stocks,NASDAQ,Financial
+SEI Investments Company,SEIC,Stocks,NASDAQ,Financial
+Seagen Inc,SGEN,Stocks,NASDAQ,Healthcare
+Shopify Inc.,SHOP,Stocks,NASDAQ,Technology
+Stericycle,SRCL,Stocks,NASDAQ,IndustrialGoods
+Smith & Wesson Brands Inc,SWBI,Stocks,NASDAQ,IndustrialGoods
+Skyworks Solutions,SWKS,Stocks,NASDAQ,Technology
+Synaptics Inc.,SYNA,Stocks,NASDAQ,Technology
+Syntel,SYNT,Stocks,NASDAQ,Technology
+TiVo Corporation,TIVO,Stocks,NASDAQ,Services
+Trimble Inc.,TRMB,Stocks,NASDAQ,Technology
+Viavi Solutions,VIAV,Stocks,NASDAQ,Technology
+Verisk Analytics,VRSK,Stocks,NASDAQ,Services
+Verisign,VRSN,Stocks,NASDAQ,Technology
+Vertex Pharmaceuticals Incorporated,VRTX,Stocks,NASDAQ,Healthcare
+Willis Towers Watson Public Limited Company,WTW,Stocks,NASDAQ,Services
+Dentsply Sirona Inc.,XRAY,Stocks,NASDAQ,Healthcare
+Ixia,XXIA,Stocks,NASDAQ,Technology
+Wendy's,WEN,Stocks,NASDAQ,Conglomerates
+Credit Acceptance,CACC,Stocks,NASDAQ,Financial
+Vistance Networks Inc,VISN,Stocks,NASDAQ,Technology
+Fastenal Company,FAST,Stocks,NASDAQ,Conglomerates
+Blackhawk Network Holdings,HAWK,Stocks,NASDAQ,Technology
+Broadcom Inc,AVGO,Stocks,NASDAQ,Technology
+AstraZeneca PLC ADR,AZN,Stocks,NASDAQ,ConsumerGoods
+Linde PLC,LIN,Stocks,NASDAQ,BasicMaterials
+ASML Holding NV,ASML,Stocks,NASDAQ,Technology
+Intuitive Surgical Inc,ISRG,Stocks,NASDAQ,ConsumerGoods
+T-Mobile Us Inc,TMUS,Stocks,NASDAQ,Services
+Workday Inc A,WDAY,Stocks,NASDAQ,Technology
+Analog Devices Inc,ADI.US,Stocks,NASDAQ,Technology
+Equinix Inc,EQIX,Stocks,NASDAQ,Financial
+Vanguard Total Bond Market ETF,BND,ETF,NASDAQ,Financial
+Xilinx Inc,XLNX,Stocks,NASDAQ,Technology
+Alexion Pharmaceuticals Inc,ALXN,Stocks,NASDAQ,ConsumerGoods
+TD Ameritrade Holding Corp,AMTD,Stocks,NASDAQ,Financial
+Paychex Inc,PAYX,Stocks,NASDAQ,Technology
+Sirius XM Holdings Inc,SIRI,Stocks,NASDAQ,Services
+Atlassian Corp PLC A,TEAM,Stocks,NASDAQ,Technology
+Vanguard Short-Term Corporate,VCSH,ETF,NASDAQ,Financial
+Align Technology Inc,ALGN,Stocks,NASDAQ,ConsumerGoods
+Vanguard Intermediate-Term Corp,VCIT,ETF,NASDAQ,Financial
+Lululemon Athletica Inc,LULU,Stocks,NASDAQ,ConsumerGoods
+Microchip Technology Inc,MCHP,Stocks,NASDAQ,Technology
+Ulta Beauty Inc,ULTA,Stocks,NASDAQ,ConsumerGoods
+KLA Corp,KLAC,Stocks,NASDAQ,Technology
+IDEXX Laboratories Inc,IDXX,Stocks,NASDAQ,ConsumerGoods
+iShares 0-1 Year Treasury Bond,SHV,ETF,NASDAQ,Financial
+Splunk Inc,SPLK,Stocks,NASDAQ,Technology
+Cadence Design Systems Inc,CDNS,Stocks,NASDAQ,Technology
+IAC Inc,IAC,Stocks,NASDAQ,Services
+Synopsys Inc,SNPS,Stocks,NASDAQ,Technology
+iShares J.P. Morgan USD Emerging Markets Bond ETF,EMB,ETF,NASDAQ,Financial
+Diamondback Energy Inc,FANG,Stocks,NASDAQ,BasicMaterials
+Maxim Integrated Products Inc,MXIM,Stocks,NASDAQ,Technology
+Fortinet Inc,FTNT,Stocks,NASDAQ,Technology
+Canopy Growth Corp,CGC,Stocks,NASDAQ,ConsumerGoods
+iShares Preferred & Income Sec,PFF,ETF,NASDAQ,Financial
+Viatris Inc,VTRS,Stocks,NASDAQ,ConsumerGoods
+Huntington Bancshares Inc,HBAN,Stocks,NASDAQ,Financial
+Seagate Technology PLC,STX.US,Stocks,NASDAQ,Technology
+Marvell Technology Group Ltd,MRVL,Stocks,NASDAQ,Technology
+Citrix Systems Inc,CTXS,Stocks,NASDAQ,Technology
+ABIOMED Inc,ABMD,Stocks,NASDAQ,ConsumerGoods
+SVB Financial Group,SIVBQ,Stocks,NASDAQ,Financial
+Tractor Supply Co,TSCO,Stocks,NASDAQ,ConsumerGoods
+E*TRADE Financial Corp,ETFC,Stocks,NASDAQ,Financial
+Exact Sciences Corp,EXAS,Stocks,NASDAQ,ConsumerGoods
+StoneCo Ltd A,STNE,Stocks,NASDAQ,ConsumerGoods
+DexCom Inc,DXCM,Stocks,NASDAQ,ConsumerGoods
+Ultimate Software Group Inc,ULTI,Stocks,NASDAQ,Technology
+Okta Inc,OKTA,Stocks,NASDAQ,Services
+F5 Networks Inc,FFIV,Stocks,NASDAQ,Services
+ON Semiconductor Corp,ON,Stocks,NASDAQ,Technology
+DocuSign Inc,DOCU,Stocks,NASDAQ,Technology
+Trade Desk Inc,TTD,Stocks,NASDAQ,Services
+Sarepta Therapeutics Inc,SRPT,Stocks,NASDAQ,ConsumerGoods
+Zions Bancorp NA,ZION,Stocks,NASDAQ,Financial
+Zscaler Inc,ZS,Stocks,NASDAQ,Services
+MongoDB Inc,MDB,Stocks,NASDAQ,Technology
+Universal Display Corp,OLED,Stocks,NASDAQ,IndustrialGoods
+Roku Inc,ROKU,Stocks,NASDAQ,Services
+Five Below Inc,FIVE,Stocks,NASDAQ,ConsumerGoods
+ Nutanix Inc A,NTNX,Stocks,NASDAQ,Technology
+Mellanox Technologies Ltd,MLNX,Stocks,NASDAQ,Technology
+Guardant Health Inc,GH,Stocks,NASDAQ,ConsumerGoods
+Coupa Software Inc,COUP,Stocks,NASDAQ,Technology
+iShares MSCI China ETF,MCHI,ETF,NASDAQ,Financial
+iShares MSCI All Country Asia ex Japan ETF,AAXJ,ETF,NASDAQ,Financial
+Lumentum Holdings Inc,LITE,Stocks,NASDAQ,Technology
+Brighthouse Financial Inc,BHF,Stocks,NASDAQ,Financial
+Spark Therapeutics Inc,ONCE,Stocks,NASDAQ,ConsumerGoods
+Tandem Diabetes Care Inc,TNDM,Stocks,NASDAQ,ConsumerGoods
+Alliant Energy Corp,LNT,Stocks,NASDAQ,Utilities
+Jack Henry & Associates Inc,JKHY,Stocks,NASDAQ,Technology
+ProShares UltraPro Short QQQ,SQQQ,ETF,NASDAQ,Financial
+VelocityShares Daily 2x VIX Short-Term ETN,TVIX,ETF,NASDAQ,Financial
+iShares Semiconductor ETF ,SOXX,ETF,NASDAQ,Financial
+ProShares UltraPro QQQ,TQQQ,ETF,NASDAQ,Financial
+First Trust Cloud Computing,SKYY,ETF,NASDAQ,Technology
+PDD Holdings Inc - ADR,PDD,Stocks,NASDAQ,ConsumerGoods
+Weibo Corp-ADR,WB,Stocks,NASDAQ,Technology
+Bilibili-ADR,BILI,Stocks,NASDAQ,ConsumerGoods
+Vanguard Short-Term Inflation-Protected Securities ETF,VTIP,ETF,NASDAQ,ConsumerGoods
+Vanguard Total International Bond ETF,BNDX,ETF,NASDAQ,ConsumerGoods
+Niu Technologies-ADR,NIU,Stocks,NASDAQ,ConsumerGoods
+Fastly Inc,FSLY,Stocks,NASDAQ,Services
+Luckin Coffee Inc.,LK,Stocks,NASDAQ,ConsumerGoods
+GrowGeneration,GRWG,Stocks,NASDAQ,ConsumerGoods
+Repay Holdings Corp,RPAY,Stocks,NASDAQ,ConsumerGoods
+Nano-X Imaging Ltd.,NNOX,Stocks,NASDAQ,ConsumerGoods
+Liberty Live Holdings Inc-C,LLYVK,Stocks,NASDAQ,Services
+Amdocs Ltd,DOX,Stocks,NASDAQ,Technology
+Agora Inc-ADR,API,Stocks,NASDAQ,Technology
+Coherent Inc,COHR.US,Stocks,NASDAQ,IndustrialGoods
+Corsair Gaming Inc,CRSR,Stocks,NASDAQ,Technology
+Covetrus Inc,CVET,Stocks,NASDAQ,ConsumerGoods
+Entegris Inc,ENTG,Stocks,NASDAQ,Technology
+Kingsoft Cloud Holdings Ltd-ADR,KC,Stocks,NASDAQ,Technology
+Magnite Inc,MGNI,Stocks,NASDAQ,Services
+Manhattan Associates Inc,MANH,Stocks,NASDAQ,Technology
+Middleby Corp,MIDD.US,Stocks,NASDAQ,IndustrialGoods
+Crowdstrike Holdings,CRWD,Stocks,NASDAQ,Technology
+Kratos Defense & Security Solutions Inc,KTOS,Stocks,NASDAQ,IndustrialGoods
+Ambarella Inc,AMBA,Stocks,NASDAQ,IndustrialGoods
+AeroVironment Inc.,AVAV,Stocks,NASDAQ,IndustrialGoods
+Douyu -ADR,DOYU,Stocks,NASDAQ,Technology
+Qifu Technology Inc,QFIN,Stocks,NASDAQ,Financial
+Alarm.com Holdings Inc.,ALRM,Stocks,NASDAQ,IndustrialGoods
+Alder BioPharmaceuticals Inc.,ALDR,Stocks,NASDAQ,ConsumerGoods
+Avid Technology Inc.,AVID,Stocks,NASDAQ,Technology
+Axogen Inc.,AXGN,Stocks,NASDAQ,ConsumerGoods
+Ballard Power Systems Inc.,BLDP,Stocks,NASDAQ,IndustrialGoods
+BioTelemetry Inc.,BEAT.delisted,Stocks,NASDAQ,ConsumerGoods
+CalAmp Corp.,CAMPQ,Stocks,NASDAQ,Services
+Canadian Solar Inc.,CSIQ,Stocks,NASDAQ,IndustrialGoods
+Ceva Inc.,CEVA,Stocks,NASDAQ,Technology
+Cray Inc.,CRAY,Stocks,NASDAQ,Technology
+CYPRESS SEMICOND,CY,Stocks,NASDAQ,Technology
+Denny's Corp.,DENN,Stocks,NASDAQ,ConsumerGoods
+Enphase Energy Inc.,ENPH,Stocks,NASDAQ,IndustrialGoods
+Euronet Worldwide Inc.,EEFT,Stocks,NASDAQ,ConsumerGoods
+Flex Ltd,FLEX,Stocks,NASDAQ,IndustrialGoods
+FLIR Systems Inc.,FLIR,Stocks,NASDAQ,IndustrialGoods
+Fossil Group Inc.,FOSL,Stocks,NASDAQ,ConsumerGoods
+Gentex Corporation,GNTX,Stocks,NASDAQ,IndustrialGoods
+Impinj Inc.,PI,Stocks,NASDAQ,Technology
+Insulet Corp.,PODD,Stocks,NASDAQ,ConsumerGoods
+InterDigital Inc.,IDCC,Stocks,NASDAQ,Services
+IRhythm Holdings Inc,IRTC,Stocks,NASDAQ,ConsumerGoods
+iRobot Corp.,IRBTQ,Stocks,NASDAQ,ConsumerGoods
+Johnson Outdoors Inc.,JOUT,Stocks,NASDAQ,ConsumerGoods
+Masimo Corp.,MASI,Stocks,NASDAQ,ConsumerGoods
+Medidata Solutions Inc.,MDSO,Stocks,NASDAQ,Technology
+NuVasive Inc.,NUVA,Stocks,NASDAQ,ConsumerGoods
+ORBCOMM Inc.,ORBC,Stocks,NASDAQ,Services
+Pool Corp.,POOL,Stocks,NASDAQ,ConsumerGoods
+PTC Inc.,PTC,Stocks,NASDAQ,Technology
+Qorvo Inc.,QRVO,Stocks,NASDAQ,Technology
+Qutoutiao Inc.-ADR,QTTOY,Stocks,NASDAQ,Technology
+Semtech Corp.,SMTC,Stocks,NASDAQ,Technology
+Silicon Laboratories Inc.,SLAB,Stocks,NASDAQ,Technology
+Sunrun Inc.,RUN,Stocks,NASDAQ,IndustrialGoods
+Universal Electronics Inc.,UEIC,Stocks,NASDAQ,ConsumerGoods
+Zebra Technologies Corp.,ZBRA,Stocks,NASDAQ,Technology
+22nd Century Group Inc.,XXII,Stocks,NASDAQ,ConsumerGoods
+Weight Watchers International Inc.,WW,Stocks,NASDAQ,ConsumerGoods
+1 800 FLOWERS COM,FLWS,Stocks,NASDAQ,Services
+Blue Apron Holdings Inc.,APRN,Stocks,NASDAQ,ConsumerGoods
+Cracker Barrel Old Country Store Inc.,CBRL,Stocks,NASDAQ,ConsumerGoods
+Papa John's International Inc,PZZA,Stocks,NASDAQ,ConsumerGoods
+Sprouts Farmers Market Inc.,SFM,Stocks,NASDAQ,ConsumerGoods
+WeWork.US,WE.US,Stocks,NASDAQ,Financial
+Peloton Interactive,PTON,Stocks,NASDAQ,Services
+9F Inc-ADR,JFU,Stocks,NASDAQ,Financial
+Stamps.com Inc,STMP,Stocks,NASDAQ,Services
+CoStar Group Inc,CSGP,Stocks,NASDAQ,ConsumerGoods
+Zoom Video Communications Inc,ZM,Stocks,NASDAQ,Technology
+Cornerstone OnDemand Inc,CSOD,Stocks,NASDAQ,Technology
+Marketaxess Holdings Inc,MKTX,Stocks,NASDAQ,ConsumerGoods
+SS&C Technologies Holdings Inc,SSNC,Stocks,NASDAQ,Technology
+Wright Medical Group NV,WMGI,Stocks,NASDAQ,ConsumerGoods
+Copart Inc,CPRT,Stocks,NASDAQ,ConsumerGoods
+Old Dominion Freight Line Inc,ODFL,Stocks,NASDAQ,IndustrialGoods
+BioMarin Pharmaceutical Inc,BMRN,Stocks,NASDAQ,ConsumerGoods
+ACADIA Pharmaceuticals Inc,ACAD,Stocks,NASDAQ,ConsumerGoods
+Hologic Inc,HOLX,Stocks,NASDAQ,ConsumerGoods
+Athenex Inc,ATNXQ,Stocks,NASDAQ,ConsumerGoods
+Ollie's Bargain Outlet Holdings Inc,OLLI,Stocks,NASDAQ,ConsumerGoods
+Proofpoint Inc,PFPT,Stocks,NASDAQ,Services
+Arrowhead Pharmaceuticals Inc,ARWR,Stocks,NASDAQ,ConsumerGoods
+Neurocrine Biosciences Inc,NBIX,Stocks,NASDAQ,ConsumerGoods
+Reata Pharmaceuticals Inc,RETA,Stocks,NASDAQ,ConsumerGoods
+Novocure Ltd,NVCR,Stocks,NASDAQ,ConsumerGoods
+eHealth Inc,EHTH,Stocks,NASDAQ,Financial
+Mirati Therapeutics Inc,MRTX,Stocks,NASDAQ,ConsumerGoods
+Stitch Fix Inc,SFIX,Stocks,NASDAQ,Services
+LendingTree Inc,TREE,Stocks,NASDAQ,Financial
+Baozun Inc-ADR,BZUN,Stocks,NASDAQ,Services
+HealthEquity Inc,HQY,Stocks,NASDAQ,ConsumerGoods
+Sanderson Farms Inc,SAFM,Stocks,NASDAQ,ConsumerGoods
+Regency Centers Corp,REG,Stocks,NASDAQ,Financial
+Sage Therapeutics Inc,SAGE,Stocks,NASDAQ,ConsumerGoods
+Cirrus Logic Inc,CRUS,Stocks,NASDAQ,Technology
+Penn National Gaming Inc,PENN,Stocks,NASDAQ,ConsumerGoods
+Gossamer Bio Inc,GOSS,Stocks,NASDAQ,ConsumerGoods
+PRA Health Sciences Inc,PRAH,Stocks,NASDAQ,ConsumerGoods
+Bluebird Bio Inc,BLUE,Stocks,NASDAQ,ConsumerGoods
+Crocs Inc,CROX,Stocks,NASDAQ,ConsumerGoods
+Aspen Technology Inc,AZPN.US,Stocks,NASDAQ,Technology
+Everbridge Inc,EVBG,Stocks,NASDAQ,Technology
+Ra Pharmaceuticals Inc,RARX,Stocks,NASDAQ,ConsumerGoods
+Dunkin Brands Group Inc,DNKN,Stocks,NASDAQ,ConsumerGoods
+Amedisys Inc,AMED,Stocks,NASDAQ,ConsumerGoods
+IBERIABANK Corp,IBKC,Stocks,NASDAQ,Financial
+Axon Enterprise Inc,AXON,Stocks,NASDAQ,IndustrialGoods
+SunPower Corp,SPWRQ,Stocks,NASDAQ,ConsumerGoods
+Coherus Biosciences Inc,CHRS,Stocks,NASDAQ,ConsumerGoods
+Freshpet Inc,FRPT,Stocks,NASDAQ,ConsumerGoods
+Exelixis Inc,EXEL,Stocks,NASDAQ,ConsumerGoods
+Natera Inc,NTRA,Stocks,NASDAQ,ConsumerGoods
+Caesars Entertainment Inc,CZR,Stocks,NASDAQ,ConsumerGoods
+Huazhu Group Ltd-ADR,HTHT,Stocks,NASDAQ,ConsumerGoods
+Mercury Systems Inc,MRCY,Stocks,NASDAQ,IndustrialGoods
+PDC Energy Inc,PDCE,Stocks,NASDAQ,ConsumerGoods
+Bruker Corp,BRKR,Stocks,NASDAQ,ConsumerGoods
+Inogen Inc,INGN,Stocks,NASDAQ,ConsumerGoods
+Dave & Busters Entertainment Inc,PLAY,Stocks,NASDAQ,ConsumerGoods
+LivePerson Inc,LPSN,Stocks,NASDAQ,Technology
+Veracyte Inc,VCYT,Stocks,NASDAQ,ConsumerGoods
+Repligen Corp,RGEN,Stocks,NASDAQ,ConsumerGoods
+Jack in the Box Inc,JACK,Stocks,NASDAQ,ConsumerGoods
+Texas Roadhouse Inc,TXRH,Stocks,NASDAQ,ConsumerGoods
+Acacia Communications Inc,ACIA,Stocks,NASDAQ,Services
+Sabra Health Care REIT Inc,SBRA,Stocks,NASDAQ,Financial
+Bio-Techne Corp,TECH,Stocks,NASDAQ,ConsumerGoods
+Blueprint Medicines Corp,BPMC,Stocks,NASDAQ,ConsumerGoods
+Immunomedics Inc,IMMU,Stocks,NASDAQ,ConsumerGoods
+Del Taco Restaurants Inc,TACO,Stocks,NASDAQ,ConsumerGoods
+Investors Bancorp Inc,ISBC,Stocks,NASDAQ,Financial
+Moderna Inc,MRNA,Stocks,NASDAQ,ConsumerGoods
+LogMeIn Inc,LOGM,Stocks,NASDAQ,Services
+Novavax Inc,NVAX,Stocks,NASDAQ,ConsumerGoods
+Pluralsight Inc,PS,Stocks,NASDAQ,Technology
+Co-Diagnostics Inc,CODX,Stocks,NASDAQ,ConsumerGoods
+Coinbase Global Inc,COIN,Stocks,NASDAQ,Financial
+DMK Pharmaceuticals Corp,DMKPQ,Stocks,NASDAQ,ConsumerGoods
+QUALTRICS INTERNATIONAL-CL A,XM,Stocks,NASDAQ,Technology
+Agile Therapeutics Inc,AGRX,Stocks,NASDAQ,ConsumerGoods
+Senmiao Technology Ltd,AIHS,Stocks,NASDAQ,Services
+Aldeyra Therapeutics Inc,ALDX,Stocks,NASDAQ,ConsumerGoods
+Shoals Technologies Group Inc,SHLS,Stocks,NASDAQ,BasicMaterials
+Tetra Tech Inc,TTEK,Stocks,NASDAQ,IndustrialGoods
+Digital Turbine Inc,APPS,Stocks,NASDAQ,Technology
+Athersys Inc,ATHXQ,Stocks,NASDAQ,ConsumerGoods
+Antares Pharma Inc,ATRS,Stocks,NASDAQ,ConsumerGoods
+Anavex Life Sciences Corp,AVXL,Stocks,NASDAQ,ConsumerGoods
+CRITEO SA-SPON ADR,CRTO,Stocks,NASDAQ,Services
+StableX Technologies Inc,SBLX,Stocks,NASDAQ,ConsumerGoods
+Aytu BioScience Inc,AYTU,Stocks,NASDAQ,ConsumerGoods
+Bio-key International Inc,BKYI,Stocks,NASDAQ,IndustrialGoods
+BioLife Solutions Inc,BLFS,Stocks,NASDAQ,ConsumerGoods
+Blink Charging Co,BLNK,Stocks,NASDAQ,IndustrialGoods
+BioNano Genomics Inc,BNGO,Stocks,NASDAQ,ConsumerGoods
+Boxlight Corp,BOXL,Stocks,NASDAQ,Technology
+Permian Resources Corp,PR,Stocks,NASDAQ,ConsumerGoods
+Chembio Diagnostics Inc,CEMI,Stocks,NASDAQ,ConsumerGoods
+Nuwellis Inc,NUWE,Stocks,NASDAQ,ConsumerGoods
+Celldex Therapeutics Inc,CLDX,Stocks,NASDAQ,ConsumerGoods
+Cleanspark Inc,CLSK,Stocks,NASDAQ,ConsumerGoods
+Cocrystal Pharma Inc,COCP,Stocks,NASDAQ,ConsumerGoods
+Mr Cooper Group Inc,COOP,Stocks,NASDAQ,Financial
+Catalyst Pharmaceuticals Inc,CPRX,Stocks,NASDAQ,ConsumerGoods
+Castor Maritime Inc,CTRM,Stocks,NASDAQ,IndustrialGoods
+Kustom Entertainment Inc,KUST,Stocks,NASDAQ,IndustrialGoods
+PUBMATIC INC-CLASS A,PUBM,Stocks,NASDAQ,Technology
+Dynavax Technologies Corp,DVAX,Stocks,NASDAQ,ConsumerGoods
+eGain Corp,EGAN,Stocks,NASDAQ,Technology
+Evofem Biosciences Inc,EVFM,Stocks,NASDAQ,ConsumerGoods
+Applovin Corp,APP,Stocks,NASDAQ,ConsumerGoods
+Tattooed Chef Inc,TTCFQ,Stocks,NASDAQ,ConsumerGoods
+Foresight Autonomous Holdings Ltd-ADR,FRSX,Stocks,NASDAQ,ConsumerGoods
+Gevo Inc,GEVO,Stocks,NASDAQ,ConsumerGoods
+Globus Maritime Ltd,GLBS,Stocks,NASDAQ,IndustrialGoods
+Kartoon Studios Inc,TOON,Stocks,NASDAQ,Technology
+Allegro MicroSystems Inc,ALGM,Stocks,NASDAQ,Technology
+Scorpius Holdings Inc,SCPX,Stocks,NASDAQ,ConsumerGoods
+HTG Molecular Diagnostics Inc,HTGMQ,Stocks,NASDAQ,ConsumerGoods
+Ideanomics Inc,IDEXQ,Stocks,NASDAQ,Technology
+XTI Aerospace Inc,XTIA,Stocks,NASDAQ,Technology
+IZEA Worldwide Inc,IZEA,Stocks,NASDAQ,Services
+Jaguar Health Inc,JAGX,Stocks,NASDAQ,ConsumerGoods
+Golden Nugget Online Gaming Inc,GNOG,Stocks,NASDAQ,ConsumerGoods
+Newegg Commerce Inc,NEGG,Stocks,NASDAQ,ConsumerGoods
+Luna Innovations Inc,LUNA.US,Stocks,NASDAQ,Services
+Marathon Digital Holdings Inc.,MARA,Stocks,NASDAQ,ConsumerGoods
+Remark Holdings Inc,MARK,Stocks,NASDAQ,Services
+Viridian Therapeutics Inc,VRDN,Stocks,NASDAQ,ConsumerGoods
+Mitek Systems Inc,MITK,Stocks,NASDAQ,Technology
+ Cenntro Inc,CENN,Stocks,NASDAQ,ConsumerGoods
+New Age Inc,NBEVQ,Stocks,NASDAQ,ConsumerGoods
+Nano Dimension Ltd-ADR,NNDM,Stocks,NASDAQ,Technology
+Ocugen Inc,OCGN,Stocks,NASDAQ,ConsumerGoods
+Paysign Inc,PAYS,Stocks,NASDAQ,Financial
+Phunware Inc,PHUN,Stocks,NASDAQ,Technology
+Plug Power Inc,PLUG,Stocks,NASDAQ,ConsumerGoods
+AIxCrypto Holdings Inc,AIXC,Stocks,NASDAQ,ConsumerGoods
+Riot Platforms Inc,RIOT,Stocks,NASDAQ,ConsumerGoods
+Landstar System Inc,LSTR,Stocks,NASDAQ,IndustrialGoods
+Seanergy Maritime Holdings Corp,SHIP,Stocks,NASDAQ,IndustrialGoods
+SiNtx Technologies Inc,SINT,Stocks,NASDAQ,ConsumerGoods
+2U Inc,TWOUQ,Stocks,NASDAQ,ConsumerGoods
+ElectraMeccanica Vehicles Corp,SOLO,Stocks,NASDAQ,ConsumerGoods
+SuRo Capital Corp,SSSS,Stocks,NASDAQ,Financial
+Sunworks Inc,SUNWQ,Stocks,NASDAQ,ConsumerGoods
+Toughbuilt Industries Inc,TBLT,Stocks,NASDAQ,IndustrialGoods
+Tellurian Inc,TELL,Stocks,NASDAQ,ConsumerGoods
+Trevena Inc,TRVN,Stocks,NASDAQ,ConsumerGoods
+Black Titan Corp,BTTC,Stocks,NASDAQ,ConsumerGoods
+Urban One Inc,UONE,Stocks,NASDAQ,Services
+VBI Vaccines Inc,VBIVQ,Stocks,NASDAQ,ConsumerGoods
+Vislink Technologies Inc,VISL,Stocks,NASDAQ,Technology
+Viking Therapeutics Inc,VKTX,Stocks,NASDAQ,ConsumerGoods
+Vuzix Corp,VUZI,Stocks,NASDAQ,Technology
+Vaxart Inc,VXRT,Stocks,NASDAQ,ConsumerGoods
+Energous Corp,WATT,Stocks,NASDAQ,IndustrialGoods
+Workhorse Group Inc,WKHS,Stocks,NASDAQ,ConsumerGoods
+Exela Technologies Inc,XELA,Stocks,NASDAQ,Technology
+ACM Research Inc,ACMR,Stocks,NASDAQ,Technology
+ADMA Biologics Inc,ADMA,Stocks,NASDAQ,ConsumerGoods
+Adverum Biotechnologies Inc,ADVM,Stocks,NASDAQ,ConsumerGoods
+Altimmune Inc,ALT,Stocks,NASDAQ,ConsumerGoods
+Appfolio Inc,APPF,Stocks,NASDAQ,Technology
+Arcturus Therapeutics Holdings Inc,ARCT,Stocks,NASDAQ,ConsumerGoods
+Axsome Therapeutics Inc,AXSM,Stocks,NASDAQ,ConsumerGoods
+Canaan Inc,CAN,Stocks,NASDAQ,Technology
+Cardlytics Inc,CDLX,Stocks,NASDAQ,Services
+Cerus Corp,CERS,Stocks,NASDAQ,ConsumerGoods
+First Trust NASDAQ Cybersecurity ETF,CIBR,ETF,NASDAQ,Financial
+Global X Cloud Computing ETF,CLOU,ETF,NASDAQ,Financial
+Curis Inc,CRIS,Stocks,NASDAQ,ConsumerGoods
+CRISPR Therapeutics AG,CRSP,Stocks,NASDAQ,ConsumerGoods
+Domo Inc,DOMO,Stocks,NASDAQ,Technology
+iShares Select Dividend ETF,DVY,ETF,NASDAQ,Financial
+EHang Holdings Ltd-ADR,EH,Stocks,NASDAQ,IndustrialGoods
+eXp World Holdings Inc,EXPI,Stocks,NASDAQ,Financial
+Fate Therapeutics Inc,FATE,Stocks,NASDAQ,ConsumerGoods
+FuelCell Energy Inc,FCEL,Stocks,NASDAQ,ConsumerGoods
+Amicus Therapeutics Inc,FOLD,Stocks,NASDAQ,ConsumerGoods
+Turtle Beach Corp,TBCH,Stocks,NASDAQ,IndustrialGoods
+MannKind Corp,MNKD,Stocks,NASDAQ,ConsumerGoods
+MicroVision Inc,MVIS,Stocks,NASDAQ,IndustrialGoods
+NMI Holdings Inc,NMIH,Stocks,NASDAQ,Financial
+Ocular Therapeutix Inc,OCUL,Stocks,NASDAQ,ConsumerGoods
+ProQR Therapeutics NV,PRQR,Stocks,NASDAQ,ConsumerGoods
+Protagonist Therapeutics Inc,PTGX,Stocks,NASDAQ,ConsumerGoods
+Global X Nasdaq 100 Covered Call ETF,QYLD,ETF,NASDAQ,Financial
+Rapid7 Inc,RPD,Stocks,NASDAQ,Technology
+Revance Therapeutics Inc,RVNC,Stocks,NASDAQ,ConsumerGoods
+VanEck Vectors Semiconductor ETF,SMH,ETF,NASDAQ,Financial
+Surface Oncology Inc,SURF,Stocks,NASDAQ,ConsumerGoods
+TPI Composites Inc,TPICQ,Stocks,NASDAQ,ConsumerGoods
+Vanguard Russell 1000 Growth ETF,VONG,ETF,NASDAQ,Financial
+Verastem Inc,VSTM,Stocks,NASDAQ,ConsumerGoods
+Vanguard Total International Stock ETF,VXUS,ETF,NASDAQ,Financial
+WisdomTree Cloud Computing Fund,WCLD,ETF,NASDAQ,-
+WiMi Hologram Cloud Inc,WIMIold,Stocks,NASDAQ,Technology
+Zogenix Inc,ZGNX,Stocks,NASDAQ,ConsumerGoods
+MidCap Financial Investment Co,MFIC,Stocks,NASDAQ,Financial
+Alnylam Pharmaceuticals Inc,ALNY,Stocks,NASDAQ,ConsumerGoods
+Amyris Inc,AMRSQ,Stocks,NASDAQ,BasicMaterials
+ANGI Homeservices Inc,ANGI,Stocks,NASDAQ,Services
+Ares Capital Corp,ARCC,Stocks,NASDAQ,Financial
+Atara Biotherapeutics Inc,ATRA,Stocks,NASDAQ,ConsumerGoods
+Atlantica Sustainable Infrastructure PLC,AY,Stocks,NASDAQ,ConsumerGoods
+Bridgebio Pharma Inc,BBIO,Stocks,NASDAQ,ConsumerGoods
+BioCryst Pharmaceuticals Inc,BCRX,Stocks,NASDAQ,ConsumerGoods
+BGC Group Inc,BGC,Stocks,NASDAQ,Financial
+BioNTech SE-ADR,BNTX,Stocks,NASDAQ,ConsumerGoods
+Azenta Inc,AZTA,Stocks,NASDAQ,Technology
+The Cheesecake Factory Inc,CAKE,Stocks,NASDAQ,ConsumerGoods
+Cargurus Inc,CARG,Stocks,NASDAQ,Services
+Codexis Inc,CDXS,Stocks,NASDAQ,BasicMaterials
+The Carlyle Group Inc,CG,Stocks,NASDAQ,Financial
+Cognex Corp,CGNX,Stocks,NASDAQ,IndustrialGoods
+The Chefs' Warehouse Inc,CHEF,Stocks,NASDAQ,ConsumerGoods
+Clean Energy Fuels Corp,CLNE,Stocks,NASDAQ,ConsumerGoods
+Clovis Oncology Inc,CLVSQ,Stocks,NASDAQ,ConsumerGoods
+Conduent Inc,CNDT,Stocks,NASDAQ,Technology
+CyrusOne Inc,CONE,Stocks,NASDAQ,Financial
+Ceragon Networks Ltd,CRNT,Stocks,NASDAQ,Services
+Cytokinetics Inc,CYTK,Stocks,NASDAQ,ConsumerGoods
+Datadog Inc,DDOG,Stocks,NASDAQ,Technology
+Telefonaktiebolaget LM Ericsson ADR,ERIC,Stocks,NASDAQ,Services
+National Beverage Corp,FIZZ,Stocks,NASDAQ,ConsumerGoods
+Damon Inc,DMNIF,Stocks,NASDAQ,Technology
+Fox Corp,FOXA,Stocks,NASDAQ,Services
+Geron Corp,GERN,Stocks,NASDAQ,ConsumerGoods
+G-III Apparel Group Ltd,GIII,Stocks,NASDAQ,ConsumerGoods
+Golar LNG Ltd,GLNG,Stocks,NASDAQ,IndustrialGoods
+Glu Mobile Inc,GLUU,Stocks,NASDAQ,Technology
+Grocery Outlet Holding Corp,GO,Stocks,NASDAQ,ConsumerGoods
+Gogo Inc,GOGO,Stocks,NASDAQ,Services
+Gladstone Commercial Corp,GOOD,Stocks,NASDAQ,Financial
+Alphabet Inc Class A,GOOGL,Stocks,NASDAQ,Services
+Green Plains Inc,GPRE,Stocks,NASDAQ,ConsumerGoods
+Hawaiian Holdings Inc,HA,Stocks,NASDAQ,ConsumerGoods
+Halozyme Therapeutics Inc,HALO,Stocks,NASDAQ,ConsumerGoods
+Health Catalyst Inc,HCAT,Stocks,NASDAQ,Technology
+Harmonic Inc,HLIT,Stocks,NASDAQ,Services
+Houghton Mifflin Harcourt Co,HMHC,Stocks,NASDAQ,Services
+InflaRx NV,IFRX,Stocks,NASDAQ,ConsumerGoods
+iHeartMedia Inc,IHRT,Stocks,NASDAQ,Services
+ImmunoGen Inc,IMGN,Stocks,NASDAQ,ConsumerGoods
+Infinera Corp,INFN,Stocks,NASDAQ,Services
+Inmode Ltd,INMD,Stocks,NASDAQ,ConsumerGoods
+Inovio Pharmaceuticals Inc,INO,Stocks,NASDAQ,ConsumerGoods
+Iridium Communications Inc,IRDM,Stocks,NASDAQ,Services
+Intra-Cellular Therapies Inc,ITCI,Stocks,NASDAQ,ConsumerGoods
+Itron Inc,ITRI,Stocks,NASDAQ,IndustrialGoods
+Kandi Technologies Group Inc,KNDI,Stocks,NASDAQ,ConsumerGoods
+Lincoln Electric Holdings Inc,LECO,Stocks,NASDAQ,IndustrialGoods
+Li Auto Inc-ADR,LI,Stocks,NASDAQ,ConsumerGoods
+Lattice Semiconductor Corp,LSCC,Stocks,NASDAQ,Technology
+Liberty Media Corp-Liberty SiriusXM Series C,LSXMK,Stocks,NASDAQ,Services
+Lexicon Pharmaceuticals Inc,LXRX,Stocks,NASDAQ,ConsumerGoods
+Seres Therapeutics Inc,MCRB,Stocks,NASDAQ,ConsumerGoods
+MoneyGram International Inc,MGI,Stocks,NASDAQ,ConsumerGoods
+MKS Instruments Inc,MKSI,Stocks,NASDAQ,Technology
+Melco Resorts & Entertainment Ltd-ADR,MLCO,Stocks,NASDAQ,ConsumerGoods
+Monolithic Power Systems Inc,MPWR,Stocks,NASDAQ,Technology
+Strategy Inc,MSTR,Stocks,NASDAQ,Technology
+Inari Medical Inc,NARI,Stocks,NASDAQ,ConsumerGoods
+Nice Ltd-ADR,NICE,Stocks,NASDAQ,Services
+ImmunityBio Inc,IBRX,Stocks,NASDAQ,ConsumerGoods
+Nikola Corp,NKLAQ,Stocks,NASDAQ,ConsumerGoods
+Nektar Therapeutics,NKTR,Stocks,NASDAQ,ConsumerGoods
+Newmark Group Inc,NMRK,Stocks,NASDAQ,Financial
+Nexstar Media Group Inc,NXST,Stocks,NASDAQ,Services
+Adamas Trust Inc,ADAM,Stocks,NASDAQ,Financial
+Organigram Global Inc,OGI,Stocks,NASDAQ,ConsumerGoods
+1Life Healthcare Inc,ONEM,Stocks,NASDAQ,Technology
+OPKO Health Inc,OPK,Stocks,NASDAQ,ConsumerGoods
+Orchard Therapeutics plc-ADR,ORTX,Stocks,NASDAQ,ConsumerGoods
+Pan American Silver Corp,PAAS,Stocks,NASDAQ,BasicMaterials
+Pacific Biosciences of California Inc,PACB,Stocks,NASDAQ,ConsumerGoods
+People's United Financial Inc,PBCT,Stocks,NASDAQ,Financial
+PotlatchDeltic Corp,PCH,Stocks,NASDAQ,Financial
+PennantPark Floating Rate Capital Ltd,PFLT,Stocks,NASDAQ,Financial
+Progyny Inc,PGNY,Stocks,NASDAQ,ConsumerGoods
+Premier Inc,PINC,Stocks,NASDAQ,ConsumerGoods
+Children's Place Inc,PLCE,Stocks,NASDAQ,ConsumerGoods
+Playa Hotels & Resorts NV,PLYA,Stocks,NASDAQ,ConsumerGoods
+Perficient Inc,PRFT,Stocks,NASDAQ,Services
+Prospect Capital Corp,PSEC,Stocks,NASDAQ,Financial
+Patterson-UTI Energy Inc,PTEN,Stocks,NASDAQ,ConsumerGoods
+Quidel Corp,QDEL,Stocks,NASDAQ,ConsumerGoods
+uniQure NV,QURE,Stocks,NASDAQ,ConsumerGoods
+Redfin Corp,RDFN,Stocks,NASDAQ,Financial
+RealReal Inc,REAL,Stocks,NASDAQ,Services
+Renewable Energy Group Inc,REGI,Stocks,NASDAQ,ConsumerGoods
+Rigel Pharmaceuticals Inc,RIGL,Stocks,NASDAQ,ConsumerGoods
+Retail Opportunity Investments Corp,ROIC,Stocks,NASDAQ,Financial
+Royalty Pharma PLC,RPRX,Stocks,NASDAQ,ConsumerGoods
+Red Robin Gourmet Burgers Inc,RRGB,Stocks,NASDAQ,ConsumerGoods
+Red Rock Resorts Inc,RRR,Stocks,NASDAQ,ConsumerGoods
+Ruth's Hospitality Group Inc,RUTH,Stocks,NASDAQ,ConsumerGoods
+REVOLUTION Medicines Inc,RVMD,Stocks,NASDAQ,ConsumerGoods
+Sabre Corp,SABR,Stocks,NASDAQ,ConsumerGoods
+Sinclair Inc,SBGI,Stocks,NASDAQ,Services
+SmileDirectClub Inc,SDCCQ,Stocks,NASDAQ,ConsumerGoods
+Schrodinger Inc/United States,SDGR,Stocks,NASDAQ,Technology
+Light & Wonder Inc,LNWO,Stocks,NASDAQ,ConsumerGoods
+SINA Corp/China,SINA,Stocks,NASDAQ,Services
+SkyWest Inc,SKYW,Stocks,NASDAQ,ConsumerGoods
+SLM Corp,SLM,Stocks,NASDAQ,Financial
+SNDL Inc,SNDL,Stocks,NASDAQ,ConsumerGoods
+Syndax Pharmaceuticals Inc,SNDX,Stocks,NASDAQ,ConsumerGoods
+Sonos Inc,SONO,Stocks,NASDAQ,ConsumerGoods
+Sportsman's Warehouse Holdings Inc,SPWH,Stocks,NASDAQ,ConsumerGoods
+SSR Mining Inc,SSRM,Stocks,NASDAQ,BasicMaterials
+Bumble Inc.,BMBL,Stocks,NASDAQ,Technology
+Service Properties Trust,SVC,Stocks,NASDAQ,Financial
+Momentive Global Inc,MNTV,Stocks,NASDAQ,Technology
+Shockwave Medical Inc,SWAV,Stocks,NASDAQ,ConsumerGoods
+Syneos Health Inc,SYNH,Stocks,NASDAQ,ConsumerGoods
+Teradyne Inc,TER,Stocks,NASDAQ,Technology
+Trivago NV-ADR,TRVG,Stocks,NASDAQ,Services
+Tower Semiconductor Ltd,TSEM,Stocks,NASDAQ,Technology
+Tivity Health Inc,TVTY,Stocks,NASDAQ,ConsumerGoods
+10X Genomics Inc,TXG,Stocks,NASDAQ,ConsumerGoods
+Upwork Inc,UPWK,Stocks,NASDAQ,Services
+US Concrete Inc,USCR,Stocks,NASDAQ,IndustrialGoods
+United Therapeutics Corp,UTHR,Stocks,NASDAQ,ConsumerGoods
+VEON Ltd,VEON,Stocks,NASDAQ,Services
+Vir Biotechnology Inc,VIR,Stocks,NASDAQ,ConsumerGoods
+Vroom Inc.old,VRMMQ.old,Stocks,NASDAQ,ConsumerGoods
+WisdomTree Investments Inc,WT,Stocks,NASDAQ,Financial
+Wingstop Inc,WING,Stocks,NASDAQ,ConsumerGoods
+Warner Music Group Corp,WMG,Stocks,NASDAQ,ConsumerGoods
+Xunlei Ltd-ADR,XNET,Stocks,NASDAQ,Technology
+XP Inc,XP,Stocks,NASDAQ,Financial
+Zillow Group Inc,ZG,Stocks,NASDAQ,Services
+ZoomInfo Technologies Inc,GTM,Stocks,NASDAQ,Technology
+QuantumScape Corporation,QS,Stocks,NASDAQ,ConsumerGoods
+DiamondRock Hospitality Co,DRH,Stocks,NASDAQ,Financial
+HEXO Corp,HEXO,Stocks,NASDAQ,ConsumerGoods
+Kadmon Holdings Inc,KDMN,Stocks,NASDAQ,ConsumerGoods
+Plains All American Pipeline LP,PAA,Stocks,NASDAQ,ConsumerGoods
+Millicom International Cellular SA,TIGO,Stocks,NASDAQ,Services
+GDS Holdings Ltd-ADR,GDS,Stocks,NASDAQ,Services
+U-Haul Holding Co,UHAL,Stocks,NASDAQ,ConsumerGoods
+Littelfuse Inc,LFUS,Stocks,NASDAQ,IndustrialGoods
+Futu Holdings Ltd-ADR,FUTU,Stocks,NASDAQ,Financial
+Grupo Aeroportuario del Centro Norte S.A.B. de C.V.,OMAB,Stocks,NASDAQ,IndustrialGoods
+Heartland Express Inc,HTLD,Stocks,NASDAQ,IndustrialGoods
+Astec Industries Inc,ASTE,Stocks,NASDAQ,IndustrialGoods
+Ferroglobe Plc,GSM,Stocks,NASDAQ,BasicMaterials
+Amkor Technology Inc,AMKR,Stocks,NASDAQ,Technology
+Macom Technology Solutions,MTSI,Stocks,NASDAQ,Technology
+Galapagos NV,GLPG,Stocks,NASDAQ,ConsumerGoods
+Stagwell Inc,STGW,Stocks,NASDAQ,Services
+Titan Machinery Inc,TITN,Stocks,NASDAQ,ConsumerGoods
+Dyne Therapeutics Inc,DYN,Stocks,NASDAQ,ConsumerGoods
+Heartland Financial USA Inc,HTLF,Stocks,NASDAQ,Financial
+Prime Medicine Inc,PRME,Stocks,NASDAQ,ConsumerGoods
+POINT Biopharma Global Inc,PNT,Stocks,NASDAQ,ConsumerGoods
+GigaCloud Technology Inc,GCT,Stocks,NASDAQ,Technology
+Hudson Technologies Inc,HDSN,Stocks,NASDAQ,ConsumerGoods
+Cricut Inc,CRCT,Stocks,NASDAQ,Technology
+Dmc Global Inc,BOOM,Stocks,NASDAQ,Utilities
+EZCORP Inc,EZPW,Stocks,NASDAQ,Financial
+Preferred Bank,PFBC,Stocks,NASDAQ,Financial
+World Acceptance Corporation,WRLD,Stocks,NASDAQ,Financial
+Perdoceo Education Corporation,PRDO,Stocks,NASDAQ,ConsumerGoods
+Monarch Casino & Resort Inc,MCRI,Stocks,NASDAQ,ConsumerGoods
+Ichor Holdings Ltd,ICHR,Stocks,NASDAQ,IndustrialGoods
+Trinity Capital Inc,TRIN,Stocks,NASDAQ,Financial
+Root Inc,ROOT,Stocks,NASDAQ,Financial
+AMC Networks Inc,AMCX,Stocks,NASDAQ,Services
+Wesbanco Inc,WSBC,Stocks,NASDAQ,Financial
+National Western Life Group Inc,NWLI,Stocks,NASDAQ,Financial
+Zymeworks Inc,ZYME,Stocks,NASDAQ,ConsumerGoods
+Calavo Growers Inc,CVGW,Stocks,NASDAQ,ConsumerGoods
+Towne Bank,TOWN,Stocks,NASDAQ,Financial
+Vital Farms Inc,VITL,Stocks,NASDAQ,ConsumerGoods
+Velodyne Lidar Inc.,VLDR,Stocks,NASDAQ,ConsumerGoods
+Sterling Check Corp,STER,Stocks,NASDAQ,ConsumerGoods
+Matthews International Corporation,MATW,Stocks,NASDAQ,ConsumerGoods
+Berry Corporation,BRY,Stocks,NASDAQ,Utilities
+Fold Holdings Inc,FLD,Stocks,NASDAQ,Services
+Thryv Holdings Inc,THRY,Stocks,NASDAQ,Services
+Mesa Laboratories Inc,MLAB,Stocks,NASDAQ,IndustrialGoods
+Chuy's Holdings Inc,CHUY,Stocks,NASDAQ,ConsumerGoods
+Liquidia Corporation,LQDA,Stocks,NASDAQ,ConsumerGoods
+Capitol Federal Financial Inc,CFFN,Stocks,NASDAQ,Financial
+Brookline Bancorp Inc,BRKL,Stocks,NASDAQ,Financial
+First Advantage Corporation,FA,Stocks,NASDAQ,ConsumerGoods
+Enanta Pharmaceuticals Inc,ENTA,Stocks,NASDAQ,ConsumerGoods
+Anaptysbio Inc,ANAB,Stocks,NASDAQ,ConsumerGoods
+NVE Corporation,NVEC,Stocks,NASDAQ,IndustrialGoods
+Amerisafe Inc,AMSF,Stocks,NASDAQ,Financial
+Aemetis Inc,AMTX,Stocks,NASDAQ,Utilities
+FARO Technologies Inc,FARO,Stocks,NASDAQ,IndustrialGoods
+Lightwave Logic Inc,LWLG,Stocks,NASDAQ,BasicMaterials
+Theravance Biopharma Inc,TBPH,Stocks,NASDAQ,ConsumerGoods
+Immatics NV,IMTX,Stocks,NASDAQ,ConsumerGoods
+Alignment Healthcare Inc,ALHC,Stocks,NASDAQ,Technology
+OceanFirst Financial Corp,OCFC,Stocks,NASDAQ,Financial
+Mechanics Bancorp,MCHB,Stocks,NASDAQ,Financial
+Simulations Plus Inc,SLP,Stocks,NASDAQ,Technology
+Newtekone Inc,NEWT,Stocks,NASDAQ,Financial
+AVITA Medical Inc,RCEL,Stocks,NASDAQ,ConsumerGoods
+Stock Yards Bancorp Inc,SYBT,Stocks,NASDAQ,Financial
+Orthofix Medical Inc,OFIX,Stocks,NASDAQ,ConsumerGoods
+Alkami Technology Inc,ALKT,Stocks,NASDAQ,Technology
+Ambrx Biopharma Inc,AMAM,Stocks,NASDAQ,ConsumerGoods
+DXP Enterprises Inc,DXPE,Stocks,NASDAQ,IndustrialGoods
+VSE Corporation,VSEC,Stocks,NASDAQ,ConsumerGoods
+Sapiens International Corporation NV,SPNS,Stocks,NASDAQ,Technology
+New Mountain Finance Corporation,NMFC,Stocks,NASDAQ,Financial
+Fingermotion Inc,FNGR,Stocks,NASDAQ,Technology
+AngioDynamics Inc,ANGO,Stocks,NASDAQ,ConsumerGoods
+Phathom Pharmaceuticals Inc,PHAT,Stocks,NASDAQ,ConsumerGoods
+Hawkins Inc,HWKN,Stocks,NASDAQ,BasicMaterials
+NeoGames SA,NGMS,Stocks,NASDAQ,ConsumerGoods
+Olympic Steel Inc,ZEUS,Stocks,NASDAQ,IndustrialGoods
+Carrols Restaurant Group Inc,TAST,Stocks,NASDAQ,ConsumerGoods
+ReNew Energy Global Plc,RNW,Stocks,NASDAQ,Utilities
+Sciplay Corp,SCPL,Stocks,NASDAQ,Technology
+Draftkings Inc,DKNG,Stocks,NASDAQ,Financial
+Palantir Technologies Inc.,PLTR,Stocks,NASDAQ,Technology
+Vitru Ltd,VTRU,Stocks,NASDAQ,Technology
+Sumo Logic Inc. ,SUMO,Stocks,NASDAQ,Technology
+Jfrog Ltd,FROG,Stocks,NASDAQ,ConsumerGoods
+Kalaris Therapeutics Inc,KLRS,Stocks,NASDAQ,Healthcare
+Agenus Inc,AGEN,Stocks,NASDAQ,Healthcare
+Vaxcyte Inc,PCVX,Stocks,NASDAQ,Healthcare
+CureVac NV,CVAC,Stocks,NASDAQ,Healthcare
+Airbnb Inc,ABNB,Stocks,NASDAQ,Services
+DoorDash Inc,DASH.US,Stocks,NASDAQ,Services
+Contextlogic Holdings Inc,LOGC,Stocks,NASDAQ,Services
+Invesco NASDAQ Next Gen 100 ETF,QQQJ,ETF,NASDAQ,-
+Saia Inc.,SAIA,Stocks,NASDAQ,IndustrialGoods
+Leslie's Inc,LESL,Stocks,NASDAQ,Services
+Affirm,AFRM,Stocks,NASDAQ,ConsumerGoods
+Global-E Online Ltd,GLBE,Stocks,NASDAQ,Technology
+CMC Materials Inc.,CCMP,Stocks,NASDAQ,Technology
+First Trust NASDAQ Clean Edge Green Energy Index Fund,QCLN,ETF,NASDAQ,-
+Atlas Air Worlwide Holdings,AAWW,Stocks,NASDAQ,IndustrialGoods
+Luminar Technologies Inc.,LAZRQ,Stocks,NASDAQ,ConsumerGoods
+Array Technologies Inc,ARRY,Stocks,NASDAQ,BasicMaterials
+GitLab,GTLB,Stocks,NASDAQ,Services
+AvidXchange,AVDX,Stocks,NASDAQ,Services
+Pagaya Technologies Ltd,PGY,Stocks,NASDAQ,Financial
+Rent the Runway,RENT,Stocks,NASDAQ,ConsumerGoods
+Allbirds Inc,BIRD,Stocks,NASDAQ,Services
+Thoughtworks,TWKS,Stocks,NASDAQ,Services
+GlobalFoundries Inc,GFS,Stocks,NASDAQ,Technology
+Udemy Inc,UDMY,Stocks,NASDAQ,Technology
+Trump Media & Technology Group,DJT,Stocks,NASDAQ,Financial
+2Seventy Bio Inc.,TSVT,Stocks,NASDAQ,ConsumerGoods
+Constellation Energy Corp,CEG,Stocks,NASDAQ,Utilities
+Nuvei Corp,NVEI,Stocks,NASDAQ,ConsumerGoods
+TPG Inc.,TPG,Stocks,NASDAQ,Financial
+Newcrest Mining LTD - ADR,NCMGF,Stocks,NASDAQ,BasicMaterials
+Warner Bros Discovery Inc,WBD,Stocks,NASDAQ,Services
+Mawson Infrastructure Group Inc.,MIGI,Stocks,NASDAQ,Technology
+WeRide Inc,WRD,Stocks,NASDAQ,Technology
+OLAPLEX HOLDINGS INC,OLPX,Stocks,NASDAQ,ConsumerGoods
+Sportradar Group AG,SRAD,Stocks,NASDAQ,ConsumerGoods
+Upstart Holdings Inc,UPST,Stocks,NASDAQ,Financial
+SpringWorks Therapeutics Inc,SWTX,Stocks,NASDAQ,ConsumerGoods
+Duolingo,DUOL,Stocks,NASDAQ,Technology
+EVgo Inc,EVGO,Stocks,NASDAQ,ConsumerGoods
+Progress Software Corporation,PRGS,Stocks,NASDAQ,Technology
+Vonage Holdings Corp,VG.Old,Stocks,NASDAQ,Services
+Commerce.com Inc,CMRC,Stocks,NASDAQ,Technology
+Golden Ocean Group Ltd,GOGL.US,Stocks,NASDAQ,IndustrialGoods
+Popular Inc,BPOP,Stocks,NASDAQ,Financial
+Verve Therapeutics Inc,VERV,Stocks,NASDAQ,ConsumerGoods
+Tenable Holdings Inc,TENB,Stocks,NASDAQ,Technology
+Varonis Systems Inc,VRNS,Stocks,NASDAQ,Technology
+McAfee Corp,MCFE,Stocks,NASDAQ,Technology
+Cytek Biosciences Inc,CTKB,Stocks,NASDAQ,ConsumerGoods
+Hut 8 Mining Corp,HUT,Stocks,NASDAQ,ConsumerGoods
+Sanofi-ADR,SNY,Stocks,NASDAQ,ConsumerGoods
+Logitech International S.A.,LOGI,Stocks,NASDAQ,Technology
+Ozon Holdings PLC,OZON,Stocks,NASDAQ,Services
+BeiGene Ltd-ADR,ONC,Stocks,NASDAQ,ConsumerGoods
+Just Eat Takeaway.com NV-ADR,JTKWY,Stocks,NASDAQ,Services
+Heska Corporation,HSKA,Stocks,NASDAQ,ConsumerGoods
+Central Garden & Pet Company,CENTA,Stocks,NASDAQ,ConsumerGoods
+Balchem Corporation,BCPC,Stocks,NASDAQ,BasicMaterials
+Nu Ride Inc,NRDE,Stocks,NASDAQ,ConsumerGoods
+Gentherm Incorporated,THRM,Stocks,NASDAQ,ConsumerGoods
+Gilat Satellite Networks Ltd,GILT,Stocks,NASDAQ,Services
+Grid Dynamics Holdings Inc,GDYN,Stocks,NASDAQ,Technology
+Pegasystems Inc,PEGA,Stocks,NASDAQ,Technology
+Invivyd Inc,IVVD,Stocks,NASDAQ,ConsumerGoods
+Ascendis Pharma-ADR,ASND,Stocks,NASDAQ,ConsumerGoods
+Golden Entertainment Inc,GDEN,Stocks,NASDAQ,ConsumerGoods
+GAN Limited,GAN,Stocks,NASDAQ,ConsumerGoods
+Allegiant Travel Company,ALGT,Stocks,NASDAQ,ConsumerGoods
+Groupon Inc,GRPN,Stocks,NASDAQ,Services
+REE Automotive Ltd,REE.US,Stocks,NASDAQ,ConsumerGoods
+"Bentley Systems, Incorporated",BSY,Stocks,NASDAQ,Technology
+COMPASS Pathways plc,CMPS,Stocks,NASDAQ,ConsumerGoods
+The Lovesac Company,LOVE,Stocks,NASDAQ,ConsumerGoods
+Arrival,ARVLF,Stocks,NASDAQ,ConsumerGoods
+iShares Global clean energy ETF,ICLN,ETF,NASDAQ,-
+iShares Global Infrastructure ETF,IGF,ETF,NASDAQ,-
+Aspen Technology Inc,AZPN,Stocks,NASDAQ,Services
+United Maritime Corp,USEA,Stocks,NASDAQ,IndustrialGoods
+ Chord Energy Corporation,CHRD,Stocks,NASDAQ,BasicMaterials
+FTAI Infrastructure LLC,FIP,Stocks,NASDAQ,IndustrialGoods
+Mural Oncology Plc,MURA,Stocks,NASDAQ,Healthcare
+Inhibrx Biosciences Inc,INBX,Stocks,NASDAQ,Technology
+Waystar Holding Corp,WAY,Stocks,NASDAQ,Technology
+Fusion Pharmaceuticals Inc CVR Payment (Acquired),FUSN.CVR,Stocks,NASDAQ,Services
+Inhibrx Inc CVR Payment (Acquired),INBX.CVR,Stocks,NASDAQ,Services
+Tempus AI Inc,TEM.US,Stocks,NASDAQ,Healthcare
+Grail Inc,GRAL,Stocks,NASDAQ,Technology
+Tectonic Therapeutic Inc Merger CVR,TECX.CVR,Stocks,NASDAQ,Services
+Sunrise Realty Trust Inc,SUNS,Stocks,NASDAQ,Services
+Sunrise Communications AG,SNREY,Stocks,NASDAQ,Services
+Poseida Therapeutics Inc Merger CVR,PSTX.CVR,Stocks,NASDAQ,Services
+Vroom Inc,VRM,Stocks,NASDAQ,Financial
+Smithfield Foods Inc,SFD,Stocks,NASDAQ,ConsumerGoods
+Sandisk Corp/DE,SNDK,Stocks,NASDAQ,Technology
+Nasdaq Inc.,NDAQ,Stocks,NASDAQ,Financial
+Liberty Broadband Corporation,LBRDK,Stocks,NASDAQ,Services
+ICON Public Limited Company,ICLR,Stocks,NASDAQ,ConsumerGoods
+Fox Corporation,FOX,Stocks,NASDAQ,Services
+Exela Technologies Pref,XELAP,Stocks,NASDAQ,Services
+Arch Capital Group Ltd.,ACGL,Stocks,NASDAQ,Financial
+Nordson Corporation,NDSN,Stocks,NASDAQ,ConsumerGoods
+Paylocity Holding Corporation,PCTY,Stocks,NASDAQ,ConsumerGoods
+Morningstar Inc.,MORN,Stocks,NASDAQ,ConsumerGoods
+Opendoor Technologies Inc,OPEN,Stocks,NASDAQ,Services
+East West Bancorp Inc.,EWBC,Stocks,NASDAQ,Financial
+Concentrix Corporation,CNXC,Stocks,NASDAQ,Technology
+Zai Lab Limited-ADR,ZLAB,Stocks,NASDAQ,ConsumerGoods
+Medpace Holdings Inc.,MEDP,Stocks,NASDAQ,ConsumerGoods
+Legend Biotech Corporation-ADR,LEGN,Stocks,NASDAQ,ConsumerGoods
+First Citizens BancShares Inc.,FCNCA,Stocks,NASDAQ,Financial
+Fox Factory Holding Corp.,FOXF,Stocks,NASDAQ,ConsumerGoods
+Woodward Inc.,WWD,Stocks,NASDAQ,ConsumerGoods
+BlackLine Inc.,BL,Stocks,NASDAQ,Technology
+Vicor Corporation,VICR,Stocks,NASDAQ,ConsumerGoods
+R1 RCM Inc.,RCM,Stocks,NASDAQ,ConsumerGoods
+Sprout Social Inc.,SPT,Stocks,NASDAQ,Technology
+Royal Gold Inc.,RGLD,Stocks,NASDAQ,BasicMaterials
+Columbia Sportswear Company,COLM,Stocks,NASDAQ,ConsumerGoods
+Kornit Digital Ltd.,KRNT,Stocks,NASDAQ,IndustrialGoods
+ Astrana Health Inc,ASTH,Stocks,NASDAQ,Technology
+Exponent Inc.,EXPO,Stocks,NASDAQ,IndustrialGoods
+Change Healthcare Inc.,CHNG,Stocks,NASDAQ,Technology
+RBC Bearings Incorporated,RBC,Stocks,NASDAQ,IndustrialGoods
+Hamilton Lane Incorporated,HLNE,Stocks,NASDAQ,Financial
+Bank OZK,OZK,Stocks,NASDAQ,Financial
+Helen of Troy Limited,HELE,Stocks,NASDAQ,ConsumerGoods
+Valley National Bancorp,VLY,Stocks,NASDAQ,Financial
+Acadia Healthcare Company Inc.,ACHC,Stocks,NASDAQ,ConsumerGoods
+Integra LifeSciences Holdings Corporation,IART,Stocks,NASDAQ,ConsumerGoods
+New Fortress Energy Inc.,NFE,Stocks,NASDAQ,BasicMaterials
+Celsius Holdings Inc.,CELH,Stocks,NASDAQ,ConsumerGoods
+Certara Inc.,CERT,Stocks,NASDAQ,ConsumerGoods
+Twist Bioscience Corporation,TWST,Stocks,NASDAQ,ConsumerGoods
+SiTime Corporation,SITM,Stocks,NASDAQ,Technology
+PacWest Bancorp,PACW,Stocks,NASDAQ,Financial
+Mimecast Limited,MIME,Stocks,NASDAQ,Services
+STAAR Surgical Company,STAA,Stocks,NASDAQ,ConsumerGoods
+SPS Commerce Inc.,SPSC,Stocks,NASDAQ,Technology
+Qualys Inc.,QLYS,Stocks,NASDAQ,Technology
+NovaBridge Biosciences,NBP,Stocks,NASDAQ,ConsumerGoods
+ICU Medical Inc.,ICUI,Stocks,NASDAQ,ConsumerGoods
+NeoGenomics Inc.,NEO.US,Stocks,NASDAQ,ConsumerGoods
+Focus Financial Partners Inc.,FOCS,Stocks,NASDAQ,Financial
+Diodes Incorporated,DIOD,Stocks,NASDAQ,Technology
+CDK Global Inc.,CDK,Stocks,NASDAQ,Technology
+ChampionX Corporation,CHX,Stocks,NASDAQ,BasicMaterials
+Kinsale Capital Group Inc.,KNSL,Stocks,NASDAQ,Financial
+LivaNova PLC,LIVN,Stocks,NASDAQ,ConsumerGoods
+The Ensign Group Inc.,ENSG,Stocks,NASDAQ,ConsumerGoods
+Umpqua Holdings Corporation,UMPQ,Stocks,NASDAQ,Financial
+LHC Group Inc.,LHCG,Stocks,NASDAQ,ConsumerGoods
+Academy Sports and Outdoors Inc.,ASO,Stocks,NASDAQ,ConsumerGoods
+Apellis Pharmaceuticals Inc.,APLS,Stocks,NASDAQ,ConsumerGoods
+JOYY Inc.-ADR,JOYY,Stocks,NASDAQ,Services
+Freedom Holding Corp.,FRHC,Stocks,NASDAQ,Financial
+AbCellera Biologics Inc.,ABCL,Stocks,NASDAQ,ConsumerGoods
+KnowBe4 Inc.,KNBE,Stocks,NASDAQ,Technology
+Live Oak Bancshares Inc.,LOB,Stocks,NASDAQ,Financial
+Steven Madden Ltd.,SHOO,Stocks,NASDAQ,ConsumerGoods
+Independent Bank Corp.,INDB,Stocks,NASDAQ,Financial
+Cerence Inc.,CRNC,Stocks,NASDAQ,Technology
+National Vision Holdings Inc.,EYE,Stocks,NASDAQ,ConsumerGoods
+Nova Ltd.,NVMI,Stocks,NASDAQ,Technology
+ACI Worldwide Inc.,ACIW,Stocks,NASDAQ,Technology
+Viasat Inc.,VSAT,Stocks,NASDAQ,Services
+TG Therapeutics Inc.,TGTX,Stocks,NASDAQ,ConsumerGoods
+Aurinia Pharmaceuticals Inc.,AUPH,Stocks,NASDAQ,ConsumerGoods
+Alkermes plc,ALKS,Stocks,NASDAQ,ConsumerGoods
+Vimeo Inc.,VMEO,Stocks,NASDAQ,Services
+Jamf Holding Corp.,JAMF,Stocks,NASDAQ,Technology
+Nexxen International Ltd,NEXN,Stocks,NASDAQ,Services
+Clover Health Investments Corp.,CLOV,Stocks,NASDAQ,Healthcare
+WalkMe Ltd.,WKME,Stocks,NASDAQ,Technology
+Amber International Holding Lt,AMBR,Stocks,NASDAQ,Services
+CryoPort Inc.,CYRX,Stocks,NASDAQ,IndustrialGoods
+Trupanion Inc,TRUP,Stocks,NASDAQ,Financial
+TEAD Holdings Co,TEAD,Stocks,NASDAQ,Technology
+Playtika Holding Corp.,PLTK,Stocks,NASDAQ,ConsumerGoods
+Petco Health & Wellness Company Inc,WOOF,Stocks,NASDAQ,ConsumerGoods
+Poshmark Inc Class A,POSH,Stocks,NASDAQ,Technology
+Driven Brands Holdings Inc,DRVN,Stocks,NASDAQ,ConsumerGoods
+LGI Homes Inc.,LGIH,Stocks,NASDAQ,ConsumerGoods
+Grand Canyon Education Inc.,LOPE,Stocks,NASDAQ,ConsumerGoods
+Verint Systems Inc.,VRNT,Stocks,NASDAQ,Technology
+AdaptHealth Corp.,AHCO,Stocks,NASDAQ,ConsumerGoods
+WD-40 Company,WDFC,Stocks,NASDAQ,ConsumerGoods
+Texas Capital Bancshares Inc.,TCBI,Stocks,NASDAQ,Financial
+Iovance Biotherapeutics Inc.,IOVA,Stocks,NASDAQ,ConsumerGoods
+Fulgent Genetics Inc.,FLGT,Stocks,NASDAQ,ConsumerGoods
+Commvault Systems Inc.,CVLT,Stocks,NASDAQ,Technology
+Axonics Inc.,AXNX,Stocks,NASDAQ,ConsumerGoods
+NorthWestern Corporation,NWE,Stocks,NASDAQ,Utilities
+ChemoCentryx Inc.,CCXI,Stocks,NASDAQ,ConsumerGoods
+Columbia Banking System Inc.,COLB,Stocks,NASDAQ,Financial
+Ultra Clean Holdings Inc.,UCTT,Stocks,NASDAQ,Technology
+Canoo Inc.,GOEVQ,Stocks,NASDAQ,ConsumerGoods
+Hostess Brands Inc.,TWNK,Stocks,NASDAQ,ConsumerGoods
+Porch Group Inc.,PRCH,Stocks,NASDAQ,Technology
+NetScout Systems Inc.,NTCT,Stocks,NASDAQ,Technology
+CareDx Inc,CDNA,Stocks,NASDAQ,ConsumerGoods
+Global Blood Therapeutics Inc.,GBT,Stocks,NASDAQ,ConsumerGoods
+Veradigm Inc,MDRX,Stocks,NASDAQ,Technology
+NanoString Technologies Inc.,NSTGQ,Stocks,NASDAQ,ConsumerGoods
+Horizon Therapeutics Public Limited Company,HZNP,Stocks,NASDAQ,ConsumerGoods
+Tradeweb Markets Inc.,TW,Stocks,NASDAQ,Financial
+GoodRx Holdings Inc.,GDRX,Stocks,NASDAQ,ConsumerGoods
+Argenx SE-ADR,ARGX,Stocks,NASDAQ,ConsumerGoods
+WillScot Mobile Mini Holdings Corp.,WSC,Stocks,NASDAQ,IndustrialGoods
+Omnicell Inc.,OMCL,Stocks,NASDAQ,ConsumerGoods
+Rocket Lab Corp,RKLB,Stocks,NASDAQ,IndustrialGoods
+Fluence Energy Inc.,FLNC,Stocks,NASDAQ,Services
+nCino Inc.,NCNO,Stocks,NASDAQ,Technology
+Beam Therapeutics Inc.,BEAM,Stocks,NASDAQ,ConsumerGoods
+Wintrust Financial Corporation,WTFC,Stocks,NASDAQ,Financial
+Appian Corporation,APPN,Stocks,NASDAQ,Technology
+Ultragenyx Pharmaceutical Inc.,RARE.US,Stocks,NASDAQ,ConsumerGoods
+Goosehead Insurance Inc,GSHD,Stocks,NASDAQ,Financial
+ExlService Holdings Inc.,EXLS,Stocks,NASDAQ,Technology
+Arvinas Inc.,ARVN,Stocks,NASDAQ,ConsumerGoods
+Kulicke and Soffa Industries Inc.,KLIC,Stocks,NASDAQ,Technology
+Insmed Incorporated,INSM,Stocks,NASDAQ,ConsumerGoods
+Relay Therapeutics Inc.,RLAY,Stocks,NASDAQ,ConsumerGoods
+Portillo's Inc.,PTLO,Stocks,NASDAQ,ConsumerGoods
+Old National Bancorp,ONB,Stocks,NASDAQ,Financial
+Open Lending Corporation,LPRO,Stocks,NASDAQ,Services
+Werner Enterprises Inc.,WERN,Stocks,NASDAQ,IndustrialGoods
+ Upbound Group Inc,UPBD,Stocks,NASDAQ,ConsumerGoods
+Frontdoor Inc.,FTDR,Stocks,NASDAQ,IndustrialGoods
+Encore Wire Corporation,WIRE,Stocks,NASDAQ,IndustrialGoods
+ArcBest Corporation,ARCB,Stocks,NASDAQ,IndustrialGoods
+Astra Space Inc.,ASTR,Stocks,NASDAQ,IndustrialGoods
+Allogene Therapeutics Inc.,ALLO,Stocks,NASDAQ,ConsumerGoods
+Cassava Sciences Inc.,SAVA,Stocks,NASDAQ,ConsumerGoods
+Axcelis Technologies Inc.,ACLS,Stocks,NASDAQ,Technology
+Star Bulk Carriers Corp.,SBLK,Stocks,NASDAQ,IndustrialGoods
+Hyzon Motors Inc.,HYZN,Stocks,NASDAQ,ConsumerGoods
+Avid Bioservices Inc.,CDMO,Stocks,NASDAQ,ConsumerGoods
+Ironwood Pharmaceuticals Inc.,IRWD,Stocks,NASDAQ,ConsumerGoods
+Sleep Number Corporation,SNBR,Stocks,NASDAQ,ConsumerGoods
+Bandwidth Inc.,BAND.US,Stocks,NASDAQ,Technology
+Hydrofarm Holdings Group Inc.,HYFM,Stocks,NASDAQ,IndustrialGoods
+Alpha and Omega Semiconductor Limited,AOSL,Stocks,NASDAQ,Technology
+Matterport Inc,MTTR,Stocks,NASDAQ,Technology
+Origin Materials Inc,ORGN,Stocks,NASDAQ,Services
+Perella Weinberg Partners,PWP,Stocks,NASDAQ,Services
+Payoneer Global Inc,PAYO,Stocks,NASDAQ,Services
+Sharecare Inc,SHCR,Stocks,NASDAQ,Services
+Taboola.com Ltd.,TBLA,Stocks,NASDAQ,Services
+Bakkt Holding,BKKT,Stocks,NASDAQ,Services
+Fintech Acquisition Corp. V,FTCV,Stocks,NASDAQ,Services
+Grab Holdings Ltd,GRAB,Stocks,NASDAQ,Services
+SoFi Technologies Inc,SOFI,Stocks,NASDAQ,Services
+Lucid Group Inc,LCID,Stocks,NASDAQ,Services
+WeWork Inc,WEWKQ,Stocks,NASDAQ,Services
+TuSimple Holdings Inc,TSPH,Stocks,NASDAQ,ConsumerGoods
+Silicon Motion Technology-ADR,SIMO,Stocks,NASDAQ,Technology
+Oatly Group AB,OTLY,Stocks,NASDAQ,ConsumerGoods
+TaskUs Inc.,TASK,Stocks,NASDAQ,Services
+dLocal Ltd.,DLO,Stocks,NASDAQ,Financial
+Monday.com,MNDY,Stocks,NASDAQ,Technology
+Robinhood Markets Inc.,HOOD,Stocks,NASDAQ,Financial
+Marqeta Inc.,MQ,Stocks,NASDAQ,Financial
+Krispy Kreme Inc.,DNUT,Stocks,NASDAQ,Services
+Couchbase Inc.,BASE,Stocks,NASDAQ,Technology
+MissFresh Ltd. ADR,MFLTY,Stocks,NASDAQ,Services
+Confluent Inc.,CFLT,Stocks,NASDAQ,Technology
+SweetGreen,SG,Stocks,NASDAQ,ConsumerGoods
+Euro-Holdings Ltd,EHLD,Stocks,NASDAQ,Technology
+Rivian Automotive,RIVN,Stocks,NASDAQ,ConsumerGoods
+Instacart,CART,Stocks,NASDAQ,Services
+Kaltura Inc.,KLTR,Stocks,NASDAQ,Technology
+LPL Financial Holdings Inc,LPLA.US,Stocks,NASDAQ,Financial
+Rambus Inc,RMBS,Stocks,NASDAQ,Technology
+Recursion Pharmaceuticals Inc,RXRX,Stocks,NASDAQ,ConsumerGoods
+HashiCorp Inc,HCP.US,Stocks,NASDAQ,Technology
+Madrigal Pharmaceuticals Inc,MDGL,Stocks,NASDAQ,ConsumerGoods
+Weatherford International plc,WFRD,Stocks,NASDAQ,Utilities
+Erie Indemnity Company,ERIE,Stocks,NASDAQ,Financial
+Freshworks Inc,FRSH,Stocks,NASDAQ,Technology
+Extreme Networks Inc,EXTR,Stocks,NASDAQ,Services
+Roivant Sciences Ltd,ROIV,Stocks,NASDAQ,ConsumerGoods
+Symbotic Inc,SYM,Stocks,NASDAQ,IndustrialGoods
+Aehr Test System,AEHR,Stocks,NASDAQ,Technology
+Applied Digital Corporation,APLD,Stocks,NASDAQ,Financial
+Kanzhun Limited,BZ,Stocks,NASDAQ,Services
+Frontier Communications Parent Inc,FYBR,Stocks,NASDAQ,Services
+TransMedics Group Inc,TMDX,Stocks,NASDAQ,ConsumerGoods
+Thomson Reuters Corporation,TRI,Stocks,NASDAQ,Services
+Phillips Edison & Company Inc,PECO,Stocks,NASDAQ,Financial
+Flywire Corporation,FLYW,Stocks,NASDAQ,ConsumerGoods
+Applied Optoelectronics Inc,AAOI,Stocks,NASDAQ,IndustrialGoods
+Braze Inc,BRZE,Stocks,NASDAQ,Technology
+MoonLake Immunotherapeutics,MLTX,Stocks,NASDAQ,ConsumerGoods
+Forward Air Corporation,FWRD,Stocks,NASDAQ,IndustrialGoods
+Credo Technology Group Holding Ltd,CRDO,Stocks,NASDAQ,Services
+Science Applications International Corporation,SAIC,Stocks,NASDAQ,Technology
+Insight Enterprises Inc,NSIT.US,Stocks,NASDAQ,Technology
+Akero Therapeutics Inc,AKRO,Stocks,NASDAQ,ConsumerGoods
+Krystal Biotech Inc,KRYS,Stocks,NASDAQ,ConsumerGoods
+Casella Waste Systems Inc,CWST,Stocks,NASDAQ,IndustrialGoods
+American Superconductor Corporation,AMSC,Stocks,NASDAQ,IndustrialGoods
+Opera Limited,OPRA,Stocks,NASDAQ,Services
+Surgery Partners Inc,SGRY,Stocks,NASDAQ,ConsumerGoods
+Maxeon Solar Technologies Ltd,MAXN,Stocks,NASDAQ,Utilities
+Aaon Inc,AAON,Stocks,NASDAQ,IndustrialGoods
+Marzetti Company/The,MZTI,Stocks,NASDAQ,ConsumerGoods
+Maravai LifeSciences Holdings Inc.,MRVI,Stocks,NASDAQ,ConsumerGoods
+UFP Industries Inc,UFPI,Stocks,NASDAQ,IndustrialGoods
+Coca-Cola Consolidated Inc,COKE,Stocks,NASDAQ,ConsumerGoods
+Selective Insurance Group Inc,SIGI,Stocks,NASDAQ,Financial
+Sterling Infrastructure Inc,STRL.US,Stocks,NASDAQ,IndustrialGoods
+Merit Medical Systems Inc,MMSI,Stocks,NASDAQ,ConsumerGoods
+Sovos Brands Inc,SOVO,Stocks,NASDAQ,ConsumerGoods
+Verra Mobility Corporation,VRRM,Stocks,NASDAQ,Technology
+Sigma Lithium Corporation,SGML,Stocks,NASDAQ,BasicMaterials
+Amylyx Pharmaceuticals Inc,AMLX,Stocks,NASDAQ,ConsumerGoods
+Remitly Global Inc,RELY,Stocks,NASDAQ,ConsumerGoods
+Prothena Corporation plc,PRTA,Stocks,NASDAQ,ConsumerGoods
+Immunovant Inc,IMVT,Stocks,NASDAQ,ConsumerGoods
+Cogent Communications Holdings Inc,CCOI,Stocks,NASDAQ,Services
+Amphastar Pharmaceuticals Inc,AMPH,Stocks,NASDAQ,ConsumerGoods
+Morphic Holding Inc,MORF,Stocks,NASDAQ,ConsumerGoods
+Ventyx Biosciences Inc,VTYX,Stocks,NASDAQ,ConsumerGoods
+The Simply Good Foods Company,SMPL,Stocks,NASDAQ,ConsumerGoods
+89Bio Inc,ETNB,Stocks,NASDAQ,ConsumerGoods
+Silk Road Medical Inc,SILK,Stocks,NASDAQ,ConsumerGoods
+Perion Network Ltd,PERI,Stocks,NASDAQ,Services
+Radnet Inc,RDNT,Stocks,NASDAQ,ConsumerGoods
+Penguin Solutions Inc,PENG,Stocks,NASDAQ,Technology
+UFP Technologies Inc,UFPT,Stocks,NASDAQ,ConsumerGoods
+Alphatec Holdings Inc,ATEC,Stocks,NASDAQ,ConsumerGoods
+Navitas Semiconductor Corporation,NVTS,Stocks,NASDAQ,Technology
+Caribou Biosciences Inc,CRBU,Stocks,NASDAQ,ConsumerGoods
+Biomea Fusion Inc,BMEA,Stocks,NASDAQ,ConsumerGoods
+Napco Security Technologies Inc,NSSC,Stocks,NASDAQ,IndustrialGoods
+Vistagen Therapeutics Inc,VTGN,Stocks,NASDAQ,ConsumerGoods
+PureCycle Technologies Inc,PCT.US,Stocks,NASDAQ,IndustrialGoods
+Acelyrin Inc,SLRN,Stocks,NASDAQ,ConsumerGoods
+Arcellx Inc,ACLX,Stocks,NASDAQ,ConsumerGoods
+indie Semiconductor Inc,INDI,Stocks,NASDAQ,ConsumerGoods
+FirstCash Holdings Inc,FCFS,Stocks,NASDAQ,ConsumerGoods
+Altair Engineering Inc,ALTR,Stocks,NASDAQ,Technology
+Denali Therapeutics Inc,DNLI,Stocks,NASDAQ,ConsumerGoods
+Intapp Inc,INTA,Stocks,NASDAQ,Technology
+Stratasys Ltd,SSYS.US,Stocks,NASDAQ,Technology
+Hub Group Inc,HUBG,Stocks,NASDAQ,IndustrialGoods
+Piedmont Lithium Inc,PLL,Stocks,NASDAQ,BasicMaterials
+Cerevel Therapeutics Holdings Inc,CERE,Stocks,NASDAQ,ConsumerGoods
+Harmony Biosciences Holdings Inc,HRMY,Stocks,NASDAQ,ConsumerGoods
+News Corporation,NWS,Stocks,NASDAQ,Services
+Corcept Therapeutics Incorporated,CORT,Stocks,NASDAQ,ConsumerGoods
+Rhythm Pharmaceuticals Inc,RYTM,Stocks,NASDAQ,ConsumerGoods
+Bitfarms Ltd,BITF,Stocks,NASDAQ,ConsumerGoods
+Travere Therapeutics Inc,TVTX,Stocks,NASDAQ,ConsumerGoods
+PROCEPT BioRobotics Corporation,PRCT,Stocks,NASDAQ,ConsumerGoods
+Sotera Health Company,SHC,Stocks,NASDAQ,ConsumerGoods
+Air Transport Services Group Inc,ATSG,Stocks,NASDAQ,IndustrialGoods
+Integral Ad Science Holding Corp,IAS,Stocks,NASDAQ,Technology
+Zentalis Pharmaceuticals Inc,ZNTL,Stocks,NASDAQ,ConsumerGoods
+H2O America,HTO,Stocks,NASDAQ,Utilities
+SunCar Technology Group Inc,SDA,Stocks,NASDAQ,Services
+The Vita Coco Company Inc,COCO,Stocks,NASDAQ,ConsumerGoods
+CCC Intelligent Solutions Holdings Inc,CCC.US,Stocks,NASDAQ,Technology
+Camtek Ltd,CAMT,Stocks,NASDAQ,IndustrialGoods
+Franklin Electric Co Inc,FELE,Stocks,NASDAQ,IndustrialGoods
+Frontier Group Holdings Inc,ULCC,Stocks,NASDAQ,ConsumerGoods
+Inter Parfums Inc,IPAR,Stocks,NASDAQ,ConsumerGoods
+Atricure Inc,ATRC,Stocks,NASDAQ,ConsumerGoods
+Otter Tail Corporation,OTTR,Stocks,NASDAQ,Utilities
+Cavco Industries Inc,CVCO,Stocks,NASDAQ,ConsumerGoods
+NextDecade Corporation,NEXT,Stocks,NASDAQ,Utilities
+Pliant Therapeutics Inc,PLRX,Stocks,NASDAQ,ConsumerGoods
+Grupo Financiero Galicia SA,GGAL,Stocks,NASDAQ,Financial
+Mirum Pharmaceuticals Inc,MIRM,Stocks,NASDAQ,ConsumerGoods
+Supernus Pharmaceuticals Inc,SUPN,Stocks,NASDAQ,ConsumerGoods
+Legalzoomcom Inc,LZ,Stocks,NASDAQ,ConsumerGoods
+Polestar Automotive Holding UK PLC,PSNY,Stocks,NASDAQ,ConsumerGoods
+Monro Inc,MNRO,Stocks,NASDAQ,ConsumerGoods
+Hibbett Inc,HIBB,Stocks,NASDAQ,ConsumerGoods
+Photronics Inc,PLAB,Stocks,NASDAQ,Technology
+Rxsight Inc,RXST,Stocks,NASDAQ,ConsumerGoods
+Formfactor Inc,FORM,Stocks,NASDAQ,Technology
+CSG Systems International Inc,CSGS,Stocks,NASDAQ,Technology
+Vertex Energy Inc,VTNRQ,Stocks,NASDAQ,Utilities
+BRC Group Holdings Inc,RILY,Stocks,NASDAQ,Financial
+Embecta Corp,EMBC,Stocks,NASDAQ,ConsumerGoods
+Cross Country Healthcare Inc,CCRN,Stocks,NASDAQ,ConsumerGoods
+Osi Systems Inc,OSIS,Stocks,NASDAQ,IndustrialGoods
+MYR Group Inc,MYRG,Stocks,NASDAQ,IndustrialGoods
+Seacoast Banking Corporation of Florida,SBCF,Stocks,NASDAQ,Financial
+Nuvalent Inc,NUVL,Stocks,NASDAQ,ConsumerGoods
+Ebix Inc,EBIXQ,Stocks,NASDAQ,Technology
+Sun Country Airlines Holdings Inc,SNCY,Stocks,NASDAQ,ConsumerGoods
+Vericel Corporation,VCEL,Stocks,NASDAQ,ConsumerGoods
+Veeco Instruments Inc,VECO,Stocks,NASDAQ,Technology
+Mister Car Wash Inc,MCW,Stocks,NASDAQ,ConsumerGoods
+Xenon Pharmaceuticals Inc,XENE,Stocks,NASDAQ,ConsumerGoods
+IDEAYA Biosciences Inc,IDYA,Stocks,NASDAQ,ConsumerGoods
+Millerknoll Inc,MLKN,Stocks,NASDAQ,ConsumerGoods
+Laureate Education Inc,LAUR,Stocks,NASDAQ,ConsumerGoods
+Tango Therapeutics Inc,TNGX,Stocks,NASDAQ,ConsumerGoods
+Cutera Inc,CUTRQ,Stocks,NASDAQ,ConsumerGoods
+The Beauty Health Company,SKIN,Stocks,NASDAQ,ConsumerGoods
+Immunocore Holdings plc,IMCR,Stocks,NASDAQ,ConsumerGoods
+Replimune Group Inc,REPL,Stocks,NASDAQ,ConsumerGoods
+Structure Therapeutics Inc,GPCR,Stocks,NASDAQ,ConsumerGoods
+Energy Recovery Inc,ERII,Stocks,NASDAQ,IndustrialGoods
+Blackbaud Inc,BLKB,Stocks,NASDAQ,Technology
+Rocket Pharmaceuticals Inc,RCKT,Stocks,NASDAQ,ConsumerGoods
+Xometry Inc,XMTR,Stocks,NASDAQ,IndustrialGoods
+Disc Medicine Inc,IRON,Stocks,NASDAQ,ConsumerGoods
+WaFd Inc,WAFD,Stocks,NASDAQ,Financial
+Day One Biopharmaceuticals Inc,DAWN,Stocks,NASDAQ,ConsumerGoods
+Gibraltar Industries Inc,ROCK,Stocks,NASDAQ,IndustrialGoods
+Hillman Solutions Corp,HLMN,Stocks,NASDAQ,IndustrialGoods
+Cohu Inc,COHU,Stocks,NASDAQ,Technology
+ICF International Inc,ICFI,Stocks,NASDAQ,ConsumerGoods
+Fulcrum Therapeutics Inc,FULC,Stocks,NASDAQ,ConsumerGoods
+Huron Consulting Group Inc,HURN,Stocks,NASDAQ,ConsumerGoods
+UroGen Pharma Ltd,URGN,Stocks,NASDAQ,ConsumerGoods
+Vera Therapeutics Inc,VERA,Stocks,NASDAQ,ConsumerGoods
+Castle Biosciences Inc,CSTL,Stocks,NASDAQ,ConsumerGoods
+Leonardo Drs Inc,DRS,Stocks,NASDAQ,IndustrialGoods
+Victory Capital Holdings Inc,VCTR,Stocks,NASDAQ,Financial
+Pricesmart Inc,PSMT,Stocks,NASDAQ,ConsumerGoods
+Avadel Pharmaceuticals plc,AVDL,Stocks,NASDAQ,ConsumerGoods
+MGP Ingredients Inc,MGPI,Stocks,NASDAQ,ConsumerGoods
+Paycor Hcm Inc,PYCR,Stocks,NASDAQ,Technology
+Xpel Inc,XPEL,Stocks,NASDAQ,ConsumerGoods
+Strategic Education Inc,STRA,Stocks,NASDAQ,ConsumerGoods
+Digi Intl Inc,DGII,Stocks,NASDAQ,Technology
+Agios Pharmaceuticals Inc,AGIO,Stocks,NASDAQ,ConsumerGoods
+Bel Fuse Inc,BELFB,Stocks,NASDAQ,IndustrialGoods
+Kura Sushi USA Inc,KRUS,Stocks,NASDAQ,ConsumerGoods
+Rumble Inc,RUM,Stocks,NASDAQ,Services
+J&J Snack Foods Corp,JJSF,Stocks,NASDAQ,ConsumerGoods
+Garrett Motion Inc,GTX.US,Stocks,NASDAQ,ConsumerGoods
+Agilysys Inc,AGYS,Stocks,NASDAQ,Technology
+Harrow Inc,HROW,Stocks,NASDAQ,ConsumerGoods
+Plexus Corp,PLXS,Stocks,NASDAQ,IndustrialGoods
+Arhaus Inc,ARHS,Stocks,NASDAQ,ConsumerGoods
+Century Aluminum Company,CENX,Stocks,NASDAQ,BasicMaterials
+VIPER ENERGY INC-CL A,VNOM,Stocks,NASDAQ,Utilities
+Atour Lifestyle Holdings Limited,ATAT,Stocks,NASDAQ,ConsumerGoods
+Addus HomeCare Corporation,ADUS,Stocks,NASDAQ,ConsumerGoods
+Rush Enterprises Inc,RUSHA,Stocks,NASDAQ,ConsumerGoods
+Arcutis Biotherapeutics Inc,ARQT,Stocks,NASDAQ,ConsumerGoods
+International Bancshares Corporation,IBOC,Stocks,NASDAQ,Financial
+Myriad Genetics Inc,MYGN,Stocks,NASDAQ,ConsumerGoods
+H&E Equipment Services Inc,HEES,Stocks,NASDAQ,ConsumerGoods
+Nv5 Global Inc,NVEE,Stocks,NASDAQ,IndustrialGoods
+Healthcare Services Group Inc,HCSG,Stocks,NASDAQ,ConsumerGoods
+Innoviz Technologies Ltd,INVZ,Stocks,NASDAQ,ConsumerGoods
+EchoStar Corporation,SATS,Stocks,NASDAQ,Services
+Evolv Technologies Holdings Inc,EVLV,Stocks,NASDAQ,IndustrialGoods
+Microvast Holdings Inc,MVST,Stocks,NASDAQ,ConsumerGoods
+Baldwin Insurance Group Inc,BWIN,Stocks,NASDAQ,Financial
+Kymera Therapeutics Inc,KYMR,Stocks,NASDAQ,ConsumerGoods
+Enstar Group Limited,ESGR.US,Stocks,NASDAQ,Financial
+Banner Corporation,BANR,Stocks,NASDAQ,Financial
+BJ's Restaurants Inc,BJRI,Stocks,NASDAQ,ConsumerGoods
+Patrick Industries Inc,PATK,Stocks,NASDAQ,ConsumerGoods
+SI-BONE Inc,SIBN,Stocks,NASDAQ,ConsumerGoods
+Mge Energy Inc,MGEE,Stocks,NASDAQ,Utilities
+Avidity Biosciences Inc,RNA,Stocks,NASDAQ,ConsumerGoods
+Oaktree Specialty Lending Corporation,OCSL,Stocks,NASDAQ,Financial
+Acumen Pharmaceuticals Inc,ABOS,Stocks,NASDAQ,ConsumerGoods
+Clearfield Inc,CLFD,Stocks,NASDAQ,Services
+Crinetics Pharmaceuticals Inc,CRNX,Stocks,NASDAQ,ConsumerGoods
+ANI Pharmaceuticals Inc,ANIP,Stocks,NASDAQ,ConsumerGoods
+TTM Technologies Inc,TTMI,Stocks,NASDAQ,IndustrialGoods
+Mcgrath Rentcorp,MGRC,Stocks,NASDAQ,Financial
+Kiniksa Pharmaceuticals Ltd,KNSA,Stocks,NASDAQ,ConsumerGoods
+Treace Medical Concepts Inc,TMCI,Stocks,NASDAQ,ConsumerGoods
+WSFS Financial Corporation,WSFS,Stocks,NASDAQ,Financial
+Outset Medical Inc,OM.US,Stocks,NASDAQ,Technology
+Construction Partners Inc,ROAD,Stocks,NASDAQ,IndustrialGoods
+Powell Industries Inc,POWL,Stocks,NASDAQ,IndustrialGoods
+Inhibrx Inc,INBXV,Stocks,NASDAQ,ConsumerGoods
+Golub Capital BDC Inc,GBDC,Stocks,NASDAQ,Financial
+American Woodmark Corporation,AMWD,Stocks,NASDAQ,IndustrialGoods
+Zumiez Inc,ZUMZ,Stocks,NASDAQ,ConsumerGoods
+Kura Oncology Inc,KURA,Stocks,NASDAQ,ConsumerGoods
+Cogent Biosciences Inc,COGT,Stocks,NASDAQ,ConsumerGoods
+Keros Therapeutics Inc,KROS,Stocks,NASDAQ,ConsumerGoods
+ADTRAN Holdings Inc,ADTN,Stocks,NASDAQ,Services
+Quanterix Corporation,QTRX,Stocks,NASDAQ,ConsumerGoods
+Establishment Labs Holdings Inc,ESTA,Stocks,NASDAQ,ConsumerGoods
+Innodata Inc,INOD,Stocks,NASDAQ,Technology
+Reynolds Consumer Products Inc,REYN,Stocks,NASDAQ,ConsumerGoods
+Hope Bancorp Inc,HOPE,Stocks,NASDAQ,Financial
+Innospec Inc,IOSP,Stocks,NASDAQ,BasicMaterials
+Adaptive Biotechnologies Corporation,ADPT,Stocks,NASDAQ,ConsumerGoods
+CorVel Corporation,CRVL,Stocks,NASDAQ,ConsumerGoods
+Scholastic Corporation,SCHL,Stocks,NASDAQ,Services
+Tarsus Pharmaceuticals Inc,TARS,Stocks,NASDAQ,ConsumerGoods
+Dorman Products Inc,DORM,Stocks,NASDAQ,ConsumerGoods
+TechTarget Inc,TTGT.Acquired,Stocks,NASDAQ,Services
+AerSale Corporation,ASLE,Stocks,NASDAQ,IndustrialGoods
+John B Sanfilippo & Son Inc,JBSS,Stocks,NASDAQ,ConsumerGoods
+Malibu Boats Inc,MBUU,Stocks,NASDAQ,ConsumerGoods
+OneSpaWorld Holdings Limited,OSW,Stocks,NASDAQ,ConsumerGoods
+Skyward Specialty Insurance Group Inc,SKWD,Stocks,NASDAQ,Financial
+LifeStance Health Group Inc,LFST,Stocks,NASDAQ,ConsumerGoods
+Liberty Latin America Ltd,LILAK,Stocks,NASDAQ,Services
+BancFirst Corporation,BANF,Stocks,NASDAQ,Financial
+Xencor Inc,XNCR,Stocks,NASDAQ,ConsumerGoods
+Encore Capital Group Inc,ECPG,Stocks,NASDAQ,Financial
+Accolade Inc,ACCD,Stocks,NASDAQ,ConsumerGoods
+Enterprise Financial Services Corp,EFSC,Stocks,NASDAQ,Financial
+The Shyft Group Inc,SHYF,Stocks,NASDAQ,ConsumerGoods
+Terns Pharmaceuticals Inc,TERN,Stocks,NASDAQ,ConsumerGoods
+StepStone Group LP,STEP,Stocks,NASDAQ,Financial
+Docgo Inc,DCGO,Stocks,NASDAQ,ConsumerGoods
+Collegium Pharmaceutical Inc,COLL,Stocks,NASDAQ,ConsumerGoods
+Modivcare Inc,MODVQ,Stocks,NASDAQ,ConsumerGoods
+Tactile Systems Technology Inc,TCMD,Stocks,NASDAQ,ConsumerGoods
+Nbt Bancorp Inc,NBTB,Stocks,NASDAQ,Financial
+Enact Holdings Inc,ACT,Stocks,NASDAQ,Financial
+Rover Group Inc,ROVR,Stocks,NASDAQ,Services
+ProFrac Holding Corp,ACDC,Stocks,NASDAQ,Utilities
+Eagle Bancrp Inc,EGBN,Stocks,NASDAQ,Financial
+Innoviva Inc,INVA,Stocks,NASDAQ,ConsumerGoods
+Limbach Holdings Inc,LMB,Stocks,NASDAQ,IndustrialGoods
+Grifols SA,GRFS,Stocks,NASDAQ,ConsumerGoods
+Cimpress Plc,CMPR,Stocks,NASDAQ,ConsumerGoods
+4D Molecular Therapeutics Inc,FDMT,Stocks,NASDAQ,ConsumerGoods
+Vertex Inc,VERX,Stocks,NASDAQ,Technology
+Blue Bird Corporation,BLBD,Stocks,NASDAQ,ConsumerGoods
+Pra Group Inc,PRAA,Stocks,NASDAQ,Financial
+Americas Car-Mart Inc,CRMT,Stocks,NASDAQ,ConsumerGoods
+Shoe Carnival Inc,SCVL,Stocks,NASDAQ,ConsumerGoods
+Apogee Enterprises Inc,APOG,Stocks,NASDAQ,IndustrialGoods
+Verona Pharma plc,VRNA,Stocks,NASDAQ,ConsumerGoods
+ePlus Inc,PLUS,Stocks,NASDAQ,Services
+Marten Transport Ltd,MRTN,Stocks,NASDAQ,IndustrialGoods
+Cabaletta Bio Inc,CABA,Stocks,NASDAQ,ConsumerGoods
+Definitive Healthcare Corp,DH,Stocks,NASDAQ,Technology
+LeMaitre Vascular Inc,LMAT,Stocks,NASDAQ,ConsumerGoods
+Ligand Pharmaceuticals Incorporated,LGND,Stocks,NASDAQ,ConsumerGoods
+Sandy Spring Bancorp Inc,SASR,Stocks,NASDAQ,Financial
+Palomar Holdings Inc,PLMR,Stocks,NASDAQ,Financial
+First Merchants Corporation,FRME,Stocks,NASDAQ,Financial
+Capital Southwest Corporation,CSWC,Stocks,NASDAQ,Financial
+Trustmark Corporation,TRMK,Stocks,NASDAQ,Financial
+REGENXBIO Inc,RGNX,Stocks,NASDAQ,ConsumerGoods
+Northwest Bancshares Inc,NWBI,Stocks,NASDAQ,Financial
+First Financial Bancorp,FFBC,Stocks,NASDAQ,Financial
+Ingles Markets Incorporated,IMKTA,Stocks,NASDAQ,ConsumerGoods
+UP Fintech Holding Limited,TIGR,Stocks,NASDAQ,Financial
+Winmark Corporation,WINA,Stocks,NASDAQ,ConsumerGoods
+PDF Solutions Inc,PDFS,Stocks,NASDAQ,Technology
+Funko Inc,FNKO,Stocks,NASDAQ,ConsumerGoods
+HighPeak Energy Inc,HPK,Stocks,NASDAQ,Utilities
+Kaiser Aluminum Corporation,KALU,Stocks,NASDAQ,BasicMaterials
+EyePoint Inc,EYPT,Stocks,NASDAQ,ConsumerGoods
+Schnitzer Steel Industries Inc,RDUS,Stocks,NASDAQ,BasicMaterials
+Merus Nv,MRUS,Stocks,NASDAQ,ConsumerGoods
+iTeos Therapeutics Inc,ITOS,Stocks,NASDAQ,ConsumerGoods
+MasterCraft Boat Holdings Inc,MCFT,Stocks,NASDAQ,ConsumerGoods
+NaaS Technology Inc,NAAS,Stocks,NASDAQ,ConsumerGoods
+Ttec Holdings In,TTEC,Stocks,NASDAQ,Technology
+RAPT Therapeutics Inc,RAPT,Stocks,NASDAQ,ConsumerGoods
+Deciphera Pharmaceuticals Inc,DCPH,Stocks,NASDAQ,ConsumerGoods
+Aclaris Therapeutics Inc,ACRS,Stocks,NASDAQ,ConsumerGoods
+First Watch Restaurant Group Inc,FWRG,Stocks,NASDAQ,ConsumerGoods
+European Wax Center Inc,EWCZ,Stocks,NASDAQ,ConsumerGoods
+International Money Express Inc,IMXI,Stocks,NASDAQ,Financial
+Anterix Inc,ATEX,Stocks,NASDAQ,Services
+El Pollo Loco Holdings Inc,LOCO,Stocks,NASDAQ,ConsumerGoods
+Adeia Inc,ADEA,Stocks,NASDAQ,Technology
+Westamerica Bancorporation,WABC,Stocks,NASDAQ,Financial
+Bicycle Therapeutics plc,BCYC,Stocks,NASDAQ,ConsumerGoods
+Sana Biotechnology Inc,SANA,Stocks,NASDAQ,ConsumerGoods
+Mimedx Group Inc,MDXG,Stocks,NASDAQ,ConsumerGoods
+City Holding Company,CHCO,Stocks,NASDAQ,Financial
+Patria Investments Limited,PAX,Stocks,NASDAQ,Financial
+Amplitude Inc,AMPL,Stocks,NASDAQ,Technology
+Mercer International Inc,MERC,Stocks,NASDAQ,BasicMaterials
+Avepoint Inc,AVPT,Stocks,NASDAQ,Technology
+Paramount Global,PARAA,Stocks,NASDAQ,Services
+iQIYI Inc,IQ.US,Stocks,NASDAQ,Services
+TFS Financial Corporation,TFSL,Stocks,NASDAQ,Financial
+Olink Holding AB publ,OLK,Stocks,NASDAQ,ConsumerGoods
+HUTCHMED China Limited,HCM,Stocks,NASDAQ,ConsumerGoods
+Rush Enterprises Inc,RUSHB.US,Stocks,NASDAQ,ConsumerGoods
+Alvotech,ALVO,Stocks,NASDAQ,ConsumerGoods
+EverCommerce Inc,EVCM,Stocks,NASDAQ,Technology
+Columbia Financial Inc,CLBK,Stocks,NASDAQ,Financial
+Afya Limited,AFYA,Stocks,NASDAQ,ConsumerGoods
+Pactiv Evergreen Inc,PTVE,Stocks,NASDAQ,IndustrialGoods
+Grosvenor Capital Management LP,GCMG,Stocks,NASDAQ,Financial
+Montauk Renewables Inc,MNTK,Stocks,NASDAQ,Utilities
+Distribution Solutions Group Inc,DSGR,Stocks,NASDAQ,ConsumerGoods
+PC Connection Inc,CNXN,Stocks,NASDAQ,ConsumerGoods
+ECARX Holdings Inc,ECX,Stocks,NASDAQ,ConsumerGoods
+Cellebrite DI Ltd,CLBT,Stocks,NASDAQ,Technology
+Hollysys Automation Technologies Ltd,HOLI,Stocks,NASDAQ,IndustrialGoods
+Hesai Group,HSAI,Stocks,NASDAQ,IndustrialGoods
+Shenandoah Telecommunications Company,SHEN,Stocks,NASDAQ,Services
+IES Holdings Inc,IESC,Stocks,NASDAQ,IndustrialGoods
+Merchants Bancorp,MBIN,Stocks,NASDAQ,Financial
+Waldencast plc,WALD,Stocks,NASDAQ,ConsumerGoods
+United States Lime & Minerals Inc,USLM,Stocks,NASDAQ,BasicMaterials
+Safety Insurance Group Inc,SAFT,Stocks,NASDAQ,Financial
+1st Source Corporation,SRCE,Stocks,NASDAQ,Financial
+TriCo Bancshares,TCBK,Stocks,NASDAQ,Financial
+First Busey Corporation,BUSE,Stocks,NASDAQ,Financial
+Belite Bio Inc,BLTE,Stocks,NASDAQ,ConsumerGoods
+Dada Nexus Limited,DADA,Stocks,NASDAQ,Services
+MorphoSys AG,MOR.US,Stocks,NASDAQ,ConsumerGoods
+National Research Corporation,NRC,Stocks,NASDAQ,ConsumerGoods
+S&T Bancorp Inc,STBA,Stocks,NASDAQ,Financial
+Lionsgate Studios,LION.US,Stocks,NASDAQ,Services
+SP Plus Corporation,SP,Stocks,NASDAQ,ConsumerGoods
+Peoples Bancorp Inc,PEBO,Stocks,NASDAQ,Financial
+TriMas Corporation,TRS,Stocks,NASDAQ,IndustrialGoods
+Arko Corp,ARKO,Stocks,NASDAQ,ConsumerGoods
+Columbus McKinnon Corporation,CMCO,Stocks,NASDAQ,IndustrialGoods
+Republic Bancorp Inc,RBCAA,Stocks,NASDAQ,Financial
+Bank First Corporation,BFC,Stocks,NASDAQ,Financial
+Transcat Inc,TRNS,Stocks,NASDAQ,ConsumerGoods
+LanzaTech Global Inc,LNZA,Stocks,NASDAQ,IndustrialGoods
+QCR Holdings Inc,QCRH,Stocks,NASDAQ,Financial
+German American Bancorp Inc,GABC,Stocks,NASDAQ,Financial
+Ardelyx Inc,ARDX,Stocks,NASDAQ,ConsumerGoods
+SLR Investment Corp,SLRC,Stocks,NASDAQ,Financial
+HealthStream Inc,HSTM,Stocks,NASDAQ,Services
+ScanSource Inc,SCSC,Stocks,NASDAQ,ConsumerGoods
+Westrock Coffee Company,WEST,Stocks,NASDAQ,ConsumerGoods
+Lakeland Bancorp Inc,LBAI,Stocks,NASDAQ,Financial
+Pharvaris NV,PHVS,Stocks,NASDAQ,ConsumerGoods
+Scholar Rock Holding Corporation,SRRK,Stocks,NASDAQ,ConsumerGoods
+Omega Flex Inc,OFLX,Stocks,NASDAQ,IndustrialGoods
+Dime Community Bancshares Inc,DCOM,Stocks,NASDAQ,Financial
+AST SpaceMobile Inc,ASTS,Stocks,NASDAQ,Services
+The RMR Group Inc,RMR,Stocks,NASDAQ,Financial
+Bioceres Crop Solutions Corp,BIOX,Stocks,NASDAQ,ConsumerGoods
+Carlyle Secured Lending Inc,CGBD,Stocks,NASDAQ,Financial
+CRA International Inc,CRAI,Stocks,NASDAQ,ConsumerGoods
+Community Trust Bancorp Inc,CTBI,Stocks,NASDAQ,Financial
+Centessa Pharmaceuticals plc,CNTA,Stocks,NASDAQ,ConsumerGoods
+Exscientia plc,EXAI,Stocks,NASDAQ,ConsumerGoods
+Mission Produce Inc,AVO,Stocks,NASDAQ,ConsumerGoods
+Preformed Line Products Company,PLPC,Stocks,NASDAQ,Services
+ConnectOne Bancorp Inc,CNOB,Stocks,NASDAQ,Financial
+First Mid Bancshares Inc,FMBH,Stocks,NASDAQ,Financial
+Kelly Services Inc,KELYA.US,Stocks,NASDAQ,ConsumerGoods
+Ramaco Resources Inc,METC,Stocks,NASDAQ,Utilities
+Kimball Electronics Inc,KE,Stocks,NASDAQ,IndustrialGoods
+Radware Ltd,RDWR,Stocks,NASDAQ,Technology
+Premier Financial Corp,PFC,Stocks,NASDAQ,Financial
+i3 Verticals Inc,IIIV,Stocks,NASDAQ,ConsumerGoods
+Old Second Bancorp Inc,OSBC,Stocks,NASDAQ,Financial
+The Hackett Group Inc,HCKT,Stocks,NASDAQ,ConsumerGoods
+BlackRock TCP Capital Corp,TCPC,Stocks,NASDAQ,Financial
+First Community Bankshares Inc,FCBC,Stocks,NASDAQ,Financial
+Barrett Business Services Inc,BBSI,Stocks,NASDAQ,ConsumerGoods
+Universal Logistics Holdings Inc,ULH,Stocks,NASDAQ,IndustrialGoods
+Liquidity Services Inc,LQDT,Stocks,NASDAQ,Services
+Great Southern Bancorp Inc,GSBC,Stocks,NASDAQ,Financial
+Crescent Capital BDC Inc,CCAP,Stocks,NASDAQ,Financial
+Heritage Financial Corporation,HFWA,Stocks,NASDAQ,Financial
+Atrion Corporation,ATRI,Stocks,NASDAQ,ConsumerGoods
+CECO Environmental Corp,CECO,Stocks,NASDAQ,IndustrialGoods
+Tiptree Inc,TIPT,Stocks,NASDAQ,Financial
+QuinStreet Inc,QNST,Stocks,NASDAQ,Services
+OrthoPediatrics Corp,KIDS,Stocks,NASDAQ,ConsumerGoods
+Wave Life Sciences Ltd,WVE,Stocks,NASDAQ,ConsumerGoods
+Haynes International Inc,HAYN,Stocks,NASDAQ,BasicMaterials
+Coastal Financial Corporation,CCB,Stocks,NASDAQ,Financial
+HilleVax Inc,HLVX,Stocks,NASDAQ,ConsumerGoods
+Digimarc Corporation,DMRC,Stocks,NASDAQ,Technology
+Olema Pharmaceuticals Inc,OLMA,Stocks,NASDAQ,ConsumerGoods
+James River Group Holdings Inc,JRVR,Stocks,NASDAQ,Financial
+Mercantile Bank Corporation,MBWM,Stocks,NASDAQ,Financial
+NewAmsterdam Pharma Company NV,NAMS,Stocks,NASDAQ,ConsumerGoods
+OmniAb Inc,OABI,Stocks,NASDAQ,ConsumerGoods
+Cass Information Systems Inc,CASS,Stocks,NASDAQ,ConsumerGoods
+United Fire Group Inc,UFCS,Stocks,NASDAQ,Financial
+The York Water Company,YORW.US,Stocks,NASDAQ,Utilities
+Interface Inc,TILE,Stocks,NASDAQ,ConsumerGoods
+NerdWallet Inc,NRDS,Stocks,NASDAQ,Financial
+Shengfeng Development Limited,SFWL,Stocks,NASDAQ,IndustrialGoods
+Forrester Research Inc,FORR,Stocks,NASDAQ,ConsumerGoods
+Heritage Commerce Corp,HTBK,Stocks,NASDAQ,Financial
+CrossFirst Bankshares Inc,CFB,Stocks,NASDAQ,Financial
+Univest Financial Corporation,UVSP,Stocks,NASDAQ,Financial
+Great Lakes Dredge & Dock Corporation,GLDD,Stocks,NASDAQ,IndustrialGoods
+IRadimed Corporation,IRMD,Stocks,NASDAQ,ConsumerGoods
+Ituran Location and Control Ltd,ITRN,Stocks,NASDAQ,IndustrialGoods
+Heidrick & Struggles International Inc,HSII,Stocks,NASDAQ,ConsumerGoods
+RCI Hospitality Holdings Inc,RICK,Stocks,NASDAQ,ConsumerGoods
+Enliven Therapeutics Inc,ELVN,Stocks,NASDAQ,ConsumerGoods
+Amalgamated Financial Corp,AMAL,Stocks,NASDAQ,Financial
+Gladstone Land Corporation,LAND,Stocks,NASDAQ,Financial
+Runway Growth Finance Corp,RWAY,Stocks,NASDAQ,Financial
+Astronics Corporation,ATRO,Stocks,NASDAQ,IndustrialGoods
+TrustCo Bank Corp NY,TRST,Stocks,NASDAQ,Financial
+NextNav Inc,NN,Stocks,NASDAQ,Technology
+Consolidated Communications Holdings Inc,CNSL,Stocks,NASDAQ,Services
+Capital City Bank Group Inc,CCBG,Stocks,NASDAQ,Financial
+International General Insurance Holdings Ltd,IGIC,Stocks,NASDAQ,Financial
+Hallador Energy Company,HNRG,Stocks,NASDAQ,Utilities
+Gamblingcom Group Limited,GAMB,Stocks,NASDAQ,Services
+ATN International Inc,ATNI,Stocks,NASDAQ,Services
+HarborOne Bancorp Inc,HONE,Stocks,NASDAQ,Financial
+Savara Inc,SVRA,Stocks,NASDAQ,ConsumerGoods
+Tyra Biosciences Inc,TYRA,Stocks,NASDAQ,ConsumerGoods
+Business First Bancshares Inc,BFST,Stocks,NASDAQ,Financial
+Cantaloupe Inc,CTLP,Stocks,NASDAQ,Technology
+Entrada Therapeutics Inc,TRDA,Stocks,NASDAQ,ConsumerGoods
+VNET Group Inc,VNET,Stocks,NASDAQ,Services
+CompoSecure Inc,CMPO,Stocks,NASDAQ,ConsumerGoods
+The EW Scripps Company,SSP.US,Stocks,NASDAQ,Services
+Southern Missouri Bancorp Inc,SMBC,Stocks,NASDAQ,Financial
+Resources Connection Inc,RGP,Stocks,NASDAQ,ConsumerGoods
+Fidus Investment Corporation,FDUS,Stocks,NASDAQ,Financial
+Kearny Financial Corp,KRNY,Stocks,NASDAQ,Financial
+Cresud Sociedad Anónima Comercial Inmobiliaria Financiera y Agropecuaria CRESY,CRESY,Stocks,NASDAQ,Financial
+Midland States Bancorp Inc,MSBI,Stocks,NASDAQ,Financial
+Diamond Hill Investment Group Inc,DHIL.US,Stocks,NASDAQ,Financial
+Greenlight Capital Re Ltd,GLRE,Stocks,NASDAQ,Financial
+Gladstone Investment Corporation,GAIN,Stocks,NASDAQ,Financial
+Legacy Housing Corporation,LEGH,Stocks,NASDAQ,Financial
+Cambridge Bancorp,CATC,Stocks,NASDAQ,Financial
+Allient Inc,ALNT,Stocks,NASDAQ,IndustrialGoods
+Genelux Corporation,GNLX,Stocks,NASDAQ,ConsumerGoods
+Alector Inc,ALEC,Stocks,NASDAQ,ConsumerGoods
+Phibro Animal Health Corporation,PAHC,Stocks,NASDAQ,ConsumerGoods
+South Plains Financial Inc,SPFI,Stocks,NASDAQ,Financial
+AN2 Therapeutics Inc,ANTX,Stocks,NASDAQ,ConsumerGoods
+Hanmi Financial Corporation,HAFC,Stocks,NASDAQ,Financial
+Daktronics Inc,DAKT,Stocks,NASDAQ,ConsumerGoods
+ProKidney Corp,PROK,Stocks,NASDAQ,ConsumerGoods
+LSI Industries Inc,LYTS,Stocks,NASDAQ,IndustrialGoods
+Slam Corp,SLAMF,Stocks,NASDAQ,Services
+Horizon Bancorp Inc,HBNC,Stocks,NASDAQ,Financial
+Alpine Immune Sciences Inc,ALPN,Stocks,NASDAQ,ConsumerGoods
+Gravity Co Ltd,GRVY,Stocks,NASDAQ,Technology
+Seneca Foods Corporation,SENEA,Stocks,NASDAQ,ConsumerGoods
+Artesian Resources Corporation,ARTNA,Stocks,NASDAQ,Utilities
+Farmers National Banc Corp,FMNB,Stocks,NASDAQ,Financial
+Camden National Corporation,CAC,Stocks,NASDAQ,Financial
+Consensus Cloud Solutions Inc,CCSI,Stocks,NASDAQ,Technology
+Daily Journal Corporation,DJCO,Stocks,NASDAQ,Technology
+Karat Packaging Inc,KRT,Stocks,NASDAQ,IndustrialGoods
+First Financial Corporation,THFF,Stocks,NASDAQ,Financial
+Surmodics Inc,SRDX,Stocks,NASDAQ,ConsumerGoods
+Peapack-Gladstone Financial Corporation,PGC,Stocks,NASDAQ,Financial
+Edgewise Therapeutics Inc,EWTX,Stocks,NASDAQ,ConsumerGoods
+Independent Bank Corporation,IBCP,Stocks,NASDAQ,Financial
+American National Bankshares Inc,AMNB,Stocks,NASDAQ,Financial
+Bowman Consulting Group Ltd,BWMN,Stocks,NASDAQ,IndustrialGoods
+Northfield Bancorp Inc,NFBK,Stocks,NASDAQ,Financial
+Washington Trust Bancorp Inc,WASH,Stocks,NASDAQ,Financial
+GH Research PLC,GHRS,Stocks,NASDAQ,ConsumerGoods
+Namib Minerals,NAMM,Stocks,NASDAQ,Services
+biote Corp,BTMD,Stocks,NASDAQ,ConsumerGoods
+nLIGHT Inc,LASR,Stocks,NASDAQ,IndustrialGoods
+Lotus Technology Inc,LOT,Stocks,NASDAQ,Services
+Northeast Bank,NBN,Stocks,NASDAQ,Financial
+Immunome Inc,IMNM,Stocks,NASDAQ,ConsumerGoods
+CNB Financial Corporation,CCNE,Stocks,NASDAQ,Financial
+Mondee Holdings Inc,MONDQ,Stocks,NASDAQ,Services
+Esquire Financial Holdings Inc,ESQ,Stocks,NASDAQ,Financial
+Logility Supply Chain Solution,LGTY,Stocks,NASDAQ,Technology
+NETGEAR Inc,NTGR,Stocks,NASDAQ,Services
+AirSculpt Technologies Inc,AIRS,Stocks,NASDAQ,ConsumerGoods
+Cullinan Oncology Inc,CGEM,Stocks,NASDAQ,ConsumerGoods
+Flushing Financial Corporation,FFIC,Stocks,NASDAQ,Financial
+Bitdeer Technologies Group,BTDR,Stocks,NASDAQ,ConsumerGoods
+Horizon Technology Finance Corporation,HRZN,Stocks,NASDAQ,Financial
+Acacia Research Corporation,ACTG,Stocks,NASDAQ,ConsumerGoods
+ORIC Pharmaceuticals Inc,ORIC,Stocks,NASDAQ,ConsumerGoods
+Arrow Financial Corporation,AROW,Stocks,NASDAQ,Financial
+Alerus Financial Corporation,ALRS,Stocks,NASDAQ,Financial
+ALX Oncology Holdings Inc,ALXO,Stocks,NASDAQ,ConsumerGoods
+Shore Bancshares Inc,SHBI,Stocks,NASDAQ,Financial
+Burke & Herbert Financial Services Corp,BHRB,Stocks,NASDAQ,Financial
+ARS Pharmaceuticals Inc,SPRY,Stocks,NASDAQ,ConsumerGoods
+Hingham Institution for Savings,HIFS,Stocks,NASDAQ,Financial
+Mineralys Therapeutics Inc,MLYS,Stocks,NASDAQ,ConsumerGoods
+Mid Penn Bancorp Inc,MPB,Stocks,NASDAQ,Financial
+OneWater Marine Inc,ONEW,Stocks,NASDAQ,ConsumerGoods
+The Pennant Group Inc,PNTG,Stocks,NASDAQ,ConsumerGoods
+Viant Technology Inc,DSP,Stocks,NASDAQ,Technology
+American Coastal Insurance Corporation,ACIC,Stocks,NASDAQ,Financial
+Lindblad Expeditions Holdings Inc,LIND,Stocks,NASDAQ,ConsumerGoods
+OneSpan Inc,OSPN,Stocks,NASDAQ,Technology
+MacroGenics Inc,MGNX,Stocks,NASDAQ,ConsumerGoods
+Materialise NV,MTLS,Stocks,NASDAQ,Technology
+Pulmonx Corporation,LUNG,Stocks,NASDAQ,ConsumerGoods
+Icosavax Inc,ICVX,Stocks,NASDAQ,ConsumerGoods
+Gracell Biotechnologies Inc,GRCL,Stocks,NASDAQ,ConsumerGoods
+Alto Ingredients Inc,ALTO,Stocks,NASDAQ,Utilities
+Spok Holdings Inc,SPOK,Stocks,NASDAQ,Services
+Aviat Networks Inc,AVNW,Stocks,NASDAQ,Services
+IBEX Limited,IBEX,Stocks,NASDAQ,Technology
+Park-Ohio Holdings Corp,PKOH,Stocks,NASDAQ,IndustrialGoods
+Aura Biosciences Inc,AURA,Stocks,NASDAQ,ConsumerGoods
+Cognyte Software Ltd,CGNT,Stocks,NASDAQ,Technology
+Janux Therapeutics Inc,JANX,Stocks,NASDAQ,ConsumerGoods
+Utah Medical Products Inc,UTMD,Stocks,NASDAQ,ConsumerGoods
+GoHealth Inc,GOCO,Stocks,NASDAQ,Financial
+Northwest Pipe Company,NWPX.US,Stocks,NASDAQ,IndustrialGoods
+Jade Biosciences Inc,JBIO,Stocks,NASDAQ,ConsumerGoods
+Bank of Marin Bancorp,BMRC,Stocks,NASDAQ,Financial
+Pangaea Logistics Solutions Ltd,PANL,Stocks,NASDAQ,IndustrialGoods
+KalVista Pharmaceuticals Inc,KALV,Stocks,NASDAQ,ConsumerGoods
+Landsea Homes Corporation,LSEA,Stocks,NASDAQ,ConsumerGoods
+Anika Therapeutics Inc,ANIK,Stocks,NASDAQ,ConsumerGoods
+OnKure Therapeutics Inc,OKUR,Stocks,NASDAQ,ConsumerGoods
+Pearl Holdings Acquisition Corp,PRLH,Stocks,NASDAQ,Services
+CVRx Inc,CVRX,Stocks,NASDAQ,ConsumerGoods
+Inspired Entertainment Inc,INSE,Stocks,NASDAQ,Technology
+Lincoln Educational Services Corporation,LINC,Stocks,NASDAQ,ConsumerGoods
+Chicago Atlantic Real Estate Finance Inc,REFI,Stocks,NASDAQ,Financial
+Nathans Famous Inc,NATH,Stocks,NASDAQ,ConsumerGoods
+Limoneira Company,LMNR.US,Stocks,NASDAQ,ConsumerGoods
+IGM Biosciences Inc,IGMS,Stocks,NASDAQ,ConsumerGoods
+Zura Bio Limited,ZURA,Stocks,NASDAQ,ConsumerGoods
+Atea Pharmaceuticals Inc,AVIR,Stocks,NASDAQ,ConsumerGoods
+Fidelity D & D Bancorp Inc,FDBC,Stocks,NASDAQ,Financial
+Carter Bankshares Inc,CARE,Stocks,NASDAQ,Financial
+Orange County Bancorp Inc,OBT,Stocks,NASDAQ,Financial
+Vanda Pharmaceuticals Inc,VNDA,Stocks,NASDAQ,ConsumerGoods
+Patria Latin American Opportunity Acquisition Corp,PLAOF,Stocks,NASDAQ,Services
+Potbelly Corporation,PBPB,Stocks,NASDAQ,ConsumerGoods
+Financial Institutions Inc,FISI,Stocks,NASDAQ,Financial
+Willdan Group Inc,WLDN,Stocks,NASDAQ,ConsumerGoods
+The First of Long Island Corporation,FLIC,Stocks,NASDAQ,Financial
+Commercial Vehicle Group Inc,CVGI,Stocks,NASDAQ,ConsumerGoods
+Y-mAbs Therapeutics Inc,YMAB,Stocks,NASDAQ,ConsumerGoods
+SkyWater Technology Inc,SKYT,Stocks,NASDAQ,Technology
+MeiraGTx Holdings plc,MGTX,Stocks,NASDAQ,ConsumerGoods
+Cibus Inc,CBUS,Stocks,NASDAQ,ConsumerGoods
+LifeMD Inc,LFMD,Stocks,NASDAQ,Services
+FS Bancorp Inc,FSBW,Stocks,NASDAQ,Financial
+Celcuity Inc,CELC,Stocks,NASDAQ,ConsumerGoods
+Sanara MedTech Inc,SMTI,Stocks,NASDAQ,ConsumerGoods
+Citizens Financial Services Inc,CZFS,Stocks,NASDAQ,Financial
+AudioCodes Ltd,AUDC.US,Stocks,NASDAQ,Services
+Timberland Bancorp Inc,TSBK,Stocks,NASDAQ,Financial
+Atlas Lithium Corporation,ATLX,Stocks,NASDAQ,BasicMaterials
+Northrim BanCorp Inc,NRIM,Stocks,NASDAQ,Financial
+AFC Gamma Inc,AFCG,Stocks,NASDAQ,Financial
+Northeast Community Bancorp Inc,NECB,Stocks,NASDAQ,Financial
+Clarus Corporation,CLAR,Stocks,NASDAQ,ConsumerGoods
+Nurix Therapeutics Inc,NRIX,Stocks,NASDAQ,ConsumerGoods
+Waterstone Financial Inc,WSBF,Stocks,NASDAQ,Financial
+Immersion Corporation,IMMR,Stocks,NASDAQ,Technology
+Lifecore Biomedical Inc,LFCR,Stocks,NASDAQ,ConsumerGoods
+VOXX International Corporation,VOXX,Stocks,NASDAQ,ConsumerGoods
+TruBridge Inc,TBRG,Stocks,NASDAQ,Technology
+scPharmaceuticals Inc,SCPH,Stocks,NASDAQ,ConsumerGoods
+Daseke Inc,DSKE,Stocks,NASDAQ,IndustrialGoods
+Asure Software Inc,ASUR,Stocks,NASDAQ,Technology
+Semler Scientific Inc,SMLR,Stocks,NASDAQ,ConsumerGoods
+Citi Trends Inc,CTRN,Stocks,NASDAQ,ConsumerGoods
+CPI Card Group Inc,PMTS,Stocks,NASDAQ,ConsumerGoods
+Arteris Inc,AIP,Stocks,NASDAQ,Technology
+CarPartscom Inc,PRTS,Stocks,NASDAQ,Services
+ZimVie Inc,ZIMV,Stocks,NASDAQ,ConsumerGoods
+Ponce Financial Group Inc,PDLB,Stocks,NASDAQ,Financial
+StealthGas Inc,GASS,Stocks,NASDAQ,IndustrialGoods
+Tucows Inc,TCX,Stocks,NASDAQ,Services
+Oportun Financial Corporation,OPRT,Stocks,NASDAQ,Financial
+Heramba Electric Plc,PITEF,Stocks,NASDAQ,Services
+Backblaze Inc,BLZE,Stocks,NASDAQ,Services
+Hooker Furnishings Corporation,HOFT,Stocks,NASDAQ,ConsumerGoods
+Eagle Pharmaceuticals Inc,EGRX,Stocks,NASDAQ,ConsumerGoods
+Investcorp India Acquisition Corp,IVCAF,Stocks,NASDAQ,Services
+Merrimack Pharmaceuticals Inc,MACK,Stocks,NASDAQ,ConsumerGoods
+Astria Therapeutics Inc,ATXS,Stocks,NASDAQ,ConsumerGoods
+KLX Energy Services Holdings Inc,KLXE,Stocks,NASDAQ,Utilities
+908 Devices Inc,MASS,Stocks,NASDAQ,IndustrialGoods
+CorMedix Inc,CRMD,Stocks,NASDAQ,ConsumerGoods
+Atomera Incorporated,ATOM.US,Stocks,NASDAQ,Technology
+JAKKS Pacific Inc,JAKK,Stocks,NASDAQ,ConsumerGoods
+Big 5 Sporting Goods Corporation,BGFV,Stocks,NASDAQ,ConsumerGoods
+Virginia National Bankshares Corporation,VABK,Stocks,NASDAQ,Financial
+RGC Resources Inc,RGCO,Stocks,NASDAQ,Utilities
+Richardson Electronics Ltd,RELL,Stocks,NASDAQ,Technology
+Immuneering Corporation,IMRX,Stocks,NASDAQ,ConsumerGoods
+IperionX Limited,IPX,Stocks,NASDAQ,BasicMaterials
+RCM Technologies Inc,RCMT,Stocks,NASDAQ,ConsumerGoods
+Stoke Therapeutics Inc,STOK,Stocks,NASDAQ,ConsumerGoods
+Nuvectis Pharma Inc,NVCT,Stocks,NASDAQ,ConsumerGoods
+Zevra Therapeutics Inc,ZVRA,Stocks,NASDAQ,ConsumerGoods
+Star Holdings,STHO,Stocks,NASDAQ,Financial
+Identiv Inc,INVE,Stocks,NASDAQ,IndustrialGoods
+Kernel Group Holdings Inc,KRNL,Stocks,NASDAQ,Services
+Verrica Pharmaceuticals Inc,VRCA,Stocks,NASDAQ,ConsumerGoods
+Repare Therapeutics Inc,RPTX,Stocks,NASDAQ,ConsumerGoods
+TELA Bio Inc,TELA,Stocks,NASDAQ,ConsumerGoods
+Mamas Creations Inc,MAMA,Stocks,NASDAQ,ConsumerGoods
+First Internet Bancorp,INBK,Stocks,NASDAQ,Financial
+National Bankshares Inc,NKSH,Stocks,NASDAQ,Financial
+Motorcar Parts of America Inc,MPAA,Stocks,NASDAQ,ConsumerGoods
+OptimizeRx Corporation,OPRX,Stocks,NASDAQ,Services
+ClearPoint Neuro Inc,CLPT,Stocks,NASDAQ,ConsumerGoods
+Cambium Networks Corporation,CMBM,Stocks,NASDAQ,Services
+Longboard Pharmaceuticals Inc,LBPH,Stocks,NASDAQ,ConsumerGoods
+Full House Resorts Inc,FLL,Stocks,NASDAQ,ConsumerGoods
+PDS Biotechnology Corporation,PDSB,Stocks,NASDAQ,ConsumerGoods
+Ultralife Corporation,ULBI,Stocks,NASDAQ,IndustrialGoods
+The Joint Corp,JYNT,Stocks,NASDAQ,ConsumerGoods
+Upland Software Inc,UPLD,Stocks,NASDAQ,Technology
+RideNow Group Inc,RDNW,Stocks,NASDAQ,Services
+Whitehawk Therapeutics Inc,WHWK,Stocks,NASDAQ,ConsumerGoods
+Silicom Ltd,SILC,Stocks,NASDAQ,Services
+Rain Enhancement Technologies Holdco Inc,RAIN,Stocks,NASDAQ,Services
+Travelzoo,TZOO,Stocks,NASDAQ,Services
+Churchill Capital Corp VII,CVII,Stocks,NASDAQ,Services
+Helport AI Limited,HPAI,Stocks,NASDAQ,Services
+Currenc Group Inc,CURR,Stocks,NASDAQ,Services
+Generation Asia I Acquisition Limited,GAQ,Stocks,NASDAQ,Services
+Rigetti Computing Inc,RGTI,Stocks,NASDAQ,Technology
+Assertio Holdings Inc,ASRT,Stocks,NASDAQ,ConsumerGoods
+Mmtec Inc,MTC,Stocks,NASDAQ,Financial
+Golden Heaven Group Holdings,GDHG,Stocks,NASDAQ,ConsumerGoods
+Eos Energy Enterprises Inc,EOSE,Stocks,NASDAQ,Utilities
+Lilium Nv,LILMF,Stocks,NASDAQ,ConsumerGoods
+Solid Power Inc,SLDP,Stocks,NASDAQ,ConsumerGoods
+Esperion Therapeutics Inc,ESPR,Stocks,NASDAQ,ConsumerGoods
+Heron Therapeutics Inc,HRTX,Stocks,NASDAQ,ConsumerGoods
+Terawulf Inc,WULF,Stocks,NASDAQ,ConsumerGoods
+Gritstone Bio Inc,GRTSQ,Stocks,NASDAQ,ConsumerGoods
+Rackspace Technology Inc,RXT,Stocks,NASDAQ,Technology
+Taysha Gene Therapies Inc,TSHA,Stocks,NASDAQ,ConsumerGoods
+Biovie Inc,BIVI,Stocks,NASDAQ,ConsumerGoods
+Erasca Inc,ERAS,Stocks,NASDAQ,ConsumerGoods
+Microalgo Inc,MLGO,Stocks,NASDAQ,Technology
+Mersana Therapeutics Inc,MRSN,Stocks,NASDAQ,ConsumerGoods
+Xeris Biopharma Holdings Inc,XERS,Stocks,NASDAQ,ConsumerGoods
+Mereo Biopha-Adr,MREO,Stocks,NASDAQ,ConsumerGoods
+Soundhound Ai Inc-A,SOUN,Stocks,NASDAQ,Technology
+Pmv Pharmaceuticals Inc,PMVP,Stocks,NASDAQ,ConsumerGoods
+American Lithium Corp,AMLIF,Stocks,NASDAQ,BasicMaterials
+Talkspace Inc,TALK.US,Stocks,NASDAQ,Technology
+Rekor Systems Inc,REKR,Stocks,NASDAQ,Technology
+Diversified Heal,DHC,Stocks,NASDAQ,Financial
+Nkarta Inc,NKTX,Stocks,NASDAQ,ConsumerGoods
+Moneyhero Ltd-A,MNY,Stocks,NASDAQ,Services
+Werewolf Therapeutics Inc,HOWL,Stocks,NASDAQ,ConsumerGoods
+Aurora Innovation Inc,AUR,Stocks,NASDAQ,ConsumerGoods
+Msp Recovery Inc,MSPR,Stocks,NASDAQ,Financial
+Applied Therapeutics Inc,APLT,Stocks,NASDAQ,ConsumerGoods
+Allakos Inc,ALLK,Stocks,NASDAQ,ConsumerGoods
+Tempest Therapeutics Inc,TPST,Stocks,NASDAQ,ConsumerGoods
+Bioxcel Therapeutics Inc,BTAI,Stocks,NASDAQ,ConsumerGoods
+Bit Digital Inc,BTBT,Stocks,NASDAQ,Financial
+Organogenesis Holdings Inc,ORGO,Stocks,NASDAQ,ConsumerGoods
+Sutro Biopharma Inc,STRO,Stocks,NASDAQ,ConsumerGoods
+Hive Digital Technologies Ltd,HIVE,Stocks,NASDAQ,ConsumerGoods
+Bonk Inc,BNKK,Stocks,NASDAQ,ConsumerGoods
+Reviva Pharmaceuticals Holdi,RVPH,Stocks,NASDAQ,ConsumerGoods
+Sera Prognostics Inc-A,SERA,Stocks,NASDAQ,ConsumerGoods
+E-Home Household Service,EJH,Stocks,NASDAQ,ConsumerGoods
+Autolus Therapeu,AUTL,Stocks,NASDAQ,ConsumerGoods
+Shattuck Labs In,STTK,Stocks,NASDAQ,ConsumerGoods
+Iris Energy Ltd,IREN,Stocks,NASDAQ,ConsumerGoods
+Syntec Optics Holdings Inc,OPTX,Stocks,NASDAQ,Technology
+American Oncology Network In,AONC,Stocks,NASDAQ,ConsumerGoods
+Intensity Therapeutics Inc,INTS,Stocks,NASDAQ,ConsumerGoods
+Engene Holdings Inc,ENGN,Stocks,NASDAQ,ConsumerGoods
+Cheche Group Inc,CCG,Stocks,NASDAQ,Financial
+Matrix Service Co,MTRX,Stocks,NASDAQ,Utilities
+Compass Digital Acquisition,CDAQF,Stocks,NASDAQ,Services
+Classover Hold-B Equity,KIDZ,Stocks,NASDAQ,Services
+Investcorp Europe Acquisi-A,IVCBF,Stocks,NASDAQ,Services
+Direct Digital Holdings In-A,DRCT,Stocks,NASDAQ,Services
+Nasdaq 7 Handl Index Etf,HNDL,ETF,NASDAQ,-
+Ishares Msci Europe Financia,EUFN,ETF,NASDAQ,-
+Apogee Therapeutics Inc,APGE,Stocks,NASDAQ,ConsumerGoods
+First Trust Global Tactical,FTGC,ETF,NASDAQ,-
+Ishares Esg Aware Usd Corpor,SUSC,ETF,NASDAQ,-
+Global X Robotics & Artifici,BOTZ,ETF,NASDAQ,-
+Invesco Equal Weight 0-30 Yr,GOVI,ETF,NASDAQ,-
+Global X Art Intel & Tech,AIQ,ETF,NASDAQ,-
+Soleno Therapeutics Inc,SLNO,Stocks,NASDAQ,ConsumerGoods
+Vanguard Glbl Ex-Us Real Est,VNQI,ETF,NASDAQ,-
+First Trust Tcw Opp Fixed In,FIXD,ETF,NASDAQ,-
+Ishares Gnma Bond Etf,GNMA,ETF,NASDAQ,-
+Invesco Kbw Bank Etf,KBWB,ETF,NASDAQ,-
+First Trust Rising Dividend,RDVY,ETF,NASDAQ,-
+Jpm Nasdaq Equity Premium,JEPQ,ETF,NASDAQ,-
+Ishares Msci Emr Mrk Ex Chna,EMXC,ETF,NASDAQ,-
+Ishares Asia 50 Etf,AIA,ETF,NASDAQ,-
+iShares Future Exponential Technologies ETF,XT,ETF,NASDAQ,-
+Fidelity Nasdaq Composite In,ONEQ,ETF,NASDAQ,-
+First Trust Rba American Ind,AIRR,ETF,NASDAQ,-
+First Trust Enh Short Mat Fd,FTSM,ETF,NASDAQ,-
+Invesco Dorsey Wright Moment,PDP,ETF,NASDAQ,-
+Invesco Buyback Achievers Et,PKW,ETF,NASDAQ,-
+Tmc The Metals Co Inc,TMC,Stocks,NASDAQ,BasicMaterials
+Akebia Therapeutics Inc,AKBA,Stocks,NASDAQ,ConsumerGoods
+Purple Innovation Inc,PRPL,Stocks,NASDAQ,ConsumerGoods
+P3 Health Partners Inc,PIII,Stocks,NASDAQ,ConsumerGoods
+Oncology Institute Inc/The,TOI,Stocks,NASDAQ,ConsumerGoods
+Immunic Inc,IMUX,Stocks,NASDAQ,ConsumerGoods
+C4 Therapeutics Inc,CCCC,Stocks,NASDAQ,ConsumerGoods
+Cardiff Oncology Inc,CRDF,Stocks,NASDAQ,ConsumerGoods
+Personalis Inc,PSNL,Stocks,NASDAQ,ConsumerGoods
+Tectonic Therapeutic Inc,TECX,Stocks,NASDAQ,ConsumerGoods
+Adicet Bio Inc,ACET,Stocks,NASDAQ,ConsumerGoods
+Profire Energy Inc,PFIE,Stocks,NASDAQ,Utilities
+Quantum-Si Inc,QSI,Stocks,NASDAQ,ConsumerGoods
+Kopin Corp,KOPN,Stocks,NASDAQ,IndustrialGoods
+Generation Bio Co,GBIO,Stocks,NASDAQ,ConsumerGoods
+Bioatla Inc,BCAB,Stocks,NASDAQ,ConsumerGoods
+Compass Therapeutics Inc,CMPX,Stocks,NASDAQ,ConsumerGoods
+Seer Inc,SEER,Stocks,NASDAQ,ConsumerGoods
+Scynexis Inc,SCYX,Stocks,NASDAQ,ConsumerGoods
+D-Market Elektronik Hizmetler Ve Ticaret As,HEPS,Stocks,NASDAQ,Services
+Rockwell Medical Inc,RMTI,Stocks,NASDAQ,ConsumerGoods
+Lyell Immunopharma Inc,LYEL,Stocks,NASDAQ,ConsumerGoods
+Tenaya Therapeutics Inc,TNYA,Stocks,NASDAQ,ConsumerGoods
+Aquestive Therapeutics Inc,AQST,Stocks,NASDAQ,ConsumerGoods
+Ammo Inc,POWW,Stocks,NASDAQ,IndustrialGoods
+Summit Therapeutics Inc,SMMT,Stocks,NASDAQ,ConsumerGoods
+Absci Corp,ABSI,Stocks,NASDAQ,ConsumerGoods
+Veritone Inc,VERI,Stocks,NASDAQ,Technology
+Ribbon Communications Inc,RBBN,Stocks,NASDAQ,Services
+Standard Biotool,LAB,Stocks,NASDAQ,IndustrialGoods
+Thredup Inc - Class A,TDUP,Stocks,NASDAQ,ConsumerGoods
+Powerfleet Inc,AIOT,Stocks,NASDAQ,Services
+Longeveron Inc-A,LGVN,Stocks,NASDAQ,ConsumerGoods
+Honest Co Inc/The,HNST,Stocks,NASDAQ,ConsumerGoods
+Omega Therapeutics Inc,OMGAQ,Stocks,NASDAQ,ConsumerGoods
+Design Therapeutics Inc,DSGN,Stocks,NASDAQ,ConsumerGoods
+Expensify Inc - A,EXFY,Stocks,NASDAQ,Technology
+Omeros Corp,OMER,Stocks,NASDAQ,ConsumerGoods
+Kodiak Sciences Inc,KOD,Stocks,NASDAQ,ConsumerGoods
+Aeries Technology Inc,AERT,Stocks,NASDAQ,Technology
+Playstudios Inc,MYPS,Stocks,NASDAQ,Technology
+Gogoro Inc,GGR,Stocks,NASDAQ,ConsumerGoods
+Carisma Therapeutics Inc,CARM,Stocks,NASDAQ,ConsumerGoods
+Relmada Therapeutics Inc,RLMD,Stocks,NASDAQ,ConsumerGoods
+Annexon Inc,ANNX,Stocks,NASDAQ,ConsumerGoods
+Cypherpunk Technologies Inc,CYPH,Stocks,NASDAQ,ConsumerGoods
+Marketwise Inc,MKTW,Stocks,NASDAQ,ConsumerGoods
+Scienjoy Holding Corp-A,SJ,Stocks,NASDAQ,Technology
+Opus Genetics Inc,IRD,Stocks,NASDAQ,ConsumerGoods
+Sight Sciences Inc,SGHT,Stocks,NASDAQ,IndustrialGoods
+Humacyte Inc,HUMA,Stocks,NASDAQ,ConsumerGoods
+Roadzen Inc,RDZN,Stocks,NASDAQ,Financial
+Delcath Systems Inc,DCTH,Stocks,NASDAQ,ConsumerGoods
+Oxford Square Capital Corp,OXSQ,Stocks,NASDAQ,Financial
+Poseida Therapeutics Inc,PSTX,Stocks,NASDAQ,ConsumerGoods
+Gsi Technology Inc,GSIT,Stocks,NASDAQ,Technology
+Cue Biopharma Inc,CUE,Stocks,NASDAQ,ConsumerGoods
+Intuitive Machines Inc,LUNR,Stocks,NASDAQ,IndustrialGoods
+Definium Therapeutics Inc,DFTX,Stocks,NASDAQ,ConsumerGoods
+Strata Critical Medical Inc,SRTA,Stocks,NASDAQ,Services
+Rimini Street Inc,RMNI,Stocks,NASDAQ,Technology
+Black Diamond Therapeutics I,BDTX,Stocks,NASDAQ,ConsumerGoods
+Inotiv Inc,NOTV,Stocks,NASDAQ,ConsumerGoods
+G1 Therapeutics Inc,GTHX,Stocks,NASDAQ,ConsumerGoods
+Checkpoint Therapeutics Inc,CKPT,Stocks,NASDAQ,ConsumerGoods
+Cadiz Inc,CDZI,Stocks,NASDAQ,ConsumerGoods
+Advantage Solutions Inc,ADV,Stocks,NASDAQ,Services
+Prelude Therapeutics Inc,PRLD,Stocks,NASDAQ,ConsumerGoods
+Nkgen Biotech Inc,NKGN,Stocks,NASDAQ,ConsumerGoods
+Capricor Therapeutics Inc,CAPR,Stocks,NASDAQ,ConsumerGoods
+Inozyme Pharma Inc,INZY,Stocks,NASDAQ,ConsumerGoods
+Lunai Bioworks Inc,LNAI,Stocks,NASDAQ,ConsumerGoods
+Eton Pharmaceuticals Inc,ETON,Stocks,NASDAQ,ConsumerGoods
+Resolute Holdings Management Inc,RHLD,Stocks,NASDAQ,Services
+Sagimet Biosciences Inc-A,SGMT,Stocks,NASDAQ,ConsumerGoods
+Lyra Therapeutics Inc,LYRA,Stocks,NASDAQ,ConsumerGoods
+American Battery Technology,ABAT,Stocks,NASDAQ,BasicMaterials
+Monte Rosa Therapeutics Inc,GLUE,Stocks,NASDAQ,ConsumerGoods
+Akoya Biosciences Inc,AKYA,Stocks,NASDAQ,ConsumerGoods
+Altisource Portfolio Sol,ASPS,Stocks,NASDAQ,Financial
+Century Casinos Inc,CNTY,Stocks,NASDAQ,ConsumerGoods
+Luxurban Hotels Inc,LUXHQ,Stocks,NASDAQ,Financial
+Syros Pharmaceuticals Inc,SYRS,Stocks,NASDAQ,ConsumerGoods
+Telos Corporation,TLS,Stocks,NASDAQ,Technology
+Immix Biopharma Inc,IMMX,Stocks,NASDAQ,ConsumerGoods
+Abeona Therapeutics Inc,ABEO,Stocks,NASDAQ,ConsumerGoods
+Stronghold Digital Mining-A,SDIG,Stocks,NASDAQ,Utilities
+Bioventus Inc - A,BVS,Stocks,NASDAQ,ConsumerGoods
+Solid Biosciences Inc,SLDB,Stocks,NASDAQ,ConsumerGoods
+Duluth Holdings Inc - Cl B,DLTH.US,Stocks,NASDAQ,ConsumerGoods
+One Group Hospitality Inc/Th,STKS,Stocks,NASDAQ,ConsumerGoods
+Inter & Co Inc - Cl A,INTR,Stocks,NASDAQ,Financial
+Essa Pharma Inc,EPIX,Stocks,NASDAQ,ConsumerGoods
+Beam Global,BEEM,Stocks,NASDAQ,Utilities
+Tscan Therapeutics Inc,TCRX,Stocks,NASDAQ,ConsumerGoods
+Fusion Pharmaceuticals Inc,FUSN,Stocks,NASDAQ,ConsumerGoods
+Opal Fuels Inc-A,OPAL,Stocks,NASDAQ,Utilities
+Surgepays Inc,SURG,Stocks,NASDAQ,ConsumerGoods
+CDT Equity Inc,CDT,Stocks,NASDAQ,ConsumerGoods
+Augmedix Inc,AUGX,Stocks,NASDAQ,Technology
+Lantronix Inc,LTRX,Stocks,NASDAQ,Services
+Journey Medical Corp,DERM,Stocks,NASDAQ,ConsumerGoods
+Gen Restaurant Group Inc,GENK,Stocks,NASDAQ,ConsumerGoods
+Kala Bio Inc,KALA,Stocks,NASDAQ,ConsumerGoods
+Concrete Pumping Holdings In,BBCP,Stocks,NASDAQ,IndustrialGoods
+Lazydays Holdings Inc,GORV,Stocks,NASDAQ,ConsumerGoods
+Orchestra Biomed Holdings In,OBIO,Stocks,NASDAQ,ConsumerGoods
+Perma-Fix Environmental Svcs,PESI,Stocks,NASDAQ,IndustrialGoods
+Neuropace Inc,NPCE,Stocks,NASDAQ,ConsumerGoods
+Lands End Inc,LE,Stocks,NASDAQ,Services
+Virco Mfg Corporation,VIRC,Stocks,NASDAQ,ConsumerGoods
+Everspin Technologies Inc,MRAM,Stocks,NASDAQ,Technology
+ECD Automotive Design Inc,ECDA,Stocks,NASDAQ,ConsumerGoods
+Pulse Biosciences Inc,PLSE,Stocks,NASDAQ,ConsumerGoods
+Blue Foundry Bancorp,BLFY,Stocks,NASDAQ,Financial
+Medallion Financial Corp,MFIN,Stocks,NASDAQ,Financial
+Third Harmonic Bio Inc,THRD,Stocks,NASDAQ,ConsumerGoods
+Esh Acquisition Corp-A,ESHA,Stocks,NASDAQ,Services
+Pure Cycle Corp,PCYO,Stocks,NASDAQ,IndustrialGoods
+USA Rare Earth Inc,USAR,Stocks,NASDAQ,Services
+Nabors Energy Transition C-A,NETD,Stocks,NASDAQ,Services
+Vinci Partners Investments-A,VINP,Stocks,NASDAQ,Financial
+Gores Holding Ix Inc-Cl A,GHIX,Stocks,NASDAQ,Services
+New Horizon Aircraft Ltd,HOVR,Stocks,NASDAQ,Services
+Israel Acquisitions Corp-A,ISRLF,Stocks,NASDAQ,Services
+Horizon Space Acquisition I,HSPOF,Stocks,NASDAQ,Services
+Baird Medical Investment Holdings Limited,BDMD,Stocks,NASDAQ,Services
+AMC Robotics Corp,AMCI,Stocks,NASDAQ,Services
+Innventure Inc,INV,Stocks,NASDAQ,Services
+Spring Valley Acquisition-A,SVIIF,Stocks,NASDAQ,Services
+Goldenstone Acquisition Ltd,GDST,Stocks,NASDAQ,Services
+ConnectM Technology Solutions Inc,CNTM,Stocks,NASDAQ,Services
+Ispire Technology Inc,ISPR,Stocks,NASDAQ,ConsumerGoods
+WeBull Corp,BULL,Stocks,NASDAQ,Services
+Gigcapital5 Inc,GIA,Stocks,NASDAQ,Services
+Primis Financial Corp,FRST,Stocks,NASDAQ,Financial
+Cartesian Growth Corp Ii- A,RENEF,Stocks,NASDAQ,Services
+Semnur Pharmaceuticals Inc,SMNR,Stocks,NASDAQ,Services
+Bridgewater Bancshares Inc,BWB,Stocks,NASDAQ,Financial
+Mountain & Co I Acquisition,MCAA,Stocks,NASDAQ,Services
+Iczoom Group Inc -Class A,IZM,Stocks,NASDAQ,Services
+Geospace Technologies Corp,GEOS,Stocks,NASDAQ,Utilities
+Ofs Capital Corp,OFS,Stocks,NASDAQ,Financial
+Sezzle Inc,SEZL,Stocks,NASDAQ,Financial
+Quicklogic Corp,QUIK,Stocks,NASDAQ,Technology
+Falcons Beyond Global Inc-A,FBYD,Stocks,NASDAQ,ConsumerGoods
+Lifeway Foods Inc,LWAY,Stocks,NASDAQ,ConsumerGoods
+Xbp Europe Holdings Inc,XBP,Stocks,NASDAQ,Financial
+William Penn Bancorp,WMPN,Stocks,NASDAQ,Financial
+Whitehorse Finance Inc,WHF,Stocks,NASDAQ,Financial
+Eltek Ltd,ELTK,Stocks,NASDAQ,IndustrialGoods
+Ramaco Resources Inc-B,METCB,Stocks,NASDAQ,Utilities
+Silence Therapeutics Plc,SLN,Stocks,NASDAQ,ConsumerGoods
+Silvercrest Asset Manageme-A,SAMG,Stocks,NASDAQ,Financial
+Natures Sunshine Prods Inc,NATR,Stocks,NASDAQ,ConsumerGoods
+Universal Stainless & Alloy,USAP,Stocks,NASDAQ,BasicMaterials
+Praxis Precision Medicines I,PRAX,Stocks,NASDAQ,ConsumerGoods
+Rbb Bancorp,RBB,Stocks,NASDAQ,Financial
+BCP Investment Corp,BCIC,Stocks,NASDAQ,Financial
+Tourmaline Bio Inc,TRML,Stocks,NASDAQ,ConsumerGoods
+Spyre Therapeutics Inc,SYRE,Stocks,NASDAQ,ConsumerGoods
+Foster (Lb) Co-A,FSTR,Stocks,NASDAQ,IndustrialGoods
+Hbt Financial Inc/De,HBT,Stocks,NASDAQ,Financial
+Gyre Therapeutics Inc,GYRE,Stocks,NASDAQ,ConsumerGoods
+Mvb Financial Corp,MVBF,Stocks,NASDAQ,Financial
+Baycom Corp,BCML,Stocks,NASDAQ,Financial
+Metrocity Bankshares Inc,MCBS,Stocks,NASDAQ,Financial
+Csp Inc,CSPI,Stocks,NASDAQ,Technology
+Midwestone Financial Group I,MOFG,Stocks,NASDAQ,Financial
+Global X Fintech Etf,FINX,ETF,NASDAQ,-
+Village Super Market-Class A,VLGEA,Stocks,NASDAQ,ConsumerGoods
+Southern States Bancshares,SSBK,Stocks,NASDAQ,Financial
+Summit Financial Group Inc,SMMF,Stocks,NASDAQ,Financial
+Jin Medical International Lt,ZJYL,Stocks,NASDAQ,Financial
+Euroseas Ltd,ESEA,Stocks,NASDAQ,IndustrialGoods
+Oak Valley Bancorp,OVLY,Stocks,NASDAQ,Financial
+Weyco Group Inc,WEYS,Stocks,NASDAQ,ConsumerGoods
+Alico Inc,ALCO,Stocks,NASDAQ,ConsumerGoods
+Rocky Brands Inc,RCKY,Stocks,NASDAQ,ConsumerGoods
+Atlanticus Holdings Corp,ATLC,Stocks,NASDAQ,Financial
+Peoples Financial Services,PFIS,Stocks,NASDAQ,Financial
+Invesco Dorsey Wright Tech,PTF,ETF,NASDAQ,-
+Korro Bio Inc,KRRO,Stocks,NASDAQ,ConsumerGoods
+Climb Global Solutions Inc,CLMB,Stocks,NASDAQ,Technology
+Global X S&P 500 Ca Val Etf,CATH,ETF,NASDAQ,-
+Frp Holdings Inc,FRPH,Stocks,NASDAQ,Financial
+Investors Title Co,ITIC,Stocks,NASDAQ,Financial
+iShares Ethereum Trust ETF,ETHA.US,ETF,NASDAQ,Financial
+CoreWeave Inc,CRWV,Stocks,NASDAQ,Technology
+eToro Group LTD,ETOR,Stocks,NASDAQ,Financial
+Chagee Holdings Limited,CHA,Stocks,NASDAQ,ConsumerGoods
+Galaxy Digital,GLXY,Stocks,NASDAQ,Services
+Beamr Imaging Ltd,BMR,Stocks,NASDAQ,Technology
+Chime Financial Inc,CHYM,Stocks,NASDAQ,Technology
+Slide Insurance Holdings Inc,SLDE,Stocks,NASDAQ,Financial
+Caris Life Sciences Inc,CAI,Stocks,NASDAQ,ConsumerGoods
+Sage CVR delisting,SAGE CVR,Stocks,NASDAQ,Financial
+First Trust Managed Municipal ETF,FMB,ETF,NASDAQ,-
+First Trust Tactical High Yield ETF,HYLS,ETF,NASDAQ,-
+First Trust Senior Loan Fund,FTSL,ETF,NASDAQ,-
+Rubico Inc,RUBI,Stocks,NASDAQ,BasicMaterials
+MRSN Merger CVR,MRSN CVR,Stocks,NASDAQ,BasicMaterials
+ETNB CVR Merger,ETNB CVR,Stocks,NASDAQ,BasicMaterials
+VERV US merger CVR,VERV US CVR,Stocks,NASDAQ,BasicMaterials
+Nanostring Technologies CVR-Escrow,NSTGQ CVR-Escrow,Stocks,NASDAQ,BasicMaterials
+CKPT CVR delisting,CKPT CVR,Stocks,NASDAQ,BasicMaterials
+PLAYA US delisting CVR,CVR PLAYA US MERGER,Stocks,NASDAQ,BasicMaterials
+Omada Health Inc,OMDA,Stocks,NASDAQ,Technology
+WIMI Hologram Cloud In,WIMI,Stocks,NASDAQ,Technology
+Robin Energy Ltd,RBNE,Stocks,NASDAQ,IndustrialGoods
+GCI Liberty Inc,GLIBK,Stocks,NASDAQ,Services
+GCI Liberty Inc,GLIBA,Stocks,NASDAQ,Services
+Twenty One Capital Inc,XXI,Stocks,NASDAQ,Financial
+Next Technology Holding Inc,NXTT,Stocks,NASDAQ,Technology
+Microcloud Hologram,HOLO,Stocks,NASDAQ,Technology
+Nano Labs Ltd,,Stocks,NASDAQ,Technology
+Core Scientific,CORZ,Stocks,NASDAQ,Technology
+Astera Labs Inc,ALAB,Stocks,NASDAQ,Technology
+SharpLink Gaming Inc,SBET,Stocks,NASDAQ,ConsumerGoods
+Quantum Computing Inc,QUBT,Stocks,NASDAQ,Technology
+Talen Energy Corp,TLN,Stocks,NASDAQ,Utilities
+Firefly Aerospace Inc,FLY,Stocks,NASDAQ,IndustrialGoods
+ServiceTitan Inc,TTAN,Stocks,NASDAQ,Technology
+Heartflow Inc,HTFL,Stocks,NASDAQ,Healthcare
+Aeva Technologies Inc,AEVA,Stocks,NASDAQ,Technology
+Power Solutions International Inc,PSIX,Stocks,NASDAQ,IndustrialGoods
+Lexinfintech Holdings Ltd,LX,Stocks,NASDAQ,Financial
+Donegal Group Inc,DGICA,Stocks,NASDAQ,Financial
+Nutex Health Inc,NUTX,Stocks,NASDAQ,Healthcare
+Bitcoin Depot Inc,BTM,Stocks,NASDAQ,Technology
+Kaspi.kz,KSPI,Stocks,NASDAQ,Financial
+WBA US merger CVR,WBA US CVR,Stocks,NASDAQ,BasicMaterials
+ITOS US merger CVR,ITOS US CVR,Stocks,NASDAQ,BasicMaterials
+HLVX US merger CVR,HLVX US CVR,Stocks,NASDAQ,BasicMaterials
+SCPH CVR Merger,SCPH CVR,Stocks,NASDAQ,BasicMaterials
+EPIX CVR Merger,EPIX CVR,Stocks,NASDAQ,BasicMaterials
+TON Strategy Co,TONX,Stocks,NASDAQ,Technology
+Sayona Mining Ltd,ELVR,Stocks,NASDAQ,BasicMaterials
+Legence Corp,LGN,Stocks,NASDAQ,IndustrialGoods
+Gemini Space Station Inc,GEMI,Stocks,NASDAQ,Technology
+Figure Technology Solutions Inc,FIGR,Stocks,NASDAQ,Financial
+CaliberCos Inc,CWD,Stocks,NASDAQ,Financial
+Eightco Holdings Inc,ORBS,Stocks,NASDAQ,Financial
+"Netskope, Inc",NTSK,Stocks,NASDAQ,Technology
+Pattern Group Inc,PTRN,Stocks,NASDAQ,Technology
+Solstice Advanced Materi,SOLS,Stocks,NASDAQ,BasicMaterials
+Fermi Inc,FRMI,Stocks,NASDAQ,BasicMaterials
+Brera Holdings PLC,SLMT,Stocks,NASDAQ,ConsumerGoods
+Uranium Royalty Corp,UROY,Stocks,NASDAQ,BasicMaterials
+Ondas Holdings Inc,ONDS,Stocks,NASDAQ,Technology
+Nano Nuclear Energy Inc,NNE,Stocks,NASDAQ,Utilities
+Richtech Robotics Inc,RR,Stocks,NASDAQ,Technology
+Red Cat Holdings Inc,RCAT,Stocks,NASDAQ,IndustrialGoods
+Serve Robotics Inc,SERV,Stocks,NASDAQ,Technology
+Incannex Healthcare Inc,IXHL,Stocks,NASDAQ,Healthcare
+ETHZilla Corp,ETHZ,Stocks,NASDAQ,Technology
+DeFi Development Corp,DFDV,Stocks,NASDAQ,Technology
+Datavault AI Inc,DVLT,Stocks,NASDAQ,Technology
+"Navan, Inc",NAVN,Stocks,NASDAQ,Technology
+"BillionToOne, Inc.",BLLN,Stocks,NASDAQ,Healthcare
+AEye Inc,LIDR,Stocks,NASDAQ,Technology
+TSS Inc,TSSI,Stocks,NASDAQ,Technology
+Upexi Inc,UPXI,Stocks,NASDAQ,Technology
+Cidara Therapeutics Inc,CDTX,Stocks,NASDAQ,Healthcare
+Wearable Devices Ltd,WLDS,Stocks,NASDAQ,Technology
+ALT5 Sigma Corp,ALTS,Stocks,NASDAQ,Technology
+ASP Isotopes Inc,ASPI,Stocks,NASDAQ,Healthcare
+Sealsq Corp,LAES,Stocks,NASDAQ,Technology
+BTCS Inc,BTCS,Stocks,NASDAQ,Technology
+Professional Diversity Network Inc,IPDN,Stocks,NASDAQ,IndustrialGoods
+Faraday Future Intelligent Electric Inc,FFAI,Stocks,NASDAQ,ConsumerGoods
+Gorilla Technology Group Inc,GRRR,Stocks,NASDAQ,Technology
+Tharimmune Inc,THAR,Stocks,NASDAQ,Healthcare
+Soligenix Inc,SNGX,Stocks,NASDAQ,Healthcare
+WhiteFiber Inc,WYFI,Stocks,NASDAQ,Technology
+AGM Group Holdings Inc,AGMH,Stocks,NASDAQ,Technology
+American Bitcoin Corp,ABTC,Stocks,NASDAQ,Technology
+Dragonfly Energy Holdings Corp,DFLI,Stocks,NASDAQ,IndustrialGoods
+Lightbridge Corp,LTBR,Stocks,NASDAQ,IndustrialGoods
+HWH International Inc,HWH,Stocks,NASDAQ,Technology
+Galecto Inc,GLTO,Stocks,NASDAQ,Healthcare
+Aptorum Group Ltd,APM,Stocks,NASDAQ,Healthcare
+aTyr Pharma Inc,ATYR,Stocks,NASDAQ,Healthcare
+Inno Holdings Inc,INHD,Stocks,NASDAQ,IndustrialGoods
+POET Technologies Inc,POET,Stocks,NASDAQ,Technology
+Expion360 Inc,XPON,Stocks,NASDAQ,IndustrialGoods
+TRON Inc,TRON,Stocks,NASDAQ,Technology
+Scisparc Ltd,SPRC,Stocks,NASDAQ,Healthcare
+Sonnet Biotherapeutics Holdings Inc,SONN,Stocks,NASDAQ,Healthcare
+Spruce Biosciences Inc,SPRB,Stocks,NASDAQ,Healthcare
+CEA Industries Inc,BNC,Stocks,NASDAQ,IndustrialGoods
+reAlpha Tech Corp,AIRE,Stocks,NASDAQ,Technology
+"Vivani Medical, Inc",VANI,Stocks,NASDAQ,Healthcare
+AKRO.CVR,AKRO.CVR,Stocks,NASDAQ,BasicMaterials
+ADVM CVR,ADVM CVR,Stocks,NASDAQ,BasicMaterials
+MARFRIG GLOBAL FOOD-SPON ADR,MBRFY,Stocks,NASDAQ,ConsumerGoods
+Arqit Quantum Inc,ARQQ,Stocks,NASDAQ,Technology
+"Lumexa Imaging Holdings, Inc",LMRI,Stocks,NASDAQ,Healthcare
+Wealthfront Corporation,WLTH,Stocks,NASDAQ,Financial
+Medline Inc,MDLN,Stocks,NASDAQ,Healthcare
+Upstream Bio Inc,UPB,Stocks,NASDAQ,Healthcare
+Zenas Biopharma Inc,ZBIO,Stocks,NASDAQ,Healthcare
+Hycroft Mining Holding Corporation,HYMC,Stocks,NASDAQ,BasicMaterials
+Niagen Bioscience Inc,NAGE,Stocks,NASDAQ,Healthcare
+American Public Education Inc,APEI,Stocks,NASDAQ,Services
+Gloo Holdings Inc,GLOO,Stocks,NASDAQ,Technology
+Forward Industries Inc,FWDI,Stocks,NASDAQ,IndustrialGoods
+CytomX Therapeutics Inc,CTMX,Stocks,NASDAQ,Healthcare
+Rezolute Inc,RZLT,Stocks,NASDAQ,Healthcare
+WeShop Holdings Ltd,WSHP,Stocks,NASDAQ,Technology
+Palvella Therapeutics Inc,PVLA,Stocks,NASDAQ,Healthcare
+Maze Therapeutics Inc,MAZE,Stocks,NASDAQ,Healthcare
+Kyivstar Group Ltd,KYIV,Stocks,NASDAQ,Technology
+PomDoctor Ltd,POM,Stocks,NASDAQ,Healthcare
+Aveanna Healthcare Holdings Inc,AVAH,Stocks,NASDAQ,Healthcare
+Aura Minerals Inc,AUGO,Stocks,NASDAQ,BasicMaterials
+Black Rock Coffee Bar Inc,BRCB,Stocks,NASDAQ,ConsumerGoods
+SuperX AI Technology Ltd,SUPX,Stocks,NASDAQ,Technology
+Beta Bionics Inc,BBNX,Stocks,NASDAQ,Healthcare
+Trevi Therapeutics Inc,TRVI,Stocks,NASDAQ,Healthcare
+Rapport Therapeutics Inc,RAPP,Stocks,NASDAQ,Healthcare
+MBX Biosciences Inc,MBX,Stocks,NASDAQ,Healthcare
+LENZ Therapeutics Inc,LENZ,Stocks,NASDAQ,Healthcare
+Terrestrial Energy Inc,IMSR,Stocks,NASDAQ,IndustrialGoods
+Better Home & Finance Holding Co,BETR,Stocks,NASDAQ,Financial
+SailPoint Inc,SAIL,Stocks,NASDAQ,Technology
+NioCorp Developments Ltd,NB,Stocks,NASDAQ,BasicMaterials
+Indivior PLC,INDV,Stocks,NASDAQ,Healthcare
+Churchill Capital Corp X,CCCX,Stocks,NASDAQ,Financial
+Rezolve AI PLC,RZLV,Stocks,NASDAQ,Technology
+Abivax SA,ABVX,Stocks,NASDAQ,Healthcare
+Strive Inc,ASST,Stocks,NASDAQ,Financial
+Pony AI Inc,PONY,Stocks,NASDAQ,Technology
+Critical Metals Corp,CRML,Stocks,NASDAQ,BasicMaterials
+VERSANT MEDIA GROUP INC,VSNT,Stocks,NASDAQ,Services
+Warrant of Opendoor Technologies Inc,OPENL,Stocks,NASDAQ,Services
+Warrant of Opendoor Technologies Inc,OPENZ,Stocks,NASDAQ,Services
+Warrant of Opendoor Technologies Inc,OPENW,Stocks,NASDAQ,Services
+CG Oncology Inc,CGON,Stocks,NASDAQ,Healthcare
+Jyong Biotech Ltd,MENS,Stocks,NASDAQ,Healthcare
+Methanex Corp,MEOH,Stocks,NASDAQ,BasicMaterials
+Elbit Systems Ltd,ESLT,Stocks,NASDAQ,IndustrialGoods
+FirstService Corp,FSV,Stocks,NASDAQ,BasicMaterials
+Life360 Inc,LIF,Stocks,NASDAQ,Technology
+Open Text Corp,OTEX,Stocks,NASDAQ,Technology
+Lineage Inc,LINE,Stocks,NASDAQ,BasicMaterials
+Colliers International Group Inc,CIGI,Stocks,NASDAQ,BasicMaterials
+Descartes Systems Group Inc,DSGX,Stocks,NASDAQ,Technology
+BRP Inc,DOO,Stocks,NASDAQ,ConsumerGoods
+Regencell Bioscience Holdings Ltd,RGC,Stocks,NASDAQ,Healthcare
+Brightspring Health Services Inc,BTSG,Stocks,NASDAQ,Healthcare
+OneStream Inc,OS,Stocks,NASDAQ,Technology
+Nayax Ltd,NYAX,Stocks,NASDAQ,Technology
+Magic Software Enterprises Ltd,MGIC,Stocks,NASDAQ,Technology
+GeneDx Holdings Corp,WGS,Stocks,NASDAQ,Healthcare
+Perpetua Resources Corp,PPTA,Stocks,NASDAQ,BasicMaterials
+Anbio Biotechnology,NNNN,Stocks,NASDAQ,Healthcare
+Diginex Ltd,DGNX,Stocks,NASDAQ,Technology
+Dianthus Therapeutics Inc,DNTH,Stocks,NASDAQ,Healthcare
+Sionna Therapeutics Inc,SION,Stocks,NASDAQ,Healthcare
+Atlantic American Corp,AAME,Stocks,NASDAQ,-
+Air T Inc,AIRT,Stocks,NASDAQ,-
+AstroNova Inc,ALOT,Stocks,NASDAQ,-
+Art's-Way Manufacturing Co Inc,ARTW,Stocks,NASDAQ,-
+Amtech Systems Inc,ASYS,Stocks,NASDAQ,-
+Biomerica Inc,BMRA,Stocks,NASDAQ,-
+Bridgford Foods Corp,BRID,Stocks,NASDAQ,-
+Bassett Furniture Industries Inc,BSET,Stocks,NASDAQ,-
+Compugen Ltd,CGEN,Stocks,NASDAQ,-
+Xcel Brands Inc,XELB,Stocks,NASDAQ,-
+Anixa Biosciences Inc,ANIX,Stocks,NASDAQ,-
+CPS Technologies Corp,CPSH,Stocks,NASDAQ,-
+Data I/O Corp,DAIO,Stocks,NASDAQ,-
+Byrna Technologies Inc,BYRN,Stocks,NASDAQ,-
+Daxor Corp,DXR,Stocks,NASDAQ,-
+Educational Development Corp,EDUC,Stocks,NASDAQ,-
+Electro-Sensors Inc,ELSE,Stocks,NASDAQ,-
+Eastern Co/The,EML,Stocks,NASDAQ,-
+Escalade Inc,ESCA,Stocks,NASDAQ,-
+US Global Investors Inc,GROW,Stocks,NASDAQ,-
+Farmer Bros Co,FARM,Stocks,NASDAQ,-
+West BanCorp Inc,WTBA,Stocks,NASDAQ,-
+First Capital Inc,FCAP,Stocks,NASDAQ,-
+Frequency Electronics Inc,FEIM,Stocks,NASDAQ,-
+Flexsteel Industries Inc,FLXS,Stocks,NASDAQ,-
+FONAR Corp,FONR,Stocks,NASDAQ,-
+Friedman Industries Inc,FRD,Stocks,NASDAQ,-
+Hurco Cos Inc,HURC,Stocks,NASDAQ,-
+Creative Global Technology Holdings Ltd,CGTL,Stocks,NASDAQ,-
+ImmuCell Corp,ICCC,Stocks,NASDAQ,-
+InterGroup Corp/The,INTG,Stocks,NASDAQ,-
+Kelly Services Inc,KELYB,Stocks,NASDAQ,-
+Kewaunee Scientific Corp,KEQU,Stocks,NASDAQ,-
+Koss Corp,KOSS,Stocks,NASDAQ,-
+Key Tronic Corp,KTCC,Stocks,NASDAQ,-
+Lakeland Industries Inc,LAKE,Stocks,NASDAQ,-
+LCNB Corp,LCNB,Stocks,NASDAQ,-
+JW Mays Inc,MAYS,Stocks,NASDAQ,-
+Peoples Bancorp of North Carolina Inc,PEBK,Stocks,NASDAQ,-
+Precision Optics Corp Inc/Mass,POCI,Stocks,NASDAQ,-
+PAMT CORP,PAMT,Stocks,NASDAQ,-
+Rand Capital Corp,RAND,Stocks,NASDAQ,-
+Research Frontiers Inc,REFR,Stocks,NASDAQ,-
+Rocky Mountain Chocolate Factory Inc,RMCF,Stocks,NASDAQ,-
+Neonode Inc,NEON,Stocks,NASDAQ,-
+Enveric Biosciences Inc,ENVB,Stocks,NASDAQ,-
+Sono-Tek Corp,SOTK,Stocks,NASDAQ,-
+Good Times Restaurants Inc,GTIM,Stocks,NASDAQ,-
+TransAct Technologies Inc,TACT,Stocks,NASDAQ,-
+Taylor Devices Inc,TAYD,Stocks,NASDAQ,-
+Twin Disc Inc,TWIN,Stocks,NASDAQ,-
+First US Bancshares Inc,FUSB,Stocks,NASDAQ,-
+US Energy Corp,USEG,Stocks,NASDAQ,-
+Value Line Inc,VALU,Stocks,NASDAQ,-
+XOMA Royalty Corp,XOMA,Stocks,NASDAQ,-
+CF Bankshares Inc,CFBK,Stocks,NASDAQ,-
+Champions Oncology Inc,CSBR,Stocks,NASDAQ,-
+FreightCar America Inc,RAIL,Stocks,NASDAQ,-
+Smith Micro Software Inc,SMSI,Stocks,NASDAQ,-
+Trinity Biotech PLC,TRIB,Stocks,NASDAQ,-
+PharmaCyte Biotech Inc,PMCB,Stocks,NASDAQ,-
+Bel Fuse Inc,BELFA,Stocks,NASDAQ,-
+Sypris Solutions Inc,SYPR,Stocks,NASDAQ,-
+RF Industries Ltd,RFIL,Stocks,NASDAQ,-
+ACNB Corp,ACNB,Stocks,NASDAQ,-
+Perma-Pipe International Holdings Inc,PPIH,Stocks,NASDAQ,-
+Pro-Dex Inc,PDEX,Stocks,NASDAQ,-
+Security National Financial Corp,SNFCA,Stocks,NASDAQ,-
+PrimeEnergy Resources Corp,PNRG,Stocks,NASDAQ,-
+Harte Hanks Inc,HHS,Stocks,NASDAQ,-
+Solesence Inc,SLSN,Stocks,NASDAQ,-
+Lifetime Brands Inc,LCUT,Stocks,NASDAQ,-
+Norwood Financial Corp,NWFL,Stocks,NASDAQ,-
+Auburn National BanCorp Inc,AUBN,Stocks,NASDAQ,-
+Lendway Inc,LDWY,Stocks,NASDAQ,-
+Peraso Inc,PRSO,Stocks,NASDAQ,-
+Lifevantage Corp,LFVN,Stocks,NASDAQ,-
+Nortech Systems Inc,NSYS,Stocks,NASDAQ,-
+Sierra Bancorp,BSRR,Stocks,NASDAQ,-
+Rave Restaurant Group Inc,RAVE,Stocks,NASDAQ,-
+Dawson Geophysical Co,DWSN,Stocks,NASDAQ,-
+Citizens & Northern Corp,CZNC,Stocks,NASDAQ,-
+Ascent Industries Co,ACNT,Stocks,NASDAQ,-
+Franklin Financial Services Corp,FRAF,Stocks,NASDAQ,-
+GeoVax Labs Inc,GOVX,Stocks,NASDAQ,-
+Firefly Neuroscience Inc,AIFF,Stocks,NASDAQ,-
+Highway Holdings Ltd,HIHO,Stocks,NASDAQ,-
+BioCardia Inc,BCDA,Stocks,NASDAQ,-
+Energy Focus Inc,EFOI,Stocks,NASDAQ,-
+Genasys Inc,GNSS,Stocks,NASDAQ,-
+Gulf Resources Inc,GURE,Stocks,NASDAQ,-
+First United Corp,FUNC,Stocks,NASDAQ,-
+Ernexa Therapeutics Inc,ERNA,Stocks,NASDAQ,-
+Consumer Portfolio Services Inc,CPSS,Stocks,NASDAQ,-
+Quest Resource Holding Corp,QRHC,Stocks,NASDAQ,-
+Capstone Holding Corp,CAPS,Stocks,NASDAQ,-
+Ohio Valley Banc Corp,OVBC,Stocks,NASDAQ,-
+United Bancorp Inc/OH,UBCP,Stocks,NASDAQ,-
+Tenax Therapeutics Inc,TENX,Stocks,NASDAQ,-
+China Natural Resources Inc,CHNR,Stocks,NASDAQ,-
+Interlink Electronics Inc,LINK.US,Stocks,NASDAQ,-
+Northern Technologies International Corp,NTIC,Stocks,NASDAQ,-
+Natural Alternatives International Inc,NAII,Stocks,NASDAQ,-
+Tandy Leather Factory Inc,TLF,Stocks,NASDAQ,-
+Riverview Bancorp Inc,RVSB,Stocks,NASDAQ,-
+IRIDEX Corp,IRIX,Stocks,NASDAQ,-
+Kolibri Global Energy Inc,KGEI,Stocks,NASDAQ,-
+Stratus Properties Inc,STRS,Stocks,NASDAQ,-
+Siebert Financial Corp,SIEB,Stocks,NASDAQ,-
+Socket Mobile Inc,SCKT,Stocks,NASDAQ,-
+Strattec Security Corp,STRT,Stocks,NASDAQ,-
+Yunhong Green CTI Ltd,YHGJ,Stocks,NASDAQ,-
+KVH Industries Inc,KVHI,Stocks,NASDAQ,-
+KORU Medical Systems Inc,KRMD,Stocks,NASDAQ,-
+NN Inc,NNBR,Stocks,NASDAQ,-
+Ames National Corp,ATLO,Stocks,NASDAQ,-
+Chemung Financial Corp,CHMG,Stocks,NASDAQ,-
+AXT Inc,AXTI,Stocks,NASDAQ,-
+G Willi-Food International Ltd,WILC,Stocks,NASDAQ,-
+SB Financial Group Inc,SBFG,Stocks,NASDAQ,-
+Landmark Bancorp Inc/Manhattan KS,LARK,Stocks,NASDAQ,-
+Coda Octopus Group Inc,CODA,Stocks,NASDAQ,-
+Sound Financial Bancorp Inc,SFBC,Stocks,NASDAQ,-
+ViewBix Inc,VBIX,Stocks,NASDAQ,-
+Quoin Pharmaceuticals Ltd,QNRX,Stocks,NASDAQ,-
+GT Biopharma Inc,GTBP,Stocks,NASDAQ,-
+CB Financial Services Inc,CBFV,Stocks,NASDAQ,-
+Hawthorn Bancshares Inc,HWBK,Stocks,NASDAQ,-
+Patriot National Bancorp Inc,PNBK,Stocks,NASDAQ,-
+Willamette Valley Vineyards Inc,WVVI,Stocks,NASDAQ,-
+Ark Restaurants Corp,ARKR,Stocks,NASDAQ,-
+Asia Pacific Wire & Cable Corp Ltd,APWC,Stocks,NASDAQ,-
+374Water Inc,SCWO,Stocks,NASDAQ,-
+Innovative Solutions and Support Inc,ISSC,Stocks,NASDAQ,-
+Farmers & Merchants Bancorp Inc/Archbold OH,FMAO,Stocks,NASDAQ,-
+Achieve Life Sciences Inc,ACHV,Stocks,NASDAQ,-
+Natural Health Trends Corp,NHTC,Stocks,NASDAQ,-
+China Automotive Systems Inc,CAAS,Stocks,NASDAQ,-
+Soluna Holdings Inc,SLNH,Stocks,NASDAQ,-
+Seneca Foods Corp,SENEB,Stocks,NASDAQ,-
+Astrotech Corp,ASTC,Stocks,NASDAQ,-
+Jewett-Cameron Trading Co Ltd,JCTC,Stocks,NASDAQ,-
+Pathfinder Bancorp Inc,PBHC,Stocks,NASDAQ,-
+Smith-Midland Corp,SMID,Stocks,NASDAQ,-
+OLB Group Inc/The,OLB,Stocks,NASDAQ,-
+United Security Bancshares/Fresno CA,UBFO,Stocks,NASDAQ,-
+Heritage Global Inc,HGBL,Stocks,NASDAQ,-
+Linkage Global Inc,LGCB,Stocks,NASDAQ,-
+First National Corp/VA,FXNC,Stocks,NASDAQ,-
+CVD Equipment Corp,CVV,Stocks,NASDAQ,-
+BioRestorative Therapies Inc,BRTX,Stocks,NASDAQ,-
+Provident Financial Holdings Inc,PROV,Stocks,NASDAQ,-
+Civista Bancshares Inc,CIVB,Stocks,NASDAQ,-
+Creative Medical Technology Holdings Inc,CELZ,Stocks,NASDAQ,-
+Aware Inc/MA,AWRE,Stocks,NASDAQ,-
+Ainos Inc,AIMD,Stocks,NASDAQ,-
+One Stop Systems Inc,OSS,Stocks,NASDAQ,-
+Dominari Holdings Inc,DOMH,Stocks,NASDAQ,-
+Core AI Holdings Inc,CHAI,Stocks,NASDAQ,-
+Apyx Medical Corp,APYX,Stocks,NASDAQ,-
+ProPhase Labs Inc,PRPH,Stocks,NASDAQ,-
+Greene County Bancorp Inc,GCBC,Stocks,NASDAQ,-
+Gulf Island Fabrication Inc,GIFI,Stocks,NASDAQ,-
+Wetouch Technology Inc,WETH,Stocks,NASDAQ,-
+ClearOne Inc,CLRO,Stocks,NASDAQ,-
+First Community Corp/SC,FCCO,Stocks,NASDAQ,-
+Finward Bancorp,FNWD,Stocks,NASDAQ,-
+Orrstown Financial Services Inc,ORRF,Stocks,NASDAQ,-
+Saga Communications Inc,SGA,Stocks,NASDAQ,-
+Glen Burnie Bancorp,GLBZ,Stocks,NASDAQ,-
+Oruka Therapeutics Inc,ORKA,Stocks,NASDAQ,-
+Stabilis Solutions Inc,SLNG,Stocks,NASDAQ,-
+Lesaka Technologies Inc,LSAK,Stocks,NASDAQ,-
+Odyssey Marine Exploration Inc,OMEX,Stocks,NASDAQ,-
+Fusion Fuel Green PLC,HTOO,Stocks,NASDAQ,-
+Formula Systems 1985 Ltd,FORTY,Stocks,NASDAQ,-
+Nixxy Inc,NIXX,Stocks,NASDAQ,-
+Huachen AI Parking Management Technology Holding C,HCAI,Stocks,NASDAQ,-
+C&F Financial Corp,CFFI,Stocks,NASDAQ,-
+Integrated Media Technology Ltd,IMTE,Stocks,NASDAQ,-
+Dogwood Therapeutics Inc,DWTX,Stocks,NASDAQ,-
+Mannatech Inc,MTEX,Stocks,NASDAQ,-
+Lisata Therapeutics Inc,LSTA,Stocks,NASDAQ,-
+Franklin Wireless Corp,FKWL,Stocks,NASDAQ,-
+Epsilon Energy Ltd,EPSN,Stocks,NASDAQ,-
+Lite Strategy Inc,LITS,Stocks,NASDAQ,-
+Unity Bancorp Inc,UNTY,Stocks,NASDAQ,-
+Yueda Digital Holding,YDKG,Stocks,NASDAQ,-
+Usio Inc,USIO,Stocks,NASDAQ,-
+SUNation Energy Inc,SUNE,Stocks,NASDAQ,-
+Worksport Ltd,WKSP,Stocks,NASDAQ,-
+Live Ventures Inc,LIVE,Stocks,NASDAQ,-
+DLH Holdings Corp,DLHC,Stocks,NASDAQ,-
+First Guaranty Bancshares Inc,FGBI,Stocks,NASDAQ,-
+Galectin Therapeutics Inc,GALT,Stocks,NASDAQ,-
+EDAP TMS SA,EDAP,Stocks,NASDAQ,-
+Kingstone Cos Inc,KINS,Stocks,NASDAQ,-
+Agriculture & Natural Solutions Acquisition Corp,ANSC,Stocks,NASDAQ,-
+Fuel Tech Inc,FTEK,Stocks,NASDAQ,-
+Versus Systems Inc,VS,Stocks,NASDAQ,-
+Giftify Inc,GIFT,Stocks,NASDAQ,-
+Middlefield Banc Corp,MBCN,Stocks,NASDAQ,-
+SWK Holdings Corp,SWKH,Stocks,NASDAQ,-
+RADCOM Ltd,RDCM,Stocks,NASDAQ,-
+Kazia Therapeutics Ltd,KZIA,Stocks,NASDAQ,-
+Euro Tech Holdings Co Ltd,CLWT,Stocks,NASDAQ,-
+Deswell Industries Inc,DSWL,Stocks,NASDAQ,-
+SunOpta Inc,STKL,Stocks,NASDAQ,-
+NetSol Technologies Inc,NTWK,Stocks,NASDAQ,-
+SPAR Group Inc,SGRP,Stocks,NASDAQ,-
+Optex Systems Holdings Inc,OPXS,Stocks,NASDAQ,-
+SuperCom Ltd,SPCB,Stocks,NASDAQ,-
+Gaia Inc,GAIA,Stocks,NASDAQ,-
+Southern First Bancshares Inc,SFST,Stocks,NASDAQ,-
+BOS Better On-Line Solutions,BOSC,Stocks,NASDAQ,-
+Quantum Corp,QMCO,Stocks,NASDAQ,-
+VerifyMe Inc,VRME,Stocks,NASDAQ,-
+AmeriServ Financial Inc,ASRV,Stocks,NASDAQ,-
+Sify Technologies Ltd,SIFY,Stocks,NASDAQ,-
+Aethlon Medical Inc,AEMD,Stocks,NASDAQ,-
+TechPrecision Corp,TPCS,Stocks,NASDAQ,-
+BNB Plus Corp,BNBX,Stocks,NASDAQ,-
+AlphaTON Capital Corp,ATON,Stocks,NASDAQ,-
+Intellicheck Inc,IDN,Stocks,NASDAQ,-
+US Gold Corp,USAU,Stocks,NASDAQ,-
+Parke Bancorp Inc,PKBK,Stocks,NASDAQ,-
+InMed Pharmaceuticals Inc,INM,Stocks,NASDAQ,-
+Beasley Broadcast Group Inc,BBGI,Stocks,NASDAQ,-
+GigaMedia Ltd,GIGM,Stocks,NASDAQ,-
+ChoiceOne Financial Services Inc,COFS,Stocks,NASDAQ,-
+Pixelworks Inc,PXLW,Stocks,NASDAQ,-
+UTStarcom Holdings Corp,UTSI,Stocks,NASDAQ,-
+Isabella Bank Corp,ISBA,Stocks,NASDAQ,-
+Crown Crafts Inc,CRWS,Stocks,NASDAQ,-
+Eagle Bancorp Montana Inc,EBMT,Stocks,NASDAQ,-
+Flux Power Holdings Inc,FLUX,Stocks,NASDAQ,-
+Icecure Medical Ltd,ICCM,Stocks,NASDAQ,-
+TaoWeave Inc,TWAV,Stocks,NASDAQ,-
+Microbot Medical Inc,MBOT,Stocks,NASDAQ,-
+Intrusion Inc,INTZ,Stocks,NASDAQ,-
+Urban One Inc,UONEK,Stocks,NASDAQ,-
+Bank of the James Financial Group Inc,BOTJ,Stocks,NASDAQ,-
+Reading International Inc,RDIB,Stocks,NASDAQ,-
+LightPath Technologies Inc,LPTH,Stocks,NASDAQ,-
+Union Bankshares Inc/Morrisville VT,UNB,Stocks,NASDAQ,-
+Smart Powerr Corp,CREG,Stocks,NASDAQ,-
+Largo Inc,LGO,Stocks,NASDAQ,-
+The9 Ltd,NCTY,Stocks,NASDAQ,-
+Mind CTI Ltd,MNDO,Stocks,NASDAQ,-
+Plus Therapeutics Inc,PSTV,Stocks,NASDAQ,-
+PCB Bancorp,PCB,Stocks,NASDAQ,-
+Orion Energy Systems Inc,OESX,Stocks,NASDAQ,-
+Western New England Bancorp Inc,WNEB,Stocks,NASDAQ,-
+Harvard Bioscience Inc,HBIO,Stocks,NASDAQ,-
+Defi Technologies Inc,DEFT,Stocks,NASDAQ,-
+Sangoma Technologies Corp,SANG,Stocks,NASDAQ,-
+Magyar Bancorp Inc,MGYR,Stocks,NASDAQ,-
+Community West Bancshares,CWBC,Stocks,NASDAQ,-
+Bio Green Med Solution Inc,BGMS,Stocks,NASDAQ,-
+HireQuest Inc,HQI,Stocks,NASDAQ,-
+NextPlat Corp,NXPL,Stocks,NASDAQ,-
+Marchex Inc,MCHX,Stocks,NASDAQ,-
+Winchester Bancorp Inc,WSBK,Stocks,NASDAQ,-
+Algorhythm Holdings Inc,RIME,Stocks,NASDAQ,-
+TROOPS Inc,TROO,Stocks,NASDAQ,-
+comScore Inc,SCOR,Stocks,NASDAQ,-
+Alterity Therapeutics ltd,ATHE,Stocks,NASDAQ,-
+Donegal Group Inc,DGICB,Stocks,NASDAQ,-
+HeartSciences Inc,HSCS,Stocks,NASDAQ,-
+Arq Inc,ARQ,Stocks,NASDAQ,-
+MindWalk Holdings Corp,HYFT,Stocks,NASDAQ,-
+Oncolytics Biotech Inc,ONCY,Stocks,NASDAQ,-
+Creative Realities Inc,CREX,Stocks,NASDAQ,-
+Star Equity Holdings Inc,STRR.US,Stocks,NASDAQ,-
+Netcapital Inc,NCPL,Stocks,NASDAQ,-
+Richmond Mutual BanCorp Inc,RMBI,Stocks,NASDAQ,-
+Dyadic International Inc,DYAI,Stocks,NASDAQ,-
+Electrovaya Inc,ELVA,Stocks,NASDAQ,-
+Coffee Holding Co Inc,JVA,Stocks,NASDAQ,-
+Pluri Inc,PLUR,Stocks,NASDAQ,-
+Oramed Pharmaceuticals Inc,ORMP,Stocks,NASDAQ,-
+Westport Fuel Systems Inc,WPRT,Stocks,NASDAQ,-
+Fennec Pharmaceuticals Inc,FENC,Stocks,NASDAQ,-
+Nocera Inc,NCRA,Stocks,NASDAQ,-
+BCB Bancorp Inc,BCBP,Stocks,NASDAQ,-
+Broadwind Inc,BWEN,Stocks,NASDAQ,-
+Brand House Collective Inc/The,TBHC,Stocks,NASDAQ,-
+CBAK Energy Technology Inc,CBAT,Stocks,NASDAQ,-
+VirTra Inc,VTSI,Stocks,NASDAQ,-
+Marker Therapeutics Inc,MRKR,Stocks,NASDAQ,-
+NextTrip Inc,NTRP,Stocks,NASDAQ,-
+XTL Biopharmaceuticals Ltd,XTLB,Stocks,NASDAQ,-
+Origin Agritech Ltd,SEED,Stocks,NASDAQ,-
+Plumas Bancorp,PLBC,Stocks,NASDAQ,-
+Citizens Community Bancorp Inc/WI,CZWI,Stocks,NASDAQ,-
+Hennessy Advisors Inc,HNNA,Stocks,NASDAQ,-
+Future FinTech Group Inc,FTFT,Stocks,NASDAQ,-
+Crexendo Inc,CXDO,Stocks,NASDAQ,-
+Nephros Inc,NEPH,Stocks,NASDAQ,-
+Optical Cable Corp,OCC,Stocks,NASDAQ,-
+CytoSorbents Corp,CTSO,Stocks,NASDAQ,-
+Eagle Financial Services Inc,EFSI,Stocks,NASDAQ,-
+Bankwell Financial Group Inc,BWFG,Stocks,NASDAQ,-
+Alaunos Therapeutics Inc,TCRT,Stocks,NASDAQ,-
+Comstock Holding Cos Inc,CHCI,Stocks,NASDAQ,-
+ABVC BioPharma Inc,ABVC,Stocks,NASDAQ,-
+Sonim Technologies Inc,SONM,Stocks,NASDAQ,-
+Strata Skin Sciences Inc,SSKN,Stocks,NASDAQ,-
+Mesoblast Ltd,MESO,Stocks,NASDAQ,-
+California BanCorp,BCAL,Stocks,NASDAQ,-
+Capital Bancorp Inc,CBNK,Stocks,NASDAQ,-
+Five Star Bancorp,FSBC,Stocks,NASDAQ,-
+First Business Financial Services Inc,FBIZ,Stocks,NASDAQ,-
+Bayfirst Financial Corp,BAFN,Stocks,NASDAQ,-
+Red River Bancshares Inc,RRBI,Stocks,NASDAQ,-
+First Western Financial Inc,MYFW,Stocks,NASDAQ,-
+Neurogene Inc,NGNE,Stocks,NASDAQ,-
+Intelligent Protection Management Corp,IPM,Stocks,NASDAQ,-
+Kaival Brands Innovations Group Inc,KAVL,Stocks,NASDAQ,-
+Kyntra Bio Inc,KYNB,Stocks,NASDAQ,-
+MainStreet Bancshares Inc,MNSB,Stocks,NASDAQ,-
+Meridian Corp,MRBK,Stocks,NASDAQ,-
+BV Financial Inc,BVFL,Stocks,NASDAQ,-
+Home Federal Bancorp Inc of Louisiana,HFBL,Stocks,NASDAQ,-
+Energy Services of America Corp,ESOA,Stocks,NASDAQ,-
+Cellectar Biosciences Inc,CLRB,Stocks,NASDAQ,-
+Arcadia Biosciences Inc,RKDA,Stocks,NASDAQ,-
+Dolphin Entertainment Inc,DLPN,Stocks,NASDAQ,-
+OP Bancorp,OPBK,Stocks,NASDAQ,-
+Lexaria Bioscience Corp,LEXX,Stocks,NASDAQ,-
+Quipt Home Medical Corp,QIPT,Stocks,NASDAQ,-
+ZW Data Action Technologies Inc,CNET,Stocks,NASDAQ,-
+ProMIS Neurosciences Inc,PMN,Stocks,NASDAQ,-
+Modular Medical Inc,MODD,Stocks,NASDAQ,-
+John Marshall Bancorp Inc,JMSB,Stocks,NASDAQ,-
+DiaMedica Therapeutics Inc,DMAC,Stocks,NASDAQ,-
+Sonoma Pharmaceuticals Inc,SNOA,Stocks,NASDAQ,-
+Clean Energy Technologies Inc,CETY,Stocks,NASDAQ,-
+Sui Group Holdings Ltd,SUIG,Stocks,NASDAQ,-
+Sobr Safe Inc,SOBR,Stocks,NASDAQ,-
+Bridgeline Digital Inc,BLIN,Stocks,NASDAQ,-
+Capital Clean Energy Carriers Corp,CCEC,Stocks,NASDAQ,-
+Ascent Solar Technologies Inc,ASTI,Stocks,NASDAQ,-
+Summit State Bank,SSBI,Stocks,NASDAQ,-
+enVVeno Medical Corp,NVNO,Stocks,NASDAQ,-
+Taoping Inc,TAOP,Stocks,NASDAQ,-
+Alset Inc,AEI,Stocks,NASDAQ,-
+Information Services Group Inc,III.US,Stocks,NASDAQ,-
+Brainsway Ltd,BWAY,Stocks,NASDAQ,-
+First Bank/Hamilton NJ,FRBA,Stocks,NASDAQ,-
+MediciNova Inc,MNOV,Stocks,NASDAQ,-
+Palisade Bio Inc,PALI,Stocks,NASDAQ,-
+FitLife Brands Inc,FTLF,Stocks,NASDAQ,-
+Iveda Solutions Inc,IVDA,Stocks,NASDAQ,-
+Neuronetics Inc,STIM,Stocks,NASDAQ,-
+CareCloud Inc,CCLD,Stocks,NASDAQ,-
+Central Plains Bancshares Inc,CPBI,Stocks,NASDAQ,-
+Cumberland Pharmaceuticals Inc,CPIX,Stocks,NASDAQ,-
+Scienture Holdings Inc,SCNX,Stocks,NASDAQ,-
+SANUWAVE Health Inc,SNWV,Stocks,NASDAQ,-
+Actelis Networks Inc,ASNS,Stocks,NASDAQ,-
+Sunshine Biopharma Inc,SBFM,Stocks,NASDAQ,-
+Q/C Technologies Inc,QCLS,Stocks,NASDAQ,-
+Powell Max Ltd,PMAX,Stocks,NASDAQ,-
+Pioneer Power Solutions Inc,PPSI,Stocks,NASDAQ,-
+Lixte Biotechnology Holdings Inc,LIXT,Stocks,NASDAQ,-
+Evogene Ltd,EVGN,Stocks,NASDAQ,-
+AIFU Inc,AIFU,Stocks,NASDAQ,-
+Fluent Inc,FLNT,Stocks,NASDAQ,-
+Antelope Enterprise Holdings Limited Class A Ordin,AEHL,Stocks,NASDAQ,-
+Duos Technologies Group Inc,DUOT,Stocks,NASDAQ,-
+ATA Creativity Global,AACG,Stocks,NASDAQ,-
+36Kr Holdings Inc,KRKR,Stocks,NASDAQ,-
+Data Storage Corp,DTST,Stocks,NASDAQ,-
+FVCBankcorp Inc,FVCB,Stocks,NASDAQ,-
+MDxHealth SA,MDXH,Stocks,NASDAQ,-
+SELLAS Life Sciences Group Inc,SLS,Stocks,NASDAQ,-
+Evotec SE,EVO,Stocks,NASDAQ,-
+First Savings Financial Group Inc,FSFG,Stocks,NASDAQ,-
+Global Water Resources Inc,GWRS,Stocks,NASDAQ,-
+Singularity Future Technology Ltd,SGLY,Stocks,NASDAQ,-
+INVO Fertility Inc,IVF,Stocks,NASDAQ,-
+TOMI Environmental Solutions Inc,TOMZ,Stocks,NASDAQ,-
+Prairie Operating Co,PROP,Stocks,NASDAQ,-
+Research Solutions Inc/CA,RSSS,Stocks,NASDAQ,-
+ENvue Medical Inc,FEED,Stocks,NASDAQ,-
+Yunji Inc,YJ,Stocks,NASDAQ,-
+Home Bancorp Inc,HBCP,Stocks,NASDAQ,-
+Ryvyl Inc,RVYL,Stocks,NASDAQ,-
+Golden Matrix Group Inc,GMGI,Stocks,NASDAQ,-
+FiEE Inc,FIEE,Stocks,NASDAQ,-
+Recon Technology Ltd,RCON,Stocks,NASDAQ,-
+Vivakor Inc,VIVK,Stocks,NASDAQ,-
+Axe Compute Inc,AGPU,Stocks,NASDAQ,-
+N2OFF Inc,NITO,Stocks,NASDAQ,-
+Alchemy Investments Acquisition Corp 1,ALCY,Stocks,NASDAQ,-
+Republic Airways Holdings Inc,RJET,Stocks,NASDAQ,-
+Village Farms International Inc,VFF,Stocks,NASDAQ,-
+LiqTech International Inc,LIQT,Stocks,NASDAQ,-
+XMAX Inc,XWIN,Stocks,NASDAQ,-
+Haoxi Health Technology Ltd,HAO,Stocks,NASDAQ,-
+SOW GOOD INC,SOWG,Stocks,NASDAQ,-
+PhenixFIN Corp,PFX,Stocks,NASDAQ,-
+Cosmos Health Inc,COSM,Stocks,NASDAQ,-
+Edesa Biotech Inc,EDSA,Stocks,NASDAQ,-
+Entera Bio Ltd,ENTX,Stocks,NASDAQ,-
+Synlogic Inc,SYBX,Stocks,NASDAQ,-
+Assembly Biosciences Inc,ASMB,Stocks,NASDAQ,-
+Oriental Rise Holdings Ltd,ORIS,Stocks,NASDAQ,-
+SemiLEDs Corp/Taiwan,LEDS,Stocks,NASDAQ,-
+Exagen Inc,XGN,Stocks,NASDAQ,-
+BriaCell Therapeutics Corp,BCTX,Stocks,NASDAQ,-
+X4 Pharmaceuticals Inc,XFOR,Stocks,NASDAQ,-
+Stran & Co Inc,SWAG,Stocks,NASDAQ,-
+Lavoro Ltd,LVRO,Stocks,NASDAQ,-
+Encore Energy Corp,EU,Stocks,NASDAQ,-
+Performance Shipping Inc,PSHG,Stocks,NASDAQ,-
+Grande Group Ltd,GRAN,Stocks,NASDAQ,-
+Intercure Ltd,INCR,Stocks,NASDAQ,-
+BioLine RX Ltd,BLRX,Stocks,NASDAQ,-
+Mira Pharmaceuticals Inc,MIRA,Stocks,NASDAQ,-
+Crescent Biopharma Inc,CBIO,Stocks,NASDAQ,-
+Karyopharm Therapeutics Inc,KPTI,Stocks,NASDAQ,-
+Biodesix Inc,BDSX,Stocks,NASDAQ,-
+Fortress Biotech Inc,FBIO,Stocks,NASDAQ,-
+Forte Biosciences Inc,FBRX,Stocks,NASDAQ,-
+Larimar Therapeutics Inc,LRMR,Stocks,NASDAQ,-
+Dare Bioscience Inc,DARE,Stocks,NASDAQ,-
+Rapid Micro Biosystems Inc,RPID,Stocks,NASDAQ,-
+Cognition Therapeutics Inc,CGTX,Stocks,NASDAQ,-
+TuHURA Biosciences Inc,HURA,Stocks,NASDAQ,-
+NeuroOne Medical Technologies Corp,NMTC,Stocks,NASDAQ,-
+Monroe Capital Corp,MRCC,Stocks,NASDAQ,-
+IF Bancorp Inc,IROQ,Stocks,NASDAQ,-
+Barfresh Food Group Inc,BRFH,Stocks,NASDAQ,-
+TrueCar Inc,TRUE,Stocks,NASDAQ,-
+Avalo Therapeutics Inc,AVTX,Stocks,NASDAQ,-
+Citius Pharmaceuticals Inc,CTXR,Stocks,NASDAQ,-
+Venus Concept Inc,VERO,Stocks,NASDAQ,-
+Protara Therapeutics Inc,TARA,Stocks,NASDAQ,-
+Alpha Teknova Inc,TKNO,Stocks,NASDAQ,-
+iQSTEL Inc,IQST,Stocks,NASDAQ,-
+CIMG Inc,IMG,Stocks,NASDAQ,-
+Eledon Pharmaceuticals Inc,ELDN,Stocks,NASDAQ,-
+Rein Therapeutics Inc,RNTX,Stocks,NASDAQ,-
+Phio Pharmaceuticals Corp,PHIO,Stocks,NASDAQ,-
+GlucoTrack Inc,GCTK,Stocks,NASDAQ,-
+Airgain Inc,AIRG,Stocks,NASDAQ,-
+vTv Therapeutics Inc,VTVT,Stocks,NASDAQ,-
+Beeline Holdings Inc,BLNE,Stocks,NASDAQ,-
+Xenetic Biosciences Inc,XBIO,Stocks,NASDAQ,-
+SolarMax Technology Inc,SMXT,Stocks,NASDAQ,-
+Vor BioPharma Inc,VOR,Stocks,NASDAQ,-
+Silo Pharma Inc,SILO,Stocks,NASDAQ,-
+Atossa Therapeutics Inc,ATOS,Stocks,NASDAQ,-
+Caesarstone Ltd,CSTE,Stocks,NASDAQ,-
+PolyPid Ltd,PYPD,Stocks,NASDAQ,-
+Zentek Ltd,ZTEK,Stocks,NASDAQ,-
+Sunrise New Energy Co Ltd,EPOW,Stocks,NASDAQ,-
+NIP Group Inc,NIPG,Stocks,NASDAQ,-
+Senestech Inc,SNES,Stocks,NASDAQ,-
+Hoth Therapeutics Inc,HOTH,Stocks,NASDAQ,-
+Immutep Ltd,IMMP,Stocks,NASDAQ,-
+Aebi Schmidt Holding AG,AEBI,Stocks,NASDAQ,-
+Fractyl Health Inc,GUTS,Stocks,NASDAQ,-
+AudioEye Inc,AEYE,Stocks,NASDAQ,-
+1stdibs.com Inc,DIBS,Stocks,NASDAQ,-
+Vyome Holdings Inc,HIND,Stocks,NASDAQ,-
+Genenta Science S.P.A.,GNTA,Stocks,NASDAQ,-
+AmpliTech Group Inc,AMPG,Stocks,NASDAQ,-
+Loop Industries Inc,LOOP,Stocks,NASDAQ,-
+Processa Pharmaceuticals Inc,PCSA,Stocks,NASDAQ,-
+Tianci International Inc,CIIT,Stocks,NASDAQ,-
+Synergy CHC Corp,SNYR,Stocks,NASDAQ,-
+Akari Therapeutics PLC,AKTX,Stocks,NASDAQ,-
+Greenwich Lifesciences Inc,GLSI,Stocks,NASDAQ,-
+Redhill Biopharma Ltd,RDHL,Stocks,NASDAQ,-
+Pulmatrix Inc,PULM,Stocks,NASDAQ,-
+DarioHealth Corp,DRIO,Stocks,NASDAQ,-
+Skye Bioscience Inc,SKYE,Stocks,NASDAQ,-
+Elicio Therapeutics Inc,ELTX,Stocks,NASDAQ,-
+Jerash Holdings US Inc,JRSH,Stocks,NASDAQ,-
+Odysight.ai Inc,ODYS,Stocks,NASDAQ,-
+Global Indemnity Group LLC,GBLI,Stocks,NASDAQ,-
+Femasys Inc,FEMY,Stocks,NASDAQ,-
+Kamada Ltd,KMDA,Stocks,NASDAQ,-
+Smart Sand Inc,SND,Stocks,NASDAQ,-
+ArrowMark Financial Corp,BANX,Stocks,NASDAQ,-
+Raytech Holding Ltd,RAY.US,Stocks,NASDAQ,-
+Ideal Power Inc,IPWR,Stocks,NASDAQ,-
+Sphere 3D Corp,ANY,Stocks,NASDAQ,-
+Gauzy Ltd,GAUZ,Stocks,NASDAQ,-
+Vince Holding Corp,VNCE,Stocks,NASDAQ,-
+Focus Universal Inc,FCUV,Stocks,NASDAQ,-
+Inhibikase Therapeutics Inc,IKT,Stocks,NASDAQ,-
+American Resources Corp,AREC,Stocks,NASDAQ,-
+Greenpro Capital Corp,GRNQ,Stocks,NASDAQ,-
+RenovoRx Inc,RNXT,Stocks,NASDAQ,-
+Investcorp Credit Management BDC Inc,ICMB,Stocks,NASDAQ,-
+Galmed Pharmaceuticals Ltd,GLMD,Stocks,NASDAQ,-
+Enlivex Therapeutics Ltd,ENLV,Stocks,NASDAQ,-
+Greenwave Technology Solutions Inc,GWAV,Stocks,NASDAQ,-
+MediWound Ltd,MDWD,Stocks,NASDAQ,-
+Ping An Biomedical Co Ltd,PASW,Stocks,NASDAQ,-
+Knightscope Inc,KSCP,Stocks,NASDAQ,-
+Investar Holding Corp,ISTR,Stocks,NASDAQ,-
+VisionSys AI Inc,VSA,Stocks,NASDAQ,-
+Reliance Global Group Inc,RELI,Stocks,NASDAQ,-
+Tuniu Corp,TOUR,Stocks,NASDAQ,-
+Urgent.ly Inc,ULY,Stocks,NASDAQ,-
+Oxbridge Re Holdings Ltd,OXBR,Stocks,NASDAQ,-
+Solana Co,HSDT,Stocks,NASDAQ,-
+ElectroCore Inc,ECOR,Stocks,NASDAQ,-
+Lifeward Ltd,LFWD,Stocks,NASDAQ,-
+iSpecimen Inc,ISPC,Stocks,NASDAQ,-
+Decoy Therapeutics Inc,DCOY,Stocks,NASDAQ,-
+SU Group Holdings Ltd,SUGP,Stocks,NASDAQ,-
+Sensus Healthcare Inc,SRTS,Stocks,NASDAQ,-
+Tantech Holdings Ltd,TANH,Stocks,NASDAQ,-
+DBV Technologies SA,DBVT,Stocks,NASDAQ,-
+Artelo Biosciences Inc,ARTL,Stocks,NASDAQ,-
+Bone Biologics Corp,BBLG,Stocks,NASDAQ,-
+Blackboxstocks Inc,BLBX,Stocks,NASDAQ,-
+Envirotech Vehicles Inc,EVTV,Stocks,NASDAQ,-
+Quince Therapeutics Inc,QNCX,Stocks,NASDAQ,-
+Presurance Holdings Inc,PRHI,Stocks,NASDAQ,-
+Scinai Immunotherapeutics Ltd,SCNI,Stocks,NASDAQ,-
+Chaince Digital Holdings Inc,CD.US,Stocks,NASDAQ,-
+Zspace Inc,ZSPC,Stocks,NASDAQ,-
+First Northwest Bancorp,FNWB,Stocks,NASDAQ,-
+authID Inc,AUID,Stocks,NASDAQ,-
+GreenPower Motor Co Inc,GP,Stocks,NASDAQ,-
+Kiora Pharmaceuticals Inc,KPRX,Stocks,NASDAQ,-
+Collplant Biotechnologies Ltd,CLGN,Stocks,NASDAQ,-
+CalciMedica Inc,CALC,Stocks,NASDAQ,-
+Proficient Auto Logistics Inc,PAL,Stocks,NASDAQ,-
+Pyxis Tankers Inc,PXS,Stocks,NASDAQ,-
+Bragg Gaming Group Inc,BRAG,Stocks,NASDAQ,-
+Finwise Bancorp,FINW,Stocks,NASDAQ,-
+Insight Molecular Diagnostics Inc,IMDX,Stocks,NASDAQ,-
+Addentax Group Corp,ATXG,Stocks,NASDAQ,-
+Aqua Metals Inc,AQMS,Stocks,NASDAQ,-
+Sadot Group Inc,SDOT,Stocks,NASDAQ,-
+Kezar Life Sciences Inc,KZR,Stocks,NASDAQ,-
+GD Culture Group Ltd,GDC,Stocks,NASDAQ,-
+SKYX Platforms Corp,SKYX,Stocks,NASDAQ,-
+American Rebel Holdings Inc,AREB,Stocks,NASDAQ,-
+Aptevo Therapeutics Inc,APVO,Stocks,NASDAQ,-
+Gyrodyne LLC,GYRO,Stocks,NASDAQ,-
+MetaVia Inc,MTVA,Stocks,NASDAQ,-
+Innate Pharma SA,IPHA,Stocks,NASDAQ,-
+Purple Biotech Ltd,PPBT,Stocks,NASDAQ,-
+Beyond Air Inc,XAIR,Stocks,NASDAQ,-
+Aterian Inc,ATER,Stocks,NASDAQ,-
+Datasea Inc,DTSS,Stocks,NASDAQ,-
+Biodexa Pharmaceuticals Plc,BDRX,Stocks,NASDAQ,-
+Polar Power Inc,POLA,Stocks,NASDAQ,-
+NiSun International Enterprise Development Group C,NISN,Stocks,NASDAQ,-
+Elutia Inc,ELUT,Stocks,NASDAQ,-
+LeonaBio Inc,LONA,Stocks,NASDAQ,-
+Iterum Therapeutics plc,ITRM,Stocks,NASDAQ,-
+Canterbury Park Holding Corp,CPHC,Stocks,NASDAQ,-
+Q32 Bio Inc,QTTB,Stocks,NASDAQ,-
+Profound Medical Corp,PROF,Stocks,NASDAQ,-
+AC Immune SA,ACIU,Stocks,NASDAQ,-
+Great Elm Capital Corp,GECC,Stocks,NASDAQ,-
+GridAI Technologies Corp,GRDX,Stocks,NASDAQ,-
+Yatra Online Inc,YTRA,Stocks,NASDAQ,-
+My Size Inc,MYSZ,Stocks,NASDAQ,-
+PAVmed Inc,PAVM,Stocks,NASDAQ,-
+SCWorx Corp,WORX,Stocks,NASDAQ,-
+Apollomics Inc,APLM,Stocks,NASDAQ,-
+Mammoth Energy Services Inc,TUSK,Stocks,NASDAQ,-
+Priority Technology Holdings Inc,PRTH,Stocks,NASDAQ,-
+NI Holdings Inc,NODK,Stocks,NASDAQ,-
+Beyondspring Inc,BYSI,Stocks,NASDAQ,-
+ENDRA Life Sciences Inc,NDRA,Stocks,NASDAQ,-
+Metalpha Technology Holding Ltd,MATH,Stocks,NASDAQ,-
+Foremost Clean Energy Ltd,FMST,Stocks,NASDAQ,-
+Glimpse Group Inc/The,VRAR,Stocks,NASDAQ,-
+VivoPower International PLC,VVPR,Stocks,NASDAQ,-
+AquaBounty Technologies Inc,AQB,Stocks,NASDAQ,-
+Mustang Bio Inc,MBIO,Stocks,NASDAQ,-
+AiRWA Inc,YYAI,Stocks,NASDAQ,-
+VersaBank,VBNK,Stocks,NASDAQ,-
+SS Innovations International Inc,SSII,Stocks,NASDAQ,-
+Electra Battery Materials Corp,ELBM,Stocks,NASDAQ,-
+Safe & Green Holdings Corp,SGBX,Stocks,NASDAQ,-
+NCS Multistage Holdings Inc,NCSM,Stocks,NASDAQ,-
+Freight Technologies Inc,FRGT,Stocks,NASDAQ,-
+Lantern Pharma Inc,LTRN,Stocks,NASDAQ,-
+Nutriband Inc,NTRB,Stocks,NASDAQ,-
+ZK International Group Co Ltd,ZKIN,Stocks,NASDAQ,-
+Exicure Inc,XCUR,Stocks,NASDAQ,-
+Alarum Technologies Ltd,ALAR,Stocks,NASDAQ,-
+Vivos Therapeutics Inc,VVOS,Stocks,NASDAQ,-
+Alpha Tau Medical Ltd,DRTS,Stocks,NASDAQ,-
+bioAffinity Technologies Inc,BIAF,Stocks,NASDAQ,-
+BioAge Labs Inc,BIOA,Stocks,NASDAQ,-
+FAT Brands Inc,FAT,Stocks,NASDAQ,-
+Reto Eco-solutions Inc,RETO,Stocks,NASDAQ,-
+TDH Holdings Inc,PETZ,Stocks,NASDAQ,-
+Foghorn Therapeutics Inc,FHTX,Stocks,NASDAQ,-
+Agape ATP Corp,ATPC,Stocks,NASDAQ,-
+Sol-Gel Technologies Ltd,SLGL,Stocks,NASDAQ,-
+NuCana PLC,NCNA,Stocks,NASDAQ,-
+HF Foods Group Inc,HFFG,Stocks,NASDAQ,-
+Adial Pharmaceuticals Inc,ADIL,Stocks,NASDAQ,-
+Red Violet Inc,RDVT,Stocks,NASDAQ,-
+LiveOne Inc,LVO,Stocks,NASDAQ,-
+Presidio Property Trust Inc,SQFT,Stocks,NASDAQ,-
+Dogness International Corp,DOGZ,Stocks,NASDAQ,-
+Biofrontera Inc,BFRI,Stocks,NASDAQ,-
+Spero Therapeutics Inc,SPRO,Stocks,NASDAQ,-
+Allied Gaming & Entertainment Inc,AGAE,Stocks,NASDAQ,-
+Kaixin Holdings,KXIN,Stocks,NASDAQ,-
+Monopar Therapeutics Inc,MNPR,Stocks,NASDAQ,-
+Farmmi Inc,FAMI,Stocks,NASDAQ,-
+GameSquare Holdings Inc,GAME,Stocks,NASDAQ,-
+NRX Pharmaceuticals Inc,NRXP,Stocks,NASDAQ,-
+Ensysce Biosciences Inc,ENSC,Stocks,NASDAQ,-
+Hyperion DeFi Inc,HYPD,Stocks,NASDAQ,-
+TORM PLC,TRMD,Stocks,NASDAQ,-
+Digi Power X Inc,DGXX,Stocks,NASDAQ,-
+Viemed Healthcare Inc,VMD,Stocks,NASDAQ,-
+Rail Vision Ltd,RVSN,Stocks,NASDAQ,-
+Myseum Inc,MYSE,Stocks,NASDAQ,-
+Lottery.com Inc,SEGG,Stocks,NASDAQ,-
+Wah Fu Education Group Ltd,WAFU,Stocks,NASDAQ,-
+Beneficient,BENF,Stocks,NASDAQ,-
+CLPS Inc,CLPS,Stocks,NASDAQ,-
+CapsoVision Inc,CV,Stocks,NASDAQ,-
+Ceribell Inc,CBLL,Stocks,NASDAQ,-
+mF International Ltd,MFI,Stocks,NASDAQ,-
+XORTX Therapeutics Inc,XRTX,Stocks,NASDAQ,-
+EuroDry Ltd,EDRY,Stocks,NASDAQ,-
+WISeKey International Holding Ltd,WKEY,Stocks,NASDAQ,-
+Cyclerion Therapeutics Inc,CYCN,Stocks,NASDAQ,-
+Urban-Gro Inc,UGRO,Stocks,NASDAQ,-
+Amesite Inc,AMST,Stocks,NASDAQ,-
+Uxin Ltd,UXIN,Stocks,NASDAQ,-
+CAMP4 Therapeutics Corp,CAMP,Stocks,NASDAQ,-
+Sohu.com Ltd,SOHU,Stocks,NASDAQ,-
+Quantum BioPharma Ltd,QNTM,Stocks,NASDAQ,-
+Aurora Mobile Ltd,JG,Stocks,NASDAQ,-
+J and Friends Holdings Ltd,JF,Stocks,NASDAQ,-
+Greenland Technologies Holding Corp,GTEC,Stocks,NASDAQ,-
+MDJM Ltd,UOKA,Stocks,NASDAQ,-
+111 Inc,YI,Stocks,NASDAQ,-
+Bit Origin Ltd,BTOG,Stocks,NASDAQ,-
+Bank7 Corp,BSVN,Stocks,NASDAQ,-
+Viomi Technology Co Ltd,VIOT,Stocks,NASDAQ,-
+Inmune Bio Inc,INMB,Stocks,NASDAQ,-
+Xilio Therapeutics Inc,XLO,Stocks,NASDAQ,-
+LINKBANCORP Inc,LNKB,Stocks,NASDAQ,-
+Token Cat Ltd,TC,Stocks,NASDAQ,-
+Hitek Global Inc,HKIT,Stocks,NASDAQ,-
+Maase Inc,MAAS,Stocks,NASDAQ,-
+ATIF Holdings Ltd,ZBAI,Stocks,NASDAQ,-
+Jiayin Group Inc,JFIN,Stocks,NASDAQ,-
+X3 Holdings Co Ltd,XTKG,Stocks,NASDAQ,-
+Candel Therapeutics Inc,CADL,Stocks,NASDAQ,-
+Chemomab Therapeutics Ltd,CMMB,Stocks,NASDAQ,-
+Cardiol Therapeutics Inc,CRDL,Stocks,NASDAQ,-
+Rhinebeck Bancorp Inc,RBKB,Stocks,NASDAQ,-
+Greenlane Holdings Inc,GNLN,Stocks,NASDAQ,-
+High Tide Inc,HITI,Stocks,NASDAQ,-
+BioNexus Gene Lab Corp,BGLC,Stocks,NASDAQ,-
+Generation Income Properties Inc,GIPR,Stocks,NASDAQ,-
+Bolt Biotherapeutics Inc,BOLT,Stocks,NASDAQ,-
+BioHarvest Sciences Inc,BHST,Stocks,NASDAQ,-
+Passage Bio Inc,PASG,Stocks,NASDAQ,-
+Blue Hat Interactive Entertainment Technology,BHAT,Stocks,NASDAQ,-
+Actuate Therapeutics Inc,ACTU,Stocks,NASDAQ,-
+Paranovus Entertainment Technology Ltd,PAVS,Stocks,NASDAQ,-
+Globavend Holdings Ltd,GVH,Stocks,NASDAQ,-
+60 Degrees Pharmaceuticals Inc,SXTP,Stocks,NASDAQ,-
+Zhibao Technology Inc,ZBAO,Stocks,NASDAQ,-
+Celularity Inc,CELU,Stocks,NASDAQ,-
+Triller Group Inc,ILLR,Stocks,NASDAQ,-
+Pioneer Bancorp Inc/NY,PBFS,Stocks,NASDAQ,-
+Orion Digital Corp,ORIO,Stocks,NASDAQ,-
+U Power Ltd,UCAR,Stocks,NASDAQ,-
+CNS Pharmaceuticals Inc,CNSP,Stocks,NASDAQ,-
+Century Therapeutics Inc,IPSC,Stocks,NASDAQ,-
+Mediaco Holding Inc,MDIA,Stocks,NASDAQ,-
+Onconetix Inc,ONCO,Stocks,NASDAQ,-
+Pyxis Oncology Inc,PYXS,Stocks,NASDAQ,-
+Carlsmed Inc,CARL,Stocks,NASDAQ,-
+Karooooo Ltd,KARO,Stocks,NASDAQ,-
+Tivic Health Systems Inc,TIVC,Stocks,NASDAQ,-
+WM Technology Inc,MAPS,Stocks,NASDAQ,-
+BT Brands Inc,BTBD,Stocks,NASDAQ,-
+Willow Lane Acquisition Corp,WLAC,Stocks,NASDAQ,-
+Boundless Bio Inc,BOLD,Stocks,NASDAQ,-
+Huize Holding Ltd,HUIZ,Stocks,NASDAQ,-
+Aprea Therapeutics Inc,APRE,Stocks,NASDAQ,-
+Bogota Financial Corp,BSBK,Stocks,NASDAQ,-
+XChange TEC Inc,XHG,Stocks,NASDAQ,-
+Inspira Technologies Oxy BHN Ltd,IINN,Stocks,NASDAQ,-
+Fangdd Network Group Ltd,DUO,Stocks,NASDAQ,-
+Momentus Inc,MNTS,Stocks,NASDAQ,-
+Docebo Inc,DCBO,Stocks,NASDAQ,-
+NeoVolta Inc,NEOV,Stocks,NASDAQ,-
+iPower Inc,IPW,Stocks,NASDAQ,-
+Katapult Holdings Inc,KPLT,Stocks,NASDAQ,-
+Jasper Therapeutics Inc,JSPR,Stocks,NASDAQ,-
+Sound Group Inc,SOGP,Stocks,NASDAQ,-
+CuriosityStream Inc,CURI,Stocks,NASDAQ,-
+Oriental Culture Holding Ltd,OCG,Stocks,NASDAQ,-
+American Outdoor Brands Inc,AOUT,Stocks,NASDAQ,-
+Society Pass Inc,SOPA,Stocks,NASDAQ,-
+Aligos Therapeutics Inc,ALGS,Stocks,NASDAQ,-
+Zhongchao Inc,ZCMD,Stocks,NASDAQ,-
+Draganfly Inc,DPRO,Stocks,NASDAQ,-
+MaxCyte Inc,MXCT,Stocks,NASDAQ,-
+Autonomix Medical Inc,AMIX,Stocks,NASDAQ,-
+RYTHM Inc,RYM,Stocks,NASDAQ,-
+Benitec Biopharma Inc,BNTC,Stocks,NASDAQ,-
+BTC Digital Ltd,BTCT,Stocks,NASDAQ,-
+Addex Therapeutics Ltd,ADXN,Stocks,NASDAQ,-
+TIAN RUIXIANG Holdings Ltd,TIRX,Stocks,NASDAQ,-
+Kyverna Therapeutics Inc,KYTX,Stocks,NASDAQ,-
+Aditxt Inc,ADTX,Stocks,NASDAQ,-
+Fathom Holdings Inc,FTHM,Stocks,NASDAQ,-
+NewcelX Ltd,NCEL,Stocks,NASDAQ,-
+Nukkleus Inc,NUKK,Stocks,NASDAQ,-
+UTime Ltd,WTO,Stocks,NASDAQ,-
+Nexgel Inc,NXGL,Stocks,NASDAQ,-
+CISO Global Inc,CISO,Stocks,NASDAQ,-
+Lion Group Holding Ltd,LGHL,Stocks,NASDAQ,-
+Skillful Craftsman Education Technology Ltd,EDTK,Stocks,NASDAQ,-
+Ebang International Holdings Inc,EBON,Stocks,NASDAQ,-
+A2Z Cust2Mate Solutions Corp,AZ,Stocks,NASDAQ,-
+Ucloudlink Group Inc,UCL,Stocks,NASDAQ,-
+PodcastOne Inc,PODC,Stocks,NASDAQ,-
+Playboy Inc,PLBY,Stocks,NASDAQ,-
+IM Cannabis Corp,IMCC,Stocks,NASDAQ,-
+Burning Rock Biotech Ltd,BNR,Stocks,NASDAQ,-
+Sensei Biotherapeutics Inc,SNSE,Stocks,NASDAQ,-
+DoubleDown Interactive Co Ltd,DDI,Stocks,NASDAQ,-
+Quhuo Ltd,QH,Stocks,NASDAQ,-
+Inventiva SACA,IVA,Stocks,NASDAQ,-
+Real Brokerage Inc/The,REAX,Stocks,NASDAQ,-
+Artiva Biotherapeutics Inc,ARTV,Stocks,NASDAQ,-
+PainReform Ltd,PRFX,Stocks,NASDAQ,-
+CN Energy Group Inc,CNEY,Stocks,NASDAQ,-
+Vasta Platform Ltd,VSTA,Stocks,NASDAQ,-
+Vision Marine Technologies Inc,VMAR,Stocks,NASDAQ,-
+Baosheng Media Group Holding Ltd,BAOS,Stocks,NASDAQ,-
+Gain Therapeutics Inc,GANX,Stocks,NASDAQ,-
+Nautilus Biotechnology Inc,NAUT,Stocks,NASDAQ,-
+Vox Royalty Corp,VOXR,Stocks,NASDAQ,-
+MIND Technology Inc,MIND,Stocks,NASDAQ,-
+Revelation Biosciences Inc,REVB,Stocks,NASDAQ,-
+Universe Pharmaceuticals Inc,UPC,Stocks,NASDAQ,-
+Jiuzi Holdings Inc,JZXN,Stocks,NASDAQ,-
+Movano Inc,MOVE.US,Stocks,NASDAQ,-
+Clene Inc,CLNN,Stocks,NASDAQ,-
+Guardforce AI Co Ltd,GFAI,Stocks,NASDAQ,-
+Intelligent Living Application Group Inc,ILAG,Stocks,NASDAQ,-
+Lixiang Education Holding Co Ltd,LXEH,Stocks,NASDAQ,-
+LENSAR Inc,LNSR,Stocks,NASDAQ,-
+Meiwu Technology Co Ltd,WNW,Stocks,NASDAQ,-
+Affinity Bancshares Inc,AFBI,Stocks,NASDAQ,-
+Huadi International Group Co Ltd,HUDI,Stocks,NASDAQ,-
+Coeptis Therapeutics Holdings Inc,COEP,Stocks,NASDAQ,-
+Inspirato Inc,ISPO,Stocks,NASDAQ,-
+IN8bio Inc,INAB,Stocks,NASDAQ,-
+Surrozen Inc,SRZN,Stocks,NASDAQ,-
+ImageneBio Inc,IMA,Stocks,NASDAQ,-
+Auddia Inc,AUUD,Stocks,NASDAQ,-
+Ezgo Technologies Ltd,EZGO,Stocks,NASDAQ,-
+DEFSEC Technologies Inc,DFSC,Stocks,NASDAQ,-
+Metagenomi Therapeutics Inc,MGX,Stocks,NASDAQ,-
+PureTech Health PLC,PRTC,Stocks,NASDAQ,-
+17 Education & Technology Group Inc,YQ,Stocks,NASDAQ,-
+Ucommune International Ltd,UK,Stocks,NASDAQ,-
+Forian Inc,FORA,Stocks,NASDAQ,-
+Nanobiotix SA,NBTX,Stocks,NASDAQ,-
+MEDIROM Healthcare Technologies Inc,MRM,Stocks,NASDAQ,-
+Alliance Entertainment Holding Corp,AENT,Stocks,NASDAQ,-
+Lexeo Therapeutics Inc,LXEO,Stocks,NASDAQ,-
+Jowell Global Ltd,JWEL,Stocks,NASDAQ,-
+Snow Lake Resources Ltd,LITM,Stocks,NASDAQ,-
+Reservoir Media Inc,RSVR,Stocks,NASDAQ,-
+Tao Synergies Inc,TAOX,Stocks,NASDAQ,-
+Bon Natural Life Ltd,BON,Stocks,NASDAQ,-
+Banzai International Inc,BNZI,Stocks,NASDAQ,-
+Infobird Co Ltd,IFBD,Stocks,NASDAQ,-
+SAB Biotherapeutics Inc,SABS,Stocks,NASDAQ,-
+Marathon Bancorp Inc,MBBC,Stocks,NASDAQ,-
+EpicQuest Education Group Inte,EEIQ,Stocks,NASDAQ,-
+Avax One Technology Ltd,AVX,Stocks,NASDAQ,-
+Motorsport Games Inc,MSGM,Stocks,NASDAQ,-
+Palladyne AI Corp,PDYN,Stocks,NASDAQ,-
+Pharming Group NV,PHAR,Stocks,NASDAQ,-
+BuzzFeed Inc,BZFD,Stocks,NASDAQ,-
+Great Elm Group Inc,GEG,Stocks,NASDAQ,-
+GBank Financial Holdings Inc,GBFH,Stocks,NASDAQ,-
+Evaxion A/S,EVAX,Stocks,NASDAQ,-
+SeaStar Medical Holding Corp,ICU,Stocks,NASDAQ,-
+Edible Garden AG Inc,EDBL,Stocks,NASDAQ,-
+Hyperfine Inc,HYPR,Stocks,NASDAQ,-
+Stardust Power Inc,SDST,Stocks,NASDAQ,-
+United Homes Group Inc,UHG,Stocks,NASDAQ,-
+CDT Environmental Technology Investment Holdings L,CDTG,Stocks,NASDAQ,-
+Adagene Inc,ADAG,Stocks,NASDAQ,-
+TriSalus Life Sciences Inc,TLSI,Stocks,NASDAQ,-
+T Stamp Inc,IDAI,Stocks,NASDAQ,-
+Spectral AI Inc,MDAI,Stocks,NASDAQ,-
+Nuvve Holding Corp,NVVE,Stocks,NASDAQ,-
+Coya Therapeutics Inc,COYA,Stocks,NASDAQ,-
+GDEV Inc,GDEV,Stocks,NASDAQ,-
+Royalty Management Holding Corp,RMCO,Stocks,NASDAQ,-
+AlTi Global Inc,ALTI,Stocks,NASDAQ,-
+Innovage Holding Corp,INNV,Stocks,NASDAQ,-
+Envoy Medical Inc,COCH,Stocks,NASDAQ,-
+Brand Engagement Network Inc,BNAI,Stocks,NASDAQ,-
+Flora Growth Corp,FLGC,Stocks,NASDAQ,-
+Oaktree Acquisition Corp III Life Sciences,OACC,Stocks,NASDAQ,-
+Steakholder Foods Ltd,STKH,Stocks,NASDAQ,-
+SunPower Inc,SPWR,Stocks,NASDAQ,-
+Estrella Immunopharma Inc,ESLA,Stocks,NASDAQ,-
+Bolt Projects Holdings Inc,BSLK,Stocks,NASDAQ,-
+TransCode Therapeutics Inc,RNAZ,Stocks,NASDAQ,-
+Instil Bio Inc,TIL,Stocks,NASDAQ,-
+Connect Biopharma Holdings Ltd,CNTB,Stocks,NASDAQ,-
+Pop Culture Group Co Ltd,CPOP,Stocks,NASDAQ,-
+Verde Clean Fuels Inc,VGAS,Stocks,NASDAQ,-
+Veea Inc,VEEA,Stocks,NASDAQ,-
+GP-Act III Acquisition Corp,GPAT,Stocks,NASDAQ,-
+Nyxoah SA,NYXH,Stocks,NASDAQ,-
+SAIHEAT Ltd,SAIH,Stocks,NASDAQ,-
+Bright Minds Biosciences Inc,DRUG,Stocks,NASDAQ,-
+SmartKem Inc,SMTK,Stocks,NASDAQ,-
+OneMedNet Corp,ONMD,Stocks,NASDAQ,-
+Alzamend Neuro Inc,ALZN,Stocks,NASDAQ,-
+Catalyst Bancorp Inc,CLST,Stocks,NASDAQ,-
+Smart Share Global Ltd,EM,Stocks,NASDAQ,-
+Climb Bio Inc,CLYM,Stocks,NASDAQ,-
+Greenidge Generation Holdings Inc,GREE,Stocks,NASDAQ,-
+Sentage Holdings Inc,SNTG,Stocks,NASDAQ,-
+Siddhi Acquisition Corp,SDHI,Stocks,NASDAQ,-
+FTC Solar Inc,FTCI,Stocks,NASDAQ,-
+New Providence Acquisition Corp III,NPAC,Stocks,NASDAQ,-
+Chanson International Holding,CHSN,Stocks,NASDAQ,-
+Anebulo Pharmaceuticals Inc,ANEB,Stocks,NASDAQ,-
+Airship AI Holdings Inc,AISP,Stocks,NASDAQ,-
+Valneva SE,VALN,Stocks,NASDAQ,-
+Barinthus Biotherapeutics PLC,BRNS,Stocks,NASDAQ,-
+Pasithea Therapeutics Corp,KTTA,Stocks,NASDAQ,-
+Zenvia Inc,ZENV,Stocks,NASDAQ,-
+Mobile Infrastructure Corp,BEEP,Stocks,NASDAQ,-
+Molecular Partners AG,MOLN,Stocks,NASDAQ,-
+Datacentrex Inc,DTCX,Stocks,NASDAQ,-
+Golden Sun Health Technology Group ltd,GSUN,Stocks,NASDAQ,-
+DevvStream Corp,DEVS,Stocks,NASDAQ,-
+Senti Biosciences Inc,SNTI,Stocks,NASDAQ,-
+BranchOut Food Inc,BOF,Stocks,NASDAQ,-
+Citius Oncology Inc,CTOR,Stocks,NASDAQ,-
+Unicycive Therapeutics Inc,UNCY,Stocks,NASDAQ,-
+HCW Biologics Inc,HCWB,Stocks,NASDAQ,-
+Acurx Pharmaceuticals Inc,ACXP,Stocks,NASDAQ,-
+Eco Wave Power Global AB,WAVE,Stocks,NASDAQ,-
+Nauticus Robotics Inc,KITT,Stocks,NASDAQ,-
+NextNRG Inc,NXXT,Stocks,NASDAQ,-
+Twin Vee PowerCats Co,VEEE,Stocks,NASDAQ,-
+Eupraxia Pharmaceuticals Inc,EPRX,Stocks,NASDAQ,-
+SHF Holdings Inc,SHFS,Stocks,NASDAQ,-
+Alpha Cognition Inc,ACOG,Stocks,NASDAQ,-
+Dermata Therapeutics Inc,DRMA,Stocks,NASDAQ,-
+Aduro Clean Technologies Inc,ADUR,Stocks,NASDAQ,-
+Chicago Atlantic BDC Inc,LIEN,Stocks,NASDAQ,-
+Codere Online Luxembourg SA,CDRO,Stocks,NASDAQ,-
+Euda Health Holdings Ltd,EUDA,Stocks,NASDAQ,-
+Mobix Labs Inc,MOBX,Stocks,NASDAQ,-
+ArriVent Biopharma Inc,AVBP,Stocks,NASDAQ,-
+Rallybio Corp,RLYB,Stocks,NASDAQ,-
+Tigo Energy Inc,TYGO,Stocks,NASDAQ,-
+Rani Therapeutics Holdings Inc,RANI,Stocks,NASDAQ,-
+Acrivon Therapeutics Inc,ACRV,Stocks,NASDAQ,-
+Jet.AI Inc,JTAI,Stocks,NASDAQ,-
+Borealis Foods Inc,BRLS,Stocks,NASDAQ,-
+Context Therapeutics Inc,CNTX,Stocks,NASDAQ,-
+Swvl Holdings Corp,SWVL,Stocks,NASDAQ,-
+PepGen Inc,PEPG,Stocks,NASDAQ,-
+Aardvark Therapeutics Inc,AARD,Stocks,NASDAQ,-
+FAT Brands Inc,FATBB,Stocks,NASDAQ,-
+Clearmind Medicine Inc,CMND,Stocks,NASDAQ,-
+Alpha Modus Holdings Inc,AMOD,Stocks,NASDAQ,-
+Abits Group Inc,ABTS,Stocks,NASDAQ,-
+Blaize Holdings Inc,BZAI,Stocks,NASDAQ,-
+Argo Blockchain PLC,ARBK,Stocks,NASDAQ,-
+Tiziana Life Sciences Ltd,TLSA,Stocks,NASDAQ,-
+Tokyo Lifestyle Co Ltd,TKLF,Stocks,NASDAQ,-
+Brilliant Earth Group Inc,BRLT,Stocks,NASDAQ,-
+Healthcare Triangle Inc,HCTI,Stocks,NASDAQ,-
+Mobile-Health Network Solutions,MNDR,Stocks,NASDAQ,-
+CYNGN Inc,CYN,Stocks,NASDAQ,-
+Cingulate Inc,CING,Stocks,NASDAQ,-
+FGI Industries Ltd,FGI,Stocks,NASDAQ,-
+Empery Digital Inc,EMPD,Stocks,NASDAQ,-
+TruGolf Holdings Inc,TRUG,Stocks,NASDAQ,-
+Algoma Steel Group Inc,ASTL,Stocks,NASDAQ,-
+Allarity Therapeutics Inc,ALLR,Stocks,NASDAQ,-
+Lucid Diagnostics Inc,LUCD,Stocks,NASDAQ,-
+NSTS Bancorp Inc,NSTS,Stocks,NASDAQ,-
+Zeo Energy Corp,ZEO,Stocks,NASDAQ,-
+Fast Track Group,FTRK,Stocks,NASDAQ,-
+MultiSensor AI Holdings Inc,MSAI,Stocks,NASDAQ,-
+Bluejay Diagnostics Inc,BJDX,Stocks,NASDAQ,-
+Neumora Therapeutics Inc,NMRA,Stocks,NASDAQ,-
+Mainz Biomed NV,MYNZ,Stocks,NASDAQ,-
+Lulu's Fashion Lounge Holdings Inc,LVLU,Stocks,NASDAQ,-
+VSee Health Inc,VSEE,Stocks,NASDAQ,-
+Jupiter Neurosciences Inc,JUNS,Stocks,NASDAQ,-
+Telesat Corp,TSAT,Stocks,NASDAQ,-
+Laser Photonics Corp,LASE,Stocks,NASDAQ,-
+Cardio Diagnostics Holdings Inc,CDIO,Stocks,NASDAQ,-
+Prenetics Global Ltd,PRE,Stocks,NASDAQ,-
+IO Biotech Inc,IOBT,Stocks,NASDAQ,-
+NeuroSense Therapeutics Ltd,NRSN,Stocks,NASDAQ,-
+OceanPal Inc,SVRN,Stocks,NASDAQ,-
+Tevogen Bio Holdings Inc,TVGN,Stocks,NASDAQ,-
+Cycurion Inc,CYCU,Stocks,NASDAQ,-
+Satellogic Inc,SATL,Stocks,NASDAQ,-
+Hour Loop Inc,HOUR,Stocks,NASDAQ,-
+MARIS - TECH LTD,MTEK,Stocks,NASDAQ,-
+Aeluma Inc,ALMU,Stocks,NASDAQ,-
+Drilling Tools International Corp,DTI,Stocks,NASDAQ,-
+Tenon Medical Inc,TNON,Stocks,NASDAQ,-
+Akanda Corp,AKAN,Stocks,NASDAQ,-
+Imperial Petroleum Inc,IMPP,Stocks,NASDAQ,-
+5E Advanced Materials Inc,FEAM,Stocks,NASDAQ,-
+Sidus Space Inc,SIDU,Stocks,NASDAQ,-
+Heartcore Enterprises Inc,HTCR,Stocks,NASDAQ,-
+Anghami Inc,ANGH,Stocks,NASDAQ,-
+Abpro Holdings Inc,ABP,Stocks,NASDAQ,-
+AirJoule Technologies Corp,AIRJ,Stocks,NASDAQ,-
+Flag Ship Acquisition Corp,FSHP,Stocks,NASDAQ,-
+Zenta Group Co Ltd,ZGM,Stocks,NASDAQ,-
+Gores Holdings X Inc,GTEN,Stocks,NASDAQ,-
+Ads-Tec Energy PLC,ADSE,Stocks,NASDAQ,-
+USCB Financial Holdings Inc,USCB,Stocks,NASDAQ,-
+Reborn Coffee Inc,REBN,Stocks,NASDAQ,-
+Nexalin Technology Inc,NXL,Stocks,NASDAQ,-
+Aclarion Inc,ACON,Stocks,NASDAQ,-
+Innovative Eyewear Inc,LUCY,Stocks,NASDAQ,-
+TH International Ltd,THCH,Stocks,NASDAQ,-
+Novonix Ltd,NVX,Stocks,NASDAQ,-
+Cloudastructure Inc,CSAI,Stocks,NASDAQ,-
+Erayak Power Solution Group Inc,RAYA,Stocks,NASDAQ,-
+Vestand Inc,VSTD,Stocks,NASDAQ,-
+Li Bang International Corp Inc,LBGJ,Stocks,NASDAQ,-
+U-BX Technology Ltd,UBXG,Stocks,NASDAQ,-
+Jeffs Brands Ltd,JFBR,Stocks,NASDAQ,-
+Aspire Biopharma Holdings Inc,ASBP,Stocks,NASDAQ,-
+Visionary Holdings Inc,GV,Stocks,NASDAQ,-
+OKYO Pharma Ltd,OKYO,Stocks,NASDAQ,-
+SaverOne 2014 Ltd,SVRE,Stocks,NASDAQ,-
+Epsium Enterprise Ltd,EPSM,Stocks,NASDAQ,-
+Klotho Neurosciences Inc,KLTO,Stocks,NASDAQ,-
+JE Cleantech Holdings Ltd,JCSE,Stocks,NASDAQ,-
+Planet Image International Ltd,YIBO,Stocks,NASDAQ,-
+Virax Biolabs Group Ltd,VRAX,Stocks,NASDAQ,-
+J-Star Holding Co Ltd,YMAT,Stocks,NASDAQ,-
+Locafy Ltd,LCFY,Stocks,NASDAQ,-
+Primech Holdings Ltd,PMEC,Stocks,NASDAQ,-
+Onfolio Holdings Inc,ONFO,Stocks,NASDAQ,-
+Sharps Technology Inc,STSS,Stocks,NASDAQ,-
+Treasure Global Inc,TGL,Stocks,NASDAQ,-
+La Rosa Holdings Corp,LRHC,Stocks,NASDAQ,-
+Magic Empire Global Ltd,MEGL,Stocks,NASDAQ,-
+OSR Holdings Inc,OSRH,Stocks,NASDAQ,-
+ECB Bancorp Inc/MD,ECBK,Stocks,NASDAQ,-
+Lichen International Ltd,LICN,Stocks,NASDAQ,-
+Mobilicom Ltd/Australia,MOB,Stocks,NASDAQ,-
+Forafric Global PLC,AFRI,Stocks,NASDAQ,-
+Brenmiller Energy Ltd,BNRG,Stocks,NASDAQ,-
+Princeton Bancorp Inc,BPRN,Stocks,NASDAQ,-
+ParaZero Technologies Ltd,PRZO,Stocks,NASDAQ,-
+High-Trend International Group,HTCO,Stocks,NASDAQ,-
+Shuttle Pharmaceuticals Holdings Inc,SHPH,Stocks,NASDAQ,-
+Coincheck Group NV,CNCK,Stocks,NASDAQ,-
+Intchains Group Ltd,ICG,Stocks,NASDAQ,-
+ioneer Ltd,IONR,Stocks,NASDAQ,-
+Digital Currency X Technology Inc,DCX,Stocks,NASDAQ,-
+Moolec Science SA,MLEC,Stocks,NASDAQ,-
+Republic Power Group Ltd,RPGL,Stocks,NASDAQ,-
+Autozi Internet Technology Global Ltd,AZI,Stocks,NASDAQ,-
+Newton Golf Company Inc,NWTG,Stocks,NASDAQ,-
+Polyrizon Ltd,PLRZ,Stocks,NASDAQ,-
+Innovation Beverage Group Ltd,IBG,Stocks,NASDAQ,-
+CBL International Ltd,BANL,Stocks,NASDAQ,-
+Gelteq Ltd,GELS,Stocks,NASDAQ,-
+Snail Inc,SNAL,Stocks,NASDAQ,-
+Cadrenal Therapeutics Inc,CVKD,Stocks,NASDAQ,-
+SBC Medical Group Holdings Inc,SBC,Stocks,NASDAQ,-
+ARB IOT Group Ltd,ARBB,Stocks,NASDAQ,-
+Sky Quarry Inc,SKYQ,Stocks,NASDAQ,-
+Fitell Corp,FTEL,Stocks,NASDAQ,-
+INNEOVA Holdings Ltd,INEO,Stocks,NASDAQ,-
+Gaxos.ai Inc,GXAI,Stocks,NASDAQ,-
+Aurelion Inc,AURE,Stocks,NASDAQ,-
+SMX Security Matters PLC,SMX,Stocks,NASDAQ,-
+Millennium Group International Holdings Ltd,MGIH,Stocks,NASDAQ,-
+VCI Global Ltd,VCIG,Stocks,NASDAQ,-
+MDB Capital Holdings LLC,MDBH,Stocks,NASDAQ,-
+Robo.ai Inc,AIIO,Stocks,NASDAQ,-
+Oculis Holding AG,OCS,Stocks,NASDAQ,-
+Cytomed Therapeutics Ltd,GDTC,Stocks,NASDAQ,-
+Global Mofy AI Ltd,GMM,Stocks,NASDAQ,-
+Ohmyhome LTD,OMH,Stocks,NASDAQ,-
+Able View Global Inc,ABLV,Stocks,NASDAQ,-
+Bullfrog AI Holdings Inc,BFRG,Stocks,NASDAQ,-
+FG Nexus Inc,FGNX,Stocks,NASDAQ,-
+Heritage Distilling Holding Co Inc,IPST,Stocks,NASDAQ,-
+Xiao I Corp,AIXI,Stocks,NASDAQ,-
+Here Group Ltd,HERE,Stocks,NASDAQ,-
+Galaxy Payroll Group Ltd,GLXG,Stocks,NASDAQ,-
+Ruanyun Edai Technology Inc,RYET,Stocks,NASDAQ,-
+Earlyworks Co Ltd,ELWS,Stocks,NASDAQ,-
+ESGL Holdings Ltd,ESGL,Stocks,NASDAQ,-
+Mangoceuticals Inc,MGRX,Stocks,NASDAQ,-
+Top Kingwin Ltd,WAI,Stocks,NASDAQ,-
+CO2 Energy Transition Corp,NOEM,Stocks,NASDAQ,-
+Freightos Ltd,CRGO,Stocks,NASDAQ,-
+Global Interactive Technologies Inc,GITS,Stocks,NASDAQ,-
+Hub Cyber Security Ltd,HUBC,Stocks,NASDAQ,-
+FBS Global Ltd,FBGL,Stocks,NASDAQ,-
+CASI Pharmaceuticals Holdings Inc,CASI,Stocks,NASDAQ,-
+Interactive Strength Inc,TRNR,Stocks,NASDAQ,-
+Haoxin Holdings Ltd,HXHX,Stocks,NASDAQ,-
+Webus International Ltd,WETO,Stocks,NASDAQ,-
+RenX Enterprises Corp,RENX,Stocks,NASDAQ,-
+Jayud Global Logistics Ltd,JYD,Stocks,NASDAQ,-
+Lucas GC Ltd,LGCL,Stocks,NASDAQ,-
+AIRO Group Holdings Inc,AIRO,Stocks,NASDAQ,-
+Davis Commodities Ltd,DTCK,Stocks,NASDAQ,-
+SR Bancorp Inc,SRBK,Stocks,NASDAQ,-
+Lobo Technologies Ltd,LOBO,Stocks,NASDAQ,-
+PowerBank Corp,SUUN,Stocks,NASDAQ,-
+Binah Capital Group Inc,BCG,Stocks,NASDAQ,-
+CCSC Technology International Holdings Ltd,CCTG,Stocks,NASDAQ,-
+Oak Woods Acquisition Corp,OAKU,Stocks,NASDAQ,-
+Mingteng International Corp Inc,MTEN,Stocks,NASDAQ,-
+Huhutech International Group Inc,HUHU,Stocks,NASDAQ,-
+Cheetah Net Supply Chain Service Inc,CTNT,Stocks,NASDAQ,-
+Inspire Veterinary Partners Inc,IVP,Stocks,NASDAQ,-
+US Goldmining Inc,USGO,Stocks,NASDAQ,-
+CL Workshop Group Ltd,NWGL,Stocks,NASDAQ,-
+WORK Medical Technology Group Ltd,WOK,Stocks,NASDAQ,-
+Eshallgo Inc,EHGO,Stocks,NASDAQ,-
+Solowin Holdings,AXG,Stocks,NASDAQ,-
+Webuy Global Ltd,WBUY,Stocks,NASDAQ,-
+NewGenIvf Group Ltd,NIVF,Stocks,NASDAQ,-
+Maison Solutions Inc,MSS,Stocks,NASDAQ,-
+C3is Inc,CISS,Stocks,NASDAQ,-
+Intelligent Group Ltd,INTJ,Stocks,NASDAQ,-
+TNL Mediagene,TNMG,Stocks,NASDAQ,-
+Roma Green Finance Ltd,ROMA,Stocks,NASDAQ,-
+Murano Global Investments PLC,MRNO,Stocks,NASDAQ,-
+LQR House Inc,YHC,Stocks,NASDAQ,-
+Toyo Co Ltd,TOYO,Stocks,NASDAQ,-
+Ming Shing Group Holdings Ltd,MSW,Stocks,NASDAQ,-
+Ferrovial SE,FER,Stocks,NASDAQ,-
+Garden Stage Ltd,GSIW,Stocks,NASDAQ,-
+Atlanta Braves Holdings Inc,BATRA,Stocks,NASDAQ,-
+Spark I Acquisition Corp,SPKL,Stocks,NASDAQ,-
+Alpha Technology Group Ltd,ATGL,Stocks,NASDAQ,-
+Semilux International Ltd,SELX,Stocks,NASDAQ,-
+Keen Vision Acquisition Corp,KVAC,Stocks,NASDAQ,-
+Adlai Nortye Ltd,ANL,Stocks,NASDAQ,-
+Real Messenger Corp,RMSG,Stocks,NASDAQ,-
+Jinxin Technology Holding Co,NAMI,Stocks,NASDAQ,-
+Liminatus Pharma Inc,LIMN,Stocks,NASDAQ,-
+VS MEDIA Holdings Ltd,VSME,Stocks,NASDAQ,-
+Advanced Biomed Inc,ADVB,Stocks,NASDAQ,-
+New Century Logistics BVI Ltd,NCEW,Stocks,NASDAQ,-
+SCHMID Group NV,SHMD,Stocks,NASDAQ,-
+Youxin Technology Ltd,YAAS,Stocks,NASDAQ,-
+Alumis Inc,ALMS,Stocks,NASDAQ,-
+Fenbo Holdings Ltd,FEBO,Stocks,NASDAQ,-
+Kindly MD Inc,NAKA,Stocks,NASDAQ,-
+K Wave Media Ltd,KWM,Stocks,NASDAQ,-
+PMGC Holdings Inc,ELAB,Stocks,NASDAQ,-
+Nvni Group Ltd,NVNI,Stocks,NASDAQ,-
+Shimmick Corp,SHIM,Stocks,NASDAQ,-
+Scage Future,SCAG,Stocks,NASDAQ,-
+iTonic Holdings Ltd,ITOC,Stocks,NASDAQ,-
+Quetta Acquisition Corp,QETA,Stocks,NASDAQ,-
+Carbon Revolution PLC,CREV,Stocks,NASDAQ,-
+Baiya International Group Inc,BIYA,Stocks,NASDAQ,-
+Neo-Concept International Group Holdings Ltd,NCI,Stocks,NASDAQ,-
+WF International Ltd,WXM,Stocks,NASDAQ,-
+J-Long Group Ltd,JL,Stocks,NASDAQ,-
+Armlogi Holding Corp,BTOC,Stocks,NASDAQ,-
+YY Group Holding Ltd,YYGH,Stocks,NASDAQ,-
+Samfine Creation Holdings Group Ltd,SFHG,Stocks,NASDAQ,-
+Fibrobiologics Inc,FBLG,Stocks,NASDAQ,-
+Telomir Pharmaceuticals Inc,TELO,Stocks,NASDAQ,-
+Captivision Inc,CAPT,Stocks,NASDAQ,-
+Top Wealth Group Holding Ltd,TWG,Stocks,NASDAQ,-
+Medicus Pharma Ltd,MDCX,Stocks,NASDAQ,-
+Liberty Global Ltd,LBTYB,Stocks,NASDAQ,-
+Ten-League International Holdings Ltd,TLIH,Stocks,NASDAQ,-
+ZenaTech Inc,ZENA,Stocks,NASDAQ,-
+eLong Power Holding Ltd,ELPW,Stocks,NASDAQ,-
+Aimei Health Technology Co Ltd,AFJK,Stocks,NASDAQ,-
+Linkers Industries Ltd,LNKS,Stocks,NASDAQ,-
+Energys Group Ltd,ENGS,Stocks,NASDAQ,-
+Twin Hospitality Group Inc,TWNP,Stocks,NASDAQ,-
+Massimo Group,MAMO,Stocks,NASDAQ,-
+Neonc Technologies Holdings Inc,NTHI,Stocks,NASDAQ,-
+3 E Network Technology Group Ltd,MASK,Stocks,NASDAQ,-
+NB Bancorp Inc,NBBK,Stocks,NASDAQ,-
+Jiade Ltd,JDZG,Stocks,NASDAQ,-
+Bayview Acquisition Corp,BAYA,Stocks,NASDAQ,-
+Zhengye Biotechnology Holding Ltd,ZYBT,Stocks,NASDAQ,-
+Rectitude Holdings Ltd,RECT,Stocks,NASDAQ,-
+BridgeBio Oncology Therapeutics Inc,BBOT,Stocks,NASDAQ,-
+iOthree Ltd,IOTR,Stocks,NASDAQ,-
+Psyence Biomedical Ltd,PBM,Stocks,NASDAQ,-
+SKK Holdings Ltd,SKK,Stocks,NASDAQ,-
+XCHG Ltd,XCH,Stocks,NASDAQ,-
+FLY-E Group Inc,FLYE,Stocks,NASDAQ,-
+LZ Technology Holdings Ltd,LZMH,Stocks,NASDAQ,-
+Jbdi Holdings Ltd,JBDI,Stocks,NASDAQ,-
+Wellchange Holdings Co Ltd,WCT,Stocks,NASDAQ,-
+eXoZymes Inc,EXOZ,Stocks,NASDAQ,-
+Wellgistics Health Inc,WGRX,Stocks,NASDAQ,-
+Orangekloud Technology Inc,ORKT,Stocks,NASDAQ,-
+DirectBooking Technology Co Ltd,ZDAI,Stocks,NASDAQ,-
+Wing Yip Food Holdings Group Ltd,WYHG,Stocks,NASDAQ,-
+Cuprina Holdings Cayman Ltd,CUPR,Stocks,NASDAQ,-
+TJGC Group Ltd,TJGC,Stocks,NASDAQ,-
+Contineum Therapeutics Inc,CTNM,Stocks,NASDAQ,-
+Senstar Technologies Corp,SNT,Stocks,NASDAQ,-
+Australian Oilseeds Holdings Ltd,COOT,Stocks,NASDAQ,-
+Reitar Logtech Holdings Ltd,RITR,Stocks,NASDAQ,-
+Lakeside Holding Ltd,LSH,Stocks,NASDAQ,-
+ZOOZ Strategy Ltd,ZOOZ,Stocks,NASDAQ,-
+Silvaco Group Inc,SVCO,Stocks,NASDAQ,-
+Nova Minerals Ltd,NVA,Stocks,NASDAQ,-
+FB Bancorp Inc,FBLA,Stocks,NASDAQ,-
+IB Acquisition Corp,IBAC,Stocks,NASDAQ,-
+Big Tree Cloud Holdings Ltd,DSY,Stocks,NASDAQ,-
+Scantech AI Systems Inc,STAI,Stocks,NASDAQ,-
+Lianhe Sowell International Group Ltd,LHSW,Stocks,NASDAQ,-
+Icon Energy Corp,ICON,Stocks,NASDAQ,-
+Netclass Technology Inc,NTCL,Stocks,NASDAQ,-
+NMP Acquisition Corp,NMP,Stocks,NASDAQ,-
+Inlif Ltd,INLF,Stocks,NASDAQ,-
+M3-Brigade Acquisition V Corp,MBAV,Stocks,NASDAQ,-
+Centurion Acquisition Corp,ALF,Stocks,NASDAQ,-
+Churchill Capital Corp IX,CCIX,Stocks,NASDAQ,-
+Launch One Acquisition Corp,LPAA,Stocks,NASDAQ,-
+Star Fashion Culture Holdings Ltd,STFS,Stocks,NASDAQ,-
+Melar Acquisition Corp I,MACI,Stocks,NASDAQ,-
+Brag House Holdings Inc,TBH,Stocks,NASDAQ,-
+YSX Tech Co Ltd,YSXT,Stocks,NASDAQ,-
+Aureus Greenway Holdings Inc,AGH,Stocks,NASDAQ,-
+ZJK Industrial Co Ltd,ZJK,Stocks,NASDAQ,-
+Above Food Ingredients Inc,ABVE,Stocks,NASDAQ,-
+Linkhome Holdings Inc,LHAI,Stocks,NASDAQ,-
+PS International Group Ltd,PSIG,Stocks,NASDAQ,-
+TWFG Inc,TWFG,Stocks,NASDAQ,-
+Click Holdings Ltd/BVI,CLIK,Stocks,NASDAQ,-
+Safe Pro Group Inc,SPAI,Stocks,NASDAQ,-
+RF Acquisition Corp II,RFAI,Stocks,NASDAQ,-
+Belive Holdings,BLIV,Stocks,NASDAQ,-
+Mega Fortune Co Ltd,MGRT,Stocks,NASDAQ,-
+Vine Hill Capital Investment Corp,VCIC,Stocks,NASDAQ,-
+Fatpipe Inc/UT,FATN,Stocks,NASDAQ,-
+SIM Acquisition Corp I,SIMA,Stocks,NASDAQ,-
+PTL Ltd,PTLE,Stocks,NASDAQ,-
+Fifth District Bancorp Inc,FDSB,Stocks,NASDAQ,-
+Adagio Medical Holdings Inc,ADGM,Stocks,NASDAQ,-
+MKDWELL Tech Inc,MKDW,Stocks,NASDAQ,-
+Founder Group Ltd,FGL,Stocks,NASDAQ,-
+Lionheart Holdings,CUB.US,Stocks,NASDAQ,-
+Megan Holdings Ltd,MGN,Stocks,NASDAQ,-
+Texxon Holding Ltd,NPT,Stocks,NASDAQ,-
+Silexion Therapeutics Corp,SLXN,Stocks,NASDAQ,-
+Cre8 Enterprise Ltd,CRE,Stocks,NASDAQ,-
+Ryojbaba Co Ltd,RYOJ,Stocks,NASDAQ,-
+Homestolife Ltd,HTLM,Stocks,NASDAQ,-
+Park Ha Biological Technology Co Ltd,BYAH,Stocks,NASDAQ,-
+Concorde International Group Ltd,CIGL,Stocks,NASDAQ,-
+Health In Tech Inc,HIT,Stocks,NASDAQ,-
+Eastern International Ltd / CN,ELOG,Stocks,NASDAQ,-
+Mint Incorporation Ltd,MIMI,Stocks,NASDAQ,-
+Anteris Technologies Global Corp,AVR,Stocks,NASDAQ,-
+707 Cayman Holdings Ltd,JEM,Stocks,NASDAQ,-
+GigCapital7 Corp,GIG,Stocks,NASDAQ,-
+Fitness Champs Holdings Ltd,FCHL,Stocks,NASDAQ,-
+DT Cloud Star Acquisition Corp,DTSQ,Stocks,NASDAQ,-
+BingEx Ltd,FLX,Stocks,NASDAQ,-
+Basel Medical Group Ltd,BMGL,Stocks,NASDAQ,-
+Yuanbao Inc,YB,Stocks,NASDAQ,-
+Radiopharm Theranostics Ltd,RADX,Stocks,NASDAQ,-
+WF Holding Ltd/MY,WFF,Stocks,NASDAQ,-
+Rising Dragon Acquisition Corp,RDAC,Stocks,NASDAQ,-
+Charlton Aria Acquisition Corp,CHAR,Stocks,NASDAQ,-
+Foxx Development Holdings Inc,FOXX,Stocks,NASDAQ,-
+Intercont Cayman Ltd,NCT,Stocks,NASDAQ,-
+Leishen Energy Holding Co Ltd,LSE,Stocks,NASDAQ,-
+Smart Logistics Global Ltd,SLGB,Stocks,NASDAQ,-
+Decent Holding Inc,DXST,Stocks,NASDAQ,-
+TEN Holdings Inc,XHLD,Stocks,NASDAQ,-
+Curanex Pharmaceuticals Inc,CURX,Stocks,NASDAQ,-
+Skyline Builders Group Holding Ltd,SKBL,Stocks,NASDAQ,-
+Fact II Acquisition Corp,FACT,Stocks,NASDAQ,-
+Aldel Financial II Inc,ALDF,Stocks,NASDAQ,-
+Cayson Acquisition Corp,CAPN,Stocks,NASDAQ,-
+A SPAC III Acquisition Corp,ASPC,Stocks,NASDAQ,-
+Kandal M Venture Ltd,FMFC,Stocks,NASDAQ,-
+Andretti Acquisition Corp II,POLE,Stocks,NASDAQ,-
+Uni-Fuels Holdings Ltd,UFG,Stocks,NASDAQ,-
+Cellyan Biotechnology CO LTD,HKPD,Stocks,NASDAQ,-
+Callan Jmb Inc,CJMB,Stocks,NASDAQ,-
+Future Vision II Acquisition Corp,FVN,Stocks,NASDAQ,-
+PicoCELA Inc,PCLA,Stocks,NASDAQ,-
+XCF Global Inc,SAFX,Stocks,NASDAQ,-
+Cantor Equity Partners I Inc,CEPO,Stocks,NASDAQ,-
+Newbury Street II Acquisition Corp,NTWO,Stocks,NASDAQ,-
+OMS Energy Technologies Inc,OMSE,Stocks,NASDAQ,-
+Skycorp Solar Group Ltd,PN,Stocks,NASDAQ,-
+Redcloud Holdings PLC,RCT,Stocks,NASDAQ,-
+Masonglory Ltd,MSGY,Stocks,NASDAQ,-
+JFB Construction Holdings,JFB,Stocks,NASDAQ,-
+Masterbeef Group,MB,Stocks,NASDAQ,-
+OneConstruction Group Ltd,ONEG,Stocks,NASDAQ,-
+Delixy Holdings Ltd,DLXY,Stocks,NASDAQ,-
+Stak Inc,STAK,Stocks,NASDAQ,-
+Waton Financial Ltd,WTF,Stocks,NASDAQ,-
+AsiaStrategy,SORA,Stocks,NASDAQ,-
+Launch Two Acquisition Corp,LPBB,Stocks,NASDAQ,-
+FST Corp,KBSX,Stocks,NASDAQ,-
+Inflection Point Acquisition Corp IV,BACQ,Stocks,NASDAQ,-
+Stellar V Capital Corp,SVCC,Stocks,NASDAQ,-
+Dynamix Corp,ETHM,Stocks,NASDAQ,-
+New Era Energy & Digital Inc,NUAI,Stocks,NASDAQ,-
+Tavia Acquisition Corp,TAVI,Stocks,NASDAQ,-
+Leifras Co Ltd,LFS,Stocks,NASDAQ,-
+FG Merger II Corp,FGMC,Stocks,NASDAQ,-
+AleAnna Inc,ANNA,Stocks,NASDAQ,-
+Range Capital Acquisition Corp,RANG,Stocks,NASDAQ,-
+Mountain Lake Acquisition Corp,MLAC,Stocks,NASDAQ,-
+Neuphoria Therapeutics Inc,NEUP,Stocks,NASDAQ,-
+Sagtec Global Ltd,SAGT,Stocks,NASDAQ,-
+Ascentage Pharma Group International,AAPG,Stocks,NASDAQ,-
+Arrive AI Inc,ARAI,Stocks,NASDAQ,-
+GCL Global Holdings Ltd,GCL,Stocks,NASDAQ,-
+Drugs Made In America Acquisition Corp,DMAA,Stocks,NASDAQ,-
+Marwynn Holdings Inc,MWYN,Stocks,NASDAQ,-
+Phoenix Asia Holdings Ltd,PHOE,Stocks,NASDAQ,-
+HORIZON SPACE ACQUISITION II Corp,HSPT,Stocks,NASDAQ,-
+Agroz Inc,AGRZ,Stocks,NASDAQ,-
+One and one Green Technologies Inc,YDDL,Stocks,NASDAQ,-
+Silver Pegasus Acquisition Corp,SPEG,Stocks,NASDAQ,-
+NewHold Investment Corp III,NHIC,Stocks,NASDAQ,-
+Pantages Capital Acquisition Corp,PGAC,Stocks,NASDAQ,-
+Gamehaus Holdings Inc,GMHS,Stocks,NASDAQ,-
+Roman DBDR Acquisition Corp II,DRDB,Stocks,NASDAQ,-
+Plum Acquisition Corp IV,PLMK,Stocks,NASDAQ,-
+Hennessy Capital Investment Corp VII,HVII,Stocks,NASDAQ,-
+Ambitions Enterprise Management Co LLC,AHMA,Stocks,NASDAQ,-
+Texas Ventures Acquisition III Corp,TVA,Stocks,NASDAQ,-
+Archimedes Tech SPAC Partners II Co,ATII,Stocks,NASDAQ,-
+Translational Development Acquisition Corp,TDAC,Stocks,NASDAQ,-
+Heidmar Maritime Holdings Corp,HMR,Stocks,NASDAQ,-
+OFA Group,OFAL,Stocks,NASDAQ,-
+Bgin Blockchain Ltd,BGIN,Stocks,NASDAQ,-
+Inflection Point Acquisition Corp. V,IPEX,Stocks,NASDAQ,-
+Columbus Acquisition Corp,COLA,Stocks,NASDAQ,-
+Everbright Digital Holding Ltd,EDHL,Stocks,NASDAQ,-
+Artius II Acquisition Inc,AACB,Stocks,NASDAQ,-
+K&F Growth Acquisition Corp II,KFII,Stocks,NASDAQ,-
+Pinnacle Food Group Ltd,PFAI,Stocks,NASDAQ,-
+UY Scuti Acquisition Corp,UYSC,Stocks,NASDAQ,-
+Republic Digital Acquisition Co,RDAG,Stocks,NASDAQ,-
+CARTESIAN GROWTH CORP III,CGCT,Stocks,NASDAQ,-
+Rich Sparkle Holdings Ltd,ANPA,Stocks,NASDAQ,-
+Ribbon Acquisition Corp,RIBB,Stocks,NASDAQ,-
+Live Oak Acquisition Corp V,LOKV,Stocks,NASDAQ,-
+Fifth Era Acquisition Corp I,FERA,Stocks,NASDAQ,-
+Gesher Acquisition Corp II,GSHR,Stocks,NASDAQ,-
+Cantor Equity Partners II Inc,CEPT,Stocks,NASDAQ,-
+Titan Acquisition Corp,TACH,Stocks,NASDAQ,-
+Dune Acquisition Corp II,IPOD.US,Stocks,NASDAQ,-
+Thayer Ventures Acquisition Corp II,TVAI,Stocks,NASDAQ,-
+Sizzle Acquisition Corp II,SZZL,Stocks,NASDAQ,-
+Digital Asset Acquisition Corp,DAAQ,Stocks,NASDAQ,-
+Happy City Holdings Ltd,HCHL,Stocks,NASDAQ,-
+Armada Acquisition Corp II,XRPN,Stocks,NASDAQ,-
+BUUU Group Ltd,BUUU,Stocks,NASDAQ,-
+Julong Holding Ltd,JLHL,Stocks,NASDAQ,-
+Lakeshore Acquisition III Corp,LCCC,Stocks,NASDAQ,-
+Real Asset Acquisition Corp,RAAQ,Stocks,NASDAQ,-
+Pelican Acquisition Corp,PELI,Stocks,NASDAQ,-
+Dreamland Ltd,TDIC,Stocks,NASDAQ,-
+BERTO ACQUISITION CORP,TACO.US,Stocks,NASDAQ,-
+Blue Water Acquisition Corp III,BLUW,Stocks,NASDAQ,-
+EGH Acquisition Corp,EGHA,Stocks,NASDAQ,-
+Globa Terra Acquisition Corp,GTERA,Stocks,NASDAQ,-
+Antalpha Platform Holding Co,ANTA,Stocks,NASDAQ,-
+Cal Redwood Acquisition Corp,CRAQ,Stocks,NASDAQ,-
+Wintergreen Acquisition Corp,WTG,Stocks,NASDAQ,-
+D Boral ARC Acquisition I Corp,BCAR,Stocks,NASDAQ,-
+Starz Entertainment Corp,STRZ,Stocks,NASDAQ,-
+Inflection Point Acquisition Corp III,IPCX,Stocks,NASDAQ,-
+ProCap Acquisition Corp,PCAP,Stocks,NASDAQ,-
+StoneBridge Acquisition II Corp,APAC,Stocks,NASDAQ,-
+GIBO Holdings Ltd,GIBO,Stocks,NASDAQ,-
+Hang Feng Technology Innovation Co Ltd,FOFO,Stocks,NASDAQ,-
+Crane Harbor Acquisition Corp,CHAC,Stocks,NASDAQ,-
+Wen Acquisition Corp,WENN,Stocks,NASDAQ,-
+CTW Cayman,CTW,Stocks,NASDAQ,-
+Renatus Tactical Acquisition Corp I,RTAC,Stocks,NASDAQ,-
+K-Tech Solutions Co Ltd,KMRK,Stocks,NASDAQ,-
+Jefferson Capital Inc,JCAP,Stocks,NASDAQ,-
+Oyster Enterprises II Acquisition Corp,OYSE,Stocks,NASDAQ,-
+Lightwave Acquisition Corp,LWAC,Stocks,NASDAQ,-
+Kestrel Group Ltd,KG,Stocks,NASDAQ,-
+ChampionsGate Acquisition Corp,CHPG,Stocks,NASDAQ,-
+Pioneer Acquisition I Corp,PACH,Stocks,NASDAQ,-
+Tryhard Holdings Ltd,THH,Stocks,NASDAQ,-
+Cantor Equity Partners III Inc,CAEP,Stocks,NASDAQ,-
+HCM III Acquisition Corp,HCMA,Stocks,NASDAQ,-
+Yimutian Inc,YMT,Stocks,NASDAQ,-
+1RT Acquisition Corp,ONCH,Stocks,NASDAQ,-
+Perimeter Acquisition Corp I,PMTR,Stocks,NASDAQ,-
+CID Holdco Inc,DAIC,Stocks,NASDAQ,-
+CSLM Digital Asset Acquisition Corp III Ltd,KOYN,Stocks,NASDAQ,-
+Blue Gold Ltd,BGL,Stocks,NASDAQ,-
+Hanover Bancorp Inc,HNVR,Stocks,NASDAQ,-
+Hotel101 Global Holdings Corp,HBNB,Stocks,NASDAQ,-
+Nomadar Corp,NOMA,Stocks,NASDAQ,-
+Youlife Group Inc,YOUL,Stocks,NASDAQ,-
+Agencia Comercial Spirits Ltd,AGCC,Stocks,NASDAQ,-
+Almonty Industries Inc,ALM,Stocks,NASDAQ,-
+Profusa Inc,PFSA,Stocks,NASDAQ,-
+Visionwave Holdings Inc,VWAV,Stocks,NASDAQ,-
+NexMetals Mining Corp,NEXM,Stocks,NASDAQ,-
+Acco Group Holdings Ltd,ACCL,Stocks,NASDAQ,-
+Kochav Defense Acquisition Corp,KCHV,Stocks,NASDAQ,-
+Lake Shore Bancorp Inc/MD,LSBK.US,Stocks,NASDAQ,-
+Acorn Energy Inc,ACFN,Stocks,NASDAQ,-
+Indigo Acquisition Corp,INAC,Stocks,NASDAQ,-
+Axiom Intelligence Acquisition Corp 1,AXIN,Stocks,NASDAQ,-
+Blue Acquisition Corp,BACC,Stocks,NASDAQ,-
+Evolution Global Acquisition Corp,EVOX,Stocks,NASDAQ,-
+Polibeli Group Ltd,PLBL,Stocks,NASDAQ,-
+Spring Valley Acquisition Corp III,SVAC,Stocks,NASDAQ,-
+Avidbank Holdings Inc,AVBH,Stocks,NASDAQ,-
+Darkiris Inc,DKI,Stocks,NASDAQ,-
+GigCapital8 Corp,GIW,Stocks,NASDAQ,-
+Oxley Bridge Acquisition Ltd,OBA,Stocks,NASDAQ,-
+Tailwind 2.0 Acquisition Corp,TDWD,Stocks,NASDAQ,-
+Apex Treasury Corp,APXT,Stocks,NASDAQ,-
+Propanc Biopharma Inc,PPCB,Stocks,NASDAQ,-
+FIGX Capital Acquisition Corp,FIGX,Stocks,NASDAQ,-
+Velo3D Inc,VELO,Stocks,NASDAQ,-
+Digital Brands Group Inc,DBGI,Stocks,NASDAQ,-
+Elite Express Holding Inc,ETS,Stocks,NASDAQ,-
+Cohen Circle Acquisition Corp II,CCII,Stocks,NASDAQ,-
+Vendome Acquisition Corp I,VNME,Stocks,NASDAQ,-
+LB Pharmaceuticals Inc,LBRX,Stocks,NASDAQ,-
+Creative Media & Community Trust Corp,CMCT,Stocks,NASDAQ,-
+Global Self Storage Inc,SELF,Stocks,NASDAQ,-
+Manhattan Bridge Capital Inc,LOAN,Stocks,NASDAQ,-
+Sotherly Hotels Inc,SOHO,Stocks,NASDAQ,-
+Wheeler Real Estate Investment Trust Inc,WHLR,Stocks,NASDAQ,-
+Mackenzie Realty Capital Inc,MKZR,Stocks,NASDAQ,-
+Seven Hills Realty Trust,SEVN,Stocks,NASDAQ,-
+Medalist Diversified REIT Inc,MDRR,Stocks,NASDAQ,-
+A Paradise Acquisition Corp,APAD,Stocks,NASDAQ,-
+Galata Acquisition Corp II,LATA,Stocks,NASDAQ,-
+YD Bio Ltd,YDES,Stocks,NASDAQ,-
+CCH Holdings Ltd,CCHH,Stocks,NASDAQ,-
+Elauwit Connection Inc,ELWT,Stocks,NASDAQ,-
+Park Dental Partners Inc,PARK,Stocks,NASDAQ,-
+Solarius Capital Acquisition Corp,SOCA,Stocks,NASDAQ,-
+Sono Group NV,SSM,Stocks,NASDAQ,-
+Origin Investment Corp I,ORIQ,Stocks,NASDAQ,-
+Sol Strategies Inc,STKE,Stocks,NASDAQ,-
+Range Capital Acquisition Corp II,RNGT,Stocks,NASDAQ,-
+Commercial Bancgroup Inc,CBK,Stocks,NASDAQ,-
+Aptera Motors Corp,SEV,Stocks,NASDAQ,-
+Turn Therapeutics Inc,TTRX,Stocks,NASDAQ,-
+OBOOK Holdings Inc,OWLS,Stocks,NASDAQ,-
+Mount Logan Capital Inc,MLCI,Stocks,NASDAQ,-
+BR Advisory Partners Participacoes SA,BRBI,Stocks,NASDAQ,-
+Anfield Energy Inc,AEC,Stocks,NASDAQ,-
+BTQ Technologies Corp,BTQ,Stocks,NASDAQ,-
+Quantumsphere Acquisition Corp,QUMS,Stocks,NASDAQ,-
+Highview Merger Corp,HVMC,Stocks,NASDAQ,-
+McKinley Acquisition Corp,MKLY,Stocks,NASDAQ,-
+Talon Capital Corp,TLNC,Stocks,NASDAQ,-
+Terra Innovatum Global NV,NKLR,Stocks,NASDAQ,-
+BTC Development Corp,BDCI,Stocks,NASDAQ,-
+M3-Brigade Acquisition VI Corp,MBVI,Stocks,NASDAQ,-
+GSR IV Acquisition Corp,GSRF,Stocks,NASDAQ,-
+Emmis Acquisition Corp,EMIS,Stocks,NASDAQ,-
+Fusemachines Inc,FUSE,Stocks,NASDAQ,-
+Trailblazer Acquisition Corp,BLZR,Stocks,NASDAQ,-
+Alps Group Inc,ALPS,Stocks,NASDAQ,-
+OTG Acquisition Corp I,OTGA,Stocks,NASDAQ,-
+Cantor Equity Partners V Inc,CEPV,Stocks,NASDAQ,-
+Functional Brands Inc,MEHA,Stocks,NASDAQ,-
+Lake Superior Acquisition Corp,LKSP,Stocks,NASDAQ,-
+Caring Brands Inc,CABR,Stocks,NASDAQ,-
+Insight Digital Partners II,DYOR,Stocks,NASDAQ,-
+Calisa Acquisition Corp,ALIS,Stocks,NASDAQ,-
+Central BanCo Inc,CBC,Stocks,NASDAQ,-
+Cardinal Infrastructure Group Inc,CDNL,Stocks,NASDAQ,-
+Hoyne Bancorp Inc,HYNE,Stocks,NASDAQ,-
+Drugs Made In America Acquisition II Corp,DMII,Stocks,NASDAQ,-
+Hyperliquid Strategies Inc,PURR,Stocks,NASDAQ,-
+Crown Reserve Acquisition Corp I,CRAC,Stocks,NASDAQ,-
+Procap Financial Inc,BRR.US,Stocks,NASDAQ,-

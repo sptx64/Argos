@@ -1,0 +1,489 @@
+name,symbol,instrument type,exchange,industry
+Accor S.A.,AC.PA,Stocks,Paris,Services
+Credit Agricole S.A.,ACA.PA,Stocks,Paris,Financial
+Air Liquide SA,AI.PA,Stocks,Paris,Healthcare
+AIRBUS SE,AIR.PA,Stocks,Paris,Services
+Alstom SA,ALO.PA,Stocks,Paris,IndustrialGoods
+Danone S.A,BN.PA,Stocks,Paris,ConsumerGoods
+BNP Paribas SA,BNP.PA,Stocks,Paris,Financial
+Carrefour SA,CA.PA,Stocks,Paris,ConsumerGoods
+Capgemini SE,CAP.PA,Stocks,Paris,Technology
+AXA Group,CS.PA,Stocks,Paris,Financial
+Vinci S.A,DG.PA,Stocks,Paris,IndustrialGoods
+EssilorLuxottica SA,EL.PA,Stocks,Paris,Healthcare
+Bouygues SA,EN.PA,Stocks,Paris,IndustrialGoods
+TotalEnergies SE,TTE.PA,Stocks,Paris,BasicMaterials
+Valeo SA,FR.PA,Stocks,Paris,ConsumerGoods
+Societe Generale Group,GLE.PA,Stocks,Paris,Financial
+Engie SA,ENGI.PA,Stocks,Paris,Utilities
+Kering SA,KER.PA,Stocks,Paris,ConsumerGoods
+Legrand SA,LR.PA,Stocks,Paris,IndustrialGoods
+LVMH Moet Hennessy Louis Vuitton SA,MC.PA,Stocks,Paris,ConsumerGoods
+Compagnie Generale DES Etablissements Michelin SCA,ML.PA,Stocks,Paris,ConsumerGoods
+LOreal SA,OR.PA,Stocks,Paris,ConsumerGoods
+Orange,ORA.PA,Stocks,Paris,Services
+Publicis Groupe,PUB.PA,Stocks,Paris,Services
+Pernod-Ricard SA,RI.PA,Stocks,Paris,ConsumerGoods
+Renault ,RNO.PA,Stocks,Paris,ConsumerGoods
+SAFRAN,SAF.PA,Stocks,Paris,IndustrialGoods
+Sanofi,SAN.PA,Stocks,Paris,Healthcare
+Compagnie de Saint-Gobain S.A.,SGO.PA,Stocks,Paris,IndustrialGoods
+Schneider Electric SE,SU.PA,Stocks,Paris,IndustrialGoods
+Unibail Rodamco,UL.PA,Stocks,Paris,Financial
+Veolia Environnement S.A.,VIE.PA,Stocks,Paris,Utilities
+Vivendi,VIV.PA,Stocks,Paris,ConsumerGoods
+Hermes International,RMS.PA,Stocks,Paris,Services
+Soitec S.A.,SOI.PA,Stocks,Paris,Technology
+Pluxee France SA,PLX.PA,Stocks,Paris,Services
+Antin Infrastructure Partners SAS,ANTIN.PA,Stocks,Paris,Financial
+Nexans SA,NEX.PA,Stocks,Paris,IndustrialGoods
+Gaztransport et Technigaz SA,GTT.PA,Stocks,Paris,Utilities
+Technip Energies N.V,TE.PA,Stocks,Paris,Utilities
+ERAMET S.A.,ERA.PA,Stocks,Paris,BasicMaterials
+Viridien,VIRI.PA,Stocks,Paris,Utilities
+Verallia,VRLA.PA,Stocks,Paris,IndustrialGoods
+Ayvens SA,AYV.PA,Stocks,Paris,ConsumerGoods
+Ipsos SA,IPS.PA,Stocks,Paris,Services
+Euroapi SA,EAPI.PA,Stocks,Paris,ConsumerGoods
+Coface SA,COFA.PA,Stocks,Paris,Financial
+ Vusion,VU.PA,Stocks,Paris,ConsumerGoods
+Mercialys,MERY.PA,Stocks,Paris,Financial
+Argan SA,ARG.PA,Stocks,Paris,Financial
+Interparfums SA,ITP.PA,Stocks,Paris,ConsumerGoods
+Derichebourg SA,DBG.PA,Stocks,Paris,IndustrialGoods
+Mersen SA,MRN.PA,Stocks,Paris,IndustrialGoods
+Beneteau SA,BEN.PA,Stocks,Paris,ConsumerGoods
+Virbac SA,VIRP.PA,Stocks,Paris,ConsumerGoods
+Lectra SA,LSS.PA,Stocks,Paris,Technology
+X Fab Silicon Foundries EV,XFAB.PA,Stocks,Paris,Technology
+Etablissements Maurel & Prom SA,MAU.PA,Stocks,Paris,Utilities
+North Atlantic Energies,NAE.PA,Stocks,Paris,Utilities
+Carmila SA,CARM.PA,Stocks,Paris,Financial
+Tikehau Capital,TKO.PA,Stocks,Paris,Financial
+Peugeot Invest SA,PEUG.PA,Stocks,Paris,Financial
+Compagnie de lOdet,ODET.PA,Stocks,Paris,Services
+Unibail-Rodamco-Westfield,URW.PA,Stocks,Paris,Financial
+Atos SE,ATO.PA,Stocks,Paris,Technology
+Dassault Systemes,DSY.PA,Stocks,Paris,Technology
+Sodexo SA,SW.PA,Stocks,Paris,ConsumerGoods
+STMicroelectronics NV,STMPA.PA,Stocks,Paris,Technology
+Air France-KLM,AF.PA,Stocks,Paris,ConsumerGoods
+Amundi SA,AMUN.PA,Stocks,Paris,Financial
+Societe BIC SA,BB.PA,Stocks,Paris,ConsumerGoods
+BioMerieux,BIM.PA,Stocks,Paris,ConsumerGoods
+Bollore SA,BOL.PA,Stocks,Paris,Services
+Bureau Veritas SA,BVI.PA,Stocks,Paris,ConsumerGoods
+Casino Guichard Perrachon SA,CO.PA,Stocks,Paris,ConsumerGoods
+Dassault Aviation SA,AM.PA,Stocks,Paris,IndustrialGoods
+Eiffage SA,FGR.PA,Stocks,Paris,IndustrialGoods
+Elior Group SA,ELIOR.PA,Stocks,Paris,ConsumerGoods
+Eurofins Scientific SE,ERF.PA,Stocks,Paris,ConsumerGoods
+Euronext NV,ENX.PA,Stocks,Paris,Financial
+Fnac Darty SA,FNAC.PA,Stocks,Paris,ConsumerGoods
+Genfit,GNFT.PA,Stocks,Paris,ConsumerGoods
+Getlink SE,GET.PA,Stocks,Paris,IndustrialGoods
+Groupe ADP,ADP.PA,Stocks,Paris,IndustrialGoods
+Ipsen SA,IPN.PA,Stocks,Paris,ConsumerGoods
+Klepierre SA,LI.PA,Stocks,Paris,Financial
+Lagardere SCA,MMB.PA,Stocks,Paris,Services
+Metropole Television SA,MMT.PA,Stocks,Paris,Services
+Nexity SA,NXI.PA,Stocks,Paris,Financial
+Opmobility,OPM.PA,Stocks,Paris,ConsumerGoods
+Remy Cointreau SA,RCO.PA,Stocks,Paris,ConsumerGoods
+SEB SA,SK.PA,Stocks,Paris,ConsumerGoods
+Sopra Steria Group,SOP.PA,Stocks,Paris,Technology
+Tarkett SA,TKTT.PA,Stocks,Paris,IndustrialGoods
+Vantiva SA,VANTI.PA,Stocks,Paris,Utilities
+TF1 Group,TFI.PA,Stocks,Paris,Utilities
+Thales Group,HO.PA,Stocks,Paris,IndustrialGoods
+Trigano SA,TRI.PA,Stocks,Paris,ConsumerGoods
+Ubisoft Entertainment SA,UBI.PA,Stocks,Paris,Technology
+Vallourec SA,VK.PA,Stocks,Paris,IndustrialGoods
+Christian Dior,CDI.PA,Stocks,Paris,ConsumerGoods
+DBV Technologies,DBV.PA,Stocks,Paris,ConsumerGoods
+Parrot SA,PARRO.PA,Stocks,Paris,Technology
+Claranova SADIR,CLA.PA,Stocks,Paris,Technology
+Alten SA,ATE.PA,Stocks,Paris,IndustrialGoods
+Arkema,AKE.PA,Stocks,Paris,BasicMaterials
+Covivio SA,COV.PA,Stocks,Paris,Financial
+Edenred SA,EDEN.PA,Stocks,Paris,ConsumerGoods
+Elis SA,ELIS.PA,Stocks,Paris,ConsumerGoods
+Eurazeo,RF.PA,Stocks,Paris,Financial
+Eutelsat Communications,ETL.PA,Stocks,Paris,Services
+Forvia,FRVIA.PA,Stocks,Paris,ConsumerGoods
+Gecina,GFC.PA,Stocks,Paris,Financial
+Icade SA,ICAD.PA,Stocks,Paris,Financial
+Imerys,NK.PA,Stocks,Paris,IndustrialGoods
+J C Decaux,DEC.PA,Stocks,Paris,Services
+Emeis SA,EMEIS.PA,Stocks,Paris,ConsumerGoods
+Rexel SA,RXL.PA,Stocks,Paris,ConsumerGoods
+Rubis SCA,RUI.PA,Stocks,Paris,Utilities
+Sartorius Stedim Biotech SA,DIM.PA,Stocks,Paris,ConsumerGoods
+Scor SE,SCR.PA,Stocks,Paris,Financial
+SES GLOBAL FDR,SESG.PA,Stocks,Paris,Services
+Spie SA,SPIE.PA,Stocks,Paris,IndustrialGoods
+Teleperformance SE,TEP.PA,Stocks,Paris,Technology
+Wendel,MF.PA,Stocks,Paris,Financial
+Worldline SA,WLN.PA,Stocks,Paris,Technology
+FDJ United,FDJU.PA,Stocks,Paris,ConsumerGoods
+Valneva SE,VLA.PA,Stocks,Paris,Healthcare
+Stellantis NV,STLAP.PA,Stocks,Paris,ConsumerGoods
+ID Logistics SAS,IDL.PA,Stocks,Paris,ConsumerGoods
+Exosens SAS,EXENS.PA,Stocks,Paris,IndustrialGoods
+OSE Immunotherapeutics SA,OSE.PA,Stocks,Paris,ConsumerGoods
+Medincell SA,MEDCL.PA,Stocks,Paris,ConsumerGoods
+Voltalia SA,VLTSA.PA,Stocks,Paris,Utilities
+Novacyt SA,ALNOV.PA,Stocks,Paris,ConsumerGoods
+Median Technologies SA,ALMDT.PA,Stocks,Paris,Technology
+Wavestone SA,WAVE.PA,Stocks,Paris,Technology
+Adocia SA,ADOC.PA,Stocks,Paris,ConsumerGoods
+Planisware SA,PLNW.PA,Stocks,Paris,Technology
+Quadient SA,QDT.PA,Stocks,Paris,Technology
+Solutions 30 SE,S30.PA,Stocks,Paris,Technology
+Vicat SA,VCT.PA,Stocks,Paris,IndustrialGoods
+Assystem SA,ASY.PA,Stocks,Paris,ConsumerGoods
+Altarea SCA,ALTA.PA,Stocks,Paris,Financial
+Robertet SA,RBT.PA,Stocks,Paris,BasicMaterials
+Nokia Oyj,NOKIA.PA,Stocks,Paris,Services
+Kalray SA,ALKAL.PA,Stocks,Paris,Technology
+Carbios SA,ALCRB.PA,Stocks,Paris,BasicMaterials
+Jacquet Metals SA,JCQ.PA,Stocks,Paris,ConsumerGoods
+Kaufman & Broad SA,KOF.PA,Stocks,Paris,ConsumerGoods
+Compagnie des Alpes SA,CDA.PA,Stocks,Paris,ConsumerGoods
+Equasens SA,EQS.PA,Stocks,Paris,Technology
+GL Events SA,GLO.PA,Stocks,Paris,ConsumerGoods
+Lisi SA,FII.PA,Stocks,Paris,IndustrialGoods
+Seche Environnement SA,SCHP.PA,Stocks,Paris,IndustrialGoods
+SMCP SA,SMCP.PA,Stocks,Paris,ConsumerGoods
+Eurobio Scientific SA,ALERS.PA,Stocks,Paris,ConsumerGoods
+Winamp Group,ALWIN.PA,Stocks,Paris,ConsumerGoods
+Stef SA,STF.PA,Stocks,Paris,IndustrialGoods
+Nanobiotix SA,NANO.PA,Stocks,Paris,ConsumerGoods
+Manitou BF SA,MTU.PA,Stocks,Paris,IndustrialGoods
+Aubay SA,AUB.PA,Stocks,Paris,Technology
+Louis Hachette Group,ALHG.PA,Stocks,Paris,Technology
+Metavisio SA,ALTHO.PA,Stocks,Paris,Technology
+La Francaise de l Energie SA,FDE.PA,Stocks,Paris,Utilities
+Guerbet SA,GBT.PA,Stocks,Paris,ConsumerGoods
+Pierre et Vacances SA,VAC.PA,Stocks,Paris,Financial
+Thermador Groupe SA,THEP.PA,Stocks,Paris,ConsumerGoods
+Bonduelle SA,BON.PA,Stocks,Paris,ConsumerGoods
+Pullup Entertainment SA,ALPUL.PA,Stocks,Paris,Technology
+Fountaine Pajot SA,ALFPC.PA,Stocks,Paris,ConsumerGoods
+Catana Group,ALCAT.PA,Stocks,Paris,ConsumerGoods
+2Crsi SA,AL2SI.PA,Stocks,Paris,Technology
+Sword Group SE,SWP.PA,Stocks,Paris,Technology
+Vetoquinol SA,VETO.PA,Stocks,Paris,ConsumerGoods
+Valbiotis SA,ALVAL.PA,Stocks,Paris,ConsumerGoods
+Exail Technologies,EXA.PA,Stocks,Paris,IndustrialGoods
+Carmat SA,ALCAR.PA,Stocks,Paris,ConsumerGoods
+Abivax SA,ABVX.PA,Stocks,Paris,ConsumerGoods
+Cibox Inter@ctive SA,ALCBX.PA,Stocks,Paris,Technology
+Voyageurs du Monde SA,ALVDM.PA,Stocks,Paris,ConsumerGoods
+Aramis Group SAS,ARAMI.PA,Stocks,Paris,Services
+ABC Arbitrage SA,ABCA.PA,Stocks,Paris,Financial
+Maisons du Monde SA,MDM.PA,Stocks,Paris,ConsumerGoods
+Memscap SA,MEMS.PA,Stocks,Paris,Technology
+74Software SA,74SW.PA,Stocks,Paris,Technology
+Nacon SAS,NACON.PA,Stocks,Paris,Technology
+Neurones SA,NRO.PA,Stocks,Paris,Technology
+Hopium SA,ALHPI.PA,Stocks,Paris,ConsumerGoods
+Reworld Media SA,ALREW.PA,Stocks,Paris,Services
+Poxel SA,POXEL.PA,Stocks,Paris,ConsumerGoods
+Klea Holding,ALKLH.PA,Stocks,Paris,ConsumerGoods
+Waga Energy SA,WAGA.PA,Stocks,Paris,IndustrialGoods
+Sidetrade SA,ALBFR.PA,Stocks,Paris,Technology
+Crossject SA,ALCJ.PA,Stocks,Paris,ConsumerGoods
+Mcphy Energy SA,ALMCP.PA,Stocks,Paris,IndustrialGoods
+Nfl Biosciences SAS,ALNFL.PA,Stocks,Paris,ConsumerGoods
+Archos SA,ALJXR.PA,Stocks,Paris,Technology
+TotalEnergies EP Gabon,EC.PA,Stocks,Paris,Utilities
+Tonnellerie Francois Freres SA,TFF.PA,Stocks,Paris,IndustrialGoods
+Arcure SA,ALCUR.PA,Stocks,Paris,IndustrialGoods
+Cellectis SA,ALCLS.PA,Stocks,Paris,ConsumerGoods
+Infotel SA,INF.PA,Stocks,Paris,Technology
+Tonner Drones SA,ALTD.PA,Stocks,Paris,IndustrialGoods
+Spineway SA,ALSPW.PA,Stocks,Paris,ConsumerGoods
+Bastide le Confort Medical SA,BLC.PA,Stocks,Paris,ConsumerGoods
+E-Pango SA,ALAGO.PA,Stocks,Paris,Technology
+Innate Pharma SA,IPH.PA,Stocks,Paris,ConsumerGoods
+NRJ Group SA,NRG.PA,Stocks,Paris,Services
+Samse SA,SAMS.PA,Stocks,Paris,ConsumerGoods
+Rapid Nutrition PLC,ALRPD.PA,Stocks,Paris,ConsumerGoods
+Gensight Biologics SA,SIGHT.PA,Stocks,Paris,ConsumerGoods
+LNA Sante SA,LNA.PA,Stocks,Paris,ConsumerGoods
+Groupe Okwind SA,ALOKW.PA,Stocks,Paris,Utilities
+AB Science SA,AB.PA,Stocks,Paris,ConsumerGoods
+Mauna Kea Technologies SA,ALMKT.PA,Stocks,Paris,ConsumerGoods
+Wallix Group SA,ALLIX.PA,Stocks,Paris,Services
+Delta Plus Group SA,ALDLT.PA,Stocks,Paris,IndustrialGoods
+Synergie SE,SDG.PA,Stocks,Paris,ConsumerGoods
+Fermentalg SA,ALGAE.PA,Stocks,Paris,ConsumerGoods
+Mgi Digital Technology SA,ALMDG.PA,Stocks,Paris,ConsumerGoods
+Lumibird SA,LBIRD.PA,Stocks,Paris,ConsumerGoods
+Groupe Guillin SA,ALGIL.PA,Stocks,Paris,IndustrialGoods
+Covivio Hotels SCA,COVH.PA,Stocks,Paris,Financial
+Hoffmann Green Cement Technologies SAS,ALHGR.PA,Stocks,Paris,IndustrialGoods
+Biosynex SA,ALBIO.PA,Stocks,Paris,ConsumerGoods
+Viel et Compagnie SA,VIL.PA,Stocks,Paris,Financial
+Bigben Interactive SA,BIG.PA,Stocks,Paris,ConsumerGoods
+Cbo Territoria SA,CBOT.PA,Stocks,Paris,Financial
+Electricite de Strasbourg SA,ELEC.PA,Stocks,Paris,Utilities
+Chargeurs SA,CRI.PA,Stocks,Paris,ConsumerGoods
+Inventiva SA,IVA.PA,Stocks,Paris,ConsumerGoods
+Caisse Regionale de Credit Agricole Mutuel Brie Picardie,CRBP2.PA,Stocks,Paris,Financial
+Stif France SAS,ALSTI.PA,Stocks,Paris,IndustrialGoods
+Ekinops SA,EKI.PA,Stocks,Paris,Services
+Nicox SA,ALCOX.PA,Stocks,Paris,ConsumerGoods
+Caiss Regio Credi Agric Mutuel Paris Idf,CAF.PA,Stocks,Paris,Financial
+Roche Bobois SA,RBO.PA,Stocks,Paris,ConsumerGoods
+Boiron SA,BOI.PA,Stocks,Paris,ConsumerGoods
+Marie Brizard Wine and Spirits SA,MBWS.PA,Stocks,Paris,ConsumerGoods
+Savencia SA,SAVE.PA,Stocks,Paris,ConsumerGoods
+IT Link SA,ALITL.PA,Stocks,Paris,Technology
+Hydrogen-Refueling-Solutions SA,ALHRS.PA,Stocks,Paris,Utilities
+TME Pharma NV,ALTME.PA,Stocks,Paris,ConsumerGoods
+AFYREN SA,ALAFY.PA,Stocks,Paris,BasicMaterials
+Exel Industries SA,EXE.PA,Stocks,Paris,IndustrialGoods
+Abionyx Pharma SA,ABNX.PA,Stocks,Paris,ConsumerGoods
+Linedata Services SA,LIN.PA,Stocks,Paris,Technology
+Drone Volt SA,ALDRV.PA,Stocks,Paris,IndustrialGoods
+Fleury Michon SA,ALFLE.PA,Stocks,Paris,ConsumerGoods
+Neovacs SA,ALNEV.PA,Stocks,Paris,ConsumerGoods
+Bilendi SA,ALBLD.PA,Stocks,Paris,Services
+Cegedim SA,ALCGM.PA,Stocks,Paris,Technology
+Capital B,ALCPB.PA,Stocks,Paris,Services
+Delfingen Industry SA,ALDEL.PA,Stocks,Paris,ConsumerGoods
+Haffner Energy SA,ALHAF.PA,Stocks,Paris,Utilities
+Oeneo SA,SBT.PA,Stocks,Paris,IndustrialGoods
+Soc D Explosifs Produits Chimiques SA,EXPL.PA,Stocks,Paris,IndustrialGoods
+Societe Marseillaise du Tunnel Prado Carenage SA,ALTPC.PA,Stocks,Paris,ConsumerGoods
+Burelle SA,BUR.PA,Stocks,Paris,IndustrialGoods
+IDI SCA,IDIP.PA,Stocks,Paris,Financial
+Entech SA,ALESE.PA,Stocks,Paris,Utilities
+Hexaom SA,ALHEX.PA,Stocks,Paris,ConsumerGoods
+Amoeba SA,ALMIB.PA,Stocks,Paris,BasicMaterials
+Figeac Aero SARL,FGA.PA,Stocks,Paris,IndustrialGoods
+Societe Anonyme des Bains de Mer et du Cercle des Etrangers a Monaco SA,BAIN.PA,Stocks,Paris,ConsumerGoods
+Riber SA,ALRIB.PA,Stocks,Paris,Technology
+Forsee Power SA,FORSE.PA,Stocks,Paris,IndustrialGoods
+Bio-UV Group SA,ALTUV.PA,Stocks,Paris,IndustrialGoods
+Biophytis SA,ALBPS.PA,Stocks,Paris,ConsumerGoods
+Herige SA,ALHRG.PA,Stocks,Paris,IndustrialGoods
+Groupe Crit SA,CEN.PA,Stocks,Paris,ConsumerGoods
+Keyrus SA,ALKEY.PA,Stocks,Paris,Services
+Caisse Reg Credit Agric Mut Nord France,CNDF.PA,Stocks,Paris,Financial
+Gerard Perrier Industrie SA,PERR.PA,Stocks,Paris,IndustrialGoods
+Energisme SA,ALNRG.PA,Stocks,Paris,Technology
+Spineguard SA,ALSGD.PA,Stocks,Paris,ConsumerGoods
+Plastiques du Val de Loire SA,PVL.PA,Stocks,Paris,ConsumerGoods
+Guillemot Corporation SA,GUI.PA,Stocks,Paris,Technology
+Lhyfe SA,LHYFE.PA,Stocks,Paris,Utilities
+Moulinvest SA,ALMOU.PA,Stocks,Paris,IndustrialGoods
+Sensorion SA,ALSEN.PA,Stocks,Paris,ConsumerGoods
+Piscines Desjoyaux SA,ALPDX.PA,Stocks,Paris,ConsumerGoods
+Akwel SA,AKW.PA,Stocks,Paris,ConsumerGoods
+Lanson BCC SA,ALLAN.PA,Stocks,Paris,ConsumerGoods
+Vente-Unique.Com SA,ALVU.PA,Stocks,Paris,Services
+Sogeclair SA,ALSOG.PA,Stocks,Paris,IndustrialGoods
+Caisse Regionale De Credit Agricole Mutuel Toulouse 31,CAT31.PA,Stocks,Paris,Financial
+Freelance.com SA,ALFRE.PA,Stocks,Paris,ConsumerGoods
+Haulotte Group SA,PIG.PA,Stocks,Paris,IndustrialGoods
+Laurent Perrier SA,LPE.PA,Stocks,Paris,ConsumerGoods
+Dont Nod Entertainment SA,ALDNE.PA,Stocks,Paris,Technology
+Global Bioenergies SA,ALGBE.PA,Stocks,Paris,Utilities
+Touax Sgtr Cite Sgt Cmte Taf Slm Touage Investissements Reunies SCA,ALTOU.PA,Stocks,Paris,IndustrialGoods
+Aton SA,ALTAO.PA,Stocks,Paris,ConsumerGoods
+Groupe Pizzorno Environnement SA,GPE.PA,Stocks,Paris,IndustrialGoods
+Caisse Regionale De Credit Agricole Mutuel Atlantique Vendee,CRAV.PA,Stocks,Paris,Financial
+Fonciere Inea SA,INEA.PA,Stocks,Paris,Financial
+Groupe LDLC SA,ALLDL.PA,Stocks,Paris,Services
+Lacroix Group SA,LACR.PA,Stocks,Paris,IndustrialGoods
+Precia SA,ALPM.PA,Stocks,Paris,IndustrialGoods
+Transgene SA,TNG.PA,Stocks,Paris,ConsumerGoods
+Altamir SCA,LTA.PA,Stocks,Paris,Financial
+Immobiliere Dassault SA,IMDA.PA,Stocks,Paris,Financial
+Logic Instrument SA,ALLOG.PA,Stocks,Paris,Technology
+Calibre,ALIBR.PA,Stocks,Paris,ConsumerGoods
+Patrimoine et Commerce SCA,PAT.PA,Stocks,Paris,Financial
+Bourse Direct SA,BSD.PA,Stocks,Paris,Services
+Xilam Animation SA,ALXIL.PA,Stocks,Paris,ConsumerGoods
+Klarsen SA,ALKLA.PA,Stocks,Paris,Services
+DBT SA,ALDBT.PA,Stocks,Paris,IndustrialGoods
+Hopscotch Groupe SA,ALHOP.PA,Stocks,Paris,Services
+Prodways Group SA,ALPWG.PA,Stocks,Paris,Technology
+Genoway SA,ALGEN.PA,Stocks,Paris,ConsumerGoods
+Caisse Regionale de Credit Agricole Mutuel du Languedoc,CRLA.PA,Stocks,Paris,Financial
+Adl Partner SA,DKUPL.PA,Stocks,Paris,ConsumerGoods
+Caisse Regionale de Credit Agricole Mutuel de Normandie Seine SC,CCN.PA,Stocks,Paris,Financial
+Europacorp SA,ALECP.PA,Stocks,Paris,Services
+We. Connect SA,ALWEC.PA,Stocks,Paris,ConsumerGoods
+Nextedia SA,ALNXT.PA,Stocks,Paris,Services
+Actia Group SA,ALATI.PA,Stocks,Paris,IndustrialGoods
+Bassac,BASS.PA,Stocks,Paris,Financial
+High Co SA,HCO.PA,Stocks,Paris,ConsumerGoods
+Coty Inc,COTY.PA,Stocks,Paris,ConsumerGoods
+SRP Groupe SA,SRP.PA,Stocks,Paris,ConsumerGoods
+Poujoulat SA,ALPJT.PA,Stocks,Paris,IndustrialGoods
+Hydrogene De France SA,HDF.PA,Stocks,Paris,Utilities
+Innelec Multimedia SA,ALINN.PA,Stocks,Paris,ConsumerGoods
+Maison Pommery & Associes SA,POMRY.PA,Stocks,Paris,ConsumerGoods
+Caisse Regionale De Credit Agricole Mutuel Sud Rhone Alpes,CRSU.PA,Stocks,Paris,Financial
+Omer Decugis & Cie SA,ALODC.PA,Stocks,Paris,ConsumerGoods
+Caisse Reg Cred Agric Mut Tourain Poitou,CRTO.PA,Stocks,Paris,Financial
+Osmosun SA,ALWTR.PA,Stocks,Paris,IndustrialGoods
+Latecoere SA,LAT.PA,Stocks,Paris,IndustrialGoods
+Cogelec SA,ALLEC.PA,Stocks,Paris,Services
+Societe de la Tour Eiffel SA,EIFF.PA,Stocks,Paris,Financial
+Ateme SA,ATEME.PA,Stocks,Paris,IndustrialGoods
+Graines Voltz SA,GRVO.PA,Stocks,Paris,ConsumerGoods
+Streamwide SA,ALSTW.PA,Stocks,Paris,Technology
+Catering International & Services SA,ALCIS.PA,Stocks,Paris,ConsumerGoods
+Credit Agricole du Morbihan SC,CMO.PA,Stocks,Paris,Financial
+Adux SA,ALDUX.PA,Stocks,Paris,Services
+Compagnie Lebon SA,ALBON.PA,Stocks,Paris,Financial
+Agripower France SASU,ALAGP.PA,Stocks,Paris,Utilities
+Atari SA,ALATA.PA,Stocks,Paris,Technology
+Obiz SA,ALBIZ.PA,Stocks,Paris,Technology
+Netgem SA,ALNTG.PA,Stocks,Paris,Services
+Artmarket.com SA,PRC.PA,Stocks,Paris,ConsumerGoods
+Cr Credit Agricole Mutuel Loire Hte Loir,CRLO.PA,Stocks,Paris,Financial
+Boa Concept SA,ALBOA.PA,Stocks,Paris,IndustrialGoods
+Miliboo SA,ALMLB.PA,Stocks,Paris,ConsumerGoods
+Verimatrix SA,VMX.PA,Stocks,Paris,Technology
+Spartoo SA,ALSPT.PA,Stocks,Paris,ConsumerGoods
+Sergeferrari Group SA,SEFER.PA,Stocks,Paris,IndustrialGoods
+Icape Holding SA,ALICA.PA,Stocks,Paris,IndustrialGoods
+Implanet SA,ALIMP.PA,Stocks,Paris,ConsumerGoods
+Largo SA,ALLGO.PA,Stocks,Paris,Services
+MR Bricolage SA,ALMRB.PA,Stocks,Paris,ConsumerGoods
+Caisse regionale de Credit Agricole Mutuel dIlle-et-Vilaine,CIV.PA,Stocks,Paris,Financial
+Credit Agricole Alpes Provence,CRAP.PA,Stocks,Paris,Financial
+Cogra Quarante Huit SA,ALCOG.PA,Stocks,Paris,IndustrialGoods
+Cerinnov Group SA,ALPCV.PA,Stocks,Paris,IndustrialGoods
+Oncodesign Precision Medicine Opm SA,ALOPM.PA,Stocks,Paris,ConsumerGoods
+Groupe Partouche SA,PARP.PA,Stocks,Paris,ConsumerGoods
+Avenir Telecom SA,AVT.PA,Stocks,Paris,ConsumerGoods
+Intrasense SA,ALINS.PA,Stocks,Paris,ConsumerGoods
+Coheris SA,COH.PA,Stocks,Paris,Technology
+M2i SA,ALMII.PA,Stocks,Paris,Technology
+Ikonisys SA,ALIKO.PA,Stocks,Paris,ConsumerGoods
+Ordissimo SA,ALORD.PA,Stocks,Paris,ConsumerGoods
+Enogia SA,ALENO.PA,Stocks,Paris,Utilities
+Vogo SA,ALVGO.PA,Stocks,Paris,Services
+Dlsi SA,ALDLS.PA,Stocks,Paris,ConsumerGoods
+THX Pharma SACA,ALTHX.PA,Stocks,Paris,ConsumerGoods
+ALCAF FP,ALCAF.PA,Stocks,Paris,ConsumerGoods
+NSE SA,ALNSE.PA,Stocks,Paris,IndustrialGoods
+Cofidur SA,ALCOF.PA,Stocks,Paris,IndustrialGoods
+Prologue SA,ALPRG.PA,Stocks,Paris,Technology
+Passat SA,ALPAS.PA,Stocks,Paris,ConsumerGoods
+Hunyvers SA,ALHUN.PA,Stocks,Paris,ConsumerGoods
+Deezer SA,DEEZR.PA,Stocks,Paris,Services
+Acanthe Developpement SE,ACAN.PA,Stocks,Paris,Financial
+Florentaise SA,ALFLO.PA,Stocks,Paris,ConsumerGoods
+Hipay Group SA,ALHYP.PA,Stocks,Paris,ConsumerGoods
+Paris Realty Fund SA,PAR.PA,Stocks,Paris,Financial
+Affluent Medical SAS,AFME.PA,Stocks,Paris,ConsumerGoods
+HF Company SA,ALHF.PA,Stocks,Paris,IndustrialGoods
+Abeo SA,ABEO.PA,Stocks,Paris,ConsumerGoods
+Laboratoires Euromedis SA,ALEMG.PA,Stocks,Paris,ConsumerGoods
+Maat Pharma SA,MAAT.PA,Stocks,Paris,ConsumerGoods
+Ecomiam SA,ALECO.PA,Stocks,Paris,ConsumerGoods
+Winfarm SA,ALWF.PA,Stocks,Paris,ConsumerGoods
+Signaux Girod SA,ALGIR.PA,Stocks,Paris,IndustrialGoods
+Invibes Advertising NV,ALINV.PA,Stocks,Paris,Services
+Mint SA,ALMIN.PA,Stocks,Paris,Services
+Egide SA,ALGID.PA,Stocks,Paris,IndustrialGoods
+Upergy,ALUPG.PA,Stocks,Paris,Utilities
+Ramsay Generale de Sante SA,GDS.PA,Stocks,Paris,ConsumerGoods
+Valerio Therapeutics SA,ALVIO.PA,Stocks,Paris,ConsumerGoods
+Diagnostic Medical Systems SA,ALDMS.PA,Stocks,Paris,ConsumerGoods
+Altheora SA,ALORA.PA,Stocks,Paris,IndustrialGoods
+Gascogne SA,ALBI.PA,Stocks,Paris,BasicMaterials
+U10 Corp SA,ALU10.PA,Stocks,Paris,ConsumerGoods
+EdiliziAcrobatica SpA,ALEAC.PA,Stocks,Paris,ConsumerGoods
+Kko International SA,ALKKO.PA,Stocks,Paris,ConsumerGoods
+Qwamplify SA,ALQWA.PA,Stocks,Paris,Services
+Gaumont SA,GAM.PA,Stocks,Paris,ConsumerGoods
+Aurea SA,AURE.PA,Stocks,Paris,IndustrialGoods
+Enensys Technologies SA,ALNN6.PA,Stocks,Paris,Services
+Agrogeneration SA,ALAGR.PA,Stocks,Paris,ConsumerGoods
+Poulaillon SA,ALPOU.PA,Stocks,Paris,ConsumerGoods
+Kumulus Vape SA,ALVAP.PA,Stocks,Paris,ConsumerGoods
+Toosla SA,ALTOO.PA,Stocks,Paris,ConsumerGoods
+Mon Courtier Energie SAS,ALMCE.PA,Stocks,Paris,Utilities
+Prodware SA,ALPRO.PA,Stocks,Paris,Technology
+Paulic Meunerie SA,ALPAU.PA,Stocks,Paris,ConsumerGoods
+EO2 SA,ALEO2.PA,Stocks,Paris,BasicMaterials
+Gea Grenobloise Electronique Automatisme SA,GEA.PA,Stocks,Paris,ConsumerGoods
+Bogart SA,JBOG.PA,Stocks,Paris,ConsumerGoods
+Eagle Football Group SA,EFG.PA,Stocks,Paris,ConsumerGoods
+Itissalat Al Maghrib Ste SA,IAM.PA,Stocks,Paris,Services
+SMAIO SA,ALSMA.PA,Stocks,Paris,ConsumerGoods
+Soc Centrale Bois Scieries Manche SA,CBSM.PA,Stocks,Paris,Financial
+Uti Group SA,FPG.PA,Stocks,Paris,Technology
+Fill Up Media SA,ALFUM.PA,Stocks,Paris,Services
+Damartex SA,ALDAR.PA,Stocks,Paris,ConsumerGoods
+Advini SA,ALAVI.PA,Stocks,Paris,ConsumerGoods
+Amundi Core MSCI Emerging Markets UCITS ETF,AEME.PA,ETF,Paris,BasicMaterials
+Amundi S&P World Energy Screened UCITS ETF Acc,NRGW.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Water ESG Screened UCITS ETF Acc,WATC.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Digital Economy UCITS ETF Acc,EBUY.PA,ETF,Paris,BasicMaterials
+Amundi Core MSCI Europe UCITS ETF,CEU2.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Pacific Ex Japan SRI Climate Paris Aligned UCITS ETF,CP9.PA,ETF,Paris,BasicMaterials
+Amundi S&P 500 II UCITS ETF Acc,SP5C.PA,ETF,Paris,BasicMaterials
+Amundi Russell 2000 UCITS ETF,RS2K.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Pacific Ex Japan SRI Climate Paris Aligned UCITS ETF,CP9U.PA,ETF,Paris,Financial
+Amundi Russell 2000 UCITS ETF,RS2U.PA,ETF,Paris,Financial
+Amundi EUR Overnight Return UCITS ETF,CSH.PA,ETF,Paris,-
+Amundi MSCI World II UCITS ETF EUR Hedged Acc,WLDHC.PA,ETF,Paris,-
+Amundi MSCI All Country World UCITS ETF EUR Acc,ACWI.PA,ETF,Paris,-
+Amundi MSCI World Information Technology UCITS ETF EUR Acc,TNOW.PA,ETF,Paris,-
+Amundi MSCI World Health Care UCITS ETF EUR Acc,HLTW.PA,ETF,Paris,-
+Amundi Index FTSE EPRA NAREIT Global UCITS ETF DR (C),EPRA.PA,ETF,Paris,-
+Amundi Global Hydrogen UCITS ETF - Acc,ANRJ.PA,ETF,Paris,-
+Amundi Global Bioenergy UCITS ETF EUR Acc,CWE.PA,ETF,Paris,-
+Amundi DAX UCITS ETF DR,CG1.PA,ETF,Paris,-
+Amundi MSCI France UCITS ETF,CF1.PA,ETF,Paris,-
+Amundi IBEX 35 UCITS ETF Acc,CS1.PA,ETF,Paris,-
+Amundi FTSE 100 UCITS ETF EUR Hedged Acc,100H.PA,ETF,Paris,-
+Amundi EURO STOXX 50 UCITS ETF DR - EUR (C),C50.PA,ETF,Paris,-
+Amundi Stoxx Europe 600 UCITS ETF Acc,MEUD.PA,ETF,Paris,-
+Amundi Stoxx Europe 50 UCITS ETF,C5E.PA,ETF,Paris,-
+Amundi MSCI Nordic UCITS ETF - EUR (C),CN1.PA,ETF,Paris,-
+Amundi Euro Stoxx Banks UCITS ETF Acc,BNKE.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Energy Screened UCITS ETF Acc,ENRG.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Banks UCITS ETF Acc,BNK.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Healthcare UCITS ETF Acc,HLT.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Technology UCITS ETF Acc,TNO.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Industrials UCITS ETF Acc,IND.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Insurance UCITS ETF Acc,INS.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Consumer Staples UCITS ETF Acc,FOO.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Basic Resources UCITS ETF Acc,BRES.PA,ETF,Paris,-
+Amundi FTSE Epra Europe Real Estate UCITS ETF - EUR (C),EPRE.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Consumer Discretionary UCITS ETF Acc,TRV.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Utilities UCITS ETF Acc,UTI.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Basic Materials UCITS ETF Acc,CHM.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Telecommunications UCITS ETF Acc,TELE.PA,ETF,Paris,-
+Amundi MSCI Europe Small Cap ESG Broad Transition UCITS ETF Acc,CEM.PA,ETF,Paris,-
+Amundi MSCI Europe Momentum Factor UCITS ETF - EUR (C),MCEU.PA,ETF,Paris,-
+Amundi MSCI Turkey UCITS ETF Acc,TUR.PA,ETF,Paris,-
+Amundi MSCI India UCITS ETF - EUR (C),CI2.PA,ETF,Paris,-
+Amundi MSCI Indonesia UCITS ETF Acc,INDO.PA,ETF,Paris,-
+Amundi MSCI Em Asia UCITS ETF - EUR (C),AASI.PA,ETF,Paris,-
+Amundi MSCI EM Latin America UCITS ETF - EUR (C),ALAT.PA,ETF,Paris,-
+BNP Paribas Easy MSCI Europe Min TE TC C,EEUE.PA,ETF,Paris,-
+Amundi S&P Eurozone Cl Paris Aligned UCITS ETF A,EPAB.PA,ETF,Paris,-
+Amundi MSCI Eu ESG Brd Transition UCITS ETF EUR A,CEU.PA,ETF,Paris,-
+ST Dupont SA,DPT.PA,Stocks,Paris,-
+Acteos,EOS.PA,Stocks,Paris,-
+Proactis Sarl,PROAC.PA,Stocks,Paris,-
+Groupe SFPI,SFPI.PA,Stocks,Paris,-
+Orege SA,OREGE.PA,Stocks,Paris,-
+GeNeuro SA,GNRO.PA,Stocks,Paris,-
+Myhotelmatch SACA,MHM.PA,Stocks,Paris,-
+Balyo SA,BALYO.PA,Stocks,Paris,-
+Teract SA,TRACT.PA,Stocks,Paris,-
+Mexedia SPA-SB,ALMEX.PA,Stocks,Paris,-
+Aelis Farma SAS,AELIS.PA,Stocks,Paris,-

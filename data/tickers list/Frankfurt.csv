@@ -1,0 +1,415 @@
+name,symbol,instrument type,exchange,industry
+Siemens Aktiengesellschaft,SIE.DE,Stocks,Frankfurt,IndustrialGoods
+BASF SE,BAS.DE,Stocks,Frankfurt,BasicMaterials
+SAP SE,SAP.DE,Stocks,Frankfurt,Technology
+Bayer AG,BAYN.DE,Stocks,Frankfurt,Healthcare
+Allianz SE,ALV.DE,Stocks,Frankfurt,Financial
+E.ON SE,EOAN.DE,Stocks,Frankfurt,Utilities
+Mercedes-Benz Group AG,MBG.DE,Stocks,Frankfurt,ConsumerGoods
+Deutsche Telekom AG,DTE.DE,Stocks,Frankfurt,Technology
+Volkswagen AG,VOW3.DE,Stocks,Frankfurt,ConsumerGoods
+Bayerische Motoren Werke Aktiengesellschaft,BMW.DE,Stocks,Frankfurt,ConsumerGoods
+Muenchener Rueck AG,MUV2.DE,Stocks,Frankfurt,Financial
+RWE AG,RWE.DE,Stocks,Frankfurt,Utilities
+Fresenius Medical Care AG & Co. KGAA,FME.DE,Stocks,Frankfurt,Healthcare
+Adidas AG,ADS.DE,Stocks,Frankfurt,ConsumerGoods
+Deutsche Post AG,DHL.DE,Stocks,Frankfurt,Services
+Fresenius SE & Co KGaA,FRE.DE,Stocks,Frankfurt,Healthcare
+Henkel AG & Co. KGaA,HEN3.DE,Stocks,Frankfurt,ConsumerGoods
+Deutsche Boerse AG,DB1.DE,Stocks,Frankfurt,Financial
+ThyssenKrupp AG,TKA.DE,Stocks,Frankfurt,BasicMaterials
+Infineon Technologies AG,IFX.DE,Stocks,Frankfurt,Technology
+K+S Aktiengesellschaft,SDF.DE,Stocks,Frankfurt,BasicMaterials
+Commerzbank AG,CBK.DE,Stocks,Frankfurt,Financial
+Beiersdorf AG,BEI.DE,Stocks,Frankfurt,ConsumerGoods
+Heidelberg Materials AG,HEI.DE,Stocks,Frankfurt,IndustrialGoods
+Deutsche Lufthansa Aktiengesellschaft,LHA.DE,Stocks,Frankfurt,Services
+Continental AG,CON.DE,Stocks,Frankfurt,ConsumerGoods
+Deutsche Bank Aktiengesellschaft,DBK.DE,Stocks,Frankfurt,Financial
+Daimler Truck Holding AG,DTG.DE,Stocks,Frankfurt,IndustrialGoods
+Thyssenkrupp Nucera,NCH2.DE,Stocks,Frankfurt,Utilities
+Kontron AG,KTN.DE,Stocks,Frankfurt,Technology
+Heidelberger Druckmaschinen AG,HDD.DE,Stocks,Frankfurt,IndustrialGoods
+AIXTRON,AIXA.DE,Stocks,Frankfurt,Technology
+Ceconomy St,CEC.DE,Stocks,Frankfurt,ConsumerGoods
+EVOTEC,EVT.DE,Stocks,Frankfurt,Healthcare
+KION GROUP,KGX.DE,Stocks,Frankfurt,Services
+Schaeffler AG,SHA0.DE,Stocks,Frankfurt,ConsumerGoods
+Uniper SE,UN0.DE,Stocks,Frankfurt,Utilities
+Nordex,NDX1.DE,Stocks,Frankfurt,BasicMaterials
+SGL Carbon,SGL.DE,Stocks,Frankfurt,BasicMaterials
+Evonik,EVK.DE,Stocks,Frankfurt,BasicMaterials
+Deutsche Wohnen,DWNI.DE,Stocks,Frankfurt,Financial
+LANXESS,LXS.DE,Stocks,Frankfurt,BasicMaterials
+QIAGEN,QIA.DE,Stocks,Frankfurt,Healthcare
+Covestro,1COV.DE,Stocks,Frankfurt,BasicMaterials
+GEA,G1A.DE,Stocks,Frankfurt,IndustrialGoods
+Zalando,ZAL.DE,Stocks,Frankfurt,ConsumerGoods
+Suedzucker,SZU.DE,Stocks,Frankfurt,ConsumerGoods
+Grand City Properties,GYC.DE,Stocks,Frankfurt,Financial
+TAG Immobilien,TEG.DE,Stocks,Frankfurt,Financial
+Gerresheimer,GXI.DE,Stocks,Frankfurt,BasicMaterials
+freenet,FNTN.DE,Stocks,Frankfurt,Services
+Bilfinger,GBF.DE,Stocks,Frankfurt,IndustrialGoods
+Salzgitter,SZG.DE,Stocks,Frankfurt,BasicMaterials
+Brenntag,BNR.DE,Stocks,Frankfurt,BasicMaterials
+PATRIZIA AG,PAT.DE,Stocks,Frankfurt,Financial
+United Internet,UTDI.DE,Stocks,Frankfurt,Services
+Siltronic,WAF.DE,Stocks,Frankfurt,Technology
+Symrise,SY1.DE,Stocks,Frankfurt,BasicMaterials
+RTL Group,RRTL.DE,Stocks,Frankfurt,Services
+STADA,SAZ.DE,Stocks,Frankfurt,Healthcare
+Deutsche Euroshop,DEQ.DE,Stocks,Frankfurt,Financial
+Hella,HLE.DE,Stocks,Frankfurt,ConsumerGoods
+Hapag-Lloyd,HLAG.DE,Stocks,Frankfurt,IndustrialGoods
+ElringKlinger,ZIL2.DE,Stocks,Frankfurt,ConsumerGoods
+HUGO BOSS,BOSS.DE,Stocks,Frankfurt,ConsumerGoods
+1&1 AG,1U1.DE,Stocks,Frankfurt,Utilities
+CTS Eventim,EVD.DE,Stocks,Frankfurt,ConsumerGoods
+Siemens Healthineers AG,SHL.DE,Stocks,Frankfurt,Healthcare
+Vonovia SE,VNA.DE,Stocks,Frankfurt,Financial
+Hannover Rueck SE,HNR1.DE,Stocks,Frankfurt,Services
+Knorr-Bremse AG,KBX.DE,Stocks,Frankfurt,Technology
+Sartorius AG,SRT.DE,Stocks,Frankfurt,Healthcare
+MTU Aero Engines AG,MTX.DE,Stocks,Frankfurt,Technology
+HOCHTIEF AG,HOT.DE,Stocks,Frankfurt,IndustrialGoods
+Talanx AG,TLX.DE,Stocks,Frankfurt,Services
+Aroundtown SA,AT1.DE,Stocks,Frankfurt,Financial
+Carl Zeiss Meditec AG,AFX.DE,Stocks,Frankfurt,Healthcare
+LEG Immobilien AG,LEG.DE,Stocks,Frankfurt,Financial
+Fraport AG Frankfurt Airport S,FRA.DE,Stocks,Frankfurt,Services
+Rational AG,RAA.DE,Stocks,Frankfurt,BasicMaterials
+Delivery Hero SE,DHER.DE,Stocks,Frankfurt,Services
+DWS Group GmbH & Co KGaA,DWS.DE,Stocks,Frankfurt,Financial
+Nemetschek SE,NEM.DE,Stocks,Frankfurt,Technology
+Fielmann AG,FIE.DE,Stocks,Frankfurt,ConsumerGoods
+Scout24 AG,G24.DE,Stocks,Frankfurt,Services
+Wacker Chemie AG,WCH.DE,Stocks,Frankfurt,IndustrialGoods
+GRENKE AG,GLJ.DE,Stocks,Frankfurt,Financial
+SIXT SE,SIX2.DE,Stocks,Frankfurt,Services
+Bechtle AG,BC8.DE,Stocks,Frankfurt,Technology
+ProSiebenSat.1 Media SE,PSM.DE,Stocks,Frankfurt,Services
+Stroeer SE & Co KGaA,SAX.DE,Stocks,Frankfurt,Services
+Krones AG,KRN.DE,Stocks,Frankfurt,Technology
+Duerr AG,DUE.DE,Stocks,Frankfurt,Technology
+ADO Properties SA,ADJ.DE,Stocks,Frankfurt,Financial
+Aurubis AG,NDA.DE,Stocks,Frankfurt,BasicMaterials
+PUMA AG,PUM.DE,Stocks,Frankfurt,ConsumerGoods
+Rheinmetall AG,RHM.DE,Stocks,Frankfurt,ConsumerGoods
+Jenoptik,JEN.DE,Stocks,Frankfurt,Technology
+Jungheinrich Aktie,JUN3.DE,Stocks,Frankfurt,IndustrialGoods
+MERCK KGAA,MRK.DE,Stocks,Frankfurt,ConsumerGoods
+HENSOLDT AG,HAG.DE,Stocks,Frankfurt,Technology
+VERBIO Vereinigte BioEnergie AG,VBK.DE,Stocks,Frankfurt,Utilities
+flatexDEGIRO SE,FTK.DE,Stocks,Frankfurt,Services
+VOLKSWAGEN AG,VOW.DE,Stocks,Frankfurt,ConsumerGoods
+Henkel AG & Co. KGaA,HEN.DE,Stocks,Frankfurt,ConsumerGoods
+NAGARRO SE,NA9.DE,Stocks,Frankfurt,Technology
+Klockner & Co SE,KCO.DE,Stocks,Frankfurt,BasicMaterials
+TRATON SE,8TRA.DE,Stocks,Frankfurt,ConsumerGoods
+Befesa S.A.,BFSA.DE,Stocks,Frankfurt,IndustrialGoods
+PNE AG,PNE3.DE,Stocks,Frankfurt,Utilities
+ELMOS SEMICONDUCTOR SE,ELG.DE,Stocks,Frankfurt,Technology
+DEUTZ Aktiengesellschaft,DEZ.DE,Stocks,Frankfurt,IndustrialGoods
+HYPOPORT SE,HYQ.DE,Stocks,Frankfurt,ConsumerGoods
+AUTO1 GROUP SE,AG1.DE,Stocks,Frankfurt,ConsumerGoods
+Pfeiffer Vacuum Technology AG,PFV.DE,Stocks,Frankfurt,IndustrialGoods
+STABILUS SE,STM.DE,Stocks,Frankfurt,IndustrialGoods
+DERMAPHARM HOLDING SE,DMP.DE,Stocks,Frankfurt,ConsumerGoods
+ENERGIEKONTOR AG,EKT.DE,Stocks,Frankfurt,Utilities
+GFT TECHNOLOGIES SE,GFT.DE,Stocks,Frankfurt,Technology
+FORMYCON AG,FYB.DE,Stocks,Frankfurt,ConsumerGoods
+HORNBACH Holding AG & Co. KGaA,HBH.DE,Stocks,Frankfurt,ConsumerGoods
+Adtran Networks SE,ADV.DE,Stocks,Frankfurt,Services
+FRIEDRICH VORWERK GROUP SE,VH2.DE,Stocks,Frankfurt,Utilities
+STEICO SE,ST5.DE,Stocks,Frankfurt,ConsumerGoods
+VIB Vermögen AG,VIH1.DE,Stocks,Frankfurt,Financial
+Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien,BVB.DE,Stocks,Frankfurt,ConsumerGoods
+WACKER NEUSON SE,WAC.DE,Stocks,Frankfurt,IndustrialGoods
+HAMBORNER REIT AG,HABA.DE,Stocks,Frankfurt,Financial
+MBB SE,MBB.DE,Stocks,Frankfurt,ConsumerGoods
+JOST WERKE SE,JST.DE,Stocks,Frankfurt,ConsumerGoods
+Hamburger Hafen und Logistik Aktiengesellschaft,HHFA.DE,Stocks,Frankfurt,ConsumerGoods
+Fuchs SE,FPE.DE,Stocks,Frankfurt,BasicMaterials
+STRATEC SE,SBS.DE,Stocks,Frankfurt,ConsumerGoods
+LPKF LASER & ELECTRONICS SE,LPK.DE,Stocks,Frankfurt,IndustrialGoods
+BayWa Aktiengesellschaft,BYW6.DE,Stocks,Frankfurt,ConsumerGoods
+MLP SE,MLP.DE,Stocks,Frankfurt,Financial
+Secunet Security Networks Aktiengesellschaft,YSN.DE,Stocks,Frankfurt,Technology
+ADESSO SE,ADN1.DE,Stocks,Frankfurt,Technology
+ATOSS SOFTWARE AG,AOF.DE,Stocks,Frankfurt,Technology
+Mutares SE & Co. KGaA,MUX.DE,Stocks,Frankfurt,Financial
+AUMANN AG,AAG.DE,Stocks,Frankfurt,IndustrialGoods
+AMADEUS FIRE AG,AAD.DE,Stocks,Frankfurt,ConsumerGoods
+IONOS Group SE,IOS.DE,Stocks,Frankfurt,Technology
+KWS SAAT SE & Co. KGaA,KWS.DE,Stocks,Frankfurt,BasicMaterials
+SMA Solar Technology AG,S92.DE,Stocks,Frankfurt,IndustrialGoods
+Porsche Automobil Holding SE,PAH3.DE,Stocks,Frankfurt,ConsumerGoods
+TeamViewer AG,TMV.DE,Stocks,Frankfurt,Technology
+HelloFresh SE,HFG.DE,Stocks,Frankfurt,ConsumerGoods
+Siemens Energy AG,ENR.DE,Stocks,Frankfurt,IndustrialGoods
+Porsche AG,P911.DE,Stocks,Frankfurt,ConsumerGoods
+TUI AG,TUI1.DE,Stocks,Frankfurt,ConsumerGoods
+RENK Group AG,R3NK.DE,Stocks,Frankfurt,IndustrialGoods
+Linde PLC,LIN.DE,Stocks,Frankfurt,BasicMaterials
+Douglas AG,DOU.DE,Stocks,Frankfurt,ConsumerGoods
+Bayerische Motoren Werke AG,BMW3.DE,Stocks,Frankfurt,ConsumerGoods
+Biontech SE,22UA.DE,Stocks,Frankfurt,ConsumerGoods
+SCHOTT Pharma AG & Co KgaA,1SXP.DE,Stocks,Frankfurt,ConsumerGoods
+SUSS MicroTec SE,SMHN.DE,Stocks,Frankfurt,Technology
+Bitcoin Group SE,ADE.DE,Stocks,Frankfurt,Financial
+PVA TePla AG,TPE.DE,Stocks,Frankfurt,Technology
+Saf-Holland Se,SFQ.DE,Stocks,Frankfurt,ConsumerGoods
+Sixt SE,SIX3.DE,Stocks,Frankfurt,ConsumerGoods
+Knaus Tabbert AG,KTA.DE,Stocks,Frankfurt,ConsumerGoods
+SynBiotic SE,SBX.DE,Stocks,Frankfurt,ConsumerGoods
+Medios AG,ILM1.DE,Stocks,Frankfurt,ConsumerGoods
+CLIQ Digital AG,CLIQ.DE,Stocks,Frankfurt,Services
+Deutsche Beteiligungs AG,DBAN.DE,Stocks,Frankfurt,Financial
+Bertrandt AG,BDT.DE,Stocks,Frankfurt,ConsumerGoods
+Datagroup SE,D6H.DE,Stocks,Frankfurt,Technology
+Alzchem Group AG,ACT.DE,Stocks,Frankfurt,BasicMaterials
+Ryanair Holdings PLC,RY4C.DE,Stocks,Frankfurt,ConsumerGoods
+Vossloh AG,VOS.DE,Stocks,Frankfurt,IndustrialGoods
+Indus Holding AG,INH.DE,Stocks,Frankfurt,IndustrialGoods
+Branicks Group AG,BRNK.DE,Stocks,Frankfurt,Financial
+Sto SE & Co KgaA,STO3.DE,Stocks,Frankfurt,IndustrialGoods
+Wuestenrot & Wuerttembergische AG,WUW.DE,Stocks,Frankfurt,Financial
+Deutsche Rohstoff AG,DR0.DE,Stocks,Frankfurt,BasicMaterials
+Cewe Stiftung & Co KGaA,CWC.DE,Stocks,Frankfurt,ConsumerGoods
+M1 Kliniken AG,M12.DE,Stocks,Frankfurt,ConsumerGoods
+Koenig & Bauer AG,SKB.DE,Stocks,Frankfurt,IndustrialGoods
+7C Solarparken AG,HRPK.DE,Stocks,Frankfurt,Utilities
+KSB SE & Co KGaA,KSB3.DE,Stocks,Frankfurt,IndustrialGoods
+Haier Smart Home Co Ltd,690D.DE,Stocks,Frankfurt,ConsumerGoods
+Basler AG,BSL.DE,Stocks,Frankfurt,IndustrialGoods
+Takkt AG,TTK.DE,Stocks,Frankfurt,ConsumerGoods
+CureVac NV,5CV.DE,Stocks,Frankfurt,ConsumerGoods
+Nexus AG,NXU.DE,Stocks,Frankfurt,Technology
+Mensch und Maschine Software SE,MUM.DE,Stocks,Frankfurt,Technology
+init innovation in traffic systems SE,IXX.DE,Stocks,Frankfurt,ConsumerGoods
+CHAPTERS Group AG,CHG.DE,Stocks,Frankfurt,Financial
+ZEAL Network SE,TIMA.DE,Stocks,Frankfurt,ConsumerGoods
+Washtec AG,WSU.DE,Stocks,Frankfurt,IndustrialGoods
+All for One Group SE,A1OS.DE,Stocks,Frankfurt,Technology
+PSI Software SE,PSAN.DE,Stocks,Frankfurt,Technology
+Allgeier SE,AEIN.DE,Stocks,Frankfurt,Technology
+Bijou Brigitte modische Accessoires AG,BIJ.DE,Stocks,Frankfurt,ConsumerGoods
+Instone Real Estate Group SE,INS.DE,Stocks,Frankfurt,Financial
+Einhell Germany AG,EIN.DE,Stocks,Frankfurt,IndustrialGoods
+Villeroy & Boch AG,VIB3.DE,Stocks,Frankfurt,ConsumerGoods
+Nabaltec AG,NTG.DE,Stocks,Frankfurt,BasicMaterials
+tonies SE,TNIE.DE,Stocks,Frankfurt,ConsumerGoods
+Raiffeisen Bank International AG,RAW.DE,Stocks,Frankfurt,Financial
+Cherry SE,C3RY.DE,Stocks,Frankfurt,Technology
+ParTec AG,JY0.DE,Stocks,Frankfurt,Technology
+ProCredit Holding AG,PCZ.DE,Stocks,Frankfurt,Financial
+Enapter AG,H2O.DE,Stocks,Frankfurt,Utilities
+IVU Traffic Technologies AG,IVU.DE,Stocks,Frankfurt,Technology
+Fabasoft AG,FAA.DE,Stocks,Frankfurt,Technology
+Gesco SE,GSC1.DE,Stocks,Frankfurt,IndustrialGoods
+Ernst Russ AG,ERAG.DE,Stocks,Frankfurt,IndustrialGoods
+CeoTronics Audio Video Data Communication AG,CEK.DE,Stocks,Frankfurt,Services
+Verbund AG,OEWA.DE,Stocks,Frankfurt,Utilities
+Envitec Biogas AG,ETG.DE,Stocks,Frankfurt,Utilities
+technotrans SE,TTR1.DE,Stocks,Frankfurt,IndustrialGoods
+Lang & Schwarz AG,LUS1.DE,Stocks,Frankfurt,Financial
+Hoenle AG,HNL.DE,Stocks,Frankfurt,IndustrialGoods
+JDC Group AG,JDC.DE,Stocks,Frankfurt,Financial
+Mister Spex SE,MRX.DE,Stocks,Frankfurt,ConsumerGoods
+First Sensor AG,SIS.DE,Stocks,Frankfurt,IndustrialGoods
+Nynomic AG,M7U.DE,Stocks,Frankfurt,IndustrialGoods
+Wienerberger AG,WIB.DE,Stocks,Frankfurt,IndustrialGoods
+HomeToGo SE,HTG.DE,Stocks,Frankfurt,Services
+Shelly Group AD,SLYG.DE,Stocks,Frankfurt,Services
+Draegerwerk AG & Co KGaA,DRW8.DE,Stocks,Frankfurt,ConsumerGoods
+Advanced Blockchain AG,ABX.DE,Stocks,Frankfurt,Technology
+Andritz AG,AZ2.DE,Stocks,Frankfurt,IndustrialGoods
+Newron Pharmaceuticals SpA,NP5.DE,Stocks,Frankfurt,ConsumerGoods
+BAWAG Group AG,0B2.DE,Stocks,Frankfurt,Financial
+MPH Health Care AG,93M1.DE,Stocks,Frankfurt,ConsumerGoods
+Medtronic PLC,2M6.DE,Stocks,Frankfurt,ConsumerGoods
+Smartbroker Holding AG,SB1.DE,Stocks,Frankfurt,Services
+Brockhaus Technologies AG,BKHT.DE,Stocks,Frankfurt,Financial
+Leifheit AG,LEI.DE,Stocks,Frankfurt,ConsumerGoods
+Exasol AG,EXL.DE,Stocks,Frankfurt,Technology
+Verve Group SE,VRV.DE,Stocks,Frankfurt,Technology
+CENIT AG,CSH.DE,Stocks,Frankfurt,Technology
+SNP Schneider Neureither & Partner SE,SHF.DE,Stocks,Frankfurt,Technology
+Novem Group SA,NVM.DE,Stocks,Frankfurt,ConsumerGoods
+IBU-tec advanced materials AG,IBU.DE,Stocks,Frankfurt,BasicMaterials
+Pyrum Innovations AG,PYR.DE,Stocks,Frankfurt,IndustrialGoods
+AP Moeller - Maersk A/S,DP4A.DE,Stocks,Frankfurt,IndustrialGoods
+Biotest AG,BIO3.DE,Stocks,Frankfurt,ConsumerGoods
+OHB SE,OHB.DE,Stocks,Frankfurt,IndustrialGoods
+Global Fashion Group SA,GFG.DE,Stocks,Frankfurt,Services
+Erste Group Bank AG,EBO.DE,Stocks,Frankfurt,Financial
+Umweltbank AG,UBK.DE,Stocks,Frankfurt,Financial
+Cantourage Group SE,HIGH.DE,Stocks,Frankfurt,ConsumerGoods
+Viscom AG,V6C.DE,Stocks,Frankfurt,IndustrialGoods
+Apontis Pharma AG,APPH.DE,Stocks,Frankfurt,ConsumerGoods
+Westwing Group SE,WEW.DE,Stocks,Frankfurt,Services
+Laiqon AG,LQAG.DE,Stocks,Frankfurt,Financial
+Rhoen Klinikum AG,RHK.DE,Stocks,Frankfurt,ConsumerGoods
+Deutsche Konsum REIT-AG,DKG.DE,Stocks,Frankfurt,Financial
+MAX Automation SE,MXHN.DE,Stocks,Frankfurt,IndustrialGoods
+Serviceware SE,SJJ.DE,Stocks,Frankfurt,Technology
+Hawesko Holding SE,HAW.DE,Stocks,Frankfurt,ConsumerGoods
+Pferdewetten de AG,EMH.DE,Stocks,Frankfurt,Services
+CR Energy AG,CRZK.DE,Stocks,Frankfurt,Financial
+Platform Group AG,TPG0.DE,Stocks,Frankfurt,Technology
+Heliad AG,A7A.DE,Stocks,Frankfurt,Financial
+DATA MODUL Produktion und Vertrieb von elektronischen Systemen AG,DAM.DE,Stocks,Frankfurt,Technology
+KSB SE & Co KGaA,KSB.DE,Stocks,Frankfurt,IndustrialGoods
+Clearvise AG,ABO.DE,Stocks,Frankfurt,Utilities
+Samara Asset Group PLC,SRAG.DE,Stocks,Frankfurt,Financial
+Yoc AG,YOC.DE,Stocks,Frankfurt,Services
+OEKOWORLD AG,VVV3.DE,Stocks,Frankfurt,Financial
+Masterflex SE,MZX.DE,Stocks,Frankfurt,IndustrialGoods
+sino AG,XTP.DE,Stocks,Frankfurt,Services
+QBeyond AG,QBY.DE,Stocks,Frankfurt,Technology
+Defama Deutsche Fachmarkt AG,DEF.DE,Stocks,Frankfurt,Financial
+MVV Energie AG,MVV1.DE,Stocks,Frankfurt,Utilities
+Heidelberg Pharma AG,HPHA.DE,Stocks,Frankfurt,ConsumerGoods
+MPC Muenchmeyer Petersen Capital AG,MPCK.DE,Stocks,Frankfurt,Financial
+STS Group AG,SF3.DE,Stocks,Frankfurt,ConsumerGoods
+Baader Bank AG,BWB.DE,Stocks,Frankfurt,Financial
+SMT Scharf AG,S188.DE,Stocks,Frankfurt,IndustrialGoods
+Ringmetall SE,HP3A.DE,Stocks,Frankfurt,Financial
+Bike24 Holding AG,BIKE.DE,Stocks,Frankfurt,Services
+EDAG Engineering Group AG,ED4.DE,Stocks,Frankfurt,ConsumerGoods
+Nuernberger Beteiligungs AG,NBG6.DE,Stocks,Frankfurt,Financial
+Delticom AG,DEX.DE,Stocks,Frankfurt,ConsumerGoods
+InCity Immobilien AG,IC8.DE,Stocks,Frankfurt,Financial
+EnBW Energie Baden Wuerttemberg AG,EBK.DE,Stocks,Frankfurt,Utilities
+H&R GmbH & Co KgaA,2HRA.DE,Stocks,Frankfurt,BasicMaterials
+Fortec Elektronik AG,FEV.DE,Stocks,Frankfurt,Technology
+KPS AG,KSC.DE,Stocks,Frankfurt,Technology
+Muehlbauer Holding AG,MUB.DE,Stocks,Frankfurt,Technology
+Netfonds AG,NF4.DE,Stocks,Frankfurt,Financial
+Wolftank Adisa Holding AG,WAH.DE,Stocks,Frankfurt,IndustrialGoods
+Berentzen Gruppe AG,BEZ.DE,Stocks,Frankfurt,ConsumerGoods
+NorCom Information Technology GmbH & Co KgaA,NC5A.DE,Stocks,Frankfurt,Technology
+Scherzer & Co AG,PZS.DE,Stocks,Frankfurt,Financial
+BRAIN Biotech AG,BNN.DE,Stocks,Frankfurt,BasicMaterials
+Blue Cap AG,B7E.DE,Stocks,Frankfurt,Financial
+Daldrup & Soehne AG,4DS.DE,Stocks,Frankfurt,IndustrialGoods
+Limes Schlosskliniken AG,LIK.DE,Stocks,Frankfurt,ConsumerGoods
+Softing AG,SYT.DE,Stocks,Frankfurt,IndustrialGoods
+Friwo AG,CEA.DE,Stocks,Frankfurt,IndustrialGoods
+Paragon GmbH & Co KGaA,PGN.DE,Stocks,Frankfurt,IndustrialGoods
+Ecotel Communication AG,E4C.DE,Stocks,Frankfurt,Services
+Naga Group AG,N4G0.DE,Stocks,Frankfurt,Technology
+Syzygy AG,SYZ.DE,Stocks,Frankfurt,Services
+Binect AG,MA10.DE,Stocks,Frankfurt,Technology
+FCR Immobilien AG,FC9.DE,Stocks,Frankfurt,Financial
+NanoRepro AG,NN6.DE,Stocks,Frankfurt,ConsumerGoods
+2Invest AG,2INV.DE,Stocks,Frankfurt,Financial
+Schoeller-Bleckmann Oilfield Equipment AG,SLL.DE,Stocks,Frankfurt,Utilities
+Circus SE,CA1.DE,Stocks,Frankfurt,Technology
+Singulus Technologies AG,SNG.DE,Stocks,Frankfurt,Utilities
+Shareholder Value Beteiligungen AG,SVE.DE,Stocks,Frankfurt,Financial
+Delignit AG,DLX.DE,Stocks,Frankfurt,BasicMaterials
+Grammer AG,GMM.DE,Stocks,Frankfurt,ConsumerGoods
+Bastei Luebbe AG,BST.DE,Stocks,Frankfurt,Services
+MS Industrie AG,MSAG.DE,Stocks,Frankfurt,ConsumerGoods
+Rubean AG,R1B.DE,Stocks,Frankfurt,Technology
+Cyan AG,CYR.DE,Stocks,Frankfurt,Technology
+Biotest AG,BIO.DE,Stocks,Frankfurt,ConsumerGoods
+Surteco Group SE,SUR.DE,Stocks,Frankfurt,IndustrialGoods
+Logwin AG SA,TGHN.DE,Stocks,Frankfurt,IndustrialGoods
+R Stahl AG,RSL2.DE,Stocks,Frankfurt,ConsumerGoods
+Pantaflix AG,PAL.DE,Stocks,Frankfurt,ConsumerGoods
+Uzin Utz SE,UZU.DE,Stocks,Frankfurt,IndustrialGoods
+Vita 34 AG,V3V.DE,Stocks,Frankfurt,ConsumerGoods
+Datron AG,DAR.DE,Stocks,Frankfurt,IndustrialGoods
+UET United Electronic Technology AG,CFC.DE,Stocks,Frankfurt,Services
+AHT Syngas Technology NV,3SQ1.DE,Stocks,Frankfurt,Utilities
+Mountain Alliance AG,ECF.DE,Stocks,Frankfurt,Financial
+Planethic Group AG,VEZ.DE,Stocks,Frankfurt,ConsumerGoods
+Uniqa Insurance Group AG,UN9.DE,Stocks,Frankfurt,Financial
+hGears AG,HGEA.DE,Stocks,Frankfurt,IndustrialGoods
+Edel SE & Co KgaA,EDL.DE,Stocks,Frankfurt,ConsumerGoods
+Ad Pepper Media International NV,APM.DE,Stocks,Frankfurt,Services
+PWO AG,PWO.DE,Stocks,Frankfurt,IndustrialGoods
+Foris AG,FRS.DE,Stocks,Frankfurt,Financial
+Pyramid AG,M3B.DE,Stocks,Frankfurt,Financial
+Nfon AG,NFN.DE,Stocks,Frankfurt,Technology
+MHP Hotel AG,CDZ0.DE,Stocks,Frankfurt,ConsumerGoods
+Merkur Privatbank KGaA,MBK.DE,Stocks,Frankfurt,Financial
+STRABAG SE,XD4.DE,Stocks,Frankfurt,IndustrialGoods
+Medondo Holding AG,AMI.DE,Stocks,Frankfurt,Technology
+bet at home com AG,ACX.DE,Stocks,Frankfurt,ConsumerGoods
+Plan Optik AG,P4O.DE,Stocks,Frankfurt,Technology
+Quirin Privatbank AG,QB7.DE,Stocks,Frankfurt,Financial
+United Labels AG,ULC.DE,Stocks,Frankfurt,ConsumerGoods
+Schloss Wachenheim AG,SWA.DE,Stocks,Frankfurt,ConsumerGoods
+Noratis AG,NUVA.DE,Stocks,Frankfurt,Financial
+Mueller Die lila Logistik SE,MLL.DE,Stocks,Frankfurt,ConsumerGoods
+Mobotix AG,MBQ.DE,Stocks,Frankfurt,IndustrialGoods
+Geratherm Medical AG,GME.DE,Stocks,Frankfurt,ConsumerGoods
+LUDWIG BECK am Rathauseck Textilhaus Feldmeier AG,ECK.DE,Stocks,Frankfurt,ConsumerGoods
+Schweizer Electronic AG,SCE.DE,Stocks,Frankfurt,IndustrialGoods
+Albis Leasing AG,ALG.DE,Stocks,Frankfurt,Financial
+Weng Fine Art AG,WFA.DE,Stocks,Frankfurt,ConsumerGoods
+Kap AG,IUR.DE,Stocks,Frankfurt,BasicMaterials
+Mevis Medical Solutions AG,M3V.DE,Stocks,Frankfurt,Technology
+Ls Telcom AG,LSX.DE,Stocks,Frankfurt,Technology
+BayWa AG,BYW.DE,Stocks,Frankfurt,ConsumerGoods
+KHD Humboldt Wedag International AG,KWG.DE,Stocks,Frankfurt,Services
+Intershop Communications AG,ISHA.DE,Stocks,Frankfurt,Services
+Porr AG,ABS2.DE,Stocks,Frankfurt,IndustrialGoods
+Almonty Industries Inc,ALI1.DE,Stocks,Frankfurt,BasicMaterials
+Sporttotal AG,WIG1.DE,Stocks,Frankfurt,Services
+mwb Fairtrade Wertpapierhandelsbank AG,MWB0.DE,Stocks,Frankfurt,Financial
+HWA AG,H9W.DE,Stocks,Frankfurt,ConsumerGoods
+Demire Deutsche Mittelstand Real Estate AG,DMRE.DE,Stocks,Frankfurt,Financial
+elumeo SE,ELB.DE,Stocks,Frankfurt,ConsumerGoods
+Orbis Se,OBS.DE,Stocks,Frankfurt,Technology
+Otrs AG,TR9.DE,Stocks,Frankfurt,Technology
+DocCheck AG,AJ91.DE,Stocks,Frankfurt,Services
+InTiCa Systems SE,IS7.DE,Stocks,Frankfurt,IndustrialGoods
+Highlight Communications AG,HLG.DE,Stocks,Frankfurt,ConsumerGoods
+Klassik Radio AG,KA8.DE,Stocks,Frankfurt,Services
+AS Creation Tapeten AG,ACWN.DE,Stocks,Frankfurt,ConsumerGoods
+Dierig Holding AG,DIE.DE,Stocks,Frankfurt,ConsumerGoods
+Net Digital AG,VRL.DE,Stocks,Frankfurt,Technology
+SM Wirtschaftsberatungs AG,SMWN.DE,Stocks,Frankfurt,Financial
+Mediclin AG,MED.DE,Stocks,Frankfurt,ConsumerGoods
+Varengold Bank AG,VG80.DE,Stocks,Frankfurt,Financial
+Artec Technologies AG,A6T.DE,Stocks,Frankfurt,IndustrialGoods
+Aap Implantate AG,AAQ1.DE,Stocks,Frankfurt,ConsumerGoods
+Deutsche Effecten und Wechsel Beteiligungsgesellschaft AG,EFF0.DE,Stocks,Frankfurt,Financial
+H2 CORE AG,M5S.DE,Stocks,Frankfurt,IndustrialGoods
+mVISE AG,C1V0.DE,Stocks,Frankfurt,Technology
+Realtech AG,RTC.DE,Stocks,Frankfurt,Technology
+Spielvereinigung Unterhaching Fussball GmbH & Co KgaA,S6P.DE,Stocks,Frankfurt,ConsumerGoods
+Tonkens Agrar AG,GTK.DE,Stocks,Frankfurt,ConsumerGoods
+Erlebnis Akademie AG,EAD.DE,Stocks,Frankfurt,ConsumerGoods
+Capsensixx AG,CPX.DE,Stocks,Frankfurt,Financial
+Corestate Capital Holding SA,CCAP.DE,Stocks,Frankfurt,Financial
+Sbf AG,CY1K.DE,Stocks,Frankfurt,IndustrialGoods
+OVB Holding AG,O4B.DE,Stocks,Frankfurt,Financial
+B+S Banksysteme AG,DTD2.DE,Stocks,Frankfurt,Technology
+TTL Beteiligungs und Grundbesitz AG,TTO.DE,Stocks,Frankfurt,Financial
+DF Deutsche Forfait AG,DFTK.DE,Stocks,Frankfurt,Financial
+11 88 0 Solutions AG,TGT.DE,Stocks,Frankfurt,Services
+Sernova Biotherapeutics Inc,PSH0.DE,Stocks,Frankfurt,ConsumerGoods
+Grounds Real Estate Development AG,AMM.DE,Stocks,Frankfurt,Financial
+HMS Bergbau AG,HMU.DE,Stocks,Frankfurt,Utilities
+BioNxt Solutions Inc,BXT.DE,Stocks,Frankfurt,ConsumerGoods
+Fast Finance 24 Holding AG,FF24.DE,Stocks,Frankfurt,Financial
+GBS Software AG,INW.DE,Stocks,Frankfurt,Technology
+MATERNUS-Kliniken-AG,MAK.DE,Stocks,Frankfurt,ConsumerGoods
+UMT United Mobility Technology AG,UMD.DE,Stocks,Frankfurt,Technology
+Pro DV AG,PDA0.DE,Stocks,Frankfurt,Technology
+CPI Property Group SA,O5G.DE,Stocks,Frankfurt,Financial
+Heidelberger Beteiligungsholding AG,IPOK.DE,Stocks,Frankfurt,Financial
+Coreo AG,COR.DE,Stocks,Frankfurt,Financial
+RCM Beteiligungs AG,RCMN.DE,Stocks,Frankfurt,Financial
+Intertainment AG,ITN.DE,Stocks,Frankfurt,Services
+Elexxion AG,E8X.DE,Stocks,Frankfurt,ConsumerGoods
+Seven Principles AG,T3T1.DE,Stocks,Frankfurt,Technology
+Tmc Content Group AG,VXT.DE,Stocks,Frankfurt,ConsumerGoods
+Aumovio SE,AMV0.DE,Stocks,Frankfurt,IndustrialGoods
+Tkms AG& Co KGaA,TKMS.DE,Stocks,Frankfurt,IndustrialGoods
