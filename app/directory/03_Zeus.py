@@ -5,7 +5,7 @@ import os
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
-from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi, acd, bull_bear_acd_div
+from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi
 import functions.pathfunc as pf
 
 from functions.logging import logging
@@ -69,35 +69,43 @@ st.sidebar.caption("*NOT FINANCIAL ADVICE!! FOR EDUCATION ONLY*")
 st.caption("_Zeus (/zjuːs/; Ancient Greek: Ζεύς)[a] is the sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. His name is cognate with the first syllable of his Roman equivalent Jupiter._")
 ""
 c1,c2=st.sidebar.columns(2)
-market = c1.radio('Market', ['sp500', 'crypto'], index=1)
+market = c1.radio('Market', ['stocks', 'crypto'], index=1)
 
 broker="binance"
 if market == "crypto" :
     broker = c2.radio("broker", ["binance",], index=0)
-
-if broker != "dexscreener" :
-    path = pf.get_path_crypto() if market == "crypto" else pf.get_path_sp500()
-    if not os.path.exists(path) : 
-        st.info("Start by updating datasets in Hermes module or change the market (sidebar)")
-        st.stop()
-        
-    tables = [x.replace(".parquet","") for x in os.listdir(path) if not x.endswith(".txt")]
-
-    # Create dropdown menu to select ticker
-    ticker = st.sidebar.selectbox("Select a ticker:", sorted(tables))
-    emoji = ":material/candlestick_chart:" if market == "sp500" else ":material/currency_bitcoin:"
-    f"### {emoji} {ticker}"
-    try:
-        # Download data for selected ticker
-        data = pd.read_parquet( os.path.join(path,f"{ticker}.parquet"))
-    except :
-        st.error('Erreur')
-        st.stop()
+    stocks_path = pf.get_path_data()
+    submarkets = ["crypto_binance"]
 
 
-# if broker == "coinbase" :
-#     data["order"] = data["Date"].str[-4:] + data["Date"].str[3:5] + data["Date"].str[:2]
-#     data["order"] = data["order"].astype(int)
+elif market == "stocks" :
+    stocks_path = os.path.join(pf.get_path_data(), "stocks")
+    submarkets = os.listdir(stocks_path)
+
+
+@st.cache_data
+def get_dict_sm_path(submarkets, stocks_path) :
+    dict_data_path = {}
+    for sm in submarkets :
+        sm_path = os.path.join(stocks_path, sm)
+        sm_dict = { x.replace(".parquet","") : os.path.join(sm_path, x) for x in os.listdir(sm_path) if not x.endswith(".txt") }
+        dict_data_path = dict_data_path | sm_dict
+    return dict_data_path
+
+dict_data_path = get_dict_sm_path(submarkets, stocks_path)
+
+tables = [x for x in dict_data_path if not x.endswith(".txt")]
+
+# Create dropdown menu to select ticker
+ticker = st.sidebar.selectbox("Select a ticker:", sorted(tables))
+emoji = ":material/candlestick_chart:" if market == "stocks" else ":material/currency_bitcoin:"
+f"### {emoji} {ticker}"
+try:
+    data = pd.read_parquet( dict_data_path[ticker] )
+except :
+    st.error('Erreur')
+    st.stop()
+
 
 if data.empty :
     st.error('empty table')
@@ -109,6 +117,8 @@ list_col = ["Close", "Open", "High", "Low", "Volume"]
 for col in list_col :
     data[col] = data[col].astype(float)
 
+
+
 if market == 'crypto' :
     if "order" in data :
         data = data.sort_values(by="order").reset_index(drop=True)
@@ -118,6 +128,27 @@ data_len=len(data)
 days = st.sidebar.slider("days to load", 2, data_len, 2000 if data_len>2000 else data_len)
 data = data.tail(days)
 
+weekly = st.toggle("weekly")
+if weekly :
+    data['week'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.isocalendar().week.astype(str)
+    data["week"] = [ w if len(w)>1 else "0"+w for w in data["week"].values ]
+    data['year'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.isocalendar().year.astype(str)
+    data["week"] = [ y + "_" + w for w,y in zip(data["week"].values, data["year"].values)]
+
+    aggregation = {
+        'Date': 'first',
+        'Low': 'min',
+        'High': 'max',
+        'Open': 'first',
+        'Close': 'last',
+        'Volume': 'sum'
+    }
+
+    if "order" in data :
+        aggregation["order"] = "first"
+
+    data = data.groupby("week").agg(aggregation).reset_index()
+    data = data.sort_values(by="week").reset_index(drop=True)
 
 col1,col2,col3,col4 = st.columns(4)
 with col1.popover(":material/candlestick_chart: Candles", use_container_width=True) :
@@ -125,48 +156,71 @@ with col1.popover(":material/candlestick_chart: Candles", use_container_width=Tr
     if mrk_vol :
         mrk_max_size = st.slider("Marker max size", 5, 50, 20)
     c1,c2=st.columns(2)
-    incr_candle_color = c1.color_picker("incr. candle", "#EEEEEE", disabled=mrk_vol)
-    decr_candle_color = c2.color_picker("decr. candle", "#8E8E8E", disabled=mrk_vol)
+    if st.context.theme.type == "light" :
+        candle_colors={"incr":"#9C9C9C", "decr":"#000000"}
+    else :
+        candle_colors={"incr":"#FFFFFF", "decr":"#7B7B7B"}
+
+    incr_candle_color = c1.color_picker("incr. candle", candle_colors["incr"], disabled=mrk_vol)
+    decr_candle_color = c2.color_picker("decr. candle", candle_colors["decr"], disabled=mrk_vol)
 
 
 with col2.popover(":material/avg_time: Moving averages", use_container_width=True) :
     MAs=st.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
     if len(MAs)>0 :
-        show_ema       = st.toggle("Show EMA")
-        c1,c2,c3       = st.columns(3)
-        ma6_color      = c1.color_picker("6MA", "#00FFFB")
-        ma14_color     = c2.color_picker("14MA", "#FFA200")
-        ma20_color     = c3.color_picker("20MA", "#E400DF")
-        ma50_color     = c1.color_picker("50MA", "#550092")
-        ma200_color    = c2.color_picker("200MA", "#0009FF")
-        dict_ma_colors = {"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
+        show_ema = st.toggle("Show EMA")
+        c1,c2,c3 = st.columns(3)
+        ma6_color=c1.color_picker("6MA", "#00FFFB")
+        ma14_color=c2.color_picker("14MA", "#FFA200")
+        ma20_color=c3.color_picker("20MA", "#E400DF")
+        ma50_color=c1.color_picker("50MA", "#550092")
+        ma200_color=c2.color_picker("200MA", "#0009FF")
+        dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
 with col3.popover(":material/function: Indicators", use_container_width=True) :
-    RSIs  = st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-    c1,c2 = st.columns(2)
-    SR    = c1.toggle("S/R")
-    VOL   = c2.toggle("Volume")
-    AO    = c1.toggle("AO")
-    SMOM  = c2.toggle("Squeeze Mom Lazy Bear")
-    DOT   = c1.toggle("Dots trend streategy")
-    WT    = c2.toggle("Wick trend")
+    "#### volume"
+    c1,c2=st.columns(2)
+    VOL=c1.toggle("Volume")
+    VOLSTD=c2.toggle("Volume STD")
+
+    "#### oscillators"
+    RSIs=st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
+    c1,c2=st.columns(2)
+    AO=c1.toggle("AO")
+    SMOM=c2.toggle("Squeeze Mom Lazy Bear")
+    C200SMA = c1.toggle("Close 200SMA")
+
+    "#### trend and support"
+    c1,c2=st.columns(2)
+
+    SR=c1.toggle("S/R")
+    sqz=c2.toggle("Squeeze")
+    DOT=c1.toggle("Dots trend streategy")
+    WT=c2.toggle("Wick trend")
+
     "---"
-    rsi5014 = c2.toggle("RSI oscillator trend (experimental)")
-    sqz     = c1.toggle("Squeeze")
-    ACD    = c2.toggle("ac/ad")
-    
+    "#### else"
+    c1,c2=st.columns(2)
+
+    rsi5014=c1.toggle("RSI oscillator trend (experimental)")
+
     grid_search = c1.toggle("Grid search")
+    grad=c2.toggle("Gradient",)
+    if grad:
+        grad_wind=c2.number_input("gradient window", 1, 500, 180, )
     if grid_search:
-        grid_x         = st.slider("Grid size X (days)", 6, 200, 20)
-        grid_type      = st.radio("Grid type", ["Volume cum", "RSI Correlation (Pearson)"])
+        grid_x = st.slider("Grid size X (days)", 6, 200, 20)
+        grid_type = st.radio("Grid type", ["Volume cum", "RSI Correlation (Pearson)"])
         gs_multiwindow = st.button("Multiwindow search")
-    
 
 
 with col4.popover(":material/sports_basketball: Doji", use_container_width=True) :
     UHCs = st.toggle("Hammer/umbrella")
     DGCs = st.toggle("Dragonfly/Gravestone")
     tweez = st.toggle("Tweezer candles")
+    nrx = st.toggle("NR_X")
+    if nrx :
+        nrx_wind = st.number_input("NR_X window", 2, 500, 7)
 
 
 
@@ -224,6 +278,12 @@ if tweez :
     TT, TB = data[data["tweezer top"].isin([True,"Confirmed"])], data[data["tweezer bot"].isin([True,"Confirmed"])]
 
 
+if nrx :
+    data["range"] = data["High"]-data["Low"]
+    data[f"NR{nrx_wind}_val"] = data["range"].rolling(nrx_wind).min()
+    data[f"NR{nrx_wind}"] = False
+    data.loc[ data[f"NR{nrx_wind}_val"].values == data["range"].values, f"NR{nrx_wind}"] = True
+
 
 
 #RSI
@@ -245,12 +305,12 @@ if rsi5014 :
     data.loc[(data[f"RSIoscillator"].shift(1).values<=0) & (data[f"RSIoscillator"].values>0), "RSIOCalls"] = "Bullish"
     data.loc[(data[f"RSIoscillator"].shift(1).values>=0) & (data[f"RSIoscillator"].values<0), "RSIOCalls"] = "Bearish"
 
-if ACD :
-    subplot+=1
-    data["ACD"], data["MFM"] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
-    data, data_bot_acd, data_top_acd = bull_bear_acd_div(data)
-    
-    
+if grad :
+    data["grad base"] = data["Close"].rolling(grad_wind).mean().rolling(grad_wind).mean()
+    data["grad"] = np.gradient(data["grad base"].values)
+    data["grad sentiment"] = None
+    data.loc[  (data["grad"]>0) & (data["grad"].shift(1)<0),  "grad sentiment"] = "accelerating ^"
+    data.loc[ (data["grad"]<0) & (data["grad"].shift(1)>0),  "grad sentiment"] = "decelerating v"
 
 if WT :
     # data["wick"]=(data["Close"]-data["Low"]) - (data["High"]-data["Close"])
@@ -277,8 +337,11 @@ if AO :
 if VOL :
     subplot+=1
 
+if VOLSTD :
+    subplot+=1
 
-    # neg_rising=data[(data["ao"].values <= 0)
+if C200SMA :
+    subplot+=1
 
 if SR :
     def float_to_rgba_jet(column):
@@ -416,7 +479,7 @@ if grid_search:
     subplot+=1
     data = pearson_rsi(data, grid_x, grid_type, gs_multiwindow)
 
-plotheight=700
+plotheight=500
 subplotheight=200
 #plot
 if subplot>0 :
@@ -433,15 +496,12 @@ else :
 
 if mrk_vol :
     data_vol = data[data["Volume"] > 0][["Date","Close","Volume"]]
-    fig.add_trace(go.Scatter(x=data_vol["Date"].values, y=data_vol["Close"].values, name="close-volume markers", mode="markers", marker_line_width=0, 
+    fig.add_trace(go.Scatter(x=data_vol["Date"].values, y=data_vol["Close"].values, name="close-volume markers", mode="markers",
                              marker_color=data_vol["Volume"].values, marker_size=data_vol["Volume"].values/max(data_vol["Volume"].values)*mrk_max_size,
                              marker_colorscale="Jet"), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 else :
     fig.add_trace(go.Candlestick( x=data["Date"].values, name="daily candles", open=data["Open"].values, high=data["High"].values, low=data["Low"].values, close=data["Close"].values,
                               increasing=dict(line=dict(color=incr_candle_color, width=0.5)), decreasing=dict(line=dict(color=decr_candle_color, width=0.5))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
-
-fig.add_hline(y=data["Close"].values[-1], line_width=1, line_color="grey", line_dash="dot", row=None if subplot==0 else 1, annotation_text=f"{data["Close"].values[-1]}", annotation_position="top left")
-
 
 if grid_search:
     marker_opacity = None
@@ -462,6 +522,16 @@ if grid_search:
         fig.add_trace(go.Scatter(x=data["Date"].values, y=data["Low"].values, mode="markers", marker_color="violet", name=grid_type, marker_opacity=data[grid_type + "_perc"]), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
+if grad :
+    dict_grad = { "accelerating ^" : "orange", "decelerating v" : "cyan" }
+    for g in dict_grad :
+        data_cut=data[data["grad sentiment"]==g]
+        fig.add_trace(
+            go.Scatter(
+                x=data_cut["Date"].values, y=(data_cut["Close"].values + data_cut["Open"].values)/2,
+                mode="markers", marker_color=dict_grad[g], name=g, ),
+            col=None if subplot==0 else 1, row=None if subplot==0 else 1
+            )
 
 
 
@@ -525,6 +595,13 @@ if tweez :
                                  decreasing=dict(line=dict(color="RoyalBlue", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=TB_conf["Date"].values, y=TB_conf["Low"].values, mode='text', text="TBC", textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
+if nrx :
+    data_cut = data[data[f"NR{nrx_wind}"].values]
+
+    fig.add_trace(go.Candlestick( x=data_cut["Date"].values, name="tweezer top", open=data_cut["Open"].values,
+                             high=data_cut["High"].values, low=data_cut["Low"].values,
+                             close=data_cut["Close"].values, increasing=dict(line=dict(color="deeppink", width=1)),
+                             decreasing=dict(line=dict(color="deeppink", width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
 if SR :
@@ -559,48 +636,79 @@ if sqz :
     fig.add_trace(go.Scatter(x=sqz_on["Date"].values, y=sqz_on["lower_BB"].values, mode='markers', marker_color='orange', marker_symbol="triangle-up", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
     fig.add_trace(go.Scatter(x=sqz_on["Date"].values, y=sqz_on["upper_BB"].values, mode='markers', marker_color='orange', marker_symbol="triangle-down", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
+if VOLSTD :
+    # data_vol_std = data["Volume"].rolling(20).std() / (data["Close"].rolling(20).std())
+    volum = data["Volume"].copy()
+    correct = np.ones_like(volum)
+    correct[data["Close"]<data["Open"]] = -1
+    volum = volum*correct
 
+    volum50 = volum.rolling(50).mean().rolling(50).mean()
+    volum200 = volum.rolling(200).mean().rolling(200).mean()
+
+    data_cut = data[(volum50>volum200) & (volum50.shift(1)<=volum200.shift(1)) & (data["Close"].values<data["Close"].rolling(200).mean())]
+    fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["Low"].values, mode='markers', marker_color='deeppink', marker_symbol="triangle-up", marker_size=10, showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+
+fig.add_hline(y=data["Close"].values[-1], line_width=1, line_dash="dot", line_color="grey", annotation_text=f"{ticker}:{np.round(data['Close'].values[-1],3)}", annotation_position="right top")
 
 
 subplot_row = 2
 if VOL:
-    data_up=data[data["Open"].values<data["Close"].values]
-    data_down=data[data["Open"].values>=data["Close"].values]
-    for df, color in zip([data_up, data_down],["lightseagreen", "red"]) :
-        fig.add_trace(go.Bar(x=df["Date"].values, y=df["Volume"].values, name="Volume", marker_color=color, marker_line_color="rgba(0,0,0,0)", marker_line_width=0), col=1, row=subplot_row)
+    n = len(data["Date"])  # Number of data points
+    bar_width = min(0.8 / max(1, n // 10), 0.8)
+    fig.add_trace(go.Bar(x=data["Date"].values, y=data["Volume"].values, name="Volume", marker_color="LightSlateGrey", marker_line_color="rgba(0,0,0,0)", marker_line_width=0.5), col=1, row=subplot_row)
+
     fig.update_layout(coloraxis_colorbar_x=-0.17)
-    vol_mean = data["Volume"].rolling(20).mean()
-    fig.add_trace(go.Scatter(x=data["Date"].values, y=vol_mean, mode='lines', line_color='goldenrod', line_width=1, showlegend=True, name="Volume SMA20"), col=1, row=subplot_row)
+
+    plotheight+=subplotheight
+    subplot_row+=1
+
+if VOLSTD :
+    # data_vol_std = data["Volume"].rolling(20).std() / (data["Close"].rolling(20).std())
+    volum = data["Volume"].copy()
+    correct = np.ones_like(volum)
+    correct[data["Close"]<data["Open"]] = -1
+    volum = volum*correct
+
+    volstd50 = volum.ewm(50).std().ewm(50).std()
+    volstd200 = volum.ewm(200).std().ewm(200).std()
+
+    volstd_dif = (volstd50 - volstd200) / data["Volume"]
+
+    # fig.add_trace(go.Scatter(x=data["Date"], y=volstd_dif, mode="lines", line_width=1, line_color="orange", fill='tozeroy'), col=1, row=subplot_row)
+    fig.add_trace(go.Scatter(x=data["Date"], y=volum.rolling(50).mean().rolling(50).mean(), mode="lines", line_width=1, line_color="cyan"), col=1, row=subplot_row)
+    fig.add_trace(go.Scatter(x=data["Date"], y=volum.rolling(200).mean().rolling(200).mean(), mode="lines", line_width=1, line_color="crimson"), col=1, row=subplot_row)
+
 
 
     plotheight+=subplotheight
     subplot_row+=1
 
-if ACD:
-    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["ACD"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
-    for i in range(len(data_bot_acd)):
-        row = data_bot_acd.iloc[i]
-        prev_row = data_bot_acd.iloc[i-1]
-        if row['bullish_acd_div'] == True :
-            x = [row['Date'], prev_row['Date']]
-            y = [row["ACD"], prev_row["ACD"]]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+if C200SMA :
+    sma200 = data["Close"].rolling(200).mean()
+    c200sma = (data["Close"].values - sma200)/sma200 * 100
 
-    for i in range(len(data_top_acd)):
-        row = data_top_acd.iloc[i]
-        prev_row = data_top_acd.iloc[i-1]
-        if row['bearish_acd_div'] == True :
-            x = [row['Date'], prev_row['Date']]
-            y = [row["ACD"], prev_row["ACD"]]
-            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
-    
+    c = "white" if st.context.theme.type == "dark" else "black"
+
+    fig.add_trace(go.Scatter(x=data["Date"], y=c200sma, mode="lines", line_width=1, line_color=c, fill="tozeroy"), col=1, row=subplot_row)
+    fig.add_hline(y=0, line_color=c, line_width=1, col=1, row=subplot_row)
+    fig.add_hline(y=100, line_color=c, line_width=1, col=1, row=subplot_row)
+    fig.add_hline(y=150, line_color=c, line_width=1, line_dash="dot", col=1, row=subplot_row)
+    fig.add_hline(y=50, line_color=c, line_width=1, line_dash="dot", annotation_text="+50% SMA", annotation_position="top left", col=1, row=subplot_row)
+
+
+    fig.add_hline(y=-100, line_color=c, line_width=1, col=1, row=subplot_row)
+    fig.add_hline(y=-150, line_color=c, line_width=1, line_dash="dot", col=1, row=subplot_row)
+    fig.add_hline(y=-50, line_color=c, line_width=1, line_dash="dot", annotation_text="-50% SMA", annotation_position="bottom left", col=1, row=subplot_row)
+
+
+
+
+
     plotheight+=subplotheight
     subplot_row+=1
-    
-    # fig.add_trace(go.Scatter(x=data["Date"].values, y=data["MFM"].values, mode='lines', line_color='dodgerblue', line_width=1, showlegend=True, name="Acc/Dis"), col=1, row=subplot_row)
-    # fig.add_hline(y=0, line_color="grey", line_width=1, row=subplot_row)
-    # plotheight+=subplotheight
-    # subplot_row+=1
 
 if grid_search:
     fig.add_trace(go.Scatter(x=data["Date"], y=data[grid_type], mode="lines", line_width=1, line_color="crimson", fill='tozeroy'), col=1, row=subplot_row)
@@ -615,7 +723,11 @@ if grid_search:
 
 if len(RSIs) > 0 :
     for rs in cns_rsi :
-        fig.add_trace(go.Scatter(x=data["Date"].values, y=data[rs].values, name=rs, mode="lines", line_width=1), col=1, row=subplot_row)
+        if st.context.theme.type == "light" :
+            rsi_colors = {"indicator":"black", "secondary":"black"}
+        else :
+            rsi_colors = {"indicator":"white", "secondary":"white"}
+        fig.add_trace(go.Scatter(x=data["Date"].values, y=data[rs].values, name=rs, mode="lines", line_width=1, line_color=rsi_colors["indicator"]), col=1, row=subplot_row)
         data, data_bottom, data_top = div(data, "Close", rs, None)
 
         for i in range(len(data_bottom)):
@@ -635,11 +747,14 @@ if len(RSIs) > 0 :
                 fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
 
 
-    fig.add_hline(y=50, line_width=1, line_color="black", row=subplot_row)
-    fig.add_hline(y=100, line_width=1, line_color="black", row=subplot_row)
-    fig.add_hline(y=0, line_width=1, line_color="black", row=subplot_row)
-    fig.add_hline(y=30, line_width=1, line_dash="dot", line_color="black", row=subplot_row)
-    fig.add_hline(y=70, line_width=1, line_dash="dot", line_color="black", row=subplot_row)
+    fig.add_hline(y=50, line_width=2, line_color=rsi_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=100, line_width=2, line_color=rsi_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=0, line_width=2, line_color=rsi_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=30, line_width=1, line_dash="dot", line_color=rsi_colors["secondary"], annotation_text="rsi=30", annotation_position="bottom left", row=subplot_row)
+    fig.add_hline(y=70, line_width=1, line_dash="dot", line_color=rsi_colors["secondary"], annotation_text="rsi=70", annotation_position="top left", row=subplot_row)
+    fig.add_hrect(y0=0, y1=10, line_width=0, fillcolor="grey", annotation_text="OS", annotation_position="bottom left", opacity=0.15, row=subplot_row)
+    fig.add_hrect(y0=90, y1=100, line_width=0, fillcolor="grey", annotation_text="OB", annotation_position="top left", opacity=0.15, row=subplot_row)
+
 
 
     plotheight+=subplotheight
@@ -730,7 +845,7 @@ if SMOM :
     plotheight+=subplotheight
     subplot_row+=1
 
-fig.update_layout(height=800, template='simple_white', title_text=f"{ticker} daily", showlegend=False)
+fig.update_layout(height=plotheight, template='simple_white', title_text=f"{ticker} {'daily' if not weekly else 'weekly'}", showlegend=False)
 fig.update_xaxes(rangeslider_visible=False, title="Date", visible=False)
 
 st.plotly_chart(fig, use_container_width=True)

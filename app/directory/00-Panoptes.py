@@ -34,7 +34,7 @@ input_notepad = st.text_area(':material/note_add: Your last notes', st.session_s
 
 if st.button("Save notes", type="primary") :
     with open(notepad_path, 'w') as f:
-        f.write(input_notepad).replace("/","").replace(":","").replace("'","").replace("FROM","")
+        f.write(str(input_notepad).replace("/","").replace(":","").replace("'","").replace("FROM",""))
     del st.session_state.notepad
     st.success("Notepad saved! The app will rerun in 3 sec.")
     st.toast("Notepad draft saved.", icon=":material/check_small:")

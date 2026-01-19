@@ -8,7 +8,6 @@ import requests
 import json
 import ast
 import time
-from yfinance.exceptions import YFRateLimitError
 
 import functions.pathfunc as pf
 
@@ -16,7 +15,6 @@ st.set_page_config(layout = 'centered')
 
 # import urllib.request
 
-exclude_tickers=["NEM",]
 
 # Placeholder for logging (adjust as per your actual implementation)
 from functions.logging import logging
@@ -55,23 +53,31 @@ def import_crypto(ticker, tframe, start_date=None, api_id=3,):
 
 # Main UI
 col1, col2, col3 = st.columns(3)
-market = col1.radio('Market', ['sp500', 'crypto'], horizontal=True)
+market = col1.radio('Market', ['stocks', 'crypto'], horizontal=True)
 
-rate=col1.radio("rate **only for yahoo finance**", ["None", "permissive","restrictive"], help="to accomodate with yahoo finance limit rate, restrictive adds waiting time")
-
-time_wait = [0.25, 0.5, 15, 30]
-
-
-
-if rate=='restrictive' :
-    multiple = st.number_input("multiply wait time by :", 1.0, 100.0, 2.0)
-    time_wait = [ x * multiple for x in time_wait]
-
-elif rate=='None' :
-    time_wait = [ 0.1 for x in time_wait ]
-
-if market == 'sp500':
+if market == 'stocks':
     boc = "binance"
+
+    list_submarkets = sorted([ x.replace(".csv","") for x in os.listdir(os.path.join(pf.get_path_data(), "tickers list")) ])
+    submarkets = st.pills("Sub market", list_submarkets, selection_mode = "multi")
+    disable_upload = False
+    if len(submarkets) == 0 :
+        disable_upload = True
+
+
+    tick_dfs = []
+    for sm in submarkets :
+        tick_dfs.append(pd.read_csv(os.path.join(pf.get_path_data(), "tickers list", sm + ".csv")))
+
+        dataset_path = os.path.join(pf.get_path_data(), "stocks", sm)
+        if not os.path.exists(dataset_path):
+            os.makedirs(dataset_path)
+
+    if len(tick_dfs)>0 :
+        tick_df = pd.concat(tick_dfs)
+        st.caption(f":blue-badge[{len(tick_df)}] stocks are going to be updated.")
+
+
 elif market == 'crypto':
     boc = col2.radio("Crypto broker to update", ["binance",])
     if boc == "binance":
@@ -83,16 +89,21 @@ elif market == 'crypto':
         ]
         st.write("Selected API for Binance:", apis[api])
 
+    disable_upload = False
     dataset_path = pf.get_path_crypto()
-
-dataset_path = pf.get_path_sp500() if market == "sp500" else pf.get_path_crypto()
-if not os.path.exists(dataset_path):
-    os.makedirs(dataset_path)
+    if not os.path.exists(dataset_path):
+        os.makedirs(dataset_path)
 
 today_utc = datetime.datetime.utcnow().strftime('%Y-%m-%d')
+st.caption(f"Today's UTC date: **:blue-badge[{today_utc}]**")
+
+with st.expander("Last update") :
+    update_df_path = os.path.join(pf.get_path_data(), "update_tracker.parquet")
+    update_df = pd.read_parquet(update_df_path)
+    update_df
+
 c1, c2, c3, c4, c5 = st.columns(5)
 update = c1.button('Update', type="primary")
-st.caption(f"Today's UTC date: {today_utc}")
 
 # Update logic
 if update:
@@ -103,63 +114,60 @@ if update:
                 os.remove(os.path.join(dataset_path, file))
 
     my_toast = st.toast( f"Updating...", icon=":material/hourglass_top:", duration="infinite")
-    if market == 'sp500':
-        my_bar = st.progress(0., "SP500 updating datas")
-        # my_toast = st.toast( f"Updating...", icon=":material/hourglass_top:" )
+    if market == 'stocks':
+        stocks_bar = st.progress(0., "Updating stocks")
+        len_all_tick = len(tick_df) ; value = 1
 
-        # tickers = pd.read_html(req)[0
-        tickers = pd.read_csv(os.path.join(pf.get_path_app(), "sp500_companies.csv"))["Symbol"].values
+        for sm in submarkets :
+            dataset_path = os.path.join(pf.get_path_data(), "stocks", sm)
+            tick_df_sm = tick_df[tick_df["exchange"] == sm]
 
-        #below have been blocked by wikipedia
-        # tickers = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
-        # tickers = tickers['Symbol'].values
-        if os.path.exists(os.path.join(pf.get_path_app(), "Euronext.csv")):
-            tickers_PA = pd.read_csv(os.path.join(pf.get_path_app(), "Euronext.csv"))["Ticker"].values
-            tickers_PA = [x for x in tickers_PA if x.endswith(".PA")]
-            tickers = list(tickers) + list(tickers_PA)
+            #premature skipping if tickers lenght == 0
+            if len(tick_df_sm) == 0 :
+                continue
 
+            sm_bar = st.progress(0., f"Updating {sm} stocks")
 
-        tickers = [ t for t in tickers if not t in exclude_tickers ]
-
-        len_sp5, value = len(tickers), 0
-
-        
-        for tick in tickers:
-            path_to_file = os.path.join(dataset_path, tick + ".parquet")
-            
-            max_retries = 6
-            wait_retries = [30, 60, 120, 180, 240]
-            
-            for i_try in range(max_retries):
-                try:
-                    data = yf.Ticker(tick).history(period="20y", interval='1d').reset_index()
-                    break
-                except YFRateLimitError:
-                    if i_try == max_retries-1 :
-                        st.error("Could not pass YFRateLimitError, stopping.")
-                        st.stop()
-                    wait_try = wait_retries[i_try]
-                    st.toast(f"YFRateLimitError,{wait_try} seconds sleep...")
-                    time.sleep(wait_try)
-                
+            tickers = tick_df_sm["symbol"].values
+            len_sm_tick = len(tickers); value_sm = 1
 
 
-            if not data.empty :
-                if "Dividends" in data :
-                    data["Dividends"] = data["Dividends"].astype(str).str.replace(r'[^0-9.]', '', regex=True)
-                    data["Dividends"] = pd.to_numeric(data["Dividends"].values, errors="coerce")
-                data.to_parquet(path_to_file, compression="brotli")
+            for tick in tickers:
+                path_to_file = os.path.join(dataset_path, tick + ".parquet")
+                data = yf.Ticker(tick).history(period="20y", interval='1d').reset_index()
+                if not data.empty :
+                    if "Dividends" in data :
+                        data["Dividends"] = data["Dividends"].astype(str).str.replace(r'[^0-9.]', '', regex=True)
+                        data["Dividends"] = pd.to_numeric(data["Dividends"].values, errors="coerce")
+                    data.to_parquet(path_to_file, compression="brotli")
 
-            my_bar.progress(value / len_sp5, f"SP500 {value}/{len_sp5} {tick}")
-            my_toast.toast( f"Updated {tick}", icon=":material/check_small:", duration="infinite")
-            value += 1
-            time.sleep(time_wait[0])
-            if value % 20 == 0 :
-                time.sleep(time_wait[1])
-            if value % 500 == 0 :
-                time.sleep(time_wait[2])
-            if value % 1000 == 0 :
-                time.sleep(time_wait[3])
+                stocks_bar.progress(value/len_all_tick, f"{value}/{len_all_tick} - updating {sm} stock market...")
+                sm_bar.progress(value_sm/len_sm_tick, f"{value_sm}/{len_sm_tick} - {tick}")
+                my_toast.toast( f"Updated {tick}", icon=":material/check_small:", duration="infinite")
+
+                value += 1; value_sm+=1
+                if value % 20 == 0 :
+                    time.sleep(0.5)
+                if value % 200 == 0 :
+                    time.sleep(3)
+                if value % 1000 == 0 :
+                    time.sleep(10)
+
+            #cleaning source tickers
+            loaded_tickers = [ x.replace(".parquet","") for x in os.listdir(dataset_path) ]
+            initial_tickers = pd.read_csv(os.path.join(pf.get_path_data(), "tickers list", sm + ".csv"))
+            initial_tickers = initial_tickers[initial_tickers["symbol"].isin(loaded_tickers)].reset_index(drop=True)
+            initial_tickers.to_csv(os.path.join(pf.get_path_data(), "tickers list", sm + ".csv"), index=False)
+
+            st.toast(f"{sm} ticker csv source cleaned with available stocks")
+
+            update_df.loc[update_df["exchange"] == sm, "last_complete_update"] = today_utc
+            update_df.to_parquet(update_df_path)
+            sm_bar.empty()
+        stocks_bar.empty()
+
+
+
 
 
 
@@ -189,6 +197,8 @@ if update:
                     my_toast.toast( f"Updated {tick}", icon=":material/check_small:", duration="infinite")
 
                     value += 1
+
+            my_bar.empty()
+
     my_toast.toast("Update done", icon=":material/check_small:", duration="short")
-    my_bar.empty()
     st.badge("Database update done", color="green", icon=":material/check_small:")
