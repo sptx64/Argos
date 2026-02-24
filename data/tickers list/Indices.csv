@@ -1,0 +1,28 @@
+name,symbol,instrument type,exchange,industry,etoro_symbol
+US Dollar Index (Non Expiry),DX-Y.NYB,Indices,-,-,USDOLLAR
+SPX500 Index (Non Expiry),^GSPC,Indices,-,-,SPX500
+NASDAQ100 Index (Non Expiry),^NDX,Indices,-,-,NSDQ100
+DJ30 Index (Non Expiry),^DJI,Indices,-,-,DJ30
+UK100 Index (Non Expiry),^FTSE,Indices,-,-,UK100
+FRA40 Index (Non Expiry),^FCHI,Indices,-,-,FRA40
+GER40 Index (Non Expiry),^GDAXI,Indices,-,-,GER40
+AUS200 Index (Non Expiry),^AXJO,Indices,-,-,AUS200
+ESP35 Index (Non Expiry),^IBEX,Indices,-,-,ESP35
+ITA40,FTSEMIB.MI,Indices,-,-,ITA40
+JPN225 Index (Non Expiry),^N225,Indices,-,-,JPN225
+SUI30,^SSMI,Indices,-,-,SUI30
+HKG50 Index (Non Expiry),^HSI,Indices,-,-,HKG50
+EUSTX50 Index (Non Expiry),^STOXX50E,Indices,-,-,EUSTX50
+ChinaA50 Index (Non Expiry),000016.SS,Indices,-,-,CHINA50
+Singapore Index (Non Expiry),^STI,Indices,-,-,SGX
+Russell 2000 Index (Non Expiry),^RUT,Indices,-,-,RTY
+Italy 40 Giants Index (Non Expiry),FTSEMIB.MI,Indices,-,-,Italy40
+Switzerland 20 Giants Index (Non Expiry),^SSMI,Indices,-,-,Switzerland20
+Netherlands 25 Index (Non Expiry),^AEX,Indices,-,-,NL25
+Crypto 10 Index,BITW,Indices,-,-,Crypto10
+Canada 60 Giants Index (Non Expiry),^GSPTSE,Indices,-,-,Canada60
+Sweden 30 Giants Index (Non Expiry),^OMX,Indices,-,-,Sweden30
+Spot Quoted S&P 500 Jun 26 Future,^GSPC,Indices,-,-,SP500.SPOT
+Spot Quoted Nasdaq 100 Jun 26 Future,^NDX,Indices,-,-,NASDAQ.SPOT
+Spot Quoted Russell 2000 Jun 26 Future,^RUT,Indices,-,-,RUSSELL.SPOT
+Spot Quoted Dow Jones Jun 26 Future,^DJI,Indices,-,-,DOW30.SPOT

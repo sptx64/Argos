@@ -1,0 +1,977 @@
+name,symbol,instrument type,exchange,industry
+Invesco S&P 500 Equal Weight ETF ,RSP,ETF,NYSE,-
+iShares ESG Aware MSCI USA ETF,ESGU,ETF,NASDAQ,-
+iShares 1-5 Year Investment Grade Corporate Bond ETF ,IGSB,ETF,NASDAQ,-
+iShares MBS ETF,MBB,ETF,NASDAQ,-
+Vanguard Short-Term Treasury Index Fund,VGSH,ETF,NASDAQ,-
+Dimensional U.S. Core Equity 2 ETF,DFAC,ETF,NYSE,-
+Schwab U.S. Large-Cap Growth ETF ,SCHG,ETF,NYSE,-
+iShares MSCI EAFE Value ETF,EFV,ETF,-,-
+iShares 0-5 Year TIPS Bond ETF,STIP,ETF,NYSE,-
+First Trust Value Line Dividend Index Fund,FVD,ETF,NYSE,-
+iShares Russell Mid-Cap Growth ETF,IWP,ETF,NYSE,-
+iShares 3-7 Year Treasury Bond ETF ,IEI,ETF,NASDAQ,-
+Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF,GSLC,ETF,NYSE,-
+Vanguard Intermediate-Term Treasury Index Fund,VGIT,ETF,NASDAQ,-
+Vanguard Mega Cap Growth Index Fund,MGK,ETF,NYSE,-
+iShares Russell 3000 ETF,IWV,ETF,NYSE,-
+iShares MSCI EAFE Small-Cap ETF,SCZ,ETF,NASDAQ,-
+iShares MSCI EAFE Growth ETF,EFG,ETF,-,-
+Schwab Fundamental U.S. Large Company Index ETF,FNDX,ETF,NYSE,-
+iShares 5-10 Year Investment Grade Corporate Bond ETF,IGIB,ETF,NASDAQ,-
+iShares Floating Rate Bond ETF,FLOT,ETF,-,-
+Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF ,PDBC,ETF,NASDAQ,-
+iShares Bitcoin Trust,IBIT,ETF,NASDAQ,Technology
+ARK 21Shares Bitcoin ETF,ARKB,ETF,-,Technology
+First Trust Capital Strength ETF,FTCS,ETF,NASDAQ,-
+iShares S&P 100 ETF,OEF,ETF,NYSE,-
+SPDR Blackstone Senior Loan ETF,SRLN,ETF,NYSE,-
+Vanguard FTSE All-World ex-US Small Capital Index Fund,VSS,ETF,NYSE,-
+FlexShares Morningstar Global Upstream Natural Resources Index Fund,GUNR,ETF,NYSE,-
+iShares S&P Small-Cap 600 Value ETF,IJS,ETF,NYSE,-
+Schwab Fundamental International Large Company Index ETF ,FNDF,ETF,NYSE,-
+SPDR Portfolio Short Term Corporate Bond ETF,SPSB,ETF,NYSE,-
+Schwab U.S. Aggregate Bond ETF,SCHZ,ETF,NYSE,-
+iShares US Technology ETF,IYW,ETF,NYSE,-
+VanEck Morningstar Wide Moat ETF,MOAT,ETF,-,-
+JPMorgan BetaBuilders Japan ETF,BBJP,ETF,-,-
+iShares ESG Aware MSCI EAFE ETF ,ESGD,ETF,NASDAQ,-
+iShares MSCI Emerging Markets Min Vol Factor ETF,EEMV,ETF,-,-
+Vanguard ESG U.S. Stock ETF,ESGV,ETF,-,-
+iShares 0-5 Year High Yield Corporate Bond ETF,SHYG,ETF,NYSE,-
+iShares 10-20 Year Treasury Bond ETF ,TLH,ETF,NYSE,-
+iShares MSCI United Kingdom ETF,EWU,ETF,NYSE,-
+Ishares MSCI Australia ETF,EWA,ETF,NYSE,Financial
+JPMorgan BetaBuilders Europe ETF ,BBEU,ETF,-,-
+Vanguard ESG International Stock ETF,VSGX,ETF,-,-
+iShares GSCI Commodity Dynamic Roll Strategy ETF,COMT,ETF,NASDAQ,-
+iShares Fallen Angels USD Bond ETF,FALN,ETF,NASDAQ,-
+iShares U.S. Energy ETF,IYE,ETF,NYSE,-
+iShares Global Energy ETF ,IXC,ETF,NYSE,-
+iShares Convertible Bond ETF,ICVT,ETF,-,-
+iShares U.S. Infrastructure ETF,IFRA,ETF,-,-
+iShares Global Consumer Staples ETF,KXI,ETF,NYSE,-
+ProShares UltraShort 20+ Year Treasury,TBT,ETF,NYSE,-
+iShares MSCI France ETF ,EWQ,ETF,NYSE,-
+iShares $ Treasury Bond 0-1yr UCITS ETF,IB01.L,ETF,London,Services
+ProShares Short QQQ ETF,PSQ,ETF,NYSE,-
+iShares Edge S&P 500 Minimum Volatility UCITS ETF,IBCK.DE,ETF,-,Services
+iShares MSCI USA Small Cap ESG Enhanced UCITS ETF USD ,SXRG.DE,ETF,-,Services
+iShares Core MSCI EMU UCITS ETF EUR,SXR7.DE,ETF,-,Services
+iShares Edge MSCI Europe Minimum Volatility UCITS ETF,EUN0.DE,ETF,-,Services
+iShares Global Water UCITS ETF USD,IQQQ.DE,ETF,-,Financial
+SPDR Russell 2000 US Small Cap UCITS ETF,ZPRR.DE,ETF,-,Services
+iShares Global Infrastructure UCITS ETF,IQQI.DE,ETF,-,Financial
+iShares Edge MSCI World Momentum Factor UCITS ETF,IS3R.DE,ETF,-,Financial
+Xtrackers MSCI USA Information Technology UCITS ETF ,XUTC.DE,ETF,-,Financial
+iShares China CNY Bond UCITS ETF,ICGB.DE,ETF,-,Financial
+iShares US Aggregate Bond UCITS ETF,IUAA.L,ETF,London,Financial
+iShares USD Treasury Bond 20+yr UCITS ETF,IS04.DE,ETF,-,Financial
+SPDR S&P 500 UCITS ETF,SPY5.L,ETF,London,Financial
+SPDR S&P US Dividend Aristocrats UCITS ETF,UDVD.L,ETF,London,Financial
+iShares Healthcare Innovation UCITS ETF ,2B78.DE,ETF,-,Financial
+iShares MSCI China UCITS ETF,ICGA.DE,ETF,-,Financial
+VanEck Semiconductor UCITS ETF,VVSM.DE,ETF,-,Financial
+iShares S&P 500 Financials Sector UCITS ETF,QDVH.DE,ETF,-,Financial
+iShares MSCI Canada UCITS ETF,SXR2.DE,ETF,-,Services
+iShares MSCI Australia UCITS ETF,IBC6.DE,ETF,-,Services
+iShares VII PLC - iShares MSCI EMU USD Hedged UCITS ETF,CEBP.DE,ETF,-,Services
+iShares MSCI EM Consumer Growth UCITS ETF,CEMG.DE,ETF,-,Services
+iShares Edge MSCI EM Minimum Volatility UCITS ETF,EUNZ.DE,ETF,-,Services
+iShares Listed Private Equity UCITS ETF,IQQL.DE,ETF,-,Services
+iShares Core MSCI EM IMI UCITS ETF,IS3N.DE,ETF,-,Services
+iShares High Yield Corp Bond ESG UCITS ETF,UEEF.DE,ETF,-,Services
+iShares Treasury Bond 0-1yr UCITS ETF,IBCC.DE,ETF,-,Services
+SPDR S&P U.S. Technology Select Sector UCITS ETF (EUR),ZPDT.DE,ETF,-,Financial
+VanEck Gold Miners UCITS ETF,G2X.DE,ETF,-,Financial
+Amundi CAC 40,GC40.DE,ETF,-,Financial
+iShares MSCI Korea UCITS ETF,IQQK.DE,ETF,-,Financial
+SPDR S&P US Health Care Select Sector UCITS ETF,ZPDH.DE,ETF,-,Financial
+WisdomTree Broad Commodities UCITS ETF,PCOM.DE,ETF,-,Financial
+Xtrackers Physical Silver ETC ,XAD6.DE,ETF,-,Financial
+iShares Italy Govt Bond UCITS ETF,IS0M.DE,ETF,-,Services
+iShares Oil & Gas Exploration & Production UCITS ETF,IS0D.DE,ETF,-,Services
+iShares Edge MSCI World Quality Factor UCITS ETF,IS3Q.DE,ETF,-,Services
+iShares Edge MSCI World Value Factor UCITS ETF,IS3S.DE,ETF,-,Services
+iShares MSCI World Mid-Cap Equ,IS3T.DE,ETF,-,Services
+iShares Global Timber & Forestry UCITS ETF,IUSB.DE,ETF,-,Services
+iShares MSCI EM Latin America UCITS ETF,IUSC.DE,ETF,-,Services
+iShares Dow Jones Global Sustainability Screened UCITS ETF,IUSL.DE,ETF,-,Services
+iShares Digital Security UCITS ETF,L0CK.DE,ETF,-,Services
+iShares Refinitiv Inclusion and Diversity UCITS ETF,OPEN.DE,ETF,-,Services
+iShares Physical Gold ETC,PPFB.DE,ETF,-,Services
+iShares Edge MSCI USA Momentum Factor UCITS ETF,QDVA.DE,ETF,-,Services
+iShares Edge MSCI USA Quality Factor UCITS ETF,QDVB.DE,ETF,-,Services
+iShares S&P 500 Information Technology Sector UCITS ETF,QDVE.DE,ETF,-,Services
+iShares Edge MSCI USA Value Factor UCITS ETF,QDVI.DE,ETF,-,Services
+iShares Fallen Angels High Yield Corp Bond UCITS ETF,QDVQ.DE,ETF,-,Services
+VanEck Global Real Estate UCITS ETF,TRET.DE,ETF,-,Financial
+iShares S&P 500 Utilities Sector UCITS ETF,2B7A.DE,ETF,-,Financial
+iShares FTSE MIB UCITS ETF,SXRY.DE,ETF,-,Financial
+iShares MSCI USA UCITS ETF,SXR4.DE,ETF,-,Services
+iShares Intermediate Credit Bond UCITS ETF,SXRF.DE,ETF,-,Services
+iShares Treasury Bond UCITS ETF,SNA2.DE,ETF,-,Services
+iShares Emerging Asia Local Govt Bond UCITS ETF,IS0S.DE,ETF,-,Services
+iShares Global Corp Bond UCITS ETF,IS0X.DE,ETF,-,Services
+iShares Global High Yield Corp Bond UCITS ETF,IBC9.DE,ETF,-,Services
+iShares Global AAA-AA Govt Bond UCITS ETF,IS0Z.DE,ETF,-,Services
+iShares Global Govt Bond UCITS ETF ,EUN3.DE,ETF,-,Services
+SPDR S&P 500 ETF,SPY,ETF,NYSE,Financial
+iShares MSCI Emerging Markets ETF,EEM,ETF,NYSE,Financial
+VanEck Vectors Gold Miners ETF,GDX,ETF,NYSE,Financial
+Ishares MSCI JAPAN ETF,EWJ,ETF,NYSE,Financial
+State Street Financial Select Sector SPDR ETF,XLF,ETF,NYSE,Financial
+Ishares Russell 2000 ETF,IWM,ETF,NYSE,Financial
+Invesco QQQ,QQQ,ETF,NASDAQ,Financial
+United States Oil Fund,USO,ETF,NYSE,Financial
+State Street Energy Select Sector SPDR ETF,XLE,ETF,NYSE,Financial
+iShares MSCI EAFE ETF,EFA,ETF,NYSE,Financial
+iShares China Large-Cap ETF,FXI,ETF,NYSE,Financial
+VanEck Vectors Russia ETF,RSX,ETF,-,Financial
+Brazil Index MSCI Ishares,EWZ,ETF,NYSE,Financial
+State Street Utilities Select Sector SPDR ETF,XLU,ETF,NYSE,Financial
+VanEck Vectors Junior Gold Miners ETF,GDXJ,ETF,NYSE,Financial
+iShares U.S. Real Estate ETF,IYR,ETF,NYSE,Financial
+SPDR S&P Oil & Gas Exploration & Production ETF,XOP,ETF,NYSE,Financial
+State Street Health Care Select Sector SPDR ETF,XLV,ETF,NYSE,Financial
+US Natural Gas,UNG,ETF,NYSE,Financial
+State Street Industrial Select Sector SPDR ETF,XLI,ETF,NYSE,Financial
+iShares 20+ Year Treasury Bond ETF ,TLT,ETF,NASDAQ,Financial
+State Street Technology Select Sector SPDR ETF,XLK,ETF,NYSE,Financial
+State Street Consumer Staples Select Sector SPDR ETF,XLP,ETF,NYSE,Financial
+Iboxx $ High Yield Corporate Bd Ishares,HYG,ETF,NYSE,Financial
+State Street Consumer Discretionary Select Sector SPDR ETF,XLY,ETF,NYSE,Financial
+SPDR Gold,GLD,ETF,NYSE,Financial
+Proshares Ultra S&P 500 ,SSO,ETF,NYSE,Financial
+Ishares Nasdaq Biotechnology ,IBB,ETF,NASDAQ,Financial
+SPDR S&P Midcap 400,MDY,ETF,NYSE,Financial
+iShares $ Corporate Bond UCITS ETF,LQDE.L,ETF,London,Financial
+iShares AEX UCITS ETF,IAEX.L,ETF,London,Financial
+iShares Asia Pacific Dividend UCITS ETF,IAPD.L,ETF,London,Financial
+iShares Core MSCI World UCITS ETF,SWDA.L,ETF,London,Financial
+iShares iBonds Dec 2026 Term Corp UCITS ETF,IB26.DE,ETF,-,Services
+iShares US Mortgage Backed Securities UCITS ETF,QDVP.DE,ETF,-,Services
+iShares J.P. Morgan EM Local Govt Bond UCITS ETF ,IEML.L,ETF,London,Financial
+Xtrackers S&P 500 Inverse Daily Swap UCITS ETF,DXS3.DE,ETF,-,Financial
+iShares Core FTSE 100 UCITS ETF (Dist),ISF.L,ETF,London,Financial
+iShares FTSE MIB UCITS ETF (Dist),IMIB.L,ETF,London,Financial
+iShares Corp Bond Interest Rate Hedged UCITS ETF,IS3F.DE,ETF,-,Services
+iShares J.P. Morgan $ Emerging Markets Bond UCITS ETF,SEMB.L,ETF,London,Financial
+iShares Ultrashort Bond UCITS ETF,IS3L.DE,ETF,-,Services
+iShares MSCI AC Far East ex-Japan UCITS ETF,IFFF.L,ETF,London,Financial
+iShares MSCI Brazil UCITS ETF (Dist),IBZL.L,ETF,London,Financial
+iShares V PLC - iShares J.P. Morgan EM Corp Bond UCITS ETF,IS0Q.DE,ETF,-,Services
+iShares MSCI Emerging Markets UCITS ETF (Dist),IDEM.L,ETF,London,Financial
+iShares MSCI USA ESG Enhanced UCITS ETF,EDMU.DE,ETF,-,Services
+iShares Developed Markets Property Yield UCITS ETF,IQQ6.DE,ETF,-,Services
+iShares MSCI Europe UCITS ETF (Dist),IMEU.L,ETF,London,Financial
+iShares MSCI Japan EUR Hedged UCITS ETF,IJPE.L,ETF,London,Financial
+iShares MSCI Taiwan UCITS ETF,ITWN.L,ETF,London,Financial
+iShares S&P 500 UCITS ETF (Dist),IUSA.L,ETF,London,Financial
+iShares UK Property UCITS ETF,IUKP.L,ETF,London,Financial
+iShares 1-3 Year Treasury Bond ETF,SHY,ETF,NASDAQ,Financial
+iShares 7-10 Year Treasury Bond ETF,IEF,ETF,NASDAQ,Financial
+Invesco DB Agriculture Fund,DBA,ETF,NYSE,Financial
+Teucrium Wheat Fund,WEAT,ETF,NYSE,Financial
+United States Gasoline Fund,UGA,ETF,NYSE,Financial
+SPDR DOW JONES REIT ETF,RWR,ETF,NYSE,Financial
+iShares MSCI South Korea ETF,EWY,ETF,NYSE,Financial
+iShares MSCI Mexico ETF,EWW,ETF,NYSE,Financial
+iShares MSCI Taiwan ETF,EWT,ETF,NYSE,Financial
+iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,ETF,NYSE,Financial
+PIMCO Active Bond Exchange-Traded Fund,BOND,ETF,NYSE,Financial
+iShares Core S&P 500 ETF,IVV,ETF,NYSE,Financial
+iShares Core MSCI EAFE ETF,IEFA,ETF,-,Financial
+iShares Core U.S. Aggregate Bond ETF,AGG,ETF,NYSE,Financial
+iShares Core MSCI Emerging Markets ETF,IEMG,ETF,NYSE,Financial
+iShares Core S&P Mid-Cap ETF,IJH,ETF,NYSE,Financial
+iShares Core S&P Small-Cap ETF,IJR,ETF,NYSE,Financial
+iShares Core S&P Total U.S. Stock Market ETF,ITOT,ETF,NYSE,Financial
+iShares Core MSCI Total International Stock ETF,IXUS,ETF,NASDAQ,Financial
+iShares Core High Dividend ETF,HDV,ETF,NYSE,Financial
+iShares Core S&P US Growth,IUSG,ETF,NASDAQ,Financial
+iShares Core S&P US Value,IUSV,ETF,NASDAQ,Financial
+iShares Core Dividend Growth ETF,DGRO,ETF,NYSE,Financial
+iShares Core MSCI Europe ETF,IEUR,ETF,NYSE,Financial
+iShares Core Total USD Bond Market ETF,IUSB,ETF,NASDAQ,Financial
+iShares Core 1-5 Year USD Bond ETF,ISTB,ETF,NASDAQ,Financial
+iShares Core Growth Allocation ETF,AOR,ETF,NYSE,Financial
+iShares Core MSCI Pacific ETF,IPAC,ETF,NYSE,Financial
+iShares Core MSCI International Developed Markets ETF,IDEV,ETF,NYSE,Financial
+iShares Core Aggressive Allocation ETF,AOA,ETF,NYSE,Financial
+iShares Core International Aggregate Bond ETF,IAGG,ETF,-,Financial
+iShares Core U.S. REIT ETF,USRT,ETF,NYSE,Financial
+iShares Core Conservative Allocation ETF,AOK,ETF,NYSE,Financial
+iShares Core 10+ Year USD Bond ETF,ILTB,ETF,NYSE,Financial
+iShares Core 5-10 Year USD Bond ETF,IMTB,ETF,NYSE,Financial
+iPath Series B S&P 500 VIX Short-Term FuturesTM ETN,VXX,ETF,-,Financial
+InfraCap MLP ETF,AMZA,ETF,NYSE,Financial
+ARK Blockchain & Fintech Innovation ETF,ARKF,ETF,-,Financial
+ARK Innovation ETF,ARKK,ETF,-,Financial
+ARK Next Generation Internet ETF,ARKW,ETF,-,Financial
+Graniteshares Gold Trust,BAR,ETF,NYSE,BasicMaterials
+Amplify Blockchain Technology ETF,BLOK,ETF,NYSE,Financial
+Vanguard Long-Term Bond ETF,BLV,ETF,NYSE,Financial
+Direxion Daily MSCI Brazil Bull 2X Shares,BRZU,ETF,NYSE,Financial
+Franklin FTSE Japan ETF,FLJP,ETF,NYSE,Financial
+Invesco China Technology ETF,CQQQ,ETF,NYSE,Financial
+Invesco DB Oil Fund,DBO,ETF,NYSE,Financial
+Direxion Daily Aerospace & Defense Bull 3X Shares,DFEN,ETF,NYSE,Financial
+Global SuperDividend US ETF,DIV,ETF,NYSE,Financial
+iPath Bloomberg Commodity Index Total Return ETN,DJP,ETF,NYSE,Financial
+Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares,DRIP,ETF,NYSE,Financial
+Direxion Daily Gold Miners Index Bear 2X Shares,DUST,ETF,NYSE,Financial
+Direxion Daily Energy Bull 2X Shares,ERX,ETF,NYSE,Financial
+iShares MSCI Switzerland ETF,EWL,ETF,NYSE,Financial
+iShares MSCI Netherlands ETF,EWN,ETF,NYSE,Financial
+Direxion Daily Financial Bull 3X Shares,FAS,ETF,NYSE,Financial
+Defiance Connective Technologies ETF,SIXG,ETF,NASDAQ,Financial
+MicroSectors FANG+ Index 3X Leveraged ETN ,FNGA,ETF,NYSE,Financial
+Fidelity MSCI Real Estate Index ETF,FREL,ETF,NYSE,Financial
+Fidelity MSCI Information Technology Index ETF,FTEC,ETF,NYSE,Financial
+SPDR Gold MiniShares Trust,GLDM,ETF,NYSE,-
+Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares,GUSH,ETF,NYSE,-
+iShares U.S. Medical Devices ETF,IHI,ETF,NYSE,Financial
+iShares Global Healthcare ETF,IXJ,ETF,NYSE,Financial
+Direxion Daily Junior Gold Miners Index Bear 2X Shares,JDST,ETF,NYSE,-
+US Global Jets ETF,JETS,ETF,NYSE,Financial
+Direxion Daily Junior Gold Miners Index Bull 2X Shares,JNUG,ETF,NYSE,-
+Direxion Daily S&P Biotech Bear 3X Shares,LABD,ETF,NYSE,-
+Global X Lithium & Battery Tech ETF,LIT,ETF,NYSE,Financial
+Direxion Shares Etf Trust-Direxion Daily Homebuilders & Supplies Bull 3x Shares,NAIL,ETF,NYSE,Financial
+MicroSectors US Big Oil Index 3X Leveraged ETN,NRGU,ETF,NYSE,-
+Direxion Daily Gold Miners Index Bull 2X Shares,NUGT,ETF,NYSE,-
+VanEck Vectors Oil Services ETF,OIH,ETF,NYSE,Financial
+O'Shares US Quality Dividend ETF,OUSA,ETF,NYSE,Financial
+Abrdn Palladium ETF Trust,PALL,ETF,NYSE,Financial
+Invesco Preferred ETF,PGX,ETF,NYSE,Financial
+Sprott Physical Gold Trust,PHYS,ETF,NYSE,-
+Abrdn Platinum ETF Trust,PPLT,ETF,NYSE,Financial
+Sprott Physical Silver Trust,PSLV,ETF,NYSE,-
+iShares Global REIT ETF,REET,ETF,NYSE,Financial
+X-Links Monthly Pay 2x Leveraged Mortgage REIT ETN,REML,ETF,NYSE,-
+Franklin U.S. Core Bond ETF,FLCB,ETF,NYSE,Financial
+Schwab US Dividend Equity ETF,SCHD,ETF,NYSE,Financial
+Schwab Emerging Markets Equity ETF,SCHE,ETF,NYSE,Financial
+Schwab International Equity ETF,SCHF,ETF,NYSE,Financial
+Schwab US Large-Cap ETF,SCHX,ETF,NYSE,Financial
+Global X SuperDividend ETF,SDIV,ETF,NYSE,Financial
+ProShares UltraPro Short Dow30,SDOW,ETF,NYSE,-
+ProShares UltraShort S&P500,SDS,ETF,NYSE,-
+ProShares Short S&P500,SH,ETF,NYSE,-
+Direxion Daily Semiconductors Bull 3x Shares,SOXL,ETF,NYSE,-
+Direxion Daily Semiconductor Bear 3X Shares,SOXS,ETF,NYSE,-
+iShares Gold Producers UCITS ETF,SPGP.L,ETF,London,Financial
+Invesco S&P 500 High Dividend Low Volatility ETF,SPHD,ETF,NYSE,Financial
+Direxion Daily S&P 500 Bull 3X,SPXL,ETF,NYSE,-
+Direxion Daily S&P 500 Bear 3X Shares,SPXS,ETF,NYSE,-
+ProShares UltraPro Short S&P 500,SPXU,ETF,NYSE,-
+SPDR Portfolio S&P 500 High Dividend ETF,SPYD,ETF,NYSE,Financial
+SPDR Portfolio S&P 500 Growth ETF,SPYG,ETF,NYSE,Financial
+ProShares UltraPro Short Russell2000,SRTY,ETF,NYSE,-
+ProShares Short VIX Short-Term Futures ETF,SVXY,ETF,-,Financial
+Invesco Solar ETF,TAN,ETF,NYSE,Financial
+iShares MSCI Thailand ETF,THD,ETF,NYSE,Financial
+Direxion Daily 20 Year Plus Treasury Bull 3x Shares,TMF,ETF,NYSE,-
+Direxion Daily Small Cap Bull 3X Shares,TNA,ETF,NYSE,-
+ProShares Ultra Bloomberg Crude Oil,UCO,ETF,NYSE,-
+ProShares UltraPro Dow30,UDOW,ETF,NYSE,-
+ProShares UltraPro S&P 500,UPRO,ETF,NYSE,-
+United States 12 Month Oil Fund LP,USL,ETF,NYSE,-
+ProShares Ultra VIX Short-Term Futures ETF,UVXY,ETF,-,Financial
+Vanguard Small-Cap ETF,VB,ETF,NYSE,Financial
+Vanguard Small-Cap Growth ETF,VBK,ETF,NYSE,Financial
+Vanguard Small-Cap Value ETF,VBR,ETF,NYSE,Financial
+Vanguard Financials ETF,VFH,ETF,NYSE,Financial
+Vanguard Health Care ETF,VHT,ETF,NYSE,Financial
+Vanguard Dividend Appreciation ETF,VIG,ETF,NYSE,Financial
+Vanguard Mid-Cap ETF,VO,ETF,NYSE,Financial
+Vanguard S&P 500 Growth ETF,VOOG,ETF,NYSE,Financial
+Vanguard S&P 500 Value ETF,VOOV,ETF,NYSE,Financial
+Vanguard Communication Services ETF,VOX,ETF,NYSE,Financial
+Vanguard Tax-Exempt Bond Index ETF,VTEB,ETF,NYSE,Financial
+Direxion Daily FTSE China Bull 3X Shares,YINN,ETF,NYSE,-
+Franklin FTSE India ETF,FLIN,ETF,NYSE,Financial
+iShares Floating Rate Bond UCITS ETF,QDVY.DE,ETF,-,Services
+iShares Core S&P 500 UCITS ETF,SXR8.DE,ETF,-,Services
+iShares Short Duration High Yield Corp Bond UCITS ETF,IS3K.DE,ETF,-,Services
+iShares TIPS 0-5 UCITS ETF,SXRH.DE,ETF,-,Services
+iShares Ageing Population UCITS ETF,2B77.DE,ETF,-,Services
+iShares Digitalisation UCITS ETF,2B79.DE,ETF,-,Services
+iShares Smart City Infrastructure UCITS ETF,AYEU.DE,ETF,-,Services
+21Shares Bitcoin ETP,2BTC.DE,ETF,-,Technology
+WisdomTree Europe Defence UCITS ETF,WDEF.L,ETF,London,Financial
+Amundi S&P Global Information Technology ESG UCITS ETF DR EUR Acc,WELU.DE,ETF,-,Financial
+Invesco S&P World Information Technology ESG UCITS ETF Acc,WDTE.DE,ETF,-,Financial
+iShares MSCI World Information Technology Sector ESG UCITS ETF USD Inc (EUR),AYEW.DE,ETF,-,Financial
+First Trust Nasdaq Cybersecurity UCITS ETF Class A USD Acc (EUR),CBRS.DE,ETF,-,Financial
+Xtrackers Artificial Intelligence &Big Data UCITS ETF 1C (EUR),XAIX.DE,ETF,-,Financial
+iShares iBonds Dec 2025 Term Corporate ETF,IBDQ,ETF,NYSE,Financial
+iShares iBonds Dec 2024 Term Corporate ETF,IBDP,ETF,NYSE,Financial
+iShares iBonds Dec 2026 Term Corporate ETF,IBDR,ETF,NYSE,Financial
+iShares iBonds Dec 2026 Term Treasury ETF,IBTG,ETF,NASDAQ,Financial
+iShares iBonds Dec 2025 Term Treasury ETF,IBTF,ETF,NASDAQ,Financial
+iShares iBonds Dec 2027 Term $ Corp UCITS ETF,ID27.L,ETF,London,Financial
+Invesco Physical Gold ETC,8PSG.DE,ETF,-,Financial
+iShares Core EUR Corp Bond UCITS ETF EUR,EUN5.DE,ETF,-,Financial
+iShares MSCI USA SRI UCITS ETF USD,QDVR.DE,ETF,-,Financial
+iShares MSCI ACWI UCITS ETF,IUSQ.DE,ETF,-,Financial
+iShares EUR High Yield Corp Bond UCITS ETF,EUNW.DE,ETF,-,Financial
+iShares USD Corp Bond UCITS ETF,IBCD.DE,ETF,-,Financial
+iShares US Mortgage Backed Securities UCITS ETF,IMBA.L,ETF,London,Financial
+iShares USD Ultrashort Bond UCITS ETF,ERNA.L,ETF,London,Financial
+iShares USD High Yield Corp Bond UCITS ETF,IHYA.L,ETF,London,Financial
+iShares USD Short Duration High Yield Corp Bond UCITS ETF,SDHA.L,ETF,London,Financial
+iShares USD High Yield Corp Bond ESG UCITS ETF,DHYA.L,ETF,London,Financial
+iShares USD Floating Rate Bond UCITS ETF,FLOA.L,ETF,London,Financial
+IShares MSCI Italy ETF,EWI,ETF,NYSE,Financial
+iShares USD Treasury Bond 3-7yr UCITS ETF,SXRL.DE,ETF,-,Financial
+Sprott Physical Uranium Trust,SRUUF,ETF,-,Financial
+Global X MSCI Argentina ETF,ARGT,ETF,NYSE,-
+ProShares Ultra Bloomberg Natural Gas,BOIL,ETF,NYSE,Financial
+ProShares UltraShort Bloomberg Natural Gas,KOLD,ETF,NYSE,Financial
+Invesco S&P 500 Equal Weight Technology ETF ,RSPT,ETF,NYSE,Financial
+Columbia India Consumer ETF,INCO,ETF,NYSE,Financial
+SonicShares Global Shipping ETF,BOAT,ETF,NYSE,Financial
+iShares MSCI EM ex China UCITS ETF,84X0.DE,ETF,-,Financial
+MAX S&P 500 4X Leveraged ETN ,SPYU,ETF,NYSE,Financial
+iShares MSCI USA UCITS ETF,CSUS.L,ETF,London,Financial
+iShares Core MSCI Japan IMI UCITS ETF,IJPA.L,ETF,London,Financial
+iShares Core EURO STOXX 50 ETF,CSX5.L,ETF,London,Financial
+iShares Core S&P 500 UCITS ETF,CSPX.L,ETF,London,Financial
+iShares J.P. Morgan USD EM Bond UCITS ETF,IUS7.DE,ETF,-,Financial
+iShares MSCI USA ESG Screened UCITS ETF,SGAS.DE,ETF,-,Financial
+iShares EUR Corp Bond 1-5yr UCITS ETF,EUNT.DE,ETF,-,Financial
+iShares USD Treasury Bond 7-10yr UCITS ETF,IUSM.DE,ETF,-,Financial
+iShares Core MSCI Japan IMI UCITS ETF,EUNN.DE,ETF,-,Financial
+iShares USD Treasury Bond 1-3yr UCITS ETF,IUSU.DE,ETF,-,Financial
+iShares EUR Corp Bond ESG UCITS ETF,OM3F.DE,ETF,-,Financial
+iShares USD High Yield Corp Bond UCITS ETF,IS0R.DE,ETF,-,Financial
+iShares Automation & Robotics UCITS ETF,2B76.DE,ETF,-,Financial
+iShares USD TIPS UCITS ETF,IUST.DE,ETF,-,Financial
+iShares Edge MSCI World Minimum Volatility UCITS ETF USD,IQQ0.DE,ETF,-,Financial
+iShares Core MSCI Pacific ex-Japan UCITS ETF,SXR1.DE,ETF,-,Financial
+L&G Cyber Security UCITS ETF,USPY.DE,ETF,-,Financial
+iShares MSCI EM Asia UCITS ETF,CEBL.DE,ETF,-,Financial
+iShares MSCI ACWI Index Fund,ACWI,ETF,NASDAQ,Financial
+Vanguard Total Stock Market ETF,VTI,ETF,NYSE,Financial
+Vanguard S&P 500 ETF,VOO,ETF,NYSE,Financial
+Vanguard FTSE Developed Market ETF,VEA,ETF,NYSE,Financial
+Vanguard FTSE Emerging Markets,VWO,ETF,NYSE,Financial
+Vanguard Value ETF,VTV,ETF,NYSE,Financial
+iShares Russell 1000 Growth ETF,IWF,ETF,NYSE,Financial
+Vanguard Growth ETF,VUG,ETF,NYSE,Financial
+iShares Russell 1000 Value ETF,IWD,ETF,NYSE,Financial
+Vanguard Total Bond Market ETF,BND,ETF,NASDAQ,Financial
+Vanguard Real Estate ETF,VNQ,ETF,NYSE,Financial
+iShares Edge MSCI Min Vol USA,USMV,ETF,-,Financial
+Vanguard Short-Term Corporate,VCSH,ETF,NASDAQ,Financial
+Vanguard Short-Term Bond ETF,BSV,ETF,NYSE,Financial
+Vanguard FTSE All-World ex-US,VEU,ETF,NYSE,Financial
+iShares S&P 500 Growth ETF,IVW,ETF,NYSE,Financial
+Vanguard Intermediate-Term Corp,VCIT,ETF,NASDAQ,Financial
+iShares TIPS Bond ETF,TIP,ETF,NYSE,Financial
+Vanguard Information Technology,VGT,ETF,NYSE,Financial
+iShares Russell 1000 ETF,IWB,ETF,NYSE,Financial
+iShares 0-1 Year Treasury Bond,SHV,ETF,NASDAQ,Financial
+iShares Russell Mid-Cap ETF,IWR,ETF,NYSE,Financial
+iShares J.P. Morgan USD Emerging Markets Bond ETF,EMB,ETF,NASDAQ,Financial
+iShares Preferred & Income Sec,PFF,ETF,NASDAQ,Financial
+Vanguard FTSE Europe ETF,VGK,ETF,NYSE,Financial
+iShares Gold Trust,IAU,ETF,NYSE,Financial
+PIMCO Enhanced Short Maturity,MINT,ETF,NYSE,Financial
+iShares Edge MSCI USA Quality,QUAL,ETF,-,Financial
+Invesco S&P 500 Low Volatility,SPLV,ETF,NYSE,Financial
+SPDR Bloomberg High Yield Bond ETF,JNK,ETF,NYSE,Financial
+iShares Russell 2000 Growth ETF,IWO,ETF,NYSE,Financial
+Alerian MLP ETF,AMLP,ETF,NYSE,Financial
+iShares Russell 2000 Value ETF,IWN,ETF,NYSE,Financial
+iShares Edge MSCI USA Momentum,MTUM,ETF,-,Financial
+SPDR Bloomberg 1-3 Month T-Bill ETF,BIL,ETF,NYSE,Financial
+iShares MSCI Eurozone ETF,EZU,ETF,-,Financial
+State Street Communication Services Select Sector SPDR ETF,XLC,ETF,NYSE,Financial
+Invesco Senior Loan ETF,BKLN,ETF,NYSE,Financial
+iShares MSCI India ETF,INDA,ETF,-,Financial
+iShares Silver Trust,SLV,ETF,NYSE,Financial
+SPDR Series Trust - SPDR S&P Biotech ETF,XBI,ETF,NYSE,Financial
+iShares MSCI China ETF,MCHI,ETF,NASDAQ,Financial
+iShares MSCI All Country Asia ex Japan ETF,AAXJ,ETF,NASDAQ,Financial
+State Street Materials Select Sector SPDR ETF,XLB,ETF,NYSE,Financial
+iShares MSCI Hong Kong ETF,EWH,ETF,NYSE,Financial
+State Street Real Estate Select Sector SPDR ETF,XLRE,ETF,NYSE,Financial
+SPDR S&P Regional Banking ETF,KRE,ETF,NYSE,Financial
+SPDR EURO STOXX 50 ETF,FEZ,ETF,NYSE,Financial
+iShares MSCI Germany ETF,EWG,ETF,NYSE,Financial
+Xtrackers Harvest CSI 300 China A-Shares ETF,ASHR,ETF,NYSE,Financial
+SPDR S&P Bank ETF,KBE,ETF,NYSE,Financial
+KraneShares CSI China Internet,KWEB,ETF,NYSE,Financial
+Xtrackers MSCI Europe Utilities ESG Screened UCITS ETF,XS6R.L,ETF,London,Financial
+Xtrackers Nikkei 225 UCITS ETF,XDJP.L,ETF,London,ConsumerGoods
+ProShares UltraPro Short QQQ,SQQQ,ETF,NASDAQ,Financial
+VelocityShares Daily 2x VIX Short-Term ETN,TVIX,ETF,NASDAQ,Financial
+Direxion Daily Small Cap Bear 3x Shares,TZA,ETF,NYSE,Financial
+Direxion Daily Financial Bear 3X Shares,FAZ,ETF,NYSE,Financial
+iShares Semiconductor ETF ,SOXX,ETF,NASDAQ,Financial
+ProShares UltraShort Bloomberg Crude Oil,SCO,ETF,NYSE,Financial
+ProShares UltraPro QQQ,TQQQ,ETF,NASDAQ,Financial
+First Trust Cloud Computing,SKYY,ETF,NASDAQ,Technology
+Xtrackers MSCI India Swap UCITS ETF,XCX5.L,ETF,London,Financial
+Vanguard Mid-Cap Value ETF,VOE,ETF,NYSE,ConsumerGoods
+iShares Russell Mid-Cap Value ETF,IWS,ETF,NYSE,ConsumerGoods
+iShares S&P Mid-Cap 400 Value ETF,IJJ,ETF,NYSE,ConsumerGoods
+iShares National Muni Bond ETF,MUB,ETF,NYSE,ConsumerGoods
+SPDR Nuveen Bloomberg Barclays Municipal Bond ETF,TFI,ETF,NYSE,ConsumerGoods
+Vanguard Short-Term Inflation-Protected Securities ETF,VTIP,ETF,NASDAQ,ConsumerGoods
+JPMorgan Ultra-Short Income ETF,JPST,ETF,-,ConsumerGoods
+Vanguard Total International Bond ETF,BNDX,ETF,NASDAQ,ConsumerGoods
+Grayscale Bitcoin Trust BTC,GBTC,ETF,NYSE,Financial
+First Trust NASDAQ Cybersecurity ETF,CIBR,ETF,NASDAQ,Financial
+Global X Cloud Computing ETF,CLOU,ETF,NASDAQ,Financial
+iShares Select Dividend ETF,DVY,ETF,NASDAQ,Financial
+Global X Nasdaq 100 Covered Call ETF,QYLD,ETF,NASDAQ,Financial
+VanEck Vectors Semiconductor ETF,SMH,ETF,NASDAQ,Financial
+Vanguard Russell 1000 Growth ETF,VONG,ETF,NASDAQ,Financial
+Vanguard Total International Stock ETF,VXUS,ETF,NASDAQ,Financial
+WisdomTree Cloud Computing Fund,WCLD,ETF,NASDAQ,-
+iShares FTSE 250 UCITS ETF,MIDD.L,ETF,London,Financial
+Franklin FTSE South Korea ETF,FLKR,ETF,NYSE,-
+Franklin Income Focus ETF,INCM,ETF,NYSE,-
+iShares US Treasury Bond ETF,GOVT,ETF,-,Financial
+iShares US Aerospace & Defense ETF,ITA,ETF,-,Financial
+ProShares S&P 500 Dividend Aristocrats ETF,NOBL,ETF,-,Financial
+Franklin U.S. Mid Cap Multifactor Index ETF,FLQM,ETF,-,Financial
+ARK Space And Innovation ETF,ARKX,ETF,-,Financial
+iShares NASDAQ 100 UCITS ETF usd,CNDX.L,ETF,London,Financial
+iShares Core S&P 500 UCITS ETF,CSP1.L,ETF,London,ConsumerGoods
+iShares USD Short Duration Corp Bond UCITS ETF,SDIA.L,ETF,London,Financial
+Invesco NASDAQ Next Gen 100 ETF,QQQJ,ETF,NASDAQ,-
+ETFMG Alternative Harvest ETF,MJ,ETF,NYSE,-
+First Trust NASDAQ Clean Edge Green Energy Index Fund,QCLN,ETF,NASDAQ,-
+iShares Global clean energy ETF,ICLN,ETF,NASDAQ,-
+iShares Global Infrastructure ETF,IGF,ETF,NASDAQ,-
+KraneShares Global Carbon ETF,KRBN,ETF,NYSE,-
+Global X U.S. Infrastructure Development ETF,PAVE,ETF,-,-
+Global X Uranium ETF,URA,ETF,NYSE,-
+Invesco DB US Dollar Index Bullish Fund,UUP,ETF,NYSE,-
+Invesco Technology S&P US Select Sector UCITS ETF,XLKS.L,ETF,London,Financial
+SPDR MSCI World Technology UCITS ETF USD Acc (EUR),WTEC.L,ETF,London,Financial
+iShares S&P 500 Information Technology Sector UCITS ETF USD (Acc),IUIT.L,ETF,London,Financial
+First Trust Dow Jones International Internet ETF Class A USD (EUR),FDIU.L,ETF,London,Financial
+Amundi Russell 1000 Growth UCITS ETF Acc,MWOT.DE,ETF,-,Financial
+ARK Genomic Revolution ETF,ARKG,ETF,-,Financial
+ARK Autonomous Technology & Robotics ETF,ARKQ,ETF,-,Financial
+ iShares iBonds Dec 2026 Term $ Corp UCITS ETF,D26A.L,ETF,London,Financial
+Xtrackers MSCI USA ESG UCITS ETF,XZMU.DE,ETF,-,Financial
+iShares S&P 500 EUR Hedged UCITS ETF Acc,IBCF.DE,ETF,-,Financial
+Xtrackers S&P 500 Equal Weight UCITS ETF,XDEW.DE,ETF,-,Financial
+iShares JP Morgan EM Local Govt Bond UCITS ETF,IUSP.DE,ETF,-,Financial
+iShares Global Clean Energy UCITS ETF,IQQH.DE,ETF,-,Financial
+Xtrackers II EUR Overnight Rate Swap UCITS ETF,XEON.DE,ETF,-,Financial
+Vanguard FTSE All World High Dividend Yield UCITS ETF,VGWD.DE,ETF,-,Financial
+iShares EUR Corp Bond 0-3yr ESG UCITS ETF,QDVL.DE,ETF,-,Financial
+iShares MSCI World ESG Enhanced UCITS ETF,EDMW.DE,ETF,-,Financial
+iShares MSCI EM ESG Enhanced UCITS ETF USD Acc,EDM2.DE,ETF,-,Financial
+iShares MSCI World Small Cap UCITS ETF,IUSN.DE,ETF,-,Financial
+iShares EUR Ultrashort Bond UCITS ETF,IS3M.DE,ETF,-,Financial
+iShares EUR Corp Bond Large Cap UCITS ETF,IBCS.DE,ETF,-,Financial
+Xtrackers MSCI World Information Technology UCITS ETF,XDWT.DE,ETF,-,Financial
+iShares MSCI China A UCITS ETF,36BZ.DE,ETF,-,Financial
+iShares EUR Govt Bond 3-5yr UCITS ETF,IBCN.DE,ETF,-,Financial
+iShares Edge MSCI Europe Value Factor UCITS ETF,CEMS.DE,ETF,-,Financial
+Xtrackers CSI300 Swap UCITS ETF,XCHA.DE,ETF,-,Financial
+Vanguard FTSE Developed Europe ex UK UCITS ETF,VERX.DE,ETF,-,Financial
+Vanguard FTSE Developed World UCITS ETF,VGVE.DE,ETF,-,Financial
+iShares Diversified Commodity Swap UCITS ETF,SXRS.DE,ETF,-,Financial
+Vanguard FTSE North America UCITS ETF,VNRT.DE,ETF,-,Financial
+Amundi Bloomberg Equal-weight Commodity ex-Agriculture UCITS ETF,LYTR.DE,ETF,-,Financial
+SPDR Morningstar Multi-Asset Global Infrastructure UCITS ETF,ZPRI.DE,ETF,-,Financial
+Xtrackers MSCI World Health Care UCITS ETF,XDWH.DE,ETF,-,Financial
+L&G US ESG Exclusions Paris Aligned UCITS ETF,DELG.DE,ETF,-,Financial
+SPDR S&P 400 US Mid Cap UCITS ETF,SPY4.DE,ETF,-,Financial
+Lyxor US Curve Steepening 2-10 UCITS ETF,UCT2.DE,ETF,-,Financial
+iShares EUR Inflation Linked Govt Bond UCITS ETF,IBCI.DE,ETF,-,Financial
+iShares Core Global Aggregate Bond UCITS ETF,EUNA.DE,ETF,-,Financial
+iShares Global Corp Bond EUR Hedged UCITS ETF Dist,IBCQ.DE,ETF,-,Financial
+Xtrackers MSCI World Energy UCITS ETF,XDW0.DE,ETF,-,Financial
+iShares EUR Govt Bond Climate UCITS ETF,SECA.DE,ETF,-,Financial
+L&G Europe ESG Exclusions Paris Aligned UCITS ETF,DELF.DE,ETF,-,Financial
+Xtrackers Switzerland UCITS ETF,XSMI.DE,ETF,-,Financial
+Factor MSCI USA Quality ESG UCITS ETF,UBUT.DE,ETF,-,Financial
+iShares EUR Covered Bond UCITS ETF,IUS6.DE,ETF,-,Financial
+iShares STOXX Europe 600 Banks UCITS ETF,SX7PEX.DE,ETF,-,Financial
+SPDR MSCI Europe Energy UCITS ETF,SPYN.DE,ETF,-,Financial
+iShares EUR Corp Bond ex-Financials UCITS ETF,EUNR.DE,ETF,-,Financial
+iShares EUR Corp Bond ex-Financials 1-5yr ESG UCITS ETF EUR Dist,EUNS.DE,ETF,-,Financial
+iShares EUR Govt Bond 15-30yr UCITS ETF,IBCL.DE,ETF,-,Financial
+iShares MSCI Japan ESG Enhanced UCITS ETF,EDMJ.DE,ETF,-,Financial
+iShares S&P Small Cap 600 UCITS ETF USD Dist,IUS3.DE,ETF,-,Financial
+BNP Paribas Easy JPM ESG EMU Government Bond IG 3-5Y,ASRE.DE,ETF,-,Financial
+iShares $ Treasury Bond 1-3yr UCITS ETF,2B7S.DE,ETF,-,Financial
+BNP Paribas Easy Low Carbon 100 Europe PAB,LCEU.DE,ETF,-,Financial
+SPDR S&P US Energy Select Sector UCITS ETF,ZPDE.DE,ETF,-,Financial
+iShares STOXX Europe 600 Oil & Gas UCITS ETF,SXEPEX.DE,ETF,-,Financial
+Amundi MSCI World Climate Transition CTB UCITS ETF,LWCR.DE,ETF,-,Financial
+Amundi MSCI Robotics & AI ESG Screened UCITS ETF,GOAI.DE,ETF,-,Financial
+BNP Paribas Easy MSCI World SRI S-Series PAB 5% Capped,EMWE.DE,ETF,-,Financial
+L&G Battery Value-Chain UCITS ETF,BATE.DE,ETF,-,Financial
+Xtrackers MSCI World Consumer Staples UCITS ETF,XDWS.DE,ETF,-,Financial
+Xtrackers II iBoxx Eurozone Government Bond Yield Plus UCITS ETF,XY4P.DE,ETF,-,Financial
+iShares MSCI World Quality Dividend ESG UCITS ETF,QDVW.DE,ETF,-,Financial
+Ossiam Shiller Barclays Cape US Sector Value TR,USCP.DE,ETF,-,Financial
+iShares STOXX Europe 600 Health Care UCITS ETF,SXDPEX.DE,ETF,-,Financial
+Xtrackers FTSE Developed Europe Real Estate UCITS ETF,D5BK.DE,ETF,-,Financial
+iShares Pfandbriefe UCITS ETF DE,R1JKEX.DE,ETF,-,Financial
+iShares NASDAQ 100 UCITS ETF EUR Hedged,NQSE.DE,ETF,-,Financial
+Xtrackers II Global Inflation-Linked Bond UCITS ETF,XGIN.DE,ETF,-,Financial
+WisdomTree Artificial Intelligence UCITS ETF,WTI2.DE,ETF,-,Financial
+L&G Longer Dated All Commodities UCITS ETF,ETL2.DE,ETF,-,Financial
+Amundi S&P Global Luxury UCITS ETF,GLUX.DE,ETF,-,Financial
+Xtrackers II Germany Government Bond UCITS ETF,X03G.DE,ETF,-,Financial
+VanEck Video Gaming and eSports UCITS ETF,ESP0.DE,ETF,-,Financial
+iShares EUR Corp Bond BBB-BB UCITS ETF EUR Dist,IS06.DE,ETF,-,Financial
+Amundi Nasdaq 100 Daily 2x Leveraged UCITS ETF,L8I7.DE,ETF,-,Financial
+iShares $ TIPS UCITS ETF,IBC5.DE,ETF,-,Financial
+iShares STOXX Europe 600 Basic Resources UCITS ETF,SXPPEX.DE,ETF,-,Financial
+Fidelity Global Quality Income ETF,FGEQ.DE,ETF,-,Financial
+iShares MSCI Saudi Arabia Capped UCITS ETF,IUSS.DE,ETF,-,Financial
+iShares EURO STOXX Small UCITS ETF,IQQS.DE,ETF,-,Financial
+Xtrackers MSCI World Financials UCITS ETF,XDWF.DE,ETF,-,Financial
+iShares S&P 500 Consumer Discretionary Sector UCITS ETF USD Acc,QDVK.DE,ETF,-,Financial
+iShares EUR Floating Rate Bond ESG UCITS ETF,EFRN.DE,ETF,-,Financial
+SPDR Bloomberg UK Gilt UCITS ETF,SYBG.DE,ETF,-,Financial
+WisdomTree Cloud Computing UCITS ETF,WTEJ.DE,ETF,-,Financial
+iShares EURO STOXX Mid UCITS ETF,IQQM.DE,ETF,-,Financial
+Xtrackers Vietnam Swap UCITS ETF,XFVT.DE,ETF,-,Financial
+iShares STOXX Europe 600 Insurance UCITS ETF,SXIPEX.DE,ETF,-,Financial
+iShares MSCI Poland UCITS ETF,IBCJ.DE,ETF,-,Financial
+iShares STOXX Europe 600 Telecommunications UCITS ETF,SXKPEX.DE,ETF,-,Financial
+Xtrackers Bloomberg Commodity ex-Agriculture & Livestock Swap UCITS ETF,XSVT.DE,ETF,-,Financial
+Xtrackers ShortDAX x2 Daily Swap UCITS ETF,DBPD.DE,ETF,-,Financial
+Sprott Uranium Miners UCITS ETF,U3O8.DE,ETF,-,Financial
+iShares STOXX Europe 600 Travel & Leisure UCITS ETF,SXTPEX.DE,ETF,-,Financial
+L&G DAX Daily 2x Long UCITS ETF,DEL2.DE,ETF,-,Financial
+Roundhill Ball Metaverse Etf,METV,ETF,NYSE,-
+Invesco Financial Preferred,PGF,ETF,NYSE,-
+Global X Russell 2000 Cov Cl,RYLD,ETF,NYSE,-
+Vaneck Pref Sec X-Financials,PFXF,ETF,NYSE,-
+Invesco Cef Income Composite,PCEF,ETF,NYSE,-
+Invesco Fundamental High Yie,PHB,ETF,NYSE,-
+Ishares Msci Singapore Etf,EWS,ETF,NYSE,-
+Nasdaq 7 Handl Index Etf,HNDL,ETF,NASDAQ,-
+Ishares Msci Europe Financia,EUFN,ETF,NASDAQ,-
+Franklin Investment Grade Co,FLCO,ETF,NYSE,-
+Ishares Msci Indonesia Etf,EIDO,ETF,NYSE,-
+Ft Cboe Vest Fund Deep Buff,BUFD,ETF,-,-
+Capital Group Core Plus Inco,CGCP,ETF,NYSE,-
+First Trust Global Tactical,FTGC,ETF,NASDAQ,-
+Spdr Bloomberg Int Treasury,BWX,ETF,NYSE,-
+Ishares Esg Aware Usd Corpor,SUSC,ETF,NASDAQ,-
+Simplify Volatility Premium,SVOL,ETF,NYSE,-
+Invesco Variable Rate Prefer,VRP,ETF,NYSE,-
+SPDR Portfolio Long Term Corporate Bond ETF,SPLB,ETF,NYSE,-
+First Trust Tcw Unconstraine,UCON,ETF,NYSE,-
+Global X Robotics & Artifici,BOTZ,ETF,NASDAQ,-
+Wisdmtree Emerg Mkt Ex-St Ow,XSOE,ETF,NYSE,-
+Ishares Msci Chile Etf,ECH,ETF,-,-
+Invesco Equal Weight 0-30 Yr,GOVI,ETF,NASDAQ,-
+SPDR Portfolio Corporate Bond ETF,CBND,ETF,NYSE,-
+Global X Art Intel & Tech,AIQ,ETF,NASDAQ,-
+Horizon Kinetics Infl Benef,INFL,ETF,NYSE,-
+Ishares Msci Spain Etf,EWP,ETF,NYSE,-
+Iq Merger Arbitrage Etf,MNA,ETF,NYSE,-
+Innovator U.S. Equity Power,PAUG,ETF,-,-
+Schwab Intl Small-Cap Equity,SCHC,ETF,NYSE,-
+Invesco RAFI US 1000 ETF,PRF,ETF,NYSE,-
+Ishares Currency Hedged Msci,HEZU,ETF,NYSE,-
+Global X Copper Miners Etf,COPX,ETF,NYSE,-
+Ishares Msci Canada Etf,EWC,ETF,NYSE,-
+Dimensional Us Marketwide Va,DFUV,ETF,NYSE,-
+Innovator U.S. Equity Power,PJUL,ETF,-,-
+Ishares Msci International Q,IQLT,ETF,NYSE,-
+Xtrackers Msci Eafe Hedged E,DBEF,ETF,NYSE,-
+SPDR S&P 500 Fossil Fuel Reserves Free ETF,SPYX,ETF,NYSE,-
+Global X S&P 500 Cove Call E,XYLD,ETF,NYSE,-
+Wisdomtree India Earnings,EPI,ETF,NYSE,-
+Ishrs Msci Saudi Arabia Etf,KSA,ETF,NYSE,-
+Spdr Dj Global Real Estate E,RWO,ETF,NYSE,-
+Vanguard Glbl Ex-Us Real Est,VNQI,ETF,NASDAQ,-
+Wisdomtree Europe Hedged Equ,HEDJ,ETF,NYSE,-
+SPDR S&P Kensho New Economies Composite ETF,KOMP,ETF,NYSE,-
+First Trust Tcw Opp Fixed In,FIXD,ETF,NASDAQ,-
+Ishares Gnma Bond Etf,GNMA,ETF,NASDAQ,-
+Main Sector Rotation Etf,SECT,ETF,-,-
+Invesco Kbw Bank Etf,KBWB,ETF,NASDAQ,-
+SPDR SSGA US Sector Rotation ETF,XLSR,ETF,NYSE,-
+Invesco S&P 500 Equal Weight,RSPD,ETF,NYSE,-
+Ishares Esg Aware Us Aggrega,EAGG,ETF,NYSE,-
+SPDR Nuveen ICE Short Term Municipal Bond ETF,SHM,ETF,NYSE,-
+Wisdomtree Em Small Cap,DGS,ETF,NYSE,-
+Dimensional Us Target Value,DFAT,ETF,NYSE,-
+Schwab Short-Term Us Treas,SCHO,ETF,NYSE,-
+First Trust Rising Dividend,RDVY,ETF,NASDAQ,-
+Invesco Russell 1000 Dyn M/F,OMFL,ETF,-,-
+Jpm Nasdaq Equity Premium,JEPQ,ETF,NASDAQ,-
+Pacer Us Cash Cows 100 Etf,COWZ,ETF,-,-
+Janus Henderson Aaa Clo Etf,JAAA,ETF,NYSE,-
+Vaneck High Yield Muni Etf,HYD,ETF,-,-
+Schwab Fundamental Small Cap,FNDA,ETF,NYSE,-
+Ishares 10+ Year Inv Gr Corp,IGLB,ETF,NYSE,-
+Ishares Msci Emr Mrk Ex Chna,EMXC,ETF,NASDAQ,-
+Schwab Us Broad Market Etf,SCHB,ETF,NYSE,-
+Spdr S&P Global Infrastructu,GII,ETF,NYSE,-
+Spdr S&P Gl Nat Resources,GNR,ETF,NYSE,-
+Jpmorgan Equity Premium Inco,JEPI,ETF,NYSE,-
+First Trust Long/Short Eqty,FTLS,ETF,NYSE,-
+Ishares Asia 50 Etf,AIA,ETF,NASDAQ,-
+iShares Future Exponential Technologies ETF,XT,ETF,NASDAQ,-
+SPDR Portfolio S&P 1500 Composite Stock Market ETF,SPTM,ETF,NYSE,-
+Fidelity Nasdaq Composite In,ONEQ,ETF,NASDAQ,-
+First Trust Rba American Ind,AIRR,ETF,NASDAQ,-
+Vaneck Rare Earth and Strategic Metals,REMX,ETF,NYSE,-
+Jpmorgan Int Res Enh Eqty,JIRE,ETF,NYSE,-
+Direxion Daily Tech Bull 3X,TECL,ETF,NYSE,-
+First Trust Enh Short Mat Fd,FTSM,ETF,NASDAQ,-
+Jpmorgan Betabuilders Canada,BBCA,ETF,-,-
+Ishares Msci Eafe Min Vol Fa,EFAV,ETF,-,-
+APDR S&P Retail ETF,XRT,ETF,NYSE,-
+Vaneck Agribusiness Etf,MOO,ETF,NYSE,-
+Ishares Global 100 Etf,IOO,ETF,NYSE,-
+Invesco Dorsey Wright Moment,PDP,ETF,NASDAQ,-
+SPDR S&P Oil & Gas Equipment & Services ETF,XES,ETF,NYSE,-
+Pimco 25+ Yr Zero Cpn Us Tif,ZROZ,ETF,NYSE,-
+Invesco S&P Midcap Momentum,XMMO,ETF,NYSE,-
+Invesco S&P 100 Equal Weight,EQWL,ETF,NYSE,-
+SPDR S&P Homebuilders ETF,XHB,ETF,NYSE,-
+Drx Dly Reg Bank Bull 3X,DPST,ETF,NYSE,-
+Ishares U.S. Home Constructi,ITB,ETF,-,-
+Pimco 0-5 Year H/Y Corp Bond,HYS,ETF,NYSE,-
+Invesco Buyback Achievers Et,PKW,ETF,NASDAQ,-
+Vanguard Sh Term Tax-Ex Bond,VTES,ETF,NYSE,-
+Ishares Short-Term National,SUB,ETF,NYSE,-
+Ishares Agency Bond Etf,AGZ,ETF,NYSE,-
+Ishares Global Industrials E,EXI,ETF,NYSE,-
+SPDR S&P Software & Services ETF,XSW,ETF,NYSE,-
+Ishares Us Pharmaceuticals E,IHE,ETF,NYSE,-
+Ishares Us Transportation Et,IYT,ETF,-,-
+Ishares Expanded Tech-Softwa,IGV,ETF,-,-
+Global X Fintech Etf,FINX,ETF,NASDAQ,-
+Ishares Self-Driving Ev&Tech,IDRV,ETF,NYSE,-
+Gs Active Beta World Lvol Pl,GLOV,ETF,-,-
+iShares World X U.S. Carbon,LCTD,ETF,NYSE,-
+Invesco S&P Smallcap Low Vol,XSLV,ETF,NYSE,-
+Invesco Dorsey Wright Tech,PTF,ETF,NASDAQ,-
+Spdr S&P North American Natu,NANR,ETF,NYSE,-
+Global X S&P 500 Ca Val Etf,CATH,ETF,NASDAQ,-
+Ishares Global Financials Et,IXG,ETF,NYSE,-
+Xtrackers Msci Kokusai Eqty,KOKU,ETF,NYSE,-
+Wisdomtree Us Ai Enhanced Va,AIVL,ETF,NYSE,-
+Rize Environmental Impact 100 UCITS ETF,LIFE.L,ETF,London,Services
+Rize Cybersecurity Data Privacy UCITS ETF,CYBR.L,ETF,London,Services
+Rize Global Sustainable Infrastructure UCITS ETF,NFRA.L,ETF,London,Services
+Rize Sustainable Future of Food UCITS ETF,FOOD.L,ETF,London,Services
+Rize USA Environmental Impact UCITS ETF,LUSA.L,ETF,London,Services
+ARK Innovation UCITS ETF,ARKK.L,ETF,London,Services
+ARK Artificial Intelligence & Robotics UCITS ETF,ARKI.L,ETF,London,Services
+ARK Genomic Revolution UCITS ETF,ARKG.L,ETF,London,Services
+WisdomTree Enhanced Commodity UCITS ETF,WCOA.L,ETF,London,Financial
+WisdomTree Brent Crude Oil,BRNT.L,ETF,London,Financial
+WisdomTree Gasoline,UGAS.L,ETF,London,Financial
+WisdomTree Natural Gas,NGAS.L,ETF,London,Financial
+WisdomTree Nickel,NICK.L,ETF,London,Financial
+WisdomTree Silver,SLVR.L,ETF,London,Financial
+WisdomTree Zinc,ZINC.L,ETF,London,Financial
+WisdomTree Physical Platinum,PHPT.L,ETF,London,Financial
+WisdomTree Aluminium,ALUM.L,ETF,London,Financial
+WisdomTree Core Physical Silver UCITS ETF,WSLV.L,ETF,London,Financial
+WisdomTree Core Physical Gold,WGLD.L,ETF,London,Financial
+Invesco S&P 500 UCITS ETF,SPXS.L,ETF,London,Financial
+Franklin S&P 500 Paris Aligned Climate UCITS ETF,USPA.L,ETF,London,Financial
+Amundi Core Stoxx Europe 600 UCITS ETF,MEUS.L,ETF,London,Financial
+Xtrackers MSCI Japan UCITS ETF,XMJD.L,ETF,London,Financial
+iShares MSCI EM UCITS ETF USD Acc,IEMA.L,ETF,London,Financial
+iShares USD Treasury Bond 1-3yr UCITS ETF,IBTA.L,ETF,London,Financial
+Franklin USD Investment Grade Corporate Bond UCITS ETF,FLUC.L,ETF,London,Financial
+iShares Core Global Aggregate Bond UCITS ETF,AGGU.L,ETF,London,Financial
+Xtrackers II Global Government Bond UCITS ETF,XGSI.L,ETF,London,Financial
+Vanguard USD Emerging Markets Government Bond UCITS ETF,VDEA.L,ETF,London,Financial
+Franklin US Equity UCITS ETF,FRUE.L,ETF,London,Financial
+Vanguard FTSE North America UCITS ETF,VNRA.L,ETF,London,Financial
+Vanguard FTSE Developed Europe UCITS ETF,VWCG.L,ETF,London,Financial
+Vanguard FTSE Developed Asia Pacific ex Japan UCITS ETF,VAPU.L,ETF,London,Financial
+Vanguard FTSE Japan UCITS ETF,VJPA.L,ETF,London,Financial
+Vanguard FTSE Emerging Markets UCITS ETF,VFEA.L,ETF,London,Financial
+Vanguard Global Aggregate Bond UCITS ETF,VAGU.L,ETF,London,Financial
+iShares USD Treasury Bond 7-10yr UCITS ETF USD Acc,CBU0.L,ETF,London,Financial
+iShares USD Treasury Bond 20+yr UCITS ETF,DTLA.L,ETF,London,Financial
+iShares JP Morgan USD EM Corp Bond UCITS ETF,EMCA.L,ETF,London,Financial
+First Trust Managed Municipal ETF,FMB,ETF,NASDAQ,-
+First Trust Tactical High Yield ETF,HYLS,ETF,NASDAQ,-
+First Trust Senior Loan Fund,FTSL,ETF,NASDAQ,-
+First Trust Limited Duration Investment Grade Corporate ETF,FSIG,ETF,NYSE,-
+iShares EUR Cash UCITS ETF,YCSH.DE,ETF,-,Financial
+Vanguard S&P 500 UCITS ETF,VUSA.AS,ETF,Amsterdam,BasicMaterials
+Vanguard FTSE Emerging Markets UCITS ETF USD,VFEM.AS,ETF,Amsterdam,BasicMaterials
+WisdomTree Physical XRP,WXRP.DE,ETF,-,Financial
+Hashdex Nasdaq Crypto Index Europe ETP,HDX1.DE,ETF,-,Financial
+Amundi Core MSCI Emerging Markets UCITS ETF,AEME.PA,ETF,Paris,BasicMaterials
+Amundi S&P World Energy Screened UCITS ETF Acc,NRGW.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Water ESG Screened UCITS ETF Acc,WATC.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Digital Economy UCITS ETF Acc,EBUY.PA,ETF,Paris,BasicMaterials
+Amundi Core MSCI Europe UCITS ETF,CEU2.PA,ETF,Paris,BasicMaterials
+Amundi MSCI Pacific Ex Japan SRI Climate Paris Aligned UCITS ETF,CP9.PA,ETF,Paris,BasicMaterials
+Amundi S&P 500 II UCITS ETF Acc,SP5C.PA,ETF,Paris,BasicMaterials
+Amundi Russell 2000 UCITS ETF,RS2K.PA,ETF,Paris,BasicMaterials
+Amundi MSCI China UCITS ETF Acc,L4K3.DE,ETF,-,BasicMaterials
+Amundi S&P World Financials Screened UCITS ETF Acc,WELK.DE,ETF,-,BasicMaterials
+Amundi NYSE Arca Gold Bugs UCITS ETF Dist,CD91.DE,ETF,-,BasicMaterials
+Amundi MSCI Japan UCITS ETF,LCUJ.DE,ETF,-,BasicMaterials
+iMGP DBi Managed Futures Strategy ETF,DBMF,ETF,NYSE,-
+VanEck Oil Refiners ETF,CRAK,ETF,NYSE,-
+WisdomTree Heating Oil,HEAT.L,ETF,London,-
+WisdomTree Physical Palladium,PHPD.L,ETF,London,-
+Amundi MSCI China UCITS ETF Acc,LCCN.L,ETF,London,-
+Amundi MSCI Emerging Markets II UCITS ETF Acc,LEMA.L,ETF,London,-
+Amundi MSCI Water UCITS ETF Acc,WATC.L,ETF,London,-
+Amundi MSCI Digital Economy UCITS ETF Acc,DIGE.L,ETF,London,-
+Amundi Index MSCI Europe UCITS ETF ,CEU2.L,ETF,London,-
+Amundi MSCI Japan UCITS ETF Acc,LCJD.L,ETF,London,-
+Amundi S&P 500 II UCITS ETF Acc,SP5C.L,ETF,London,-
+Amundi S&P World Financials Screened UCITS ETF Acc,WEL7.DE,ETF,-,Financial
+Amundi NYSE Arca Gold Bugs UCITS ETF Dist,GLDU.AS,ETF,Amsterdam,Financial
+Amundi S&P World Energy Screened UCITS ETF Acc,WEL5.DE,ETF,-,Financial
+Amundi MSCI Pacific Ex Japan SRI Climate Paris Aligned UCITS ETF,CP9U.PA,ETF,Paris,Financial
+Amundi Russell 2000 UCITS ETF,RS2U.PA,ETF,Paris,Financial
+iShares GBP Ultrashort Bond UCITS ETF,ERNS.L,ETF,London,Financial
+Amundi Smart Overnight Return GBP Hedged UCITS ETF Acc,CSH2.L,ETF,London,Financial
+Amundi FTSE 100 UCITS ETF Acc,L100.L,ETF,London,-
+Amundi UK Equity All Cap UCITS ETF Dist,LCUK.L,ETF,London,-
+Amundi Prime UK Mid & Small Cap UCITS ETF DR - GBP (D),PRUK.L,ETF,London,-
+iShares Global HY Corp Bond UCITS ETF USD Dist,GHYG.L,ETF,London,-
+iShares ? Corp Bond 0-5yr UCITS ETF GBP (Dist),IS15.L,ETF,London,-
+iShares Core ? Corp Bond UCITS ETF GBP (Dist),SLXX.L,ETF,London,-
+SPDR FTSE UK All Share UCITS ETF,ZPRD.DE,ETF,-,-
+iShares MSCI EMU Paris-Aligd Clmt UCITS ETF EUR A,EMPA.AS,ETF,Amsterdam,-
+iShares TIPS 0-5 UCITS ETF,TI5A.AS,ETF,Amsterdam,-
+iShares MSCI EM ex China UCITS ETF,EXCH.AS,ETF,Amsterdam,-
+iShares USD Treasury Bond UCITS ETF,GOVT.AS,ETF,Amsterdam,-
+iShares MSCI China UCITS ETF,ICHN.AS,ETF,Amsterdam,-
+iShares US Large Cap Max Buffer Sep UCITS ETF,MAXS.AS,ETF,Amsterdam,-
+iShares MSCI Europe SRI UCITS ETF EUR (Acc),IESE.AS,ETF,Amsterdam,-
+Amundi EUR Overnight Return UCITS ETF,CSH.PA,ETF,Paris,-
+Amundi MSCI World II UCITS ETF EUR Hedged Acc,WLDHC.PA,ETF,Paris,-
+Amundi MSCI All Country World UCITS ETF EUR Acc,ACWI.PA,ETF,Paris,-
+Amundi MSCI World Information Technology UCITS ETF EUR Acc,TNOW.PA,ETF,Paris,-
+Amundi MSCI World Health Care UCITS ETF EUR Acc,HLTW.PA,ETF,Paris,-
+Amundi Index FTSE EPRA NAREIT Global UCITS ETF DR (C),EPRA.PA,ETF,Paris,-
+Amundi Global Hydrogen UCITS ETF - Acc,ANRJ.PA,ETF,Paris,-
+Amundi Global Bioenergy UCITS ETF EUR Acc,CWE.PA,ETF,Paris,-
+HSBC Euro Stoxx 50 UCITS ETF,H50E.L,ETF,London,-
+Amundi DAX UCITS ETF DR,CG1.PA,ETF,Paris,-
+Amundi MSCI France UCITS ETF,CF1.PA,ETF,Paris,-
+Amundi IBEX 35 UCITS ETF Acc,CS1.PA,ETF,Paris,-
+Amundi FTSE 100 UCITS ETF EUR Hedged Acc,100H.PA,ETF,Paris,-
+Amundi EURO STOXX 50 UCITS ETF DR - EUR (C),C50.PA,ETF,Paris,-
+Amundi Stoxx Europe 600 UCITS ETF Acc,MEUD.PA,ETF,Paris,-
+Amundi Stoxx Europe 50 UCITS ETF,C5E.PA,ETF,Paris,-
+Amundi MSCI Nordic UCITS ETF - EUR (C),CN1.PA,ETF,Paris,-
+Amundi Euro Stoxx Banks UCITS ETF Acc,BNKE.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Energy Screened UCITS ETF Acc,ENRG.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Banks UCITS ETF Acc,BNK.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Healthcare UCITS ETF Acc,HLT.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Technology UCITS ETF Acc,TNO.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Industrials UCITS ETF Acc,IND.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Insurance UCITS ETF Acc,INS.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Consumer Staples UCITS ETF Acc,FOO.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Basic Resources UCITS ETF Acc,BRES.PA,ETF,Paris,-
+Amundi FTSE Epra Europe Real Estate UCITS ETF - EUR (C),EPRE.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Consumer Discretionary UCITS ETF Acc,TRV.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Utilities UCITS ETF Acc,UTI.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Basic Materials UCITS ETF Acc,CHM.PA,ETF,Paris,-
+Amundi STOXX Europe 600 Telecommunications UCITS ETF Acc,TELE.PA,ETF,Paris,-
+Amundi MSCI Europe Small Cap ESG Broad Transition UCITS ETF Acc,CEM.PA,ETF,Paris,-
+Amundi MSCI Europe Momentum Factor UCITS ETF - EUR (C),MCEU.PA,ETF,Paris,-
+Amundi MSCI Turkey UCITS ETF Acc,TUR.PA,ETF,Paris,-
+Amundi MSCI India UCITS ETF - EUR (C),CI2.PA,ETF,Paris,-
+Amundi MSCI Indonesia UCITS ETF Acc,INDO.PA,ETF,Paris,-
+Amundi MSCI Em Asia UCITS ETF - EUR (C),AASI.PA,ETF,Paris,-
+Amundi MSCI EM Latin America UCITS ETF - EUR (C),ALAT.PA,ETF,Paris,-
+BNP Paribas Easy MSCI Europe Min TE TC C,EEUE.PA,ETF,Paris,-
+Amundi S&P Eurozone Cl Paris Aligned UCITS ETF A,EPAB.PA,ETF,Paris,-
+Amundi MSCI Eu ESG Brd Transition UCITS ETF EUR A,CEU.PA,ETF,Paris,-
+Amundi MSCI Semiconductors UCITS ETF Acc,SEMU.L,ETF,London,-
+Amundi MSCI New Energy UCITS ETF Acc,NRJC.L,ETF,London,-
+Amundi MSCI Smart Cities UCITS ETF ACC,IQCT.L,ETF,London,-
+Amundi Australia S&P/ASX 200 UCITS ETF Dist,LAUU.L,ETF,London,-
+Amundi MSCI Brazil UCITS ETF Acc,RIOU.L,ETF,London,-
+Amundi MSCI Korea UCITS ETF Acc,KRW.L,ETF,London,-
+WisdomTree Europe Equity Income UCITS ETF Acc,EEIA.L,ETF,London,-
+iShares Core MSCI Europe UCITS ETF EUR (Acc),SMEA.L,ETF,London,-
+iShares MSCI Europe Screened UCITS ETF EUR A,SAEU.L,ETF,London,-
+iShares MSCI Europe Screened UCITS ETF EUR A,SDUE.L,ETF,London,-
+iShares Core EURO STOXX 50 UCITS ETF EUR Dist,EUE.L,ETF,London,-
+JPM Europe Rsrch Enh Idx Eqty Actv UCITS ETF EUR A,JRDE.L,ETF,London,-
+iShares MSCI EMU IMI Screened UCITS ETF EUR A,SAUM.L,ETF,London,-
+JPMorgan Betabuilders US Treasury Bond 0-3 Months UCITS ETF,BB3M.L,ETF,London,-
+Vanguard US Treasury 0-1 Year Bond UCITS ETF,VDST.L,ETF,London,-
+Invesco US Treasury Bond 0-1 Year UCITS ETF,TRIA.L,ETF,London,-
+Franklin US Treasury 0-1 Year UCITS ETF,SHOR.L,ETF,London,-
+Franklin FTSE China UCITS ETF,FLXC.L,ETF,London,-
+Franklin FTSE India UCITS ETF,FLXI.L,ETF,London,-
+Franklin FTSE Korea UCITS ETF,FLXK.L,ETF,London,-
+Franklin FTSE Taiwan UCITS ETF,FLXT.L,ETF,London,-
+Franklin FTSE Brazil UCITS ETF,FLXB.L,ETF,London,-
+Franklin FTSE Emerging Markets ETF,EMGM.L,ETF,London,-
+Franklin FTSE Emerging Markets ex China ETF,EXCN.L,ETF,London,-
+Franklin FTSE Asia ex China ex Japan UCITS ETF,FLQA.L,ETF,London,-
+Franklin ClearBridge US Smaller Companies UCITS ETF,CBSM.L,ETF,London,-
+"Franklin AI, Metaverse and Blockchain UCITS ETF",METE.L,ETF,London,-
+Franklin Future of Food UCITS ETF,FOFD.L,ETF,London,-
+Franklin Future of Health & Wellness UCITS ETF,FOHW.L,ETF,London,-
+Franklin Euro IG Corporate UCITS ETF,EURO.L,ETF,London,-
+Global X 1-3 Month T-Bill UCITS ETF,CLIP.L,ETF,London,-
+Xtrackers US Treasuries Ultrashort Bond UCITS ETF,XT0D.L,ETF,London,-
+ARK Space & Defence Innovation UCITS ETF,ARKX.L,ETF,London,-
+Amundi MSCI World UCITS ETF Acc,MWRU.L,ETF,London,-
+Amundi MSCI All Country World UCITS ETF USD Acc,ACWU.L,ETF,London,-
+Amundi Global Gender Equality UCITS ETF Acc,ELLE.L,ETF,London,-
+Amundi Global Bioenergy UCITS ETF USD Acc,CWEU.L,ETF,London,-
+Amundi MSCI Future Mobility ESG Screened UCITS ETF Acc,MOBI.L,ETF,London,-
+Amundi MSCI Disruptive Technology UCITS ETF Acc,UNIC.L,ETF,London,-
+Amundi MSCI Millennials UCITS ETF Acc,GENY.L,ETF,London,-
+Amundi MSCI World Catholic Principles UCITS ETF Acc,CATP.L,ETF,London,-
+Amundi S&P Global Luxury UCITS ETF - USD (C),LUXU.L,ETF,London,-
+Amundi FTSE 100 UCITS ETF USD Hedged Acc,100H.L,ETF,London,-
+Amundi EURO STOXX 50 II UCITS ETF USD Hedged Acc,MSEU.L,ETF,London,-
+Amundi Japan Topix UCITS ETF - DAILY HEDGED USD (C),TPHU.L,ETF,London,-
+Amundi MSCI Emerging Ex China UCITS ETF Acc,EMXC.L,ETF,London,-
+Amundi MSCI India UCITS ETF - USD (C),CI2U.L,ETF,London,-
+Amundi MSCI Em Latin America UCITS ETF - USD (C),ALAU.L,ETF,London,-
+Amundi MSCI China Tech UCITS ETF USD,CC1U.L,ETF,London,-
+Amundi Smart Overnight Return UCITS ETF USD Hedged Acc,SMTC.L,ETF,London,-
+Amundi Prime Emerging Markets UCITS ETF DR (C),PRAM.L,ETF,London,-
+iShares MSCI Europe ex-UK UCITS ETF EUR (Dist),IEUX.L,ETF,London,-
+WisdomTree Artificial Intelligence UCITS ETF - USD Acc,WTAI.L,ETF,London,-
+WisdomTree AT1 CoCo Bond UCITS ETF - USD Acc,COCB.L,ETF,London,-
+WisdomTree AT1 CoCo Bond UCITS ETF - USD Hedged,CODO.L,ETF,London,-
+WisdomTree Battery Solutions UCITS ETF - USD Acc,VOLT.L,ETF,London,-
+WisdomTree BioRevolution UCITS ETF - USD Acc,WDNA.L,ETF,London,-
+WisdomTree Broad Commodities UCITS ETF - USD Acc,PCOM.L,ETF,London,-
+WisdomTree Cloud Computing UCITS ETF - USD Acc,WCLD.L,ETF,London,-
+WisdomTree Cybersecurity UCITS ETF - USD Acc,WCBR.L,ETF,London,-
+WisdomTree Emerging Markets Equity Income UCITS ETF - Acc,DEMR.L,ETF,London,-
+WisdomTree Emerging Markets ex-State-Owned Enterprises UCITS ETF - USD Acc,XSOE.L,ETF,London,-
+WisdomTree Emerging Markets SmallCap Dividend UCITS ETF,DGSD.L,ETF,London,-
+WisdomTree Enhanced Commodity ex-Agriculture UCITS ETF - USD Acc,WXAG.L,ETF,London,-
+WisdomTree Europe Equity UCITS ETF - USD Hedged Acc,HEDK.L,ETF,London,-
+iShares MSCI Europe Hlth Care Sctr UCITS ETF EUR A,ESIH.DE,ETF,-,-
+WisdomTree Global Efficient Core UCITS ETF - USD Acc,NTSG.L,ETF,London,-
+WisdomTree Global Quality Dividend Growth UCITS ETF - USD Acc,GGRA.L,ETF,London,-
+WisdomTree Global Quality Growth UCITS ETF - USD Acc,WGRO.L,ETF,London,-
+WisdomTree Global Sustainable Equity UCITS ETF - USD Acc,WSDG.L,ETF,London,-
+WisdomTree Japan Equity UCITS ETF - USD Hedged Acc,DXJA.L,ETF,London,-
+WisdomTree Megatrends UCITS ETF - USD Acc,WMGT.L,ETF,London,-
+WisdomTree New Economy Real Estate UCITS ETF - USD Acc,WTRE.L,ETF,London,-
+WisdomTree Quantum Computing UCITS ETF - USD Acc,WQTM.L,ETF,London,-
+WisdomTree Renewable Energy UCITS ETF - USD Acc,WRNW.L,ETF,London,-
+WisdomTree Strategic Metals and Rare Earths Miners UCITS ETF - USD Acc,RARE.L,ETF,London,-
+WisdomTree Strategic Metals UCITS ETF - USD Acc,WENU.L,ETF,London,-
+WisdomTree Uranium and Nuclear Energy UCITS ETF - USD Acc,NCLR.L,ETF,London,-
+WisdomTree US Efficient Core UCITS ETF - USD Acc,NTSX.L,ETF,London,-
+WisdomTree US Equity Income UCITS ETF - Acc,DHSA.L,ETF,London,-
+WisdomTree US Quality Dividend Growth UCITS ETF - USD Acc,DGRA.L,ETF,London,-
+WisdomTree USD Floating Rate Treasury Bond UCITS ETF - USD Acc,TFRN.L,ETF,London,-
+WisdomTree WTI Crude Oil,CRUD.L,ETF,London,-
+WisdomTree Copper,COPA.L,ETF,London,-
+iShares MSCI USA ESG Screened UCITS ETF,SASU.L,ETF,London,-
+iShares MSCI USA ESG Enhanced UCITS ETF,EEDS.L,ETF,London,-
+iShares VII PLC - iShares MSCI EMU USD Hedged UCITS ETF,EMUU.L,ETF,London,-
+iShares MSCI ACWI UCITS ETF,ISAC.L,ETF,London,-
+iShares $ Corp Bond Interest Rate Hedged UCITS ETF,HLQD.L,ETF,London,-
+iShares MSCI Canada UCITS ETF,CCAU.L,ETF,London,-
+iShares MSCI EM Asia UCITS ETF,CEMA.L,ETF,London,-
+iShares Core MSCI EMU UCITS ETF,CEUU.AS,ETF,Amsterdam,-
+iShares Core MSCI Pacific ex-Japan UCITS ETF,CPXJ.L,ETF,London,-
+iShares MSCI USA Small Cap ESG Enhanced CTB UCITS ETF,CUSS.L,ETF,London,-
+iShares Core MSCI EM IMI UCITS ETF,EIMI.L,ETF,London,-
+iShares MSCI Australia UCITS ETF,IAUS.L,ETF,London,-
+iShares USD TIPS UCITS ETF,IDTP.L,ETF,London,-
+iShares Developed Markets Property Yield UCITS ETF,DPYA.L,ETF,London,-
+iShares J.P. Morgan USD EM Bond UCITS ETF,JPEA.L,ETF,London,-
+iShares Physical Gold ETC,IGLN.L,ETF,London,-
+iShares MSCI Japan USD Hedged UCITS ETF Acc,IJPD.L,ETF,London,-
+iShares Edge MSCI Europe Minimum Volatility UCITS ETF,IMVU.L,ETF,London,-
+iShares Euro Dividend UCITS ETF EUR Dist,IDVY.L,ETF,London,-
+iShares plc - iShares Core FTSE 100 UCITS ETF,ISFD.L,ETF,London,-
+iShares Edge MSCI USA Momentum Factor UCITS ETF,IUMO.L,ETF,London,-
+iShares Edge MSCI USA Quality Factor UCITS ETF,IUQA.L,ETF,London,-
+iShares MSCI Europ Quality Div Adv UCITS ETF EUR D,EQDS.L,ETF,London,-
+iShares Edge MSCI World Minimum Volatility UCITS ETF,MVOL.L,ETF,London,-
+L&G Europe Ex UK Equity UCITS ETF EUR Acc,LGEG.L,ETF,London,-
+iShares Edge S&P 500 Minimum Volatility UCITS ETF,SPMV.L,ETF,London,-
+iShares NASDAQ US Biotechnology UCITS ETF USD Acc,BTEE.L,ETF,London,-
+iShares Edge MSCI USA Qual Fctr UCITS ETF USD A,IUQD.L,ETF,London,-
+iShs Edge MSCI Europ Mmntm Fctr UCITS ETF EUR A,IEFM.L,ETF,London,-
+iShares iBonds Dec 2031 Term $ Corp UCITS ETF,ID31.L,ETF,London,-
+iShares iBonds Dec 2032 Term $ Corp UCITS ETF,ID32.L,ETF,London,-
+iShares iBonds Dec 2033 Term $ Corp UCITS ETF,ID33.L,ETF,London,-
+iShares iBonds Dec 2034 Term $ Corp UCITS ETF,ID34.L,ETF,London,-
+iShares iBonds Dec 2030 Term $ Corp UCITS ETF,ID30.L,ETF,London,-
+iShares iBonds Dec 2029 Term $ Corp UCITS ETF,ID29.L,ETF,London,-
+iShares iBonds Dec 2029 Term $ Treasury UCITS ETF,IT29.L,ETF,London,-
+iShares iBonds Dec 2027 Term $ Treasury UCITS ETF,IT27.L,ETF,London,-
+iShares iBonds Dec 2028 Term $ Corp UCITS ETF,D28A.L,ETF,London,-
+Amundi MSCI Switzerland UCITS ETF - CHF (C),18MN.DE,ETF,-,-
+Amundi Prime Euro Government Bond 0-1Y UCITS ETF,PRAB.DE,ETF,-,-
+Amundi S&P World Information technology Screened UCITS ETF Acc,MWOB.DE,ETF,-,-
+Amundi S&P World Health Care Screened UCITS ETF Acc,WEL9.DE,ETF,-,-
+Amundi S&P World Industrials Screened UCITS ETF Acc,WEL0.DE,ETF,-,-
+Amundi S&P World Utilities Screened UCITS ETF Acc,MWOH.DE,ETF,-,-
+Amundi S&P World Communication Services Screened UCITS ETF Acc,MWOX.DE,ETF,-,-
+Amundi S&P World Consumer Discretionary Screened UCITS ETF Acc,WEL1.DE,ETF,-,-
+Amundi S&P World Consumer Staples Screened UCITS ETF Acc,WEL3.DE,ETF,-,-
+Amundi S&P World Materials Screened UCITS ETF Acc,MWOD.DE,ETF,-,-
+Amundi Pan Africa UCITS ETF Acc,LGQM.DE,ETF,-,-
+Amundi Prime Eurozone UCITS ETF DR (C),PRAZ.DE,ETF,-,-
+Amundi Prime Europe UCITS ETF DR (C),PRAE.DE,ETF,-,-
+Amundi Prime Japan UCITS ETF DR (C),PRAJ.DE,ETF,-,-
+WisdomTree AT1 CoCo Bond UCITS ETF - EUR Hedged,WTEB.DE,ETF,-,-
+WisdomTree Blockchain UCITS ETF - USD Acc,WBKN.DE,ETF,-,-
+iShares MSCI Europe Finls Sector UCITS ETF EUR A,ESIF.DE,ETF,-,-
+WisdomTree Enhanced Commodity ex-Agriculture UCITS ETF - EUR Hedged Acc,EXAG.DE,ETF,-,-
+WisdomTree Enhanced Commodity UCITS ETF - EUR Hedged Acc,WTEH.DE,ETF,-,-
+WisdomTree Europe Equity Income UCITS ETF,WTEE.DE,ETF,-,-
+WisdomTree Europe Equity UCITS ETF - EUR Acc,WTDF.DE,ETF,-,-
+WisdomTree Europe SmallCap Dividend UCITS ETF,WTES.DE,ETF,-,-
+WisdomTree Europe SmallCap Dividend UCITS ETF Acc,WTD7.DE,ETF,-,-
+WisdomTree Eurozone Quality Dividend Growth UCITS ETF - EUR Acc,WTIM.DE,ETF,-,-
+WisdomTree Japan Equity UCITS ETF - EUR Hedged Acc,WTIF.DE,ETF,-,-
+iShares EUR Ultrashort Bond UCITS ETF,ERNX.DE,ETF,-,-
+iShares III PLC - iShares EUR Govt Bond 0-1yr UCITS ETF,CEMK.DE,ETF,-,-
+iShares iBonds Dec 2029 Term ? Corp Crossover UCITS ETF,B29I.DE,ETF,-,-
+iShares iBonds Dec 2035 Term ? Corp UCITS ETF,IG35.DE,ETF,-,-
+iShares iBonds Dec 2027 Term ? Corp UCITS ETF,IB27.DE,ETF,-,-
+iShares iBonds Dec 2028 Term ? Corp UCITS ETF,IVOA.DE,ETF,-,-
+iShares iBonds Dec 2026 Term ? Corp UCITS ETF,CEBE.DE,ETF,-,-
+iShares iBonds Dec 2031 Term ? Corp UCITS ETF,IG31.DE,ETF,-,-
+iShares iBonds Dec 2032 Term ? Corp UCITS ETF,IG32.DE,ETF,-,-
+iShares iBonds Dec 2034 Term ? Corp UCITS ETF,IG34.DE,ETF,-,-
+iShares iBonds Dec 2033 Term ? Corp UCITS ETF,IG33.DE,ETF,-,-
+iShares Core MSCI Europe UCITS ETF EUR Dist,CEBZ.DE,ETF,-,-
+Xtrackers Euro Stoxx 50 UCITS ETF 1D,XESC.DE,ETF,-,-
+Xtrackers Euro Stoxx 50 UCITS ETF 1D,XESX.DE,ETF,-,-
+iShares STOXX Europe 600 UCITS ETF (DE),EXIE.DE,ETF,-,-
+iShares MSCI Europe ESG Enh CTB UCITS ETF EUR D,EDM6.DE,ETF,-,-
+Vanguard FTSE Dvlp Eurp exUK UCITS ETF EUR Dis,VERE.DE,ETF,-,-
+Xtrackers Stoxx Europe 600 UCITS ETF 1C,XSX6.DE,ETF,-,-
+Amundi Core MSCI Europe AE Acc,10AI.DE,ETF,-,-
+iShares MSCI Eu Cnsmr Stpls Sctr UCITS ETF EUR A,ESIS.DE,ETF,-,-
+iShares MSCI EMU ESG Enhanced CTB UCITS ETF EUR D,EDM4.DE,ETF,-,-
+UBS EURO STOXX 50 ESG UCITS ETF EUR dis,UET5.DE,ETF,-,-
+Xtrackers MSCI EMU UCITS ETF 1D,XD5E.DE,ETF,-,-
+iShares EURO STOXX Banks 30-15 UCITS ETF DE,SX7EEX.DE,ETF,-,-
+SPDR Bloomberg 1-3 Month T-Bill UCITS ETF,ZPR1.DE,ETF,-,-
+Franklin Euro Short Maturity UCITS ETF,FVSA.DE,ETF,-,-
+Amundi MSCI World Ex USA UCITS ETF Acc,WEXU.DE,ETF,-,-
+Amundi Prime Global UCITS ETF Acc,F50B.DE,ETF,-,-
+Xtrackers MSCI Europe UCITS ETF,XMEU.DE,ETF,-,-
+Xtrackers MSCI EUROPE SMALL CAP UCITS ETF,XXSC.DE,ETF,-,-

@@ -5,7 +5,6 @@ Boeing,BA,Stocks,NYSE,IndustrialGoods
 Bank of America Corp,BAC,Stocks,NYSE,Financial
 Caterpillar,CAT,Stocks,NYSE,IndustrialGoods
 Chevron,CVX,Stocks,NYSE,BasicMaterials
-Du-Pont,DDOld,Stocks,NYSE,BasicMaterials
 Walt Disney,DIS,Stocks,NYSE,Services
 General Electric Co,GE,Stocks,NYSE,IndustrialGoods
 Home Depot Inc,HD,Stocks,NYSE,Services
@@ -37,39 +36,23 @@ Visa,V,Stocks,NYSE,Financial
 Time-Warner,TWX,Stocks,NYSE,Services
 Deutsche-Bank,DB,Stocks,NYSE,Financial
 Colgate-Palmolive,CL,Stocks,NYSE,ConsumerGoods
-Siemens,SI.US,Stocks,NYSE,IndustrialGoods
-China Mobile Limited,CHL,Stocks,NYSE,Technology
 Moatable Inc-ADR,MTBLY,Stocks,NYSE,Technology
 Blue Owl Capital Inc,OWL,Stocks,NYSE,Financial
-"Signify Health, Inc",SGFY,Stocks,NYSE,ConsumerGoods
 Peabody Energy Corporation ,BTU,Stocks,NYSE,Services
 "Alpha Metallurgical Resources, Inc",AMR,Stocks,NYSE,Services
 Core Natural Resources Inc,CNR,Stocks,NYSE,Services
-Invesco S&P 500 Equal Weight ETF ,RSP,ETF,NYSE,-
-Dimensional U.S. Core Equity 2 ETF,DFAC,ETF,NYSE,-
-Schwab U.S. Large-Cap Growth ETF ,SCHG,ETF,NYSE,-
-iShares 0-5 Year TIPS Bond ETF,STIP,ETF,NYSE,-
-First Trust Value Line Dividend Index Fund,FVD,ETF,NYSE,-
-iShares Russell Mid-Cap Growth ETF,IWP,ETF,NYSE,-
-Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF,GSLC,ETF,NYSE,-
-Vanguard Mega Cap Growth Index Fund,MGK,ETF,NYSE,-
-iShares Russell 3000 ETF,IWV,ETF,NYSE,-
-Schwab Fundamental U.S. Large Company Index ETF,FNDX,ETF,NYSE,-
 Telecom Argentina SA-ADR,TEO,Stocks,NYSE,Technology
 Ternium SA-ADR,TX,Stocks,NYSE,BasicMaterials
 Petroleo Brasileiro SA Petrobras-ADR,PBR,Stocks,NYSE,BasicMaterials
 Vale SA-ADR,VALE,Stocks,NYSE,BasicMaterials
 Banco Santander SA (US)-ADR,SAN,Stocks,NYSE,Financial
-Telefonica SA (US)-ADR,TEF,Stocks,NYSE,Technology
+Telefonica SA (US)-ADR,TELFY,Stocks,NYSE,Technology
 "America Movil, S.A.B. de C.V.-ADR",AMX,Stocks,NYSE,Technology
 "Cemex, S.A.B. de C.V.-ADR",CX,Stocks,NYSE,IndustrialGoods
 "Grupo Televisa, S.A.B.-ADR",TV,Stocks,NYSE,Services
 Ford Motor Co,F,Stocks,NYSE,ConsumerGoods
 Las Vegas Sands Corp,LVS,Stocks,NYSE,Services
-LinkedIn Corp,LNKD,Stocks,NYSE,Technology
 Nokia Oyj-ADR,NOK,Stocks,NYSE,Technology
-Potash Corporation of Saskatchewan,POT,Stocks,NYSE,BasicMaterials
-Berkshire Hathaway Inc,BRK.B,Stocks,NYSE,Financial
 Western Union Company,WU,Stocks,NYSE,Financial
 "Gap, Inc.",GAP,Stocks,NYSE,Services
 Ralph Lauren Corp,RL,Stocks,NYSE,ConsumerGoods
@@ -80,67 +63,34 @@ WisdomTree Emerging Markets High Dividend Fund,DEM,Stocks,NYSE,Financial
 Oracle Corporation,ORCL,Stocks,NYSE,Technology
 Lockheed Martin Corporation,LMT,Stocks,NYSE,IndustrialGoods
 FedEx Corporation,FDX,Stocks,NYSE,Services
-Noble Energy Inc,NBL,Stocks,NYSE,BasicMaterials
 Mosaic Co,MOS,Stocks,NYSE,BasicMaterials
 Constellation Brands Inc,STZ,Stocks,NYSE,ConsumerGoods
 Lemonade Inc.,LMND,Stocks,NYSE,Financial
 Crane Co,CR,Stocks,NYSE,IndustrialGoods
 Fortrea Holdings Inc,FTRE,Stocks,NYSE,Healthcare
-Twitter,TWTR,Stocks,NYSE,Technology
-King Digital Entertainment PLC,KING,Stocks,NYSE,Technology
 Alibaba-ADR,BABA,Stocks,NYSE,Services
 Spotify Technologies SA,SPOT,Stocks,NYSE,Technology
 Etsy Inc,ETSY,Stocks,NYSE,Services
-Delphi Technologies PLC,DLPH,Stocks,NYSE,ConsumerGoods
 Scotts Miracle-Gro Company,SMG,Stocks,NYSE,Healthcare
 Phinia Inc,PHIN,Stocks,NYSE,ConsumerGoods
-World Pay Inc,WP,Stocks,NYSE,Technology
-Covanta Holdings,CVA,Stocks,NYSE,Utilities
-Enviva Inc,EVVAQ,Stocks,NYSE,Utilities
 XPLR Infrastructure LP,XIFR,Stocks,NYSE,Utilities
 Albemarle Corporation,ALB,Stocks,NYSE,Utilities
-EnerSys,ENS.US,Stocks,NYSE,Utilities
 Bed Bath & Beyond Inc,BBBY,Stocks,NYSE,Services
 Pinterest Inc,PINS,Stocks,NYSE,Technology
 Levi Strauss & Co. ,LEVI,Stocks,NYSE,ConsumerGoods
 Uber Technologies Inc.,UBER,Stocks,NYSE,Services
 CAVA Group Inc,CAVA,Stocks,NYSE,Services
-SURF Merger with CHRS CVR,SURF.CVR,Stocks,NYSE,Services
 Sprinklr Inc,CXM,Stocks,NYSE,Technology
 Lithium Argentina AG,LAR,Stocks,NYSE,Financial
 Birkenstock Holding Ltd,BIRK,Stocks,NYSE,IndustrialGoods
-"Zynerba Pharmaceuticals, Inc. CVR",ZYNE.CVR,Stocks,NYSE,Services
-CNH Industrial NV,CNH.US,Stocks,NYSE,IndustrialGoods
 Smith Douglas Homes Corp,SDHC,Stocks,NYSE,ConsumerGoods
 American Healthcare REIT Inc,AHR,Stocks,NYSE,Financial
 NCR Atleos Corp,NATL,Stocks,NYSE,Services
-Gracell Biotechnologies Inc. CVR,GRCL.CVR,Stocks,NYSE,Services
 Amer Sports Inc,AS,Stocks,NYSE,ConsumerGoods
 Reddit Inc,RDDT,Stocks,NYSE,Services
 Solventum Corporation,SOLV,Stocks,NYSE,Healthcare
 GE Vernova LLC,GEV,Stocks,NYSE,IndustrialGoods
 Klaviyo Inc,KVYO,Stocks,NYSE,Technology
-Qihoo 360 Technology,QIHU.CH,Stocks,NYSE,Technology
-Jumei Intl Holdings,JMEI.CH,Stocks,NYSE,Technology
-Autohome-ADR,ATHM.CH,Stocks,NYSE,Technology
-iShares S&P 100 ETF,OEF,ETF,NYSE,-
-SPDR Blackstone Senior Loan ETF,SRLN,ETF,NYSE,-
-Vanguard FTSE All-World ex-US Small Capital Index Fund,VSS,ETF,NYSE,-
-FlexShares Morningstar Global Upstream Natural Resources Index Fund,GUNR,ETF,NYSE,-
-iShares S&P Small-Cap 600 Value ETF,IJS,ETF,NYSE,-
-Schwab Fundamental International Large Company Index ETF ,FNDF,ETF,NYSE,-
-SPDR Portfolio Short Term Corporate Bond ETF,SPSB,ETF,NYSE,-
-Schwab U.S. Aggregate Bond ETF,SCHZ,ETF,NYSE,-
-iShares US Technology ETF,IYW,ETF,NYSE,-
-iShares 0-5 Year High Yield Corporate Bond ETF,SHYG,ETF,NYSE,-
-iShares 10-20 Year Treasury Bond ETF ,TLH,ETF,NYSE,-
-iShares MSCI United Kingdom ETF,EWU,ETF,NYSE,-
-Ishares MSCI Australia ETF,EWA,ETF,NYSE,Financial
-iShares U.S. Energy ETF,IYE,ETF,NYSE,-
-iShares Global Energy ETF ,IXC,ETF,NYSE,-
-iShares Global Consumer Staples ETF,KXI,ETF,NYSE,-
-ProShares UltraShort 20+ Year Treasury,TBT,ETF,NYSE,-
-iShares MSCI France ETF ,EWQ,ETF,NYSE,-
 Accenture Plc,ACN,Stocks,NYSE,Services
 AbbVie Inc,ABBV,Stocks,NYSE,Healthcare
 Capital One Financial Corp,COF,Stocks,NYSE,Financial
@@ -152,7 +102,6 @@ Capri Holdings Ltd,CPRI,Stocks,NYSE,ConsumerGoods
 Lowe's Companies Inc,LOW,Stocks,NYSE,ConsumerGoods
 Macy's Inc,M,Stocks,NYSE,ConsumerGoods
 McKesson Corp,MCK,Stocks,NYSE,ConsumerGoods
-Medtronic PLC,MDT.US,Stocks,NYSE,Healthcare
 Metlife Inc,MET,Stocks,NYSE,Financial
 Philip Morris International Inc.,PM,Stocks,NYSE,ConsumerGoods
 Phillips 66,PSX,Stocks,NYSE,Utilities
@@ -160,7 +109,6 @@ Shell PLC (ADR),SHEL,Stocks,NYSE,BasicMaterials
 Sprint Corporation,S.old,Stocks,NYSE,Technology
 Shake Shack Inc,SHAK,Stocks,NYSE,ConsumerGoods
 Target Corp,TGT,Stocks,NYSE,ConsumerGoods
-Tata Motors Shs Sponsored American Deposit Receipt Repr 5 Shs-ADR,TTM,Stocks,NYSE,ConsumerGoods
 Union Pacific Corp,UNP,Stocks,NYSE,IndustrialGoods
 United Parcel Service Inc,UPS,Stocks,NYSE,IndustrialGoods
 Wells Fargo & Co,WFC,Stocks,NYSE,Financial
@@ -174,14 +122,12 @@ Cardinal Health Inc,CAH,Stocks,NYSE,ConsumerGoods
 Elevance Health Inc,ELV,Stocks,NYSE,Healthcare
 FMC Corp,FMC,Stocks,NYSE,BasicMaterials
 American International Group Inc,AIG,Stocks,NYSE,Financial
-Dow Inc,DOW.OLD,Stocks,NYSE,BasicMaterials
 Aetna Inc,AET,Stocks,NYSE,Healthcare
 ConocoPhillips Co,COP,Stocks,NYSE,BasicMaterials
 Energy Transfer LP,ET,Stocks,NYSE,BasicMaterials
 Humana Inc,HUM,Stocks,NYSE,Healthcare
 Enterprise Products Partners LP,EPD,Stocks,NYSE,BasicMaterials
 Sysco Corp,SYY,Stocks,NYSE,Services
-Ingram Micro Inc,IM,Stocks,NYSE,Services
 Johnson Controls Inc,JCI,Stocks,NYSE,ConsumerGoods
 World Kinect Corp,WKC,Stocks,NYSE,BasicMaterials
 Best Buy Co Inc,BBY,Stocks,NYSE,Services
@@ -195,25 +141,17 @@ Cigna Group,CI,Stocks,NYSE,Healthcare
 Halliburton Co,HAL,Stocks,NYSE,BasicMaterials
 General Dynamics Corp,GD,Stocks,NYSE,IndustrialGoods
 TJX Companies Inc,TJX,Stocks,NYSE,Services
-International Paper Co,IP.US,Stocks,NYSE,BasicMaterials
 Duke Energy Corp,DUK,Stocks,NYSE,Utilities
-Rite Aid Corp,RADCQ,Stocks,NYSE,Services
-Baker Hughes Company,BHI,Stocks,NYSE,BasicMaterials
 Emerson Electric Co,EMR,Stocks,NYSE,IndustrialGoods
 Northrop Grumman Corp,NOC,Stocks,NYSE,IndustrialGoods
 NOV Inc,NOV,Stocks,NYSE,BasicMaterials
-Raytheon Co,RTN,Stocks,NYSE,IndustrialGoods
-Time Warner Cable Inc,TWC,Stocks,NYSE,Services
 Arrow Electronics Inc,ARW,Stocks,NYSE,Services
 Aflac Inc,AFL,Stocks,NYSE,Financial
 Abbott Laboratories,ABT,Stocks,NYSE,Healthcare
 Community Health Systems Inc,CYH,Stocks,NYSE,Healthcare
-Fluor Corp,FLR.US,Stocks,NYSE,IndustrialGoods
 Freeport-McMoRan Inc,FCX,Stocks,NYSE,BasicMaterials
 US Bancorp,USB,Stocks,NYSE,Financial
 Nucor Corp,NUE,Stocks,NYSE,BasicMaterials
-Hess Corp,HES,Stocks,NYSE,BasicMaterials
-Chesapeake Energy Corp,CHK.OLD,Stocks,NYSE,BasicMaterials
 ManpowerGroup Inc,MAN,Stocks,NYSE,Services
 Danaher Corp,DHR,Stocks,NYSE,IndustrialGoods
 Whirlpool Corp,WHR,Stocks,NYSE,ConsumerGoods
@@ -226,7 +164,6 @@ Cummins Inc (Ex. Cummins Engine Inc),CMI,Stocks,NYSE,IndustrialGoods
 Kohl's Corp,KSS,Stocks,NYSE,Services
 The Hartford Financial Services Group Inc,HIG,Stocks,NYSE,Financial
 Southwest Airlines Co,LUV,Stocks,NYSE,Services
-Anadarko Petroleum Corp,APC,Stocks,NYSE,BasicMaterials
 Southern Co,SO,Stocks,NYSE,Utilities
 Supervalu Inc,SVU,Stocks,NYSE,Services
 EOG Resources Inc,EOG,Stocks,NYSE,BasicMaterials
@@ -236,7 +173,6 @@ Tenet Healthcare Corp,THC,Stocks,NYSE,Healthcare
 General Mills Inc,GIS,Stocks,NYSE,ConsumerGoods
 ConAgra Foods Inc,CAG,Stocks,NYSE,ConsumerGoods
 Lear Corp,LEA,Stocks,NYSE,ConsumerGoods
-United States Steel Corp,X,Stocks,NYSE,BasicMaterials
 Penske Automotive Group Inc,PAG,Stocks,NYSE,ConsumerGoods
 AES Corp,AES,Stocks,NYSE,Services
 Global Partners LP,GLP,Stocks,NYSE,Services
@@ -251,30 +187,24 @@ PNC Financial Services Group Inc,PNC,Stocks,NYSE,Financial
 Kinder Morgan Inc,KMI,Stocks,NYSE,BasicMaterials
 Bristol-Myers Squibb Co,BMY,Stocks,NYSE,Healthcare
 NRG Energy Inc,NRG,Stocks,NYSE,Utilities
-Monsanto Co,MON,Stocks,NYSE,BasicMaterials
 PPG Industries Inc,PPG,Stocks,NYSE,BasicMaterials
 Genuine Parts Co,GPC,Stocks,NYSE,Services
 Omnicom Group Inc,OMC,Stocks,NYSE,Services
 Illinois Tool Works Inc,ITW,Stocks,NYSE,IndustrialGoods
 Murphy USA Inc,MUSA,Stocks,NYSE,Services
-Western Refining Inc,WNR,Stocks,NYSE,BasicMaterials
 FirstEnergy Corp,FE,Stocks,NYSE,Utilities
 Aramark,ARMK,Stocks,NYSE,Services
 Loews Corp,L,Stocks,NYSE,Financial
 Ecolab Inc,ECL,Stocks,NYSE,ConsumerGoods
 Chubb Corp,CB,Stocks,NYSE,Financial
-Health Net Inc,HNT_OLD,Stocks,NYSE,Healthcare
 Waste Management Inc,WM,Stocks,NYSE,IndustrialGoods
 Textron Inc,TXT,Stocks,NYSE,IndustrialGoods
-TD Synnex Corp,SNX.US,Stocks,NYSE,Services
 Lincoln National Corp,LNC,Stocks,NYSE,Financial
-Nordstrom Inc,JWN,Stocks,NYSE,Services
 Edison International,EIX,Stocks,NYSE,Utilities
 Yum Brands Inc,YUM,Stocks,NYSE,Services
 Parker-Hannifin Corp,PH,Stocks,NYSE,IndustrialGoods
 DaVita HealthCare Partners Inc,DVA,Stocks,NYSE,Healthcare
 CarMax Inc,KMX,Stocks,NYSE,Services
-Wellcare Health Plans Inc,WCG,Stocks,NYSE,Healthcare
 Marsh & McLennan Cos Inc,MRSH,Stocks,NYSE,Financial
 Consolidated Edison Inc,ED,Stocks,NYSE,Utilities
 ONEOK Inc,OKE,Stocks,NYSE,Utilities
@@ -282,14 +212,10 @@ Jacobs Engineering Group Inc,J,Stocks,NYSE,Services
 Entergy Corp,ETR,Stocks,NYSE,Utilities
 Dominion Energy Inc,D,Stocks,NYSE,Utilities
 Jefferies Financial Group Inc,JEF,Stocks,NYSE,Financial
-Ameriprise Financial Inc,AMP.US,Stocks,NYSE,Financial
 VF Corp,VFC,Stocks,NYSE,ConsumerGoods
 Praxair Inc,PX,Stocks,NYSE,BasicMaterials
-JC Penney Co Inc,JCP,Stocks,NYSE,Services
-L-3 Communications Holdings Inc,LLL,Stocks,NYSE,IndustrialGoods
 Norfolk Southern Corp,NSC,Stocks,NYSE,IndustrialGoods
 PPL Corp,PPL,Stocks,NYSE,Utilities
-R.R.Donnelley & Sons Co,RRD,Stocks,NYSE,Services
 Huntsman Corp,HUN,Stocks,NYSE,BasicMaterials
 Stanley Black & Decker Inc,SWK,Stocks,NYSE,IndustrialGoods
 Bath & Body Works Inc,BBWI,Stocks,NYSE,Services
@@ -300,8 +226,6 @@ Estee Lauder Companies Inc,EL,Stocks,NYSE,ConsumerGoods
 Reinsurance Group America Inc,RGA,Stocks,NYSE,Financial
 Public Service Enterprise Group Inc,PEG,Stocks,NYSE,Utilities
 Schlumberger Ltd,CAM,Stocks,NYSE,BasicMaterials
-Navistar International Corp,NAV,Stocks,NYSE,IndustrialGoods
-CST Brands Inc,CST,Stocks,NYSE,ConsumerGoods
 State Street Corp,STT,Stocks,NYSE,Financial
 Unum Group,UNM,Stocks,NYSE,Financial
 Hilton Worldwide Holdings Inc,HLT,Stocks,NYSE,Services
@@ -318,13 +242,9 @@ AGCO Corp,AGCO,Stocks,NYSE,IndustrialGoods
 Corning Inc,GLW,Stocks,NYSE,Technology
 Stryker Corp,SYK,Stocks,NYSE,Healthcare
 Molina Healthcare Inc,MOH,Stocks,NYSE,Healthcare
-Precision Castparts Corp,PCP,Stocks,NYSE,IndustrialGoods
-Discover Financial Services,DFS,Stocks,NYSE,Financial
 Genworth Financial Inc,GNW,Stocks,NYSE,Financial
 Eastman Chemical Co,EMN,Stocks,NYSE,BasicMaterials
-Dean Foods Co,DF,Stocks,NYSE,ConsumerGoods
 Autozone Inc,AZO,Stocks,NYSE,Services
-Accendra Health Inc,ACH.US,Stocks,NYSE,Services
 Hormel Foods Corp,HRL,Stocks,NYSE,ConsumerGoods
 GameStop Corp.,GME,Stocks,NYSE,Services
 Centerpoint Energy Inc,CNP,Stocks,NYSE,Utilities
@@ -332,22 +252,18 @@ Fidelity National Financial Inc,FNF,Stocks,NYSE,Financial
 Sonic Automotive Inc,SAH,Stocks,NYSE,Services
 Crown Holdings Inc,CCK,Stocks,NYSE,ConsumerGoods
 CBRE Group Inc,CBRE,Stocks,NYSE,Financial
-Avon Products Inc,AVP,Stocks,NYSE,ConsumerGoods
 Republic Services Inc,RSG,Stocks,NYSE,IndustrialGoods
 Universal Health Services Inc,UHS,Stocks,NYSE,Healthcare
 Darden Restaurants Inc,DRI,Stocks,NYSE,Services
-Suntrust Banks Inc,STI.Delisted,Stocks,NYSE,BasicMaterials
 Targa Resources Corp,TRGP,Stocks,NYSE,BasicMaterials
 Ball Corp,BALL,Stocks,NYSE,ConsumerGoods
 Masco Corp,MAS,Stocks,NYSE,IndustrialGoods
 Franklin Resources Inc.,BEN,Stocks,NYSE,Financial
-Reynolds American Inc,RAI,Stocks,NYSE,ConsumerGoods
 Becton Dickinson & Co.,BDX,Stocks,NYSE,Healthcare
 AECOM,ACM,Stocks,NYSE,Services
 Delek US Holdings Inc,DK,Stocks,NYSE,BasicMaterials
 Dover Corp,DOV,Stocks,NYSE,IndustrialGoods
 BorgWarner Inc,BWA,Stocks,NYSE,ConsumerGoods
-Jarden Corp,JAH,Stocks,NYSE,ConsumerGoods
 UGI Corp,UGI,Stocks,NYSE,Utilities
 Murphy Oil Corp,MUR,Stocks,NYSE,BasicMaterials
 PVH Corp,PVH,Stocks,NYSE,ConsumerGoods
@@ -369,9 +285,7 @@ BlackStone Group LP,BX,Stocks,NYSE,Financial
 Quest Diagnostics Inc,DGX,Stocks,NYSE,Healthcare
 Newmont Mining Corp,NEM,Stocks,NYSE,BasicMaterials
 CMS Energy Corp,CMS,Stocks,NYSE,Utilities
-Foot Locker Inc,FL,Stocks,NYSE,ConsumerGoods
 Commercial Metals Co,CMC,Stocks,NYSE,BasicMaterials
-Agilent Technologies Inc,A.US,Stocks,NYSE,Healthcare
 Huntington Ingalls Industries Inc,HII,Stocks,NYSE,IndustrialGoods
 Live Nation Entertainment Inc,LYV,Stocks,NYSE,Services
 Dicks Sporting Goods Inc,DKS,Stocks,NYSE,Services
@@ -379,23 +293,16 @@ Oshkosh Corp,OSK,Stocks,NYSE,ConsumerGoods
 Celanese Corp,CE,Stocks,NYSE,BasicMaterials
 Spirit AeroSystems Holdings Inc,SPR,Stocks,NYSE,IndustrialGoods
 United Natural Foods Inc,UNFI,Stocks,NYSE,Services
-Peabody Energy Corp,BTU_old,Stocks,NYSE,BasicMaterials
 O-I Glass Inc,OI,Stocks,NYSE,ConsumerGoods
 Dillards Inc,DDS,Stocks,NYSE,Services
-Level 3 Communications Inc,LVLT,Stocks,NYSE,Technology
-Buckeye Partners L P,BPL,Stocks,NYSE,BasicMaterials
 Ryder System Inc,R,Stocks,NYSE,Services
 Rockwell Automation Inc,ROK,Stocks,NYSE,IndustrialGoods
 Dana Holding Corp,DAN,Stocks,NYSE,ConsumerGoods
 NCR Voyix Corp,VYX,Stocks,NYSE,Technology
 Expeditors International of Washington,EXPD,Stocks,NYSE,Services
-Ak Steel Holding Corp,AKS,Stocks,NYSE,BasicMaterials
 Nisource Inc,NI,Stocks,NYSE,Utilities
-Cablevision Systems Corp,CVC_old,Stocks,NYSE,Services
-Anixter International Inc,AXE,Stocks,NYSE,Services
 Emcor Group Inc,EME,Stocks,NYSE,IndustrialGoods
 Fidelity National Information Services Inc,FIS,Stocks,NYSE,Technology
-Barnes & Noble Inc,BKS,Stocks,NYSE,Services
 KBR Inc,KBR,Stocks,NYSE,Services
 Avery Dennison Corp,AVY,Stocks,NYSE,ConsumerGoods
 Charles Schwab Corp,SCHW,Stocks,NYSE,Financial
@@ -404,14 +311,12 @@ Laboratory Corp Of America Holdings,LH,Stocks,NYSE,Healthcare
 Starwood Hotels & Resorts Worldwide Inc,HOT,Stocks,NYSE,Services
 General Cable Corp,BGC.OLD,Stocks,NYSE,IndustrialGoods
 Spectrum Brands Holdings Inc.,SPB,Stocks,NYSE,Conglomerates
-Spectra Energy Corp,SE.delisted,Stocks,NYSE,BasicMaterials
 Asbury Automotive Group Inc,ABG,Stocks,NYSE,Services
 Packaging Corp of America,PKG,Stocks,NYSE,ConsumerGoods
 PulteGroup Inc,PHM,Stocks,NYSE,IndustrialGoods
 American Financial Group Inc,AFG,Stocks,NYSE,Financial
 United Rentals Inc,URI,Stocks,NYSE,Services
 Ingredion Inc,INGR,Stocks,NYSE,ConsumerGoods
-St Jude Medical Inc,STJ,Stocks,NYSE,Healthcare
 JM Smucker Co,SJM,Stocks,NYSE,ConsumerGoods
 Clorox Co,CLX,Stocks,NYSE,ConsumerGoods
 Old Republic International Corp,ORI,Stocks,NYSE,Financial
@@ -427,13 +332,10 @@ Amphenol Corporation,APH,Stocks,NYSE,Technology
 Anywhere Real Estate Inc,HOUS,Stocks,NYSE,Financial
 Hanesbrands Inc,HBI,Stocks,NYSE,ConsumerGoods
 Kindred Healthcare Inc,KND,Stocks,NYSE,Healthcare
-Pioneer Natural Resources Company,PXD,Stocks,NYSE,BasicMaterials
 Travel + Leisure Co,TNL,Stocks,NYSE,Services
 Owens Corning Inc,OC,Stocks,NYSE,IndustrialGoods
-Alleghany Corp,Y,Stocks,NYSE,Financial
 S&P Global Inc,SPGI,Stocks,NYSE,Services
 Big Lots Inc,BIGGQ,Stocks,NYSE,Services
-Northern Tier Energy LP,NTI,Stocks,NYSE,BasicMaterials
 Markel Corp,MKL,Stocks,NYSE,Financial
 Leidos Holdings Inc,LDOS,Stocks,NYSE,Technology
 Rockwell Collins Inc,COL,Stocks,NYSE,IndustrialGoods
@@ -444,29 +346,23 @@ L3Harris,LHX,Stocks,NYSE,ConsumerGoods
 Telephone And Data Systems Inc,TDS,Stocks,NYSE,Technology
 WEC Energy Group,WEC,Stocks,NYSE,Utilities
 Raymond James Financial Inc,RJF,Stocks,NYSE,Financial
-Berry Global Group Inc,BERY,Stocks,NYSE,ConsumerGoods
 SCANA Corp,SCG,Stocks,NYSE,Utilities
 Atmos Energy Corp,ATO,Stocks,NYSE,Utilities
-Pepco Holdings Inc,POM.US,Stocks,NYSE,Utilities
 Flowserve Corp,FLS,Stocks,NYSE,IndustrialGoods
 Simon Property Group Inc,SPG,Stocks,NYSE,Financial
 Burlington Stores Inc,BURL,Stocks,NYSE,Services
 Bemis Co Inc,BMS,Stocks,NYSE,BasicMaterials
 "Tapestry, Inc",TPR,Stocks,NYSE,ConsumerGoods
-Continental Resources Inc,CLR,Stocks,NYSE,BasicMaterials
 Orbital ATK Inc,OA,Stocks,NYSE,IndustrialGoods
 CF Industries Holdings Inc,CF,Stocks,NYSE,BasicMaterials
 M&T Bank Corporation,MTB,Stocks,NYSE,Financial
-Superior Energy Services Inc,SPN,Stocks,NYSE,BasicMaterials
 Williams-Sonoma Inc,WSM,Stocks,NYSE,Services
 Robert Half Inc,RHI,Stocks,NYSE,Services
 First American Financial Corp,FAF,Stocks,NYSE,Financial
 MDU Resources Group Inc,MDU,Stocks,NYSE,IndustrialGoods
-Juniper Networks Inc,JNPR,Stocks,NYSE,Technology
 Arthur J.Gallagher & Co,AJG,Stocks,NYSE,Financial
 Enovis Corp,ENOV,Stocks,NYSE,IndustrialGoods
 MasTec Inc,MTZ,Stocks,NYSE,IndustrialGoods
-Axiall Corp,AXLL,Stocks,NYSE,BasicMaterials
 Coty Inc,COTY,Stocks,NYSE,ConsumerGoods
 Valspar Corp,VAL,Stocks,NYSE,BasicMaterials
 Tutor Perini Corp,TPC,Stocks,NYSE,IndustrialGoods
@@ -476,15 +372,11 @@ NVR Inc,NVR,Stocks,NYSE,IndustrialGoods
 Energizer Holdings Inc,ENR,Stocks,NYSE,ConsumerGoods
 Westlake Chemical Corp,WLK,Stocks,NYSE,BasicMaterials
 Hyatt Hotels Corp,H,Stocks,NYSE,Services
-Mead Johnson Nutrition Co,MJN,Stocks,NYSE,ConsumerGoods
 Envision Healthcare Holdings Inc,EVHC,Stocks,NYSE,Healthcare
 Fortune Brands Innovations Inc,FBIN,Stocks,NYSE,ConsumerGoods
 RPM International Inc,RPM,Stocks,NYSE,BasicMaterials
 KeyCorp,KEY,Stocks,NYSE,Financial
 Knight-Swift Transportation Holdings Inc.,KNX,Stocks,NYSE,Services
-Allergan PLC,AGN,Stocks,NYSE,Healthcare
-Resolute Forest Products Inc,RFP,Stocks,NYSE,ConsumerGoods
-Tiffany & Co,TIF,Stocks,NYSE,Services
 McCormick & Co Inc,MKC,Stocks,NYSE,ConsumerGoods
 Graphic Packaging Holding Co,GPK,Stocks,NYSE,ConsumerGoods
 Greif Inc,GEF,Stocks,NYSE,ConsumerGoods
@@ -494,39 +386,27 @@ CNO Financial Group Inc,CNO,Stocks,NYSE,Financial
 Chipotle Mexican Grill Inc,CMG,Stocks,NYSE,Services
 American Tower Corp,AMT,Stocks,NYSE,Financial
 Brunswick Corp,BC,Stocks,NYSE,ConsumerGoods
-Southwestern Energy Co,SWN,Stocks,NYSE,BasicMaterials
 AMETEK Inc,AME,Stocks,NYSE,IndustrialGoods
 Globe Life Inc,GL,Stocks,NYSE,Financial
 Darling Ingredients Inc,DAR,Stocks,NYSE,IndustrialGoods
 Leggett & Platt Inc,LEG,Stocks,NYSE,ConsumerGoods
 Watsco Inc,WSO,Stocks,NYSE,Services
-Crestwood Equity Partners LP,CEQP,Stocks,NYSE,BasicMaterials
 Xylem Inc,XYL,Stocks,NYSE,IndustrialGoods
 Toll Brothers Inc,TOL,Stocks,NYSE,IndustrialGoods
 Manitowoc Co Inc,MTW,Stocks,NYSE,IndustrialGoods
-Argo Group,ARGO,Stocks,NYSE,Financial
-Airgas Inc,ARG,Stocks,NYSE,BasicMaterials
-GNC Holdings Inc,GNC,Stocks,NYSE,Services
 Block Inc.,XYZ,Stocks,NYSE,Services
-Fitbit,FIT,Stocks,NYSE,ConsumerGoods
 Morgan Stanley,MS,Stocks,NYSE,Financial
 Snapchat Inc,SNAP,Stocks,NYSE,Technology
-ProShares Short QQQ ETF,PSQ,ETF,NYSE,-
 Intercontinental Exchange Inc,ICE,Stocks,NYSE,Financial
 Bank of Montreal,BMO,Stocks,NYSE,Financial
 Expand Energy Corp,EXE,Stocks,NYSE,Services
 ABB Ltd - ADR,ABBNY,Stocks,NYSE,IndustrialGoods
-Veren Inc,VRN,Stocks,NYSE,Services
-Vermilion Energy,VET.US,Stocks,NYSE,Services
 United Community Banks Inc,UCB,Stocks,NYSE,Financial
 Customers Bancorp Inc,CUBI,Stocks,NYSE,Financial
-Enerplus Corp,ERF,Stocks,NYSE,Services
 Imperial Oil Ltd.,IMO,Stocks,NYSE,Services
 Cactus,WHD,Stocks,NYSE,IndustrialGoods
-DCP Midstream LP,DCP,Stocks,NYSE,Services
 Glacier Bancorp Inc,GBCI,Stocks,NYSE,Financial
 Community Bank System Inc,CBU,Stocks,NYSE,Financial
-NexTier Oilfield Solutions Inc,NEX,Stocks,NYSE,Services
 ServisFirst Bancshares Inc,SFBS,Stocks,NYSE,Financial
 Bank of Hawaii Corp,BOH,Stocks,NYSE,Financial
 Hilltop Holdings Inc,HTH,Stocks,NYSE,Financial
@@ -545,175 +425,24 @@ Avista Corporation,AVA,Stocks,NYSE,Utilities
 ALLETE Inc,ALE,Stocks,NYSE,Utilities
 American States Water Company,AWR,Stocks,NYSE,Utilities
 Hawaiian Electric Industries Inc,HE,Stocks,NYSE,Utilities
-Parsons Corporation,PSN.US,Stocks,NYSE,Technology
 California Water Service Group,CWT,Stocks,NYSE,Utilities
 Oxford Industries Inc,OXM,Stocks,NYSE,ConsumerGoods
 EVERTEC Inc,EVTC,Stocks,NYSE,ConsumerGoods
 Braskem S.A.-ADR,BAK,Stocks,NYSE,BasicMaterials
 Corebridge Financial Inc,CRBG,Stocks,NYSE,Financial
-Rentokil Initial PLC ADR,RTO.US,Stocks,NYSE,ConsumerGoods
 Grindr Inc.,GRND,Stocks,NYSE,Services
 Forge Global Holdings Inc,FRGE,Stocks,NYSE,Financial
 AESI Holdings Inc,AESI,Stocks,NYSE,Utilities
 Kenvue Inc,KVUE,Stocks,NYSE,ConsumerGoods
 Fb Financial Corporation,FBK,Stocks,NYSE,Financial
 Fidelis Insurance Holdings Ltd,FIHL,Stocks,NYSE,Financial
-Kodiak Gas Services Inc ,KGS.US,Stocks,NYSE,Services
 Savers Value Village Inc,SVV,Stocks,NYSE,ConsumerGoods
 F&G Annuities & Life Inc,FG,Stocks,NYSE,Financial
 Vitesse Energy Inc,VTS,Stocks,NYSE,Financial
 RB Global INC,RBA,Stocks,NYSE,IndustrialGoods
 Madison Square Garden Spinco,MSGE,Stocks,NYSE,Services
 Knife River Corp,KNF,Stocks,NYSE,IndustrialGoods
-Mirati Therapeutics Inc Merger CVR,MRTX.CVR,Stocks,NYSE,Services
-SPDR S&P 500 ETF,SPY,ETF,NYSE,Financial
-iShares MSCI Emerging Markets ETF,EEM,ETF,NYSE,Financial
-VanEck Vectors Gold Miners ETF,GDX,ETF,NYSE,Financial
-Ishares MSCI JAPAN ETF,EWJ,ETF,NYSE,Financial
-State Street Financial Select Sector SPDR ETF,XLF,ETF,NYSE,Financial
-Ishares Russell 2000 ETF,IWM,ETF,NYSE,Financial
-United States Oil Fund,USO,ETF,NYSE,Financial
-State Street Energy Select Sector SPDR ETF,XLE,ETF,NYSE,Financial
-iShares MSCI EAFE ETF,EFA,ETF,NYSE,Financial
-iShares China Large-Cap ETF,FXI,ETF,NYSE,Financial
-Brazil Index MSCI Ishares,EWZ,ETF,NYSE,Financial
-State Street Utilities Select Sector SPDR ETF,XLU,ETF,NYSE,Financial
-VanEck Vectors Junior Gold Miners ETF,GDXJ,ETF,NYSE,Financial
-iShares U.S. Real Estate ETF,IYR,ETF,NYSE,Financial
-SPDR S&P Oil & Gas Exploration & Production ETF,XOP,ETF,NYSE,Financial
-State Street Health Care Select Sector SPDR ETF,XLV,ETF,NYSE,Financial
-US Natural Gas,UNG,ETF,NYSE,Financial
-State Street Industrial Select Sector SPDR ETF,XLI,ETF,NYSE,Financial
-State Street Technology Select Sector SPDR ETF,XLK,ETF,NYSE,Financial
-State Street Consumer Staples Select Sector SPDR ETF,XLP,ETF,NYSE,Financial
-Iboxx $ High Yield Corporate Bd Ishares,HYG,ETF,NYSE,Financial
-State Street Consumer Discretionary Select Sector SPDR ETF,XLY,ETF,NYSE,Financial
-SPDR Gold,GLD,ETF,NYSE,Financial
-SPDR Dow Jones Industrial Average ETF Trust ,DIA.US,ETF,NYSE,Financial
-Proshares Ultra S&P 500 ,SSO,ETF,NYSE,Financial
-SPDR S&P Midcap 400,MDY,ETF,NYSE,Financial
-BARCLAYS BANK IPATH S&P 500 VIX S/T FU ETN,VXXOLD,ETF,NYSE,Services
-Invesco DB Agriculture Fund,DBA,ETF,NYSE,Financial
-Teucrium Corn Fund,CORN.US,ETF,NYSE,Financial
-Teucrium Wheat Fund,WEAT,ETF,NYSE,Financial
-United States Gasoline Fund,UGA,ETF,NYSE,Financial
-SPDR DOW JONES REIT ETF,RWR,ETF,NYSE,Financial
-iShares MSCI South Korea ETF,EWY,ETF,NYSE,Financial
-iShares MSCI Mexico ETF,EWW,ETF,NYSE,Financial
-iShares MSCI Taiwan ETF,EWT,ETF,NYSE,Financial
-iShares iBoxx $ Investment Grade Corporate Bond ETF,LQD,ETF,NYSE,Financial
-PIMCO Active Bond Exchange-Traded Fund,BOND,ETF,NYSE,Financial
-iShares Core S&P 500 ETF,IVV,ETF,NYSE,Financial
-iShares Core U.S. Aggregate Bond ETF,AGG,ETF,NYSE,Financial
-iShares Core MSCI Emerging Markets ETF,IEMG,ETF,NYSE,Financial
-iShares Core S&P Mid-Cap ETF,IJH,ETF,NYSE,Financial
-iShares Core S&P Small-Cap ETF,IJR,ETF,NYSE,Financial
-iShares Core S&P Total U.S. Stock Market ETF,ITOT,ETF,NYSE,Financial
-iShares Core High Dividend ETF,HDV,ETF,NYSE,Financial
-iShares Core Dividend Growth ETF,DGRO,ETF,NYSE,Financial
-iShares Core MSCI Europe ETF,IEUR,ETF,NYSE,Financial
-iShares Core Growth Allocation ETF,AOR,ETF,NYSE,Financial
-iShares Core MSCI Pacific ETF,IPAC,ETF,NYSE,Financial
-iShares Core MSCI International Developed Markets ETF,IDEV,ETF,NYSE,Financial
-iShares Core Aggressive Allocation ETF,AOA,ETF,NYSE,Financial
-iShares Core U.S. REIT ETF,USRT,ETF,NYSE,Financial
-iShares Core Conservative Allocation ETF,AOK,ETF,NYSE,Financial
-iShares Core 10+ Year USD Bond ETF,ILTB,ETF,NYSE,Financial
-iShares Core 5-10 Year USD Bond ETF,IMTB,ETF,NYSE,Financial
-InfraCap MLP ETF,AMZA,ETF,NYSE,Financial
-Graniteshares Gold Trust,BAR,ETF,NYSE,BasicMaterials
-Amplify Blockchain Technology ETF,BLOK,ETF,NYSE,Financial
-Vanguard Long-Term Bond ETF,BLV,ETF,NYSE,Financial
-Direxion Daily MSCI Brazil Bull 2X Shares,BRZU,ETF,NYSE,Financial
-Franklin FTSE Japan ETF,FLJP,ETF,NYSE,Financial
-Invesco China Technology ETF,CQQQ,ETF,NYSE,Financial
-Invesco DB Oil Fund,DBO,ETF,NYSE,Financial
-Direxion Daily Aerospace & Defense Bull 3X Shares,DFEN,ETF,NYSE,Financial
-Global SuperDividend US ETF,DIV,ETF,NYSE,Financial
-iPath Bloomberg Commodity Index Total Return ETN,DJP,ETF,NYSE,Financial
-Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares,DRIP,ETF,NYSE,Financial
-Direxion Daily Gold Miners Index Bear 2X Shares,DUST,ETF,NYSE,Financial
-Direxion Daily Energy Bull 2X Shares,ERX,ETF,NYSE,Financial
-iShares MSCI Switzerland ETF,EWL,ETF,NYSE,Financial
-iShares MSCI Netherlands ETF,EWN,ETF,NYSE,Financial
-Direxion Daily Financial Bull 3X Shares,FAS,ETF,NYSE,Financial
-MicroSectors FANG+ Index 3X Leveraged ETN ,FNGA,ETF,NYSE,Financial
-Fidelity MSCI Real Estate Index ETF,FREL,ETF,NYSE,Financial
-Fidelity MSCI Information Technology Index ETF,FTEC,ETF,NYSE,Financial
-SPDR Gold MiniShares Trust,GLDM,ETF,NYSE,-
-Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares,GUSH,ETF,NYSE,-
-iShares U.S. Medical Devices ETF,IHI,ETF,NYSE,Financial
-iShares Global Healthcare ETF,IXJ,ETF,NYSE,Financial
-Direxion Daily Junior Gold Miners Index Bear 2X Shares,JDST,ETF,NYSE,-
-US Global Jets ETF,JETS,ETF,NYSE,Financial
-Direxion Daily Junior Gold Miners Index Bull 2X Shares,JNUG,ETF,NYSE,-
-Direxion Daily S&P Biotech Bear 3X Shares,LABD,ETF,NYSE,-
-Direxion Daily S&P Biotech Bull 3X Shares,LABU.US,ETF,NYSE,-
-Global X Lithium & Battery Tech ETF,LIT,ETF,NYSE,Financial
-Direxion Shares Etf Trust-Direxion Daily Homebuilders & Supplies Bull 3x Shares,NAIL,ETF,NYSE,Financial
-MicroSectors US Big Oil Index 3X Leveraged ETN,NRGU,ETF,NYSE,-
-Direxion Daily Gold Miners Index Bull 2X Shares,NUGT,ETF,NYSE,-
-VanEck Vectors Oil Services ETF,OIH,ETF,NYSE,Financial
-O'Shares US Quality Dividend ETF,OUSA,ETF,NYSE,Financial
-Abrdn Palladium ETF Trust,PALL,ETF,NYSE,Financial
-Invesco Preferred ETF,PGX,ETF,NYSE,Financial
-Sprott Physical Gold Trust,PHYS,ETF,NYSE,-
-Abrdn Platinum ETF Trust,PPLT,ETF,NYSE,Financial
-Sprott Physical Silver Trust,PSLV,ETF,NYSE,-
-iShares Global REIT ETF,REET,ETF,NYSE,Financial
-X-Links Monthly Pay 2x Leveraged Mortgage REIT ETN,REML,ETF,NYSE,-
-Franklin U.S. Core Bond ETF,FLCB,ETF,NYSE,Financial
-Schwab US Dividend Equity ETF,SCHD,ETF,NYSE,Financial
-Schwab Emerging Markets Equity ETF,SCHE,ETF,NYSE,Financial
-Schwab International Equity ETF,SCHF,ETF,NYSE,Financial
-Schwab US Large-Cap ETF,SCHX,ETF,NYSE,Financial
-Global X SuperDividend ETF,SDIV,ETF,NYSE,Financial
-ProShares UltraPro Short Dow30,SDOW,ETF,NYSE,-
-ProShares UltraShort S&P500,SDS,ETF,NYSE,-
-ProShares Short S&P500,SH,ETF,NYSE,-
-Direxion Daily Semiconductors Bull 3x Shares,SOXL,ETF,NYSE,-
-Direxion Daily Semiconductor Bear 3X Shares,SOXS,ETF,NYSE,-
-Invesco S&P 500 High Dividend Low Volatility ETF,SPHD,ETF,NYSE,Financial
-Direxion Daily S&P 500 Bull 3X,SPXL,ETF,NYSE,-
-Direxion Daily S&P 500 Bear 3X Shares,SPXS,ETF,NYSE,-
-ProShares UltraPro Short S&P 500,SPXU,ETF,NYSE,-
-SPDR Portfolio S&P 500 High Dividend ETF,SPYD,ETF,NYSE,Financial
-SPDR Portfolio S&P 500 Growth ETF,SPYG,ETF,NYSE,Financial
-ProShares UltraPro Short Russell2000,SRTY,ETF,NYSE,-
-Invesco Solar ETF,TAN,ETF,NYSE,Financial
-iShares MSCI Thailand ETF,THD,ETF,NYSE,Financial
-Direxion Daily 20 Year Plus Treasury Bull 3x Shares,TMF,ETF,NYSE,-
-Direxion Daily Small Cap Bull 3X Shares,TNA,ETF,NYSE,-
-ProShares Ultra Bloomberg Crude Oil,UCO,ETF,NYSE,-
-ProShares UltraPro Dow30,UDOW,ETF,NYSE,-
-ProShares UltraPro S&P 500,UPRO,ETF,NYSE,-
-United States 12 Month Oil Fund LP,USL,ETF,NYSE,-
-Vanguard Small-Cap ETF,VB,ETF,NYSE,Financial
-Vanguard Small-Cap Growth ETF,VBK,ETF,NYSE,Financial
-Vanguard Small-Cap Value ETF,VBR,ETF,NYSE,Financial
-Vanguard Financials ETF,VFH,ETF,NYSE,Financial
-Vanguard Health Care ETF,VHT,ETF,NYSE,Financial
-Vanguard Dividend Appreciation ETF,VIG,ETF,NYSE,Financial
-Vanguard Mid-Cap ETF,VO,ETF,NYSE,Financial
-Vanguard S&P 500 Growth ETF,VOOG,ETF,NYSE,Financial
-Vanguard S&P 500 Value ETF,VOOV,ETF,NYSE,Financial
-Vanguard Communication Services ETF,VOX,ETF,NYSE,Financial
-Vanguard Total World Stock ETF,VT.US,ETF,NYSE,Financial
-Vanguard Tax-Exempt Bond Index ETF,VTEB,ETF,NYSE,Financial
-Direxion Daily FTSE China Bull 3X Shares,YINN,ETF,NYSE,-
-Franklin FTSE India ETF,FLIN,ETF,NYSE,Financial
 Planet Labs PBC,PL,Stocks,NYSE,Technology
-iShares iBonds Dec 2025 Term Corporate ETF,IBDQ,ETF,NYSE,Financial
-iShares iBonds Dec 2024 Term Corporate ETF,IBDP,ETF,NYSE,Financial
-iShares iBonds Dec 2026 Term Corporate ETF,IBDR,ETF,NYSE,Financial
-IShares MSCI Italy ETF,EWI,ETF,NYSE,Financial
-Global X MSCI Argentina ETF,ARGT,ETF,NYSE,-
-ProShares Ultra Bloomberg Natural Gas,BOIL,ETF,NYSE,Financial
-ProShares UltraShort Bloomberg Natural Gas,KOLD,ETF,NYSE,Financial
-Invesco S&P 500 Equal Weight Technology ETF ,RSPT,ETF,NYSE,Financial
-Columbia India Consumer ETF,INCO,ETF,NYSE,Financial
-SonicShares Global Shipping ETF,BOAT,ETF,NYSE,Financial
-MAX S&P 500 4X Leveraged ETN ,SPYU,ETF,NYSE,Financial
 Barrick Mining Corp,B,Stocks,NYSE,BasicMaterials
 Adecoagro S.A.,AGRO,Stocks,NYSE,ConsumerGoods
 Allegion,ALLE,Stocks,NYSE,Services
@@ -721,13 +450,10 @@ Affiliated Managers Group,AMG,Stocks,NYSE,Financial
 AutoNation,AN,Stocks,NYSE,Services
 Axalta Coating Systems,AXTA,Stocks,NYSE,BasicMaterials
 BlackBerry Limited,BB,Stocks,NYSE,Technology
-Bitauto Holdings Limited,BITA,Stocks,NYSE,Technology
 Banco Santander Chile-ADR,BSAC,Stocks,NYSE,Financial
 Anheuser-Busch Inbev Sa-ADR,BUD,Stocks,NYSE,ConsumerGoods
 CalAtlantic Group,CAA,Stocks,NYSE,Utilities
-CIT Group,CIT,Stocks,NYSE,Financial
 Carter's,CRI,Stocks,NYSE,ConsumerGoods
-CVR Energy,CVI.US,Stocks,NYSE,BasicMaterials
 CVR Refining,CVRR,Stocks,NYSE,BasicMaterials
 Donaldson Company,DCI,Stocks,NYSE,IndustrialGoods
 DNOW Inc,DNOW,Stocks,NYSE,BasicMaterials
@@ -752,22 +478,16 @@ Kronos Worldwide Inc,KRO,Stocks,NYSE,BasicMaterials
 Cheniere Energy Inc,LNG,Stocks,NYSE,BasicMaterials
 Mid-America Apartment Communities Inc.,MAA,Stocks,NYSE,Financial
 Moody's Corp.,MCO,Stocks,NYSE,Services
-Welbilt Inc,WBT,Stocks,NYSE,Services
 Mueller Water Products Inc,MWA,Stocks,NYSE,IndustrialGoods
 MaxLinear Inc,MXL,Stocks,NYSE,Technology
-New Relic,NEWR,Stocks,NYSE,Technology
-Nielsen Holdings plc,NLSN,Stocks,NYSE,Technology
 Pandora Media,P,Stocks,NYSE,Services
 Pampa Energia S.A.-ADR,PAM,Stocks,NYSE,Utilities
 Palo Alto Networks,PANW,Stocks,NYSE,Technology
 Pinnacle Foods,PF,Stocks,NYSE,ConsumerGoods
 Perrigo Company,PRGO,Stocks,NYSE,Healthcare
 Restaurant Brands International Inc.,QSR,Stocks,NYSE,Services
-Red Hat,RHT,Stocks,NYSE,Technology
 Transocean LTD,RIG,Stocks,NYSE,BasicMaterials
-Spirit Airlines,SAVEQ,Stocks,NYSE,Services
 Service Corp Intl,SCI,Stocks,NYSE,Services
-Terminix Global Holdings Inc,TMX,Stocks,NYSE,Services
 Signet Jewelers LTD,SIG,Stocks,NYSE,Services
 Sensata Technologies Holding N.V.,ST,Stocks,NYSE,Technology
 Suncor Energy Inc.,SU,Stocks,NYSE,BasicMaterials
@@ -778,66 +498,42 @@ Travelport,TVPT,Stocks,NYSE,ConsumerGoods
 Under Armour,UA,Stocks,NYSE,ConsumerGoods
 Ubiquiti Inc,UI,Stocks,NYSE,Technology
 USG Corporation,USG,Stocks,NYSE,IndustrialGoods
-Varian Medical Systems,VAR,Stocks,NYSE,Healthcare
 Vipshop Holdings Ltd-ADR,VIPS,Stocks,NYSE,Services
-VMware,VMW,Stocks,NYSE,Technology
 Bausch Health Companies Inc,BHC,Stocks,NYSE,Healthcare
-Vista Outdoor Inc,VSTO,Stocks,NYSE,ConsumerGoods
-Wayfair Inc.,W.US,Stocks,NYSE,Services
 Waters Corporation,WAT,Stocks,NYSE,Healthcare
-WABCO Holdings,WBC,Stocks,NYSE,ConsumerGoods
-Weatherford International plc,WFT,Stocks,NYSE,BasicMaterials
-58.com Inc,WUBA,Stocks,NYSE,Technology
 Yelp Inc.,YELP,Stocks,NYSE,Technology
-Zendesk,ZEN.US,Stocks,NYSE,Technology
 Zoetis,ZTS,Stocks,NYSE,Healthcare
 Boyd Gaming,BYD,Stocks,NYSE,Conglomerates
-Six Flags Entertainment Corporation,SIX,Stocks,NYSE,Services
-W. R. Grace & Co.,GRA,Stocks,NYSE,Healthcare
-Legg Mason,LM,Stocks,NYSE,Financial
-The Chemours,CC.US,Stocks,NYSE,Conglomerates
 Lazard Inc,LAZ,Stocks,NYSE,Financial
 RenaissanceRe Holdings Ltd,RNR,Stocks,NYSE,Financial
 Aon plc,AON,Stocks,NYSE,Services
 Sally Beauty Holdings Inc.,SBH,Stocks,NYSE,Conglomerates
-The Dun & Bradstreet,DNB,Stocks,NYSE,Technology
 Post holdings,POST,Stocks,NYSE,Conglomerates
 Outfront Media Inc,OUT,Stocks,NYSE,Services
 Marcus & Millichap,MMI,Stocks,NYSE,Financial
 Cia Cervecerias unidas-ADR,CCU,Stocks,NYSE,Conglomerates
 Four Corners Property Trust,FCPT,Stocks,NYSE,Financial
 RE/MAX Holdings,RMAX,Stocks,NYSE,Financial
-Royal Dutch Shell A (ADR),RDS.A,Stocks,NYSE,BasicMaterials
 Novartis ADR,NVS,Stocks,NYSE,ConsumerGoods
 BHP Group Ltd ADR,BHP,Stocks,NYSE,BasicMaterials
-Vanguard Total Stock Market ETF,VTI,ETF,NYSE,Financial
-Vanguard S&P 500 ETF,VOO,ETF,NYSE,Financial
 Rio Tinto PLC ADR,RIO,Stocks,NYSE,BasicMaterials
-Petroleo Brasileiro ADR,PBR.A,Stocks,NYSE,BasicMaterials
 British American Tobacco PLC ADR,BTI,Stocks,NYSE,ConsumerGoods
 DuPont de Nemours Inc.,DD,Stocks,NYSE,BasicMaterials
 Itau Unibanco Holding ADR,ITUB,Stocks,NYSE,Financial
 Enbridge Inc,ENB,Stocks,NYSE,BasicMaterials
-Vanguard FTSE Developed Market ETF,VEA,ETF,NYSE,Financial
 Ambev ADR,ABEV,Stocks,NYSE,ConsumerGoods
 Banco Bradesco ADR,BBD,Stocks,NYSE,Financial
-Vanguard FTSE Emerging Markets,VWO,ETF,NYSE,Financial
 SLB Ltd,SLB,Stocks,NYSE,BasicMaterials
 Crown Castle International,CCI,Stocks,NYSE,Financial
 Occidental Petroleum Corp,OXY,Stocks,NYSE,BasicMaterials
-Vanguard Value ETF,VTV,ETF,NYSE,Financial
 Prologis Inc,PLD,Stocks,NYSE,Financial
 ServiceNow Inc,NOW,Stocks,NYSE,Technology
 Dell Technologies Inc C,DELL,Stocks,NYSE,Technology
-iShares Russell 1000 Growth ETF,IWF,ETF,NYSE,Financial
 Edwards Lifesciences Corp,EW,Stocks,NYSE,ConsumerGoods
 Prudential Financial Inc,PRU,Stocks,NYSE,Financial
-Vanguard Growth ETF,VUG,ETF,NYSE,Financial
-iShares Russell 1000 Value ETF,IWD,ETF,NYSE,Financial
 Public Storage,PSA,Stocks,NYSE,Financial
 Carnival Corp,CCL,Stocks,NYSE,ConsumerGoods
 Eaton Corp PLC,ETN,Stocks,NYSE,IndustrialGoods
-Vanguard Real Estate ETF,VNQ,ETF,NYSE,Financial
 LyondellBasell Industries NV,LYB,Stocks,NYSE,BasicMaterials
 Welltower Inc,WELL,Stocks,NYSE,Financial
 AvalonBay Communities Inc,AVB,Stocks,NYSE,Financial
@@ -845,29 +541,20 @@ Equity Residential,EQR,Stocks,NYSE,Financial
 Baker Hughes Company,BKR,Stocks,NYSE,BasicMaterials
 Digital Realty Trust Inc,DLR,Stocks,NYSE,Financial
 Zimmer Biomet Holdings Inc,ZBH,Stocks,NYSE,ConsumerGoods
-First Data Corp A,FDC,Stocks,NYSE,Technology
 Royal Caribbean Cruises Ltd,RCL,Stocks,NYSE,ConsumerGoods
 Arista Networks Inc,ANET,Stocks,NYSE,Services
-Vanguard Short-Term Bond ETF,BSV,ETF,NYSE,Financial
 Archer-Daniels-Midland Co,ADM,Stocks,NYSE,ConsumerGoods
-Vanguard FTSE All-World ex-US,VEU,ETF,NYSE,Financial
 Synchrony Financial,SYF,Stocks,NYSE,Financial
-iShares S&P 500 Growth ETF,IVW,ETF,NYSE,Financial
 DTE Energy Co,DTE,Stocks,NYSE,Utilities
 Ventas Inc,VTR,Stocks,NYSE,Financial
 IHS Markit Ltd,INFO,Stocks,NYSE,Financial
 Aptiv PLC,APTV,Stocks,NYSE,ConsumerGoods
 Realty Income Corp,O,Stocks,NYSE,Financial
-Concho Resources Inc,CXO,Stocks,NYSE,BasicMaterials
 Global Payments Inc,GPN,Stocks,NYSE,ConsumerGoods
-iShares TIPS Bond ETF,TIP,ETF,NYSE,Financial
 Hewlett Packard Enterprise Co,HPE,Stocks,NYSE,Technology
 Boston Properties Inc,BXP,Stocks,NYSE,Financial
 TAL Education Group ADR,TAL,Stocks,NYSE,ConsumerGoods
-Vanguard Information Technology,VGT,ETF,NYSE,Financial
-iShares Russell 1000 ETF,IWB,ETF,NYSE,Financial
 Veeva Systems Inc A,VEEV,Stocks,NYSE,Technology
-iShares Russell Mid-Cap ETF,IWR,ETF,NYSE,Financial
 American Water Works Co Inc,AWK,Stocks,NYSE,Utilities
 Church & Dwight Co Inc,CHD,Stocks,NYSE,ConsumerGoods
 DXC Technology Co,DXC,Stocks,NYSE,Technology
@@ -875,7 +562,6 @@ MSCI Inc,MSCI,Stocks,NYSE,Technology
 First Republic Bank/CA,FRCB,Stocks,NYSE,Financial
 Yum China Holdings Inc,YUMC,Stocks,NYSE,ConsumerGoods
 Teva Pharmaceutical Industries ADR,TEVA,Stocks,NYSE,ConsumerGoods
-Total System Services Inc,TSS,Stocks,NYSE,ConsumerGoods
 Keysight Technologies Inc,KEYS,Stocks,NYSE,IndustrialGoods
 Twilio Inc A,TWLO,Stocks,NYSE,Technology
 Optimum Communications Inc A,OPTU,Stocks,NYSE,Services
@@ -885,96 +571,47 @@ Evergy Inc,EVRG,Stocks,NYSE,Utilities
 Annaly Capital Management Inc,NLY,Stocks,NYSE,Financial
 New Oriental Education & Technology Group Inc-ADR,EDU,Stocks,NYSE,ConsumerGoods
 International Flavors & Fragra,IFF,Stocks,NYSE,BasicMaterials
-Marathon Oil Corp,MRO,Stocks,NYSE,BasicMaterials
-Vanguard FTSE Europe ETF,VGK,ETF,NYSE,Financial
 TransUnion,TRU,Stocks,NYSE,ConsumerGoods
 Vistra Corp,VST,Stocks,NYSE,Utilities
 Martin Marietta Materials Inc,MLM,Stocks,NYSE,IndustrialGoods
-iShares Gold Trust,IAU,ETF,NYSE,Financial
 Broadridge Financial Solutions,BR,Stocks,NYSE,Technology
 Norwegian Cruise Line Holdings,NCLH,Stocks,NYSE,ConsumerGoods
 Wabtec Corp,WAB,Stocks,NYSE,IndustrialGoods
 Comerica Inc,CMA,Stocks,NYSE,Financial
 Elanco Animal Health Inc,ELAN,Stocks,NYSE,ConsumerGoods
-Kansas City Southern,KSU,Stocks,NYSE,IndustrialGoods
-PIMCO Enhanced Short Maturity,MINT,ETF,NYSE,Financial
-Tableau Software Inc A,DATA,Stocks,NYSE,Technology
 Paycom Software Inc,PAYC,Stocks,NYSE,Technology
 Coterra EnerCoterra Energy Inc,CTRA,Stocks,NYSE,BasicMaterials
 Lamb Weston Holdings Inc,LW,Stocks,NYSE,ConsumerGoods
 Ovintiv Inc,OVV,Stocks,NYSE,BasicMaterials
 Smurfit Westrock Plc,SW,Stocks,NYSE,IndustrialGoods
-Invesco S&P 500 Low Volatility,SPLV,ETF,NYSE,Financial
-Goldcorp Inc,GG,Stocks,NYSE,BasicMaterials
-SPDR Bloomberg High Yield Bond ETF,JNK,ETF,NYSE,Financial
 Bread Financial Holdings Inc,BFH,Stocks,NYSE,Financial
-iShares Russell 2000 Growth ETF,IWO,ETF,NYSE,Financial
-Alerian MLP ETF,AMLP,ETF,NYSE,Financial
-iShares Russell 2000 Value ETF,IWN,ETF,NYSE,Financial
 Carvana Co,CVNA,Stocks,NYSE,ConsumerGoods
 Guidewire Software Inc,GWRE,Stocks,NYSE,Technology
-SPDR Bloomberg 1-3 Month T-Bill ETF,BIL,ETF,NYSE,Financial
-Zayo Group Holdings Inc,ZAYO,Stocks,NYSE,Services
-Cimarex Energy Co,XEC,Stocks,NYSE,BasicMaterials
-GrubHub Inc,GRUB.US,Stocks,NYSE,Services
 XPO Logistics Inc,XPO,Stocks,NYSE,IndustrialGoods
 Ciena Corp,CIEN,Stocks,NYSE,Services
-Parsley Energy Inc A,PE,Stocks,NYSE,BasicMaterials
-Versum Materials Inc,VSM,Stocks,NYSE,BasicMaterials
-State Street Communication Services Select Sector SPDR ETF,XLC,ETF,NYSE,Financial
-Invesco Senior Loan ETF,BKLN,ETF,NYSE,Financial
-iShares Silver Trust,SLV,ETF,NYSE,Financial
-SPDR Series Trust - SPDR S&P Biotech ETF,XBI,ETF,NYSE,Financial
-State Street Materials Select Sector SPDR ETF,XLB,ETF,NYSE,Financial
-Ellie Mae Inc,ELLI,Stocks,NYSE,Financial
-iShares MSCI Hong Kong ETF,EWH,ETF,NYSE,Financial
-State Street Real Estate Select Sector SPDR ETF,XLRE,ETF,NYSE,Financial
-SPDR S&P Regional Banking ETF,KRE,ETF,NYSE,Financial
-Whiting Petroleum Corp,WLL,Stocks,NYSE,BasicMaterials
-SPDR EURO STOXX 50 ETF,FEZ,ETF,NYSE,Financial
-iShares MSCI Germany ETF,EWG,ETF,NYSE,Financial
-Xtrackers Harvest CSI 300 China A-Shares ETF,ASHR,ETF,NYSE,Financial
 RH,RH,Stocks,NYSE,ConsumerGoods
-SPDR S&P Bank ETF,KBE,ETF,NYSE,Financial
-KraneShares CSI China Internet,KWEB,ETF,NYSE,Financial
-Direxion Daily Small Cap Bear 3x Shares,TZA,ETF,NYSE,Financial
-Direxion Daily Financial Bear 3X Shares,FAZ,ETF,NYSE,Financial
-ProShares UltraShort Bloomberg Crude Oil,SCO,ETF,NYSE,Financial
 Taiwan Semiconductor Manufacturing Co Ltd - ADR,TSM,Stocks,NYSE,Technology
 Tencent Music Entertainment Group-ADR,TME,Stocks,NYSE,Technology
 Nio Inc.-ADR,NIO,Stocks,NYSE,ConsumerGoods
-Vanguard Mid-Cap Value ETF,VOE,ETF,NYSE,ConsumerGoods
-iShares Russell Mid-Cap Value ETF,IWS,ETF,NYSE,ConsumerGoods
-iShares S&P Mid-Cap 400 Value ETF,IJJ,ETF,NYSE,ConsumerGoods
-iShares National Muni Bond ETF,MUB,ETF,NYSE,ConsumerGoods
-SPDR Nuveen Bloomberg Barclays Municipal Bond ETF,TFI,ETF,NYSE,ConsumerGoods
 Albertsons Cos Inc,ACI,Stocks,NYSE,ConsumerGoods
 BILL Holdings Inc,BILL,Stocks,NYSE,Technology
-Dollar General Corporation,DG.US,Stocks,NYSE,ConsumerGoods
 Dynatrace Inc,DT,Stocks,NYSE,Technology
 ITT Inc,ITT,Stocks,NYSE,IndustrialGoods
 Kirby Corp,KEX,Stocks,NYSE,IndustrialGoods
 Rocket Companies Inc,RKT,Stocks,NYSE,Financial
 Shift4 Payments Inc,FOUR,Stocks,NYSE,ConsumerGoods
 ASE Technology Holding -ADR,ASX,Stocks,NYSE,Technology
-GAIN CAPITAL HOLDINGS LTD,GCAP,Stocks,NYSE,Financial
 Fiverr International ,FVRR,Stocks,NYSE,Services
-Slack Technologies Inc,WORK,Stocks,NYSE,Services
 Chewy,CHWY,Stocks,NYSE,ConsumerGoods
 Farfetch,FTCHQ,Stocks,NYSE,Technology
 Heico Corporation,HEI,Stocks,NYSE,IndustrialGoods
-Grayscale Bitcoin Trust BTC,GBTC,ETF,NYSE,Financial
-Denbury Resources Inc,DEN,Stocks,NYSE,ConsumerGoods
 Conmed Corp.,CNMD,Stocks,NYSE,ConsumerGoods
 Jumia Technologies AG-ADR,JMIA,Stocks,NYSE,Services
 Factset Research Systems Inc.,FDS,Stocks,NYSE,Services
 3D Systems Corp.,DDD,Stocks,NYSE,Technology
 Acuity Inc.,AYI,Stocks,NYSE,IndustrialGoods
 ADT Inc.,ADT,Stocks,NYSE,IndustrialGoods
-Alteryx Inc.,AYX,Stocks,NYSE,Technology
-Aquantia Corp.,AQ,Stocks,NYSE,Technology
 Bright Horizons Family Solutions,BFAM,Stocks,NYSE,ConsumerGoods
-Cloudera Inc.,CLDR,Stocks,NYSE,Technology
 Companhia Energetica de Minas Gerais-ADR,CIG,Stocks,NYSE,Utilities
 Cubic Corp.,CUB,Stocks,NYSE,Technology
 Haemonetics Corp.,HAE,Stocks,NYSE,ConsumerGoods
@@ -982,26 +619,17 @@ ZEPP Health Corp.-ADR,ZEPP,Stocks,NYSE,ConsumerGoods
 Hubbell Inc.,HUBB,Stocks,NYSE,IndustrialGoods
 Innovative Industrial Properties Inc. A,IIPR,Stocks,NYSE,Financial
 Inspire Medical Systems Inc.,INSP,Stocks,NYSE,ConsumerGoods
-LTC Properties Inc.,LTC.US,Stocks,NYSE,Financial
 MagnaChip Semiconductor Corp.,MX,Stocks,NYSE,Technology
 Main Street Capital Corp.,MAIN,Stocks,NYSE,Financial
 "Pediatrix Medical Group, Inc. ",MD,Stocks,NYSE,ConsumerGoods
-NeoPhotonics Corp.,NPTN,Stocks,NYSE,Services
-Ormat Technologies Inc.,ORA.US,Stocks,NYSE,Utilities
 High Templar Tech Limited,HTT,Stocks,NYSE,Financial
-Rosetta Stone Inc.,RST,Stocks,NYSE,ConsumerGoods
 STAG Industrial Inc.,STAG,Stocks,NYSE,Financial
-Store Capital Corp.,STOR,Stocks,NYSE,Financial
-TE Connectivity Ltd,TEL.US,Stocks,NYSE,IndustrialGoods
-Vivint Solar Inc.,VSLR,Stocks,NYSE,IndustrialGoods
 Winnebago Industries Inc.,WGO,Stocks,NYSE,ConsumerGoods
-Asensus Surgical Inc.,ASXC,Stocks,NYSE,ConsumerGoods
 JBT Marel Corp.,JBTM,Stocks,NYSE,IndustrialGoods
 Performance Food Group Co.,PFGC,Stocks,NYSE,ConsumerGoods
 TreeHouse Foods Inc.,THS,Stocks,NYSE,ConsumerGoods
 US Foods Holding Corp.,USFD,Stocks,NYSE,ConsumerGoods
 Cloudflare,NET,Stocks,NYSE,Technology
-Cision Ltd,CISN,Stocks,NYSE,Technology
 RingCentral Inc,RNG,Stocks,NYSE,Services
 Boston Beer Co Inc,SAM,Stocks,NYSE,ConsumerGoods
 Mettler-Toledo International Inc,MTD,Stocks,NYSE,IndustrialGoods
@@ -1023,24 +651,18 @@ Louisiana-Pacific Corp,LPX,Stocks,NYSE,IndustrialGoods
 Extra Space Storage Inc,EXR,Stocks,NYSE,Financial
 Teleflex Inc,TFX,Stocks,NYSE,ConsumerGoods
 Gartner Inc,IT,Stocks,NYSE,ConsumerGoods
-Smartsheet Inc,SMAR,Stocks,NYSE,Technology
 Iron Mountain Inc,IRM,Stocks,NYSE,Financial
-Callon Petroleum Co,CPE,Stocks,NYSE,ConsumerGoods
-Sun Communities Inc,SUI.US,Stocks,NYSE,Financial
-Liberty Property Trust,LPT.OLD,Stocks,NYSE,Financial
 Tanger Factory Outlet Centers Inc,SKT,Stocks,NYSE,Financial
 UDR Inc,UDR,Stocks,NYSE,Financial
 Vornado Realty Trust,VNO,Stocks,NYSE,Financial
 Everest Group Ltd,EG,Stocks,NYSE,Financial
 ResMed Inc,RMD,Stocks,NYSE,ConsumerGoods
 Bio-Rad Laboratories Inc,BIO,Stocks,NYSE,ConsumerGoods
-Duke Realty Corp,DRE,Stocks,NYSE,Financial
 Omega Healthcare Investors Inc,OHI,Stocks,NYSE,Financial
 STERIS PLC,STE,Stocks,NYSE,ConsumerGoods
 Suzano SA-ADR,SUZ,Stocks,NYSE,BasicMaterials
 Thor Industries Inc,THO,Stocks,NYSE,ConsumerGoods
 Chegg Inc,CHGG,Stocks,NYSE,ConsumerGoods
-Athene Holding Ltd,ATH,Stocks,NYSE,Financial
 Vail Resorts Inc,MTN,Stocks,NYSE,ConsumerGoods
 Generac Holdings Inc,GNRC,Stocks,NYSE,IndustrialGoods
 Revvity Inc ,RVTY,Stocks,NYSE,IndustrialGoods
@@ -1052,17 +674,14 @@ Hilton Grand Vacations Inc,HGV,Stocks,NYSE,ConsumerGoods
 Pentair PLC,PNR,Stocks,NYSE,IndustrialGoods
 Bunge Global S.A.,BG,Stocks,NYSE,ConsumerGoods
 Federal Realty Investment Trust,FRT,Stocks,NYSE,Financial
-Arch Resources Inc,ARCH,Stocks,NYSE,ConsumerGoods
 West Pharmaceutical Services Inc,WST,Stocks,NYSE,ConsumerGoods
 ZTO Express Cayman Inc-ADR,ZTO,Stocks,NYSE,IndustrialGoods
-Essential Utilities Inc,WTR,Stocks,NYSE,Utilities
 Deckers Outdoor Corp,DECK,Stocks,NYSE,ConsumerGoods
 Gerdau SA-ADR,GGB,Stocks,NYSE,BasicMaterials
 Q2 Holdings Inc,QTWO,Stocks,NYSE,Services
 Olin Corp,OLN,Stocks,NYSE,BasicMaterials
 Brown & Brown Inc,BRO,Stocks,NYSE,Financial
 Chemed Corp,CHE,Stocks,NYSE,ConsumerGoods
-BRF SA-ADR,BRFS,Stocks,NYSE,ConsumerGoods
 KB Home,KBH,Stocks,NYSE,ConsumerGoods
 Trex Co Inc,TREX,Stocks,NYSE,IndustrialGoods
 Cadence Bank,CADE,Stocks,NYSE,Financial
@@ -1070,62 +689,47 @@ Rexford Industrial Realty Inc,REXR,Stocks,NYSE,Financial
 Encompass Health Corp,EHC,Stocks,NYSE,ConsumerGoods
 Charles River Laboratories International Inc,CRL,Stocks,NYSE,ConsumerGoods
 CubeSmart,CUBE,Stocks,NYSE,Financial
-Hill-Rom Holdings Inc,HRC,Stocks,NYSE,ConsumerGoods
 Matador Resources Co,MTDR,Stocks,NYSE,ConsumerGoods
 United Parks & Resorts Inc,PRKS,Stocks,NYSE,ConsumerGoods
 Pebblebrook Hotel Trust,PEB,Stocks,NYSE,Financial
-Nevro Corp,NVRO,Stocks,NYSE,ConsumerGoods
 Marriott Vacations Worldwide Corp,VAC,Stocks,NYSE,ConsumerGoods
 Healthcare Realty Trust Inc,HR,Stocks,NYSE,Financial
 Ameris Bancorp,ABCB,Stocks,NYSE,Financial
-Life Storage Inc,LSI,Stocks,NYSE,Financial
-Inphi Corp,IPHI,Stocks,NYSE,Technology
 Coherent Corp,COHR,Stocks,NYSE,IndustrialGoods
 Taylor Morrison Home Corp,TMHC,Stocks,NYSE,ConsumerGoods
 Builders FirstSource Inc,BLDR,Stocks,NYSE,IndustrialGoods
 Radian Group Inc,RDN,Stocks,NYSE,Financial
 Cinemark Holdings Inc,CNK,Stocks,NYSE,ConsumerGoods
-MDC Holdings Inc,MDC,Stocks,NYSE,ConsumerGoods
 Insperity Inc,NSP,Stocks,NYSE,ConsumerGoods
-Gol Linhas Aereas Inteligentes SA-ADR,GOLLQ,Stocks,NYSE,ConsumerGoods
-Invitae Corp,NVTAQ,Stocks,NYSE,ConsumerGoods
 SM Energy Co,SM,Stocks,NYSE,ConsumerGoods
-Catalent Inc,CTLT,Stocks,NYSE,ConsumerGoods
 Azul SA-ADR,AZULD,Stocks,NYSE,ConsumerGoods
 8x8 Inc,EGHT,Stocks,NYSE,Services
 Albany International Corp,AIN,Stocks,NYSE,IndustrialGoods
 Eaton Vance Corp,EV,Stocks,NYSE,Financial
-QEP Resources Inc,QEP,Stocks,NYSE,ConsumerGoods
 Cia de Saneamento Basico do Estado de Sao Paulo-ADR,SBS,Stocks,NYSE,Utilities
 First BanCorp/Puerto Rico,FBP,Stocks,NYSE,Financial
-Summit Materials Inc,SUM,Stocks,NYSE,IndustrialGoods
 Glaukos Corp,GKOS,Stocks,NYSE,ConsumerGoods
 Brinks Co,BCO,Stocks,NYSE,ConsumerGoods
 Biohaven Pharmaceutical Holding Co Ltd,BHVN.OLD,Stocks,NYSE,ConsumerGoods
 Sensient Technologies Corp,SXT,Stocks,NYSE,BasicMaterials
 Oasis Petroleum Inc,OAS.OLD,Stocks,NYSE,ConsumerGoods
 SK Telecom Co Ltd-ADR,SKM,Stocks,NYSE,Services
-Oi SA,OIBR,Stocks,NYSE,Services
 Adtalem Global Education Inc,ATGE,Stocks,NYSE,ConsumerGoods
 IDACORP Inc,IDA,Stocks,NYSE,Utilities
 CNX Resources Corp,CNX,Stocks,NYSE,ConsumerGoods
 Box Inc,BOX,Stocks,NYSE,Technology
-Meritor Inc,MTOR,Stocks,NYSE,ConsumerGoods
-SailPoint Technologies Holding Inc,SAIL.US,Stocks,NYSE,Technology
 Southern Copper Corp,SCCO,Stocks,NYSE,BasicMaterials
 Installed Building Products Inc,IBP,Stocks,NYSE,ConsumerGoods
 Sorrento Therapeutics Inc,SRNE,Stocks,NYSE,ConsumerGoods
 TOP Ships Inc,TOPS,Stocks,NYSE,ConsumerGoods
 American Assets Trust Inc,AAT,Stocks,NYSE,Financial
 Arbor Realty Trust Inc,ABR,Stocks,NYSE,Financial
-American Campus Communities Inc,ACC,Stocks,NYSE,Financial
 Agree Realty Corp,ADC,Stocks,NYSE,Financial
 Agnico Eagle Mines Ltd,AEM,Stocks,NYSE,BasicMaterials
 AerCap Holdings NV,AER,Stocks,NYSE,Financial
 First Majestic Silver Corp,AG,Stocks,NYSE,BasicMaterials
 Alamos Gold Inc,AGI,Stocks,NYSE,BasicMaterials
 Apartment Investment and Management Co,AIV,Stocks,NYSE,Financial
-Aerojet Rocketdyne Holdings Inc,AJRD,Stocks,NYSE,IndustrialGoods
 Acadia Realty Trust,AKR,Stocks,NYSE,Financial
 Alexander's Inc,ALX,Stocks,NYSE,Financial
 Antero Midstream Corp,AM,Stocks,NYSE,ConsumerGoods
@@ -1137,20 +741,14 @@ Amneal Pharmaceuticals Inc,AMRX,Stocks,NYSE,ConsumerGoods
 A O Smith Corp,AOS,Stocks,NYSE,IndustrialGoods
 Apple Hospitality REIT Inc,APLE,Stocks,NYSE,Financial
 Apollo Global Management Inc,APO,Stocks,NYSE,Financial
-Evoqua Water Technologies Corp,AQUA,Stocks,NYSE,IndustrialGoods
-Antero Resources Corp,AR.US,Stocks,NYSE,ConsumerGoods
 Arcos Dorados Holdings Inc,ARCO,Stocks,NYSE,ConsumerGoods
 Archrock Inc,AROC,Stocks,NYSE,ConsumerGoods
 ARMOUR Residential REIT Inc,ARR,Stocks,NYSE,Financial
 AngloGold Ashanti Ltd-ADR,AU,Stocks,NYSE,BasicMaterials
-Yamana Gold Inc,AUY,Stocks,NYSE,BasicMaterials
 Avantor Inc,AVTR,Stocks,NYSE,ConsumerGoods
-American Axle & Manufacturing Holdings Inc,AXL.US,Stocks,NYSE,ConsumerGoods
-Brookfield Corp,BN.US,Stocks,NYSE,Financial
 Banco BBVA Argentina SA,BBAR,Stocks,NYSE,Financial
 Barclays PLC-ADR,BCS,Stocks,NYSE,Financial
 Belden Inc,BDC,Stocks,NYSE,IndustrialGoods
-Franklin FTSE South Korea ETF,FLKR,ETF,NYSE,-
 Brandywine Realty Trust,BDN,Stocks,NYSE,Financial
 Bloom Energy Corp,BE,Stocks,NYSE,IndustrialGoods
 Brookfield Infrastructure Partners LP,BIP,Stocks,NYSE,Utilities
@@ -1160,7 +758,6 @@ Boot Barn Holdings Inc,BOOT,Stocks,NYSE,ConsumerGoods
 Borr Drilling Ltd,BORR,Stocks,NYSE,ConsumerGoods
 Brixmor Property Group Inc,BRX,Stocks,NYSE,Financial
 Black Stone Minerals LP,BSM,Stocks,NYSE,ConsumerGoods
-Boston Scientific Corp,BSX.US,Stocks,NYSE,ConsumerGoods
 Babcock & Wilcox Enterprises Inc,BW,Stocks,NYSE,IndustrialGoods
 Blackstone Mortgage Trust Inc,BXMT,Stocks,NYSE,Financial
 Caleres Inc,CAL,Stocks,NYSE,ConsumerGoods
@@ -1171,7 +768,6 @@ Coeur Mining Inc,CDE,Stocks,NYSE,BasicMaterials
 Canadian Pacific Railway LTD,CP,Stocks,NYSE,IndustrialGoods
 Skillz Inc,SKLZ,Stocks,NYSE,Technology
 Chimera Investment Corp,CIM,Stocks,NYSE,Financial
-Cleveland-Cliffs Inc,CLF.US,Stocks,NYSE,BasicMaterials
 DigitalBridge Group Inc,DBRG,Stocks,NYSE,Financial
 Canadian Imperial Bank of Commerce,CM,Stocks,NYSE,Financial
 Canadian Natural Resources Ltd,CNQ,Stocks,NYSE,ConsumerGoods
@@ -1183,40 +779,30 @@ Corteva Inc,CTVA,Stocks,NYSE,ConsumerGoods
 Cousins Properties Inc,CUZ,Stocks,NYSE,Financial
 Cenovus Energy Inc,CVE,Stocks,NYSE,ConsumerGoods
 Clearway Energy Inc,CWEN,Stocks,NYSE,Utilities
-Cushman & Wakefield PLC,CWK.US,Stocks,NYSE,Financial
-Columbia Property Trust Inc,CXP,Stocks,NYSE,Financial
-Diebold Nixdorf Inc,DBDQQ,Stocks,NYSE,Technology
 Designer Brands Inc,DBI,Stocks,NYSE,ConsumerGoods
 Douglas Emmett Inc,DEI,Stocks,NYSE,Financial
 DHT Holdings Inc,DHT,Stocks,NYSE,IndustrialGoods
 Dine Brands Global Inc,DIN,Stocks,NYSE,ConsumerGoods
-Physicians Realty Trust,DOC.Acquired,Stocks,NYSE,Financial
 Golf Entertainment Group Inc,GLFE,Stocks,NYSE,ConsumerGoods
 Dynex Capital Inc,DX,Stocks,NYSE,Financial
 Eventbrite Inc,EB,Stocks,NYSE,Services
 Ecopetrol SA-ADR,EC,Stocks,NYSE,ConsumerGoods
 ZIM Shipping Services Ltd,ZIM,Stocks,NYSE,IndustrialGoods
 Eldorado Gold Corp,EGO,Stocks,NYSE,BasicMaterials
-EastGroup Properties Inc,EGP.US,Stocks,NYSE,Financial
 elf Beauty Inc,ELF,Stocks,NYSE,ConsumerGoods
 Equity LifeStyle Properties Inc,ELS,Stocks,NYSE,Financial
-Envestnet Inc,ENV,Stocks,NYSE,Technology
 EPR Properties,EPR,Stocks,NYSE,Financial
 Essential Properties Realty Trust Inc,EPRT,Stocks,NYSE,Financial
-Equity Commonwealth,EQC,Stocks,NYSE,Financial
 Equinor ASA-ADR,EQNR,Stocks,NYSE,ConsumerGoods
 EQT Corp,EQT,Stocks,NYSE,ConsumerGoods
 Empire State Realty Trust Inc,ESRT,Stocks,NYSE,Financial
 Elastic NV,ESTC,Stocks,NYSE,Technology
-Equitrans Midstream Corp,ETRN,Stocks,NYSE,ConsumerGoods
-Everi Holdings Inc,EVRI,Stocks,NYSE,ConsumerGoods
 Endeavour Silver Corp,EXK,Stocks,NYSE,BasicMaterials
 FTI Consulting Inc,FCN,Stocks,NYSE,ConsumerGoods
 XPeng Inc ADR,XPEV,Stocks,NYSE,ConsumerGoods
 Expro Group Holdings NV,XPRO,Stocks,NYSE,ConsumerGoods
 Franco-Nevada Corp,FNV,Stocks,NYSE,BasicMaterials
 Coursera Inc.,COUR,Stocks,NYSE,ConsumerGoods
-First Industrial Realty Trust Inc,FR.US,Stocks,NYSE,Financial
 Frontline PLC,FRO,Stocks,NYSE,IndustrialGoods
 FS KKR Capital Corp,FSK,Stocks,NYSE,Financial
 Fortuna Silver Mines Inc,FSM,Stocks,NYSE,BasicMaterials
@@ -1227,7 +813,6 @@ Green Dot Corp,GDOT,Stocks,NYSE,ConsumerGoods
 Genesis Energy LP,GEL,Stocks,NYSE,ConsumerGoods
 GEO Group Inc,GEO,Stocks,NYSE,Financial
 Gold Fields Ltd-ADR,GFI,Stocks,NYSE,BasicMaterials
-GasLog Ltd,GLOG,Stocks,NYSE,IndustrialGoods
 Globus Medical Inc,GMED,Stocks,NYSE,ConsumerGoods
 Global Net Lease Inc,GNL,Stocks,NYSE,Financial
 Gaotu Techedu Inc.,GOTU,Stocks,NYSE,Technology
@@ -1239,16 +824,13 @@ Howard Hughes Holdings Inc,HHH,Stocks,NYSE,Financial
 Highwoods Properties Inc,HIW,Stocks,NYSE,Financial
 Helix Energy Solutions Group Inc,HLX,Stocks,NYSE,ConsumerGoods
 Harmony Gold Mining Co Ltd-ADR,HMY,Stocks,NYSE,BasicMaterials
-At Home Group Inc,HOME,Stocks,NYSE,ConsumerGoods
 Helmerich & Payne Inc,HP,Stocks,NYSE,ConsumerGoods
 Hudson Pacific Properties Inc,HPP,Stocks,NYSE,Financial
 TFI International Inc,TFII,Stocks,NYSE,IndustrialGoods
-Healthcare Realty Trust Inc,HR.DELETE,Stocks,NYSE,Financial
 H&R Block Inc,HRB,Stocks,NYSE,ConsumerGoods
 Hercules Capital Inc,HTGC,Stocks,NYSE,Financial
 Howmet Aerospace Inc,HWM,Stocks,NYSE,IndustrialGoods
 Hexcel Corp,HXL,Stocks,NYSE,IndustrialGoods
-Franklin Income Focus ETF,INCM,ETF,NYSE,-
 ICICI Bank Ltd-ADR,IBN,Stocks,NYSE,Financial
 Brightstar Lottery,BRSL,Stocks,NYSE,ConsumerGoods
 IMAX Corp,IMAX,Stocks,NYSE,ConsumerGoods
@@ -1261,30 +843,20 @@ The St. Joe Company,JOE,Stocks,NYSE,ConsumerGoods
 OPENLANE Inc,OPLN,Stocks,NYSE,ConsumerGoods
 Kinross Gold Corp,KGC,Stocks,NYSE,BasicMaterials
 Kimco Realty Corp,KIM,Stocks,NYSE,Financial
-Kirkland Lake Gold Ltd,KL,Stocks,NYSE,BasicMaterials
 Kosmos Energy Ltd,KOS,Stocks,NYSE,ConsumerGoods
 Kilroy Realty Corp,KRC,Stocks,NYSE,Financial
 Kennedy-Wilson Holdings Inc,KW,Stocks,NYSE,Financial
 Liberty Energy Inc,LBRT,Stocks,NYSE,ConsumerGoods
-Northern Star Investment Corp. II,NSTB,Stocks,NYSE,Services
 Vital Energy Inc,VTLE,Stocks,NYSE,ConsumerGoods
 Stride Inc.,LRN,Stocks,NYSE,ConsumerGoods
-Livent Corp,LTHM,Stocks,NYSE,BasicMaterials
 Lexington Realty Trust,LXP,Stocks,NYSE,Financial
 Lloyds Banking Group PLC,LYG,Stocks,NYSE,Financial
 The Macerich Co,MAC,Stocks,NYSE,Financial
-Maxar Technologies Inc,MAXR,Stocks,NYSE,Services
-Mobile TeleSystems PJSC,MBT,Stocks,NYSE,Services
-Medallia Inc,MDLA,Stocks,NYSE,Technology
-Meredith Corp,MDP,Stocks,NYSE,Services
-Medifast Inc,MED.US,Stocks,NYSE,ConsumerGoods
 MFA Financial Inc,MFA,Stocks,NYSE,Financial
 Mizuho Financial Group Inc-ADR,MFG,Stocks,NYSE,Financial
-MGM Growth Properties LLC,MGP,Stocks,NYSE,Financial
 Magnolia Oil & Gas Corp,MGY,Stocks,NYSE,ConsumerGoods
 MPLX LP,MPLX,Stocks,NYSE,ConsumerGoods
 Madison Square Garden Sports Corp,MSGS,Stocks,NYSE,ConsumerGoods
-ArcelorMittal ADR,MT.US,Stocks,NYSE,BasicMaterials
 Mitsubishi UFJ Financial Group Inc-ADR,MUFG,Stocks,NYSE,Financial
 McEwen Mining Inc,MUX,Stocks,NYSE,BasicMaterials
 Nordic American Tankers Ltd,NAT,Stocks,NYSE,IndustrialGoods
@@ -1293,7 +865,6 @@ National Retail Properties Inc,NNN,Stocks,NYSE,Financial
 Nomad Foods Ltd,NOMD,Stocks,NYSE,ConsumerGoods
 Sunnova Energy International Inc,NOVAQ,Stocks,NYSE,ConsumerGoods
 New Residential Investment Corp,RITM,Stocks,NYSE,Financial
-NuStar Energy LP,NS,Stocks,NYSE,ConsumerGoods
 National Storage Affiliates Trust,NSA,Stocks,NYSE,Financial
 Nu Skin Enterprises Inc,NUS,Stocks,NYSE,ConsumerGoods
 Navigator Holdings Ltd,NVGS,Stocks,NYSE,IndustrialGoods
@@ -1310,41 +881,25 @@ Healthpeak Properties Inc,DOC,Stocks,NYSE,Financial
 Paramount Group Inc,PGRE,Stocks,NYSE,Financial
 Phreesia Inc,PHR,Stocks,NYSE,Technology
 Park Hotels & Resorts Inc,PK,Stocks,NYSE,Financial
-Anaplan Inc,PLAN,Stocks,NYSE,Services
-Plantronics Inc,POLY.US,Stocks,NYSE,Services
-Party City Holdco Inc,PRTYQ,Stocks,NYSE,ConsumerGoods
-PS Business Parks Inc,PSB,Stocks,NYSE,Financial
 Pure Storage Inc,PSTG,Stocks,NYSE,Technology
-ProPetro Holding Corp,PUMP.US,Stocks,NYSE,ConsumerGoods
-Pretium Resources Inc,PVG,Stocks,NYSE,BasicMaterials
-QTS Realty Trust Inc,QTS,Stocks,NYSE,Financial
 RLJ Lodging Trust,RLJ,Stocks,NYSE,Financial
 Zurn Elkay Water Solutions Corporation,ZWS,Stocks,NYSE,IndustrialGoods
-Retail Properties of America Inc,RPAI,Stocks,NYSE,Financial
 Range Resources Corp,RRC,Stocks,NYSE,ConsumerGoods
 Redwood Trust Inc,RWT,Stocks,NYSE,Financial
 Royal Bank of Canada,RY,Stocks,NYSE,Financial
 Rayonier Inc,RYN,Stocks,NYSE,Financial
 Seabridge Gold Inc,SA,Stocks,NYSE,BasicMaterials
-Safehold Inc,SAFE.US,Stocks,NYSE,Financial
 Sibanye Stillwater Ltd-ADR,SBSW,Stocks,NYSE,BasicMaterials
 Novo-Nordisk A/S SPONS ADR,NVO,Stocks,NYSE,ConsumerGoods
 Steelcase Inc,SCS,Stocks,NYSE,ConsumerGoods
 Hyliion Holdings Corp,HYLN,Stocks,NYSE,ConsumerGoods
 Sunstone Hotel Investors Inc,SHO,Stocks,NYSE,Financial
 SITE Centers Corp,SITC,Stocks,NYSE,Financial
-Skechers USA Inc,SKX,Stocks,NYSE,ConsumerGoods
-US Silica Holdings Inc,SLCA,Stocks,NYSE,ConsumerGoods
-Emeren Group Ltd-ADR,SOL.US,Stocks,NYSE,ConsumerGoods
-Fisker Inc,FSRNQ,Stocks,NYSE,ConsumerGoods
 Virgin Galactic Holdings Inc,SPCE,Stocks,NYSE,ConsumerGoods
-Spirit Realty Capital Inc,SRC,Stocks,NYSE,Financial
-Seritage Growth Properties,SRG.US,Stocks,NYSE,Financial
 Sasol Ltd-ADR,SSL,Stocks,NYSE,BasicMaterials
 Scorpio Tankers Inc,STNG,Stocks,NYSE,IndustrialGoods
 Starwood Property Trust Inc,STWD,Stocks,NYSE,Financial
 Sunoco LP,SUN,Stocks,NYSE,ConsumerGoods
-Switch Inc,SWCH,Stocks,NYSE,Services
 Takeda Pharmaceutical Co Ltd-ADR,TAK,Stocks,NYSE,ConsumerGoods
 Talos Energy Inc,TALO,Stocks,NYSE,ConsumerGoods
 Essential Utilities Inc,WTRG,Stocks,NYSE,Utilities
@@ -1356,17 +911,13 @@ Terreno Realty Corp,TRNO,Stocks,NYSE,Financial
 Tronox Holdings PLC,TROX,Stocks,NYSE,BasicMaterials
 Magna International Inc,MGA,Stocks,NYSE,ConsumerGoods
 TETRA Technologies Inc,TTI,Stocks,NYSE,ConsumerGoods
-Tupperware Brands Corp,TUPBQ,Stocks,NYSE,ConsumerGoods
 Two Harbors Investment Corp,TWO,Stocks,NYSE,Financial
 Under Armour Inc,UAA,Stocks,NYSE,ConsumerGoods
 Urban Edge Properties,UE,Stocks,NYSE,Financial
 United Microelectronics Corporation-ADR,UMC,Stocks,NYSE,Technology
-Unilever PLC-ADR,UL.US,Stocks,NYSE,ConsumerGoods
 USA Compression Partners LP,USAC,Stocks,NYSE,ConsumerGoods
 USANA Health Sciences Inc,USNA,Stocks,NYSE,ConsumerGoods
 Universal Corp/VA,UVV,Stocks,NYSE,ConsumerGoods
-Vedanta Ltd,VEDL,Stocks,NYSE,BasicMaterials
-VEREIT Inc,VER,Stocks,NYSE,Financial
 VICI Properties Inc,VICI,Stocks,NYSE,Financial
 Controladora Vuela Cia de Aviacion SAB de CV,VLRS,Stocks,NYSE,ConsumerGoods
 Western Midstream Partners LP,WES,Stocks,NYSE,Utilities
@@ -1376,19 +927,15 @@ Zhihu Inc-ADR,ZH,Stocks,NYSE,Services
 Wheaton Precious Metals Corp,WPM,Stocks,NYSE,BasicMaterials
 Coupang Inc.,CPNG,Stocks,NYSE,Technology
 Elme Communities,ELME,Stocks,NYSE,Financial
-Weingarten Realty Investors,WRI,Stocks,NYSE,Financial
 W&T Offshore Inc,WTI,Stocks,NYSE,ConsumerGoods
 TKO Group Holdings Inc,TKO,Stocks,NYSE,Services
 YETI Holdings Inc,YETI,Stocks,NYSE,ConsumerGoods
 Yext Inc,YEXT,Stocks,NYSE,Technology
-Zuora Inc,ZUO,Stocks,NYSE,Technology
 RLX Technology Inc-ADR,RLX,Stocks,NYSE,ConsumerGoods
 Roblox Corp.,RBLX,Stocks,NYSE,Technology
 Semrush Holdings Inc,SEMR,Stocks,NYSE,Technology
-B2Gold Corp,BTG.US,Stocks,NYSE,BasicMaterials
 Cheniere Energy Partners LP,CQP,Stocks,NYSE,ConsumerGoods
 UiPath Inc.,PATH,Stocks,NYSE,Technology
-MAG Silver Corp,MAG,Stocks,NYSE,BasicMaterials
 Northern Dynasty Minerals Ltd,NAK,Stocks,NYSE,BasicMaterials
 New Gold Inc,NGD,Stocks,NYSE,BasicMaterials
 Sociedad Quimica y Minera de Chile SA-ADR,SQM,Stocks,NYSE,BasicMaterials
@@ -1404,8 +951,6 @@ LG Display Co Ltd - ADR,LPL,Stocks,NYSE,IndustrialGoods
 Regal Rexnord Corp,RRX,Stocks,NYSE,IndustrialGoods
 Chunghwa Telecom Co. Ltd,CHT,Stocks,NYSE,Services
 Companhia Paranaense de Energia - COPEL,ELPC,Stocks,NYSE,Utilities
-Seaboard Corporation,SEB.US,Stocks,NYSE,ConsumerGoods
-P10 Inc,PX.US,Stocks,NYSE,Financial
 Movado Group Inc,MOV,Stocks,NYSE,ConsumerGoods
 Shinhan Financial Group Co Ltd,SHG,Stocks,NYSE,Financial
 Pearson plc,PSO,Stocks,NYSE,Services
@@ -1416,11 +961,8 @@ InvenTrust Properties Corp,IVT,Stocks,NYSE,Financial
 Metallus Inc,MTUS,Stocks,NYSE,IndustrialGoods
 Ivanhoe Electric Inc,IE,Stocks,NYSE,BasicMaterials
 SandRidge Energy Inc,SD,Stocks,NYSE,Utilities
-HUYA Inc,HUYA.US,Stocks,NYSE,Technology
 BrightSpire Capital Inc,BRSP,Stocks,NYSE,Financial
 First Foundation Inc,FFWM,Stocks,NYSE,Financial
-Tsakos Energy Navigation Limited,TEN.US,Stocks,NYSE,IndustrialGoods
-Brown Forman Corporation,BF.A,Stocks,NYSE,ConsumerGoods
 Aspen Aerogels Inc,ASPN,Stocks,NYSE,IndustrialGoods
 Octave Specialty Group Inc,OSG,Stocks,NYSE,Financial
 inTEST Corporation,INTT,Stocks,NYSE,Technology
@@ -1440,18 +982,14 @@ Net Power Inc,NPWR,Stocks,NYSE,IndustrialGoods
 SunCoke Energy Inc,SXC,Stocks,NYSE,Utilities
 Employers Holdings Inc,EIG,Stocks,NYSE,Financial
 KKR Real Estate Finance Trust Inc,KREF,Stocks,NYSE,Financial
-Nomura Holdings Inc,NMR.US,Stocks,NYSE,Financial
 Thermon Group Holdings Inc,THR,Stocks,NYSE,IndustrialGoods
 Park National Corporation,PRK,Stocks,NYSE,Financial
 Beacon Financial Corp,BBT,Stocks,NYSE,Financial
-The Aaron's Company Inc,AAN,Stocks,NYSE,ConsumerGoods
 Barings Bdc Inc,BBDC,Stocks,NYSE,Financial
 Alta Equipment Group Inc,ALTG,Stocks,NYSE,ConsumerGoods
 Plymouth Industrial REIT Inc,PLYM,Stocks,NYSE,Financial
 Hci Group Inc,HCI,Stocks,NYSE,Financial
-Agiliti Inc,AGTI,Stocks,NYSE,ConsumerGoods
 Deluxe Corporation,DLX,Stocks,NYSE,ConsumerGoods
-Paragon 28 Inc,FNA,Stocks,NYSE,ConsumerGoods
 Farmland Partners Inc,FPI,Stocks,NYSE,Financial
 Community Healthcare Trust Incorporated,CHCT,Stocks,NYSE,Financial
 Nelnet Inc,NNI,Stocks,NYSE,Financial
@@ -1461,14 +999,9 @@ American Well Corp,AMWL,Stocks,NYSE,Services
 Unity Software Inc.,U,Stocks,NYSE,ConsumerGoods
 Snowflake Inc.,SNOW,Stocks,NYSE,Services
 Emergent BioSolutions Inc,EBS,Stocks,NYSE,Healthcare
-Stellantis NV,STLA.US,Stocks,NYSE,ConsumerGoods
-Stifel Financial Corporation,SF.US,Stocks,NYSE,Financial
 Chargepoint Holdings Inc.,CHPT,Stocks,NYSE,IndustrialGoods
 LiveRamp Holding,RAMP,Stocks,NYSE,ConsumerGoods
-ETFMG Alternative Harvest ETF,MJ,ETF,NYSE,-
 IHS Holding,IHS,Stocks,NYSE,Services
-Enfusion,ENFN,Stocks,NYSE,Services
-Informatica Inc,INFA,Stocks,NYSE,Technology
 Nu Holdings Ltd.,NU,Stocks,NYSE,Financial
 Kyndryl Holdings Inc,KD,Stocks,NYSE,Technology
 Orion Office Reit Inc.,ONL,Stocks,NYSE,Financial
@@ -1478,48 +1011,34 @@ Net Lease Office Properties,NLOP,Stocks,NYSE,Financial
 Excelerate Energy Inc.,EE,Stocks,NYSE,BasicMaterials
 Hippo Holdings Inc,HIPO,Stocks,NYSE,Financial
 Virtu Financial Inc,VIRT,Stocks,NYSE,Financial
-a.k.a. Brands Holding,AKA.US,Stocks,NYSE,Services
 UWM Holdings Corp,UWMC,Stocks,NYSE,Financial
-Endeavor Group Holdings Inc,EDR,Stocks,NYSE,Services
 Eni SpA-ADR,E,Stocks,NYSE,BasicMaterials
 Credicorp Ltd,BAP,Stocks,NYSE,Financial
-Enel Americas SA,ENIAY,Stocks,NYSE,Utilities
 Fomento Economico Mexicano SAB-ADR,FMX,Stocks,NYSE,ConsumerGoods
 Cia Siderurgica Nacional SA-ADR,SID,Stocks,NYSE,BasicMaterials
 The Original Bark Co,BARK,Stocks,NYSE,Services
-Natura & Co Holding SA-ADR,NTCOY,Stocks,NYSE,ConsumerGoods
 AXIA ENERGIA - ADR,AXIA,Stocks,NYSE,Utilities
-Avaya Holdings Corp,AVYAQ,Stocks,NYSE,Technology
 Stevanato Group S.p.A.,STVN,Stocks,NYSE,ConsumerGoods
 Posco - ADR,PKX,Stocks,NYSE,BasicMaterials
 SilverGate Capital,SICPQ,Stocks,NYSE,Financial
 Globant SA,GLOB,Stocks,NYSE,Technology
 Algonquin Power & Utilities Corp,AQN,Stocks,NYSE,Utilities
-Avangrid Inc,AGR.US,Stocks,NYSE,Utilities
 Lightspeed Commerce Inc,LSPD,Stocks,NYSE,Technology
 Torrid Holdings Inc,CURV,Stocks,NYSE,ConsumerGoods
 Orange S.A.-ADR,ORANY,Stocks,NYSE,Services
 UBS Group AG,UBS,Stocks,NYSE,Financial
-Credit Suisse Group AG-ADR,CS.US,Stocks,NYSE,Financial
-Banco Bilbao Vizcaya Argentaria SA-ADR,BBVA.US,Stocks,NYSE,Financial
 SAP SE ADR,SAP,Stocks,NYSE,Technology
-BP plc ADR,BP.US,Stocks,NYSE,BasicMaterials
 GlaxoSmithKline plc ADR,GSK,Stocks,NYSE,ConsumerGoods
 Diageo plc ADR,DEO,Stocks,NYSE,ConsumerGoods
-STMicroelectronics NV,STM.US,Stocks,NYSE,Technology
 TotalEnergies SE,TTE,Stocks,NYSE,BasicMaterials
-China Petroleum & Chemical Corporation ADR,SNPTY,Stocks,NYSE,BasicMaterials
-PetroChina Company Limited -ADR,PTRCY,Stocks,NYSE,BasicMaterials
 Sumitomo Mitsui Financial Group Inc-ADR,SMFG,Stocks,NYSE,Financial
 KB Financial Group Inc-ADR,KB,Stocks,NYSE,Financial
 JinkoSolar Holding Co Ltd-ADR,JKS,Stocks,NYSE,BasicMaterials
 BCE Inc,BCE,Stocks,NYSE,Services
 InterContinental Hotels Group PLC-ADR,IHG,Stocks,NYSE,ConsumerGoods
-Veoneer Inc,VNE,Stocks,NYSE,ConsumerGoods
 Autoliv Inc,ALV,Stocks,NYSE,ConsumerGoods
 Adient plc,ADNT,Stocks,NYSE,ConsumerGoods
 Allison Transmission Holdings Inc,ALSN,Stocks,NYSE,ConsumerGoods
-Ping Identity Holding Corp,PING,Stocks,NYSE,Technology
 Core & Main Inc,CNM,Stocks,NYSE,ConsumerGoods
 CS Disco Inc,LAW,Stocks,NYSE,Technology
 VTEX,VTEX,Stocks,NYSE,Technology
@@ -1528,29 +1047,20 @@ Prudential plc-ADR,PUK,Stocks,NYSE,Financial
 Rush Street Interactive Inc,RSI,Stocks,NYSE,ConsumerGoods
 Ballys Corporation,BALY,Stocks,NYSE,ConsumerGoods
 Banco Santander Brasil SA,BSBR,Stocks,NYSE,Financial
-Telefônica Brasil SA-ADR,VIV.US,Stocks,NYSE,Services
 Grupo Cibest S.A,CIB,Stocks,NYSE,Financial
 Choice Hotels International Inc,CHH,Stocks,NYSE,ConsumerGoods
 IDT Corporation,IDT,Stocks,NYSE,Services
 "Ryan Specialty Group Holdings, Inc.",RYAN,Stocks,NYSE,Financial
 Ur-Energy Inc,URG,Stocks,NYSE,BasicMaterials
-KraneShares Global Carbon ETF,KRBN,ETF,NYSE,-
-First Trust Water ETF,FIW.US,ETF,NYSE,-
-Global X Uranium ETF,URA,ETF,NYSE,-
-Invesco DB US Dollar Index Bullish Fund,UUP,ETF,NYSE,-
 Woodside Energy Group LTD.-ADR,WDS,Stocks,NYSE,BasicMaterials
 RXO Inc.,RXO,Stocks,NYSE,IndustrialGoods
 Brookfield Asset Management Ltd,BAM,Stocks,NYSE,Financial
 Haleon PLC-ADR,HLN,Stocks,NYSE,ConsumerGoods
-AMC pref,APE.US,Stocks,NYSE,ConsumerGoods
 Veralto Corp,VLTO,Stocks,NYSE,IndustrialGoods
-WK Kellogg Co,KLG,Stocks,NYSE,ConsumerGoods
 Vestis Corp,VSTS,Stocks,NYSE,Services
-Arcadium Lithium Plc,ALTM,Stocks,NYSE,BasicMaterials
 Rubrik Inc,RBRK,Stocks,NYSE,IndustrialGoods
 Loar Holdings Inc,LOAR,Stocks,NYSE,Services
 Viking Holdings Ltd,VIK,Stocks,NYSE,Services
-ZEEKR Intelligent Technology Holding Limited,ZK.US,Stocks,NYSE,IndustrialGoods
 LandBridge Company LLC,LB,Stocks,NYSE,Utilities
 Tamboran Resources Corporation,TBN,Stocks,NYSE,Utilities
 Seaport Entertainment Group In,SEG,Stocks,NYSE,Financial
@@ -1558,7 +1068,6 @@ Amentum Holdings Inc,AMTM,Stocks,NYSE,Technology
 Curbline Properties Corp,CURB,Stocks,NYSE,Financial
 South Bow Corp,SOBO,Stocks,NYSE,Utilities
 Kindercare Learning Cos Inc,KLC,Stocks,NYSE,Services
-Revelyst Inc,GEAR,Stocks,NYSE,ConsumerGoods
 Venture Global Inc,VG,Stocks,NYSE,BasicMaterials
 EPAM Systems Inc.,EPAM,Stocks,NYSE,Technology
 KE Holdings Inc.-ADR,BEKE,Stocks,NYSE,Financial
@@ -1573,26 +1082,22 @@ Tenaris S.A.-ADR,TS,Stocks,NYSE,ConsumerGoods
 Doximity Inc.,DOCS,Stocks,NYSE,Technology
 Carlisle Companies Incorporated,CSL,Stocks,NYSE,ConsumerGoods
 GXO Logistics Inc.,GXO,Stocks,NYSE,ConsumerGoods
-Black Knight Inc.,BKI,Stocks,NYSE,Technology
 SiteOne Landscape Supply Inc.,SITE,Stocks,NYSE,ConsumerGoods
 Cable One Inc.,CABO,Stocks,NYSE,Services
 Vertiv Holdings Co,VRT,Stocks,NYSE,ConsumerGoods
 Texas Pacific Land Corporation,TPL,Stocks,NYSE,BasicMaterials
 Genpact Limited,G,Stocks,NYSE,Technology
-Oak Street Health Inc.,OSH,Stocks,NYSE,ConsumerGoods
 Endava plc-ADR,DAVA,Stocks,NYSE,Technology
 Advanced Drainage Systems Inc.,WMS,Stocks,NYSE,ConsumerGoods
 TopBuild Corp.,BLD,Stocks,NYSE,ConsumerGoods
 Dolby Laboratories Inc.,DLB,Stocks,NYSE,ConsumerGoods
 AptarGroup Inc.,ATR,Stocks,NYSE,ConsumerGoods
 Cullen/Frost Bankers Inc.,CFR,Stocks,NYSE,Financial
-Organon & Co.,OGN.US,Stocks,NYSE,ConsumerGoods
 Houlihan Lokey Inc.,HLI,Stocks,NYSE,Financial
 MP Materials Corp.,MP,Stocks,NYSE,BasicMaterials
 Pinnacle Financial Partners Inc.,PNFP,Stocks,NYSE,Financial
 Pinnacle West Capital Corporation,PNW,Stocks,NYSE,Utilities
 Synovus Financial Corp.,SNV,Stocks,NYSE,Financial
-IAA Inc.,IAA,Stocks,NYSE,ConsumerGoods
 TriNet Group Inc.,TNET,Stocks,NYSE,ConsumerGoods
 OGE Energy Corp.,OGE,Stocks,NYSE,Utilities
 Prosperity Bancshares Inc.,PB,Stocks,NYSE,Financial
@@ -1615,22 +1120,17 @@ Webster Financial Corporation,WBS,Stocks,NYSE,Financial
 Moelis & Company,MC,Stocks,NYSE,Financial
 Curtiss-Wright Corporation,CW,Stocks,NYSE,IndustrialGoods
 Rogers Corporation,ROG,Stocks,NYSE,BasicMaterials
-Univar Solutions Inc.,UNVR,Stocks,NYSE,ConsumerGoods
 MGIC Investment Corporation,MTG,Stocks,NYSE,Financial
 C3.ai Inc.,AI,Stocks,NYSE,Technology
 BWX Technologies Inc.,BWXT,Stocks,NYSE,IndustrialGoods
 Atkore Inc.,ATKR,Stocks,NYSE,IndustrialGoods
 MSC Industrial Direct Co. Inc.,MSM,Stocks,NYSE,ConsumerGoods
-Skyline Champion Corporation,SKY.US,Stocks,NYSE,ConsumerGoods
 Portland General Electric Company,POR,Stocks,NYSE,Utilities
 TXNM Energy Inc,TXNM,Stocks,NYSE,Utilities
-Olo Inc.,OLO,Stocks,NYSE,Technology
 LendingClub Corporation,LC,Stocks,NYSE,Financial
-Triton International Limited,TRTN,Stocks,NYSE,ConsumerGoods
 H.B. Fuller Company,FUL,Stocks,NYSE,BasicMaterials
 Black Hills Corporation,BKH,Stocks,NYSE,Utilities
 F.N.B. Corporation,FNB,Stocks,NYSE,Financial
-Pershing Square Tontine Holdings Ltd.,PSTH,Stocks,NYSE,Services
 Artisan Partners Asset Management Inc.,APAM,Stocks,NYSE,Financial
 LCI Industries,LCII,Stocks,NYSE,ConsumerGoods
 BankUnited Inc.,BKU,Stocks,NYSE,Financial
@@ -1645,11 +1145,9 @@ Riskified Inc.,RSKD,Stocks,NYSE,Services
 FuboTV Inc,FUBO,Stocks,NYSE,Services
 Kontoor Brands Inc.,KTB,Stocks,NYSE,ConsumerGoods
 Hecla Mining Company,HL,Stocks,NYSE,BasicMaterials
-Arconic Corporation,ARNC,Stocks,NYSE,BasicMaterials
 GrafTech International Ltd.,EAF,Stocks,NYSE,IndustrialGoods
 Terex Corporation,TEX,Stocks,NYSE,IndustrialGoods
 Stem Inc.,STEM,Stocks,NYSE,BasicMaterials
-South Jersey Industries Inc.,SJI,Stocks,NYSE,Utilities
 Pacira BioSciences Inc.,PCRX,Stocks,NYSE,ConsumerGoods
 Sphere Entertainment Co,SPHR,Stocks,NYSE,ConsumerGoods
 B&G Foods Inc.,BGS,Stocks,NYSE,ConsumerGoods
@@ -1661,7 +1159,6 @@ Tyler Technologies Inc.,TYL,Stocks,NYSE,Technology
 Dayforce Inc,DAY,Stocks,NYSE,Technology
 Clarivate Plc,CLVT,Stocks,NYSE,Technology
 Floor & Decor Holdings Inc.,FND,Stocks,NYSE,ConsumerGoods
-Avalara Inc.,AVLR,Stocks,NYSE,Technology
 Western Alliance Bancorporation,WAL,Stocks,NYSE,Financial
 Snap-on Incorporated,SNA,Stocks,NYSE,IndustrialGoods
 The Toro Company,TTC,Stocks,NYSE,IndustrialGoods
@@ -1669,14 +1166,12 @@ Procore Technologies Inc.,PCOR,Stocks,NYSE,Technology
 Fair Isaac Corporation,FICO,Stocks,NYSE,Technology
 First Horizon Corporation,FHN,Stocks,NYSE,Financial
 agilon health inc.,AGL,Stocks,NYSE,ConsumerGoods
-Apartment Income REIT Corp.,AIRC,Stocks,NYSE,Financial
 Janus Henderson Group plc,JHG,Stocks,NYSE,Financial
 Workiva Inc.,WK,Stocks,NYSE,Technology
 ASGN Incorporated,ASGN,Stocks,NYSE,ConsumerGoods
 Envista Holdings Corporation,NVST,Stocks,NYSE,ConsumerGoods
 Eagle Materials Inc.,EXP,Stocks,NYSE,IndustrialGoods
 Valvoline Inc.,VVV,Stocks,NYSE,BasicMaterials
-The AZEK Company Inc.,AZEK,Stocks,NYSE,IndustrialGoods
 Clean Harbors Inc.,CLH,Stocks,NYSE,IndustrialGoods
 Vontier Corporation,VNT,Stocks,NYSE,IndustrialGoods
 AMN Healthcare Services Inc.,AMN,Stocks,NYSE,ConsumerGoods
@@ -1692,41 +1187,27 @@ Civitas Resources Inc.,CIVI,Stocks,NYSE,Services
 Camping World Holdings Inc.,CWH,Stocks,NYSE,ConsumerGoods
 Shutterstock Inc.,SSTK,Stocks,NYSE,Services
 Southwest Gas Holdings Inc.,SWX,Stocks,NYSE,IndustrialGoods
-Compass Inc.,COMP.US,Stocks,NYSE,Financial
 PennyMac Financial Services Inc.,PFSI,Stocks,NYSE,Financial
-E2open Parent Holdings Inc.,ETWO,Stocks,NYSE,Technology
 Associated Banc-Corp,ASB,Stocks,NYSE,Financial
 California Resources Corporation,CRC,Stocks,NYSE,Services
 Spire Inc.,SR,Stocks,NYSE,Utilities
 Dycom Industries Inc.,DY,Stocks,NYSE,IndustrialGoods
 Boise Cascade Company,BCC,Stocks,NYSE,IndustrialGoods
 Paysafe Limited,PSFE,Stocks,NYSE,ConsumerGoods
-Flagstar Bancorp Inc.,FBC,Stocks,NYSE,Financial
 Acadian Asset Management Inc.,AAMI,Stocks,NYSE,Financial
-Desktop Metal Inc.,DM,Stocks,NYSE,Technology
 MasterBrand INC,MBC,Stocks,NYSE,ConsumerGoods
 Genius Sports Limited,GENI,Stocks,NYSE,ConsumerGoods
 Compass Minerals International Inc.,CMP,Stocks,NYSE,BasicMaterials
 M/I Homes Inc.,MHO,Stocks,NYSE,ConsumerGoods
 Northern Oil and Gas Inc.,NOG,Stocks,NYSE,Services
 Butterfly Network Inc.,BFLY,Stocks,NYSE,ConsumerGoods
-Danimer Scientific Inc.,DNMRQ,Stocks,NYSE,BasicMaterials
 RELX PLC-ADR,RELX,Stocks,NYSE,ConsumerGoods
 National Grid plc-ADR,NGG,Stocks,NYSE,Utilities
 Janus International Group Inc.,JBI,Stocks,NYSE,Services
-Cano Health Inc.,CANOQ,Stocks,NYSE,Services
 Alight Solutions Inc.,ALIT,Stocks,NYSE,Services
 Global Business Travel Group I,GBTG,Stocks,NYSE,Services
-ATI Physical Therapy Inc,ATIP,Stocks,NYSE,Services
 Vivid Seats Inc (Class A),SEAT,Stocks,NYSE,Services
-Social Capital Hedosophia Holdings Corp. VI Class A,IPOF,Stocks,NYSE,Services
-Moneylion Inc,ML.US,Stocks,NYSE,Services
-Squarespace,SQSP,Stocks,NYSE,Services
 Similarweb,SMWB,Stocks,NYSE,Services
-IronSource LLC,IS,Stocks,NYSE,Services
-Blend Labs Inc.,BLND.US,Stocks,NYSE,Technology
-SentinelOne Inc.,S.US,Stocks,NYSE,Technology
-NeueHealth Inc,NEUE,Stocks,NYSE,Healthcare
 F45 Training Holdings Inc.,FXLV,Stocks,NYSE,Services
 Dutch Bros Inc.,BROS,Stocks,NYSE,ConsumerGoods
 Ginkgo Bioworks Holdings,DNA,Stocks,NYSE,ConsumerGoods
@@ -1738,17 +1219,12 @@ Nutrien Ltd,NTR,Stocks,NYSE,BasicMaterials
 TC Energy Corporation,TRP,Stocks,NYSE,Utilities
 Joby Aviation Inc,JOBY,Stocks,NYSE,IndustrialGoods
 Samsara Inc,IOT,Stocks,NYSE,Technology
-W R Berkley Corporation,WRB.US,Stocks,NYSE,Financial
 Noble Corporation Plc,NE,Stocks,NYSE,Utilities
-Invesco Ltd,IVZ.US,Stocks,NYSE,Financial
 Manulife Financial Corporation,MFC,Stocks,NYSE,Financial
-Valaris Limited,VAL.US,Stocks,NYSE,Utilities
 DoubleVerify Holdings Inc,DV,Stocks,NYSE,Technology
 Archer Aviation Inc,ACHR,Stocks,NYSE,IndustrialGoods
 Tidewater Inc,TDW,Stocks,NYSE,Utilities
-Voya Financial Inc,VOYA.US,Stocks,NYSE,Financial
 Fabrinet,FN,Stocks,NYSE,IndustrialGoods
-American Equity Investment Life Holding Company,AEL,Stocks,NYSE,Financial
 Comfort Systems USA Inc,FIX,Stocks,NYSE,IndustrialGoods
 Jackson Financial Inc,JXN,Stocks,NYSE,Financial
 Federated Hermes Inc,FHI,Stocks,NYSE,Financial
@@ -1759,12 +1235,8 @@ Full Truck Alliance Co. Ltd,YMM,Stocks,NYSE,Services
 Mueller Industries Inc,MLI,Stocks,NYSE,IndustrialGoods
 Brady Corporation,BRC,Stocks,NYSE,IndustrialGoods
 Vishay Intertechnology Inc,VSH,Stocks,NYSE,IndustrialGoods
-HEICO Corporation,HEI.A,Stocks,NYSE,IndustrialGoods
 Clear Secure Inc,YOU,Stocks,NYSE,Technology
-Gms Inc,GMS,Stocks,NYSE,ConsumerGoods
-Calix Inc,CALX.US,Stocks,NYSE,Services
 YPF Sociedad Anónima,YPF,Stocks,NYSE,Utilities
-Dun & Bradstreet Holdings Inc,DNB.US,Stocks,NYSE,ConsumerGoods
 Applied Industrial Technologies Inc,AIT,Stocks,NYSE,IndustrialGoods
 Par Pacific Holdings Inc,PARR,Stocks,NYSE,Utilities
 Primerica Inc,PRI,Stocks,NYSE,Financial
@@ -1776,10 +1248,8 @@ Sun Life Financial Inc,SLF,Stocks,NYSE,Financial
 Warrior Met Coal Inc,HCC,Stocks,NYSE,Utilities
 International Seaways Inc,INSW,Stocks,NYSE,IndustrialGoods
 Hims & Hers Health Inc,HIMS,Stocks,NYSE,Services
-Smith & Nephew plc,SNN.US,Stocks,NYSE,ConsumerGoods
 Simpson Manufacturing Co Inc,SSD,Stocks,NYSE,IndustrialGoods
 APi Group Corporation,APG,Stocks,NYSE,ConsumerGoods
-AXIS Capital Holdings Limited,AXS.US,Stocks,NYSE,Financial
 Xponential Fitness Inc,XPOF,Stocks,NYSE,ConsumerGoods
 John Wiley & Sons Inc,WLY,Stocks,NYSE,ConsumerGoods
 ACV Auctions Inc,ACVA,Stocks,NYSE,Technology
@@ -1793,13 +1263,10 @@ Ingevity Corporation,NGVT,Stocks,NYSE,BasicMaterials
 Blackstone Secured Lending Fund,BXSL,Stocks,NYSE,Financial
 Acushnet Holdings Corp,GOLF,Stocks,NYSE,ConsumerGoods
 Guess? Inc,GES,Stocks,NYSE,ConsumerGoods
-WNS Holdings Limited- ADR,WNS,Stocks,NYSE,Technology
 Arcus Biosciences Inc,RCUS,Stocks,NYSE,ConsumerGoods
 Carpenter Technology Corporation,CRS,Stocks,NYSE,BasicMaterials
 Gulfport Energy Corporation,GPOR,Stocks,NYSE,Utilities
 Psq Holdings Inc,PSQH,Stocks,NYSE,Services
-Arcosa Inc,ACA.US,Stocks,NYSE,IndustrialGoods
-Diamond Offshore Drilling Inc,DO,Stocks,NYSE,Utilities
 SPX Technologies Inc,SPXC,Stocks,NYSE,IndustrialGoods
 Federal Signal Corporation,FSS,Stocks,NYSE,IndustrialGoods
 Vista Energy SAB de CV,VIST,Stocks,NYSE,Utilities
@@ -1812,7 +1279,6 @@ Array Digital Infrastructure Inc,AD,Stocks,NYSE,Services
 CareTrust REIT Inc,CTRE,Stocks,NYSE,Financial
 T1 Energy Inc,TE,Stocks,NYSE,Utilities
 Gates Industrial Corporation plc,GTES,Stocks,NYSE,IndustrialGoods
-PowerSchool Holdings Inc,PWSC,Stocks,NYSE,Technology
 GATX Corporation,GATX,Stocks,NYSE,IndustrialGoods
 Teekay Tankers Ltd,TNK,Stocks,NYSE,IndustrialGoods
 Select Medical Holdings Corporation,SEM,Stocks,NYSE,ConsumerGoods
@@ -1824,21 +1290,18 @@ Schneider National Inc,SNDR,Stocks,NYSE,IndustrialGoods
 Dorian Lpg Ltd,LPG,Stocks,NYSE,IndustrialGoods
 Banc Of California,BANC,Stocks,NYSE,Financial
 NewMarket Corporation,NEU,Stocks,NYSE,BasicMaterials
-Moog Inc,MOG.A,Stocks,NYSE,IndustrialGoods
 Gildan Activewear Inc,GIL,Stocks,NYSE,ConsumerGoods
 Kemper Corporation,KMPR,Stocks,NYSE,Financial
 Century Communities Inc,CCS,Stocks,NYSE,ConsumerGoods
 Primo Brands Corp-A,PRMB,Stocks,NYSE,ConsumerGoods
 PJT Partners Inc,PJT,Stocks,NYSE,Financial
 Life Time Group Holdings Inc,LTH,Stocks,NYSE,ConsumerGoods
-Sitio Royalties Corp,STR,Stocks,NYSE,Utilities
 Ryerson Holding Corporation,RYI,Stocks,NYSE,IndustrialGoods
 Prestige Consumer Healthcare Inc,PBH,Stocks,NYSE,ConsumerGoods
 ESAB Corporation,ESAB,Stocks,NYSE,IndustrialGoods
 Beazer Homes USA Inc,BZH,Stocks,NYSE,ConsumerGoods
 Enpro Inc,NPO,Stocks,NYSE,IndustrialGoods
 Oscar Health Inc,OSCR,Stocks,NYSE,ConsumerGoods
-The Greenbrier Companies Inc,GBX.US,Stocks,NYSE,IndustrialGoods
 Wabash National Corporation,WNC,Stocks,NYSE,ConsumerGoods
 Canada Goose Holdings Inc,GOOS,Stocks,NYSE,ConsumerGoods
 La-Z-Boy Incorporated,LZB,Stocks,NYSE,ConsumerGoods
@@ -1848,19 +1311,15 @@ Ready Capital Corporation,RC,Stocks,NYSE,Financial
 Hillenbrand Inc,HI,Stocks,NYSE,IndustrialGoods
 Warby Parker Inc,WRBY,Stocks,NYSE,ConsumerGoods
 Orchid Island Ca,ORC,Stocks,NYSE,Financial
-Triumph Group Inc,TGI,Stocks,NYSE,IndustrialGoods
 Worthington Enterprises Inc,WOR,Stocks,NYSE,IndustrialGoods
 Core Laboratories Inc,CLB,Stocks,NYSE,Utilities
 Compañía de Minas Buenaventura S.A.A,BVN,Stocks,NYSE,BasicMaterials
-PGT Innovations Inc,PGTI,Stocks,NYSE,IndustrialGoods
 Stepan Company,SCL,Stocks,NYSE,BasicMaterials
 White Mountains Insurance Group Ltd,WTM,Stocks,NYSE,Financial
 The Buckle Inc,BKE,Stocks,NYSE,ConsumerGoods
-Masonite International Corporation,DOOR,Stocks,NYSE,IndustrialGoods
 Rpc Inc,RES,Stocks,NYSE,Utilities
 Rpt Realty,RPT.OLD,Stocks,NYSE,Financial
 Clearwater Analytics Holdings Inc,CWAN,Stocks,NYSE,Technology
-Pros Holdings Inc,PRO.US,Stocks,NYSE,Technology
 Cbiz Inc,CBZ,Stocks,NYSE,ConsumerGoods
 Wolverine World Wide Inc,WWW,Stocks,NYSE,ConsumerGoods
 Grupo Aeroportuario del Sureste S. A. B. de C. V.,ASR,Stocks,NYSE,IndustrialGoods
@@ -1873,7 +1332,6 @@ Sendas Distribuidora SA,ASAIY,Stocks,NYSE,ConsumerGoods
 Csw Industri Inc,CSW,Stocks,NYSE,IndustrialGoods
 Constellium Se,CSTM,Stocks,NYSE,BasicMaterials
 Methode Electronics Inc,MEI,Stocks,NYSE,ConsumerGoods
-Aar Corp,AIR.US,Stocks,NYSE,IndustrialGoods
 Easterly Government Properties Inc,DEA,Stocks,NYSE,Financial
 Global Ship Lease Inc,GSL,Stocks,NYSE,IndustrialGoods
 Xenia Hotels & Resorts Inc,XHR,Stocks,NYSE,Financial
@@ -1882,16 +1340,11 @@ ESCO Technologies Inc,ESE,Stocks,NYSE,IndustrialGoods
 Ellington Financial Inc,EFC,Stocks,NYSE,Financial
 Lindsay Corporation,LNN,Stocks,NYSE,IndustrialGoods
 Marinemax Inc,HZO,Stocks,NYSE,ConsumerGoods
-Mirion Technologies Inc,MIR.US,Stocks,NYSE,IndustrialGoods
 Arlo Technologies Inc,ARLO,Stocks,NYSE,ConsumerGoods
-Engagesmart Inc,ESMT,Stocks,NYSE,Technology
-SilverBow Resources Inc,SBOW,Stocks,NYSE,Utilities
 SFL Corporation Ltd,SFL,Stocks,NYSE,IndustrialGoods
 CNA Financial Corporation,CNA,Stocks,NYSE,Financial
 Minerals Technologies Inc,MTX,Stocks,NYSE,BasicMaterials
 A10 Networks Inc,ATEN,Stocks,NYSE,Services
-The Duckhorn Portfolio Inc,NAPA,Stocks,NYSE,ConsumerGoods
-Genco Shipping & Trading Limited,GNK.US,Stocks,NYSE,IndustrialGoods
 Dole Plc,DOLE,Stocks,NYSE,ConsumerGoods
 Materion Corporation,MTRN,Stocks,NYSE,IndustrialGoods
 US Physical Therapy Inc,USPH,Stocks,NYSE,ConsumerGoods
@@ -1901,12 +1354,9 @@ Resideo Technologies Inc,REZI,Stocks,NYSE,ConsumerGoods
 NuScale Power Corporation,SMR,Stocks,NYSE,IndustrialGoods
 Enhabit Inc,EHAB,Stocks,NYSE,ConsumerGoods
 Standex International Corporation,SXI,Stocks,NYSE,IndustrialGoods
-Clearway Energy Inc,CWEN.A,Stocks,NYSE,Utilities
 Enova International Inc,ENVA,Stocks,NYSE,Financial
 Ecovyst Inc,ECVT,Stocks,NYSE,BasicMaterials
-Lennar Corporation,LEN.B,Stocks,NYSE,ConsumerGoods
 Helios Technologies Inc,HLIO,Stocks,NYSE,IndustrialGoods
-Trinity Industries Inc,TRN.US,Stocks,NYSE,IndustrialGoods
 Banco Macro S A,BMA,Stocks,NYSE,Financial
 Zeta Global Holdings Corp,ZETA,Stocks,NYSE,Technology
 Wipro Limited,WIT,Stocks,NYSE,Technology
@@ -1914,11 +1364,9 @@ PennyMac Mortgage Investment Trust,PMT,Stocks,NYSE,Financial
 Genesco Inc,GCO,Stocks,NYSE,ConsumerGoods
 CTS Corporation,CTS,Stocks,NYSE,IndustrialGoods
 Atmus Filtration Technologies Inc,ATMU,Stocks,NYSE,IndustrialGoods
-Vector Group Ltd,VGR,Stocks,NYSE,ConsumerGoods
 Dream Finders Homes Inc,DFH,Stocks,NYSE,ConsumerGoods
 Federal Agricultural Mortgage Corporation,AGM,Stocks,NYSE,Financial
 National Health Investors Inc,NHI,Stocks,NYSE,Financial
-Textainer Group Holdings Limited,TGH,Stocks,NYSE,ConsumerGoods
 NatWest Group plc-ADR,NWG,Stocks,NYSE,Financial
 Crescent Energy Company,CRGY,Stocks,NYSE,Utilities
 Alamo Group Inc,ALG,Stocks,NYSE,IndustrialGoods
@@ -1937,21 +1385,16 @@ TIM SA,TIMB,Stocks,NYSE,Services
 Provident Financial Services Inc,PFS,Stocks,NYSE,Financial
 Weave Communications Inc,WEAV,Stocks,NYSE,Technology
 Utz Brands Inc,UTZ,Stocks,NYSE,ConsumerGoods
-Model N Inc,MODN.US,Stocks,NYSE,Technology
 Tennant Company,TNC,Stocks,NYSE,IndustrialGoods
 UMH Properties Inc,UMH,Stocks,NYSE,Financial
 Trinseo Plc,TSE,Stocks,NYSE,BasicMaterials
-Lions Gate Entertainment Corp,LGF.A,Stocks,NYSE,ConsumerGoods
 Kforce Inc,KFRC,Stocks,NYSE,ConsumerGoods
 Stewart Information Services Corporation,STC,Stocks,NYSE,Financial
 Mativ Holdings Inc,MATV,Stocks,NYSE,BasicMaterials
 Enerpac Tool Group Corp,EPAC,Stocks,NYSE,IndustrialGoods
-Altus Power Inc,AMPS,Stocks,NYSE,Utilities
 Donnelley Financial Solutions Inc,DFIN,Stocks,NYSE,Technology
 JELD-WEN Holding Inc,JELD,Stocks,NYSE,IndustrialGoods
-Lions Gate Entertainment Corp,LGF.B,Stocks,NYSE,ConsumerGoods
 HNI Corporation,HNI,Stocks,NYSE,ConsumerGoods
-Montrose Environmental Group Inc,MEG.US,Stocks,NYSE,IndustrialGoods
 Aegon Ltd,AEG,Stocks,NYSE,Financial
 BlueLinx Holdings Inc,BXC,Stocks,NYSE,ConsumerGoods
 Avanos Medical Inc,AVNS,Stocks,NYSE,ConsumerGoods
@@ -1961,7 +1404,6 @@ Ofg Bancorp,OFG,Stocks,NYSE,Financial
 LSB Industries Inc,LXU,Stocks,NYSE,IndustrialGoods
 Hovnanian Enterprises Inc,HOV,Stocks,NYSE,ConsumerGoods
 Ladder Capital Corp,LADR,Stocks,NYSE,Financial
-Gold.com Inc,GOLD.US,Stocks,NYSE,ConsumerGoods
 Sixth Street Specialty Lending Inc,TSLX,Stocks,NYSE,Financial
 National Bank Holdings Corporation,NBHC,Stocks,NYSE,Financial
 Goldman Sachs BDC Inc,GSBD,Stocks,NYSE,Financial
@@ -1971,11 +1413,9 @@ Perimeter Solutions SA,PRM,Stocks,NYSE,BasicMaterials
 Oklo Inc,OKLO,Stocks,NYSE,Services
 N-able Inc,NABL,Stocks,NYSE,Technology
 Corecivic Inc,CXW,Stocks,NYSE,ConsumerGoods
-VIZIO Holding Corp,VZIO,Stocks,NYSE,ConsumerGoods
 Tootsie Roll Industries Inc,TR,Stocks,NYSE,ConsumerGoods
 Cosan SA,CSAN,Stocks,NYSE,Utilities
 Centrus Energy Corp,LEU,Stocks,NYSE,BasicMaterials
-Mrc Global Inc,MRC.US,Stocks,NYSE,ConsumerGoods
 Ethan Allen Interiors Inc,ETD,Stocks,NYSE,ConsumerGoods
 Renasant Corporation,RNST,Stocks,NYSE,Financial
 WPP plc,WPP,Stocks,NYSE,Services
@@ -1983,35 +1423,25 @@ Ares Commercial Real Estate Corporation,ACRE,Stocks,NYSE,Financial
 Advansix Inc,ASIX,Stocks,NYSE,BasicMaterials
 Concord Acquisition Corp II,CNDA,Stocks,NYSE,Services
 Southside Bancshares Inc,SBSI,Stocks,NYSE,Financial
-The First Bancshares Inc,FBMS,Stocks,NYSE,Financial
 Covenant Logistics Group Inc,CVLG,Stocks,NYSE,IndustrialGoods
 James Hardie Industries plc,JHX,Stocks,NYSE,IndustrialGoods
-Banco de Chile,BCH.US,Stocks,NYSE,Financial
 Korea Electric Power Corporation,KEP,Stocks,NYSE,Utilities
 Woori Financial Group Inc,WF,Stocks,NYSE,Financial
 PLDT Inc,PHI,Stocks,NYSE,Services
 Ultrapar Participações SA,UGP,Stocks,NYSE,Utilities
 Turkcell Iletisim Hizmetleri AS,TKC,Stocks,NYSE,Services
-Instructure Holdings Inc,INST,Stocks,NYSE,Technology
-Greif Inc,GEF.B,Stocks,NYSE,IndustrialGoods
 Hagerty Inc,HGTY,Stocks,NYSE,Financial
 Intercorp Financial Services Inc,IFS,Stocks,NYSE,Financial
 Eve Holding Inc,EVEX,Stocks,NYSE,IndustrialGoods
 Ardagh Metal Packaging SA,AMBP,Stocks,NYSE,IndustrialGoods
-Paymentus Holdings Inc,PAY.US,Stocks,NYSE,ConsumerGoods
 Corporación América Airports SA,CAAP,Stocks,NYSE,ConsumerGoods
 Super Group SGHC Limited,SGHC,Stocks,NYSE,ConsumerGoods
-Transportadora de Gas del Sur SA,TGS.US,Stocks,NYSE,Utilities
-AssetMark Financial Holdings Inc,AMK,Stocks,NYSE,Financial
 Getty Images Holdings Inc,GETY,Stocks,NYSE,Services
 V2X Inc,VVX,Stocks,NYSE,ConsumerGoods
-SolarWinds Corporation,SWI,Stocks,NYSE,Technology
 Claros Mortgage Trust Inc,CMTG,Stocks,NYSE,Financial
 Soho House & Co Inc,SHCO,Stocks,NYSE,ConsumerGoods
 Custom Truck One Source Inc,CTOS,Stocks,NYSE,ConsumerGoods
-MeridianLink Inc,MLNK,Stocks,NYSE,Technology
 Compass Diversified,CODI,Stocks,NYSE,Financial
-Taro Pharmaceutical Industries Ltd,TARO,Stocks,NYSE,ConsumerGoods
 Global Industrial Company,GIC,Stocks,NYSE,ConsumerGoods
 Stellar Bancorp Inc,STEL,Stocks,NYSE,Financial
 Cadre Holdings Inc,CDRE,Stocks,NYSE,IndustrialGoods
@@ -2023,7 +1453,6 @@ Bain Capital Specialty Finance Inc,BCSF,Stocks,NYSE,Financial
 Armada Hoffler Properties Inc,AHH,Stocks,NYSE,Financial
 Origin Bancorp Inc,OBK,Stocks,NYSE,Financial
 REV Group Inc,REVG,Stocks,NYSE,ConsumerGoods
-Bridge Investment Group Holdings Inc,BRDG,Stocks,NYSE,Financial
 Quanex Building Products Corporation,NX,Stocks,NYSE,ConsumerGoods
 Benchmark Electronics Inc,BHE,Stocks,NYSE,IndustrialGoods
 Granite Ridge Resources Inc,GRNT,Stocks,NYSE,Utilities
@@ -2032,7 +1461,6 @@ Byline Bancorp Inc,BY,Stocks,NYSE,Financial
 Saul Centers Inc,BFS,Stocks,NYSE,Financial
 Yalla Group Limited,YALA,Stocks,NYSE,Technology
 Lifezone Metals Limited,LZM,Stocks,NYSE,BasicMaterials
-The Gorman-Rupp Company,GRC.US,Stocks,NYSE,IndustrialGoods
 Banco Latinoamericano de Comercio Exterior S A,BLX,Stocks,NYSE,Financial
 Noah Holdings Limited,NOAH,Stocks,NYSE,Financial
 Unitil Corporation,UTL,Stocks,NYSE,Utilities
@@ -2044,12 +1472,7 @@ Nexa Resources SA,NEXA,Stocks,NYSE,BasicMaterials
 Tompkins Financial Corporation,TMP,Stocks,NYSE,Financial
 Loma Negra Compañía Industrial Argentina Sociedad Anónima,LOMA,Stocks,NYSE,IndustrialGoods
 Ducommun Incorporated,DCO,Stocks,NYSE,IndustrialGoods
-Standard Motor Products Inc,SMP.US,Stocks,NYSE,ConsumerGoods
 Hyster-Yale Materials Handling Inc,HY,Stocks,NYSE,IndustrialGoods
-TDCX Inc,TDCX,Stocks,NYSE,Technology
-HireRight Holdings Corporation,HRT,Stocks,NYSE,Technology
-CBL & Associates Properties Inc,CBL.US,Stocks,NYSE,Financial
-BrightView Holdings Inc,BV.US,Stocks,NYSE,ConsumerGoods
 REX American Resources Corporation,REX,Stocks,NYSE,Utilities
 Douglas Dynamics Inc,PLOW,Stocks,NYSE,ConsumerGoods
 Teekay Corporation,TK,Stocks,NYSE,IndustrialGoods
@@ -2067,28 +1490,21 @@ Ennis Inc,EBF,Stocks,NYSE,ConsumerGoods
 Insteel Industries Inc,IIIN,Stocks,NYSE,IndustrialGoods
 Genie Energy Ltd,GNE,Stocks,NYSE,Utilities
 CION Investment Corporation,CION,Stocks,NYSE,Financial
-Kaman Corporation,KAMN,Stocks,NYSE,IndustrialGoods
 National Presto Industries Inc,NPK,Stocks,NYSE,IndustrialGoods
 Artivion Inc,AORT,Stocks,NYSE,ConsumerGoods
 Franklin Covey Co,FC,Stocks,NYSE,ConsumerGoods
 Whitestone REIT,WSR,Stocks,NYSE,Financial
-The Marcus Corporation,MCS.US,Stocks,NYSE,ConsumerGoods
 IRSA Inversiones y Representaciones Sociedad Anónima,IRS,Stocks,NYSE,Financial
 ACCO Brands Corporation,ACCO,Stocks,NYSE,ConsumerGoods
 VAALCO Energy Inc,EGY,Stocks,NYSE,Utilities
 Boston Omaha Corporation,BOC,Stocks,NYSE,Services
-Aris Water Solutions Inc,ARIS,Stocks,NYSE,Utilities
 Stoneridge Inc,SRI,Stocks,NYSE,IndustrialGoods
-TortoiseEcofin Acquisition Corp III,TRTLF,Stocks,NYSE,Services
 Universal Insurance Holdings Inc,UVE,Stocks,NYSE,Financial
 TPG RE Finance Trust Inc,TRTX,Stocks,NYSE,Financial
 Haverty Furniture Companies Inc,HVT,Stocks,NYSE,ConsumerGoods
 Central Pacific Financial Corp,CPF,Stocks,NYSE,Financial
-Solaris Energy Infrastructure,SEI.US,Stocks,NYSE,Utilities
 Vishay Precision Group Inc,VPG,Stocks,NYSE,Technology
 Miller Industries Inc,MLR,Stocks,NYSE,ConsumerGoods
-Crawford & Company,CRD.A,Stocks,NYSE,Financial
-Despegarcom Corp,DESP,Stocks,NYSE,Services
 Oil-Dri Corporation of America,ODC,Stocks,NYSE,BasicMaterials
 JJill Inc,JILL,Stocks,NYSE,ConsumerGoods
 One Liberty Properties Inc,OLP,Stocks,NYSE,Financial
@@ -2098,7 +1514,6 @@ Equity Bancshares Inc,EQBK,Stocks,NYSE,Financial
 Safe Bulkers Inc,SB,Stocks,NYSE,IndustrialGoods
 Turning Point Brands Inc,TPB,Stocks,NYSE,ConsumerGoods
 Bar Harbor Bankshares,BHB,Stocks,NYSE,Financial
-Overseas Shipholding Group Inc,OSG.US,Stocks,NYSE,IndustrialGoods
 Xperi Inc,XPER,Stocks,NYSE,ConsumerGoods
 CTO Realty Growth Inc,CTO,Stocks,NYSE,Financial
 Oppenheimer Holdings Inc,OPY,Stocks,NYSE,Financial
@@ -2108,13 +1523,10 @@ Rigel Resource Acquisition Corp,RRACF,Stocks,NYSE,Services
 TrueBlue Inc,TBI,Stocks,NYSE,ConsumerGoods
 MBIA Inc,MBI,Stocks,NYSE,Financial
 TriplePoint Venture Growth BDC Corp,TPVG,Stocks,NYSE,Financial
-Gatos Silver Inc,GATO,Stocks,NYSE,BasicMaterials
 Ranger Energy Services Inc,RNGR,Stocks,NYSE,Utilities
 Postal Realty Trust Inc,PSTL,Stocks,NYSE,Financial
 Carriage Services Inc,CSV,Stocks,NYSE,ConsumerGoods
 BRT Apartments Corp,BRT,Stocks,NYSE,Financial
-Saratoga Investment Corp,SAR.US,Stocks,NYSE,Financial
-Eastman Kodak Company,KODK.US,Stocks,NYSE,IndustrialGoods
 Park Aerospace Corp,PKE,Stocks,NYSE,IndustrialGoods
 Ranpak Holdings Corp,PACK,Stocks,NYSE,IndustrialGoods
 FutureFuel Corp,FF,Stocks,NYSE,Utilities
@@ -2123,17 +1535,14 @@ Ooma Inc,OOMA,Stocks,NYSE,Services
 Stellus Capital Investment Corporation,SCM,Stocks,NYSE,Financial
 Amplify Energy Corp,AMPY,Stocks,NYSE,Utilities
 Radiant Logistics Inc,RLGT,Stocks,NYSE,IndustrialGoods
-PlayAGS Inc,AGS,Stocks,NYSE,Technology
 ON24 Inc,ONTF,Stocks,NYSE,Technology
 American Vanguard Corporation,AVD,Stocks,NYSE,BasicMaterials
-Quad/Graphics Inc,QUAD.US,Stocks,NYSE,ConsumerGoods
 Core Molding Technologies Inc,CMT,Stocks,NYSE,IndustrialGoods
 Tillys Inc,TLYS,Stocks,NYSE,ConsumerGoods
 Everest Consolidator Acquisition Corporation,EVCO,Stocks,NYSE,Services
 Luxfer Holdings PLC,LXFR,Stocks,NYSE,IndustrialGoods
 Regional Management Corp,RM,Stocks,NYSE,Financial
 Mayville Engineering Company Inc,MEC,Stocks,NYSE,IndustrialGoods
-Forum Energy Technologies Inc,FET.US,Stocks,NYSE,Utilities
 Offerpad Solutions Inc,OPAD,Stocks,NYSE,Financial
 Caledonia Mining Corporation Plc,CMCL,Stocks,NYSE,BasicMaterials
 Evolution Petroleum Corporation,EPM,Stocks,NYSE,Utilities
@@ -2141,9 +1550,7 @@ Cooper-Standard Holdings Inc,CPS,Stocks,NYSE,ConsumerGoods
 Granite Point Mortgage Trust Inc,GPMT,Stocks,NYSE,Financial
 Alpine Income Property Trust Inc,PINE,Stocks,NYSE,Financial
 Onity Group Inc,ONIT,Stocks,NYSE,Financial
-CoreCard Corporation,CCRD,Stocks,NYSE,Technology
 Mistras Group Inc,MG,Stocks,NYSE,IndustrialGoods
-EVe Mobility Acquisition Corp,EVE,Stocks,NYSE,Services
 Tredegar Corporation,TG,Stocks,NYSE,IndustrialGoods
 Contango Ore Inc,CTGO,Stocks,NYSE,BasicMaterials
 Sachem Capital Corp,SACH,Stocks,NYSE,Financial
@@ -2152,9 +1559,7 @@ Zapata Computing Holdings Inc,ZPTA,Stocks,NYSE,Services
 City Office REIT Inc,CIO,Stocks,NYSE,Financial
 Nine Energy Service Inc,NINE,Stocks,NYSE,Utilities
 Unifi Inc,UFI,Stocks,NYSE,BasicMaterials
-Zalatoris Acquisition Corp,TCOA,Stocks,NYSE,Services
 Rithm Property Trust Inc,RPT,Stocks,NYSE,Financial
-Terran Orbital Corp,LLAP,Stocks,NYSE,Services
 Ess Tech Inc,GWH,Stocks,NYSE,IndustrialGoods
 Ring Energy Inc,REI,Stocks,NYSE,Utilities
 Nextdoor Holdings Inc,NXDR,Stocks,NYSE,Services
@@ -2164,100 +1569,19 @@ Iamgold Corp,IAG,Stocks,NYSE,BasicMaterials
 Cel-Sci Corp,CVM,Stocks,NYSE,ConsumerGoods
 Nerdy Inc,NRDY,Stocks,NYSE,Services
 Smartrent Inc,SMRT,Stocks,NYSE,IndustrialGoods
-Ll Flooring Holdings Inc,LLFLQ,Stocks,NYSE,ConsumerGoods
 Enel Chile Sa,ENIC,Stocks,NYSE,Utilities
-Novagold Resources Inc,NG.US,Stocks,NYSE,BasicMaterials
 Amprius Technologies Inc,AMPX,Stocks,NYSE,IndustrialGoods
-Sandstorm Gold Ltd,SAND.US,Stocks,NYSE,BasicMaterials
 Equinox Gold Corp,EQX,Stocks,NYSE,BasicMaterials
 Unisys Corp,UIS,Stocks,NYSE,Technology
 Volato Group Inc,SOAR,Stocks,NYSE,ConsumerGoods
-Silvercrest Metals Inc,SILV,Stocks,NYSE,BasicMaterials
-Almacenes Exito Sa,EXTOY,Stocks,NYSE,ConsumerGoods
 Heritage Insurance Holdings,HRTG,Stocks,NYSE,Financial
 QXO Inc,QXO,Stocks,NYSE,Technology
-Enphys Acquisition Corp,NFSCF,Stocks,NYSE,Services
-Roundhill Ball Metaverse Etf,METV,ETF,NYSE,-
-OR Royalties Ltd,OR.US,Stocks,NYSE,BasicMaterials
-Invesco Financial Preferred,PGF,ETF,NYSE,-
 Bausch + Lomb Corp,BLCO,Stocks,NYSE,ConsumerGoods
 Veris Residentia,VRE,Stocks,NYSE,Financial
-Ft-Preferred Secur & Inc Etf,FPE.US,ETF,NYSE,-
-Global X Russell 2000 Cov Cl,RYLD,ETF,NYSE,-
-Vaneck Pref Sec X-Financials,PFXF,ETF,NYSE,-
-Invesco Cef Income Composite,PCEF,ETF,NYSE,-
-Invesco Fundamental High Yie,PHB,ETF,NYSE,-
-Ishares Msci Singapore Etf,EWS,ETF,NYSE,-
-Franklin Investment Grade Co,FLCO,ETF,NYSE,-
-Ishares Msci Indonesia Etf,EIDO,ETF,NYSE,-
-Capital Group Core Plus Inco,CGCP,ETF,NYSE,-
-Spdr Bloomberg Int Treasury,BWX,ETF,NYSE,-
-Simplify Volatility Premium,SVOL,ETF,NYSE,-
-Invesco Variable Rate Prefer,VRP,ETF,NYSE,-
-SPDR Portfolio Long Term Corporate Bond ETF,SPLB,ETF,NYSE,-
-First Trust Tcw Unconstraine,UCON,ETF,NYSE,-
 Telkom Indonesia Persero Tbk Pt,TLK,Stocks,NYSE,Services
-Wisdmtree Emerg Mkt Ex-St Ow,XSOE,ETF,NYSE,-
-Ishares Latin America 40 Etf,ILF.US,ETF,NYSE,-
-Invesco Wilderhill Clean Ene,PBW.US,ETF,NYSE,-
 Diebold Nixdorf Inc,DBD,Stocks,NYSE,Technology
-SPDR Portfolio Corporate Bond ETF,CBND,ETF,NYSE,-
-Horizon Kinetics Infl Benef,INFL,ETF,NYSE,-
-Ishares Msci Spain Etf,EWP,ETF,NYSE,-
-Iq Merger Arbitrage Etf,MNA,ETF,NYSE,-
-Schwab Intl Small-Cap Equity,SCHC,ETF,NYSE,-
-Invesco RAFI US 1000 ETF,PRF,ETF,NYSE,-
-Ishares Currency Hedged Msci,HEZU,ETF,NYSE,-
-Global X Copper Miners Etf,COPX,ETF,NYSE,-
-Ishares Msci Canada Etf,EWC,ETF,NYSE,-
-Dimensional Us Marketwide Va,DFUV,ETF,NYSE,-
-Ishares Msci International Q,IQLT,ETF,NYSE,-
-Xtrackers Msci Eafe Hedged E,DBEF,ETF,NYSE,-
-SPDR S&P 500 Fossil Fuel Reserves Free ETF,SPYX,ETF,NYSE,-
 Corp Inmobiliaria Vesta Sab De Cv,VTMX,Stocks,NYSE,Financial
-Global X S&P 500 Cove Call E,XYLD,ETF,NYSE,-
-Wisdomtree India Earnings,EPI,ETF,NYSE,-
-Ishrs Msci Saudi Arabia Etf,KSA,ETF,NYSE,-
-Ishares Core Moderate Alloca,AOM.US,ETF,NYSE,-
-Spdr Dj Global Real Estate E,RWO,ETF,NYSE,-
-Wisdomtree Europe Hedged Equ,HEDJ,ETF,NYSE,-
-SPDR S&P Kensho New Economies Composite ETF,KOMP,ETF,NYSE,-
-SPDR SSGA US Sector Rotation ETF,XLSR,ETF,NYSE,-
-Invesco S&P 500 Equal Weight,RSPD,ETF,NYSE,-
-Ishares Esg Aware Us Aggrega,EAGG,ETF,NYSE,-
 Sharkninja Inc,SN,Stocks,NYSE,ConsumerGoods
-SPDR Nuveen ICE Short Term Municipal Bond ETF,SHM,ETF,NYSE,-
-Wisdomtree Em Small Cap,DGS,ETF,NYSE,-
-Dimensional Us Target Value,DFAT,ETF,NYSE,-
-Schwab Short-Term Us Treas,SCHO,ETF,NYSE,-
-Janus Henderson Aaa Clo Etf,JAAA,ETF,NYSE,-
-Schwab Fundamental Small Cap,FNDA,ETF,NYSE,-
-Ishares 10+ Year Inv Gr Corp,IGLB,ETF,NYSE,-
-Schwab Us Broad Market Etf,SCHB,ETF,NYSE,-
-Spdr S&P Global Infrastructu,GII,ETF,NYSE,-
-Spdr S&P Gl Nat Resources,GNR,ETF,NYSE,-
-Jpmorgan Equity Premium Inco,JEPI,ETF,NYSE,-
-First Trust Long/Short Eqty,FTLS,ETF,NYSE,-
-SPDR Portfolio S&P 1500 Composite Stock Market ETF,SPTM,ETF,NYSE,-
-Vaneck Rare Earth and Strategic Metals,REMX,ETF,NYSE,-
-Jpmorgan Int Res Enh Eqty,JIRE,ETF,NYSE,-
-Direxion Daily Tech Bull 3X,TECL,ETF,NYSE,-
-APDR S&P Retail ETF,XRT,ETF,NYSE,-
-Vaneck Agribusiness Etf,MOO,ETF,NYSE,-
-Ishares Global 100 Etf,IOO,ETF,NYSE,-
-SPDR S&P Oil & Gas Equipment & Services ETF,XES,ETF,NYSE,-
-Pimco 25+ Yr Zero Cpn Us Tif,ZROZ,ETF,NYSE,-
-Invesco S&P Midcap Momentum,XMMO,ETF,NYSE,-
-Invesco S&P 100 Equal Weight,EQWL,ETF,NYSE,-
-SPDR S&P Homebuilders ETF,XHB,ETF,NYSE,-
-Drx Dly Reg Bank Bull 3X,DPST,ETF,NYSE,-
-Pimco 0-5 Year H/Y Corp Bond,HYS,ETF,NYSE,-
-Vanguard Sh Term Tax-Ex Bond,VTES,ETF,NYSE,-
-Ishares Short-Term National,SUB,ETF,NYSE,-
-Ishares Agency Bond Etf,AGZ,ETF,NYSE,-
-Ishares Global Industrials E,EXI,ETF,NYSE,-
-SPDR S&P Software & Services ETF,XSW,ETF,NYSE,-
-Ishares Us Pharmaceuticals E,IHE,ETF,NYSE,-
 Lineage Cell Therapeutics In,LCTX,Stocks,NYSE,ConsumerGoods
 D-Wave Quantum Inc,QBTS,Stocks,NYSE,Technology
 Fiscalnote Holdings Inc,NOTE,Stocks,NYSE,ConsumerGoods
@@ -2272,18 +1596,15 @@ Lion Electric Co/The,LEVGQ,Stocks,NYSE,ConsumerGoods
 Wheels Up Experience Inc,UP,Stocks,NYSE,ConsumerGoods
 Wallbox Nv,WBX,Stocks,NYSE,IndustrialGoods
 Rubicon Technologies Inc,RBTC,Stocks,NYSE,Technology
-Container Store Group Inc/Th,TCSGQ,Stocks,NYSE,ConsumerGoods
 Loandepot Inc -Class A,LDI,Stocks,NYSE,Financial
 Ses Ai Corp,SES,Stocks,NYSE,ConsumerGoods
 Traeger Inc,COOK,Stocks,NYSE,ConsumerGoods
 Douglas Elliman Inc,DOUG,Stocks,NYSE,Financial
 Valens Semiconductor Ltd,VLN,Stocks,NYSE,Technology
-Redwire Corp,RDW.US,Stocks,NYSE,IndustrialGoods
 Allurion Technologies Inc,ALUR,Stocks,NYSE,ConsumerGoods
 LuxExperience BV,LUXE,Stocks,NYSE,Services
 Brc Inc-A,BRCC,Stocks,NYSE,ConsumerGoods
 Oppfi Inc,OPFI,Stocks,NYSE,Financial
-Grupo Supervielle Sa,SUPV.US,Stocks,NYSE,Financial
 Myomo Inc,MYO,Stocks,NYSE,ConsumerGoods
 Entravision Communications-A,EVC,Stocks,NYSE,Services
 Orion Group Holdings Inc,ORN,Stocks,NYSE,IndustrialGoods
@@ -2295,8 +1616,6 @@ Kingsway Financial Services,KFS,Stocks,NYSE,Financial
 Annovis Bio,ANVS,Stocks,NYSE,ConsumerGoods
 Kodiak Robotics Inc,KDK,Stocks,NYSE,Services
 GCT Semiconductor Holding Inc,GCTS,Stocks,NYSE,Services
-Sdcl Edge Acquisition Corp-A,SEDA,Stocks,NYSE,Services
-Ap Acquisition Corp-A,APCA,Stocks,NYSE,Services
 Colony Bankcorp,CBAN,Stocks,NYSE,Financial
 Universal Technical Institut,UTI,Stocks,NYSE,ConsumerGoods
 Triple Flag Precious Metals Corp,TFPM,Stocks,NYSE,BasicMaterials
@@ -2311,40 +1630,25 @@ Civeo Corp,CVEO,Stocks,NYSE,Utilities
 Smartfinancial Inc,SMBK,Stocks,NYSE,Financial
 Hometrust Bancshares Inc,HTB,Stocks,NYSE,Financial
 Evi Industries Inc,EVI,Stocks,NYSE,ConsumerGoods
-Guaranty Bancshares Inc,GNTY,Stocks,NYSE,Financial
 M-Tron Industries Inc,MPTI,Stocks,NYSE,IndustrialGoods
-Ishares Self-Driving Ev&Tech,IDRV,ETF,NYSE,-
-iShares World X U.S. Carbon,LCTD,ETF,NYSE,-
-Invesco S&P Smallcap Low Vol,XSLV,ETF,NYSE,-
-Spdr S&P North American Natu,NANR,ETF,NYSE,-
 Belpointe Prep Llc,OZ,Stocks,NYSE,Financial
-Ishares Global Financials Et,IXG,ETF,NYSE,-
-Xtrackers Msci Kokusai Eqty,KOKU,ETF,NYSE,-
 Orix Corp,IX,Stocks,NYSE,Financial
-Wisdomtree Us Ai Enhanced Va,AIVL,ETF,NYSE,-
-Ishares U.S. Broker-Dealers,IAI.US,ETF,NYSE,-
 Biglari Holdings Inc-B,BH,Stocks,NYSE,ConsumerGoods
 YXT.COM Group Holding Ltd,YXT,Stocks,NYSE,Technology
 Ingram Micro Holding Corporation,INGM,Stocks,NYSE,Technology
 Everus Construction Group Inc,ECG,Stocks,NYSE,Services
 Millrose Properties Inc,MRP,Stocks,NYSE,Services
 Aspen Insurance Holdings Limited,AHL,Stocks,NYSE,Financial
-Concentra Group Holdings,CON.US,Stocks,NYSE,Healthcare
 Newsmax Inc,NMAX,Stocks,NYSE,Technology
 Hinge Health Inc,HNGE,Stocks,NYSE,Technology
 MNTN Inc,MNTN,Stocks,NYSE,Services
 Delek Logistics Partners LP,DKL,Stocks,NYSE,BasicMaterials
 Klarna Group plc,KLAR,Stocks,NYSE,Financial
-CEPU SPIN OFF CVR,CEPU Escrow asset,Stocks,NYSE,Financial
-IGMS CVR delisting,IGMS CVR,Stocks,NYSE,Financial
-Grayscale Bitcoin Mini Trust,BTC.US,ETF,NYSE,Financial
-First Trust Limited Duration Investment Grade Corporate ETF,FSIG,ETF,NYSE,-
 Ralliant Corp,RAL,Stocks,NYSE,IndustrialGoods
 NIQ Global Intelligence plc,NIQ,Stocks,NYSE,BasicMaterials
 Accelerant Holdings,ARX,Stocks,NYSE,Technology
 McGraw Hill Inc,MH,Stocks,NYSE,Technology
 Cango Inc,CANG,Stocks,NYSE,Technology
-Genius Group Ltd,GNS.US,Stocks,NYSE,ConsumerGoods
 Bitmine Immersion Technologies Inc,BMNR,Stocks,NYSE,Technology
 Voyager Technologies Inc,VOYG,Stocks,NYSE,IndustrialGoods
 China Yuchai International Ltd,CYD,Stocks,NYSE,IndustrialGoods
@@ -2364,13 +1668,7 @@ Alliance Laundry Holdings Inc,ALH,Stocks,NYSE,IndustrialGoods
 "Phoenix Education Partners, Inc",PXED,Stocks,NYSE,Services
 "BETA Technologies, Inc",BETA,Stocks,NYSE,IndustrialGoods
 Sony Financial Group Inc,SFGYY,Stocks,NYSE,Services
-Bed Bath & Beyond Incorporation Warrant,BBBY.WS,Stocks,NYSE,ConsumerGoods
-GameStop Corp. warrant,GME.WS,Stocks,NYSE,ConsumerGoods
 Wolfspeed Inc,WOLF,Stocks,NYSE,Technology
-SONN CVR Megrer,SONN CVR,Stocks,NYSE,BasicMaterials
-WOLF Reclass ESCROW.CVR,WOLF ESCROW.CVR,Stocks,NYSE,BasicMaterials
-Sanofi and BPMC Acquisition CVR,BPMC CVR,Stocks,NYSE,BasicMaterials
-FNA US merger/Zimmer holdings CVR,ZIMMER-CVR,Stocks,NYSE,BasicMaterials
 Circle Internet Group Inc,CRCL,Stocks,NYSE,Technology
 Acuren Corp,TIC,Stocks,NYSE,IndustrialGoods
 American Exceptionalism Acquisition Corp A,AEXA,Stocks,NYSE,Financial
@@ -2396,11 +1694,8 @@ Exzeo Group Inc,XZO,Stocks,NYSE,Financial
 Ibotta Inc,IBTA,Stocks,NYSE,Technology
 Lionsgate Studios Corp,LION,Stocks,NYSE,ConsumerGoods
 Biglari Holdings Inc,BHa,Stocks,NYSE,ConsumerGoods
-Idaho Strategic Resources Inc,IDR.US,Stocks,NYSE,BasicMaterials
 SmartStop Self Storage REIT Inc,SMA,Stocks,NYSE,BasicMaterials
-Aeromexico Group,AERO.US,Stocks,NYSE,IndustrialGoods
-MAGNUM ICE CREAM CO BV,MICC.US,Stocks,NYSE,ConsumerGoods
-Axia Energia-ADR,AXIA.PC,Stocks,NYSE,Utilities
+"BitGo Holdings, Inc",BTGO,Stocks,NYSE,BasicMaterials
 Hafnia Ltd,HAFN,Stocks,NYSE,BasicMaterials
 GFL Environmental Inc,GFL,Stocks,NYSE,IndustrialGoods
 Cae Inc,CAE,Stocks,NYSE,IndustrialGoods
@@ -2449,7 +1744,6 @@ Watsco Inc,WSO-B,Stocks,NYSE,-
 Westwater Resources Inc,WWR,Stocks,NYSE,-
 CompX International Inc,CIX,Stocks,NYSE,-
 ACCESS Newswire Inc,ACCS,Stocks,NYSE,-
-Alpha Pro Tech Ltd,APT.US,Stocks,NYSE,-
 Natuzzi SpA,NTZ,Stocks,NYSE,-
 Emerson Radio Corp,MSN,Stocks,NYSE,-
 Birks Group Inc,BGI,Stocks,NYSE,-
@@ -2461,13 +1755,11 @@ CKX Lands Inc,CKX,Stocks,NYSE,-
 Equus Total Return Inc,EQS,Stocks,NYSE,-
 New Concept Energy Inc,GBR,Stocks,NYSE,-
 InnSuites Hospitality Trust,IHT,Stocks,NYSE,-
-TRX Gold Corp,TRX.US,Stocks,NYSE,-
 Star Group LP,SGU,Stocks,NYSE,-
 Theriva Biologics Inc,TOVX,Stocks,NYSE,-
 Blue Ridge Bankshares Inc,BRBS,Stocks,NYSE,-
 Citizens Inc/TX,CIA,Stocks,NYSE,-
 Embotelladora Andina SA,AKO-B,Stocks,NYSE,-
-Gray Media Inc,GTN.A,Stocks,NYSE,-
 John Wiley & Sons Inc,WLYB,Stocks,NYSE,-
 Marygold Cos Inc/The,MGLD,Stocks,NYSE,-
 QIAGEN NV,QGEN,Stocks,NYSE,-
@@ -2509,7 +1801,6 @@ DSS Inc,DSS,Stocks,NYSE,-
 ATS Corp,ATS,Stocks,NYSE,-
 Abundia Global Impact Group Inc,AGIG,Stocks,NYSE,-
 Molson Coors Beverage Co,TAP-A,Stocks,NYSE,-
-Solitario Resources Corp,XPL.US,Stocks,NYSE,-
 West Fraser Timber Co Ltd,WFG,Stocks,NYSE,-
 Platinum Group Metals Ltd,PLG,Stocks,NYSE,-
 China Pharma Holdings Inc,CPHI,Stocks,NYSE,-
@@ -2646,7 +1937,6 @@ Exodus Movement Inc,EXOD,Stocks,NYSE,-
 KORE Group Holdings Inc,KORE,Stocks,NYSE,-
 MAIA Biotechnology Inc,MAIA,Stocks,NYSE,-
 DingDong Cayman Ltd,DDL,Stocks,NYSE,-
-Brookfield Wealth Solutions Ltd,BNT.US,Stocks,NYSE,-
 Moving Image Technologies Inc,MITQ,Stocks,NYSE,-
 Collective Mining Ltd,CNL,Stocks,NYSE,-
 Zevia PBC,ZVIA,Stocks,NYSE,-
@@ -2739,7 +2029,6 @@ Bluerock Homes Trust Inc,BHM,Stocks,NYSE,-
 Strawberry Fields REIT Inc,STRW,Stocks,NYSE,-
 FrontView REIT Inc,FVR,Stocks,NYSE,-
 Rice Acquisition Corp 3,KRSP,Stocks,NYSE,-
-SOS Ltd,SOS.US,Stocks,NYSE,-
 SMJ International Holdings Inc,SMJF,Stocks,NYSE,-
 Off The Hook YS Inc,OTH,Stocks,NYSE,-
 Evommune Inc,EVMN,Stocks,NYSE,-
