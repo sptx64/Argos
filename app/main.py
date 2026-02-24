@@ -9,7 +9,9 @@ import streamlit as st
 pages_dict = {"HOME":[st.Page("directory/00-Panoptes.py", title="Home", icon=":material/home:", default=True)],
                 "UPDATE":[ st.Page("directory/01_Hermes.py", title="Hermes", icon=":material/cloud:"),],
                 "EXPLORE":[st.Page("directory/02_️Argos.py", title="Argos", icon=":material/ophthalmology:"),
-                            st.Page("directory/03_Zeus.py", title="Zeus", icon=":material/bolt:"),] }
+                            st.Page("directory/03_Zeus.py", title="Zeus", icon=":material/bolt:"),
+                            st.Page("directory/04_Panel.py", title="Panel", icon=":material/bolt:"),
+                            st.Page("directory/05_Corr.py", title="Correlations", icon=":material/bolt:")] }
                             # st.Page("directory/03_Zeus_echarts.py", title="Zeus_ec", icon=":material/bolt:")] }
 
 pg = st.navigation(pages_dict, position="top")
