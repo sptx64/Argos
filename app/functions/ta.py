@@ -28,54 +28,6 @@ def np_rsi(close, periods):
 
     return rsi
 
-def acd(volume, close, high, low) :
-    "accumulation distribution"
-    close = np.array(close)
-    high = np.array(high)
-    low = np.array(low)
-    volume = np.array(volume)
-    
-    # Calculer le Money Flow Multiplier (MFM)
-    mfm = ((close - low) - (high - close)) / (high - low)
-    mfm = np.where(high == low, 0, mfm)
-    mfv = mfm * volume
-    ad_line = np.cumsum(mfv)
-    return ad_line, mfv
-    
-def bull_bear_acd_div(data) :
-    if "ACD" not in data :
-        data['ACD'] = acd(data["Volume"].values, data["Close"].values, data["High"].values, data["Low"].values)
-    data = data.reset_index(drop=True)
-
-    a_values = data['ACD'].values
-
-    distance = 7
-    tops = argrelextrema(a_values, np.greater, order=distance)
-    bottoms = argrelextrema(a_values, np.less, order=distance)
-
-    data.loc[:, 'top_acd'] = False
-    for i in tops[0] :
-        # data['top_rsi'][i] = True
-        data.loc[i, 'top_acd'] = True
-        #data.loc[data.index == i, 'top_rsi'] = True
-
-    data.loc[:, 'bot_acd'] = False
-    for i in bottoms[0] :
-        # data['bot_rsi'][i] = True
-        data.loc[i, 'bot_acd'] = True
-        #data.loc[data.index == i, 'top_rsi'] = True
-    
-    data_bottom = data[data['bot_acd'] == True]
-    data_bottom['bullish_acd_div'] = [ None for y in range(len(data_bottom))]
-    data_bottom.loc[(data_bottom['ACD'] >= data_bottom['ACD'].shift(1)) & (data_bottom['Close'] <= data_bottom['Close'].shift(1)), 'bullish_acd_div'] = True
-
-
-    data_top = data[data['top_acd'] == True]
-    data_top['bearish_acd_div'] = [None for y in range(len(data_top))]
-    data_top.loc[(data_top['ACD'] <= data_top['ACD'].shift(1)) & (data_top['Close'] >= data_top['Close'].shift(1)), 'bearish_acd_div'] = True
-    return data, data_bottom, data_top
-
-
 
 def check_supertrend_flip(data, period=10, multiplier=3):
     """
@@ -203,8 +155,11 @@ def check_stochastic(data, k=14, d=3, smooth=3):
 
 
 def df_check() :
-    df = pd.DataFrame({'ta_ref' : ['touching_MA','above_rsi', 'under_rsi', 'above_bb', 'under_bb', 'hu_mean', 'um', 'ham', 'squeeze', 'tweezer','divergence', 'compression', 'volume', "wick", "dot"], 'result' : ['', '','','','','','','','','','','','','','']})
-    #df = pd.DataFrame({'ta_ref' : ['touching_MA','above_rsi', 'under_rsi', 'above_bb', 'under_bb', 'hu_mean', 'um', 'ham', 'squeeze', 'tweezer','divergence'], 'result' : ['','','','','','','','','','','']})
+    list_check = ['touching_MA','above_rsi', 'under_rsi', 'above_k', 'under_k',
+                    'above_bb', 'under_bb', 'hu_mean', 'um', 'ham', 'squeeze',
+                    'tweezer','divergence', 'compression', 'volume', "wick",
+                    "dot","ao_breakout_up","ao_breakout_down"]
+    df = pd.DataFrame({'ta_ref' : list_check, 'result' : [ '' for _ in list_check ]  })
     return df
 
 def MA(df, window) :
@@ -240,7 +195,8 @@ def RSI(df, periods):
 
 
 def check_if_above_rsi(df, periods, ab_rsi_number) :
-    df['RSI'] = RSI(df, periods)
+    if not "RSI" in df :
+        df['RSI'] = RSI(df, periods)
     rsi_vals = df['RSI'].values
     state = False
     if rsi_vals[-1] >= ab_rsi_number :
@@ -248,10 +204,44 @@ def check_if_above_rsi(df, periods, ab_rsi_number) :
     return state
 
 def check_if_under_rsi(df, periods, un_rsi_number) :
-    df['RSI'] = RSI(df, periods)
+    if not "RSI" in df :
+        df['RSI'] = RSI(df, periods)
     rsi_vals = df['RSI'].values
     state = False
     if rsi_vals[-1] <= un_rsi_number :
+        state = True
+    return state
+
+
+def kd(df, n=34, x=5) :
+    C  = df["Close"]
+    Ln = df["Low"].rolling(n).min()
+    Hn = df["High"].rolling(n).max()
+
+    df["%K"] = 100 * ((C-Ln)/(Hn-Ln))
+
+    Hx = (C-Ln).rolling(x).mean()
+    Lx = (Hn-Ln).rolling(x).mean()
+
+    df["%D"] = 100 * (Hx/Lx)
+
+    return df["%K"], df["%D"]
+
+def check_if_above_k(df, ab_k_number) :
+    if not "%K" in df :
+        df['%K'], _ = kd(df)
+    k_vals = df['%K'].values
+    state = False
+    if k_vals[-1] >= ab_k_number :
+        state = True
+    return state
+
+def check_if_under_k(df, un_k_number) :
+    if not "%K" in df :
+        df['%K'], _ = kd(df)
+    k_vals = df['%K'].values
+    state = False
+    if k_vals[-1] <= un_k_number :
         state = True
     return state
 
@@ -493,7 +483,7 @@ def bull_bear_rsi_div(data) :
         # data['bot_rsi'][i] = True
         data.loc[i, 'bot_rsi'] = True
         #data.loc[data.index == i, 'top_rsi'] = True
-    
+
     data_bottom = data[data['bot_rsi'] == True]
     data_bottom['bullish_rsi_div'] = [ None for y in range(len(data_bottom))]
     data_bottom.loc[(data_bottom['rsi'] >= data_bottom['rsi'].shift(1)) & (data_bottom['Close'] <= data_bottom['Close'].shift(1)), 'bullish_rsi_div'] = True
@@ -636,3 +626,71 @@ def pearson_rsi(data, grid_x, grid_type, gs_multiwindow):
             data[grid_type] = data['Close'].rolling(window, min_periods=1).corr(data["RSI"])
 
     return data
+
+
+
+def detect_star(df):
+    # C1 (il y a 2 bougies)
+    c1_open = df['Open'].shift(2) ; c1_close = df['Close'].shift(2)
+    c1_body = (c1_open - c1_close).abs() # Positif si baissier
+    c1_wick = df['High'].shift(2) - df['Low'].shift(2)
+
+
+    # C2 (il y a 1 bougie)
+    c2_open = df['Open'].shift(1) ; c2_close = df['Close'].shift(1)
+    c2_body = (c2_open - c2_close).abs()
+
+
+    # C3 (bougie actuelle)
+    c3_open = df['Open'] ; c3_close = df['Close']
+    c3_body = (c3_close - c3_open).abs() # Positif si haussier
+    c3_wick = df['High'] - df['Low']
+
+    # 1. Couleurs : C1 rouge, C3 verte
+    cond_colors_morning = (c1_close < c1_open) & (c3_close > c3_open)
+    cond_colors_evening = (c1_close > c1_open) & (c3_close < c3_open)
+
+
+    # 2. Taille : C2 doit être une petite bougie (ex: < 30% de C1)
+    cond_small_star = c2_body < (c1_body * 0.3)
+
+    # 3. Position : C2 doit se situer sous la clôture de C1 (gap ou point bas)
+    cond_star_pos_morning = (c2_open <= c1_close) & (c2_close <= c1_close) & ((c2_close <= c3_open) | (c2_open <= c3_open))
+    cond_star_pos_evening = (c2_open >= c1_close) & (c2_close >= c1_close) & ((c2_close >= c3_open) | (c2_open >= c3_open))
+
+    cond_range = (c1_body >= (c1_wick * 0.4)) & (c3_body >= (c3_wick * 0.6))
+
+
+    # 4. Force du retournement : C3 doit clôturer au-dessus du milieu de C1
+    # Formule du milieu de C1 : (Open + Close) / 2
+    c1_midpoint = (c1_open-c1_close)*0.5+c1_close #(c1_open + c1_close) / 2
+    cond_strong_reversal_morning = c3_close > c1_midpoint
+    cond_strong_reversal_evening = c3_close < c1_midpoint
+
+    # 5. confirm
+    cond_confirm_morning = (df["Close"].shift(-1) > df['High'].shift(2)) | (df["Close"].shift(-2) > df['High'].shift(2))
+    cond_confirm_evening = (df["Close"].shift(-1) < df['Low'].shift(2))  | (df["Close"].shift(-2) < df['Low'].shift(2))
+
+    cond_ms           = cond_colors_morning & cond_small_star & cond_star_pos_morning & cond_strong_reversal_morning & cond_range
+    cond_ms_confirmed = cond_ms & cond_confirm_morning
+
+    cond_es           = cond_colors_evening & cond_small_star & cond_star_pos_evening & cond_strong_reversal_evening & cond_range
+    cond_es_confirmed = cond_es & cond_confirm_evening
+
+
+    # --- Combinaison finale ---
+    df["morning_star"] = None ; df["evening_star"] = None
+
+    df.loc[cond_ms, "morning_star"] = "MS" ; df.loc[cond_ms_confirmed, "morning_star"] = "MSC"
+    df.loc[cond_es, "evening_star"] = "ES" ; df.loc[cond_es_confirmed, "evening_star"] = "ESC"
+
+    #propagating to the 2 other candles, c1 and c2
+    df.loc[df["morning_star"].shift(-1).notna(), "morning_star"] = df["morning_star"].shift(-1)
+    df.loc[df["morning_star"].shift(-1).notna(), "morning_star"] = df["morning_star"].shift(-1)
+
+    #propagating to the 2 other candles, c1 and c2
+    df.loc[df["evening_star"].shift(-1).notna(), "evening_star"] = df["evening_star"].shift(-1)
+    df.loc[df["evening_star"].shift(-1).notna(), "evening_star"] = df["evening_star"].shift(-1)
+
+
+    return df
