@@ -5,8 +5,9 @@ import os
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
-from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi
+from functions.ta import ao, bob_ao, get_squeeze, get_kc, HU, RSI, pearson_rsi, detect_star
 import functions.pathfunc as pf
+from datetime import datetime
 
 from functions.logging import logging
 logging(st.secrets["secret1"], st.secrets["secret2"])
@@ -24,7 +25,7 @@ def div(df, close, indicator, indicator_filter) :
     ind = df[indicator].values
     df['top'], df['bot'] = False, False
 
-    if indicator.startswith("RSI") or indicator.startswith("Volume"):
+    if indicator.startswith("RSI") or indicator.startswith("Volume") or indicator.startswith("%D") or indicator.startswith("%K") :
         from scipy.signal import argrelextrema
         distance = 9
         tops = argrelextrema(ind, np.greater, order=distance)
@@ -110,7 +111,9 @@ except :
 if data.empty :
     st.error('empty table')
     st.stop()
-
+elif len(data)<2 :
+    st.error("The ticker has 2 or less rows. Stopping.")
+    st.stop()
 
 window = 20
 list_col = ["Close", "Open", "High", "Low", "Volume"]
@@ -127,6 +130,36 @@ if market == 'crypto' :
 data_len=len(data)
 days = st.sidebar.slider("days to load", 2, data_len, 2000 if data_len>2000 else data_len)
 data = data.tail(days)
+
+
+if "Dividends" in data :
+    st.sidebar.write("---")
+    data["Dividends"] = pd.to_numeric(data["Dividends"].values, errors="coerce")
+    data['year'] = pd.to_datetime(data['Date'], format='%d/%m/%Y').dt.isocalendar().year.astype(str)
+
+
+    dividend = data[data["Dividends"].values>0]
+
+    last_div_date = None if dividend.empty else str(pd.to_datetime(dividend['Date'], format='%d/%m/%Y').values[-1]).split("T")[0]
+    last_div_val = None if dividend.empty else dividend["Dividends"].values[-1]
+    last_div_close = None if dividend.empty else dividend["Close"].values[-1]
+    last_div_perc = None if last_div_val is None or last_div_close is None else round(last_div_val/last_div_close*100, 2)
+
+
+
+    st.sidebar.metric("Last dividend **date**", value=last_div_date, border=True)
+    st.sidebar.metric("Last dividend **value**", value=last_div_val, border=True)
+    st.sidebar.metric("Last dividend **%**", value=str(last_div_perc) + "%", border=True)
+
+    current_year = datetime.now().year
+    dividend_last_y = dividend[dividend["year"].astype(int).astype(str) == str(current_year-1)]
+    if not dividend_last_y.empty :
+        lasty_div_perc = round(dividend_last_y["Dividends"].sum()/dividend_last_y["Close"].mean()*100, 2)
+        st.sidebar.metric("Last year **%**", value=str(lasty_div_perc)+"%", border=True)
+
+
+
+
 
 weekly = st.toggle("weekly")
 if weekly :
@@ -164,6 +197,12 @@ with col1.popover(":material/candlestick_chart: Candles", use_container_width=Tr
     incr_candle_color = c1.color_picker("incr. candle", candle_colors["incr"], disabled=mrk_vol)
     decr_candle_color = c2.color_picker("decr. candle", candle_colors["decr"], disabled=mrk_vol)
 
+    "---"
+
+    bit_show = st.toggle("Back in time")
+    if bit_show :
+        bit = st.slider("Back in time index", 0, len(data), len(data), help="To choose the date of the bottom metrics")
+
 
 with col2.popover(":material/avg_time: Moving averages", use_container_width=True) :
     MAs=st.multiselect("Moving average", [6, 14, 20, 50, 200], None, placeholder="Choose MA periods to display")
@@ -178,49 +217,78 @@ with col2.popover(":material/avg_time: Moving averages", use_container_width=Tru
         dict_ma_colors={"6":ma6_color, "14":ma14_color, "20":ma20_color, "50":ma50_color, "200":ma200_color}
 
 with col3.popover(":material/function: Indicators", use_container_width=True) :
-    "#### volume"
-    c1,c2=st.columns(2)
-    VOL=c1.toggle("Volume")
-    VOLSTD=c2.toggle("Volume STD")
+    ts = st.tabs(["Oscillators", "Volume", "Trend", "Else"])
 
-    "#### oscillators"
-    RSIs=st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display")
-    c1,c2=st.columns(2)
-    AO=c1.toggle("AO")
-    SMOM=c2.toggle("Squeeze Mom Lazy Bear")
-    C200SMA = c1.toggle("Close 200SMA")
+    with ts[0] :
+        RSIs=st.multiselect("RSI", [6, 14, 20, 50, 200], [14], placeholder="Choose RSI periods to display", disabled=bit_show)
+        if bit_show :
+            RSIs = [14]
+        c1,c2=st.columns(2)
+        STC = c1.toggle("%K%D", disabled=bit_show)
+        if bit_show :
+            STC = True
+        if STC :
+            STC_breakout = c2.toggle("%D breakout")
+            STC_breakout_val = c2.number_input("%D breakout value", 0,100,50)
+        else :
+            STC_breakout=False
 
-    "#### trend and support"
-    c1,c2=st.columns(2)
+        c1,c2=st.columns(2)
+        AO=c1.toggle("AO", help="Awesome Oscillator : 5-period SMA of median price minus 34-period SMA of median price (where median price = (High + Low) / 2)")
+        SMOM=c2.toggle("SMLB", help="Squeeze Momentum by Lazy Bear : Linear regression of (price − average of (highest high/low + lowest low + SMA of typical price) over KC length) over the momentum length.")
+        CMO=c1.toggle("CMO", help="Chande Momentum Oscillator")
+        MFI=c2.toggle("MFI", help="Money Flow Index")
+        "---"
+        C200SMA = st.toggle("G/P 200SMA")
 
-    SR=c1.toggle("S/R")
-    sqz=c2.toggle("Squeeze")
-    DOT=c1.toggle("Dots trend streategy")
-    WT=c2.toggle("Wick trend")
 
-    "---"
-    "#### else"
-    c1,c2=st.columns(2)
+    with ts[1] :
+        c1,c2=st.columns(2)
+        VOL=c1.toggle("Volume")
+        VOLSTD=c2.toggle("Volume STD")
 
-    rsi5014=c1.toggle("RSI oscillator trend (experimental)")
+    with ts[2] :
+        c1,c2=st.columns(2)
 
-    grid_search = c1.toggle("Grid search")
-    grad=c2.toggle("Gradient",)
-    if grad:
-        grad_wind=c2.number_input("gradient window", 1, 500, 180, )
-    if grid_search:
-        grid_x = st.slider("Grid size X (days)", 6, 200, 20)
-        grid_type = st.radio("Grid type", ["Volume cum", "RSI Correlation (Pearson)"])
-        gs_multiwindow = st.button("Multiwindow search")
+        SR=c1.toggle("S/R")
+        sqz=c2.toggle("Squeeze")
+        DOT=c1.toggle("Dots trend streategy")
+        WT=c2.toggle("Wick trend")
+        Bolband = c1.toggle("Bollinger")
+        RSI_STC_trend = c2.toggle("RSI/KD trend") if 14 in RSIs and STC else False
+
+    with ts[3] :
+        c1,c2=st.columns(2)
+
+        rsi5014=c1.toggle("RSI oscillator trend (experimental)")
+
+        grid_search = c1.toggle("Grid search")
+        grad=c2.toggle("Gradient",)
+        if grad:
+            grad_wind=c2.number_input("gradient window", 1, 500, 180, )
+        if grid_search:
+            grid_x = st.slider("Grid size X (days)", 6, 200, 20)
+            grid_type = st.radio("Grid type", ["Volume cum", "RSI Correlation (Pearson)"])
+            gs_multiwindow = st.button("Multiwindow search")
 
 
 with col4.popover(":material/sports_basketball: Doji", use_container_width=True) :
-    UHCs = st.toggle("Hammer/umbrella")
-    DGCs = st.toggle("Dragonfly/Gravestone")
-    tweez = st.toggle("Tweezer candles")
-    nrx = st.toggle("NR_X")
+    cs = st.columns(2)
+    UHCs = cs[0].toggle("H/U", help="hammer and umbrella")
+    DGCs = cs[1].toggle("D/G", help="Dragonfly and gravestone")
+    tweez = cs[0].toggle("Tw", help="Tweezer candles")
+    nrx = cs[1].toggle("NR_X", help="indicates low volatility time window, movement often comes after these")
     if nrx :
-        nrx_wind = st.number_input("NR_X window", 2, 500, 7)
+        nrx_wind = cs[1].number_input("NR_X window", 2, 500, 7)
+
+    "---"
+    st.caption("Reversal")
+    cs = st.columns(2)
+    me_star = cs[0].toggle("MS star", help="morning and evening star, indicates potential reversal")
+    ENGs = cs[1].toggle("Engulf", help="Engulfment candles, indicates potential reversal")
+
+
+
 
 
 
@@ -284,6 +352,70 @@ if nrx :
     data[f"NR{nrx_wind}"] = False
     data.loc[ data[f"NR{nrx_wind}_val"].values == data["range"].values, f"NR{nrx_wind}"] = True
 
+if me_star :
+
+    data = detect_star(data)
+
+if Bolband :
+    clh   = ((data["Close"] + data["High"] + data["Low"])/3)
+    bbmid = clh.rolling(20).mean()
+    std1  = clh.rolling(20).std()
+
+    data["bbmid"] = bbmid
+    data["bbmid+1std"] = bbmid + std1
+    data["bbmid+2std"] = bbmid + std1*2
+    data["bbmid-1std"] = bbmid - std1
+    data["bbmid-2std"] = bbmid - std1*2
+
+
+if ENGs :
+
+    def engulfment(df):
+
+        # On évite les erreurs d'alignement en restant sur des Series Pandas
+        c0_open = df["Open"].shift(2) ; c0_close = df["Close"].shift(2)
+        c1_open = df["Open"].shift(1) ; c1_close = df["Close"].shift(1)
+        c2_open = df["Open"] ; c2_close = df["Close"]
+
+        # Colors conditions
+        cond_color_bull = (c1_open > c1_close) & (c2_open < c2_close) & (c0_open > c0_close)
+        cond_color_bear = (c1_open < c1_close) & (c2_open > c2_close) & (c0_open < c0_close)
+
+        # Engulfment logic (Le corps de C2 doit avaler le corps de C1)
+        cond_eng_bull = (c2_close > c1_open) & (c2_open < c1_close)
+        cond_eng_bear = (c2_close < c1_open) & (c2_open > c1_close)
+
+        # Confirm (Regarde la bougie SUIVANTE pour confirmer le signal)
+        # Attention : shift(-1) regarde dans le futur, utilisable uniquement en backtest
+        cond_bull_confirm = (df["Close"].shift(-1) > df["High"])
+        cond_bear_confirm = (df["Close"].shift(-1) < df["Low"])
+
+        # Initialisation
+        df["engulf_bull"] = None
+        df["engulf_bear"] = None
+
+        # Marquage des signaux sur la bougie C2 (celle qui complète l'avalement)
+        df.loc[cond_color_bull & cond_eng_bull, "engulf_bull"] = "EBu"
+        df.loc[cond_color_bull & cond_eng_bull & cond_bull_confirm, "engulf_bull"] = "EBuC"
+
+        df.loc[cond_color_bear & cond_eng_bear, "engulf_bear"] = "EBe"
+        df.loc[cond_color_bear & cond_eng_bear & cond_bear_confirm, "engulf_bear"] = "EBeC"
+
+        # Ta logique de décalage final : déplace le signal de C2 vers C1
+        # Utile si tu veux que le signal apparaisse au début de la figure
+        df["engulf_bull"] = np.where(df["engulf_bull"].shift(-1).isin(["EBu", "EBuC"]),
+                                     df["engulf_bull"].shift(-1), df["engulf_bull"])
+
+        df["engulf_bear"] = np.where(df["engulf_bear"].shift(-1).isin(["EBe", "EBeC"]),
+                                     df["engulf_bear"].shift(-1), df["engulf_bear"])
+
+        return df
+
+
+    data = engulfment(data)
+
+
+
 
 
 #RSI
@@ -325,6 +457,47 @@ if WT :
     data_bull_tick = data[data["wick"].values > 0]
     data_bear_tick = data[data["wick"].values < 0]
 
+if CMO :
+    subplot+=1
+    def calculate_cmo(data, period=14):
+        # Différence intra-journée (Close - Open)
+        intra_diff = data['Close'] - data['Open']
+
+        # Hausses et baisses intra-journée
+        up = intra_diff.clip(lower=0)      # positives ou 0
+        down = -intra_diff.clip(upper=0)   # absolues positives ou 0
+
+        # Sommes roulantes
+        sum_up = up.rolling(window=period).sum()
+        sum_down = down.rolling(window=period).sum()
+
+        # CMO adapté
+        cmo = 100 * (sum_up - sum_down) / (sum_up + sum_down + 1e-10)  # évite division par zéro
+        return cmo
+
+    data["cmo"] = calculate_cmo(data, period=14)
+
+if MFI :
+    subplot+=1
+    def calculate_mfi(df, period=14):
+        typical_price = (df['High'] + df['Low'] + df['Close']) / 3
+        raw_money_flow = typical_price * df['Volume']
+
+        # Détection de hausse/baisse de TP
+        positive_flow = raw_money_flow.where(typical_price > typical_price.shift(1), 0)
+        negative_flow = raw_money_flow.where(typical_price < typical_price.shift(1), 0)
+
+        pos_mf = positive_flow.rolling(window=period).sum()
+        neg_mf = negative_flow.rolling(window=period).sum()
+
+        money_ratio = pos_mf / (neg_mf + 1e-10)
+        mfi = 100 - (100 / (1 + money_ratio))
+        return mfi
+
+    data["mfi"] = calculate_mfi(data, period=14)
+
+
+
 if AO :
     data["ao"] = ao(data)
     data["bob_ao"] = bob_ao(data)
@@ -342,6 +515,27 @@ if VOLSTD :
 
 if C200SMA :
     subplot+=1
+
+if STC :
+    subplot+=1
+
+    n=34
+
+    C  = data["Close"]
+    Ln = data["Low"].rolling(n).min()
+    Hn = data["High"].rolling(n).max()
+
+    data["%K"] = 100 * ((C-Ln)/(Hn-Ln))
+
+    x=5
+
+    Hx = (C-Ln).rolling(x).mean()
+    Lx = (Hn-Ln).rolling(x).mean()
+
+    data["%D"] = 100 * (Hx/Lx)
+
+
+
 
 if SR :
     def float_to_rgba_jet(column):
@@ -450,6 +644,32 @@ if SMOM | sqz :
     if SMOM :
         subplot+=1
 
+if bit_show :
+    subplot+=1
+
+
+if RSI_STC_trend :
+
+    cond_rsi_bull = data["RSI14"].values > 50
+    cond_rsi_bear = data["RSI14"].values < 50
+
+    cond_k_bull = data["%K"].values > 72
+    cond_k_bear = data["%K"].values < 28
+
+    cond_d_bull = data["%D"].values > 72
+    cond_d_bear = data["%D"].values < 28
+
+    data["rs_trend"] = None
+    data.loc[ cond_rsi_bull & cond_k_bull, "rs_trend" ] = "init BULL"
+    data.loc[ cond_rsi_bear & cond_k_bear, "rs_trend" ] = "init BEAR"
+
+    data.loc[ cond_rsi_bull & cond_d_bull, "rs_trend" ] = "BULL"
+    data.loc[ cond_rsi_bear & cond_d_bear, "rs_trend" ] = "BEAR"
+
+
+
+
+
 if DOT :
     # Calculate Dot
     # Calculate "dot" and "trendline" indicators
@@ -479,7 +699,7 @@ if grid_search:
     subplot+=1
     data = pearson_rsi(data, grid_x, grid_type, gs_multiwindow)
 
-plotheight=500
+plotheight=600
 subplotheight=200
 #plot
 if subplot>0 :
@@ -649,9 +869,90 @@ if VOLSTD :
     data_cut = data[(volum50>volum200) & (volum50.shift(1)<=volum200.shift(1)) & (data["Close"].values<data["Close"].rolling(200).mean())]
     fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["Low"].values, mode='markers', marker_color='deeppink', marker_symbol="triangle-up", marker_size=10, showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
+if STC_breakout :
+    cond_breakup = (data["%D"].shift(1)<STC_breakout_val) & ( data["%D"].values>STC_breakout_val ) & ( data["Close"].values<data["Close"].rolling(200).mean() )
+    data_cut = data[cond_breakup]
+    fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["Low"].values, mode='markers', marker_color='deeppink', marker_symbol="triangle-up", marker_size=10, showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+    cond_breakdown = (data["%D"].shift(1)>STC_breakout_val) & ( data["%D"].values<STC_breakout_val ) & ( data["Close"].values>data["Close"].rolling(200).mean() )
+    data_cut = data[cond_breakdown]
+    fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["High"].values, mode='markers', marker_color='deeppink', marker_symbol="triangle-down", marker_size=10, showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
 
 
-fig.add_hline(y=data["Close"].values[-1], line_width=1, line_dash="dot", line_color="grey", annotation_text=f"{ticker}:{np.round(data['Close'].values[-1],3)}", annotation_position="right top")
+if me_star :
+
+    for s,c in zip(["MS","MSC"], ["cyan","dodgerblue"]) :
+        data_cut = data[data["morning_star"] == s]
+        fig.add_trace(go.Candlestick( x=data_cut["Date"].values, name=s, open=data_cut["Open"].values,
+                                 high=data_cut["High"].values, low=data_cut["Low"].values,
+                                 close=data_cut["Close"].values, increasing=dict(line=dict(color=c, width=1)),
+                                 decreasing=dict(line=dict(color=c, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+        data_cut = data[(data["morning_star"].values == s) & (data["morning_star"].shift(1).values == s) & (data["morning_star"].shift(-1).values == s)]
+        fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["Low"].values, mode='text', text=s, textfont_color=c, textfont_size=18, textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+    for s,c in zip(["ES","ESC"], ["yellow","darkorange"]) :
+        data_cut = data[data["evening_star"] == s]
+        fig.add_trace(go.Candlestick( x=data_cut["Date"].values, name=s, open=data_cut["Open"].values,
+                                 high=data_cut["High"].values, low=data_cut["Low"].values,
+                                 close=data_cut["Close"].values, increasing=dict(line=dict(color=c, width=1)),
+                                 decreasing=dict(line=dict(color=c, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+        data_cut = data[(data["evening_star"].values == s) & (data["evening_star"].shift(1).values == s) & (data["evening_star"].shift(-1).values == s)]
+        fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["High"].values, mode='text', text=s, textfont_color=c, textfont_size=18, textposition="top center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+if ENGs :
+    for s,c in zip(["EBu","EBuC"], ["cyan","dodgerblue"]) :
+        data_cut = data[data["engulf_bull"] == s]
+        fig.add_trace(go.Candlestick( x=data_cut["Date"].values, name=s, open=data_cut["Open"].values,
+                                 high=data_cut["High"].values, low=data_cut["Low"].values,
+                                 close=data_cut["Close"].values, increasing=dict(line=dict(color=c, width=1)),
+                                 decreasing=dict(line=dict(color=c, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+        # data_cut = data[(data["engulf_bull"].values == s) & (data["engulf_bull"].shift(1).values == s)]
+        # fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["Low"].values, mode='text', text=s, textfont_color=c, textfont_size=18, textposition="bottom center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+    for s,c in zip(["EBe","EBeC"], ["yellow","darkorange"]) :
+        data_cut = data[data["engulf_bear"] == s]
+        fig.add_trace(go.Candlestick( x=data_cut["Date"].values, name=s, open=data_cut["Open"].values,
+                                 high=data_cut["High"].values, low=data_cut["Low"].values,
+                                 close=data_cut["Close"].values, increasing=dict(line=dict(color=c, width=1)),
+                                 decreasing=dict(line=dict(color=c, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+        # data_cut = data[(data["engulf_bear"].values == s) & (data["engulf_bear"].shift(1).values == s)]
+        # fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=data_cut["High"].values, mode='text', text=s, textfont_color=c, textfont_size=18, textposition="top center", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+if Bolband :
+
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["bbmid"].values, mode='lines', line_dash="dash", line_color='dodgerblue', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["bbmid+2std"].values, mode='lines', line_color='dodgerblue', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["bbmid-2std"].values, mode='lines', line_color='dodgerblue', fill='tonexty', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["bbmid+1std"].values, mode='lines', line_dash="dot", line_color='dodgerblue', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["bbmid-1std"].values, mode='lines', line_dash="dot", line_color='dodgerblue', showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+if RSI_STC_trend :
+    for v,c in zip(["BULL","BEAR","init BULL", "init BEAR"],["green","crimson","cyan","salmon"]) :
+        data_cut = data[data["rs_trend"]==v]
+
+        fig.add_trace(go.Candlestick( x=data_cut["Date"].values, name=c, open=data_cut["Open"].values,
+                                 high=data_cut["High"].values, low=data_cut["Low"].values,
+                                 close=data_cut["Close"].values, increasing=dict(line=dict(color=c, width=1)),
+                                 decreasing=dict(line=dict(color=c, width=1))), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+# if bit_show :
+#     x0 = data["Date"].values[bit-1]
+#     y0 = data["Close"].values[bit-1]
+#     fig.add_trace(go.Scatter(x=[x0], y=[y0], mode='markers', name="back in time", marker_size=30, marker_color="yellow", showlegend=False), col=None if subplot==0 else 1, row=None if subplot==0 else 1)
+
+
+
+
+fig.add_hline(y=data["Close"].values[-1], line_width=1, line_dash="dot", line_color="grey", annotation_text=f"{ticker}:{np.round(data['Close'].values[-1],3)}", annotation_position="top left")
 
 
 subplot_row = 2
@@ -716,6 +1017,22 @@ if grid_search:
     if grid_type != "Volume cum" :
         fig.add_hline(y=1, line_color="grey", line_width=1, col=1, row=subplot_row)
         fig.add_hline(y=-1, line_color="grey", line_width=1, col=1, row=subplot_row)
+
+    plotheight+=subplotheight
+    subplot_row+=1
+
+
+if bit_show :
+    y=3
+    for elem in ["RSI14", "%K", "%D",] :
+        fig.add_trace(go.Scatter(x=data["Date"].values, y=[ y for _ in range(len(data)) ], name=elem, mode="lines", line_width=1, line_color="grey"), col=1, row=subplot_row)
+        for vmin,vmax,color in zip([70, 50, 30,0], [100, 70, 50, 30], ["green","dodgerblue","orange","crimson"]) :
+            data_cut = data[data[elem].between(vmin,vmax)]
+            fig.add_trace(go.Scatter(x=data_cut["Date"].values, y=[ y for _ in range(len(data_cut)) ], name=elem, mode="markers", marker_size=2, marker_color=color), col=1, row=subplot_row)
+        y-=1
+
+    x0 = data.head(bit)["Date"].values[-1]
+    # fig.add_trace(go.Scatter(x=[x0 for _ in range(0,3)], y=[ i in range(0,3) ], name=elem, mode="markers+lines", marker_size=10, marker_color="yellow", line_width=10), col=1, row=subplot_row)
 
     plotheight+=subplotheight
     subplot_row+=1
@@ -788,6 +1105,89 @@ if rsi5014 :
     fig.add_hline(y=-10, line_width=1, line_dash="dot", line_color="black", row=subplot_row)
     subplot_row+=1
 
+if STC :
+    if st.context.theme.type == "light" :
+        stc_colors = {"indicator":"black", "secondary":"black"}
+    else :
+        stc_colors = {"indicator":"white", "secondary":"white"}
+
+    data, data_bottom, data_top = div(data, "Close", "%K", None)
+
+    for i in range(len(data_bottom)):
+        row = data_bottom.iloc[i]
+        prev_row = data_bottom.iloc[i-1]
+        if row['bullish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row["%K"], prev_row["%K"]]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='limegreen', line_width=1, line_dash="dot", text=["BuD", "BuD"], textposition="bottom center", showlegend=False), col=1, row=subplot_row)
+
+    for i in range(len(data_top)):
+        row = data_top.iloc[i]
+        prev_row = data_top.iloc[i-1]
+        if row['bearish_div'] == True :
+            x = [row['Date'], prev_row['Date']]
+            y = [row["%K"], prev_row["%K"]]
+            fig.add_trace(go.Scatter(x=x, y=y, mode='markers+lines+text', line_color='crimson', line_width=1, line_dash="dot", text=["BeD", "BeD"], textposition="top center", showlegend = False), col=1, row=subplot_row)
+
+
+
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["%K"], name="%K", mode="lines", line_width=1, line_color=stc_colors["indicator"]), col=1, row=subplot_row)
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["%D"], name="%D", mode="lines", line_width=1, line_dash="dot", line_color=stc_colors["indicator"]), col=1, row=subplot_row)
+
+    fig.add_hline(y=50, line_width=2, line_color=stc_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=100, line_width=2, line_color=stc_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=0, line_width=2, line_color=stc_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=30, line_width=1, line_dash="dot", line_color=stc_colors["secondary"], annotation_text="%=30", annotation_position="bottom left", row=subplot_row)
+    fig.add_hline(y=70, line_width=1, line_dash="dot", line_color=stc_colors["secondary"], annotation_text="%=70", annotation_position="top left", row=subplot_row)
+    fig.add_hrect(y0=0, y1=10, line_width=0, fillcolor="grey", annotation_text="OS", annotation_position="bottom left", opacity=0.15, row=subplot_row)
+    fig.add_hrect(y0=90, y1=100, line_width=0, fillcolor="grey", annotation_text="OB", annotation_position="top left", opacity=0.15, row=subplot_row)
+
+    fig.add_hrect(y0=30, y1=70, line_width=0, fillcolor="grey", annotation_text="neutral", annotation_position="bottom left", opacity=0.15, row=subplot_row)
+
+
+    plotheight+=subplotheight
+    subplot_row+=1
+
+
+if CMO :
+    if st.context.theme.type == "light" :
+        cmo_colors = {"indicator":"black", "secondary":"black"}
+    else :
+        cmo_colors = {"indicator":"white", "secondary":"white"}
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["cmo"], name="cmo", mode="lines", line_width=1, line_color=cmo_colors["indicator"]), col=1, row=subplot_row)
+    fig.add_hline(y=0, line_width=2, line_color=cmo_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=100, line_width=2, line_color=cmo_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=-100, line_width=2, line_color=cmo_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=-50, line_width=1, line_dash="dot", line_color=cmo_colors["secondary"], annotation_text="%=30", annotation_position="bottom left", row=subplot_row)
+    fig.add_hline(y=50, line_width=1, line_dash="dot", line_color=cmo_colors["secondary"], annotation_text="%=70", annotation_position="top left", row=subplot_row)
+    fig.add_hrect(y0=-100, y1=-90, line_width=0, fillcolor="grey", annotation_text="OS", annotation_position="bottom left", opacity=0.15, row=subplot_row)
+    fig.add_hrect(y0=90, y1=100, line_width=0, fillcolor="grey", annotation_text="OB", annotation_position="top left", opacity=0.15, row=subplot_row)
+
+
+
+    plotheight+=subplotheight
+    subplot_row+=1
+
+if MFI :
+    if st.context.theme.type == "light" :
+        mfi_colors = {"indicator":"black", "secondary":"black"}
+    else :
+        mfi_colors = {"indicator":"white", "secondary":"white"}
+    fig.add_trace(go.Scatter(x=data["Date"].values, y=data["mfi"], name="mfi", mode="lines", line_width=1, line_color=mfi_colors["indicator"]), col=1, row=subplot_row)
+    fig.add_hline(y=50, line_width=2, line_color=mfi_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=100, line_width=2, line_color=mfi_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=0, line_width=2, line_color=mfi_colors["secondary"], row=subplot_row)
+    fig.add_hline(y=30, line_width=1, line_dash="dot", line_color=mfi_colors["secondary"], annotation_text="%=30", annotation_position="bottom left", row=subplot_row)
+    fig.add_hline(y=70, line_width=1, line_dash="dot", line_color=mfi_colors["secondary"], annotation_text="%=70", annotation_position="top left", row=subplot_row)
+    fig.add_hrect(y0=0, y1=10, line_width=0, fillcolor="grey", annotation_text="OS", annotation_position="bottom left", opacity=0.15, row=subplot_row)
+    fig.add_hrect(y0=90, y1=100, line_width=0, fillcolor="grey", annotation_text="OB", annotation_position="top left", opacity=0.15, row=subplot_row)
+
+
+
+    plotheight+=subplotheight
+    subplot_row+=1
+
+
 
 if AO :
     for df, color in zip([neg_rising, pos_rising, pos_falling, neg_falling],["lightseagreen", "lightseagreen", "red", "red"]) :
@@ -852,6 +1252,61 @@ st.plotly_chart(fig, use_container_width=True)
 
 with st.expander("Full file") :
     data
+
+if bit_show :
+    data = data.head(bit)
+    data["Date"].values[-1]
+
+    c_bottom = st.columns(4)
+    window=50
+    vrank=int(np.round(data['Volume'].rank(pct=True).values[-1],2)*100)
+    c_bottom[0].metric("Volume rank %", value=vrank, border=True)
+
+    if "RSI14" in data :
+        v = np.round(data["RSI14"].values[-1], 2)
+        if v > 70 :
+            color = "green"
+        elif v > 50 :
+            color = "blue"
+        elif v > 30 :
+            color = "orange"
+        else :
+            color="red"
+        c_bottom[1].metric(f":{color}-badge[RSI]", value=v, border=True)
+
+    if "%K" in data :
+        v = np.round(data["%K"].values[-1], 2)
+        if v > 70 :
+            color = "green"
+        elif v > 50 :
+            color = "blue"
+        elif v > 30 :
+            color = "orange"
+        else :
+            color="red"
+        c_bottom[2].metric(f":{color}-badge[%K]", value=v, border=True)
+
+    if "%D" in data :
+        v = np.round(data["%D"].values[-1], 2)
+        if v > 70 :
+            color = "green"
+        elif v > 50 :
+            color = "blue"
+        elif v > 30 :
+            color = "orange"
+        else :
+            color="red"
+        c_bottom[3].metric(f":{color}-badge[%D]", value=v, border=True)
+
+
+
+    # z = [ data["RSI14"].to_list(), data["%K"].to_list(), data["%D"].to_list() ]
+    # fig = px.imshow(z, text_auto=True, height=700, color_continuous_scale='RdBu')
+    # st.plotly_chart(fig)
+
+
+
+
 # if st.toggle("ternary") :
 #     gain_loss = ((data["Close"].values - data["Open"].values)/data["Open"].values)*100-100
 #     rsi_res = RSI(data, 14)

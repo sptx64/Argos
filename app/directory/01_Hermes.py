@@ -9,6 +9,8 @@ import json
 import ast
 import time
 
+from yfinance.exceptions import YFRateLimitError
+
 import functions.pathfunc as pf
 
 st.set_page_config(layout = 'centered')
@@ -67,7 +69,10 @@ if market == 'stocks':
 
     tick_dfs = []
     for sm in submarkets :
-        tick_dfs.append(pd.read_csv(os.path.join(pf.get_path_data(), "tickers list", sm + ".csv")))
+        td = pd.read_csv(os.path.join(pf.get_path_data(), "tickers list", sm + ".csv"))
+        if sm in ["Currencies", "Indices", "ETF", "Commodities"] :
+            td["exchange"] = sm
+        tick_dfs.append(td)
 
         dataset_path = os.path.join(pf.get_path_data(), "stocks", sm)
         if not os.path.exists(dataset_path):
@@ -100,7 +105,14 @@ st.caption(f"Today's UTC date: **:blue-badge[{today_utc}]**")
 with st.expander("Last update") :
     update_df_path = os.path.join(pf.get_path_data(), "update_tracker.parquet")
     update_df = pd.read_parquet(update_df_path)
-    update_df
+
+    def highlight_today(val):
+        if val == today_utc:
+            return 'background-color: darkgreen'
+        return ''
+
+    styled_df = update_df.style.map(highlight_today, subset=['last_complete_update'])
+    styled_df
 
 c1, c2, c3, c4, c5 = st.columns(5)
 update = c1.button('Update', type="primary")
@@ -131,10 +143,35 @@ if update:
             tickers = tick_df_sm["symbol"].values
             len_sm_tick = len(tickers); value_sm = 1
 
+            delay = [ i for i in range(60, 300, 60) ]
+            max_retries = len(delay)
+
+
+
 
             for tick in tickers:
+                tick=str(tick)
+                if tick.endswith(".0") :
+                    tick = tick.replace(".0","")
                 path_to_file = os.path.join(dataset_path, tick + ".parquet")
-                data = yf.Ticker(tick).history(period="20y", interval='1d').reset_index()
+
+                for attempt in range(max_retries):
+                    try:
+                        tick_up = tick
+                        if sm == "Currencies" :
+                            tick_up = tick_up + "=X"
+
+                        data = yf.Ticker(tick_up).history(period="20y", interval='1d').reset_index()
+                        break
+                    except YFRateLimitError :
+                        st.toast(f"YFRateLimitError, waiting {delay[attempt]} seconds")
+                        if attempt < max_retries - 1:
+                            time.sleep(delay[attempt])
+                    else :
+                        raise
+
+
+
                 if not data.empty :
                     if "Dividends" in data :
                         data["Dividends"] = data["Dividends"].astype(str).str.replace(r'[^0-9.]', '', regex=True)
@@ -147,7 +184,7 @@ if update:
 
                 value += 1; value_sm+=1
                 if value % 20 == 0 :
-                    time.sleep(0.5)
+                    time.sleep(0.25)
                 if value % 200 == 0 :
                     time.sleep(3)
                 if value % 1000 == 0 :
